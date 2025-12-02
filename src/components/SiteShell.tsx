@@ -159,7 +159,7 @@ export const SiteShell = ({ children }: SiteShellProps) => {
               className="ml-2 rounded-full px-3 py-1 text-sm font-semibold leading-none hover:bg-red-100"
               aria-label="Dismiss announcement"
             >
-              A-
+              X
             </button>
           </div>
         </div>
