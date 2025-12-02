@@ -23,6 +23,7 @@ import { authors } from "@/data/authors.generated";
 import { worksTable } from "@/data/worksTable.generated";
 import { SiteShell } from "@/components/SiteShell";
 import type { OpenAlexWork } from "@/services/openAlex";
+import { dedupeWorks, normalizeOpenAlexId } from "@/lib/utils";
 import {
   Bar,
   BarChart,
@@ -43,12 +44,6 @@ type AuthorImpactStats = {
   hIndex: number;
 };
 
-const normalizeOpenAlexId = (raw?: string | null) => {
-  if (!raw) return "";
-  const parts = String(raw).trim().split("/");
-  return parts[parts.length - 1];
-};
-
 export default function ProgramDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -59,6 +54,12 @@ export default function ProgramDetail() {
     () => authors.filter((author) => author.groupId === id),
     [id],
   );
+
+  const programWorks = useMemo(() => {
+    if (!group) return [] as typeof worksTable;
+    const code = group.groupId;
+    return dedupeWorks(worksTable.filter((work) => work.program === code));
+  }, [group]);
 
   const programAuthorIds = useMemo(
     () =>
@@ -212,6 +213,9 @@ export default function ProgramDetail() {
 
 
   const authorStatsByName = useMemo(() => {
+    if (!group) return new Map<string, AuthorImpactStats>();
+    if (!programAuthorIds.size) return new Map<string, AuthorImpactStats>();
+
     const aggregated = new Map<
       string,
       {
@@ -222,15 +226,10 @@ export default function ProgramDetail() {
       }
     >();
 
-    if (!group) return new Map<string, AuthorImpactStats>();
-    if (!programAuthorIds.size) return new Map<string, AuthorImpactStats>();
-
     const from = startYear ?? undefined;
     const to = endYear ?? undefined;
-    const programCode = group.groupId;
 
-    for (const work of worksTable) {
-      if (work.program !== programCode) continue;
+    for (const work of programWorks) {
       if (!work.year) continue;
       if (from != null && work.year < from) continue;
       if (to != null && work.year > to) continue;
@@ -245,7 +244,11 @@ export default function ProgramDetail() {
       const instNames = new Set<string>(institutions);
 
       const authorIds = Array.from(
-        new Set(work.allAuthorOpenAlexIds || []),
+        new Set(
+          (work.allAuthorOpenAlexIds || [])
+            .map((value) => normalizeOpenAlexId(value))
+            .filter((value): value is string => !!value),
+        ),
       );
 
       for (const authorId of authorIds) {
@@ -287,7 +290,14 @@ export default function ProgramDetail() {
     }
 
     return result;
-  }, [group, programAuthorIds, startYear, endYear]);
+  }, [group, programWorks, programAuthorIds, startYear, endYear]);
+
+  const getAuthorStats = (openAlexId?: string | null) => {
+    if (!openAlexId) return null;
+    const normalized = normalizeOpenAlexId(openAlexId);
+    if (!normalized) return null;
+    return authorStatsByName.get(normalized) ?? null;
+  };
 
 
   const sortedAuthors = useMemo(() => {
@@ -295,12 +305,8 @@ export default function ProgramDetail() {
     list.sort((a, b) => {
       const dir = sortOrder === "asc" ? 1 : -1;
 
-      const aStats = a.openAlexId
-        ? authorStatsByName.get(a.openAlexId)
-        : undefined;
-      const bStats = b.openAlexId
-        ? authorStatsByName.get(b.openAlexId)
-        : undefined;
+      const aStats = getAuthorStats(a.openAlexId);
+      const bStats = getAuthorStats(b.openAlexId);
 
       const aCitations = aStats ? aStats.citations : a.totalCitations;
       const bCitations = bStats ? bStats.citations : b.totalCitations;
@@ -427,10 +433,7 @@ export default function ProgramDetail() {
         .filter(Boolean)
         .join(", ");
 
-      const stats =
-        author.openAlexId
-          ? authorStatsByName.get(author.openAlexId) ?? null
-          : null;
+      const stats = getAuthorStats(author.openAlexId);
 
       lines.push(
         [
@@ -843,10 +846,7 @@ export default function ProgramDetail() {
                 </TableHeader>
                 <TableBody>
                   {visibleAuthors.map((author) => {
-                    const stats =
-                      author.openAlexId
-                        ? authorStatsByName.get(author.openAlexId) ?? null
-                        : null;
+                    const stats = getAuthorStats(author.openAlexId);
                     const publications = stats ? stats.publications : 0;
                     const topics = stats ? stats.topics : null;
                     const institutions = stats ? stats.institutions : null;

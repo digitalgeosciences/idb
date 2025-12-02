@@ -9,6 +9,7 @@ import { authors } from "@/data/authors.generated";
 import { worksTable } from "@/data/worksTable.generated";
 import { SiteShell } from "@/components/SiteShell";
 import { toast } from "@/components/ui/use-toast";
+import { dedupeWorks } from "@/lib/utils";
 import {
   Bar,
   BarChart,
@@ -50,6 +51,11 @@ export default function AuthorDetail() {
     );
   }, [id]);
 
+  const uniqueAuthorWorks = useMemo(
+    () => dedupeWorks(authorWorks),
+    [authorWorks],
+  );
+
 
   const yearlyStats = useMemo(() => {
     const byYear = new Map<
@@ -61,7 +67,7 @@ export default function AuthorDetail() {
       }
     >();
 
-    for (const work of authorWorks) {
+    for (const work of uniqueAuthorWorks) {
       const year = work.year;
       if (!year) continue;
       const existing = byYear.get(year) ?? { year, publications: 0, citations: 0 };
@@ -71,7 +77,7 @@ export default function AuthorDetail() {
     }
 
     return Array.from(byYear.values()).sort((a, b) => a.year - b.year);
-  }, [authorWorks]);
+  }, [uniqueAuthorWorks]);
 
   const allYears = useMemo(() => yearlyStats.map((s) => s.year), [yearlyStats]);
 
@@ -96,15 +102,15 @@ export default function AuthorDetail() {
   }, [yearlyStats, allYears, startYear, endYear]);
 
   const filteredWorks = useMemo(() => {
-    if (!authorWorks.length) return [];
-    if (!allYears.length) return authorWorks;
+    if (!uniqueAuthorWorks.length) return [];
+    if (!allYears.length) return uniqueAuthorWorks;
     const from = startYear ?? allYears[0];
     const to = endYear ?? allYears[allYears.length - 1];
-    return authorWorks.filter((w) => {
+    return uniqueAuthorWorks.filter((w) => {
       const year = w.year ?? 0;
       return year >= from && year <= to;
     });
-  }, [authorWorks, allYears, startYear, endYear]);
+  }, [uniqueAuthorWorks, allYears, startYear, endYear]);
 
   const summary = useMemo(() => {
     if (!id) {
@@ -125,7 +131,7 @@ export default function AuthorDetail() {
     const topicSet = new Set<string>();
     const institutionSet = new Set<string>();
 
-    for (const w of authorWorks) {
+    for (const w of uniqueAuthorWorks) {
       if (!w.year) continue;
       if (from != null && w.year < from) continue;
       if (to != null && w.year > to) continue;
@@ -160,7 +166,7 @@ export default function AuthorDetail() {
       topics: topicSet.size,
       institutions: institutionSet.size,
     };
-  }, [id, authorWorks, startYear, endYear]);
+  }, [id, uniqueAuthorWorks, startYear, endYear]);
 
 
 

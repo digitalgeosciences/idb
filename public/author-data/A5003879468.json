@@ -432,15 +432,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Mathematics & Institute for Scientific Computation (ISC), Texas A&M University, College Station, TX, USA",
-              "institution_ids": [
-                "https://openalex.org/I91045830"
-              ]
-            },
-            {
               "raw_affiliation_string": "Center for Numerical Porous Media (NumPor), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Mathematics & Institute for Scientific Computation (ISC), Texas A&M University, College Station, TX, USA",
+              "institution_ids": [
+                "https://openalex.org/I91045830"
               ]
             }
           ]
@@ -475,13 +475,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Applied Mathematics & Computational Science and Earth Sciences & Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
+              "raw_affiliation_string": "Center for Numerical Porous Media (NumPor), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Numerical Porous Media (NumPor), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
+              "raw_affiliation_string": "Applied Mathematics & Computational Science and Earth Sciences & Engineering, King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
@@ -529,15 +529,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Mathematics & Institute for Scientific Computation (ISC), Texas A&M University, College Station, TX, USA",
-              "institution_ids": [
-                "https://openalex.org/I91045830"
-              ]
-            },
-            {
               "raw_affiliation_string": "Center for Numerical Porous Media (NumPor), King Abdullah University of Science and Technology (KAUST), Thuwal 23955-6900, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Mathematics & Institute for Scientific Computation (ISC), Texas A&M University, College Station, TX, USA",
+              "institution_ids": [
+                "https://openalex.org/I91045830"
               ]
             }
           ]
@@ -635,7 +635,7 @@
       "has_fulltext": true,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.9741393,
+        "value": 0.9741237,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1289,11 +1289,11 @@
         "https://openalex.org/W2059573324",
         "https://openalex.org/W2049753327",
         "https://openalex.org/W2126028850",
+        "https://openalex.org/W4230098943",
         "https://openalex.org/W2282659683",
-        "https://openalex.org/W2112823474",
         "https://openalex.org/W1579236455",
-        "https://openalex.org/W359661129",
-        "https://openalex.org/W4230098943"
+        "https://openalex.org/W2112823474",
+        "https://openalex.org/W359661129"
       ],
       "related_works": [
         "https://openalex.org/W2007405763",
@@ -1536,7 +1536,7 @@
       "has_fulltext": false,
       "cited_by_count": 19,
       "citation_normalized_percentile": {
-        "value": 0.92361969,
+        "value": 0.92273193,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2275,13 +2275,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), King Fahd University of Petroleum & Minerals (KFUPM), Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals (KFUPM), Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Department of Petroleum Engineering, College of Petroleum Engineering and Geosciences (CPG), King Fahd University of Petroleum & Minerals (KFUPM), Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), King Fahd University of Petroleum & Minerals (KFUPM), Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -2313,7 +2313,7 @@
       "has_fulltext": true,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.86134755,
+        "value": 0.85898059,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2628,35 +2628,6 @@
           "raw_type": "journal-article"
         },
         {
-          "id": "pmh:oai:doaj.org/article:53855c69411a4350bc53a30d8b0a3409",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/53855c69411a4350bc53a30d8b0a3409",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Fluids, Vol 8, Iss 5, p 160 (2023)",
-          "raw_type": "article"
-        },
-        {
           "id": "pmh:oai:mdpi.com:/2311-5521/8/5/160/",
           "is_oa": true,
           "landing_page_url": "https://dx.doi.org/10.3390/fluids8050160",
@@ -2684,6 +2655,35 @@
           "is_published": false,
           "raw_source_name": "Fluids; Volume 8; Issue 5; Pages: 160",
           "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:53855c69411a4350bc53a30d8b0a3409",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/53855c69411a4350bc53a30d8b0a3409",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              null
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Fluids, Vol 8, Iss 5, p 160 (2023)",
+          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -2719,9 +2719,9 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Responsible consumption and production",
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.4399999976158142,
-          "id": "https://metadata.un.org/sdg/12"
+          "display_name": "Responsible consumption and production"
         }
       ],
       "grants": [],
@@ -3417,7 +3417,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.78288364,
+        "value": 0.77871622,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3791,9 +3791,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Good health and well-being",
+          "id": "https://metadata.un.org/sdg/3",
           "score": 0.8700000047683716,
-          "id": "https://metadata.un.org/sdg/3"
+          "display_name": "Good health and well-being"
         }
       ],
       "grants": [],
@@ -3843,10 +3843,10 @@
         "https://openalex.org/W1581286771",
         "https://openalex.org/W2065423665",
         "https://openalex.org/W1512153219",
+        "https://openalex.org/W2795744704",
         "https://openalex.org/W3086618271",
         "https://openalex.org/W157111480",
-        "https://openalex.org/W2493133232",
-        "https://openalex.org/W2795744704"
+        "https://openalex.org/W2493133232"
       ],
       "related_works": [
         "https://openalex.org/W2353039109",
@@ -3989,7 +3989,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.89335735,
+        "value": 0.87943918,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4832,7 +4832,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03804752,
+        "value": 0.0381784,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5200,9 +5200,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Peace, Justice and strong institutions",
+          "id": "https://metadata.un.org/sdg/16",
           "score": 0.7900000214576721,
-          "id": "https://metadata.un.org/sdg/16"
+          "display_name": "Peace, Justice and strong institutions"
         }
       ],
       "grants": [
@@ -5256,9 +5256,9 @@
         "https://openalex.org/W2049753327",
         "https://openalex.org/W2017635836",
         "https://openalex.org/W2091158391",
-        "https://openalex.org/W2253094723",
         "https://openalex.org/W2114051217",
-        "https://openalex.org/W1579236455"
+        "https://openalex.org/W1579236455",
+        "https://openalex.org/W2253094723"
       ],
       "related_works": [
         "https://openalex.org/W2006953814",
@@ -5416,7 +5416,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.45925683,
+        "value": 0.45934798,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5851,37 +5851,37 @@
       },
       "referenced_works_count": 31,
       "referenced_works": [
-        "https://openalex.org/W2112823474",
-        "https://openalex.org/W2086114884",
-        "https://openalex.org/W1579236455",
-        "https://openalex.org/W1966922361",
-        "https://openalex.org/W2052275102",
-        "https://openalex.org/W2043176577",
-        "https://openalex.org/W1984471539",
         "https://openalex.org/W359661129",
+        "https://openalex.org/W2066042384",
         "https://openalex.org/W2011224005",
+        "https://openalex.org/W2073594627",
+        "https://openalex.org/W2030373618",
+        "https://openalex.org/W2080043569",
+        "https://openalex.org/W2051394807",
+        "https://openalex.org/W1489519217",
+        "https://openalex.org/W1997640799",
+        "https://openalex.org/W1994089881",
         "https://openalex.org/W2016187476",
         "https://openalex.org/W1633869374",
-        "https://openalex.org/W1997640799",
-        "https://openalex.org/W2010661806",
-        "https://openalex.org/W2049753327",
-        "https://openalex.org/W2018074366",
-        "https://openalex.org/W2003637147",
-        "https://openalex.org/W1489519217",
-        "https://openalex.org/W2164089645",
-        "https://openalex.org/W2041243668",
-        "https://openalex.org/W2024798661",
-        "https://openalex.org/W1848106544",
-        "https://openalex.org/W2282659683",
-        "https://openalex.org/W2000272165",
-        "https://openalex.org/W2080043569",
-        "https://openalex.org/W2073594627",
-        "https://openalex.org/W2051394807",
-        "https://openalex.org/W1995578999",
         "https://openalex.org/W2126028850",
-        "https://openalex.org/W2030373618",
-        "https://openalex.org/W2066042384",
-        "https://openalex.org/W1994089881"
+        "https://openalex.org/W2052275102",
+        "https://openalex.org/W2282659683",
+        "https://openalex.org/W2024798661",
+        "https://openalex.org/W2041243668",
+        "https://openalex.org/W2003637147",
+        "https://openalex.org/W2049753327",
+        "https://openalex.org/W1579236455",
+        "https://openalex.org/W2043176577",
+        "https://openalex.org/W2086114884",
+        "https://openalex.org/W2112823474",
+        "https://openalex.org/W1966922361",
+        "https://openalex.org/W2018074366",
+        "https://openalex.org/W1984471539",
+        "https://openalex.org/W1848106544",
+        "https://openalex.org/W2010661806",
+        "https://openalex.org/W2164089645",
+        "https://openalex.org/W2000272165",
+        "https://openalex.org/W1995578999"
       ],
       "related_works": [
         "https://openalex.org/W2953010041",
@@ -6585,11 +6585,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.28878312,
+        "value": 0.28917958,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7086,25 +7086,25 @@
       },
       "referenced_works_count": 19,
       "referenced_works": [
-        "https://openalex.org/W2073594627",
-        "https://openalex.org/W1995578999",
-        "https://openalex.org/W1489519217",
-        "https://openalex.org/W2011224005",
-        "https://openalex.org/W1579236455",
         "https://openalex.org/W1633869374",
-        "https://openalex.org/W2051394807",
-        "https://openalex.org/W2282659683",
+        "https://openalex.org/W2126028850",
+        "https://openalex.org/W2041243668",
         "https://openalex.org/W359661129",
         "https://openalex.org/W1848106544",
-        "https://openalex.org/W2080043569",
-        "https://openalex.org/W2049753327",
+        "https://openalex.org/W2011224005",
+        "https://openalex.org/W1489519217",
+        "https://openalex.org/W1995578999",
         "https://openalex.org/W2018074366",
-        "https://openalex.org/W2041243668",
-        "https://openalex.org/W2112823474",
-        "https://openalex.org/W2052275102",
-        "https://openalex.org/W2126028850",
+        "https://openalex.org/W2073594627",
         "https://openalex.org/W2030373618",
-        "https://openalex.org/W1997640799"
+        "https://openalex.org/W2049753327",
+        "https://openalex.org/W1997640799",
+        "https://openalex.org/W2052275102",
+        "https://openalex.org/W1579236455",
+        "https://openalex.org/W2112823474",
+        "https://openalex.org/W2051394807",
+        "https://openalex.org/W2080043569",
+        "https://openalex.org/W2282659683"
       ],
       "related_works": [
         "https://openalex.org/W2014266572",
@@ -7644,7 +7644,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.4687737,
+        "value": 0.47429907,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },

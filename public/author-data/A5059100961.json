@@ -469,13 +469,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, Electrical Engineering Department, Dhahran, Saudi Arabia..",
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, Earth Sciences Department, Dhahran, Saudi Arabia..",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, Earth Sciences Department, Dhahran, Saudi Arabia..",
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, Electrical Engineering Department, Dhahran, Saudi Arabia..",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -494,7 +494,7 @@
       "has_fulltext": false,
       "cited_by_count": 59,
       "citation_normalized_percentile": {
-        "value": 0.78302373,
+        "value": 0.78303906,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -759,8 +759,8 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8299999833106995
+          "score": 0.8299999833106995,
+          "display_name": "Affordable and clean energy"
         }
       ],
       "grants": [],
@@ -800,14 +800,14 @@
         "https://openalex.org/W4252593548",
         "https://openalex.org/W2116258620",
         "https://openalex.org/W1550107969",
-        "https://openalex.org/W2025583962",
-        "https://openalex.org/W627907298",
-        "https://openalex.org/W4256068510",
         "https://openalex.org/W2085440994",
-        "https://openalex.org/W2111856751",
-        "https://openalex.org/W1580963329",
+        "https://openalex.org/W2025583962",
         "https://openalex.org/W1990952479",
-        "https://openalex.org/W147723833"
+        "https://openalex.org/W147723833",
+        "https://openalex.org/W2111856751",
+        "https://openalex.org/W4256068510",
+        "https://openalex.org/W1580963329",
+        "https://openalex.org/W627907298"
       ],
       "related_works": [
         "https://openalex.org/W4379231730",
@@ -1802,7 +1802,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.82997118,
+        "value": 0.83004934,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2124,8 +2124,8 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.7099999785423279
+          "score": 0.7099999785423279,
+          "display_name": "Climate action"
         }
       ],
       "grants": [
@@ -2176,15 +2176,15 @@
         "https://openalex.org/W2131229179",
         "https://openalex.org/W2944320642",
         "https://openalex.org/W203584942",
-        "https://openalex.org/W2623567129",
         "https://openalex.org/W1975476134",
-        "https://openalex.org/W2330820153",
-        "https://openalex.org/W2136195355",
-        "https://openalex.org/W2056243140",
-        "https://openalex.org/W2164310172",
         "https://openalex.org/W2560327523",
+        "https://openalex.org/W2136195355",
         "https://openalex.org/W2149852641",
-        "https://openalex.org/W1981212228"
+        "https://openalex.org/W2164310172",
+        "https://openalex.org/W1981212228",
+        "https://openalex.org/W2623567129",
+        "https://openalex.org/W2330820153",
+        "https://openalex.org/W2056243140"
       ],
       "related_works": [
         "https://openalex.org/W4221057967",
@@ -2364,7 +2364,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.07419844,
+        "value": 0.07415774,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2950,7 +2950,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.0257222,
+        "value": 0.02576298,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4078,7 +4078,7 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": true,
       "cited_by_count": 11,
       "citation_normalized_percentile": null,
@@ -4259,8 +4259,8 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action",
-          "score": 0.550000011920929
+          "score": 0.550000011920929,
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -4466,7 +4466,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.10456996,
+        "value": 0.10461158,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5202,13 +5202,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia. allehyani@kfupm.edu.sa.",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia. allehyani@kfupm.edu.sa.",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia. allehyani@kfupm.edu.sa.",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia. allehyani@kfupm.edu.sa.",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -5360,13 +5360,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia.",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia.",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia.",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering Geosciences, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia.",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -5393,7 +5393,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.19659504,
+        "value": 0.19456555,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },

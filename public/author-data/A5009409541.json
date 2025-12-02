@@ -607,13 +607,13 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.76677271,
+        "value": 0.76418627,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 94,
-        "max": 98
+        "max": 97
       },
       "biblio": {
         "volume": "227",
@@ -894,9 +894,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.75,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "grants": [
@@ -915,8 +915,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 19,
       "referenced_works": [
@@ -1220,7 +1220,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.54267846,
+        "value": 0.54422451,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1550,8 +1550,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 31,
       "referenced_works": [
@@ -2365,14 +2365,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Department of Chemistry",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "University of Houston",
               "institution_ids": [
                 "https://openalex.org/I44461941"
               ]
-            },
-            {
-              "raw_affiliation_string": "Department of Chemistry",
-              "institution_ids": []
             }
           ]
         },
@@ -2458,15 +2458,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "KFUPM",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            },
-            {
               "raw_affiliation_string": "CIPR, College of Petroleum & Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "raw_affiliation_string": "KFUPM",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
               ]
             }
           ]
@@ -2645,7 +2645,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.8752664,
+        "value": 0.86081632,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3007,17 +3007,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.7200000286102295,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 56,
       "referenced_works": [
@@ -3871,7 +3871,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.61790147,
+        "value": 0.6152689,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4187,17 +4187,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation",
           "score": 0.6700000166893005,
-          "display_name": "Clean water and sanitation"
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
       "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 6,
       "referenced_works": [
@@ -4899,11 +4899,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03170442,
+        "value": 0.0315292,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5210,8 +5210,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -5512,7 +5512,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03125,
+        "value": 0.03144654,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5758,17 +5758,17 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water",
           "score": 0.7200000286102295,
-          "display_name": "Life below water"
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 4,
       "referenced_works": [

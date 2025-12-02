@@ -775,11 +775,11 @@
         "value_usd": 4830
       },
       "apc_paid": null,
-      "fwci": 13.56162907,
+      "fwci": 15.11152954,
       "has_fulltext": false,
-      "cited_by_count": 35,
+      "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.99032273,
+        "value": 0.99172706,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -1332,35 +1332,35 @@
         "https://openalex.org/W3006054336",
         "https://openalex.org/W3013796034",
         "https://openalex.org/W2753311920",
-        "https://openalex.org/W2182096254",
-        "https://openalex.org/W2983434363",
-        "https://openalex.org/W2125104283",
-        "https://openalex.org/W162481757",
-        "https://openalex.org/W2485076753",
-        "https://openalex.org/W2596296837",
-        "https://openalex.org/W2936161254",
-        "https://openalex.org/W1998543346",
-        "https://openalex.org/W2319692794",
-        "https://openalex.org/W4214882635",
-        "https://openalex.org/W2091371067",
+        "https://openalex.org/W2254896955",
         "https://openalex.org/W2969865410",
-        "https://openalex.org/W2086415167",
-        "https://openalex.org/W3133548094",
-        "https://openalex.org/W173078237",
-        "https://openalex.org/W2049673390",
-        "https://openalex.org/W2323405800",
         "https://openalex.org/W1527101551",
         "https://openalex.org/W2085333646",
-        "https://openalex.org/W1605761634",
-        "https://openalex.org/W2009106958",
-        "https://openalex.org/W3171185371",
-        "https://openalex.org/W2314023364",
-        "https://openalex.org/W9750588",
-        "https://openalex.org/W2064076875",
-        "https://openalex.org/W4229888827",
-        "https://openalex.org/W1527871235",
+        "https://openalex.org/W2049673390",
         "https://openalex.org/W2014926959",
-        "https://openalex.org/W2254896955"
+        "https://openalex.org/W4229888827",
+        "https://openalex.org/W2983434363",
+        "https://openalex.org/W2319692794",
+        "https://openalex.org/W1527871235",
+        "https://openalex.org/W173078237",
+        "https://openalex.org/W162481757",
+        "https://openalex.org/W3133548094",
+        "https://openalex.org/W2936161254",
+        "https://openalex.org/W2596296837",
+        "https://openalex.org/W2086415167",
+        "https://openalex.org/W2064076875",
+        "https://openalex.org/W2485076753",
+        "https://openalex.org/W9750588",
+        "https://openalex.org/W2314023364",
+        "https://openalex.org/W4214882635",
+        "https://openalex.org/W2125104283",
+        "https://openalex.org/W2009106958",
+        "https://openalex.org/W1998543346",
+        "https://openalex.org/W3171185371",
+        "https://openalex.org/W2323405800",
+        "https://openalex.org/W1605761634",
+        "https://openalex.org/W2182096254",
+        "https://openalex.org/W2091371067"
       ],
       "related_works": [
         "https://openalex.org/W4233068154",
@@ -1378,7 +1378,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 32
+          "cited_by_count": 36
         },
         {
           "year": 2024,
@@ -1722,7 +1722,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.92240141,
+        "value": 0.92144948,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2052,35 +2052,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:pubmedcentral.nih.gov:8999370",
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8999370",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Materials (Basel)",
-          "raw_type": "Text"
-        },
-        {
           "id": "pmh:oai:mdpi.com:/1996-1944/15/7/2527/",
           "is_oa": true,
           "landing_page_url": "https://dx.doi.org/10.3390/ma15072527",
@@ -2137,6 +2108,35 @@
           "is_published": false,
           "raw_source_name": "Materials, Vol 15, Iss 7, p 2527 (2022)",
           "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:8999370",
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8999370",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Materials (Basel)",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
@@ -2173,8 +2173,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5400000214576721,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "grants": [
@@ -2905,7 +2905,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.89628642,
+        "value": 0.89661836,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3257,8 +3257,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.800000011920929,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "grants": [],
@@ -3292,8 +3292,8 @@
         "https://openalex.org/W2088688603",
         "https://openalex.org/W2045477434",
         "https://openalex.org/W641869705",
-        "https://openalex.org/W2621386258",
-        "https://openalex.org/W2156946129"
+        "https://openalex.org/W2156946129",
+        "https://openalex.org/W2621386258"
       ],
       "related_works": [
         "https://openalex.org/W2329876929",
@@ -4341,7 +4341,7 @@
       "has_fulltext": true,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.97519477,
+        "value": 0.97336247,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4640,25 +4640,25 @@
         "https://openalex.org/W4380080731",
         "https://openalex.org/W1974970274",
         "https://openalex.org/W4323308459",
-        "https://openalex.org/W2899361853",
-        "https://openalex.org/W2013474130",
-        "https://openalex.org/W2765530271",
-        "https://openalex.org/W4385557559",
-        "https://openalex.org/W4253271431",
-        "https://openalex.org/W2324335264",
-        "https://openalex.org/W4286243855",
-        "https://openalex.org/W2068722859",
-        "https://openalex.org/W2074249712",
-        "https://openalex.org/W1977923897",
-        "https://openalex.org/W3034105836",
-        "https://openalex.org/W2750145376",
-        "https://openalex.org/W2020828556",
-        "https://openalex.org/W4252455759",
         "https://openalex.org/W4254195423",
+        "https://openalex.org/W2068722859",
+        "https://openalex.org/W2013474130",
+        "https://openalex.org/W2074249712",
+        "https://openalex.org/W2020828556",
+        "https://openalex.org/W3034105836",
+        "https://openalex.org/W4252455759",
+        "https://openalex.org/W1977923897",
+        "https://openalex.org/W4253271431",
+        "https://openalex.org/W2750145376",
+        "https://openalex.org/W2765530271",
+        "https://openalex.org/W2082198444",
+        "https://openalex.org/W4286243855",
+        "https://openalex.org/W4385557559",
+        "https://openalex.org/W1805520082",
+        "https://openalex.org/W2324335264",
         "https://openalex.org/W3042744836",
         "https://openalex.org/W2523742622",
-        "https://openalex.org/W2082198444",
-        "https://openalex.org/W1805520082"
+        "https://openalex.org/W2899361853"
       ],
       "related_works": [
         "https://openalex.org/W2324615561",
@@ -5610,13 +5610,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum &amp; Minerals, Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum &amp; Minerals, Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Department of Petroleum Engineering, King Fahd University of Petroleum &amp; Minerals, Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum &amp; Minerals, Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -5748,7 +5748,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.95122333,
+        "value": 0.94812965,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6094,10 +6094,10 @@
         "https://openalex.org/W1991590379",
         "https://openalex.org/W1996892189",
         "https://openalex.org/W2890940368",
-        "https://openalex.org/W2489252044",
-        "https://openalex.org/W4254299888",
         "https://openalex.org/W2324335264",
-        "https://openalex.org/W4233666519"
+        "https://openalex.org/W4233666519",
+        "https://openalex.org/W4254299888",
+        "https://openalex.org/W2489252044"
       ],
       "related_works": [
         "https://openalex.org/W4246450666",
@@ -6893,7 +6893,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.85094432,
+        "value": 0.84877505,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8223,13 +8223,13 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.78839991,
+        "value": 0.78232142,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 97,
-        "max": 98
+        "min": 96,
+        "max": 97
       },
       "biblio": {
         "volume": null,
@@ -8483,8 +8483,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -8535,8 +8535,8 @@
         "https://openalex.org/W4387702076",
         "https://openalex.org/W4289295576",
         "https://openalex.org/W2015443143",
-        "https://openalex.org/W2489252044",
-        "https://openalex.org/W3111641489"
+        "https://openalex.org/W3111641489",
+        "https://openalex.org/W2489252044"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -9384,7 +9384,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.57560849,
+        "value": 0.57245188,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9681,8 +9681,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7099999785423279,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -10743,7 +10743,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.59901035,
+        "value": 0.59999391,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11191,8 +11191,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8299999833106995,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -11240,15 +11240,15 @@
         "https://openalex.org/W4235385088",
         "https://openalex.org/W2058339620",
         "https://openalex.org/W6755724602",
-        "https://openalex.org/W1994679959",
-        "https://openalex.org/W1982529041",
         "https://openalex.org/W2148713994",
+        "https://openalex.org/W1982529041",
+        "https://openalex.org/W1994679959",
         "https://openalex.org/W1986214552",
-        "https://openalex.org/W2421131647",
         "https://openalex.org/W1513910491",
-        "https://openalex.org/W2902590103",
         "https://openalex.org/W1975106089",
         "https://openalex.org/W1988705859",
+        "https://openalex.org/W2421131647",
+        "https://openalex.org/W2902590103",
         "https://openalex.org/W2233370377"
       ],
       "related_works": [
@@ -12402,7 +12402,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.49462643,
+        "value": 0.4934393,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12700,8 +12700,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7099999785423279,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -12774,14 +12774,14 @@
         "https://openalex.org/W2972320886",
         "https://openalex.org/W6850051670",
         "https://openalex.org/W4323308459",
-        "https://openalex.org/W2009329472",
         "https://openalex.org/W2001523292",
-        "https://openalex.org/W1986620689",
-        "https://openalex.org/W4248826345",
-        "https://openalex.org/W4231906969",
         "https://openalex.org/W2934086774",
+        "https://openalex.org/W4231906969",
+        "https://openalex.org/W1986620689",
+        "https://openalex.org/W2091845962",
         "https://openalex.org/W2566688168",
-        "https://openalex.org/W2091845962"
+        "https://openalex.org/W4248826345",
+        "https://openalex.org/W2009329472"
       ],
       "related_works": [
         "https://openalex.org/W2378511748",
@@ -14010,7 +14010,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.63929394,
+        "value": 0.63190184,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14300,8 +14300,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.75,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "grants": [],
@@ -14358,14 +14358,14 @@
         "https://openalex.org/W2887672715",
         "https://openalex.org/W4289295576",
         "https://openalex.org/W4387702076",
-        "https://openalex.org/W615914851",
-        "https://openalex.org/W4252386302",
-        "https://openalex.org/W2009875006",
-        "https://openalex.org/W4309204218",
-        "https://openalex.org/W3119025646",
         "https://openalex.org/W2489252044",
-        "https://openalex.org/W4237824037",
-        "https://openalex.org/W4387447198"
+        "https://openalex.org/W615914851",
+        "https://openalex.org/W4387447198",
+        "https://openalex.org/W4309204218",
+        "https://openalex.org/W2009875006",
+        "https://openalex.org/W4252386302",
+        "https://openalex.org/W3119025646",
+        "https://openalex.org/W4237824037"
       ],
       "related_works": [
         "https://openalex.org/W4232118530",
@@ -15300,7 +15300,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.1906113,
+        "value": 0.18915983,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15587,8 +15587,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.800000011920929,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -16396,11 +16396,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17894584,
+        "value": 0.1792888,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17398,7 +17398,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.42108328,
+        "value": 0.42181223,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17586,35 +17586,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:pubmedcentral.nih.gov:12365316",
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12365316",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Sci Rep",
-          "raw_type": "Text"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:1ceb36bb59b5461e943dcfc68c61176c",
           "is_oa": false,
           "landing_page_url": "https://doaj.org/article/1ceb36bb59b5461e943dcfc68c61176c",
@@ -17642,6 +17613,35 @@
           "is_published": false,
           "raw_source_name": "Scientific Reports, Vol 15, Iss 1, Pp 1-11 (2025)",
           "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:12365316",
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12365316",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Sci Rep",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
@@ -17700,10 +17700,10 @@
         "https://openalex.org/W2069762323",
         "https://openalex.org/W4400320376",
         "https://openalex.org/W2952967576",
-        "https://openalex.org/W1985657867",
         "https://openalex.org/W4298268512",
-        "https://openalex.org/W3104468152",
         "https://openalex.org/W2021342927",
+        "https://openalex.org/W3104468152",
+        "https://openalex.org/W1985657867",
         "https://openalex.org/W2040196754"
       ],
       "related_works": [
@@ -17718,7 +17718,534 @@
         "https://openalex.org/W1999891779",
         "https://openalex.org/W2029513011"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "This": [
+          0,
+          82,
+          184
+        ],
+        "study": [
+          1
+        ],
+        "presents": [
+          2
+        ],
+        "an": [
+          3,
+          48
+        ],
+        "analysis": [
+          4
+        ],
+        "of": [
+          5,
+          8,
+          67,
+          78,
+          98,
+          129,
+          141,
+          198,
+          202,
+          205,
+          217,
+          226
+        ],
+        "the": [
+          6,
+          34,
+          38,
+          87,
+          89,
+          95,
+          130,
+          154,
+          167,
+          192,
+          199,
+          203,
+          221
+        ],
+        "morphology": [
+          7
+        ],
+        "sand": [
+          9,
+          155,
+          206
+        ],
+        "particles": [
+          10,
+          178
+        ],
+        "and": [
+          11,
+          19,
+          30,
+          61,
+          73,
+          80,
+          114,
+          124,
+          208,
+          215,
+          234
+        ],
+        "their": [
+          12
+        ],
+        "contacts": [
+          13,
+          103,
+          109,
+          116
+        ],
+        "using": [
+          14
+        ],
+        "high-resolution": [
+          15
+        ],
+        "microcomputer": [
+          16
+        ],
+        "tomography": [
+          17
+        ],
+        "(CT)": [
+          18
+        ],
+        "scanning": [
+          20
+        ],
+        "electron": [
+          21
+        ],
+        "microscopy": [
+          22
+        ],
+        "(SEM).": [
+          23
+        ],
+        "Raw": [
+          24
+        ],
+        "3D": [
+          25,
+          42
+        ],
+        "images": [
+          26,
+          148
+        ],
+        "are": [
+          27,
+          132,
+          145,
+          157,
+          161,
+          169,
+          173,
+          180
+        ],
+        "filtered,": [
+          28
+        ],
+        "binarized,": [
+          29
+        ],
+        "smoothed": [
+          31
+        ],
+        "to": [
+          32,
+          111,
+          118,
+          134,
+          190
+        ],
+        "distinguish": [
+          33
+        ],
+        "granular": [
+          35,
+          43,
+          230
+        ],
+        "space": [
+          36,
+          44
+        ],
+        "from": [
+          37
+        ],
+        "void": [
+          39
+        ],
+        "space.": [
+          40
+        ],
+        "The": [
+          41,
+          53,
+          65,
+          212
+        ],
+        "is": [
+          45,
+          56,
+          70,
+          84,
+          185
+        ],
+        "segmented": [
+          46
+        ],
+        "via": [
+          47
+        ],
+        "advanced": [
+          49,
+          195
+        ],
+        "adaptive": [
+          50
+        ],
+        "watershed": [
+          51
+        ],
+        "algorithm.": [
+          52
+        ],
+        "grain": [
+          54,
+          69
+        ],
+        "segmentation": [
+          55
+        ],
+        "used": [
+          57
+        ],
+        "for": [
+          58,
+          194,
+          223
+        ],
+        "contact": [
+          59,
+          62,
+          120,
+          143,
+          196,
+          218,
+          227
+        ],
+        "detection": [
+          60
+        ],
+        "network": [
+          63
+        ],
+        "extraction.": [
+          64
+        ],
+        "topography": [
+          66,
+          83
+        ],
+        "each": [
+          68
+        ],
+        "diverse,": [
+          71
+        ],
+        "fascinating,": [
+          72
+        ],
+        "shaped": [
+          74
+        ],
+        "by": [
+          75
+        ],
+        "a": [
+          76,
+          135,
+          138,
+          186
+        ],
+        "landscape": [
+          77
+        ],
+        "ridges": [
+          79,
+          123
+        ],
+        "basins.": [
+          81,
+          126
+        ],
+        "reflected": [
+          85
+        ],
+        "in": [
+          86,
+          229
+        ],
+        "way": [
+          88,
+          222
+        ],
+        "grains": [
+          90
+        ],
+        "come": [
+          91
+        ],
+        "into": [
+          92
+        ],
+        "contact.": [
+          93
+        ],
+        "Unlike": [
+          94
+        ],
+        "common": [
+          96
+        ],
+        "conception": [
+          97
+        ],
+        "point": [
+          99
+        ],
+        "contacts,": [
+          100
+        ],
+        "we": [
+          101
+        ],
+        "observe": [
+          102
+        ],
+        "over": [
+          104
+        ],
+        "large": [
+          105
+        ],
+        "surface": [
+          106
+        ],
+        "areas,": [
+          107
+        ],
+        "concave-like": [
+          108
+        ],
+        "due": [
+          110,
+          117,
+          133
+        ],
+        "ridge-basin": [
+          112
+        ],
+        "interactions,": [
+          113
+        ],
+        "doughnut-like": [
+          115
+        ],
+        "incomplete": [
+          119
+        ],
+        "between": [
+          121
+        ],
+        "high": [
+          122
+        ],
+        "deep": [
+          125
+        ],
+        "Although": [
+          127
+        ],
+        "most": [
+          128
+        ],
+        "interactions": [
+          131,
+          144
+        ],
+        "single": [
+          136
+        ],
+        "contact,": [
+          137
+        ],
+        "significant": [
+          139
+        ],
+        "number": [
+          140
+        ],
+        "multiple": [
+          142
+        ],
+        "observed.": [
+          146
+        ],
+        "SEM": [
+          147
+        ],
+        "show": [
+          149
+        ],
+        "two": [
+          150
+        ],
+        "key": [
+          151
+        ],
+        "features:": [
+          152
+        ],
+        "First,": [
+          153
+        ],
+        "surfaces": [
+          156
+        ],
+        "not": [
+          158,
+          170
+        ],
+        "quartz-clean": [
+          159
+        ],
+        "but": [
+          160,
+          172
+        ],
+        "coated": [
+          162
+        ],
+        "with": [
+          163,
+          176,
+          182
+        ],
+        "clay": [
+          164
+        ],
+        "particles.": [
+          165
+        ],
+        "Second,": [
+          166
+        ],
+        "basins": [
+          168
+        ],
+        "empty": [
+          171
+        ],
+        "partially": [
+          174
+        ],
+        "filled": [
+          175
+        ],
+        "silt": [
+          177
+        ],
+        "that": [
+          179
+        ],
+        "cemented": [
+          181
+        ],
+        "clay.": [
+          183
+        ],
+        "comprehensive": [
+          187
+        ],
+        "experimental": [
+          188
+        ],
+        "investigation": [
+          189,
+          201
+        ],
+        "determine": [
+          191
+        ],
+        "basis": [
+          193
+        ],
+        "models": [
+          197
+        ],
+        "micromechanical": [
+          200
+        ],
+        "strength": [
+          204
+        ],
+        "aggregates": [
+          207
+        ],
+        "wave": [
+          209
+        ],
+        "propagation": [
+          210
+        ],
+        "herein.": [
+          211
+        ],
+        "proposed": [
+          213
+        ],
+        "micro-": [
+          214
+        ],
+        "nanocharacterization": [
+          216
+        ],
+        "morphologies": [
+          219
+        ],
+        "paves": [
+          220
+        ],
+        "future": [
+          224
+        ],
+        "investigations": [
+          225
+        ],
+        "interaction": [
+          228
+        ],
+        "materials": [
+          231
+        ],
+        "on": [
+          232
+        ],
+        "Earth": [
+          233
+        ],
+        "beyond.": [
+          235
+        ]
+      },
       "counts_by_year": [],
       "updated_date": "2025-11-06T03:46:38.306776",
       "created_date": "2025-10-10T00:00:00"

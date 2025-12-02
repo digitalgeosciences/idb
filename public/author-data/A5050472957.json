@@ -377,13 +377,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -463,13 +463,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -577,9 +577,9 @@
       },
       "fwci": 3.3992788,
       "has_fulltext": false,
-      "cited_by_count": 38,
+      "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.92494175,
+        "value": 0.92494817,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -981,16 +981,16 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12",
-          "score": 0.49000000953674316
+          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/12"
         }
       ],
       "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 39,
       "referenced_works": [
@@ -1026,13 +1026,13 @@
         "https://openalex.org/W2780748800",
         "https://openalex.org/W6786924250",
         "https://openalex.org/W2981691739",
+        "https://openalex.org/W3088619388",
         "https://openalex.org/W3109183668",
         "https://openalex.org/W2985987981",
+        "https://openalex.org/W3156118246",
         "https://openalex.org/W2808022489",
-        "https://openalex.org/W3088619388",
-        "https://openalex.org/W2598952810",
         "https://openalex.org/W4206028361",
-        "https://openalex.org/W3156118246"
+        "https://openalex.org/W2598952810"
       ],
       "related_works": [
         "https://openalex.org/W2561005218",
@@ -1046,11 +1046,591 @@
         "https://openalex.org/W2230740334",
         "https://openalex.org/W2145614931"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "18": [
+          205
+        ],
+        "33": [
+          207
+        ],
+        "47": [
+          196
+        ],
+        "77": [
+          198
+        ],
+        "Matrix": [
+          0
+        ],
+        "acidizing": [
+          1
+        ],
+        "is": [
+          2,
+          248
+        ],
+        "a": [
+          3,
+          88,
+          177
+        ],
+        "widely": [
+          4
+        ],
+        "applied": [
+          5
+        ],
+        "stimulation": [
+          6
+        ],
+        "process": [
+          7
+        ],
+        "in": [
+          8,
+          87,
+          168,
+          251
+        ],
+        "carbonate": [
+          9,
+          38
+        ],
+        "reservoirs": [
+          10
+        ],
+        "to": [
+          11,
+          78,
+          121,
+          137,
+          151,
+          197,
+          206,
+          262
+        ],
+        "remove": [
+          12
+        ],
+        "damaged": [
+          13
+        ],
+        "parts": [
+          14
+        ],
+        "of": [
+          15,
+          27,
+          32,
+          41,
+          48,
+          126
+        ],
+        "the": [
+          16,
+          25,
+          30,
+          42,
+          46,
+          49,
+          54,
+          100,
+          116,
+          123,
+          131,
+          139,
+          153,
+          166,
+          169,
+          186,
+          191,
+          227,
+          231,
+          237,
+          263
+        ],
+        "formation": [
+          17
+        ],
+        "and": [
+          18,
+          45,
+          68,
+          108,
+          114,
+          157
+        ],
+        "enhance": [
+          19
+        ],
+        "wellbore": [
+          20,
+          43
+        ],
+        "productivity.": [
+          21
+        ],
+        "Few": [
+          22
+        ],
+        "studies": [
+          23
+        ],
+        "considered": [
+          24
+        ],
+        "impact": [
+          26
+        ],
+        "acid": [
+          28,
+          73,
+          80,
+          84,
+          187
+        ],
+        "on": [
+          29,
+          53
+        ],
+        "deterioration": [
+          31
+        ],
+        "mechanical": [
+          33,
+          55,
+          109
+        ],
+        "rock": [
+          34,
+          56,
+          64,
+          103,
+          128,
+          140,
+          192,
+          214,
+          246
+        ],
+        "properties": [
+          35,
+          57,
+          110
+        ],
+        "considering": [
+          36
+        ],
+        "different": [
+          37,
+          75
+        ],
+        "types.": [
+          39
+        ],
+        "Assessment": [
+          40
+        ],
+        "stability": [
+          44
+        ],
+        "sustainability": [
+          47
+        ],
+        "wormhole": [
+          50,
+          92
+        ],
+        "structure": [
+          51
+        ],
+        "depends": [
+          52
+        ],
+        "after": [
+          58,
+          115
+        ],
+        "acidizing.": [
+          59
+        ],
+        "In": [
+          60
+        ],
+        "this": [
+          61
+        ],
+        "study,": [
+          62
+        ],
+        "three": [
+          63
+        ],
+        "lithologies": [
+          65
+        ],
+        "(chalk,": [
+          66
+        ],
+        "limestone,": [
+          67
+        ],
+        "dolomite)": [
+          69
+        ],
+        "were": [
+          70,
+          111,
+          149,
+          226,
+          236
+        ],
+        "treated": [
+          71,
+          213
+        ],
+        "with": [
+          72,
+          171
+        ],
+        "at": [
+          74,
+          143,
+          160,
+          209,
+          255
+        ],
+        "injection": [
+          76
+        ],
+        "rates": [
+          77
+        ],
+        "establish": [
+          79
+        ],
+        "efficiency": [
+          81
+        ],
+        "curves.": [
+          82
+        ],
+        "The": [
+          83,
+          102,
+          212,
+          239
+        ],
+        "was": [
+          85,
+          119,
+          135,
+          181
+        ],
+        "injected": [
+          86
+        ],
+        "coreflooding": [
+          89
+        ],
+        "setup": [
+          90
+        ],
+        "until": [
+          91
+        ],
+        "breakthrough,": [
+          93
+        ],
+        "indicated": [
+          94
+        ],
+        "by": [
+          95,
+          204,
+          230
+        ],
+        "zero": [
+          96
+        ],
+        "pressure": [
+          97
+        ],
+        "drop": [
+          98
+        ],
+        "across": [
+          99
+        ],
+        "sample.": [
+          101
+        ],
+        "petrophysical": [
+          104
+        ],
+        "(i.e.,": [
+          105
+        ],
+        "porosity,": [
+          106
+        ],
+        "permeability)": [
+          107
+        ],
+        "measured": [
+          112
+        ],
+        "before": [
+          113
+        ],
+        "treatment.": [
+          117
+        ],
+        "XRD": [
+          118
+        ],
+        "used": [
+          120,
+          150
+        ],
+        "estimate": [
+          122,
+          165
+        ],
+        "mineralogical": [
+          124
+        ],
+        "compositions": [
+          125
+        ],
+        "each": [
+          127
+        ],
+        "type.": [
+          129
+        ],
+        "Then,": [
+          130
+        ],
+        "impulse": [
+          132
+        ],
+        "hammer": [
+          133
+        ],
+        "technique": [
+          134
+        ],
+        "implemented": [
+          136
+        ],
+        "measure": [
+          138
+        ],
+        "surface": [
+          141,
+          193
+        ],
+        "hardness": [
+          142,
+          194
+        ],
+        "ambient": [
+          144,
+          210
+        ],
+        "pressure.": [
+          145
+        ],
+        "Also,": [
+          146
+        ],
+        "acoustic": [
+          147
+        ],
+        "measurements": [
+          148
+        ],
+        "quantify": [
+          152
+        ],
+        "dynamic": [
+          154
+        ],
+        "Young’s": [
+          155,
+          201,
+          218
+        ],
+        "modulus": [
+          156,
+          202,
+          219
+        ],
+        "Poisson": [
+          158
+        ],
+        "ratio": [
+          159
+        ],
+        "high": [
+          161,
+          221,
+          256
+        ],
+        "confining": [
+          162,
+          175,
+          222,
+          257
+        ],
+        "pressures.": [
+          163
+        ],
+        "To": [
+          164
+        ],
+        "deformation": [
+          167,
+          247
+        ],
+        "samples": [
+          170,
+          215,
+          225
+        ],
+        "wormholes": [
+          172
+        ],
+        "under": [
+          173,
+          220
+        ],
+        "varying": [
+          174
+        ],
+        "stress,": [
+          176
+        ],
+        "finite": [
+          178,
+          240
+        ],
+        "element": [
+          179,
+          241
+        ],
+        "model": [
+          180,
+          243
+        ],
+        "constructed.": [
+          182
+        ],
+        "Results": [
+          183
+        ],
+        "indicate": [
+          184
+        ],
+        "that": [
+          185,
+          245,
+          259
+        ],
+        "treatment": [
+          188
+        ],
+        "significantly": [
+          189
+        ],
+        "reduces": [
+          190
+        ],
+        "(by": [
+          195
+        ],
+        "%),": [
+          199
+        ],
+        "while": [
+          200,
+          233
+        ],
+        "decreases": [
+          203
+        ],
+        "%": [
+          208
+        ],
+        "stress.": [
+          211,
+          223
+        ],
+        "showed": [
+          216
+        ],
+        "higher": [
+          217
+        ],
+        "Chalk": [
+          224
+        ],
+        "most": [
+          228
+        ],
+        "impacted": [
+          229
+        ],
+        "treatment,": [
+          232
+        ],
+        "dolomite": [
+          234
+        ],
+        "specimens": [
+          235
+        ],
+        "least.": [
+          238
+        ],
+        "numerical": [
+          242
+        ],
+        "indicates": [
+          244
+        ],
+        "more": [
+          249
+        ],
+        "significant": [
+          250
+        ],
+        "chalk": [
+          252
+        ],
+        "samples,": [
+          253
+        ],
+        "especially": [
+          254
+        ],
+        "stress": [
+          258
+        ],
+        "acts": [
+          260
+        ],
+        "perpendicular": [
+          261
+        ],
+        "wormhole.": [
+          264
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 9
+          "cited_by_count": 10
         },
         {
           "year": 2024,
@@ -1326,7 +1906,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.62231769,
+        "value": 0.6224359,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1797,8 +2377,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 17,
       "referenced_works": [
@@ -1815,10 +2395,10 @@
         "https://openalex.org/W2086158883",
         "https://openalex.org/W2610805115",
         "https://openalex.org/W2096105657",
-        "https://openalex.org/W2506302436",
-        "https://openalex.org/W2803048119",
         "https://openalex.org/W2733018613",
-        "https://openalex.org/W2009420010"
+        "https://openalex.org/W2506302436",
+        "https://openalex.org/W2009420010",
+        "https://openalex.org/W2803048119"
       ],
       "related_works": [
         "https://openalex.org/W2320818229",
@@ -2058,7 +2638,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.73645516,
+        "value": 0.73732859,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2473,8 +3053,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 22,
       "referenced_works": [
@@ -2492,14 +3072,14 @@
         "https://openalex.org/W2027836589",
         "https://openalex.org/W2045325787",
         "https://openalex.org/W2085059909",
-        "https://openalex.org/W2941419477",
+        "https://openalex.org/W2059605621",
         "https://openalex.org/W2074176021",
-        "https://openalex.org/W773723236",
-        "https://openalex.org/W4213058472",
         "https://openalex.org/W2090660705",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W154038878",
-        "https://openalex.org/W2059605621"
+        "https://openalex.org/W2941419477",
+        "https://openalex.org/W4213058472",
+        "https://openalex.org/W773723236",
+        "https://openalex.org/W154038878"
       ],
       "related_works": [
         "https://openalex.org/W2320818229",
@@ -2613,7 +3193,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.68772992,
+        "value": 0.6892542,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2848,8 +3428,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -3037,7 +3617,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.36230952,
+        "value": 0.36140305,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3302,8 +3882,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -3548,7 +4128,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.48629811,
+        "value": 0.48474738,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3940,8 +4520,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 35,
       "referenced_works": [
@@ -3976,10 +4556,10 @@
         "https://openalex.org/W2042069194",
         "https://openalex.org/W2079916360",
         "https://openalex.org/W2034470299",
-        "https://openalex.org/W577988321",
-        "https://openalex.org/W593771816",
         "https://openalex.org/W1568011928",
-        "https://openalex.org/W19472432"
+        "https://openalex.org/W577988321",
+        "https://openalex.org/W19472432",
+        "https://openalex.org/W593771816"
       ],
       "related_works": [
         "https://openalex.org/W4399227022",
@@ -4776,7 +5356,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08219986,
+        "value": 0.08223548,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5031,8 +5611,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 7,
       "referenced_works": [
@@ -5507,7 +6087,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.19389587,
+        "value": 0.19391026,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5717,8 +6297,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -5845,7 +6425,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24612569,
+        "value": 0.24521877,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6041,16 +6621,16 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5299999713897705
+          "score": 0.5299999713897705,
+          "id": "https://metadata.un.org/sdg/13"
         }
       ],
       "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -6659,8 +7239,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],

@@ -460,15 +460,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Curtin University, 6845 Perth, WA, Australia",
-              "institution_ids": [
-                "https://openalex.org/I205640436"
-              ]
-            },
-            {
               "raw_affiliation_string": "Skolkovo Institute of Science and Technology, 121205 Moscow, Russia",
               "institution_ids": [
                 "https://openalex.org/I125989756"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Curtin University, 6845 Perth, WA, Australia",
+              "institution_ids": [
+                "https://openalex.org/I205640436"
               ]
             }
           ]
@@ -781,7 +781,7 @@
       "has_fulltext": false,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.92910746,
+        "value": 0.9281942,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1093,8 +1093,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.5099999904632568
         }
       ],
@@ -1114,8 +1114,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 94,
       "referenced_works": [
@@ -1208,11 +1208,11 @@
         "https://openalex.org/W4281552087",
         "https://openalex.org/W2771052179",
         "https://openalex.org/W4224244550",
+        "https://openalex.org/W2015873836",
         "https://openalex.org/W2959743433",
         "https://openalex.org/W4205462480",
-        "https://openalex.org/W3208143380",
-        "https://openalex.org/W2015873836",
-        "https://openalex.org/W63294479"
+        "https://openalex.org/W63294479",
+        "https://openalex.org/W3208143380"
       ],
       "related_works": [
         "https://openalex.org/W1969539204",
@@ -1340,15 +1340,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Petroleum Science and Engineering, Skolkovo Institute of Science and Technology, Moscow, Russia",
-              "institution_ids": [
-                "https://openalex.org/I125989756"
-              ]
-            },
-            {
               "raw_affiliation_string": "Western Australian School of Mines (WASM): Minerals, Energy and Chemical Engineering, Curtin University, Perth, WA, Australia",
               "institution_ids": [
                 "https://openalex.org/I205640436"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Center for Petroleum Science and Engineering, Skolkovo Institute of Science and Technology, Moscow, Russia",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
               ]
             }
           ]
@@ -1442,7 +1442,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.84694236,
+        "value": 0.84547595,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1797,8 +1797,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6399999856948853
         }
       ],
@@ -1823,8 +1823,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -2524,7 +2524,7 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.79070086,
+        "value": 0.7882468,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2898,8 +2898,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.8600000143051147
         }
       ],
@@ -2919,8 +2919,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 73,
       "referenced_works": [
@@ -2992,11 +2992,11 @@
         "https://openalex.org/W2147101171",
         "https://openalex.org/W2093895204",
         "https://openalex.org/W2981644170",
-        "https://openalex.org/W4221061210",
-        "https://openalex.org/W4224244550",
-        "https://openalex.org/W2503348119",
         "https://openalex.org/W3202347926",
-        "https://openalex.org/W3158056424"
+        "https://openalex.org/W4221061210",
+        "https://openalex.org/W2503348119",
+        "https://openalex.org/W3158056424",
+        "https://openalex.org/W4224244550"
       ],
       "related_works": [
         "https://openalex.org/W2360693319",
@@ -3124,15 +3124,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Western Australian School of Mines (WASM): Minerals, Energy and Chemical Engineering, Curtin University, 26 Dick Perry Avenue, Kensington, Western Australia 6151, Australia;",
-              "institution_ids": [
-                "https://openalex.org/I205640436"
-              ]
-            },
-            {
               "raw_affiliation_string": "Center for Petroleum Science and Engineering, Skolkovo Institute of Science and Technology, Bolshoy Boulevard 30, bld. 1, Moscow 121205, Russia;",
               "institution_ids": [
                 "https://openalex.org/I125989756"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Western Australian School of Mines (WASM): Minerals, Energy and Chemical Engineering, Curtin University, 26 Dick Perry Avenue, Kensington, Western Australia 6151, Australia;",
+              "institution_ids": [
+                "https://openalex.org/I205640436"
               ]
             }
           ]
@@ -3442,7 +3442,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.85042955,
+        "value": 0.84724024,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3804,8 +3804,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.7200000286102295
         }
       ],
@@ -3825,8 +3825,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 48,
       "referenced_works": [
@@ -4802,7 +4802,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.79070301,
+        "value": 0.78834224,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5179,8 +5179,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 93,
       "referenced_works": [
@@ -5275,8 +5275,8 @@
         "https://openalex.org/W1970602844",
         "https://openalex.org/W2416978327",
         "https://openalex.org/W2082233650",
-        "https://openalex.org/W2504320662",
-        "https://openalex.org/W63294479"
+        "https://openalex.org/W63294479",
+        "https://openalex.org/W2504320662"
       ],
       "related_works": [
         "https://openalex.org/W2087977212",
@@ -6460,7 +6460,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.87223465,
+        "value": 0.87220288,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6829,8 +6829,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6100000143051147
         }
       ],
@@ -6838,8 +6838,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 24,
       "referenced_works": [
@@ -6863,9 +6863,9 @@
         "https://openalex.org/W1977136268",
         "https://openalex.org/W2779829226",
         "https://openalex.org/W2795357846",
-        "https://openalex.org/W2272391079",
-        "https://openalex.org/W3124387679",
         "https://openalex.org/W1977150888",
+        "https://openalex.org/W3124387679",
+        "https://openalex.org/W2272391079",
         "https://openalex.org/W2601050889"
       ],
       "related_works": [
@@ -8383,7 +8383,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.91222147,
+        "value": 0.91213248,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8630,8 +8630,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.5299999713897705
         }
       ],
@@ -8639,8 +8639,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 23,
       "referenced_works": [
@@ -8664,9 +8664,9 @@
         "https://openalex.org/W1977136268",
         "https://openalex.org/W2779829226",
         "https://openalex.org/W2795357846",
-        "https://openalex.org/W2601050889",
+        "https://openalex.org/W2272391079",
         "https://openalex.org/W1970635216",
-        "https://openalex.org/W2272391079"
+        "https://openalex.org/W2601050889"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -9026,14 +9026,14 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "LABADVANCE",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Skolkovo Institute of Science and Technology",
               "institution_ids": [
                 "https://openalex.org/I125989756"
               ]
+            },
+            {
+              "raw_affiliation_string": "LABADVANCE",
+              "institution_ids": []
             }
           ]
         }
@@ -9049,7 +9049,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.72647809,
+        "value": 0.72425031,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9368,8 +9368,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9",
           "score": 0.4399999976158142
         }
       ],
@@ -9377,8 +9377,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 57,
       "referenced_works": [
@@ -10345,7 +10345,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.73092024,
+        "value": 0.72868128,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10701,8 +10701,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.47999998927116394
         }
       ],
@@ -10710,8 +10710,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 28,
       "referenced_works": [
@@ -10735,13 +10735,13 @@
         "https://openalex.org/W6687617579",
         "https://openalex.org/W6805090932",
         "https://openalex.org/W2259623567",
-        "https://openalex.org/W4242323931",
-        "https://openalex.org/W3111641489",
-        "https://openalex.org/W3147805635",
-        "https://openalex.org/W1831086515",
         "https://openalex.org/W3023901170",
         "https://openalex.org/W1969795034",
         "https://openalex.org/W4249681580",
+        "https://openalex.org/W3147805635",
+        "https://openalex.org/W4242323931",
+        "https://openalex.org/W3111641489",
+        "https://openalex.org/W1831086515",
         "https://openalex.org/W4234400575"
       ],
       "related_works": [
@@ -11391,7 +11391,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.9352085,
+        "value": 0.92542836,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -11693,8 +11693,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
+          "id": "https://metadata.un.org/sdg/13",
           "score": 0.5699999928474426
         }
       ],
@@ -11714,8 +11714,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -11769,16 +11769,16 @@
         "https://openalex.org/W3128899248",
         "https://openalex.org/W4223601067",
         "https://openalex.org/W3205808610",
-        "https://openalex.org/W4402545915",
-        "https://openalex.org/W2967693046",
-        "https://openalex.org/W2083550612",
         "https://openalex.org/W2034063916",
-        "https://openalex.org/W1589163079",
-        "https://openalex.org/W4403277765",
-        "https://openalex.org/W3004024615",
+        "https://openalex.org/W4402545915",
+        "https://openalex.org/W2083550612",
         "https://openalex.org/W4224244550",
+        "https://openalex.org/W1589163079",
         "https://openalex.org/W4399070571",
-        "https://openalex.org/W2417974527"
+        "https://openalex.org/W2417974527",
+        "https://openalex.org/W3004024615",
+        "https://openalex.org/W2967693046",
+        "https://openalex.org/W4403277765"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -12083,7 +12083,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.87766399,
+        "value": 0.87748894,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12477,8 +12477,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6700000166893005
         }
       ],
@@ -12486,8 +12486,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 28,
       "referenced_works": [
@@ -12517,8 +12517,8 @@
         "https://openalex.org/W2596329033",
         "https://openalex.org/W2795357846",
         "https://openalex.org/W2923613555",
-        "https://openalex.org/W2978492403",
-        "https://openalex.org/W2848823574"
+        "https://openalex.org/W2848823574",
+        "https://openalex.org/W2978492403"
       ],
       "related_works": [
         "https://openalex.org/W2013943673",
@@ -13658,7 +13658,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.92791282,
+        "value": 0.92785235,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -14006,8 +14006,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -14042,12 +14042,12 @@
         "https://openalex.org/W3175725239",
         "https://openalex.org/W1980932365",
         "https://openalex.org/W6750091656",
+        "https://openalex.org/W2964472094",
+        "https://openalex.org/W4241864196",
+        "https://openalex.org/W2978492403",
         "https://openalex.org/W3035954883",
         "https://openalex.org/W2979053801",
-        "https://openalex.org/W2964472094",
-        "https://openalex.org/W2528664296",
-        "https://openalex.org/W4241864196",
-        "https://openalex.org/W2978492403"
+        "https://openalex.org/W2528664296"
       ],
       "related_works": [
         "https://openalex.org/W64324643",
@@ -14671,7 +14671,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.67555097,
+        "value": 0.67307967,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15022,8 +15022,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.46000000834465027
         }
       ],
@@ -15031,8 +15031,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 25,
       "referenced_works": [
@@ -15056,10 +15056,10 @@
         "https://openalex.org/W2319472660",
         "https://openalex.org/W1986405393",
         "https://openalex.org/W4200032867",
-        "https://openalex.org/W3007578353",
-        "https://openalex.org/W4224244550",
         "https://openalex.org/W2045547845",
+        "https://openalex.org/W3007578353",
         "https://openalex.org/W3101157997",
+        "https://openalex.org/W4224244550",
         "https://openalex.org/W3088015351"
       ],
       "related_works": [
@@ -15898,7 +15898,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.64881836,
+        "value": 0.64278654,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16205,8 +16205,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
+          "id": "https://metadata.un.org/sdg/13",
           "score": 0.6899999976158142
         }
       ],
@@ -16226,8 +16226,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 99,
       "referenced_works": [
@@ -16317,19 +16317,19 @@
         "https://openalex.org/W2413778174",
         "https://openalex.org/W2611424285",
         "https://openalex.org/W2029188744",
-        "https://openalex.org/W4229709421",
-        "https://openalex.org/W3207433824",
-        "https://openalex.org/W2943098170",
-        "https://openalex.org/W3205419042",
-        "https://openalex.org/W4312648657",
-        "https://openalex.org/W4206105069",
-        "https://openalex.org/W4379347728",
-        "https://openalex.org/W3004327159",
-        "https://openalex.org/W2317481205",
         "https://openalex.org/W3035188260",
         "https://openalex.org/W4365451773",
+        "https://openalex.org/W4229709421",
+        "https://openalex.org/W3205419042",
         "https://openalex.org/W4212773366",
-        "https://openalex.org/W2935817180"
+        "https://openalex.org/W4379347728",
+        "https://openalex.org/W4206105069",
+        "https://openalex.org/W2317481205",
+        "https://openalex.org/W2935817180",
+        "https://openalex.org/W3004327159",
+        "https://openalex.org/W3207433824",
+        "https://openalex.org/W2943098170",
+        "https://openalex.org/W4312648657"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -16990,7 +16990,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.80995119,
+        "value": 0.78907925,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -17339,8 +17339,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 38,
       "referenced_works": [
@@ -18160,11 +18160,11 @@
           "is_corresponding": false,
           "raw_author_name": "Alexandra Scerbacova",
           "raw_affiliation_strings": [
-            "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia"
+            "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia",
+              "raw_affiliation_string": "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -18196,11 +18196,11 @@
           "is_corresponding": false,
           "raw_author_name": "Ibtisam I. Bin Sharfan",
           "raw_affiliation_strings": [
-            "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia"
+            "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia",
+              "raw_affiliation_string": "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -18229,14 +18229,14 @@
           "countries": [
             "SA"
           ],
-          "is_corresponding": false,
+          "is_corresponding": true,
           "raw_author_name": "Mahmoud A. Abdulhamid",
           "raw_affiliation_strings": [
-            "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia"
+            "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Sustainable and Resilient Materials Lab Center for Integrative Petroleum Research (CIPR) College of Petroleum Engineering &amp; Geosciences (CPG) King Fahd University of Petroleum and Minerals  Dhahran Saudi Arabia",
+              "raw_affiliation_string": "Sustainable and Resilient Materials Lab, Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG), King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -18247,15 +18247,19 @@
       "institutions": [],
       "countries_distinct_count": 1,
       "institutions_distinct_count": 3,
-      "corresponding_author_ids": [],
-      "corresponding_institution_ids": [],
+      "corresponding_author_ids": [
+        "https://openalex.org/A5083774843"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
       "apc_list": null,
       "apc_paid": null,
       "fwci": 3.06327829,
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.87015536,
+        "value": 0.85335689,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -18578,8 +18582,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 63,
       "referenced_works": [
@@ -18629,23 +18633,23 @@
         "https://openalex.org/W2023276814",
         "https://openalex.org/W2317813775",
         "https://openalex.org/W2887424861",
-        "https://openalex.org/W4387702076",
-        "https://openalex.org/W1989716604",
-        "https://openalex.org/W2056501647",
-        "https://openalex.org/W2091020328",
         "https://openalex.org/W2066854206",
-        "https://openalex.org/W2946858441",
-        "https://openalex.org/W2094059153",
-        "https://openalex.org/W2052227116",
+        "https://openalex.org/W2091020328",
         "https://openalex.org/W3201697790",
-        "https://openalex.org/W63294479",
-        "https://openalex.org/W1997783064",
-        "https://openalex.org/W3087762426",
+        "https://openalex.org/W4396773761",
+        "https://openalex.org/W4387702076",
+        "https://openalex.org/W2094059153",
+        "https://openalex.org/W2056501647",
+        "https://openalex.org/W1989716604",
+        "https://openalex.org/W2052227116",
+        "https://openalex.org/W4245252993",
+        "https://openalex.org/W4388750918",
         "https://openalex.org/W2033303477",
         "https://openalex.org/W2500866594",
-        "https://openalex.org/W4396773761",
-        "https://openalex.org/W4388750918",
-        "https://openalex.org/W4245252993"
+        "https://openalex.org/W2946858441",
+        "https://openalex.org/W1997783064",
+        "https://openalex.org/W63294479",
+        "https://openalex.org/W3087762426"
       ],
       "related_works": [
         "https://openalex.org/W2120330316",
@@ -19210,7 +19214,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.12495895,
+        "value": 0.12563639,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19399,8 +19403,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -19643,15 +19647,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
-              "institution_ids": [
-                "https://openalex.org/I4210092357"
-              ]
-            },
-            {
               "raw_affiliation_string": "Moldova State University",
               "institution_ids": [
                 "https://openalex.org/I29920723"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
+              "institution_ids": [
+                "https://openalex.org/I4210092357"
               ]
             },
             {
@@ -19715,15 +19719,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
-              "institution_ids": [
-                "https://openalex.org/I4210092357"
-              ]
-            },
-            {
               "raw_affiliation_string": "Moldova State University",
               "institution_ids": [
                 "https://openalex.org/I29920723"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
+              "institution_ids": [
+                "https://openalex.org/I4210092357"
               ]
             },
             {
@@ -19746,7 +19750,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17179676,
+        "value": 0.17125117,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20100,8 +20104,8 @@
       },
       "sustainable_development_goals": [
         {
-          "id": "https://metadata.un.org/sdg/10",
           "display_name": "Reduced inequalities",
+          "id": "https://metadata.un.org/sdg/10",
           "score": 0.6399999856948853
         }
       ],
@@ -20109,8 +20113,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 13,
       "referenced_works": [
@@ -20121,12 +20125,12 @@
         "https://openalex.org/W6782513910",
         "https://openalex.org/W6746261349",
         "https://openalex.org/W49730022",
-        "https://openalex.org/W2963643121",
-        "https://openalex.org/W2617573639",
-        "https://openalex.org/W3084393768",
         "https://openalex.org/W2073205225",
         "https://openalex.org/W2069909488",
-        "https://openalex.org/W4240995166"
+        "https://openalex.org/W3084393768",
+        "https://openalex.org/W2963643121",
+        "https://openalex.org/W4240995166",
+        "https://openalex.org/W2617573639"
       ],
       "related_works": [
         "https://openalex.org/W2186480202",

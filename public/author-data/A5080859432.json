@@ -588,13 +588,13 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.79972295,
+        "value": 0.79796499,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 96,
-        "max": 99
+        "max": 98
       },
       "biblio": {
         "volume": "649",
@@ -1061,8 +1061,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 68,
       "referenced_works": [
@@ -1130,10 +1130,10 @@
         "https://openalex.org/W3128154228",
         "https://openalex.org/W2085891910",
         "https://openalex.org/W2889711471",
-        "https://openalex.org/W3119005302",
         "https://openalex.org/W2443182560",
         "https://openalex.org/W3215035121",
-        "https://openalex.org/W657172634"
+        "https://openalex.org/W657172634",
+        "https://openalex.org/W3119005302"
       ],
       "related_works": [
         "https://openalex.org/W2057275781",
@@ -1291,14 +1291,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG)",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "King Fahd University of Petroleum and Minerals (KFUPM)",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
-            },
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences (CPG)",
-              "institution_ids": []
             }
           ]
         },
@@ -1355,7 +1355,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.97501226,
+        "value": 0.97079805,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1634,8 +1634,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 79,
       "referenced_works": [
@@ -2011,7 +2011,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.41945451,
+        "value": 0.41927249,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2289,8 +2289,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 53,
       "referenced_works": [
@@ -2344,9 +2344,9 @@
         "https://openalex.org/W3128154228",
         "https://openalex.org/W2085891910",
         "https://openalex.org/W2889711471",
-        "https://openalex.org/W2251675954",
+        "https://openalex.org/W1984728151",
         "https://openalex.org/W2134069816",
-        "https://openalex.org/W1984728151"
+        "https://openalex.org/W2251675954"
       ],
       "related_works": [
         "https://openalex.org/W2202470948",

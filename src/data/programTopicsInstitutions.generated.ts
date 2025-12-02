@@ -469,7 +469,7 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
     "program": "GP",
     "year": 2025,
     "worksWithTopics": 47,
-    "institutionLinks": 68
+    "institutionLinks": 70
   },
   {
     "program": "GS",
@@ -564,7 +564,7 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "GS",
     "year": 2001,
-    "worksWithTopics": 5,
+    "worksWithTopics": 4,
     "institutionLinks": 3
   },
   {
@@ -576,7 +576,7 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "GS",
     "year": 2004,
-    "worksWithTopics": 3,
+    "worksWithTopics": 4,
     "institutionLinks": 4
   },
   {
@@ -703,7 +703,7 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
     "program": "GS",
     "year": 2025,
     "worksWithTopics": 85,
-    "institutionLinks": 93
+    "institutionLinks": 95
   },
   {
     "program": "INT",
@@ -774,8 +774,8 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "INT",
     "year": 2001,
-    "worksWithTopics": 3,
-    "institutionLinks": 2
+    "worksWithTopics": 5,
+    "institutionLinks": 4
   },
   {
     "program": "INT",
@@ -786,140 +786,140 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "INT",
     "year": 2003,
-    "worksWithTopics": 4,
-    "institutionLinks": 1
+    "worksWithTopics": 6,
+    "institutionLinks": 3
   },
   {
     "program": "INT",
     "year": 2004,
-    "worksWithTopics": 8,
+    "worksWithTopics": 11,
     "institutionLinks": 7
   },
   {
     "program": "INT",
     "year": 2005,
-    "worksWithTopics": 4,
+    "worksWithTopics": 7,
     "institutionLinks": 7
   },
   {
     "program": "INT",
     "year": 2006,
-    "worksWithTopics": 9,
-    "institutionLinks": 12
+    "worksWithTopics": 13,
+    "institutionLinks": 50
   },
   {
     "program": "INT",
     "year": 2007,
-    "worksWithTopics": 10,
+    "worksWithTopics": 12,
     "institutionLinks": 10
   },
   {
     "program": "INT",
     "year": 2008,
-    "worksWithTopics": 28,
-    "institutionLinks": 32
+    "worksWithTopics": 31,
+    "institutionLinks": 44
   },
   {
     "program": "INT",
     "year": 2009,
-    "worksWithTopics": 20,
+    "worksWithTopics": 22,
     "institutionLinks": 25
   },
   {
     "program": "INT",
     "year": 2010,
-    "worksWithTopics": 31,
-    "institutionLinks": 48
+    "worksWithTopics": 34,
+    "institutionLinks": 49
   },
   {
     "program": "INT",
     "year": 2011,
-    "worksWithTopics": 49,
-    "institutionLinks": 68
+    "worksWithTopics": 51,
+    "institutionLinks": 75
   },
   {
     "program": "INT",
     "year": 2012,
-    "worksWithTopics": 30,
-    "institutionLinks": 51
+    "worksWithTopics": 37,
+    "institutionLinks": 60
   },
   {
     "program": "INT",
     "year": 2013,
-    "worksWithTopics": 39,
-    "institutionLinks": 58
+    "worksWithTopics": 48,
+    "institutionLinks": 82
   },
   {
     "program": "INT",
     "year": 2014,
-    "worksWithTopics": 61,
-    "institutionLinks": 87
+    "worksWithTopics": 75,
+    "institutionLinks": 114
   },
   {
     "program": "INT",
     "year": 2015,
-    "worksWithTopics": 149,
-    "institutionLinks": 110
+    "worksWithTopics": 165,
+    "institutionLinks": 144
   },
   {
     "program": "INT",
     "year": 2016,
-    "worksWithTopics": 95,
-    "institutionLinks": 132
+    "worksWithTopics": 106,
+    "institutionLinks": 162
   },
   {
     "program": "INT",
     "year": 2017,
-    "worksWithTopics": 143,
-    "institutionLinks": 268
+    "worksWithTopics": 152,
+    "institutionLinks": 289
   },
   {
     "program": "INT",
     "year": 2018,
-    "worksWithTopics": 203,
-    "institutionLinks": 405
+    "worksWithTopics": 210,
+    "institutionLinks": 429
   },
   {
     "program": "INT",
     "year": 2019,
-    "worksWithTopics": 281,
-    "institutionLinks": 470
+    "worksWithTopics": 292,
+    "institutionLinks": 493
   },
   {
     "program": "INT",
     "year": 2020,
-    "worksWithTopics": 287,
-    "institutionLinks": 536
+    "worksWithTopics": 301,
+    "institutionLinks": 575
   },
   {
     "program": "INT",
     "year": 2021,
-    "worksWithTopics": 317,
-    "institutionLinks": 551
-  },
-  {
-    "program": "INT",
-    "year": 2022,
-    "worksWithTopics": 310,
-    "institutionLinks": 605
-  },
-  {
-    "program": "INT",
-    "year": 2023,
-    "worksWithTopics": 320,
+    "worksWithTopics": 332,
     "institutionLinks": 608
   },
   {
     "program": "INT",
+    "year": 2022,
+    "worksWithTopics": 333,
+    "institutionLinks": 693
+  },
+  {
+    "program": "INT",
+    "year": 2023,
+    "worksWithTopics": 338,
+    "institutionLinks": 665
+  },
+  {
+    "program": "INT",
     "year": 2024,
-    "worksWithTopics": 351,
-    "institutionLinks": 515
+    "worksWithTopics": 371,
+    "institutionLinks": 562
   },
   {
     "program": "INT",
     "year": 2025,
-    "worksWithTopics": 240,
-    "institutionLinks": 290
+    "worksWithTopics": 256,
+    "institutionLinks": 347
   },
   {
     "program": "MMM",
@@ -1242,8 +1242,8 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "OFC",
     "year": 2019,
-    "worksWithTopics": 103,
-    "institutionLinks": 179
+    "worksWithTopics": 105,
+    "institutionLinks": 181
   },
   {
     "program": "OFC",
@@ -1254,32 +1254,32 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
   {
     "program": "OFC",
     "year": 2021,
-    "worksWithTopics": 120,
-    "institutionLinks": 191
+    "worksWithTopics": 122,
+    "institutionLinks": 194
   },
   {
     "program": "OFC",
     "year": 2022,
-    "worksWithTopics": 108,
-    "institutionLinks": 174
+    "worksWithTopics": 114,
+    "institutionLinks": 183
   },
   {
     "program": "OFC",
     "year": 2023,
-    "worksWithTopics": 152,
-    "institutionLinks": 281
+    "worksWithTopics": 158,
+    "institutionLinks": 293
   },
   {
     "program": "OFC",
     "year": 2024,
-    "worksWithTopics": 161,
-    "institutionLinks": 269
+    "worksWithTopics": 157,
+    "institutionLinks": 259
   },
   {
     "program": "OFC",
     "year": 2025,
-    "worksWithTopics": 129,
-    "institutionLinks": 142
+    "worksWithTopics": 131,
+    "institutionLinks": 150
   },
   {
     "program": "PRP",
@@ -1399,6 +1399,6 @@ export const programTopicsInstitutionsByYear: ProgramTopicsInstitutionsYear[] = 
     "program": "PRP",
     "year": 2025,
     "worksWithTopics": 90,
-    "institutionLinks": 98
+    "institutionLinks": 101
   }
 ];

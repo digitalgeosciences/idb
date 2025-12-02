@@ -11,6 +11,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Button } from "@/components/ui/button";
 import { toast } from "@/components/ui/use-toast";
 import { Input } from "@/components/ui/input";
+import { makeWorkKey, normalizeOpenAlexId } from "@/lib/utils";
 
 type MemberSortField = "name" | "program" | "publications" | "citations" | "hIndex";
 
@@ -87,35 +88,68 @@ const Members = () => {
     const from = startYear ?? allYears[0];
     const to = endYear ?? allYears[allYears.length - 1];
 
-    const temp = new Map<
-      string,
-      { citationsList: number[] }
-    >();
+    type Bucket = { citationsList: number[]; seenWorkKeys: Set<string> };
+    const temp = new Map<string, Bucket>();
 
-    for (const w of worksTable) {
-      if (!w.year) continue;
-      if (w.year < from || w.year > to) continue;
-      const citations = w.citations ?? 0;
-      const authorsList = Array.from(new Set(w.allAuthors || []));
-      for (const name of authorsList) {
-        const bucket = temp.get(name) ?? { citationsList: [] };
+    worksTable.forEach((work) => {
+      if (!work.year) return;
+      if (work.year < from || work.year > to) return;
+
+      const baseKey = makeWorkKey(work);
+      const workKey =
+        baseKey ||
+        `${work.workId || ""}|${work.doi || ""}|${work.program || ""}|${work.title || ""}|${work.year ?? ""}`;
+
+      const citations = work.citations ?? 0;
+
+      const idKeys = Array.from(
+        new Set(
+          (work.allAuthorOpenAlexIds || [])
+            .map((raw) => normalizeOpenAlexId(raw))
+            .filter((id): id is string => !!id)
+            .map((id) => `id:${id}`),
+        ),
+      );
+
+      const nameKeys = Array.from(
+        new Set(
+          (work.allAuthors || [])
+            .map((name) => name?.trim().toLowerCase())
+            .filter((name): name is string => !!name)
+            .map((name) => `name:${name}`),
+        ),
+      );
+
+      const participantKeys = [...idKeys, ...nameKeys];
+      const perWorkSeen = new Set<string>();
+
+      participantKeys.forEach((key) => {
+        if (perWorkSeen.has(key)) return;
+        perWorkSeen.add(key);
+
+        const bucket = temp.get(key) ?? { citationsList: [], seenWorkKeys: new Set<string>() };
+        if (bucket.seenWorkKeys.has(workKey)) {
+          temp.set(key, bucket);
+          return;
+        }
+        bucket.seenWorkKeys.add(workKey);
         bucket.citationsList.push(citations);
-        temp.set(name, bucket);
-      }
-    }
+        temp.set(key, bucket);
+      });
+    });
 
     const result = new Map<string, { publications: number; citations: number; hIndex: number }>();
 
-    for (const [authorName, value] of temp) {
-      const pubs = value.citationsList.length;
+    for (const [key, value] of temp) {
+      const pubs = value.seenWorkKeys.size;
       const citations = value.citationsList.reduce((sum, c) => sum + c, 0);
-      let h = 0;
       const sorted = [...value.citationsList].sort((a, b) => b - a);
+      let h = 0;
       for (let i = 0; i < sorted.length; i += 1) {
         if (sorted[i] >= i + 1) h = i + 1;
         else break;
       }
-      result.set(authorName, { publications: pubs, citations, hIndex: h });
+      result.set(key, { publications: pubs, citations, hIndex: h });
     }
 
     return result;
@@ -127,7 +161,10 @@ const Members = () => {
       const affiliates = [author.affiliate1, author.affiliate2, author.affiliate3]
         .filter(Boolean)
         .join(", ");
-      const metrics = metricsByAuthor.get(author.name) || null;
+      const normalizedId = normalizeOpenAlexId(author.openAlexId);
+      const fallbackName = author.name.trim().toLowerCase();
+      const key = normalizedId ? `id:${normalizedId}` : fallbackName ? `name:${fallbackName}` : null;
+      const metrics = key ? metricsByAuthor.get(key) || null : null;
 
       return {
         id: author.authorId,
@@ -137,7 +174,7 @@ const Members = () => {
         affiliations: affiliates,
         publications: metrics ? metrics.publications : 0,
         citations: metrics ? metrics.citations : 0,
-        hIndex: author.hIndex,
+        hIndex: metrics ? metrics.hIndex : author.hIndex,
         openAlexId: author.openAlexId,
       };
     });

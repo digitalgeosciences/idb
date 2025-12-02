@@ -535,7 +535,7 @@
       "has_fulltext": false,
       "cited_by_count": 116,
       "citation_normalized_percentile": {
-        "value": 0.99110815,
+        "value": 0.99117558,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -807,8 +807,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.44999998807907104,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -856,19 +856,19 @@
         "https://openalex.org/W6700457952",
         "https://openalex.org/W2049391017",
         "https://openalex.org/W6684789337",
-        "https://openalex.org/W2096400013",
-        "https://openalex.org/W1993675471",
-        "https://openalex.org/W2132646742",
-        "https://openalex.org/W2331154149",
-        "https://openalex.org/W2231175683",
-        "https://openalex.org/W2317831045",
-        "https://openalex.org/W1975506629",
         "https://openalex.org/W2167416562",
+        "https://openalex.org/W1993675471",
+        "https://openalex.org/W2323570325",
+        "https://openalex.org/W2096400013",
+        "https://openalex.org/W1975506629",
         "https://openalex.org/W2313412978",
         "https://openalex.org/W2331912909",
-        "https://openalex.org/W2323570325",
+        "https://openalex.org/W2132646742",
+        "https://openalex.org/W2317831045",
         "https://openalex.org/W1999799664",
-        "https://openalex.org/W2326958447"
+        "https://openalex.org/W2326958447",
+        "https://openalex.org/W2331154149",
+        "https://openalex.org/W2231175683"
       ],
       "related_works": [
         "https://openalex.org/W4210410444",
@@ -1714,11 +1714,11 @@
         "currency": "USD",
         "value_usd": 4540
       },
-      "fwci": 25.03340299,
+      "fwci": 25.28884588,
       "has_fulltext": false,
-      "cited_by_count": 98,
+      "cited_by_count": 99,
       "citation_normalized_percentile": {
-        "value": 0.99597077,
+        "value": 0.99592673,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -1979,35 +1979,6 @@
           "raw_type": "journal-article"
         },
         {
-          "id": "pmh:oai:repository.kaust.edu.sa:10754/690507",
-          "is_oa": true,
-          "landing_page_url": "http://hdl.handle.net/10754/690507",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401596",
-            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I71920554",
-            "host_organization_name": "King Abdullah University of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I71920554"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "Article"
-        },
-        {
           "id": "pmh:oai:tudelft.nl:uuid:aec253c0-0704-4f59-b171-cfaada77e667",
           "is_oa": false,
           "landing_page_url": "http://resolver.tudelft.nl/uuid:aec253c0-0704-4f59-b171-cfaada77e667",
@@ -2035,6 +2006,35 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "review"
+        },
+        {
+          "id": "pmh:oai:repository.kaust.edu.sa:10754/690507",
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/10754/690507",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401596",
+            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I71920554",
+            "host_organization_name": "King Abdullah University of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I71920554"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
         }
       ],
       "best_oa_location": {
@@ -2352,50 +2352,50 @@
         "https://openalex.org/W2912815540",
         "https://openalex.org/W6750105550",
         "https://openalex.org/W2899651173",
+        "https://openalex.org/W3135474902",
+        "https://openalex.org/W4302028744",
+        "https://openalex.org/W3090139814",
+        "https://openalex.org/W3102041920",
+        "https://openalex.org/W2967508766",
+        "https://openalex.org/W3121383166",
+        "https://openalex.org/W2481606360",
+        "https://openalex.org/W2596294034",
+        "https://openalex.org/W2891863585",
+        "https://openalex.org/W2749056081",
+        "https://openalex.org/W4211153302",
+        "https://openalex.org/W3102755745",
+        "https://openalex.org/W4251658380",
+        "https://openalex.org/W2794417179",
+        "https://openalex.org/W2807272404",
         "https://openalex.org/W2775774141",
+        "https://openalex.org/W4220807546",
+        "https://openalex.org/W4313374006",
+        "https://openalex.org/W3149008029",
+        "https://openalex.org/W4240160061",
+        "https://openalex.org/W2967364702",
+        "https://openalex.org/W563788284",
+        "https://openalex.org/W4249414176",
+        "https://openalex.org/W3207967945",
+        "https://openalex.org/W4281773160",
+        "https://openalex.org/W4297310210",
+        "https://openalex.org/W4220811308",
+        "https://openalex.org/W3091361582",
+        "https://openalex.org/W3208869780",
+        "https://openalex.org/W4225392242",
+        "https://openalex.org/W3026667335",
+        "https://openalex.org/W3107569396",
+        "https://openalex.org/W4244785404",
+        "https://openalex.org/W4241123205",
+        "https://openalex.org/W4214562496",
+        "https://openalex.org/W3125476449",
+        "https://openalex.org/W3124561108",
         "https://openalex.org/W3082360578",
         "https://openalex.org/W3104522765",
-        "https://openalex.org/W3102755745",
-        "https://openalex.org/W3125476449",
-        "https://openalex.org/W3107569396",
-        "https://openalex.org/W4249414176",
-        "https://openalex.org/W4297310210",
-        "https://openalex.org/W3149008029",
         "https://openalex.org/W3105036101",
-        "https://openalex.org/W2967364702",
-        "https://openalex.org/W4224017710",
-        "https://openalex.org/W563788284",
-        "https://openalex.org/W2891863585",
-        "https://openalex.org/W2794417179",
-        "https://openalex.org/W4313374006",
-        "https://openalex.org/W4244785404",
-        "https://openalex.org/W3121383166",
-        "https://openalex.org/W3199948257",
-        "https://openalex.org/W4240160061",
-        "https://openalex.org/W2749056081",
-        "https://openalex.org/W4241123205",
-        "https://openalex.org/W4251658380",
-        "https://openalex.org/W2481606360",
-        "https://openalex.org/W3090139814",
-        "https://openalex.org/W4214562496",
-        "https://openalex.org/W4281773160",
-        "https://openalex.org/W4220811308",
-        "https://openalex.org/W2807272404",
-        "https://openalex.org/W3135474902",
         "https://openalex.org/W2770650758",
-        "https://openalex.org/W3091361582",
-        "https://openalex.org/W3026667335",
-        "https://openalex.org/W3207967945",
-        "https://openalex.org/W3102041920",
-        "https://openalex.org/W4302028744",
-        "https://openalex.org/W2596294034",
-        "https://openalex.org/W3102794316",
-        "https://openalex.org/W4220807546",
-        "https://openalex.org/W4225392242",
-        "https://openalex.org/W3208869780",
-        "https://openalex.org/W4211153302",
-        "https://openalex.org/W3124561108",
-        "https://openalex.org/W2967508766"
+        "https://openalex.org/W4224017710",
+        "https://openalex.org/W3199948257",
+        "https://openalex.org/W3102794316"
       ],
       "related_works": [
         "https://openalex.org/W4211018995",
@@ -2409,11 +2409,449 @@
         "https://openalex.org/W2326651046",
         "https://openalex.org/W4235678604"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "confluence": [
+          1
+        ],
+        "of": [
+          2,
+          31,
+          68,
+          109,
+          148,
+          177
+        ],
+        "our": [
+          3,
+          66,
+          146
+        ],
+        "ability": [
+          4
+        ],
+        "to": [
+          5,
+          60,
+          172
+        ],
+        "handle": [
+          6,
+          173
+        ],
+        "big": [
+          7
+        ],
+        "data,": [
+          8
+        ],
+        "significant": [
+          9
+        ],
+        "increases": [
+          10
+        ],
+        "in": [
+          11,
+          19,
+          46,
+          48,
+          72,
+          82,
+          136,
+          151,
+          180
+        ],
+        "instrumentation": [
+          12
+        ],
+        "density": [
+          13
+        ],
+        "and": [
+          14,
+          16,
+          75,
+          96,
+          119,
+          142,
+          169
+        ],
+        "quality,": [
+          15,
+          92
+        ],
+        "rapid": [
+          17
+        ],
+        "advances": [
+          18
+        ],
+        "machine": [
+          20
+        ],
+        "learning": [
+          21
+        ],
+        "(ML)": [
+          22
+        ],
+        "algorithms": [
+          23
+        ],
+        "have": [
+          24,
+          36
+        ],
+        "placed": [
+          25
+        ],
+        "Earth": [
+          26
+        ],
+        "Sciences": [
+          27
+        ],
+        "at": [
+          28
+        ],
+        "the": [
+          29,
+          42,
+          69,
+          88,
+          174
+        ],
+        "threshold": [
+          30
+        ],
+        "dramatic": [
+          32
+        ],
+        "progress.": [
+          33
+        ],
+        "ML": [
+          34,
+          84,
+          152
+        ],
+        "techniques": [
+          35
+        ],
+        "been": [
+          37
+        ],
+        "attracting": [
+          38
+        ],
+        "increased": [
+          39
+        ],
+        "attention": [
+          40
+        ],
+        "within": [
+          41
+        ],
+        "seismic": [
+          43,
+          90,
+          124
+        ],
+        "community,": [
+          44
+        ],
+        "and,": [
+          45
+        ],
+        "particular,": [
+          47
+        ],
+        "microseismic": [
+          49,
+          73,
+          94
+        ],
+        "monitoring": [
+          50,
+          74,
+          171
+        ],
+        "where": [
+          51
+        ],
+        "they": [
+          52,
+          101
+        ],
+        "are": [
+          53,
+          102
+        ],
+        "now": [
+          54
+        ],
+        "being": [
+          55,
+          103
+        ],
+        "considered": [
+          56
+        ],
+        "a": [
+          57,
+          79,
+          157
+        ],
+        "game-changer": [
+          58
+        ],
+        "due": [
+          59
+        ],
+        "their": [
+          61,
+          98
+        ],
+        "real-time": [
+          62,
+          170
+        ],
+        "processing": [
+          63
+        ],
+        "potential.": [
+          64
+        ],
+        "In": [
+          65,
+          145
+        ],
+        "review": [
+          67
+        ],
+        "recent": [
+          70
+        ],
+        "developments": [
+          71
+        ],
+        "characterisation,": [
+          76
+        ],
+        "we": [
+          77,
+          154
+        ],
+        "find": [
+          78
+        ],
+        "strong": [
+          80,
+          158
+        ],
+        "trend": [
+          81
+        ],
+        "utilising": [
+          83
+        ],
+        "methods": [
+          85
+        ],
+        "for": [
+          86,
+          105
+        ],
+        "enhancing": [
+          87
+        ],
+        "passive": [
+          89
+        ],
+        "data": [
+          91,
+          143,
+          168,
+          178
+        ],
+        "detecting": [
+          93
+        ],
+        "events,": [
+          95
+        ],
+        "locating": [
+          97
+        ],
+        "hypocenters.": [
+          99
+        ],
+        "Moreover,": [
+          100
+        ],
+        "adopted": [
+          104
+        ],
+        "advanced": [
+          106
+        ],
+        "event": [
+          107
+        ],
+        "characterisation": [
+          108
+        ],
+        "induced": [
+          110
+        ],
+        "seismicity,": [
+          111
+        ],
+        "such": [
+          112
+        ],
+        "as": [
+          113,
+          121,
+          123
+        ],
+        "source": [
+          114
+        ],
+        "mechanism": [
+          115
+        ],
+        "determination,": [
+          116
+        ],
+        "cluster": [
+          117
+        ],
+        "analysis": [
+          118,
+          141
+        ],
+        "forecasting,": [
+          120
+        ],
+        "well": [
+          122
+        ],
+        "velocity": [
+          125
+        ],
+        "inversion.": [
+          126
+        ],
+        "These": [
+          127
+        ],
+        "advancements,": [
+          128
+        ],
+        "based": [
+          129
+        ],
+        "on": [
+          130,
+          163
+        ],
+        "ML,": [
+          131
+        ],
+        "include": [
+          132
+        ],
+        "by-products": [
+          133
+        ],
+        "often": [
+          134
+        ],
+        "ignored": [
+          135
+        ],
+        "classical": [
+          137
+        ],
+        "methods,": [
+          138
+        ],
+        "like": [
+          139
+        ],
+        "uncertainty": [
+          140
+        ],
+        "statistics.": [
+          144
+        ],
+        "assessment": [
+          147
+        ],
+        "future": [
+          149
+        ],
+        "trends": [
+          150
+        ],
+        "utilisation,": [
+          153
+        ],
+        "also": [
+          155
+        ],
+        "see": [
+          156
+        ],
+        "push": [
+          159
+        ],
+        "toward": [
+          160
+        ],
+        "its": [
+          161
+        ],
+        "application": [
+          162
+        ],
+        "distributed": [
+          164
+        ],
+        "acoustic": [
+          165
+        ],
+        "sensing": [
+          166
+        ],
+        "(DAS)": [
+          167
+        ],
+        "large": [
+          175
+        ],
+        "amount": [
+          176
+        ],
+        "acquired": [
+          179
+        ],
+        "these": [
+          181
+        ],
+        "cases.": [
+          182
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 43
+          "cited_by_count": 44
         },
         {
           "year": 2024,
@@ -2657,7 +3095,7 @@
       "has_fulltext": false,
       "cited_by_count": 65,
       "citation_normalized_percentile": {
-        "value": 0.75986385,
+        "value": 0.75977359,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3668,7 +4106,7 @@
       "has_fulltext": true,
       "cited_by_count": 42,
       "citation_normalized_percentile": {
-        "value": 0.97413518,
+        "value": 0.97413824,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4048,10 +4486,10 @@
         "https://openalex.org/W2087130914",
         "https://openalex.org/W2132547391",
         "https://openalex.org/W6684789337",
-        "https://openalex.org/W2331154149",
         "https://openalex.org/W2167416562",
-        "https://openalex.org/W2498998502",
-        "https://openalex.org/W2183396018"
+        "https://openalex.org/W2183396018",
+        "https://openalex.org/W2331154149",
+        "https://openalex.org/W2498998502"
       ],
       "related_works": [
         "https://openalex.org/W2162899405",
@@ -4483,7 +4921,7 @@
       "publication_date": "2021-08-11",
       "ids": {
         "openalex": "https://openalex.org/W3190807736",
-        "doi": "https://doi.org/10.26083/tuprints-00019651",
+        "doi": "https://doi.org/10.5194/se-12-1777-2021",
         "mag": "3190807736"
       },
       "language": "en",
@@ -4813,15 +5251,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute for Applied Geosciences, TU Berlin, 10587 Berlin, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4577782"
-              ]
-            },
-            {
               "raw_affiliation_string": "Seismic Hazard and Risk Dynamics, GFZ German Research Centre for Geosciences, 14473 Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute for Applied Geosciences, TU Berlin, 10587 Berlin, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4577782"
               ]
             }
           ]
@@ -4922,12 +5360,12 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 10,
       "corresponding_author_ids": [
-        "https://openalex.org/A5058020024",
-        "https://openalex.org/A5021569937",
-        "https://openalex.org/A5049820965",
         "https://openalex.org/A5009590489",
         "https://openalex.org/A5013501440",
-        "https://openalex.org/A5038133054"
+        "https://openalex.org/A5049820965",
+        "https://openalex.org/A5021569937",
+        "https://openalex.org/A5038133054",
+        "https://openalex.org/A5058020024"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I31512782",
@@ -4949,7 +5387,7 @@
       "has_fulltext": true,
       "cited_by_count": 34,
       "citation_normalized_percentile": {
-        "value": 0.95075792,
+        "value": 0.95073697,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -5311,35 +5749,6 @@
           "raw_type": "Artikel"
         },
         {
-          "id": "pmh:oai:doaj.org/article:954f9809cca74cd09145098a2884153a",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/954f9809cca74cd09145098a2884153a",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Solid Earth, Vol 12, Pp 1777-1799 (2021)",
-          "raw_type": "article"
-        },
-        {
           "id": "pmh:oai:tubiblio.ulb.tu-darmstadt.de:128684",
           "is_oa": false,
           "landing_page_url": "http://tubiblio.ulb.tu-darmstadt.de/128684/",
@@ -5369,13 +5778,42 @@
           "raw_type": "Artikel"
         },
         {
-          "id": "doi:10.5445/ir/1000137084",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.5445/ir/1000137084",
+          "id": "pmh:oai:doaj.org/article:954f9809cca74cd09145098a2884153a",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/954f9809cca74cd09145098a2884153a",
           "pdf_url": null,
           "source": {
-            "id": "https://openalex.org/S7407052948",
-            "display_name": "KITopen",
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              null
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Solid Earth, Vol 12, Pp 1777-1799 (2021)",
+          "raw_type": "article"
+        },
+        {
+          "id": "doi:10.26083/tuprints-00019651",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.26083/tuprints-00019651",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407051655",
+            "display_name": "TUprints",
             "issn_l": null,
             "issn": [],
             "is_oa": false,
@@ -5398,13 +5836,13 @@
           "raw_type": "article-journal"
         },
         {
-          "id": "doi:10.26083/tuprints-00019651",
+          "id": "doi:10.5445/ir/1000137084",
           "is_oa": true,
-          "landing_page_url": "https://doi.org/10.26083/tuprints-00019651",
+          "landing_page_url": "https://doi.org/10.5445/ir/1000137084",
           "pdf_url": null,
           "source": {
-            "id": "https://openalex.org/S7407051655",
-            "display_name": "TUprints",
+            "id": "https://openalex.org/S7407052948",
+            "display_name": "KITopen",
             "issn_l": null,
             "issn": [],
             "is_oa": false,
@@ -5583,16 +6021,16 @@
         "https://openalex.org/W3004857616",
         "https://openalex.org/W2004293503",
         "https://openalex.org/W2010482559",
-        "https://openalex.org/W4285719527",
         "https://openalex.org/W3090598075",
-        "https://openalex.org/W2292507142",
-        "https://openalex.org/W3084215735",
-        "https://openalex.org/W2214509940",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1489063266",
+        "https://openalex.org/W3163195245",
         "https://openalex.org/W609497948",
         "https://openalex.org/W3209757629",
-        "https://openalex.org/W2056145827",
-        "https://openalex.org/W3163195245",
-        "https://openalex.org/W1489063266"
+        "https://openalex.org/W2214509940",
+        "https://openalex.org/W3084215735",
+        "https://openalex.org/W2292507142",
+        "https://openalex.org/W2056145827"
       ],
       "related_works": [
         "https://openalex.org/W1984744666",
@@ -6414,7 +6852,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.88395596,
+        "value": 0.88398735,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6653,10 +7091,10 @@
         "https://openalex.org/W2023353918",
         "https://openalex.org/W2132547391",
         "https://openalex.org/W2049391017",
-        "https://openalex.org/W2317831045",
         "https://openalex.org/W1999799664",
+        "https://openalex.org/W1993675471",
         "https://openalex.org/W2167416562",
-        "https://openalex.org/W1993675471"
+        "https://openalex.org/W2317831045"
       ],
       "related_works": [
         "https://openalex.org/W4211018995",
@@ -7770,7 +8208,7 @@
       "publication_date": "2021-01-29",
       "ids": {
         "openalex": "https://openalex.org/W3092471829",
-        "doi": "https://doi.org/10.5194/se-12-275-2021",
+        "doi": "https://doi.org/10.17169/refubium-30105",
         "mag": "3092471829"
       },
       "language": "en",
@@ -7862,14 +8300,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "CEMarin – Corporation Center of Excellence in Marine Sciences, Bogotá, Colombia",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "GFZ German Research Centre for Geosciences, 14473 Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
-            },
-            {
-              "raw_affiliation_string": "CEMarin – Corporation Center of Excellence in Marine Sciences, Bogotá, Colombia",
-              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Facultad de Minas, Universidad Nacional de Colombia, Medellín, Colombia",
@@ -8031,10 +8469,10 @@
       "institutions_distinct_count": 5,
       "corresponding_author_ids": [
         "https://openalex.org/A5001491490",
-        "https://openalex.org/A5049820965",
         "https://openalex.org/A5012200782",
-        "https://openalex.org/A5066296717",
-        "https://openalex.org/A5009590489"
+        "https://openalex.org/A5049820965",
+        "https://openalex.org/A5009590489",
+        "https://openalex.org/A5066296717"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I36243813",
@@ -8055,7 +8493,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.85509888,
+        "value": 0.85506762,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8491,8 +8929,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [
@@ -9656,15 +10094,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Technical University of Berlin, Department Geotechnology, Berlin,\nGermany",
-              "institution_ids": [
-                "https://openalex.org/I4577782"
-              ]
-            },
-            {
               "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Department Geosystems,\nSection Basin Modelling, Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Technical University of Berlin, Department Geotechnology, Berlin,\nGermany",
+              "institution_ids": [
+                "https://openalex.org/I4577782"
               ]
             }
           ]
@@ -9821,15 +10259,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Department Geosystems,\nSection Basin Modelling, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "RWTH Aachen University, Faculty of Georesources and Material\nEngineering, Aachen, Germany",
               "institution_ids": [
                 "https://openalex.org/I887968799"
+              ]
+            },
+            {
+              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Department Geosystems,\nSection Basin Modelling, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -9840,10 +10278,10 @@
       "institutions_distinct_count": 6,
       "corresponding_author_ids": [
         "https://openalex.org/A5112350296",
-        "https://openalex.org/A5042963212",
+        "https://openalex.org/A5030462244",
         "https://openalex.org/A5053666190",
         "https://openalex.org/A5009590489",
-        "https://openalex.org/A5030462244",
+        "https://openalex.org/A5042963212",
         "https://openalex.org/A5049820965"
       ],
       "corresponding_institution_ids": [
@@ -9865,7 +10303,7 @@
       "has_fulltext": true,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.7636581,
+        "value": 0.76370545,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10338,15 +10776,15 @@
         "https://openalex.org/W1983642275",
         "https://openalex.org/W2098486629",
         "https://openalex.org/W2044345773",
-        "https://openalex.org/W2064731057",
         "https://openalex.org/W1980301146",
         "https://openalex.org/W2602390818",
+        "https://openalex.org/W2007056155",
+        "https://openalex.org/W2115744392",
+        "https://openalex.org/W1573398621",
+        "https://openalex.org/W2014163769",
         "https://openalex.org/W4211228162",
         "https://openalex.org/W3208917064",
-        "https://openalex.org/W2014163769",
-        "https://openalex.org/W1573398621",
-        "https://openalex.org/W2007056155",
-        "https://openalex.org/W2115744392"
+        "https://openalex.org/W2064731057"
       ],
       "related_works": [
         "https://openalex.org/W2792910491",
@@ -10915,7 +11353,7 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.85546075,
+        "value": 0.85535021,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12507,9 +12945,9 @@
       },
       "fwci": 1.65894347,
       "has_fulltext": false,
-      "cited_by_count": 11,
+      "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.83686897,
+        "value": 0.83671058,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12934,12 +13372,12 @@
         "https://openalex.org/W2794263985",
         "https://openalex.org/W2799626404",
         "https://openalex.org/W1996080599",
-        "https://openalex.org/W2750845734",
-        "https://openalex.org/W3094333491",
+        "https://openalex.org/W243865863",
         "https://openalex.org/W609497948",
         "https://openalex.org/W2518989752",
-        "https://openalex.org/W2786913905",
-        "https://openalex.org/W243865863"
+        "https://openalex.org/W2750845734",
+        "https://openalex.org/W3094333491",
+        "https://openalex.org/W2786913905"
       ],
       "related_works": [
         "https://openalex.org/W13926509",
@@ -13539,6 +13977,10 @@
       },
       "counts_by_year": [
         {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
           "year": 2024,
           "cited_by_count": 1
         },
@@ -13860,7 +14302,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.86137053,
+        "value": 0.86001119,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14218,12 +14660,12 @@
         "https://openalex.org/W3033495728",
         "https://openalex.org/W2049391017",
         "https://openalex.org/W2794417179",
+        "https://openalex.org/W2971377913",
         "https://openalex.org/W2156387975",
+        "https://openalex.org/W3122717346",
         "https://openalex.org/W4225392242",
         "https://openalex.org/W3102041920",
-        "https://openalex.org/W2971377913",
-        "https://openalex.org/W3107569396",
-        "https://openalex.org/W3122717346"
+        "https://openalex.org/W3107569396"
       ],
       "related_works": [
         "https://openalex.org/W2326651046",
@@ -14893,7 +15335,7 @@
       "publication_date": "2022-06-25",
       "ids": {
         "openalex": "https://openalex.org/W4283519737",
-        "doi": "https://doi.org/10.1186/s40517-022-00222-6"
+        "doi": "https://doi.org/10.5445/ir/1000149378"
       },
       "language": "en",
       "primary_location": {
@@ -15298,7 +15740,7 @@
       "has_fulltext": true,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.7502093,
+        "value": 0.7479793,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15801,8 +16243,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5600000023841858,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [
@@ -15921,7 +16363,421 @@
         "https://openalex.org/W1489759335",
         "https://openalex.org/W2010545840"
       ],
-      "abstract_inverted_index": null,
+      "abstract_inverted_index": {
+        "22": [
+          80
+        ],
+        "250": [
+          75
+        ],
+        "Abstract": [
+          0
+        ],
+        "Information": [
+          1
+        ],
+        "about": [
+          2,
+          74
+        ],
+        "the": [
+          3,
+          8,
+          16,
+          57,
+          66,
+          71,
+          85,
+          105,
+          123,
+          129,
+          138,
+          169,
+          173,
+          178
+        ],
+        "absolute": [
+          4,
+          130
+        ],
+        "stress": [
+          5,
+          60,
+          114,
+          131,
+          158
+        ],
+        "state": [
+          6
+        ],
+        "in": [
+          7,
+          15
+        ],
+        "upper": [
+          9
+        ],
+        "crust": [
+          10
+        ],
+        "plays": [
+          11
+        ],
+        "a": [
+          12,
+          43
+        ],
+        "crucial": [
+          13
+        ],
+        "role": [
+          14
+        ],
+        "planning": [
+          17
+        ],
+        "and": [
+          18,
+          25,
+          29,
+          111,
+          137,
+          147,
+          177
+        ],
+        "execution": [
+          19
+        ],
+        "of,": [
+          20
+        ],
+        "e.g.,": [
+          21
+        ],
+        "directional": [
+          22
+        ],
+        "drilling,": [
+          23
+        ],
+        "stimulation": [
+          24
+        ],
+        "exploitation": [
+          26
+        ],
+        "of": [
+          27,
+          34,
+          65,
+          104,
+          128
+        ],
+        "geothermal": [
+          28
+        ],
+        "hydrocarbon": [
+          30
+        ],
+        "reservoirs.": [
+          31
+        ],
+        "Since": [
+          32
+        ],
+        "many": [
+          33
+        ],
+        "these": [
+          35,
+          134
+        ],
+        "applications": [
+          36
+        ],
+        "are": [
+          37,
+          120
+        ],
+        "related": [
+          38
+        ],
+        "to": [
+          39,
+          55,
+          163
+        ],
+        "sediments,": [
+          40
+        ],
+        "we": [
+          41
+        ],
+        "present": [
+          42
+        ],
+        "refined": [
+          44
+        ],
+        "geomechanical–numerical": [
+          45
+        ],
+        "model": [
+          46,
+          67,
+          78,
+          94,
+          124,
+          139
+        ],
+        "for": [
+          47,
+          122,
+          144,
+          150
+        ],
+        "Germany": [
+          48
+        ],
+        "with": [
+          49,
+          82,
+          89,
+          101
+        ],
+        "focus": [
+          50,
+          83
+        ],
+        "on": [
+          51,
+          84
+        ],
+        "sedimentary": [
+          52,
+          86
+        ],
+        "basins,": [
+          53
+        ],
+        "able": [
+          54
+        ],
+        "predict": [
+          56
+        ],
+        "complete": [
+          58
+        ],
+        "3D": [
+          59
+        ],
+        "tensor.": [
+          61
+        ],
+        "The": [
+          62,
+          93,
+          126
+        ],
+        "lateral": [
+          63
+        ],
+        "resolution": [
+          64,
+          73
+        ],
+        "is": [
+          68,
+          141
+        ],
+        "2.5": [
+          69
+        ],
+        "km,": [
+          70
+        ],
+        "vertical": [
+          72
+        ],
+        "m.": [
+          76
+        ],
+        "Our": [
+          77
+        ],
+        "contains": [
+          79
+        ],
+        "units": [
+          81
+        ],
+        "layers": [
+          87
+        ],
+        "parameterized": [
+          88
+        ],
+        "individual": [
+          90
+        ],
+        "rock": [
+          91
+        ],
+        "properties.": [
+          92
+        ],
+        "results": [
+          95,
+          140
+        ],
+        "show": [
+          96
+        ],
+        "an": [
+          97
+        ],
+        "overall": [
+          98
+        ],
+        "good": [
+          99,
+          161
+        ],
+        "fit": [
+          100
+        ],
+        "magnitude": [
+          102
+        ],
+        "data": [
+          103,
+          136,
+          167
+        ],
+        "minimum": [
+          106
+        ],
+        "(": [
+          107,
+          115
+        ],
+        "S": [
+          108,
+          116,
+          145,
+          151
+        ],
+        "hmin": [
+          109,
+          146
+        ],
+        ")": [
+          110,
+          118
+        ],
+        "maximum": [
+          112
+        ],
+        "horizontal": [
+          113
+        ],
+        "Hmax": [
+          117,
+          152
+        ],
+        "that": [
+          119
+        ],
+        "used": [
+          121
+        ],
+        "calibration.": [
+          125
+        ],
+        "mean": [
+          127
+        ],
+        "differences": [
+          132
+        ],
+        "between": [
+          133
+        ],
+        "calibration": [
+          135
+        ],
+        "4.6": [
+          142
+        ],
+        "MPa": [
+          143,
+          149
+        ],
+        "6.4": [
+          148
+        ],
+        ".": [
+          153
+        ],
+        "In": [
+          154
+        ],
+        "addition,": [
+          155
+        ],
+        "our": [
+          156
+        ],
+        "predicted": [
+          157
+        ],
+        "field": [
+          159
+        ],
+        "shows": [
+          160
+        ],
+        "agreement": [
+          162
+        ],
+        "several": [
+          164
+        ],
+        "supplementary": [
+          165
+        ],
+        "in-situ": [
+          166
+        ],
+        "from": [
+          168
+        ],
+        "North": [
+          170
+        ],
+        "German": [
+          171
+        ],
+        "Basin,": [
+          172
+        ],
+        "Upper": [
+          174
+        ],
+        "Rhine": [
+          175
+        ],
+        "Graben": [
+          176
+        ],
+        "Molasse": [
+          179
+        ],
+        "Basin.": [
+          180
+        ]
+      },
       "counts_by_year": [
         {
           "year": 2025,
@@ -16071,15 +16927,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam–GFZ German Research Centre for Geosciences. Telegrafenberg, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "RWTH Aachen, Faculty of Georesources and Materials Engineering, Aachen, Germany",
               "institution_ids": [
                 "https://openalex.org/I887968799"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Helmholtz Centre Potsdam–GFZ German Research Centre for Geosciences. Telegrafenberg, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -16254,7 +17110,7 @@
       "has_fulltext": true,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.91263253,
+        "value": 0.91157626,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16574,35 +17430,6 @@
           "raw_type": "journal-article"
         },
         {
-          "id": "pmh:oai:www.duo.uio.no:10852/110085",
-          "is_oa": true,
-          "landing_page_url": "http://hdl.handle.net/10852/110085",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401717",
-            "display_name": "Duo Research Archive (University of Oslo)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I184942183",
-            "host_organization_name": "University of Oslo",
-            "host_organization_lineage": [
-              "https://openalex.org/I184942183"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "2662-4435",
-          "raw_type": "info:eu-repo/semantics/article"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:695518ab7d9849389ae0f0bfc21c54de",
           "is_oa": false,
           "landing_page_url": "https://doaj.org/article/695518ab7d9849389ae0f0bfc21c54de",
@@ -16630,6 +17457,35 @@
           "is_published": false,
           "raw_source_name": "Communications Earth & Environment, Vol 4, Iss 1, Pp 1-9 (2023)",
           "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:www.duo.uio.no:10852/110085",
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/10852/110085",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401717",
+            "display_name": "Duo Research Archive (University of Oslo)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I184942183",
+            "host_organization_name": "University of Oslo",
+            "host_organization_lineage": [
+              "https://openalex.org/I184942183"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "2662-4435",
+          "raw_type": "info:eu-repo/semantics/article"
         }
       ],
       "best_oa_location": {
@@ -16666,8 +17522,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -17276,7 +18132,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.63795163,
+        "value": 0.63795663,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17664,8 +18520,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5099999904632568,
-          "display_name": "Reduced inequalities",
-          "id": "https://metadata.un.org/sdg/10"
+          "id": "https://metadata.un.org/sdg/10",
+          "display_name": "Reduced inequalities"
         }
       ],
       "grants": [],
@@ -17693,10 +18549,10 @@
         "https://openalex.org/W2033094695",
         "https://openalex.org/W2079488242",
         "https://openalex.org/W1540232275",
-        "https://openalex.org/W2018152230",
-        "https://openalex.org/W2333866505",
+        "https://openalex.org/W2143476164",
         "https://openalex.org/W1546004968",
-        "https://openalex.org/W2143476164"
+        "https://openalex.org/W2018152230",
+        "https://openalex.org/W2333866505"
       ],
       "related_works": [
         "https://openalex.org/W2611031068",
@@ -18554,11 +19410,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.10709098,
+      "fwci": 1.29160614,
       "has_fulltext": true,
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.72946416,
+        "value": 0.76000953,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18869,8 +19725,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.6399999856948853,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [
@@ -18989,722 +19845,11 @@
         "https://openalex.org/W14044239",
         "https://openalex.org/W1924643921"
       ],
-      "abstract_inverted_index": {
-        "1": [
-          74
-        ],
-        "2": [
-          80
-        ],
-        "600": [
-          100
-        ],
-        "Abstract": [
-          0
-        ],
-        "Despite": [
-          1
-        ],
-        "the": [
-          2,
-          8,
-          22,
-          37,
-          45,
-          52,
-          71,
-          87,
-          112,
-          137,
-          142,
-          147,
-          154,
-          158,
-          163,
-          167,
-          181,
-          187,
-          197,
-          218,
-          222,
-          254,
-          304
-        ],
-        "amount": [
-          3
-        ],
-        "of": [
-          4,
-          29,
-          39,
-          44,
-          86,
-          89,
-          127,
-          141,
-          166,
-          221,
-          229,
-          253,
-          263
-        ],
-        "research": [
-          5
-        ],
-        "focussed": [
-          6
-        ],
-        "on": [
-          7,
-          217,
-          303
-        ],
-        "Alpine": [
-          9
-        ],
-        "orogen,": [
-          10
-        ],
-        "different": [
-          11,
-          125,
-          132
-        ],
-        "hypotheses": [
-          12
-        ],
-        "still": [
-          13
-        ],
-        "exist": [
-          14
-        ],
-        "regarding": [
-          15
-        ],
-        "varying": [
-          16
-        ],
-        "spatial": [
-          17,
-          59
-        ],
-        "seismicity": [
-          18,
-          63,
-          105,
-          123,
-          170,
-          195,
-          239
-        ],
-        "distribution": [
-          19,
-          32
-        ],
-        "patterns": [
-          20,
-          126
-        ],
-        "throughout": [
-          21
-        ],
-        "region.": [
-          23,
-          46,
-          305
-        ],
-        "Previous": [
-          24
-        ],
-        "measurement-constrained": [
-          25
-        ],
-        "regional": [
-          26
-        ],
-        "3D": [
-          27
-        ],
-        "models": [
-          28
-        ],
-        "lithospheric": [
-          30,
-          54,
-          120,
-          149
-        ],
-        "density": [
-          31
-        ],
-        "and": [
-          33,
-          56,
-          76,
-          114,
-          119,
-          122,
-          176,
-          183
-        ],
-        "thermal": [
-          34,
-          276
-        ],
-        "field": [
-          35
-        ],
-        "facilitate": [
-          36
-        ],
-        "generation": [
-          38
-        ],
-        "a": [
-          40
-        ],
-        "data-based": [
-          41
-        ],
-        "rheological": [
-          42
-        ],
-        "model": [
-          43
-        ],
-        "In": [
-          47,
-          162
-        ],
-        "this": [
-          48,
-          292
-        ],
-        "study,": [
-          49
-        ],
-        "we": [
-          50
-        ],
-        "compute": [
-          51
-        ],
-        "long-term": [
-          53
-        ],
-        "strength": [
-          55,
-          68
-        ],
-        "compare": [
-          57
-        ],
-        "its": [
-          58
-        ],
-        "variation": [
-          60
-        ],
-        "to": [
-          61,
-          146,
-          172,
-          202,
-          210,
-          257,
-          300
-        ],
-        "observed": [
-          62
-        ],
-        "patterns.": [
-          64
-        ],
-        "We": [
-          65
-        ],
-        "demonstrate": [
-          66
-        ],
-        "how": [
-          67
-        ],
-        "maxima": [
-          69
-        ],
-        "within": [
-          70,
-          261,
-          284
-        ],
-        "crust": [
-          72,
-          185,
-          199
-        ],
-        "(~": [
-          73
-        ],
-        "GPa)": [
-          75,
-          81
-        ],
-        "upper": [
-          77,
-          198
-        ],
-        "mantle": [
-          78,
-          238,
-          255
-        ],
-        "(&gt;": [
-          79
-        ],
-        "occur": [
-          82
-        ],
-        "at": [
-          83,
-          225,
-          240
-        ],
-        "temperatures": [
-          84
-        ],
-        "characteristic": [
-          85
-        ],
-        "onset": [
-          88
-        ],
-        "crystal": [
-          90
-        ],
-        "plasticity": [
-          91
-        ],
-        "in": [
-          92,
-          107,
-          111,
-          136,
-          153,
-          180,
-          196,
-          291
-        ],
-        "those": [
-          93
-        ],
-        "rocks": [
-          94
-        ],
-        "(crust:": [
-          95
-        ],
-        "200–400": [
-          96
-        ],
-        "°C;": [
-          97
-        ],
-        "mantle:": [
-          98
-        ],
-        "~": [
-          99
-        ],
-        "°C),": [
-          101
-        ],
-        "with": [
-          102
-        ],
-        "almost": [
-          103
-        ],
-        "all": [
-          104
-        ],
-        "occurring": [
-          106,
-          151
-        ],
-        "these": [
-          108
-        ],
-        "regions.": [
-          109
-        ],
-        "Correlation": [
-          110
-        ],
-        "northern": [
-          113,
-          168
-        ],
-        "southern": [
-          115,
-          143
-        ],
-        "forelands": [
-          116
-        ],
-        "between": [
-          117
-        ],
-        "crustal": [
-          118,
-          174,
-          204
-        ],
-        "strengths": [
-          121
-        ],
-        "show": [
-          124
-        ],
-        "event": [
-          128
-        ],
-        "distribution,": [
-          129
-        ],
-        "reflecting": [
-          130
-        ],
-        "their": [
-          131,
-          233
-        ],
-        "tectonic": [
-          133
-        ],
-        "settings.": [
-          134
-        ],
-        "Seismicity": [
-          135
-        ],
-        "plate": [
-          138
-        ],
-        "boundary": [
-          139
-        ],
-        "setting": [
-          140,
-          165
-        ],
-        "foreland": [
-          144
-        ],
-        "corresponds": [
-          145
-        ],
-        "integrated": [
-          148
-        ],
-        "strength,": [
-          150,
-          175
-        ],
-        "mainly": [
-          152,
-          178
-        ],
-        "weaker": [
-          155,
-          182
-        ],
-        "domains": [
-          156,
-          262
-        ],
-        "surrounding": [
-          157
-        ],
-        "strong": [
-          159
-        ],
-        "Adriatic": [
-          160
-        ],
-        "plate.": [
-          161
-        ],
-        "intraplate": [
-          164
-        ],
-        "foreland,": [
-          169
-        ],
-        "correlates": [
-          171
-        ],
-        "modelled": [
-          173,
-          244
-        ],
-        "it": [
-          177
-        ],
-        "occurs": [
-          179
-        ],
-        "warmer": [
-          184
-        ],
-        "beneath": [
-          186
-        ],
-        "Upper": [
-          188,
-          237
-        ],
-        "Rhine": [
-          189
-        ],
-        "Graben.": [
-          190
-        ],
-        "We,": [
-          191
-        ],
-        "therefore,": [
-          192
-        ],
-        "suggest": [
-          193
-        ],
-        "that": [
-          194
-        ],
-        "is": [
-          200
-        ],
-        "linked": [
-          201
-        ],
-        "weak": [
-          203
-        ],
-        "domains,": [
-          205
-        ],
-        "which": [
-          206
-        ],
-        "are": [
-          207,
-          294
-        ],
-        "more": [
-          208
-        ],
-        "prone": [
-          209
-        ],
-        "localise": [
-          211
-        ],
-        "deformation": [
-          212,
-          260
-        ],
-        "promoting": [
-          213
-        ],
-        "failure": [
-          214
-        ],
-        "and,": [
-          215
-        ],
-        "depending": [
-          216
-        ],
-        "local": [
-          219
-        ],
-        "properties": [
-          220
-        ],
-        "fault,": [
-          223
-        ],
-        "earthquakes": [
-          224
-        ],
-        "relatively": [
-          226
-        ],
-        "lower": [
-          227
-        ],
-        "levels": [
-          228
-        ],
-        "accumulated": [
-          230
-        ],
-        "stress": [
-          231
-        ],
-        "than": [
-          232,
-          243
-        ],
-        "neighbouring": [
-          234
-        ],
-        "stronger": [
-          235
-        ],
-        "counterparts.": [
-          236
-        ],
-        "depths": [
-          241
-        ],
-        "greater": [
-          242
-        ],
-        "brittle": [
-          245
-        ],
-        "conditions,": [
-          246
-        ],
-        "can": [
-          247
-        ],
-        "be": [
-          248
-        ],
-        "either": [
-          249
-        ],
-        "explained": [
-          250
-        ],
-        "by": [
-          251,
-          270
-        ],
-        "embrittlement": [
-          252
-        ],
-        "due": [
-          256
-        ],
-        "grain-size": [
-          258
-        ],
-        "sensitive": [
-          259
-        ],
-        "active": [
-          264
-        ],
-        "or": [
-          265,
-          269
-        ],
-        "recent": [
-          266
-        ],
-        "slab": [
-          267
-        ],
-        "cooling,": [
-          268
-        ],
-        "dissipative": [
-          271
-        ],
-        "weakening": [
-          272
-        ],
-        "mechanisms,": [
-          273
-        ],
-        "such": [
-          274
-        ],
-        "as": [
-          275
-        ],
-        "runaway": [
-          277
-        ],
-        "from": [
-          278
-        ],
-        "shear": [
-          279
-        ],
-        "heating": [
-          280
-        ],
-        "and/or": [
-          281
-        ],
-        "dehydration": [
-          282
-        ],
-        "reactions": [
-          283
-        ],
-        "an": [
-          285
-        ],
-        "overly": [
-          286
-        ],
-        "ductile": [
-          287
-        ],
-        "mantle.": [
-          288
-        ],
-        "Results": [
-          289
-        ],
-        "generated": [
-          290
-        ],
-        "study": [
-          293
-        ],
-        "available": [
-          295
-        ],
-        "for": [
-          296
-        ],
-        "open": [
-          297
-        ],
-        "access": [
-          298
-        ],
-        "use": [
-          299
-        ],
-        "further": [
-          301
-        ],
-        "discussions": [
-          302
-        ]
-      },
+      "abstract_inverted_index": null,
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2024,
@@ -19901,7 +20046,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.75226833,
+        "value": 0.7523421,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20098,8 +20243,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5899999737739563,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -20713,7 +20858,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.71328714,
+        "value": 0.713327,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21007,9 +21152,9 @@
         "https://openalex.org/W2468582145",
         "https://openalex.org/W2617489841",
         "https://openalex.org/W2765327912",
+        "https://openalex.org/W591303395",
         "https://openalex.org/W2740644894",
-        "https://openalex.org/W1527348757",
-        "https://openalex.org/W591303395"
+        "https://openalex.org/W1527348757"
       ],
       "related_works": [
         "https://openalex.org/W2024364789",
@@ -21644,7 +21789,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.73752311,
+        "value": 0.73800738,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22321,7 +22466,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.95086442,
+        "value": 0.95095368,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -22535,9 +22680,9 @@
       },
       "referenced_works_count": 3,
       "referenced_works": [
-        "https://openalex.org/W2074965509",
+        "https://openalex.org/W1973488326",
         "https://openalex.org/W2172266042",
-        "https://openalex.org/W1973488326"
+        "https://openalex.org/W2074965509"
       ],
       "related_works": [
         "https://openalex.org/W2376687197",
@@ -22864,7 +23009,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.69141814,
+        "value": 0.68863443,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23177,8 +23322,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.44999998807907104,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "id": "https://metadata.un.org/sdg/12",
+          "display_name": "Responsible consumption and production"
         }
       ],
       "grants": [],
@@ -23223,11 +23368,11 @@
         "https://openalex.org/W1968915050",
         "https://openalex.org/W4252528517",
         "https://openalex.org/W2900086981",
-        "https://openalex.org/W2144636407",
+        "https://openalex.org/W3145481521",
+        "https://openalex.org/W2005073772",
         "https://openalex.org/W3023540311",
         "https://openalex.org/W1514875444",
-        "https://openalex.org/W3145481521",
-        "https://openalex.org/W2005073772"
+        "https://openalex.org/W2144636407"
       ],
       "related_works": [
         "https://openalex.org/W2392155297",
@@ -23976,9 +24121,9 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Potsdam, 14473, Germany.",
+              "raw_affiliation_string": "Universidad Nacional de Colombia -Medellín. Facultad de Minas.",
               "institution_ids": [
-                "https://openalex.org/I4210152878"
+                "https://openalex.org/I36243813"
               ]
             },
             {
@@ -23986,9 +24131,9 @@
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Universidad Nacional de Colombia -Medellín. Facultad de Minas.",
+              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Potsdam, 14473, Germany.",
               "institution_ids": [
-                "https://openalex.org/I36243813"
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -24151,7 +24296,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.69623878,
+        "value": 0.69610681,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24476,8 +24621,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [
@@ -24594,21 +24739,21 @@
         "https://openalex.org/W1933973601",
         "https://openalex.org/W2042924847",
         "https://openalex.org/W2026340904",
-        "https://openalex.org/W4249863006",
-        "https://openalex.org/W2126787697",
-        "https://openalex.org/W2263742893",
-        "https://openalex.org/W2125802015",
         "https://openalex.org/W2794438358",
-        "https://openalex.org/W2998429798",
+        "https://openalex.org/W2765337738",
+        "https://openalex.org/W4249863006",
         "https://openalex.org/W2167641835",
-        "https://openalex.org/W4254370412",
         "https://openalex.org/W4230176571",
-        "https://openalex.org/W2163064579",
+        "https://openalex.org/W2126787697",
         "https://openalex.org/W2501206676",
         "https://openalex.org/W2108647008",
-        "https://openalex.org/W2765337738",
+        "https://openalex.org/W2125802015",
+        "https://openalex.org/W2263742893",
+        "https://openalex.org/W2163064579",
         "https://openalex.org/W2157565227",
-        "https://openalex.org/W2108468796"
+        "https://openalex.org/W2108468796",
+        "https://openalex.org/W4254370412",
+        "https://openalex.org/W2998429798"
       ],
       "related_works": [
         "https://openalex.org/W2146527202",
@@ -25211,15 +25356,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "Department of Geology, Geochemistry of Petroleum and Coal, RWTH Aachen University, Aachen, Germany",
               "institution_ids": [
                 "https://openalex.org/I887968799"
+              ]
+            },
+            {
+              "raw_affiliation_string": "GFZ German Research Centre for Geosciences, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -25310,7 +25455,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.54824043,
+        "value": 0.54802977,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25556,8 +25701,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8299999833106995,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [
@@ -25581,40 +25726,40 @@
       },
       "referenced_works_count": 34,
       "referenced_works": [
-        "https://openalex.org/W1980301146",
-        "https://openalex.org/W2909271093",
-        "https://openalex.org/W1981461393",
-        "https://openalex.org/W2555745610",
-        "https://openalex.org/W1638631239",
-        "https://openalex.org/W2049681005",
-        "https://openalex.org/W2118755672",
-        "https://openalex.org/W1859452365",
-        "https://openalex.org/W1982800365",
-        "https://openalex.org/W2000033909",
-        "https://openalex.org/W3043368372",
-        "https://openalex.org/W2309907070",
-        "https://openalex.org/W1966800387",
-        "https://openalex.org/W2092707038",
-        "https://openalex.org/W2170219059",
         "https://openalex.org/W2839935867",
-        "https://openalex.org/W2525348552",
+        "https://openalex.org/W2520610086",
         "https://openalex.org/W2335845688",
-        "https://openalex.org/W2072335731",
-        "https://openalex.org/W2136971041",
+        "https://openalex.org/W2170219059",
+        "https://openalex.org/W2118755672",
+        "https://openalex.org/W1981461393",
+        "https://openalex.org/W2049681005",
+        "https://openalex.org/W2145519433",
+        "https://openalex.org/W2555745610",
+        "https://openalex.org/W2092707038",
+        "https://openalex.org/W2083935149",
+        "https://openalex.org/W1980301146",
         "https://openalex.org/W3019006096",
+        "https://openalex.org/W2316142227",
+        "https://openalex.org/W1982800365",
+        "https://openalex.org/W2525348552",
+        "https://openalex.org/W1859452365",
+        "https://openalex.org/W2238081266",
         "https://openalex.org/W2156417431",
         "https://openalex.org/W2077208813",
-        "https://openalex.org/W2769914224",
-        "https://openalex.org/W1995115331",
-        "https://openalex.org/W2124426182",
-        "https://openalex.org/W66175236",
-        "https://openalex.org/W2083935149",
-        "https://openalex.org/W2145519433",
         "https://openalex.org/W2108298625",
-        "https://openalex.org/W2316142227",
+        "https://openalex.org/W3043368372",
+        "https://openalex.org/W2000033909",
         "https://openalex.org/W1970035256",
-        "https://openalex.org/W2520610086",
-        "https://openalex.org/W2238081266"
+        "https://openalex.org/W66175236",
+        "https://openalex.org/W2769914224",
+        "https://openalex.org/W2136971041",
+        "https://openalex.org/W1966800387",
+        "https://openalex.org/W2072335731",
+        "https://openalex.org/W1995115331",
+        "https://openalex.org/W2909271093",
+        "https://openalex.org/W1638631239",
+        "https://openalex.org/W2309907070",
+        "https://openalex.org/W2124426182"
       ],
       "related_works": [
         "https://openalex.org/W4380854271",
@@ -26288,7 +26433,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.61691072,
+        "value": 0.61673657,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27539,14 +27684,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Institute for Applied Geosciences, TUÂ Berlin, 10587 Berlin, Germany",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "Seismic Hazard and Risk Dynamics, GFZ German Research Centre for Geosciences,  14473 Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
-            },
-            {
-              "raw_affiliation_string": "Institute for Applied Geosciences, TUÂ Berlin, 10587 Berlin, Germany",
-              "institution_ids": []
             }
           ]
         },
@@ -27633,15 +27778,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Geology, Geochemistry of Petroleum and Coal, Faculty of Georesources and Material Engineering, RWTH Aachen University, Aachen, Germany",
-              "institution_ids": [
-                "https://openalex.org/I887968799"
-              ]
-            },
-            {
               "raw_affiliation_string": "Basin Modelling, GFZ German Research Centre for Geosciences, 14473 Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Department of Geology, Geochemistry of Petroleum and Coal, Faculty of Georesources and Material Engineering, RWTH Aachen University, Aachen, Germany",
+              "institution_ids": [
+                "https://openalex.org/I887968799"
               ]
             }
           ]
@@ -27688,12 +27833,12 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 10,
       "corresponding_author_ids": [
+        "https://openalex.org/A5021569937",
         "https://openalex.org/A5038133054",
-        "https://openalex.org/A5058020024",
         "https://openalex.org/A5009590489",
         "https://openalex.org/A5049820965",
-        "https://openalex.org/A5013501440",
-        "https://openalex.org/A5021569937"
+        "https://openalex.org/A5058020024",
+        "https://openalex.org/A5013501440"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I31512782",
@@ -27706,7 +27851,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.51466877,
+        "value": 0.51460264,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29178,7 +29323,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.63749093,
+        "value": 0.63795709,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29992,7 +30137,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.59929208,
+        "value": 0.59890043,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31353,7 +31498,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.64011066,
+        "value": 0.63987305,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31593,10 +31738,10 @@
         "https://openalex.org/W2291624764",
         "https://openalex.org/W3090139814",
         "https://openalex.org/W1994381361",
-        "https://openalex.org/W2725098931",
-        "https://openalex.org/W4214593133",
+        "https://openalex.org/W2937980026",
         "https://openalex.org/W2794417179",
-        "https://openalex.org/W2937980026"
+        "https://openalex.org/W2725098931",
+        "https://openalex.org/W4214593133"
       ],
       "related_works": [
         "https://openalex.org/W4211018995",
@@ -32082,7 +32227,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.07844957,
+        "value": 0.07848079,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33072,7 +33217,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.57600368,
+        "value": 0.57525057,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33377,10 +33522,10 @@
         "https://openalex.org/W2619677915",
         "https://openalex.org/W2292568102",
         "https://openalex.org/W2132547391",
-        "https://openalex.org/W2517711249",
         "https://openalex.org/W4240085021",
-        "https://openalex.org/W2096400013",
-        "https://openalex.org/W4212787558"
+        "https://openalex.org/W2517711249",
+        "https://openalex.org/W4212787558",
+        "https://openalex.org/W2096400013"
       ],
       "related_works": [
         "https://openalex.org/W2291655987",
@@ -34180,7 +34325,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.52196516,
+        "value": 0.52189637,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34440,8 +34585,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5299999713897705,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -34509,18 +34654,18 @@
         "https://openalex.org/W4243335355",
         "https://openalex.org/W2469104075",
         "https://openalex.org/W2157313533",
-        "https://openalex.org/W1999290547",
-        "https://openalex.org/W3006029567",
-        "https://openalex.org/W2292507142",
-        "https://openalex.org/W3003964284",
-        "https://openalex.org/W1531353067",
-        "https://openalex.org/W1853612440",
-        "https://openalex.org/W3164644204",
         "https://openalex.org/W2531229519",
+        "https://openalex.org/W3164644204",
+        "https://openalex.org/W3003964284",
+        "https://openalex.org/W2292507142",
+        "https://openalex.org/W1999290547",
+        "https://openalex.org/W1531353067",
         "https://openalex.org/W3202908405",
-        "https://openalex.org/W2890297020",
+        "https://openalex.org/W3006029567",
+        "https://openalex.org/W2041833034",
         "https://openalex.org/W2166497595",
-        "https://openalex.org/W2041833034"
+        "https://openalex.org/W2890297020",
+        "https://openalex.org/W1853612440"
       ],
       "related_works": [
         "https://openalex.org/W2324615561",
@@ -35125,7 +35270,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.56275107,
+        "value": 0.56145694,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35425,8 +35570,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.4699999988079071,
-          "display_name": "Sustainable cities and communities",
-          "id": "https://metadata.un.org/sdg/11"
+          "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities"
         }
       ],
       "grants": [],
@@ -36065,7 +36210,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.18466024,
+        "value": 0.18478352,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -36299,18 +36444,33 @@
           "raw_type": "Thesis"
         },
         {
-          "id": "pmh:oai:gfzpublic.gfz-potsdam.de:item_5012788",
+          "id": "pmh:oai:dspace.spbu.ru:11701/6990",
           "is_oa": false,
-          "landing_page_url": "https://gfzpublic.gfz-potsdam.de/pubman/item/item_5012788",
+          "landing_page_url": "http://hdl.handle.net/11701/6990",
           "pdf_url": null,
-          "source": null,
+          "source": {
+            "id": "https://openalex.org/S4306402062",
+            "display_name": "Research Repository Saint Petersburg State University (Saint Petersburg State University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I172901346",
+            "host_organization_name": "St Petersburg University",
+            "host_organization_lineage": [
+              "https://openalex.org/I172901346"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
           "license": null,
           "license_id": null,
           "version": "submittedVersion",
           "is_accepted": false,
           "is_published": false,
           "raw_source_name": "",
-          "raw_type": "info:eu-repo/semantics/doctoralThesis"
+          "raw_type": "Thesis"
         },
         {
           "id": "pmh:oai:dspace.spbu.ru:11701/7000",
@@ -36342,33 +36502,18 @@
           "raw_type": "Thesis"
         },
         {
-          "id": "pmh:oai:dspace.spbu.ru:11701/6990",
+          "id": "pmh:oai:gfzpublic.gfz-potsdam.de:item_5012788",
           "is_oa": false,
-          "landing_page_url": "http://hdl.handle.net/11701/6990",
+          "landing_page_url": "https://gfzpublic.gfz-potsdam.de/pubman/item/item_5012788",
           "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306402062",
-            "display_name": "Research Repository Saint Petersburg State University (Saint Petersburg State University)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I172901346",
-            "host_organization_name": "St Petersburg University",
-            "host_organization_lineage": [
-              "https://openalex.org/I172901346"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
+          "source": null,
           "license": null,
           "license_id": null,
           "version": "submittedVersion",
           "is_accepted": false,
           "is_published": false,
           "raw_source_name": "",
-          "raw_type": "Thesis"
+          "raw_type": "info:eu-repo/semantics/doctoralThesis"
         },
         {
           "id": "mag:2725098931",
@@ -36417,8 +36562,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.4300000071525574,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -36462,60 +36607,60 @@
           28,
           36,
           53,
-          91,
-          105,
-          114,
-          121,
-          123,
-          137,
-          152,
-          181,
-          203,
-          206,
-          216,
-          223,
-          229,
-          239,
-          253,
-          260,
-          267,
-          272,
-          281,
-          299,
-          307,
-          312,
-          324,
-          333,
-          337,
-          355,
-          362,
-          380
+          90,
+          104,
+          113,
+          120,
+          122,
+          136,
+          151,
+          180,
+          202,
+          205,
+          215,
+          222,
+          228,
+          238,
+          252,
+          259,
+          266,
+          271,
+          280,
+          298,
+          306,
+          311,
+          323,
+          332,
+          336,
+          354,
+          361,
+          379
         ],
         "seismic": [
           2,
-          74,
-          92,
-          129,
-          154
+          73,
+          91,
+          128,
+          153
         ],
         "events": [
           3,
           30,
           62,
-          107,
-          155,
-          314,
-          358,
-          372
+          106,
+          154,
+          313,
+          357,
+          371
         ],
         "is": [
           4,
           31,
-          76,
-          81,
-          226,
-          346,
-          387
+          75,
+          80,
+          225,
+          345,
+          386
         ],
         "utmost": [
           6
@@ -36525,7 +36670,7 @@
         ],
         "not": [
           8,
-          276
+          275
         ],
         "only": [
           9
@@ -36533,19 +36678,19 @@
         "in": [
           10,
           14,
-          119,
-          157,
-          165,
-          257,
-          302,
-          359
+          118,
+          156,
+          164,
+          256,
+          301,
+          358
         ],
         "seismology": [
           11
         ],
         "but": [
           12,
-          69
+          68
         ],
         "also": [
           13
@@ -36573,74 +36718,76 @@
         ],
         "origin": [
           22,
-          204
+          203
         ],
         "times,": [
           23
         ],
         "locations": [
           24,
-          308
+          307
         ],
         "and": [
           25,
           50,
-          102,
-          148,
-          172,
-          179,
-          237,
-          270,
-          309,
-          350,
-          390
+          101,
+          147,
+          171,
+          178,
+          236,
+          269,
+          308,
+          349,
+          389
         ],
         "source": [
           26,
-          145,
-          189,
-          245,
-          310
+          144,
+          188,
+          244,
+          309
         ],
         "mechanisms": [
           27,
-          311,
-          368
+          310,
+          367
         ],
         "microseismic": [
           29,
-          106,
-          182,
-          209,
-          297,
-          313,
-          357,
-          394
+          105,
+          181,
+          208,
+          296,
+          312,
+          356,
+          393
         ],
         "crucial": [
           32
         ],
         "for": [
           33,
-          134,
-          176,
-          188,
-          370,
-          392
+          133,
+          175,
+          187,
+          369,
+          391
         ],
         "passive": [
           34
         ],
-        "onitoring": [
-          35
+        "monitoring": [
+          35,
+          57,
+          297
         ],
         "hydraulic": [
           37,
-          300
+          299
         ],
         "fracturing": [
           38,
-          301
+          300
         ],
         "because": [
           39
@@ -36650,21 +36797,21 @@
         ],
         "allows": [
           41,
-          141,
-          168
+          140,
+          167
         ],
         "engineers": [
           42
         ],
         "to": [
           43,
-          83,
-          127,
-          213,
-          243,
-          278,
-          291,
-          348
+          82,
+          126,
+          212,
+          242,
+          277,
+          290,
+          347
         ],
         "observe": [
           44
@@ -36686,25 +36833,20 @@
         ],
         "evaluate": [
           51,
-          214
+          213
         ],
         "effectiveness": [
           52
         ],
         "well": [
           54,
-          365
+          364
         ],
         "stimulation.": [
           55
         ],
         "Microseismic": [
           56
-        ],
-        "monitoring": [
-          57,
-          298,
-          395
         ],
         "greatly": [
           58
@@ -36717,573 +36859,575 @@
         ],
         "imaging": [
           61,
-          86,
-          104,
-          151,
-          162,
-          327,
-          385
+          85,
+          103,
+          150,
+          161,
+          326,
+          384
         ],
         "with": [
           63,
-          108,
-          185,
-          315,
-          321,
-          377
+          107,
+          184,
+          314,
+          320,
+          376
         ],
         "low": [
           64,
-          109
+          108
         ],
-        "signal-to-": [
+        "signal-to-noise": [
           65
         ],
-        "noise": [
-          66,
-          100
-        ],
         "ratio": [
-          67
+          66
         ],
         "(SNR),": [
-          68
+          67
         ],
         "their": [
-          70
+          69
         ],
         "detection": [
-          71,
-          178,
-          193,
-          230
+          70,
+          177,
+          192,
+          229
         ],
         "on": [
-          72,
-          89,
-          196,
-          330
-        ],
-        "individual": [
-          73
-        ],
-        "traces": [
-          75
-        ],
-        "usually": [
-          77
-        ],
-        "difficult.": [
-          78
-        ],
-        "This": [
-          79,
-          139,
-          264
-        ],
-        "work": [
-          80
-        ],
-        "devoted": [
-          82
-        ],
-        "a": [
-          84,
-          258,
-          282,
-          292,
-          303,
-          325,
-          352,
-          360
-        ],
-        "new": [
-          85
-        ],
-        "method": [
-          87,
-          117,
-          287,
-          328,
-          345,
-          386
-        ],
-        "based": [
+          71,
           88,
           195,
           329
         ],
+        "individual": [
+          72
+        ],
+        "traces": [
+          74
+        ],
+        "usually": [
+          76
+        ],
+        "difficult.": [
+          77
+        ],
+        "This": [
+          78,
+          138,
+          263
+        ],
+        "work": [
+          79
+        ],
+        "devoted": [
+          81
+        ],
+        "a": [
+          83,
+          257,
+          281,
+          291,
+          302,
+          324,
+          351,
+          359
+        ],
+        "new": [
+          84
+        ],
+        "method": [
+          86,
+          116,
+          286,
+          327,
+          344,
+          385
+        ],
+        "based": [
+          87,
+          194,
+          328
+        ],
         "stacking": [
-          90
+          89
         ],
         "amplitudes": [
-          93,
-          125,
-          225,
-          241
-        ],
-        "along": [
-          94
-        ],
-        "diffraction": [
-          95
-        ],
-        "traveltime": [
-          96
-        ],
-        "curves": [
-          97
-        ],
-        "which": [
-          98
-        ],
-        "facilitates": [
-          99
-        ],
-        "suppression": [
-          101
-        ],
-        "improves": [
-          103
-        ],
-        "SNR.": [
-          110
-        ],
-        "A": [
-          111
-        ],
-        "key": [
-          112
-        ],
-        "attribute": [
-          113,
-          140
-        ],
-        "the": [
-          115,
-          128,
-          166,
-          279,
-          322,
-          343,
-          363,
-          378
-        ],
-        "proposed": [
-          116,
-          164,
-          286,
-          344
-        ],
-        "consists": [
-          118
-        ],
-        "correction": [
-          120,
-          238
-        ],
-        "polarities": [
-          122
-        ],
-        "stacked": [
+          92,
           124,
           224,
           240
         ],
+        "along": [
+          93
+        ],
+        "diffraction": [
+          94
+        ],
+        "traveltime": [
+          95
+        ],
+        "curves": [
+          96
+        ],
+        "which": [
+          97
+        ],
+        "facilitates": [
+          98
+        ],
+        "noise": [
+          99
+        ],
+        "suppression": [
+          100
+        ],
+        "improves": [
+          102
+        ],
+        "SNR.": [
+          109
+        ],
+        "A": [
+          110
+        ],
+        "key": [
+          111
+        ],
+        "attribute": [
+          112,
+          139
+        ],
+        "the": [
+          114,
+          127,
+          165,
+          278,
+          321,
+          342,
+          362,
+          377
+        ],
+        "proposed": [
+          115,
+          163,
+          285,
+          343
+        ],
+        "consists": [
+          117
+        ],
+        "correction": [
+          119,
+          237
+        ],
+        "polarities": [
+          121
+        ],
+        "stacked": [
+          123,
+          223,
+          239
+        ],
         "according": [
-          126,
-          242
+          125,
+          241
         ],
         "moment": [
-          130
+          129
         ],
         "tensor": [
-          131
+          130
         ],
         "simultaneously": [
-          132
+          131
         ],
         "determined": [
-          133
+          132
         ],
         "each": [
-          135
+          134
         ],
         "set": [
-          136
+          135
         ],
         "amplitudes.": [
-          138
+          137
         ],
         "taking": [
-          142
+          141
         ],
         "into": [
-          143
+          142
         ],
         "account": [
-          144
+          143
         ],
         "radiation": [
-          146,
-          246
+          145,
+          245
         ],
         "patterns": [
-          147
+          146
         ],
         "significantly": [
-          149
+          148
         ],
         "enhances": [
-          150
+          149
         ],
         "typical": [
-          153
+          152
         ],
         "generated": [
-          156
+          155
         ],
         "fault": [
-          158,
-          374
+          157,
+          373
         ],
         "zones.": [
-          159
+          158
         ],
         "The": [
-          160,
-          192,
-          248,
-          285,
-          383
+          159,
+          191,
+          247,
+          284,
+          382
         ],
         "generalized": [
-          161
+          160
         ],
         "concept": [
-          163
+          162
         ],
         "thesis": [
-          167
+          166
         ],
         "continuous": [
+          168,
+          337
+        ],
+        "data": [
           169,
           338
         ],
-        "data": [
+        "processing": [
           170,
           339
         ],
-        "processing": [
-          171,
-          340
-        ],
         "involves": [
-          173,
-          251
-        ],
-        "original": [
-          174
-        ],
-        "algorithms": [
-          175
-        ],
-        "joint": [
-          177,
-          201
-        ],
-        "location": [
-          180,
-          249,
-          268
-        ],
-        "events,": [
-          183,
-          218
-        ],
-        "together": [
-          184
-        ],
-        "an": [
-          186,
-          219
-        ],
-        "algorithm": [
-          187,
-          194,
+          172,
           250
         ],
-        "mechanism": [
-          190
+        "original": [
+          173
         ],
-        "determination.": [
-          191
+        "algorithms": [
+          174
         ],
-        "automatic": [
-          197
+        "joint": [
+          176,
+          200
         ],
-        "triggering": [
-          198
+        "location": [
+          179,
+          248,
+          267
         ],
-        "routine": [
-          199
-        ],
-        "enables": [
-          200,
-          265
-        ],
-        "determination": [
-          202,
-          271
-        ],
-        "times": [
-          205
-        ],
-        "multiple": [
-          207
-        ],
-        "consecutive": [
-          208
-        ],
-        "events.": [
-          210
-        ],
-        "In": [
-          211
-        ],
-        "order": [
-          212
-        ],
-        "reliability": [
-          215
-        ],
-        "detected": [
+        "events,": [
+          182,
           217
         ],
+        "together": [
+          183
+        ],
+        "an": [
+          185,
+          218
+        ],
+        "algorithm": [
+          186,
+          193,
+          249
+        ],
+        "mechanism": [
+          189
+        ],
+        "determination.": [
+          190
+        ],
+        "automatic": [
+          196
+        ],
+        "triggering": [
+          197
+        ],
+        "routine": [
+          198
+        ],
+        "enables": [
+          199,
+          264
+        ],
+        "determination": [
+          201,
+          270
+        ],
+        "times": [
+          204
+        ],
+        "multiple": [
+          206
+        ],
+        "consecutive": [
+          207
+        ],
+        "events.": [
+          209
+        ],
+        "In": [
+          210
+        ],
+        "order": [
+          211
+        ],
+        "reliability": [
+          214
+        ],
+        "detected": [
+          216
+        ],
         "additional": [
-          220
+          219
         ],
         "semblance": [
-          221
+          220
         ],
         "analysis": [
-          222
+          221
         ],
         "proposed.": [
-          227
+          226
         ],
         "Reliability": [
-          228
+          227
         ],
         "can": [
-          231
+          230
         ],
         "be": [
-          232
+          231
         ],
         "further": [
-          233
+          232
         ],
         "improved": [
-          234
+          233
         ],
         "by": [
-          235
+          234
         ],
         "selection": [
-          236
+          235
         ],
         "predicted": [
-          244
+          243
         ],
         "patterns.": [
-          247
+          246
         ],
         "representation": [
-          252
+          251
         ],
         "event’s": [
-          254
+          253
         ],
         "image": [
-          255
+          254
         ],
         "function": [
-          256
+          255
         ],
         "form": [
-          259
+          258
         ],
         "statistical": [
-          261
+          260
         ],
         "spatial": [
-          262,
-          283
+          261,
+          282
         ],
-        "istribution.": [
-          263
+        "distribution.": [
+          262
         ],
         "estimation": [
-          266
+          265
         ],
         "uncertainty": [
-          269
+          268
         ],
         "coordinates": [
-          273
+          272
         ],
         "that": [
-          274,
-          342
-        ],
-        "are": [
-          275
-        ],
-        "restricted": [
-          277
-        ],
-        "nodes": [
-          280
-        ],
-        "grid.": [
-          284
-        ],
-        "has": [
-          288
-        ],
-        "been": [
-          289
-        ],
-        "applied": [
-          290
-        ],
-        "real": [
-          293,
-          356
-        ],
-        "dataset": [
-          294
-        ],
-        "recorded": [
-          295
-        ],
-        "during": [
-          296
-        ],
-        "shale": [
-          304
-        ],
-        "formation.": [
-          305
-        ],
-        "Benchmarking": [
-          306
-        ],
-        "high": [
-          316
-        ],
-        "SNR": [
-          317
-        ],
-        "shows": [
-          318
-        ],
-        "good": [
-          319
-        ],
-        "agreement": [
-          320
-        ],
-        "results": [
-          323
-        ],
-        "standard": [
-          326
-        ],
-        "manual": [
-          331
-        ],
-        "picking": [
-          332
-        ],
-        "event": [
-          334
-        ],
-        "traveltimes.": [
-          335
-        ],
-        "Results": [
-          336
-        ],
-        "show": [
+          273,
           341
         ],
+        "are": [
+          274
+        ],
+        "restricted": [
+          276
+        ],
+        "nodes": [
+          279
+        ],
+        "grid.": [
+          283
+        ],
+        "has": [
+          287
+        ],
+        "been": [
+          288
+        ],
+        "applied": [
+          289
+        ],
+        "real": [
+          292,
+          355
+        ],
+        "dataset": [
+          293
+        ],
+        "recorded": [
+          294
+        ],
+        "during": [
+          295
+        ],
+        "shale": [
+          303
+        ],
+        "formation.": [
+          304
+        ],
+        "Benchmarking": [
+          305
+        ],
+        "high": [
+          315
+        ],
+        "SNR": [
+          316
+        ],
+        "shows": [
+          317
+        ],
+        "good": [
+          318
+        ],
+        "agreement": [
+          319
+        ],
+        "results": [
+          322
+        ],
+        "standard": [
+          325
+        ],
+        "manual": [
+          330
+        ],
+        "picking": [
+          331
+        ],
+        "event": [
+          333
+        ],
+        "traveltimes.": [
+          334
+        ],
+        "Results": [
+          335
+        ],
+        "show": [
+          340
+        ],
         "able": [
-          347
+          346
         ],
         "detect": [
-          349
+          348
         ],
         "locate": [
-          351
+          350
         ],
         "large": [
-          353
+          352
         ],
         "number": [
-          354
+          353
         ],
         "vicinity": [
-          361
+          360
         ],
         "stimulated": [
-          364
+          363
         ],
         "interval.": [
-          366
+          365
         ],
         "Source": [
-          367
+          366
         ],
         "obtained": [
-          369
+          368
         ],
         "these": [
-          371
+          370
         ],
         "demonstrate": [
-          373
+          372
         ],
         "geometries": [
-          375
+          374
         ],
         "consistent": [
-          376
+          375
         ],
         "orientation": [
-          379
+          378
         ],
         "natural": [
-          381
+          380
         ],
         "fractures.": [
-          382
+          381
         ],
         "developed": [
-          384
+          383
         ],
         "fully": [
-          388
+          387
         ],
         "automated": [
-          389
+          388
         ],
         "feasible": [
-          391
+          390
         ],
         "real-time": [
-          393
+          392
+        ],
+        "monitoring.": [
+          394
         ]
       },
       "counts_by_year": [
@@ -37540,7 +37684,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.6772925,
+        "value": 0.67694112,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37822,8 +37966,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -39225,8 +39369,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.4699999988079071,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -39835,7 +39979,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04128357,
+        "value": 0.04103959,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40223,8 +40367,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.6100000143051147,
-          "display_name": "Reduced inequalities",
-          "id": "https://metadata.un.org/sdg/10"
+          "id": "https://metadata.un.org/sdg/10",
+          "display_name": "Reduced inequalities"
         }
       ],
       "grants": [],
@@ -40236,16 +40380,16 @@
       },
       "referenced_works_count": 10,
       "referenced_works": [
-        "https://openalex.org/W1553084009",
-        "https://openalex.org/W2079488242",
-        "https://openalex.org/W2170952624",
-        "https://openalex.org/W1982064072",
-        "https://openalex.org/W2006196669",
-        "https://openalex.org/W1546004968",
-        "https://openalex.org/W2013567220",
         "https://openalex.org/W2060206244",
         "https://openalex.org/W1540232275",
-        "https://openalex.org/W2081710957"
+        "https://openalex.org/W2079488242",
+        "https://openalex.org/W2006196669",
+        "https://openalex.org/W2081710957",
+        "https://openalex.org/W1553084009",
+        "https://openalex.org/W1982064072",
+        "https://openalex.org/W2170952624",
+        "https://openalex.org/W2013567220",
+        "https://openalex.org/W1546004968"
       ],
       "related_works": [
         "https://openalex.org/W2159515580",
@@ -40738,7 +40882,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12063976,
+        "value": 0.12054462,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41078,8 +41222,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -41092,8 +41236,8 @@
       "referenced_works_count": 3,
       "referenced_works": [
         "https://openalex.org/W2118673268",
-        "https://openalex.org/W2102175749",
-        "https://openalex.org/W2135066162"
+        "https://openalex.org/W2135066162",
+        "https://openalex.org/W2102175749"
       ],
       "related_works": [
         "https://openalex.org/W2331917905",
@@ -41497,7 +41641,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09421123,
+        "value": 0.09395588,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41924,20 +42068,20 @@
       },
       "referenced_works_count": 14,
       "referenced_works": [
-        "https://openalex.org/W2120246739",
-        "https://openalex.org/W2136285590",
-        "https://openalex.org/W2168331961",
         "https://openalex.org/W2059808679",
-        "https://openalex.org/W2079488242",
-        "https://openalex.org/W2156439383",
-        "https://openalex.org/W1540232275",
-        "https://openalex.org/W2081710957",
-        "https://openalex.org/W2100245965",
-        "https://openalex.org/W2341743354",
-        "https://openalex.org/W2018152230",
         "https://openalex.org/W2143476164",
-        "https://openalex.org/W2055621785",
-        "https://openalex.org/W2005423095"
+        "https://openalex.org/W2120246739",
+        "https://openalex.org/W2168331961",
+        "https://openalex.org/W2136285590",
+        "https://openalex.org/W2081710957",
+        "https://openalex.org/W2156439383",
+        "https://openalex.org/W2018152230",
+        "https://openalex.org/W2079488242",
+        "https://openalex.org/W2341743354",
+        "https://openalex.org/W2100245965",
+        "https://openalex.org/W2005423095",
+        "https://openalex.org/W1540232275",
+        "https://openalex.org/W2055621785"
       ],
       "related_works": [
         "https://openalex.org/W3198114483",
@@ -42473,7 +42617,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.13538001,
+        "value": 0.13543817,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -42800,11 +42944,11 @@
       },
       "referenced_works_count": 5,
       "referenced_works": [
-        "https://openalex.org/W2114435407",
-        "https://openalex.org/W2135066162",
         "https://openalex.org/W2102175749",
         "https://openalex.org/W2172266042",
-        "https://openalex.org/W2118673268"
+        "https://openalex.org/W2118673268",
+        "https://openalex.org/W2135066162",
+        "https://openalex.org/W2114435407"
       ],
       "related_works": [
         "https://openalex.org/W2179270703",
@@ -43492,7 +43636,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05112781,
+        "value": 0.05121738,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44193,7 +44337,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.23536118,
+        "value": 0.23532337,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44459,8 +44603,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5099999904632568,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -44988,7 +45132,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.07735247,
+        "value": 0.07741421,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -45228,8 +45372,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5799999833106995,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -45440,7 +45584,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08325998,
+        "value": 0.08328928,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -45772,8 +45916,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7799999713897705,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "grants": [],
@@ -46363,7 +46507,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12335471,
+        "value": 0.12297571,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46641,8 +46785,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.800000011920929,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "grants": [],
@@ -47155,7 +47299,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.18075909,
+        "value": 0.18082922,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -47858,14 +48002,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Center of Excellence in Marine Sciences CEMarin, Bogotá, Colombia",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "German Research Centre for Geosciences GFZ, Potsdam, Germany",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
-            },
-            {
-              "raw_affiliation_string": "Center of Excellence in Marine Sciences CEMarin, Bogotá, Colombia",
-              "institution_ids": []
             }
           ]
         },
@@ -47912,15 +48056,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "German Research Centre for Geosciences GFZ, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "Centre de Recerca Matemàtica, Bellaterra (Barcelona), Spain",
               "institution_ids": [
                 "https://openalex.org/I4210122226"
+              ]
+            },
+            {
+              "raw_affiliation_string": "German Research Centre for Geosciences GFZ, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -48032,9 +48176,9 @@
       "countries_distinct_count": 2,
       "institutions_distinct_count": 6,
       "corresponding_author_ids": [
-        "https://openalex.org/A5012200782",
         "https://openalex.org/A5009091023",
-        "https://openalex.org/A5049820965"
+        "https://openalex.org/A5049820965",
+        "https://openalex.org/A5012200782"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I4210122226",
@@ -48046,7 +48190,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04587968,
+        "value": 0.04584392,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -48284,8 +48428,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8600000143051147,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -49352,9 +49496,9 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "RWTH Aachen University, Aachen, Germany",
+              "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
               "institution_ids": [
-                "https://openalex.org/I887968799"
+                "https://openalex.org/I4210152878"
               ]
             },
             {
@@ -49362,9 +49506,9 @@
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
+              "raw_affiliation_string": "RWTH Aachen University, Aachen, Germany",
               "institution_ids": [
-                "https://openalex.org/I4210152878"
+                "https://openalex.org/I887968799"
               ]
             }
           ]
@@ -49442,14 +49586,14 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Potsdam, Germany",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
+            },
+            {
+              "raw_affiliation_string": "Potsdam, Germany",
+              "institution_ids": []
             }
           ]
         },
@@ -49484,14 +49628,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Potsdam, Germany",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
-            },
-            {
-              "raw_affiliation_string": "Potsdam, Germany",
-              "institution_ids": []
             }
           ]
         },
@@ -49526,14 +49670,14 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Potsdam, Germany",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
               ]
+            },
+            {
+              "raw_affiliation_string": "Potsdam, Germany",
+              "institution_ids": []
             }
           ]
         },
@@ -49579,10 +49723,6 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Potsdam, Germany",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210152878"
@@ -49593,6 +49733,10 @@
               "institution_ids": [
                 "https://openalex.org/I176453806"
               ]
+            },
+            {
+              "raw_affiliation_string": "Potsdam, Germany",
+              "institution_ids": []
             }
           ]
         },
@@ -49638,8 +49782,10 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Potsdam, Germany",
-              "institution_ids": []
+              "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
+              ]
             },
             {
               "raw_affiliation_string": "University of Potsdam, Potsdam, Germany",
@@ -49648,10 +49794,8 @@
               ]
             },
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
+              "raw_affiliation_string": "Potsdam, Germany",
+              "institution_ids": []
             }
           ]
         }
@@ -49661,11 +49805,11 @@
       "institutions_distinct_count": 7,
       "corresponding_author_ids": [
         "https://openalex.org/A5009590489",
-        "https://openalex.org/A5066562844",
-        "https://openalex.org/A5042963212",
-        "https://openalex.org/A5030462244",
         "https://openalex.org/A5049820965",
-        "https://openalex.org/A5112350296"
+        "https://openalex.org/A5042963212",
+        "https://openalex.org/A5112350296",
+        "https://openalex.org/A5066562844",
+        "https://openalex.org/A5030462244"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I176453806",
@@ -49678,7 +49822,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05473107,
+        "value": 0.05473504,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -49993,8 +50137,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -50785,11 +50929,11 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 11,
       "corresponding_author_ids": [
-        "https://openalex.org/A5049820965",
-        "https://openalex.org/A5021569937",
+        "https://openalex.org/A5009590489",
         "https://openalex.org/A5016927432",
+        "https://openalex.org/A5049820965",
         "https://openalex.org/A5038133054",
-        "https://openalex.org/A5009590489"
+        "https://openalex.org/A5021569937"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I4210152878"
@@ -50800,7 +50944,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08144627,
+        "value": 0.08167356,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51989,7 +52133,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.31027704,
+        "value": 0.30970082,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -52333,8 +52477,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7799999713897705,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -52575,11 +52719,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.14070752,
+        "value": 0.140781,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -52805,8 +52949,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7099999785423279,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -53051,7 +53195,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.01939622,
+        "value": 0.01957149,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -53284,8 +53428,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5600000023841858,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
         }
       ],
       "grants": [],
@@ -54072,8 +54216,8 @@
       "institutions_distinct_count": 5,
       "corresponding_author_ids": [
         "https://openalex.org/A5012200782",
-        "https://openalex.org/A5001491490",
-        "https://openalex.org/A5066296717"
+        "https://openalex.org/A5066296717",
+        "https://openalex.org/A5001491490"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I36243813",
@@ -54085,7 +54229,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06779558,
+        "value": 0.0679532,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -54373,8 +54517,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -55296,11 +55440,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05310758,
+        "value": 0.05311181,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56674,15 +56818,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam -GFZ German Research Centre for Geosciences. Telegrafenberg. 14473, Potsdam, Germany.",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "RWTH Aachen, Faculty of Georesources and Materials Engineering. Lochnerstr. 4-20, 52056 Aachen, Germany",
               "institution_ids": [
                 "https://openalex.org/I887968799"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Helmholtz Centre Potsdam -GFZ German Research Centre for Geosciences. Telegrafenberg. 14473, Potsdam, Germany.",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -56841,11 +56985,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.10922383,
+        "value": 0.10876462,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -57163,8 +57307,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -57876,8 +58020,8 @@
       "institutions_distinct_count": 5,
       "corresponding_author_ids": [
         "https://openalex.org/A5065561806",
-        "https://openalex.org/A5049820965",
-        "https://openalex.org/A5009590489"
+        "https://openalex.org/A5009590489",
+        "https://openalex.org/A5049820965"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I34403800",
@@ -57885,11 +58029,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04554957,
+        "value": 0.04546956,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -58084,8 +58228,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8399999737739563,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -58968,15 +59112,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam – GFZ German Research Centre for Geosciences, Section 4.5 – Subsurface Process Modelling, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "Department of Earth and Climate Science, Indian Institute of Science Education and Research, Pune, India",
               "institution_ids": [
                 "https://openalex.org/I181996519"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Helmholtz Centre Potsdam – GFZ German Research Centre for Geosciences, Section 4.5 – Subsurface Process Modelling, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -59022,15 +59166,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Helmholtz Centre Potsdam – GFZ German Research Centre for Geosciences, Section 4.5 – Subsurface Process Modelling, Potsdam, Germany",
-              "institution_ids": [
-                "https://openalex.org/I4210152878"
-              ]
-            },
-            {
               "raw_affiliation_string": "Faculty of Georesources and Material Engineering, RWTH Aachen University, Aachen, Germany",
               "institution_ids": [
                 "https://openalex.org/I887968799"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Helmholtz Centre Potsdam – GFZ German Research Centre for Geosciences, Section 4.5 – Subsurface Process Modelling, Potsdam, Germany",
+              "institution_ids": [
+                "https://openalex.org/I4210152878"
               ]
             }
           ]
@@ -59059,7 +59203,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.23061692,
+        "value": 0.22738954,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59293,8 +59437,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.6399999856948853,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [
@@ -59388,9 +59532,9 @@
         "https://openalex.org/W3212035858",
         "https://openalex.org/W6899434436",
         "https://openalex.org/W3121095571",
+        "https://openalex.org/W2189625117",
         "https://openalex.org/W2465002870",
-        "https://openalex.org/W2809171422",
-        "https://openalex.org/W2189625117"
+        "https://openalex.org/W2809171422"
       ],
       "related_works": [
         "https://openalex.org/W2324615561",
@@ -60114,11 +60258,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.50630832,
+        "value": 0.50390805,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -60380,8 +60524,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
       "grants": [],
@@ -60972,11 +61116,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.38054665,
+        "value": 0.37526664,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -61328,11 +61472,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09608846,
+        "value": 0.09527962,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -62185,11 +62329,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.11147333,
+        "value": 0.11053266,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -63146,11 +63290,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.11964437,
+        "value": 0.11879356,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -64213,7 +64357,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0446074,
+        "value": 0.04546541,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -64494,8 +64638,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.49000000953674316,
-          "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy"
         }
       ],
       "grants": [],
@@ -64627,7 +64771,7 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": null,

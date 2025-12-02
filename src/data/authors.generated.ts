@@ -34,7 +34,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 14
   },
   {
-    "authorId": "4",
+    "authorId": "2",
     "openAlexId": "A5005252413",
     "name": "Shirish Patil",
     "groupId": "INT",
@@ -49,7 +49,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 37
   },
   {
-    "authorId": "5",
+    "authorId": "3",
     "openAlexId": "A5087151830",
     "name": "Rudy Weijermars",
     "groupId": "GM",
@@ -64,7 +64,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 33
   },
   {
-    "authorId": "6",
+    "authorId": "4",
     "openAlexId": "A5049649985",
     "name": "Mohamed Mahmoud",
     "groupId": "INT",
@@ -79,7 +79,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 61
   },
   {
-    "authorId": "7",
+    "authorId": "5",
     "openAlexId": "A5053834729",
     "name": "Abdulraheem Abdulazeez",
     "groupId": "INT",
@@ -94,7 +94,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 44
   },
   {
-    "authorId": "8",
+    "authorId": "6",
     "openAlexId": "A5079680487",
     "name": "Abeeb Awotunde",
     "groupId": "INT",
@@ -109,7 +109,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 16
   },
   {
-    "authorId": "9",
+    "authorId": "7",
     "openAlexId": "A5046818830",
     "name": "Salaheldin Elkatatny",
     "groupId": "INT",
@@ -124,7 +124,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 47
   },
   {
-    "authorId": "11",
+    "authorId": "8",
     "openAlexId": "A5024608621",
     "name": "Dhafer Al-Shehri",
     "groupId": "INT",
@@ -139,7 +139,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 33
   },
   {
-    "authorId": "13",
+    "authorId": "9",
     "openAlexId": "A5063894925",
     "name": "Bashirul Haq",
     "groupId": "INT",
@@ -154,7 +154,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 22
   },
   {
-    "authorId": "14",
+    "authorId": "10",
     "openAlexId": "A5080526944",
     "name": "Saad Afnan",
     "groupId": "INT",
@@ -169,7 +169,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 24
   },
   {
-    "authorId": "15",
+    "authorId": "11",
     "openAlexId": "A5002974432",
     "name": "Murtada Al-Jawad",
     "groupId": "INT",
@@ -184,7 +184,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 24
   },
   {
-    "authorId": "16",
+    "authorId": "12",
     "openAlexId": "A5062945879",
     "name": "Mustafa Al-Ramadan",
     "groupId": "INT",
@@ -199,7 +199,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 15
   },
   {
-    "authorId": "17",
+    "authorId": "13",
     "openAlexId": "A5088043674",
     "name": "Madhar Azad",
     "groupId": "INT",
@@ -214,7 +214,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 16
   },
   {
-    "authorId": "19",
+    "authorId": "14",
     "openAlexId": "A5046264836",
     "name": "Hassan Khan",
     "groupId": "INT",
@@ -229,7 +229,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "20",
+    "authorId": "15",
     "openAlexId": "A5050065390",
     "name": "Shabeeb Alajmei",
     "groupId": "INT",
@@ -244,7 +244,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "22",
+    "authorId": "16",
     "openAlexId": "A5114504290",
     "name": "Talal Al-Shafloot",
     "groupId": "INT",
@@ -259,7 +259,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 0
   },
   {
-    "authorId": "23",
+    "authorId": "17",
     "openAlexId": "A5004797591",
     "name": "Sami Alnuaim",
     "groupId": "INT",
@@ -274,7 +274,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "25",
+    "authorId": "18",
     "openAlexId": "A5068231423",
     "name": "Arshad Raza",
     "groupId": "INT",
@@ -289,7 +289,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 29
   },
   {
-    "authorId": "27",
+    "authorId": "19",
     "openAlexId": "A5113878758",
     "name": "Assad Barri",
     "groupId": "INT",
@@ -304,7 +304,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 13
   },
   {
-    "authorId": "28",
+    "authorId": "20",
     "openAlexId": "A5053681819",
     "name": "Mohammad Jamal",
     "groupId": "INT",
@@ -319,7 +319,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 8
   },
   {
-    "authorId": "31",
+    "authorId": "21",
     "openAlexId": "A5010513143",
     "name": "Salem Basfer",
     "groupId": "INT",
@@ -334,7 +334,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 13
   },
   {
-    "authorId": "32",
+    "authorId": "22",
     "openAlexId": "A5074832503",
     "name": "Isah Mohammed",
     "groupId": "INT",
@@ -349,7 +349,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "33",
+    "authorId": "23",
     "openAlexId": "A5100696085",
     "name": "Abdulmalek Ahmed",
     "groupId": "INT",
@@ -364,7 +364,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 18
   },
   {
-    "authorId": "36",
+    "authorId": "24",
     "openAlexId": "A5017097772",
     "name": "Mahmoud Desouky",
     "groupId": "INT",
@@ -379,7 +379,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 6
   },
   {
-    "authorId": "38",
+    "authorId": "25",
     "openAlexId": "A5036112181",
     "name": "Khalid Al-Azani",
     "groupId": "INT",
@@ -394,7 +394,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "40",
+    "authorId": "26",
     "openAlexId": "A5091022304",
     "name": "Ahmed Gowida",
     "groupId": "INT",
@@ -409,7 +409,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "41",
+    "authorId": "27",
     "openAlexId": "A5058048471",
     "name": "Ala Al-Dogail",
     "groupId": "INT",
@@ -424,7 +424,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 6
   },
   {
-    "authorId": "42",
+    "authorId": "28",
     "openAlexId": "A5085007251",
     "name": "Khalid Al-Ramadan",
     "groupId": "GS",
@@ -439,7 +439,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 23
   },
   {
-    "authorId": "43",
+    "authorId": "29",
     "openAlexId": "A5054922583",
     "name": "Abdullatif Al-Shuhail",
     "groupId": "INT",
@@ -454,7 +454,22 @@ export const authors: AuthorRecord[] = [
     "hIndex": 21
   },
   {
-    "authorId": "45",
+    "authorId": "30",
+    "openAlexId": "A5050595596",
+    "name": "Nikolai Pedenchuk",
+    "groupId": "INT",
+    "groupName": "Integrative Members",
+    "affiliate1": "GEOL",
+    "affiliate2": "CIPR",
+    "affiliate3": "",
+    "email": "nikolai.pedenchuk@kfupm.edu.sa",
+    "orcid": "",
+    "totalPublications": 84,
+    "totalCitations": 2937,
+    "hIndex": 24
+  },
+  {
+    "authorId": "31",
     "openAlexId": "A5035815399",
     "name": "Michael Kaminski",
     "groupId": "GS",
@@ -469,7 +484,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 45
   },
   {
-    "authorId": "46",
+    "authorId": "32",
     "openAlexId": "A5056332242",
     "name": "Basem Zoheir",
     "groupId": "INT",
@@ -484,7 +499,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 36
   },
   {
-    "authorId": "47",
+    "authorId": "33",
     "openAlexId": "A5011750653",
     "name": "Scott Whattam",
     "groupId": "INT",
@@ -499,7 +514,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 26
   },
   {
-    "authorId": "48",
+    "authorId": "34",
     "openAlexId": "A5074883327",
     "name": "Bassam Tawabini",
     "groupId": "INT",
@@ -514,7 +529,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 21
   },
   {
-    "authorId": "49",
+    "authorId": "35",
     "openAlexId": "A400295131",
     "name": "Husam Baalousha",
     "groupId": "INT",
@@ -529,7 +544,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 0
   },
   {
-    "authorId": "50",
+    "authorId": "36",
     "openAlexId": "A5077467560",
     "name": "Sherif Hanafy",
     "groupId": "GP",
@@ -544,7 +559,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 18
   },
   {
-    "authorId": "51",
+    "authorId": "37",
     "openAlexId": "A5024607591",
     "name": "Ismail Kaka",
     "groupId": "INT",
@@ -559,7 +574,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 14
   },
   {
-    "authorId": "52",
+    "authorId": "38",
     "openAlexId": "A5111604304",
     "name": "Abdullah Alshuhail",
     "groupId": "INT",
@@ -574,7 +589,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "53",
+    "authorId": "39",
     "openAlexId": "A5082388493",
     "name": "Umair Waheed",
     "groupId": "DA",
@@ -589,7 +604,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 22
   },
   {
-    "authorId": "54",
+    "authorId": "40",
     "openAlexId": "A5064720324",
     "name": "Ammar El-Husseiny",
     "groupId": "PRP",
@@ -604,7 +619,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 17
   },
   {
-    "authorId": "55",
+    "authorId": "41",
     "openAlexId": "A5059881838",
     "name": "Ardiansyah Koeshidayatullah",
     "groupId": "GS",
@@ -619,7 +634,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 19
   },
   {
-    "authorId": "56",
+    "authorId": "42",
     "openAlexId": "A5079903196",
     "name": "Israa Mahfouz",
     "groupId": "GS",
@@ -634,7 +649,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "57",
+    "authorId": "43",
     "openAlexId": "A5028675144",
     "name": "Korhan Ayranci",
     "groupId": "INT",
@@ -649,7 +664,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 15
   },
   {
-    "authorId": "59",
+    "authorId": "44",
     "openAlexId": "A5059100961",
     "name": "Ayman Al-Lehyani",
     "groupId": "INT",
@@ -664,7 +679,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 3
   },
   {
-    "authorId": "61",
+    "authorId": "45",
     "openAlexId": "A5061327523",
     "name": "Paul Edigbue",
     "groupId": "INT",
@@ -679,7 +694,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 6
   },
   {
-    "authorId": "62",
+    "authorId": "46",
     "openAlexId": "A5035421092",
     "name": "Mutasim Osman",
     "groupId": "INT",
@@ -694,7 +709,22 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "65",
+    "authorId": "47",
+    "openAlexId": "A5089149869",
+    "name": "Simone Pilia",
+    "groupId": "INT",
+    "groupName": "Integrative Members",
+    "affiliate1": "GEOL",
+    "affiliate2": "CIPR",
+    "affiliate3": "",
+    "email": "simone.pilia@kfupm.edu.sa",
+    "orcid": "",
+    "totalPublications": 108,
+    "totalCitations": 709,
+    "hIndex": 17
+  },
+  {
+    "authorId": "48",
     "openAlexId": "A5047530160",
     "name": "Omar Radwan",
     "groupId": "INT",
@@ -709,7 +739,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "66",
+    "authorId": "49",
     "openAlexId": "A5034460286",
     "name": "Moaz Salih",
     "groupId": "INT",
@@ -724,7 +754,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "67",
+    "authorId": "50",
     "openAlexId": "A5065157429",
     "name": "Abdullah Basaleh",
     "groupId": "INT",
@@ -739,7 +769,22 @@ export const authors: AuthorRecord[] = [
     "hIndex": 7
   },
   {
-    "authorId": "70",
+    "authorId": "51",
+    "openAlexId": "A5053676730",
+    "name": "Syouma Hikmahtiar",
+    "groupId": "INT",
+    "groupName": "Integrative Members",
+    "affiliate1": "GEOL",
+    "affiliate2": "CIPR",
+    "affiliate3": "",
+    "email": "syouma.santoso@kfupm.edu.sa",
+    "orcid": "",
+    "totalPublications": 27,
+    "totalCitations": 34,
+    "hIndex": 4
+  },
+  {
+    "authorId": "52",
     "openAlexId": "A5088388992",
     "name": "Nabil Saraih",
     "groupId": "INT",
@@ -754,7 +799,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 3
   },
   {
-    "authorId": "73",
+    "authorId": "53",
     "openAlexId": "A5038432622",
     "name": "Theis Solling",
     "groupId": "OFC",
@@ -769,7 +814,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 32
   },
   {
-    "authorId": "74",
+    "authorId": "54",
     "openAlexId": "A5060497833",
     "name": "Kion Norrman",
     "groupId": "OFC",
@@ -784,7 +829,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 38
   },
   {
-    "authorId": "75",
+    "authorId": "55",
     "openAlexId": "A5022552999",
     "name": "Syed Hussain",
     "groupId": "OFC",
@@ -799,7 +844,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 30
   },
   {
-    "authorId": "76",
+    "authorId": "56",
     "openAlexId": "A5083774843",
     "name": "Mahmoud Abdulhamid",
     "groupId": "OFC",
@@ -814,7 +859,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 23
   },
   {
-    "authorId": "77",
+    "authorId": "57",
     "openAlexId": "A5063047677",
     "name": "Ahmed El-Zohry",
     "groupId": "OFC",
@@ -829,7 +874,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 32
   },
   {
-    "authorId": "78",
+    "authorId": "58",
     "openAlexId": "A5025636051",
     "name": "Bader Bageri",
     "groupId": "OFC",
@@ -844,7 +889,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 18
   },
   {
-    "authorId": "79",
+    "authorId": "59",
     "openAlexId": "A5084940954",
     "name": "Muhammad Kamal",
     "groupId": "OFC",
@@ -859,7 +904,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 48
   },
   {
-    "authorId": "80",
+    "authorId": "60",
     "openAlexId": "A5046127560",
     "name": "Khaled Abdelgawad",
     "groupId": "OFC",
@@ -874,7 +919,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 16
   },
   {
-    "authorId": "81",
+    "authorId": "61",
     "openAlexId": "A5005897140",
     "name": "Sivabalan Vijayalakshmi",
     "groupId": "OFC",
@@ -889,7 +934,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 22
   },
   {
-    "authorId": "84",
+    "authorId": "62",
     "openAlexId": "A5075168324",
     "name": "Mobeen Murtaza",
     "groupId": "OFC",
@@ -904,7 +949,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 27
   },
   {
-    "authorId": "85",
+    "authorId": "63",
     "openAlexId": "A5066251556",
     "name": "Ahmad Mahboob",
     "groupId": "OFC",
@@ -919,7 +964,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 10
   },
   {
-    "authorId": "86",
+    "authorId": "64",
     "openAlexId": "A5056606328",
     "name": "Ahmad Adewunmi",
     "groupId": "OFC",
@@ -934,7 +979,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 18
   },
   {
-    "authorId": "87",
+    "authorId": "65",
     "openAlexId": "A5009409541",
     "name": "Ali Binabdi",
     "groupId": "OFC",
@@ -949,7 +994,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 2
   },
   {
-    "authorId": "94",
+    "authorId": "66",
     "openAlexId": "A5102396283",
     "name": "Masooma Nazar",
     "groupId": "OFC",
@@ -964,7 +1009,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "95",
+    "authorId": "67",
     "openAlexId": "A5030821849",
     "name": "Jaber Al-Jaberi",
     "groupId": "OFC",
@@ -979,7 +1024,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 13
   },
   {
-    "authorId": "97",
+    "authorId": "68",
     "openAlexId": "A5090213272",
     "name": "Alexandra Scerbacova",
     "groupId": "OFC",
@@ -994,7 +1039,22 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "100",
+    "authorId": "69",
+    "openAlexId": "A5008925632",
+    "name": "Amro Othman",
+    "groupId": "OFC",
+    "groupName": "Oilfield Chemistry",
+    "affiliate1": "CIPR",
+    "affiliate2": "CIPR",
+    "affiliate3": "",
+    "email": "amro.othman@kfupm.edu.sa",
+    "orcid": "",
+    "totalPublications": 14,
+    "totalCitations": 104,
+    "hIndex": 7
+  },
+  {
+    "authorId": "70",
     "openAlexId": "A5077671600",
     "name": "Martin Andersson",
     "groupId": "MMM",
@@ -1009,7 +1069,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 43
   },
   {
-    "authorId": "101",
+    "authorId": "71",
     "openAlexId": "A5068641652",
     "name": "Fernando Alonso-Marroquin",
     "groupId": "MMM",
@@ -1024,7 +1084,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 25
   },
   {
-    "authorId": "102",
+    "authorId": "72",
     "openAlexId": "A5056134895",
     "name": "Safwat Abdel-Azeim",
     "groupId": "MMM",
@@ -1039,7 +1099,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 24
   },
   {
-    "authorId": "103",
+    "authorId": "73",
     "openAlexId": "A5066597466",
     "name": "Shaikha Lardhi",
     "groupId": "MMM",
@@ -1054,7 +1114,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "105",
+    "authorId": "74",
     "openAlexId": "A5004147906",
     "name": "Joakim Beck",
     "groupId": "MMM",
@@ -1069,7 +1129,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 13
   },
   {
-    "authorId": "106",
+    "authorId": "75",
     "openAlexId": "A5024668081",
     "name": "Mohamed Rezk",
     "groupId": "MMM",
@@ -1084,7 +1144,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "107",
+    "authorId": "76",
     "openAlexId": "A5080859432",
     "name": "Athaa Al-Otaibi",
     "groupId": "MMM",
@@ -1099,7 +1159,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 2
   },
   {
-    "authorId": "108",
+    "authorId": "77",
     "openAlexId": "A5010595990",
     "name": "Abdulrauf Adebayo",
     "groupId": "PRP",
@@ -1114,7 +1174,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 22
   },
   {
-    "authorId": "109",
+    "authorId": "78",
     "openAlexId": "A5059738250",
     "name": "Ahmed Al-Yaseri",
     "groupId": "PRP",
@@ -1129,7 +1189,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 47
   },
   {
-    "authorId": "111",
+    "authorId": "79",
     "openAlexId": "A5075429508",
     "name": "Amjed Mohamed",
     "groupId": "PRP",
@@ -1144,7 +1204,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 23
   },
   {
-    "authorId": "112",
+    "authorId": "80",
     "openAlexId": "A5018001631",
     "name": "Redha Abdrabalnabi",
     "groupId": "PRP",
@@ -1159,7 +1219,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 8
   },
   {
-    "authorId": "113",
+    "authorId": "81",
     "openAlexId": "A5024863050",
     "name": "Saud Al-Dughaimi",
     "groupId": "PRP",
@@ -1174,7 +1234,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "114",
+    "authorId": "82",
     "openAlexId": "A5024882078",
     "name": "Hani Al-Mukainah",
     "groupId": "PRP",
@@ -1189,7 +1249,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 9
   },
   {
-    "authorId": "115",
+    "authorId": "83",
     "openAlexId": "A5000180362",
     "name": "Sarmad Khan",
     "groupId": "PRP",
@@ -1204,7 +1264,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 6
   },
   {
-    "authorId": "116",
+    "authorId": "84",
     "openAlexId": "A5019355087",
     "name": "Rahul Babu",
     "groupId": "PRP",
@@ -1219,7 +1279,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "118",
+    "authorId": "85",
     "openAlexId": "A5050472957",
     "name": "Taqi Alzaki",
     "groupId": "PRP",
@@ -1234,7 +1294,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "123",
+    "authorId": "86",
     "openAlexId": "A5051727313",
     "name": "Vagif Suleymanov",
     "groupId": "PRP",
@@ -1249,7 +1309,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "124",
+    "authorId": "87",
     "openAlexId": "A5087940859",
     "name": "Ahmed Fatah",
     "groupId": "PRP",
@@ -1264,7 +1324,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 19
   },
   {
-    "authorId": "126",
+    "authorId": "88",
     "openAlexId": "A5022899503",
     "name": "Liu Xu",
     "groupId": "GP",
@@ -1279,7 +1339,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 17
   },
   {
-    "authorId": "127",
+    "authorId": "89",
     "openAlexId": "A5019303345",
     "name": "Panagiotis Kirmizakis",
     "groupId": "GP",
@@ -1294,7 +1354,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 11
   },
   {
-    "authorId": "128",
+    "authorId": "90",
     "openAlexId": "A5027197211",
     "name": "Abduljamiu Amao",
     "groupId": "GS",
@@ -1309,7 +1369,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 19
   },
   {
-    "authorId": "129",
+    "authorId": "91",
     "openAlexId": "A5014657720",
     "name": "Abdulwahab Bello",
     "groupId": "GS",
@@ -1324,7 +1384,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "130",
+    "authorId": "92",
     "openAlexId": "A5051302005",
     "name": "Adhipa Herlambang",
     "groupId": "GS",
@@ -1339,7 +1399,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 5
   },
   {
-    "authorId": "131",
+    "authorId": "93",
     "openAlexId": "A5035537771",
     "name": "Abdullah Alqubalee",
     "groupId": "GS",
@@ -1354,7 +1414,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 12
   },
   {
-    "authorId": "132",
+    "authorId": "94",
     "openAlexId": "A5072935704",
     "name": "Anas Salisu",
     "groupId": "GS",
@@ -1369,7 +1429,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 6
   },
   {
-    "authorId": "134",
+    "authorId": "95",
     "openAlexId": "A5025816670",
     "name": "Sulia Goeting",
     "groupId": "GS",
@@ -1384,7 +1444,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 4
   },
   {
-    "authorId": "135",
+    "authorId": "96",
     "openAlexId": "A5009590489",
     "name": "Denis Anikiev",
     "groupId": "DA",
@@ -1399,7 +1459,7 @@ export const authors: AuthorRecord[] = [
     "hIndex": 11
   },
   {
-    "authorId": "138",
+    "authorId": "97",
     "openAlexId": "A5003879468",
     "name": "Manal Alotibi",
     "groupId": "INT",
