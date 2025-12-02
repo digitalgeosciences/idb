@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {
   ArrowLeft,
@@ -24,6 +24,7 @@ import { worksTable } from "@/data/worksTable.generated";
 import { SiteShell } from "@/components/SiteShell";
 import type { OpenAlexWork } from "@/services/openAlex";
 import { dedupeWorks, normalizeOpenAlexId } from "@/lib/utils";
+import { Input } from "@/components/ui/input";
 import {
   Bar,
   BarChart,
@@ -73,6 +74,7 @@ export default function ProgramDetail() {
 
   const [sortBy, setSortBy] = useState<"citations" | "hIndex">("hIndex");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [authorSearch, setAuthorSearch] = useState("");
   const [works, setWorks] = useState<OpenAlexWork[]>([]);
   const [isLoadingWorks, setIsLoadingWorks] = useState(false);
   const [worksError, setWorksError] = useState<string | null>(null);
@@ -292,16 +294,37 @@ export default function ProgramDetail() {
     return result;
   }, [group, programWorks, programAuthorIds, startYear, endYear]);
 
-  const getAuthorStats = (openAlexId?: string | null) => {
-    if (!openAlexId) return null;
-    const normalized = normalizeOpenAlexId(openAlexId);
-    if (!normalized) return null;
-    return authorStatsByName.get(normalized) ?? null;
-  };
+  const getAuthorStats = useCallback(
+    (openAlexId?: string | null) => {
+      if (!openAlexId) return null;
+      const normalized = normalizeOpenAlexId(openAlexId);
+      if (!normalized) return null;
+      return authorStatsByName.get(normalized) ?? null;
+    },
+    [authorStatsByName],
+  );
 
+
+  const filteredAuthors = useMemo(() => {
+    const query = authorSearch.trim().toLowerCase();
+    if (!query) return programAuthors;
+    const tokens = query.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return programAuthors;
+
+    return programAuthors.filter((author) => {
+      const affiliates = [author.affiliate1, author.affiliate2, author.affiliate3]
+        .filter(Boolean)
+        .join(" ");
+      const haystack = [author.name, author.email, affiliates]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return tokens.every((token) => haystack.includes(token));
+    });
+  }, [programAuthors, authorSearch]);
 
   const sortedAuthors = useMemo(() => {
-    const list = [...programAuthors];
+    const list = [...filteredAuthors];
     list.sort((a, b) => {
       const dir = sortOrder === "asc" ? 1 : -1;
 
@@ -319,7 +342,7 @@ export default function ProgramDetail() {
       return (aH - bH) * dir;
     });
     return list;
-  }, [programAuthors, sortBy, sortOrder, authorStatsByName]);
+  }, [filteredAuthors, sortBy, sortOrder, getAuthorStats]);
 
 
   const AUTHORS_PAGE_SIZE = 25;
@@ -755,52 +778,63 @@ export default function ProgramDetail() {
               <Network className="h-5 w-5 text-primary" />
               <span>Affiliated authors</span>
             </CardTitle>
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              {allYears.length > 0 && (
-                <>
-                  <span className="font-semibold text-foreground">Year range:</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={startYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setStartYear(value);
-                      if (endYear != null && value > endYear) setEndYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                  <span>to</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={endYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setEndYear(value);
-                      if (startYear != null && value < startYear) setStartYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                </>
-              )}
-              <Button
-                variant="outline"
-                size="icon"
-                className="h-7 w-7 ml-1"
-                onClick={handleExportAuthorsCsv}
-                title="Export authors CSV"
-              >
-                <FileText className="h-3 w-3" />
-              </Button>
+            <div className="flex w-full flex-col gap-2 text-xs text-muted-foreground sm:w-auto sm:flex-row sm:items-center sm:gap-3">
+              <div className="flex w-full items-center gap-2">
+                <span className="font-semibold text-foreground">Search:</span>
+                <Input
+                  value={authorSearch}
+                  onChange={(e) => setAuthorSearch(e.target.value)}
+                  placeholder="Search authors or emails"
+                  className="h-7 text-xs sm:w-56"
+                />
+              </div>
+              <div className="flex items-center gap-2">
+                {allYears.length > 0 && (
+                  <>
+                    <span className="font-semibold text-foreground">Year range:</span>
+                    <select
+                      className="h-7 rounded border border-border bg-background px-2 text-xs"
+                      value={startYear ?? ""}
+                      onChange={(e) => {
+                        const value = Number(e.target.value);
+                        setStartYear(value);
+                        if (endYear != null && value > endYear) setEndYear(value);
+                      }}
+                    >
+                      {allYears.map((y) => (
+                        <option key={y} value={y}>
+                          {y}
+                        </option>
+                      ))}
+                    </select>
+                    <span>to</span>
+                    <select
+                      className="h-7 rounded border border-border bg-background px-2 text-xs"
+                      value={endYear ?? ""}
+                      onChange={(e) => {
+                        const value = Number(e.target.value);
+                        setEndYear(value);
+                        if (startYear != null && value < startYear) setStartYear(value);
+                      }}
+                    >
+                      {allYears.map((y) => (
+                        <option key={y} value={y}>
+                          {y}
+                        </option>
+                      ))}
+                    </select>
+                  </>
+                )}
+                <Button
+                  variant="outline"
+                  size="icon"
+                  className="h-7 w-7"
+                  onClick={handleExportAuthorsCsv}
+                  title="Export authors CSV"
+                >
+                  <FileText className="h-3 w-3" />
+                </Button>
+              </div>
             </div>
           </CardHeader>
           <CardContent>
@@ -845,6 +879,16 @@ export default function ProgramDetail() {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
+                  {visibleAuthors.length === 0 && (
+                    <TableRow>
+                      <TableCell
+                        colSpan={8}
+                        className="py-6 text-center text-muted-foreground"
+                      >
+                        No authors match your search.
+                      </TableCell>
+                    </TableRow>
+                  )}
                   {visibleAuthors.map((author) => {
                     const stats = getAuthorStats(author.openAlexId);
                     const publications = stats ? stats.publications : 0;

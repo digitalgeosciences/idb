@@ -4,6 +4,7 @@ import { FileText, ArrowUpDown, Download, Linkedin, Link as LinkIcon, User, Netw
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Input } from "@/components/ui/input";
 import type { OpenAlexAuthor } from "@/services/openAlex";
 import { authors } from "@/data/authors.generated";
 import { worksTable } from "@/data/worksTable.generated";
@@ -32,6 +33,7 @@ export default function AuthorDetail() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [sortBy, setSortBy] = useState<"year" | "citations">("year");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [workSearch, setWorkSearch] = useState("");
 
   const renderWorkTitleHtml = (title: string | undefined) => (
     <span dangerouslySetInnerHTML={{ __html: title || "" }} />
@@ -101,7 +103,7 @@ export default function AuthorDetail() {
     return yearlyStats.filter((s) => s.year >= from && s.year <= to);
   }, [yearlyStats, allYears, startYear, endYear]);
 
-  const filteredWorks = useMemo(() => {
+  const rangeFilteredWorks = useMemo(() => {
     if (!uniqueAuthorWorks.length) return [];
     if (!allYears.length) return uniqueAuthorWorks;
     const from = startYear ?? allYears[0];
@@ -111,6 +113,28 @@ export default function AuthorDetail() {
       return year >= from && year <= to;
     });
   }, [uniqueAuthorWorks, allYears, startYear, endYear]);
+
+  const filteredWorks = useMemo(() => {
+    const query = workSearch.trim().toLowerCase();
+    if (!query) return rangeFilteredWorks;
+    const tokens = query.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return rangeFilteredWorks;
+
+    return rangeFilteredWorks.filter((work) => {
+      const plainTitle = (work.title || "").replace(/<[^>]+>/g, " ");
+      const haystack = [
+        plainTitle,
+        (work.allAuthors || []).join(" "),
+        work.venue || "",
+        work.publicationDate || "",
+        work.year != null ? String(work.year) : "",
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return tokens.every((token) => haystack.includes(token));
+    });
+  }, [rangeFilteredWorks, workSearch]);
 
   const summary = useMemo(() => {
     if (!id) {
@@ -593,11 +617,20 @@ export default function AuthorDetail() {
         )}
 
         <Card className="border-border/60">
-          <CardHeader>
+          <CardHeader className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <CardTitle className="flex items-center gap-2">
               <FileText className="h-5 w-5 text-primary" />
               <span>Publications</span>
             </CardTitle>
+            <Input
+              value={workSearch}
+              onChange={(e) => {
+                setVisibleCount(PAGE_SIZE);
+                setWorkSearch(e.target.value);
+              }}
+              placeholder="Search title, author, venue..."
+              className="h-9 text-sm sm:w-72"
+            />
           </CardHeader>
           <CardContent>
             <>
@@ -658,6 +691,19 @@ export default function AuthorDetail() {
                           : firstAuthorLastName || firstAuthor;
 
                       const year = work.year ?? "";
+                      const publicationDate = work.publicationDate || "";
+                      const publicationDateLabel = (() => {
+                        if (!publicationDate) return "";
+                        const date = new Date(publicationDate);
+                        if (!Number.isNaN(date.getTime())) {
+                          return date.toLocaleDateString(undefined, {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                          });
+                        }
+                        return publicationDate;
+                      })();
                       const venue = work.venue || "";
                       const citations = work.citations ?? 0;
 
@@ -699,7 +745,7 @@ export default function AuthorDetail() {
                                 {year && (
                                   <>
                                     <span>•</span>
-                                    <span>{year}</span>
+                                    <span title={publicationDateLabel || undefined}>{year}</span>
                                   </>
                                 )}
 
@@ -734,7 +780,22 @@ export default function AuthorDetail() {
                             )}
                           </TableCell>
                           <TableCell className="hidden md:table-cell text-muted-foreground text-right">
-                            {year}
+                            {year ? (
+                              publicationDateLabel ? (
+                                <Tooltip>
+                                  <TooltipTrigger className="inline-flex justify-end text-right w-full">
+                                    {year}
+                                  </TooltipTrigger>
+                                  <TooltipContent>
+                                    <p>Published {publicationDateLabel}</p>
+                                  </TooltipContent>
+                                </Tooltip>
+                              ) : (
+                                year
+                              )
+                            ) : (
+                              ""
+                            )}
                           </TableCell>
                           <TableCell className="hidden md:table-cell text-muted-foreground">
                             {venue}
