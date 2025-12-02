@@ -1,0 +1,717 @@
+import { useEffect, useMemo, useState } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import {
+  ArrowLeft,
+  ArrowUpDown,
+  Download,
+  Linkedin,
+  Link as LinkIcon,
+  FileText,
+  Search,
+} from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { SiteShell } from "@/components/SiteShell";
+import { worksTable } from "@/data/worksTable.generated";   // <- keep this one
+import { groups } from "@/data/groups.generated";
+import { toast } from "@/components/ui/use-toast";
+import { Input } from "@/components/ui/input";
+import { Checkbox } from "@/components/ui/checkbox";
+
+const getPublicationSortValue = (w: (typeof worksTable)[number]) => {
+  if (w.publicationDate) {
+    const t = Date.parse(w.publicationDate);
+    if (!Number.isNaN(t)) return t;
+  }
+  return w.year ?? 0;
+};
+const getPublicationTooltip = (w: (typeof worksTable)[number]) => {
+  if (!w.publicationDate) return "";
+  const t = Date.parse(w.publicationDate);
+  if (Number.isNaN(t)) return w.publicationDate;
+  return new Date(t).toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+};
+
+const getProgramName = (code: string) => {
+  const match = groups.find((g) => g.shortName === code || g.groupId === code);
+  return match?.name || code;
+};
+
+const getProgramShortName = (code: string) => {
+  const match = groups.find((g) => g.shortName === code || g.groupId === code);
+  return match?.shortName || code;
+};
+
+const renderTitleHtml = (title: string | undefined) => (
+  <span dangerouslySetInnerHTML={{ __html: title || "" }} />
+);
+
+// Normalize DOIs so duplicates can be detected reliably
+const normalizeDoi = (raw?: string | null) => {
+  if (!raw) return "";
+  let doi = raw.trim().toLowerCase();
+  doi = doi.replace(/^https?:\/\/(dx\.)?doi\.org\//, "");
+  doi = doi.replace(/^doi:/, "");
+  return doi.trim();
+};
+
+// Normalize names so minor differences (case, hyphen variants, accents)
+// don't split the same person into multiple buckets.
+const normalizeName = (raw: string) => {
+  if (!raw) return "";
+  let s = raw.trim().toLowerCase();
+
+  // Unicode normalization: remove diacritics
+  s = s.normalize("NFD").replace(/\p{M}+/gu, "");
+
+  // Unify dash / hyphen variants
+  s = s.replace(/[\u2010-\u2015]/g, "-");
+
+  // Remove punctuation that shouldn't affect identity
+  s = s.replace(/[.,']/g, "");
+
+  // Collapse whitespace
+  s = s.replace(/\s+/g, " ");
+
+  return s;
+};
+
+const ALL = "all";
+const PAGE_SIZE = 15;
+
+interface PublicationsPageProps {
+  mode?: "publications" | "citations";
+}
+
+const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
+  const navigate = useNavigate();
+  const [params] = useSearchParams();
+
+  const programFilter = params.get("program") || ALL;
+  const topicFilter = params.get("topic") || "";
+  const institutionFilter = params.get("institution") || "";
+  const authorFilter = params.get("author") || "";
+  const coAuthorFilter = params.get("coauthor") || "";
+  const fromYearParam = params.get("fromYear");
+  const toYearParam = params.get("toYear");
+  const [sortBy, setSortBy] = useState<"year" | "citations">(
+    mode === "citations" ? "citations" : "year",
+  );
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const programOptions = useMemo(() => {
+    const codes = new Set<string>();
+    for (const w of worksTable) {
+      if (w.program) codes.add(w.program);
+    }
+    return Array.from(codes).sort();
+  }, []);
+
+  const allYears = useMemo(() => {
+    const years = new Set<number>();
+    for (const w of worksTable) {
+      if (w.year && w.year > 0) years.add(w.year);
+    }
+    return Array.from(years).sort((a, b) => a - b);
+  }, []);
+
+  const [startYear, setStartYear] = useState<number | null>(
+    fromYearParam ? Number(fromYearParam) : null,
+  );
+  const [endYear, setEndYear] = useState<number | null>(
+    toYearParam ? Number(toYearParam) : null,
+  );
+  const [includeNoVenue, setIncludeNoVenue] = useState(false);
+
+  useEffect(() => {
+    if (!allYears.length) return;
+    const minYear = allYears[0];
+    const maxYear = allYears[allYears.length - 1];
+
+    setStartYear((prev) => (prev == null ? minYear : prev));
+    setEndYear((prev) => (prev == null ? maxYear : prev));
+  }, [allYears]);
+
+
+  const filtered = useMemo(() => {
+    const from = startYear ?? (allYears.length ? allYears[0] : undefined);
+    const to = endYear ?? (allYears.length ? allYears[allYears.length - 1] : undefined);
+
+    const query = searchQuery.trim().toLowerCase();
+    const seenDois = new Set<string>();
+
+    return worksTable.filter((w) => {
+      if (programFilter !== ALL && w.program !== programFilter) return false;
+      if (!w.year) return false;
+      if (!includeNoVenue && !w.venue) return false;
+      if (from != null && w.year < from) return false;
+      if (to != null && w.year > to) return false;
+      if (topicFilter && !(w.topics || []).includes(topicFilter)) return false;
+      if (institutionFilter && !(w.institutions || []).includes(institutionFilter))
+        return false;
+      if (
+        authorFilter &&
+        !(w.allAuthors || []).some(
+          (name) => normalizeName(name) === normalizeName(authorFilter),
+        )
+      ) {
+        return false;
+      }
+      if (
+        coAuthorFilter &&
+        !(w.allAuthors || []).some(
+          (name) => normalizeName(name) === normalizeName(coAuthorFilter),
+        )
+      ) {
+        return false;
+      }
+      if (
+        coAuthorFilter &&
+        !(w.allAuthors || []).some(
+          (name) => name.toLowerCase() === coAuthorFilter.toLowerCase(),
+        )
+      ) {
+        return false;
+      }
+
+      if (query) {
+        const haystack = [
+          w.title || "",
+          w.venue || "",
+          getProgramName(w.program),
+          String(w.year ?? ""),
+          (w.topics || []).join(" "),
+          (w.institutions || []).join(" "),
+        ]
+          .join(" ")
+          .toLowerCase();
+        if (!haystack.includes(query)) return false;
+      }
+
+      // De‑duplicate by normalized DOI
+      const doiKey = normalizeDoi(w.doi);
+      if (doiKey) {
+        if (seenDois.has(doiKey)) return false;
+        seenDois.add(doiKey);
+      }
+
+      return true;
+    });
+  }, [
+    programFilter,
+    startYear,
+    endYear,
+    allYears,
+    searchQuery,
+    includeNoVenue,
+    topicFilter,
+    institutionFilter,
+    authorFilter,
+    coAuthorFilter,
+  ]);
+
+
+  const sorted = useMemo(() => {
+    const items = [...filtered];
+    items.sort((a, b) => {
+      const dir = sortOrder === "asc" ? 1 : -1;
+      if (sortBy === "year") {
+        return (getPublicationSortValue(a) - getPublicationSortValue(b)) * dir;
+      }
+      return ((a.citations ?? 0) - (b.citations ?? 0)) * dir;
+    });
+    return items;
+  }, [filtered, sortBy, sortOrder]);
+
+  const visibleRows = sorted.slice(0, visibleCount);
+  const hasMoreToShow = visibleCount < sorted.length;
+
+  const toggleSort = (field: "year" | "citations") => {
+    if (sortBy === field) {
+      setSortOrder((prev) => (prev === "asc" ? "desc" : "asc"));
+    } else {
+      setSortBy(field);
+      setSortOrder("desc");
+      setVisibleCount(PAGE_SIZE);
+    }
+  };
+
+  const title =
+    mode === "citations" ? "Publications by citations" : "Publications by program";
+
+  const handleSavePdf = () => {
+    window.print();
+  };
+
+  const handleShareLinkedIn = () => {
+    const url = window.location.href;
+    const shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+      url,
+    )}`;
+    window.open(shareUrl, "_blank", "noopener,noreferrer");
+  };
+
+  const handleCopyLink = async () => {
+    const url = window.location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast({
+        title: "Link copied",
+        description: "Publications page URL copied to clipboard.",
+      });
+    } catch {
+      // ignore
+    }
+  };
+
+  const handleExportCsv = () => {
+    if (!sorted.length) return;
+
+    const headers = ["title", "program", "year", "topics", "institutions", "venue", "citations"];
+
+    const escape = (value: unknown) => {
+      const str = value == null ? "" : String(value);
+      if (str === "") return "";
+      const cleaned = str.replace(/\r?\n/g, " ");
+      if (/[",]/.test(cleaned)) {
+        return `"${cleaned.replace(/"/g, '""')}"`;
+      }
+      return cleaned;
+    };
+
+    const lines = [headers.join(",")];
+
+    for (const w of sorted) {
+      lines.push(
+        [
+          escape(w.title || ""),
+          escape(getProgramShortName(w.program)),
+          escape(w.year ?? ""),
+          escape((w.topics || []).join("|")),
+          escape((w.institutions || []).join("|")),
+          escape(w.venue || ""),
+          escape(w.citations ?? 0),
+        ].join(","),
+      );
+    }
+
+    const csv = lines.join("\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download =
+      mode === "citations" ? "publications-by-citations.csv" : "publications.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  return (
+    <SiteShell>
+      <main className="container mx-auto px-4 py-6 space-y-4">
+        <div className="flex flex-wrap gap-2">
+          <Button variant="ghost" onClick={() => navigate("/")}>
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Back to dashboard
+          </Button>
+          <Button
+            variant="ghost"
+            onClick={() => navigate(-1)}
+            className="px-2 text-xs"
+          >
+            Back to previous
+          </Button>
+        </div>
+
+        <Card className="border-border/60">
+          <CardHeader className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3 sm:flex-1">
+              <div className="flex items-center gap-2">
+                <FileText className="h-5 w-5 text-primary" />
+                <CardTitle>{title}</CardTitle>
+              </div>
+              <div className="flex w-full justify-center text-xs text-muted-foreground">
+                <div className="relative w-full max-w-md">
+                  <Input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                      setVisibleCount(PAGE_SIZE);
+                    }}
+                    placeholder="Search title, venue, topic…"
+                    className="h-8 pl-7 pr-2 text-xs"
+                  />
+                  <Search className="pointer-events-none absolute left-2 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-muted-foreground" />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-8 w-8"
+                onClick={handleSavePdf}
+                title="Save PDF"
+              >
+                <Download className="h-3 w-3" />
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-8 w-8"
+                onClick={handleExportCsv}
+                title="Export CSV"
+              >
+                <FileText className="h-3 w-3" />
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-8 w-8"
+                onClick={handleShareLinkedIn}
+                title="Share on LinkedIn"
+              >
+                <Linkedin className="h-3 w-3" />
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-8 w-8"
+                onClick={handleCopyLink}
+                title="Copy link"
+              >
+                <LinkIcon className="h-3 w-3" />
+              </Button>
+            </div>
+          </CardHeader>
+
+          <CardContent>
+            <div className="flex flex-wrap items-center justify-end gap-3 mb-3 text-[11px] text-muted-foreground">
+              <div className="flex items-center gap-1">
+                <span className="font-semibold text-foreground">Scope:</span>
+                <select
+                  className="h-7 rounded border border-border bg-background px-2 text-xs"
+                  value={programFilter}
+                  onChange={(e) => {
+                    const value = e.target.value;
+                    const next = new URLSearchParams(params);
+                    if (value === ALL) next.delete("program");
+                    else next.set("program", value);
+                    navigate(
+                      `${mode === "citations" ? "/citations" : "/publications"}?${next.toString()}`,
+                    );
+                  }}
+                >
+                  <option value={ALL}>All programs</option>
+                  {programOptions.map((code) => (
+                    <option key={code} value={code}>
+                      {getProgramName(code)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {allYears.length > 0 && (
+                <>
+                  <span className="font-semibold text-foreground">Year range:</span>
+                  <select
+                    className="h-7 rounded border border-border bg-background px-2 text-xs"
+                    value={startYear ?? ""}
+                    onChange={(e) => {
+                      const value = Number(e.target.value);
+                      setStartYear(value);
+                      if (endYear != null && value > endYear) setEndYear(value);
+                    }}
+                  >
+                    {allYears.map((y) => (
+                      <option key={y} value={y}>
+                        {y}
+                      </option>
+                    ))}
+                  </select>
+                  <span>to</span>
+                  <select
+                    className="h-7 rounded border border-border bg-background px-2 text-xs"
+                    value={endYear ?? ""}
+                    onChange={(e) => {
+                      const value = Number(e.target.value);
+                      setEndYear(value);
+                      if (startYear != null && value < startYear) setStartYear(value);
+                    }}
+                  >
+                    {allYears.map((y) => (
+                      <option key={y} value={y}>
+                        {y}
+                      </option>
+                    ))}
+                  </select>
+                </>
+              )}
+
+              <label
+                className="flex items-center gap-1"
+                title="Include conference papers and publications without a venue"
+              >
+                <Checkbox
+                  checked={includeNoVenue}
+                  onCheckedChange={(checked) => setIncludeNoVenue(checked === true)}
+                  className="h-3.5 w-3.5"
+                />
+                <span>Show all publications</span>
+              </label>
+            </div>
+
+            {sorted.length === 0 ? (
+              <p className="text-sm text-muted-foreground">
+                No publications match the selected filters.
+              </p>
+            ) : (
+              <div className="space-y-3">
+                <div className="flex items-center justify-between text-xs text-muted-foreground mb-2">
+                  <span>
+                    Showing {visibleRows.length} of {sorted.length} publications
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="font-semibold text-foreground">Sort by:</span>
+                    <Button
+                      variant="ghost"
+                      size="xs"
+                      className="flex items-center gap-1"
+                      onClick={() => toggleSort("year")}
+                    >
+                      Year
+                      <ArrowUpDown className="h-3 w-3" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="xs"
+                      className="flex items-center gap-1"
+                      onClick={() => toggleSort("citations")}
+                    >
+                      Citations
+                      <ArrowUpDown className="h-3 w-3" />
+                    </Button>
+                  </div>
+                </div>
+
+                <div className="overflow-x-auto rounded-md border border-border/60 bg-card/40">
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>Title</TableHead>
+                        <TableHead className="hidden md:table-cell">First author</TableHead>
+                        <TableHead className="hidden md:table-cell text-right">
+                          <button
+                            type="button"
+                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-medium text-muted-foreground hover:text-foreground border-0 focus-visible:outline-none"
+                            onClick={() => toggleSort("year")}
+                          >
+                            Year
+                            <ArrowUpDown className="h-3 w-3" />
+                          </button>
+                        </TableHead>
+                        <TableHead className="hidden lg:table-cell">Topics</TableHead>
+                        <TableHead className="hidden lg:table-cell">Institutions</TableHead>
+                        <TableHead className="hidden md:table-cell">Venue</TableHead>
+                        <TableHead className="hidden md:table-cell text-right">
+                          <button
+                            type="button"
+                            className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-medium text-muted-foreground hover:text-foreground border-0 focus-visible:outline-none"
+                            onClick={() => toggleSort("citations")}
+                          >
+                            Citations
+                            <ArrowUpDown className="h-3 w-3" />
+                          </button>
+                        </TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {visibleRows.map((w) => {
+                        const programCode = getProgramShortName(w.program);
+
+                        const doiUrl = (() => {
+                          const rawDoi = (w.doi || "").trim();
+                          if (!rawDoi) return "";
+                          if (rawDoi.toLowerCase().startsWith("http")) return rawDoi;
+                          const cleaned = rawDoi.replace(/^doi:/i, "").trim();
+                          return cleaned ? `https://doi.org/${cleaned}` : "";
+                        })();
+
+                        const displayYear = w.publicationDate
+                          ? new Date(w.publicationDate).getFullYear()
+                          : w.year ?? "";
+
+                        return (
+                          <TableRow key={w.workId}>
+                            <TableCell className="align-top text-foreground">
+                              <div className="flex flex-col gap-1">
+                                <div className="flex items-center gap-2">
+                                  <FileText className="h-3 w-3 text-primary" />
+                                  {doiUrl ? (
+                                    <a
+                                      href={doiUrl}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="font-medium text-primary hover:underline"
+                                    >
+                                      {renderTitleHtml(w.title)}
+                                    </a>
+                                  ) : (
+                                    <span className="font-medium">
+                                      {renderTitleHtml(w.title)}
+                                    </span>
+                                  )}
+                                </div>
+
+                                {/* Compact line for mobile */}
+                                <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-muted-foreground md:hidden">
+                                  {w.venue && (
+                                    <span className="font-semibold text-foreground">
+                                      {w.venue}
+                                    </span>
+                                  )}
+
+                                  {w.allAuthors && w.allAuthors.length > 0 ? (
+                                    <>
+                                      <span>•</span>
+                                      <span>
+                                        {w.firstAuthorLastName
+                                          ? `${w.firstAuthorLastName} et al.`
+                                          : `${w.allAuthors[0]} et al.`}
+                                      </span>
+                                    </>
+                                  ) : (
+                                    <>
+                                      <span>•</span>
+                                      <span>{programCode}</span>
+                                    </>
+                                  )}
+
+                                  {displayYear && (
+                                    <>
+                                      <span>•</span>
+                                      <span>{displayYear}</span>
+                                    </>
+                                  )}
+
+                                  {typeof w.citations === "number" && w.citations > 0 && (
+                                    <>
+                                      <span>•</span>
+                                      <span>{w.citations} citations</span>
+                                    </>
+                                  )}
+                                </div>
+                              </div>
+                            </TableCell>
+
+                            {/* Desktop-only cells */}
+                            <TableCell className="hidden md:table-cell text-muted-foreground">
+                              {w.allAuthors && w.allAuthors.length > 0 ? (
+                                <span
+                                  title={w.allAuthors.join(", ")}
+                                  className="cursor-default"
+                                >
+                                  {w.firstAuthorLastName
+                                    ? `${w.firstAuthorLastName} et al.`
+                                    : `${w.allAuthors[0]} et al.`}
+                                </span>
+                              ) : (
+                                programCode
+                              )}
+                            </TableCell>
+
+                            <TableCell
+                              className="hidden md:table-cell text-right text-muted-foreground"
+                              title={getPublicationTooltip(w)}
+                            >
+                              {displayYear}
+                            </TableCell>
+
+                            <TableCell className="hidden lg:table-cell text-xs text-muted-foreground">
+                              {(w.topics || []).join(", ")}
+                            </TableCell>
+
+                                                        <TableCell
+                              className="hidden lg:table-cell text-xs text-muted-foreground"
+                              title={(w.institutions || []).join(", ")}
+                            >
+                              {(() => {
+                                const institutions = w.institutions || [];
+                                const maxToShow = 2;
+                                const shown = institutions.slice(0, maxToShow);
+                                const remaining = institutions.length - shown.length;
+
+                                return (
+                                  <>
+                                    {shown.join(", ")}
+                                    {remaining > 0 && (
+                                      <span className="text-muted-foreground/80">
+                                        {shown.length ? ", " : ""}
+                                        +{remaining} more
+                                      </span>
+                                    )}
+                                  </>
+                                );
+                              })()}
+                            </TableCell>
+
+
+                            <TableCell className="hidden md:table-cell text-xs text-muted-foreground">
+                              {w.venue}
+                            </TableCell>
+
+                            <TableCell className="hidden md:table-cell text-right">
+                              {w.citations ?? 0}
+                            </TableCell>
+                          </TableRow>
+                        );
+                      })}
+                    </TableBody>
+                  </Table>
+                </div>
+
+                {hasMoreToShow && (
+                  <div className="flex justify-center gap-2 pt-4">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() =>
+                        setVisibleCount((count) =>
+                          Math.min(count + PAGE_SIZE, sorted.length),
+                        )
+                      }
+                    >
+                      Load more
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => setVisibleCount(sorted.length)}
+                    >
+                      Load all
+                    </Button>
+                  </div>
+                )}
+              </div>
+            )}
+          </CardContent>
+
+
+
+        </Card>
+
+      </main>
+    </SiteShell>
+  );
+};
+
+export default PublicationsPage;
