@@ -206,9 +206,9 @@ export default function AuthorDetail() {
     items.sort((a, b) => {
       const dir = sortOrder === "asc" ? 1 : -1;
       if (sortBy === "year") {
-        return ((a.publication_year ?? 0) - (b.publication_year ?? 0)) * dir;
+        return ((a.year ?? 0) - (b.year ?? 0)) * dir;
       }
-      return ((a.cited_by_count ?? 0) - (b.cited_by_count ?? 0)) * dir;
+      return ((a.citations ?? 0) - (b.citations ?? 0)) * dir;
     });
     return items;
   }, [filteredWorks, sortBy, sortOrder]);
@@ -249,9 +249,9 @@ export default function AuthorDetail() {
       lines.push(
         [
           escape(w.title || ""),
-          escape(w.publication_year ?? ""),
-          escape(w.primary_location?.source?.display_name || ""),
-          escape(w.cited_by_count ?? 0),
+          escape(w.year ?? ""),
+          escape(w.venue || ""),
+          escape(w.citations ?? 0),
         ].join(","),
       );
     }
