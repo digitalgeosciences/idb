@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
   // works correctly when served from a non-root
   // path or behind a reverse proxy.
   // For GitHub Pages, the project is served from /intdash/
-  base: mode === "development" ? "/" : "/dashboard/",
+  base: mode === "development" ? "/" : "/idb/",
   server: {
     host: "0.0.0.0",
     port: 8080,
