@@ -29,6 +29,7 @@ import {
 import type { TooltipProps } from "recharts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 const SimpleProgramTooltip = ({ active, payload }: TooltipProps<number, string>) => {
   if (!active || !payload || payload.length === 0) return null;
 
@@ -439,9 +440,30 @@ const Index = () => {
     "program" | "members" | "publications" | "themes" | "areas" | "citations"
   >("citations");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [programSearch, setProgramSearch] = useState("");
+
+  const normalizedProgramSearch = programSearch.trim().toLowerCase();
+
+  const filteredProgramRows = useMemo(() => {
+    if (!normalizedProgramSearch) return programRows;
+    const tokens = normalizedProgramSearch.split(/\s+/).filter(Boolean);
+    if (!tokens.length) return programRows;
+    return programRows.filter(({ group }) => {
+      const haystack = [
+        group.name,
+        group.shortName,
+        group.affiliationName,
+        group.affiliationShort,
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return tokens.every((token) => haystack.includes(token));
+    });
+  }, [programRows, normalizedProgramSearch]);
 
   const sortedProgramRows = useMemo(() => {
-    const rows = [...programRows];
+    const rows = [...filteredProgramRows];
     rows.sort((a, b) => {
       const dir = sortOrder === "asc" ? 1 : -1;
       switch (sortBy) {
@@ -461,7 +483,7 @@ const Index = () => {
       }
     });
     return rows;
-  }, [programRows, sortBy, sortOrder]);
+  }, [filteredProgramRows, sortBy, sortOrder]);
 
   const toggleSort = (
     field: "program" | "members" | "publications" | "themes" | "areas" | "citations",
@@ -899,41 +921,54 @@ const Index = () => {
 
         {/* Research Programs Main Content */}
         <section id="research-programs" className="space-y-4 mb-10">
-          <div className="flex items-center justify-between mb-4">
+          <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <h2 className="text-2xl font-bold text-foreground">Programs</h2>
-            <div className="flex items-center gap-2 text-xs text-muted-foreground">
-              <span className="font-semibold text-foreground">Year range:</span>
-              <select
-                className="h-7 rounded border border-border bg-background px-2 text-xs"
-                value={startYear ?? ""}
-                onChange={(e) => {
-                  const value = Number(e.target.value);
-                  setStartYear(value);
-                  if (endYear != null && value > endYear) setEndYear(value);
-                }}
-              >
-                {allYears.map((y) => (
-                  <option key={y} value={y}>
-                    {y}
-                  </option>
-                ))}
-              </select>
-              <span>to</span>
-              <select
-                className="h-7 rounded border border-border bg-background px-2 text-xs"
-                value={endYear ?? ""}
-                onChange={(e) => {
-                  const value = Number(e.target.value);
-                  setEndYear(value);
-                  if (startYear != null && value < startYear) setStartYear(value);
-                }}
-              >
-                {allYears.map((y) => (
-                  <option key={y} value={y}>
-                    {y}
-                  </option>
-                ))}
-              </select>
+            <div className="flex w-full flex-col gap-2 text-xs text-muted-foreground sm:w-auto sm:flex-row sm:items-center sm:gap-3">
+              <div className="flex w-full items-center gap-2">
+                <span className="font-semibold text-foreground">Search:</span>
+                <Input
+                  value={programSearch}
+                  onChange={(e) => {
+                    setProgramSearch(e.target.value);
+                  }}
+                  placeholder="Search programs or affiliations"
+                  className="h-7 w-full text-xs sm:w-56"
+                />
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-foreground whitespace-nowrap">Year range:</span>
+                <select
+                  className="h-7 rounded border border-border bg-background px-2 text-xs"
+                  value={startYear ?? ""}
+                  onChange={(e) => {
+                    const value = Number(e.target.value);
+                    setStartYear(value);
+                    if (endYear != null && value > endYear) setEndYear(value);
+                  }}
+                >
+                  {allYears.map((y) => (
+                    <option key={y} value={y}>
+                      {y}
+                    </option>
+                  ))}
+                </select>
+                <span>to</span>
+                <select
+                  className="h-7 rounded border border-border bg-background px-2 text-xs"
+                  value={endYear ?? ""}
+                  onChange={(e) => {
+                    const value = Number(e.target.value);
+                    setEndYear(value);
+                    if (startYear != null && value < startYear) setStartYear(value);
+                  }}
+                >
+                  {allYears.map((y) => (
+                    <option key={y} value={y}>
+                      {y}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
           <div className="hidden sm:block rounded-md border border-border/60 bg-card/40">
@@ -1008,6 +1043,16 @@ const Index = () => {
                 </TableRow>
               </TableHeader>
               <TableBody>
+                {sortedProgramRows.length === 0 && (
+                  <TableRow>
+                    <TableCell
+                      colSpan={7}
+                      className="py-6 text-center text-muted-foreground"
+                    >
+                      No programs match your search.
+                    </TableCell>
+                  </TableRow>
+                )}
                 {sortedProgramRows.map((row) => {
                   const { group, members, publications, citations, themes: themeCount, areas: areaCount } =
                     row;
@@ -1134,6 +1179,11 @@ const Index = () => {
             </Table>
           </div>
           <div className="grid grid-cols-2 gap-1 xs:grid-cols-2 sm:grid-cols-2 lg:hidden">
+            {sortedProgramRows.length === 0 && (
+              <div className="col-span-2 py-6 text-center text-muted-foreground">
+                No programs match your search.
+              </div>
+            )}
             {sortedProgramRows.map((row) => {
               const {
                 group,

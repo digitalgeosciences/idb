@@ -1069,21 +1069,6 @@ export const authors: AuthorRecord[] = [
     "hIndex": 43
   },
   {
-    "authorId": "71",
-    "openAlexId": "A5068641652",
-    "name": "Fernando Alonso-Marroquin",
-    "groupId": "MMM",
-    "groupName": "Multiscale and Multiphysics Modeling",
-    "affiliate1": "CIPR",
-    "affiliate2": "CIPR",
-    "affiliate3": "",
-    "email": "fernando.marroquin@kfupm.edu.sa",
-    "orcid": "",
-    "totalPublications": 110,
-    "totalCitations": 2609,
-    "hIndex": 25
-  },
-  {
     "authorId": "72",
     "openAlexId": "A5056134895",
     "name": "Safwat Abdel-Azeim",

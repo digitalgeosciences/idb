@@ -948,8 +948,8 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "MMM",
     "year": 2002,
-    "publications": 6,
-    "citations": 556
+    "publications": 4,
+    "citations": 482
   },
   {
     "program": "MMM",
@@ -960,133 +960,133 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "MMM",
     "year": 2004,
-    "publications": 8,
-    "citations": 217
+    "publications": 3,
+    "citations": 58
   },
   {
     "program": "MMM",
     "year": 2005,
-    "publications": 14,
-    "citations": 2040
+    "publications": 9,
+    "citations": 1820
   },
   {
     "program": "MMM",
     "year": 2006,
-    "publications": 13,
-    "citations": 687
+    "publications": 10,
+    "citations": 562
   },
   {
     "program": "MMM",
     "year": 2007,
-    "publications": 12,
-    "citations": 625
+    "publications": 10,
+    "citations": 553
   },
   {
     "program": "MMM",
     "year": 2008,
-    "publications": 16,
-    "citations": 1487
+    "publications": 10,
+    "citations": 1341
   },
   {
     "program": "MMM",
     "year": 2009,
-    "publications": 14,
-    "citations": 296
+    "publications": 4,
+    "citations": 49
   },
   {
     "program": "MMM",
     "year": 2010,
-    "publications": 7,
-    "citations": 154
+    "publications": 6,
+    "citations": 85
   },
   {
     "program": "MMM",
     "year": 2011,
-    "publications": 11,
-    "citations": 142
+    "publications": 7,
+    "citations": 68
   },
   {
     "program": "MMM",
     "year": 2012,
-    "publications": 12,
-    "citations": 445
+    "publications": 9,
+    "citations": 313
   },
   {
     "program": "MMM",
     "year": 2013,
-    "publications": 20,
-    "citations": 482
+    "publications": 15,
+    "citations": 408
   },
   {
     "program": "MMM",
     "year": 2014,
-    "publications": 34,
-    "citations": 869
+    "publications": 25,
+    "citations": 779
   },
   {
     "program": "MMM",
     "year": 2015,
-    "publications": 26,
-    "citations": 635
+    "publications": 22,
+    "citations": 553
   },
   {
     "program": "MMM",
     "year": 2016,
-    "publications": 25,
-    "citations": 1372
+    "publications": 18,
+    "citations": 749
   },
   {
     "program": "MMM",
     "year": 2017,
-    "publications": 27,
-    "citations": 598
+    "publications": 17,
+    "citations": 576
   },
   {
     "program": "MMM",
     "year": 2018,
-    "publications": 29,
-    "citations": 883
+    "publications": 27,
+    "citations": 871
   },
   {
     "program": "MMM",
     "year": 2019,
-    "publications": 22,
-    "citations": 646
+    "publications": 17,
+    "citations": 623
   },
   {
     "program": "MMM",
     "year": 2020,
-    "publications": 38,
-    "citations": 997
+    "publications": 27,
+    "citations": 756
   },
   {
     "program": "MMM",
     "year": 2021,
-    "publications": 34,
-    "citations": 900
+    "publications": 29,
+    "citations": 807
   },
   {
     "program": "MMM",
     "year": 2022,
-    "publications": 28,
+    "publications": 27,
     "citations": 551
   },
   {
     "program": "MMM",
     "year": 2023,
-    "publications": 33,
-    "citations": 305
+    "publications": 28,
+    "citations": 262
   },
   {
     "program": "MMM",
     "year": 2024,
-    "publications": 30,
-    "citations": 146
+    "publications": 26,
+    "citations": 143
   },
   {
     "program": "MMM",
     "year": 2025,
-    "publications": 38,
+    "publications": 36,
     "citations": 67
   },
   {
