@@ -42,26 +42,26 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "DA",
     "year": 2013,
-    "publications": 11,
+    "publications": 12,
     "citations": 99
   },
   {
     "program": "DA",
     "year": 2014,
-    "publications": 13,
+    "publications": 12,
     "citations": 206
   },
   {
     "program": "DA",
     "year": 2015,
     "publications": 7,
-    "citations": 147
+    "citations": 148
   },
   {
     "program": "DA",
     "year": 2016,
     "publications": 4,
-    "citations": 52
+    "citations": 53
   },
   {
     "program": "DA",
@@ -91,7 +91,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "DA",
     "year": 2021,
     "publications": 38,
-    "citations": 907
+    "citations": 912
   },
   {
     "program": "DA",
@@ -157,7 +157,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GM",
     "year": 1988,
     "publications": 6,
-    "citations": 161
+    "citations": 162
   },
   {
     "program": "GM",
@@ -271,7 +271,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GM",
     "year": 2016,
     "publications": 8,
-    "citations": 209
+    "citations": 210
   },
   {
     "program": "GM",
@@ -289,7 +289,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GM",
     "year": 2019,
     "publications": 18,
-    "citations": 307
+    "citations": 308
   },
   {
     "program": "GM",
@@ -301,7 +301,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GM",
     "year": 2021,
     "publications": 9,
-    "citations": 117
+    "citations": 118
   },
   {
     "program": "GM",
@@ -379,7 +379,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GP",
     "year": 2010,
     "publications": 9,
-    "citations": 113
+    "citations": 114
   },
   {
     "program": "GP",
@@ -445,7 +445,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GP",
     "year": 2021,
     "publications": 34,
-    "citations": 295
+    "citations": 296
   },
   {
     "program": "GP",
@@ -457,7 +457,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GP",
     "year": 2023,
     "publications": 25,
-    "citations": 128
+    "citations": 129
   },
   {
     "program": "GP",
@@ -468,7 +468,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "GP",
     "year": 2025,
-    "publications": 47,
+    "publications": 48,
     "citations": 26
   },
   {
@@ -564,8 +564,8 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "GS",
     "year": 2001,
-    "publications": 4,
-    "citations": 110
+    "publications": 5,
+    "citations": 119
   },
   {
     "program": "GS",
@@ -576,8 +576,8 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "GS",
     "year": 2004,
-    "publications": 4,
-    "citations": 128
+    "publications": 3,
+    "citations": 119
   },
   {
     "program": "GS",
@@ -661,7 +661,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GS",
     "year": 2018,
     "publications": 22,
-    "citations": 201
+    "citations": 202
   },
   {
     "program": "GS",
@@ -673,31 +673,31 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "GS",
     "year": 2020,
     "publications": 38,
-    "citations": 596
+    "citations": 597
   },
   {
     "program": "GS",
     "year": 2021,
     "publications": 44,
-    "citations": 424
+    "citations": 425
   },
   {
     "program": "GS",
     "year": 2022,
     "publications": 66,
-    "citations": 597
+    "citations": 600
   },
   {
     "program": "GS",
     "year": 2023,
     "publications": 65,
-    "citations": 625
+    "citations": 626
   },
   {
     "program": "GS",
     "year": 2024,
     "publications": 88,
-    "citations": 394
+    "citations": 395
   },
   {
     "program": "GS",
@@ -834,14 +834,14 @@ export const programImpactByYear: ProgramYearImpact[] = [
   {
     "program": "INT",
     "year": 2011,
-    "publications": 52,
-    "citations": 1482
+    "publications": 53,
+    "citations": 1483
   },
   {
     "program": "INT",
     "year": 2012,
-    "publications": 36,
-    "citations": 1271
+    "publications": 35,
+    "citations": 1273
   },
   {
     "program": "INT",
@@ -853,73 +853,73 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "INT",
     "year": 2014,
     "publications": 71,
-    "citations": 1642
+    "citations": 1644
   },
   {
     "program": "INT",
     "year": 2015,
     "publications": 160,
-    "citations": 2946
+    "citations": 2950
   },
   {
     "program": "INT",
     "year": 2016,
     "publications": 88,
-    "citations": 1832
+    "citations": 1835
   },
   {
     "program": "INT",
     "year": 2017,
-    "publications": 124,
-    "citations": 3523
+    "publications": 125,
+    "citations": 3550
   },
   {
     "program": "INT",
     "year": 2018,
     "publications": 157,
-    "citations": 4842
+    "citations": 4846
   },
   {
     "program": "INT",
     "year": 2019,
     "publications": 231,
-    "citations": 5461
+    "citations": 5472
   },
   {
     "program": "INT",
     "year": 2020,
-    "publications": 230,
-    "citations": 5844
+    "publications": 229,
+    "citations": 5829
   },
   {
     "program": "INT",
     "year": 2021,
     "publications": 253,
-    "citations": 6948
+    "citations": 6966
   },
   {
     "program": "INT",
     "year": 2022,
     "publications": 253,
-    "citations": 4619
+    "citations": 4636
   },
   {
     "program": "INT",
     "year": 2023,
-    "publications": 256,
-    "citations": 2555
+    "publications": 255,
+    "citations": 2563
   },
   {
     "program": "INT",
     "year": 2024,
-    "publications": 270,
-    "citations": 1434
+    "publications": 271,
+    "citations": 1451
   },
   {
     "program": "INT",
     "year": 2025,
-    "publications": 220,
-    "citations": 245
+    "publications": 221,
+    "citations": 249
   },
   {
     "program": "MMM",
@@ -1021,13 +1021,13 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "MMM",
     "year": 2014,
     "publications": 25,
-    "citations": 779
+    "citations": 780
   },
   {
     "program": "MMM",
     "year": 2015,
-    "publications": 22,
-    "citations": 553
+    "publications": 21,
+    "citations": 554
   },
   {
     "program": "MMM",
@@ -1039,19 +1039,19 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "MMM",
     "year": 2017,
     "publications": 17,
-    "citations": 576
+    "citations": 577
   },
   {
     "program": "MMM",
     "year": 2018,
-    "publications": 27,
+    "publications": 28,
     "citations": 871
   },
   {
     "program": "MMM",
     "year": 2019,
     "publications": 17,
-    "citations": 623
+    "citations": 625
   },
   {
     "program": "MMM",
@@ -1063,25 +1063,25 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "MMM",
     "year": 2021,
     "publications": 29,
-    "citations": 807
+    "citations": 809
   },
   {
     "program": "MMM",
     "year": 2022,
     "publications": 27,
-    "citations": 551
+    "citations": 552
   },
   {
     "program": "MMM",
     "year": 2023,
     "publications": 28,
-    "citations": 262
+    "citations": 263
   },
   {
     "program": "MMM",
     "year": 2024,
     "publications": 26,
-    "citations": 143
+    "citations": 144
   },
   {
     "program": "MMM",
@@ -1159,7 +1159,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "OFC",
     "year": 2005,
     "publications": 14,
-    "citations": 922
+    "citations": 924
   },
   {
     "program": "OFC",
@@ -1183,7 +1183,7 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "OFC",
     "year": 2009,
     "publications": 12,
-    "citations": 940
+    "citations": 941
   },
   {
     "program": "OFC",
@@ -1219,67 +1219,67 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "OFC",
     "year": 2015,
     "publications": 34,
-    "citations": 1615
+    "citations": 1620
   },
   {
     "program": "OFC",
     "year": 2016,
     "publications": 45,
-    "citations": 3179
+    "citations": 3182
   },
   {
     "program": "OFC",
     "year": 2017,
     "publications": 54,
-    "citations": 3811
+    "citations": 3816
   },
   {
     "program": "OFC",
     "year": 2018,
     "publications": 74,
-    "citations": 2373
+    "citations": 2377
   },
   {
     "program": "OFC",
     "year": 2019,
     "publications": 82,
-    "citations": 2940
+    "citations": 2945
   },
   {
     "program": "OFC",
     "year": 2020,
     "publications": 93,
-    "citations": 2497
+    "citations": 2506
   },
   {
     "program": "OFC",
     "year": 2021,
     "publications": 93,
-    "citations": 3228
+    "citations": 3238
   },
   {
     "program": "OFC",
     "year": 2022,
     "publications": 79,
-    "citations": 1578
+    "citations": 1585
   },
   {
     "program": "OFC",
     "year": 2023,
     "publications": 110,
-    "citations": 1375
+    "citations": 1379
   },
   {
     "program": "OFC",
     "year": 2024,
     "publications": 119,
-    "citations": 911
+    "citations": 918
   },
   {
     "program": "OFC",
     "year": 2025,
-    "publications": 104,
-    "citations": 98
+    "publications": 105,
+    "citations": 103
   },
   {
     "program": "PRP",
@@ -1363,42 +1363,42 @@ export const programImpactByYear: ProgramYearImpact[] = [
     "program": "PRP",
     "year": 2019,
     "publications": 41,
-    "citations": 914
+    "citations": 916
   },
   {
     "program": "PRP",
     "year": 2020,
     "publications": 57,
-    "citations": 1459
+    "citations": 1463
   },
   {
     "program": "PRP",
     "year": 2021,
     "publications": 88,
-    "citations": 2924
+    "citations": 2928
   },
   {
     "program": "PRP",
     "year": 2022,
     "publications": 76,
-    "citations": 1752
+    "citations": 1756
   },
   {
     "program": "PRP",
     "year": 2023,
     "publications": 85,
-    "citations": 1216
+    "citations": 1220
   },
   {
     "program": "PRP",
     "year": 2024,
     "publications": 74,
-    "citations": 455
+    "citations": 461
   },
   {
     "program": "PRP",
     "year": 2025,
-    "publications": 74,
-    "citations": 78
+    "publications": 76,
+    "citations": 79
   }
 ];
