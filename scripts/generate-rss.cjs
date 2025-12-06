@@ -1,12 +1,9 @@
 // Generate an RSS feed of publications from data/works.csv.
-//
 // Usage:
 //   node scripts/generate-rss.cjs
 //
-// Reads:
-//   data/works.csv
-// Writes:
-//   public/rss.xml
+// Reads: data/works.csv
+// Writes: public/rss.xml
 
 const fs = require("fs");
 const path = require("path");
@@ -79,6 +76,19 @@ const escapeXml = (str) => {
     .replace(/'/g, "&apos;");
 };
 
+const pickKey = (headers, target) => {
+  return headers.find((h) => h.toLowerCase() === target) || target;
+};
+
+const toDoiUrl = (raw) => {
+  if (!raw) return "";
+  const normalized = raw.replace(/^doi:/i, "").trim();
+  if (!normalized) return "";
+  return normalized.toLowerCase().startsWith("http")
+    ? normalized
+    : `https://doi.org/${normalized}`;
+};
+
 const main = () => {
   const { headers, rows } = readCsv(worksPath);
   if (!headers.length) {
@@ -86,17 +96,16 @@ const main = () => {
     process.exit(0);
   }
 
-  const titleKey = headers.find((h) => h.toLowerCase() === "title") || "title";
-  const doiKey = headers.find((h) => h.toLowerCase() === "doi") || "doi";
-  const workIdKey = headers.find((h) => h.toLowerCase() === "work_id") || "work_id";
-  const yearKey = headers.find((h) => h.toLowerCase() === "year") || "year";
-  const programKey = headers.find((h) => h.toLowerCase() === "program") || "program";
-  const venueKey = headers.find((h) => h.toLowerCase() === "venue") || "venue";
-  const citationsKey =
-    headers.find((h) => h.toLowerCase() === "citations") || "citations";
-  const publicationDateKey =
-    headers.find((h) => h.toLowerCase() === "publication_date") ||
-    "publication_date";
+  const titleKey = pickKey(headers, "title");
+  const doiKey = pickKey(headers, "doi");
+  const workIdKey = pickKey(headers, "work_id");
+  const yearKey = pickKey(headers, "year");
+  const programKey = pickKey(headers, "program");
+  const venueKey = pickKey(headers, "venue");
+  const citationsKey = pickKey(headers, "citations");
+  const publicationDateKey = pickKey(headers, "publication_date");
+  const allAuthorsKey = pickKey(headers, "all_authors");
+  const firstAuthorKey = pickKey(headers, "first_author_last_name");
 
   // Sort newest first by publication_date (fallback: year)
   const sorted = [...rows].sort((a, b) => {
@@ -119,9 +128,11 @@ const main = () => {
 
   const lines = [];
   lines.push('<?xml version="1.0" encoding="UTF-8"?>');
-  lines.push('<rss version="2.0">');
+  lines.push(
+    '<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">',
+  );
   lines.push("  <channel>");
-  lines.push("    <title>Integrative Dashboard – Publications</title>");
+  lines.push("    <title>Integrative Dashboard - Publications</title>");
   lines.push(`    <link>${escapeXml(siteUrl)}</link>`);
   lines.push(
     "    <description>Recent publications from the Integrative Geosciences dashboard.</description>",
@@ -131,24 +142,22 @@ const main = () => {
 
   for (const row of items) {
     const title = row[titleKey] || "Untitled publication";
-    const doi = (row[doiKey] || "").trim();
+    const doiUrl = toDoiUrl((row[doiKey] || "").trim());
     const workId = row[workIdKey] || "";
+    const openAlexUrl = workId
+      ? workId.startsWith("http")
+        ? workId
+        : `https://openalex.org/${workId}`
+      : "";
     const year = row[yearKey] || "";
     const program = row[programKey] || "";
     const venue = row[venueKey] || "";
     const citations = row[citationsKey] || "";
     const pubDateRaw = row[publicationDateKey] || "";
+    const authors = row[allAuthorsKey] || "";
+    const firstAuthor = row[firstAuthorKey] || "";
 
-    let link = "";
-    if (doi) {
-      link = doi.toLowerCase().startsWith("http")
-        ? doi
-        : `https://doi.org/${doi.replace(/^doi:/i, "").trim()}`;
-    } else if (workId) {
-      link = workId;
-    } else {
-      link = siteUrl;
-    }
+    const link = doiUrl || openAlexUrl || siteUrl;
 
     let pubDate = "";
     const t = Date.parse(pubDateRaw);
@@ -156,12 +165,16 @@ const main = () => {
       pubDate = new Date(t).toUTCString();
     }
 
-    const descriptionParts = [];
-    if (program) descriptionParts.push(`Program: ${program}`);
-    if (venue) descriptionParts.push(`Venue: ${venue}`);
-    if (year) descriptionParts.push(`Year: ${year}`);
-    if (citations !== "") descriptionParts.push(`Citations: ${citations}`);
-    const description = descriptionParts.join(" • ");
+    const detailParts = [];
+    if (authors) detailParts.push(`Authors: ${authors}`);
+    else if (firstAuthor) detailParts.push(`Lead author: ${firstAuthor}`);
+    if (program) detailParts.push(`Program: ${program}`);
+    if (venue) detailParts.push(`Venue: ${venue}`);
+    if (year) detailParts.push(`Year: ${year}`);
+    if (citations !== "") detailParts.push(`Citations: ${citations}`);
+    if (doiUrl) detailParts.push(`DOI: ${doiUrl}`);
+    if (openAlexUrl) detailParts.push(`OpenAlex: ${openAlexUrl}`);
+    const description = detailParts.join(" | ");
 
     lines.push("    <item>");
     lines.push(`      <title>${escapeXml(title)}</title>`);
@@ -174,8 +187,18 @@ const main = () => {
         `      <guid isPermaLink="false">${escapeXml(workId)}</guid>`,
       );
     }
+    if (authors || firstAuthor) {
+      lines.push(
+        `      <dc:creator>${escapeXml(authors || firstAuthor)}</dc:creator>`,
+      );
+    }
+    if (program) lines.push(`      <category>${escapeXml(program)}</category>`);
+    if (venue) lines.push(`      <dc:publisher>${escapeXml(venue)}</dc:publisher>`);
     if (description) {
-      lines.push(`      <description>${escapeXml(description)}</description>`);
+      // Preserve readability with line breaks inside description
+      lines.push(
+        `      <description>${escapeXml(description).replace(/\n/g, "&#10;")}</description>`,
+      );
     }
     lines.push("    </item>");
   }
