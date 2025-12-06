@@ -34,7 +34,8 @@ jobs:
 
       - name: Commit and push updated data (if any)
         run: |
-          if git diff --quiet; then
+          # Exit early only when absolutely nothing changed (including untracked files)
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No data changes to commit."
             exit 0
           fi
