@@ -324,7 +324,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -377,13 +379,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -542,13 +544,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum & Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -579,7 +581,7 @@
       "has_fulltext": false,
       "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.92494817,
+        "value": 0.92508994,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -906,7 +908,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -932,9 +936,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -967,7 +969,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -980,17 +984,16 @@
       },
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/12",
           "score": 0.49000000953674316,
-          "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
+          "display_name": "Responsible consumption and production"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 39,
       "referenced_works": [
@@ -1026,13 +1029,13 @@
         "https://openalex.org/W2780748800",
         "https://openalex.org/W6786924250",
         "https://openalex.org/W2981691739",
-        "https://openalex.org/W3088619388",
-        "https://openalex.org/W3109183668",
-        "https://openalex.org/W2985987981",
-        "https://openalex.org/W3156118246",
-        "https://openalex.org/W2808022489",
+        "https://openalex.org/W2598952810",
         "https://openalex.org/W4206028361",
-        "https://openalex.org/W2598952810"
+        "https://openalex.org/W2808022489",
+        "https://openalex.org/W3156118246",
+        "https://openalex.org/W2985987981",
+        "https://openalex.org/W3109183668",
+        "https://openalex.org/W3088619388"
       ],
       "related_works": [
         "https://openalex.org/W2561005218",
@@ -1680,9 +1683,13 @@
           "host_organization": "https://openalex.org/P4310319908",
           "host_organization_name": "Nature Portfolio",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319908"
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -1906,7 +1913,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.6224359,
+        "value": 0.62304592,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2269,9 +2276,13 @@
             "host_organization": "https://openalex.org/P4310319908",
             "host_organization_name": "Nature Portfolio",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319908"
+              "https://openalex.org/P4310319908",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Nature Portfolio",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -2359,9 +2370,13 @@
           "host_organization": "https://openalex.org/P4310319908",
           "host_organization_name": "Nature Portfolio",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319908"
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -2373,12 +2388,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 17,
       "referenced_works": [
@@ -2395,10 +2409,10 @@
         "https://openalex.org/W2086158883",
         "https://openalex.org/W2610805115",
         "https://openalex.org/W2096105657",
+        "https://openalex.org/W2803048119",
         "https://openalex.org/W2733018613",
-        "https://openalex.org/W2506302436",
         "https://openalex.org/W2009420010",
-        "https://openalex.org/W2803048119"
+        "https://openalex.org/W2506302436"
       ],
       "related_works": [
         "https://openalex.org/W2320818229",
@@ -2456,7 +2470,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2638,7 +2654,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.73732859,
+        "value": 0.73836787,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3023,7 +3039,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3037,13 +3055,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -3053,8 +3064,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 22,
       "referenced_works": [
@@ -3072,14 +3083,14 @@
         "https://openalex.org/W2027836589",
         "https://openalex.org/W2045325787",
         "https://openalex.org/W2085059909",
-        "https://openalex.org/W2059605621",
-        "https://openalex.org/W2074176021",
-        "https://openalex.org/W2090660705",
-        "https://openalex.org/W4285719527",
         "https://openalex.org/W2941419477",
+        "https://openalex.org/W2074176021",
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2059605621",
+        "https://openalex.org/W2090660705",
         "https://openalex.org/W4213058472",
-        "https://openalex.org/W773723236",
-        "https://openalex.org/W154038878"
+        "https://openalex.org/W154038878",
+        "https://openalex.org/W773723236"
       ],
       "related_works": [
         "https://openalex.org/W2320818229",
@@ -3142,9 +3153,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
@@ -3193,7 +3202,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.6892542,
+        "value": 0.68989485,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3407,9 +3416,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -3424,12 +3431,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -3617,7 +3623,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.36140305,
+        "value": 0.36300115,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3878,12 +3884,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -3941,7 +3946,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320527"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -4128,7 +4135,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.48474738,
+        "value": 0.48814269,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4431,7 +4438,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320527"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Frontiers Media"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -4457,9 +4466,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -4492,7 +4499,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320527"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -4504,13 +4513,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -4520,8 +4522,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "referenced_works_count": 35,
       "referenced_works": [
@@ -4556,10 +4558,10 @@
         "https://openalex.org/W2042069194",
         "https://openalex.org/W2079916360",
         "https://openalex.org/W2034470299",
-        "https://openalex.org/W1568011928",
-        "https://openalex.org/W577988321",
         "https://openalex.org/W19472432",
-        "https://openalex.org/W593771816"
+        "https://openalex.org/W577988321",
+        "https://openalex.org/W593771816",
+        "https://openalex.org/W1568011928"
       ],
       "related_works": [
         "https://openalex.org/W4399227022",
@@ -5356,7 +5358,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08223548,
+        "value": 0.08175011,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5607,12 +5609,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 7,
       "referenced_works": [
@@ -6087,7 +6088,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.19391026,
+        "value": 0.19367016,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6293,12 +6294,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -6425,7 +6425,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24521877,
+        "value": 0.24503211,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6620,17 +6620,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
+          "id": "https://metadata.un.org/sdg/13",
           "score": 0.5299999713897705,
-          "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -6678,9 +6677,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -7218,9 +7215,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -7235,12 +7230,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],

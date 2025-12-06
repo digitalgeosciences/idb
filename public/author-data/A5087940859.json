@@ -10,9 +10,9 @@
       "Ahmed Abdel Fatah"
     ],
     "works_count": 38,
-    "cited_by_count": 1282,
+    "cited_by_count": 1310,
     "summary_stats": {
-      "2yr_mean_citedness": 20.318181818181817,
+      "2yr_mean_citedness": 20.954545454545453,
       "h_index": 19,
       "i10_index": 25
     },
@@ -293,7 +293,7 @@
       {
         "id": "https://openalex.org/T11302",
         "display_name": "CO2 Sequestration and Geologic Interactions",
-        "value": 0.0001645,
+        "value": 0.0001638,
         "subfield": {
           "id": "https://openalex.org/subfields/2305",
           "display_name": "Environmental Engineering"
@@ -310,7 +310,7 @@
       {
         "id": "https://openalex.org/T10491",
         "display_name": "Enhanced Oil Recovery Techniques",
-        "value": 0.0000602,
+        "value": 0.00006,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -327,7 +327,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "value": 0.0000417,
+        "value": 0.0000416,
         "subfield": {
           "id": "https://openalex.org/subfields/2211",
           "display_name": "Mechanics of Materials"
@@ -344,7 +344,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000405,
+        "value": 0.0000404,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -361,7 +361,7 @@
       {
         "id": "https://openalex.org/T10892",
         "display_name": "Drilling and Well Engineering",
-        "value": 0.0000213,
+        "value": 0.0000212,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -489,7 +489,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5087940859",
-    "updated_date": "2025-10-30T23:39:23.326872",
+    "updated_date": "2025-11-06T04:12:42.849631",
     "created_date": "2020-09-25"
   },
   "works": [
@@ -527,7 +527,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -734,15 +736,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Physics Department, Faculty of Science, Fayoum University, 63514 El Fayoum, Egypt",
-              "institution_ids": [
-                "https://openalex.org/I66513531"
-              ]
-            },
-            {
               "raw_affiliation_string": "Physics Department, Faculty of Science and Education, Taif University, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I179331831"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Physics Department, Faculty of Science, Fayoum University, 63514 El Fayoum, Egypt",
+              "institution_ids": [
+                "https://openalex.org/I66513531"
               ]
             }
           ]
@@ -763,7 +765,7 @@
       "has_fulltext": false,
       "cited_by_count": 327,
       "citation_normalized_percentile": {
-        "value": 0.95728859,
+        "value": 0.95732812,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1148,7 +1150,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1163,12 +1167,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.8600000143051147
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -1225,9 +1228,9 @@
         "https://openalex.org/W1977258583",
         "https://openalex.org/W4244401340",
         "https://openalex.org/W2049545127",
-        "https://openalex.org/W4285719527",
+        "https://openalex.org/W1583803011",
         "https://openalex.org/W2593953430",
-        "https://openalex.org/W1583803011"
+        "https://openalex.org/W4285719527"
       ],
       "related_works": [
         "https://openalex.org/W2947313120",
@@ -1336,7 +1339,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -1563,7 +1568,7 @@
       "has_fulltext": true,
       "cited_by_count": 105,
       "citation_normalized_percentile": {
-        "value": 0.96361656,
+        "value": 0.96377782,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1842,7 +1847,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -1883,35 +1890,6 @@
           "raw_type": "article"
         },
         {
-          "id": "pmh:oai:mdpi.com:/1996-1073/13/12/3200/",
-          "is_oa": true,
-          "landing_page_url": "https://dx.doi.org/10.3390/en13123200",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306400947",
-            "display_name": "MDPI (MDPI AG)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I4210097602",
-            "host_organization_name": "Multidisciplinary Digital Publishing Institute (Switzerland)",
-            "host_organization_lineage": [
-              "https://openalex.org/I4210097602"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Energies; Volume 13; Issue 12; Pages: 3200",
-          "raw_type": "Text"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:69dd3b2f52b840f4bd201389ada73dde",
           "is_oa": true,
           "landing_page_url": "https://doaj.org/article/69dd3b2f52b840f4bd201389ada73dde",
@@ -1926,9 +1904,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -1968,6 +1944,35 @@
           "is_published": false,
           "raw_source_name": null,
           "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:mdpi.com:/1996-1073/13/12/3200/",
+          "is_oa": true,
+          "landing_page_url": "https://dx.doi.org/10.3390/en13123200",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400947",
+            "display_name": "MDPI (MDPI AG)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4210097602",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute (Switzerland)",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210097602"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Energies; Volume 13; Issue 12; Pages: 3200",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
@@ -1990,7 +1995,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -2003,12 +2010,11 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/14",
-          "score": 0.4399999976158142
+          "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -2142,15 +2148,15 @@
         "https://openalex.org/W1482653464",
         "https://openalex.org/W6636942171",
         "https://openalex.org/W2066716525",
-        "https://openalex.org/W2046727371",
         "https://openalex.org/W1822441710",
+        "https://openalex.org/W2046727371",
         "https://openalex.org/W1649343666",
-        "https://openalex.org/W2054674840",
-        "https://openalex.org/W2025740130",
         "https://openalex.org/W2345838280",
         "https://openalex.org/W2107001362",
+        "https://openalex.org/W2054674840",
         "https://openalex.org/W1602785418",
-        "https://openalex.org/W2499444343"
+        "https://openalex.org/W2499444343",
+        "https://openalex.org/W2025740130"
       ],
       "related_works": [
         "https://openalex.org/W1973284405",
@@ -3214,7 +3220,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3436,7 +3444,7 @@
       "has_fulltext": false,
       "cited_by_count": 102,
       "citation_normalized_percentile": {
-        "value": 0.97634422,
+        "value": 0.97645678,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3802,7 +3810,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3817,12 +3827,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.7300000190734863,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7300000190734863
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -3897,14 +3906,14 @@
         "https://openalex.org/W2289006447",
         "https://openalex.org/W2903232970",
         "https://openalex.org/W2928283622",
-        "https://openalex.org/W1822441710",
-        "https://openalex.org/W2345838280",
-        "https://openalex.org/W2951482870",
-        "https://openalex.org/W2025740130",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W3041919146",
-        "https://openalex.org/W2046727371",
+        "https://openalex.org/W2345838280",
         "https://openalex.org/W3111068239",
+        "https://openalex.org/W1822441710",
+        "https://openalex.org/W2025740130",
+        "https://openalex.org/W2046727371",
+        "https://openalex.org/W3041919146",
+        "https://openalex.org/W2951482870",
         "https://openalex.org/W2026699297"
       ],
       "related_works": [
@@ -3979,7 +3988,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4201,7 +4212,7 @@
       "has_fulltext": false,
       "cited_by_count": 73,
       "citation_normalized_percentile": {
-        "value": 0.96100832,
+        "value": 0.96119385,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4517,7 +4528,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4532,17 +4545,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.44999998807907104
+          "display_name": "Clean water and sanitation"
         },
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.4399999976158142
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -4613,13 +4625,13 @@
         "https://openalex.org/W2148816514",
         "https://openalex.org/W6638323639",
         "https://openalex.org/W2147657173",
-        "https://openalex.org/W1574721287",
-        "https://openalex.org/W1822441710",
         "https://openalex.org/W2049516175",
+        "https://openalex.org/W1822441710",
         "https://openalex.org/W2890899861",
-        "https://openalex.org/W2345838280",
         "https://openalex.org/W2046727371",
-        "https://openalex.org/W3020849199"
+        "https://openalex.org/W3020849199",
+        "https://openalex.org/W2345838280",
+        "https://openalex.org/W1574721287"
       ],
       "related_works": [
         "https://openalex.org/W3196163622",
@@ -4692,7 +4704,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4823,13 +4837,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Chemical and Energy Engineering, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak 98009, Malaysia",
+              "raw_affiliation_string": "Energy and Environmental Research Cluster, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak 98009, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I158949172"
               ]
             },
             {
-              "raw_affiliation_string": "Energy and Environmental Research Cluster, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak 98009, Malaysia",
+              "raw_affiliation_string": "Department of Chemical and Energy Engineering, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak 98009, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I158949172"
               ]
@@ -4928,7 +4942,7 @@
       "has_fulltext": false,
       "cited_by_count": 71,
       "citation_normalized_percentile": {
-        "value": 0.97998433,
+        "value": 0.97988187,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -5280,7 +5294,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5295,16 +5311,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4699999988079071,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.4699999988079071
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320318279",
-          "funder_display_name": "Curtin University, Malaysia",
-          "award_id": null
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
       "awards": [],
@@ -5398,16 +5407,16 @@
         "https://openalex.org/W2989956691",
         "https://openalex.org/W2959399911",
         "https://openalex.org/W2888040971",
-        "https://openalex.org/W2102787760",
+        "https://openalex.org/W2951482870",
+        "https://openalex.org/W1822441710",
+        "https://openalex.org/W1604035276",
+        "https://openalex.org/W1751332738",
+        "https://openalex.org/W2090637419",
         "https://openalex.org/W3140828960",
         "https://openalex.org/W3020849199",
-        "https://openalex.org/W2090637419",
-        "https://openalex.org/W1604035276",
+        "https://openalex.org/W2102787760",
         "https://openalex.org/W2910318840",
-        "https://openalex.org/W1822441710",
-        "https://openalex.org/W1751332738",
-        "https://openalex.org/W4210535821",
-        "https://openalex.org/W2951482870"
+        "https://openalex.org/W4210535821"
       ],
       "related_works": [
         "https://openalex.org/W4328054900",
@@ -5476,7 +5485,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5626,7 +5637,7 @@
       "has_fulltext": false,
       "cited_by_count": 66,
       "citation_normalized_percentile": {
-        "value": 0.99190913,
+        "value": 0.99213742,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -5875,7 +5886,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5889,7 +5902,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -5950,13 +5962,13 @@
         "https://openalex.org/W4220797071",
         "https://openalex.org/W4304693655",
         "https://openalex.org/W3084009773",
-        "https://openalex.org/W3020849199",
-        "https://openalex.org/W4224910438",
-        "https://openalex.org/W2901463992",
-        "https://openalex.org/W4224243020",
         "https://openalex.org/W4210268067",
         "https://openalex.org/W4323637217",
-        "https://openalex.org/W4323870306"
+        "https://openalex.org/W3020849199",
+        "https://openalex.org/W4323870306",
+        "https://openalex.org/W4224243020",
+        "https://openalex.org/W4224910438",
+        "https://openalex.org/W2901463992"
       ],
       "related_works": [
         "https://openalex.org/W2064666429",
@@ -6021,7 +6033,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6109,13 +6123,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Energy and Environmental Research Cluster, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak, 98009, Malaysia",
+              "raw_affiliation_string": "Department of Chemical and Energy Engineering, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak, 98009, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I158949172"
               ]
             },
             {
-              "raw_affiliation_string": "Department of Chemical and Energy Engineering, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak, 98009, Malaysia",
+              "raw_affiliation_string": "Energy and Environmental Research Cluster, Faculty of Engineering and Science, Curtin University Malaysia, CDT 250, Sarawak, 98009, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I158949172"
               ]
@@ -6253,7 +6267,7 @@
       "has_fulltext": false,
       "cited_by_count": 60,
       "citation_normalized_percentile": {
-        "value": 0.98203745,
+        "value": 0.98207399,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6628,7 +6642,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -6643,12 +6659,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.46000000834465027
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -6718,10 +6733,10 @@
         "https://openalex.org/W2951482870",
         "https://openalex.org/W3097143012",
         "https://openalex.org/W3020849199",
-        "https://openalex.org/W1822441710",
-        "https://openalex.org/W2199795497",
+        "https://openalex.org/W2345838280",
         "https://openalex.org/W2923833788",
-        "https://openalex.org/W2345838280"
+        "https://openalex.org/W1822441710",
+        "https://openalex.org/W2199795497"
       ],
       "related_works": [
         "https://openalex.org/W2357062797",
@@ -6790,7 +6805,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6926,15 +6943,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Energy, CSIRO, Australia",
-              "institution_ids": [
-                "https://openalex.org/I1292875679"
-              ]
-            },
-            {
               "raw_affiliation_string": "Discipline of Petroleum Engineering, WA School of Mines: Minerals, Energy and Chemical Engineering, Curtin University, 26 Dick Perry Avenue, Kensington, Western Australia, 6151, Australia",
               "institution_ids": [
                 "https://openalex.org/I205640436"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Energy, CSIRO, Australia",
+              "institution_ids": [
+                "https://openalex.org/I1292875679"
               ]
             }
           ]
@@ -7063,11 +7080,11 @@
         "value_usd": 3400
       },
       "apc_paid": null,
-      "fwci": 15.80325307,
+      "fwci": 16.07572295,
       "has_fulltext": false,
-      "cited_by_count": 58,
+      "cited_by_count": 59,
       "citation_normalized_percentile": {
-        "value": 0.99502587,
+        "value": 0.99527886,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -7345,7 +7362,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -7359,7 +7378,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -7419,8 +7437,8 @@
         "https://openalex.org/W4292509493",
         "https://openalex.org/W4220840088",
         "https://openalex.org/W4306153947",
-        "https://openalex.org/W2584776806",
         "https://openalex.org/W4224311711",
+        "https://openalex.org/W2584776806",
         "https://openalex.org/W2575929916"
       ],
       "related_works": [
@@ -7439,7 +7457,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 26
+          "cited_by_count": 27
         },
         {
           "year": 2024,
@@ -7486,7 +7504,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -7657,7 +7677,7 @@
       "has_fulltext": false,
       "cited_by_count": 37,
       "citation_normalized_percentile": {
-        "value": 0.98530631,
+        "value": 0.98521089,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -7966,7 +7986,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -7981,12 +8003,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.47999998927116394
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8064,16 +8085,16 @@
         "https://openalex.org/W2944611397",
         "https://openalex.org/W2900241586",
         "https://openalex.org/W4288658797",
-        "https://openalex.org/W2346032041",
-        "https://openalex.org/W2520681936",
-        "https://openalex.org/W4405605243",
-        "https://openalex.org/W2076757079",
-        "https://openalex.org/W4236025566",
-        "https://openalex.org/W2479599708",
+        "https://openalex.org/W1986577414",
         "https://openalex.org/W4245351862",
-        "https://openalex.org/W4231507401",
         "https://openalex.org/W67339812",
-        "https://openalex.org/W1986577414"
+        "https://openalex.org/W2520681936",
+        "https://openalex.org/W2076757079",
+        "https://openalex.org/W4405605243",
+        "https://openalex.org/W4231507401",
+        "https://openalex.org/W2346032041",
+        "https://openalex.org/W2479599708",
+        "https://openalex.org/W4236025566"
       ],
       "related_works": [
         "https://openalex.org/W2056560290",
@@ -8138,7 +8159,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -8360,7 +8383,7 @@
       "has_fulltext": false,
       "cited_by_count": 35,
       "citation_normalized_percentile": {
-        "value": 0.98565046,
+        "value": 0.98549474,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8657,7 +8680,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -8671,7 +8696,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8748,12 +8772,12 @@
         "https://openalex.org/W2016315000",
         "https://openalex.org/W4224910438",
         "https://openalex.org/W4390086859",
+        "https://openalex.org/W2901463992",
+        "https://openalex.org/W2900479427",
         "https://openalex.org/W4380762638",
         "https://openalex.org/W3124910592",
-        "https://openalex.org/W2901463992",
-        "https://openalex.org/W4386798154",
-        "https://openalex.org/W2900479427",
-        "https://openalex.org/W4313260174"
+        "https://openalex.org/W4313260174",
+        "https://openalex.org/W4386798154"
       ],
       "related_works": [
         "https://openalex.org/W2886952586",
@@ -8814,7 +8838,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -8928,7 +8954,7 @@
       "has_fulltext": false,
       "cited_by_count": 31,
       "citation_normalized_percentile": {
-        "value": 0.9549634,
+        "value": 0.95484941,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9177,7 +9203,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -9191,7 +9219,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -9264,15 +9291,15 @@
         "https://openalex.org/W4220840088",
         "https://openalex.org/W4297179548",
         "https://openalex.org/W4320719921",
-        "https://openalex.org/W4281646739",
-        "https://openalex.org/W2997382471",
+        "https://openalex.org/W3020849199",
         "https://openalex.org/W4380762638",
         "https://openalex.org/W3124910592",
-        "https://openalex.org/W2170633168",
-        "https://openalex.org/W3020849199",
-        "https://openalex.org/W3197733706",
         "https://openalex.org/W3034411622",
-        "https://openalex.org/W2901463992"
+        "https://openalex.org/W2901463992",
+        "https://openalex.org/W4281646739",
+        "https://openalex.org/W2170633168",
+        "https://openalex.org/W3197733706",
+        "https://openalex.org/W2997382471"
       ],
       "related_works": [
         "https://openalex.org/W2061875568",
@@ -9337,7 +9364,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -9519,7 +9548,7 @@
       "has_fulltext": false,
       "cited_by_count": 29,
       "citation_normalized_percentile": {
-        "value": 0.94933708,
+        "value": 0.94901768,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9756,7 +9785,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -9771,12 +9802,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.46000000834465027
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -10476,7 +10506,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -10698,7 +10730,7 @@
       "has_fulltext": false,
       "cited_by_count": 28,
       "citation_normalized_percentile": {
-        "value": 0.94696674,
+        "value": 0.94681458,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10995,7 +11027,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11010,12 +11044,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.5,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.5
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -11085,12 +11118,12 @@
         "https://openalex.org/W4388867379",
         "https://openalex.org/W4292509493",
         "https://openalex.org/W4388033045",
-        "https://openalex.org/W4384038511",
         "https://openalex.org/W3124910592",
-        "https://openalex.org/W2910318840",
-        "https://openalex.org/W4224311711",
+        "https://openalex.org/W2901463992",
         "https://openalex.org/W4380762638",
-        "https://openalex.org/W2901463992"
+        "https://openalex.org/W4384038511",
+        "https://openalex.org/W2910318840",
+        "https://openalex.org/W4224311711"
       ],
       "related_works": [
         "https://openalex.org/W2111016365",
@@ -11155,7 +11188,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -11243,13 +11278,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research (CIPR), College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -11308,7 +11343,7 @@
       "has_fulltext": false,
       "cited_by_count": 28,
       "citation_normalized_percentile": {
-        "value": 0.99279434,
+        "value": 0.99273395,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -11598,7 +11633,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11612,7 +11649,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -12274,7 +12310,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -12553,8 +12591,8 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 7,
       "corresponding_author_ids": [
-        "https://openalex.org/A5059738250",
-        "https://openalex.org/A5005897140"
+        "https://openalex.org/A5005897140",
+        "https://openalex.org/A5059738250"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -12565,7 +12603,7 @@
       "has_fulltext": false,
       "cited_by_count": 26,
       "citation_normalized_percentile": {
-        "value": 0.98634137,
+        "value": 0.98639301,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -12835,7 +12873,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -12849,7 +12889,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -13573,7 +13612,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13831,7 +13872,7 @@
       "has_fulltext": false,
       "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.97579126,
+        "value": 0.97615364,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -14106,7 +14147,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -14120,7 +14163,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14202,15 +14244,15 @@
         "https://openalex.org/W3203303206",
         "https://openalex.org/W2784051271",
         "https://openalex.org/W2070871264",
-        "https://openalex.org/W2900479427",
+        "https://openalex.org/W4380762638",
         "https://openalex.org/W2901463992",
-        "https://openalex.org/W3173855053",
-        "https://openalex.org/W4391140252",
-        "https://openalex.org/W3211282255",
         "https://openalex.org/W4224243020",
-        "https://openalex.org/W1978551621",
+        "https://openalex.org/W2900479427",
         "https://openalex.org/W4225154543",
-        "https://openalex.org/W4380762638"
+        "https://openalex.org/W3211282255",
+        "https://openalex.org/W1978551621",
+        "https://openalex.org/W4391140252",
+        "https://openalex.org/W3173855053"
       ],
       "related_works": [
         "https://openalex.org/W2047245391",
@@ -14271,7 +14313,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -14493,7 +14537,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.96118634,
+        "value": 0.96082503,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -14780,7 +14824,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -14795,12 +14841,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
+          "score": 0.4300000071525574,
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.4300000071525574
+          "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14902,16 +14947,16 @@
         "https://openalex.org/W2052688777",
         "https://openalex.org/W6853709164",
         "https://openalex.org/W4391140252",
-        "https://openalex.org/W4392439517",
+        "https://openalex.org/W2076749702",
         "https://openalex.org/W3020849199",
-        "https://openalex.org/W1751332738",
+        "https://openalex.org/W4380762638",
         "https://openalex.org/W4386759963",
+        "https://openalex.org/W1751332738",
         "https://openalex.org/W2900479427",
         "https://openalex.org/W4386959758",
-        "https://openalex.org/W4386258236",
-        "https://openalex.org/W4380762638",
+        "https://openalex.org/W4392439517",
         "https://openalex.org/W2170633168",
-        "https://openalex.org/W2076749702",
+        "https://openalex.org/W4386258236",
         "https://openalex.org/W4390242419"
       ],
       "related_works": [
@@ -14935,502 +14980,6 @@
         {
           "year": 2024,
           "cited_by_count": 3
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W4407275033",
-      "doi": "https://doi.org/10.1016/j.fuel.2025.134615",
-      "title": "Clay minerals and hydrogen: Insights into reactivity, pore structure, and chemical stability",
-      "display_name": "Clay minerals and hydrogen: Insights into reactivity, pore structure, and chemical stability",
-      "publication_year": 2025,
-      "publication_date": "2025-02-09",
-      "ids": {
-        "openalex": "https://openalex.org/W4407275033",
-        "doi": "https://doi.org/10.1016/j.fuel.2025.134615"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.fuel.2025.134615",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.fuel.2025.134615",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S164770093",
-          "display_name": "Fuel",
-          "issn_l": "0016-2361",
-          "issn": [
-            "0016-2361",
-            "1873-7153"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Fuel",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5087940859",
-            "display_name": "Ahmed Fatah",
-            "orcid": "https://orcid.org/0000-0003-4152-6060"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
-          "raw_author_name": "Ahmed Fatah",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5059738250",
-            "display_name": "Ahmed Al‐Yaseri",
-            "orcid": "https://orcid.org/0000-0001-9094-1258"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
-          "raw_author_name": "Ahmed Al-Yaseri",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5047530160",
-            "display_name": "Omar Radwan",
-            "orcid": "https://orcid.org/0000-0003-1104-2380"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
-          "raw_author_name": "Omar A. Radwan",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5009379762",
-            "display_name": "Rajesh Theravalappil",
-            "orcid": "https://orcid.org/0000-0002-6022-6461"
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": false,
-          "raw_author_name": "Rajesh Theravalappil",
-          "raw_affiliation_strings": [],
-          "affiliations": []
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 0,
-      "institutions_distinct_count": 4,
-      "corresponding_author_ids": [],
-      "corresponding_institution_ids": [],
-      "apc_list": {
-        "value": 4080,
-        "currency": "USD",
-        "value_usd": 4080
-      },
-      "apc_paid": null,
-      "fwci": 24.96760246,
-      "has_fulltext": false,
-      "cited_by_count": 12,
-      "citation_normalized_percentile": {
-        "value": 0.98889184,
-        "is_in_top_1_percent": true,
-        "is_in_top_10_percent": true
-      },
-      "cited_by_percentile_year": {
-        "min": 99,
-        "max": 100
-      },
-      "biblio": {
-        "volume": "389",
-        "issue": null,
-        "first_page": "134615",
-        "last_page": "134615"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11852",
-        "display_name": "Clay minerals and soil interactions",
-        "score": 0.9993000030517578,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2502",
-          "display_name": "Biomaterials"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11852",
-          "display_name": "Clay minerals and soil interactions",
-          "score": 0.9993000030517578,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2502",
-            "display_name": "Biomaterials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/25",
-            "display_name": "Materials Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10716",
-          "display_name": "Soil and Unsaturated Flow",
-          "score": 0.9976000189781189,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2205",
-            "display_name": "Civil and Structural Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
-          "score": 0.996399998664856,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/reactivity",
-          "display_name": "Reactivity (psychology)",
-          "score": 0.6164804697036743
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-stability",
-          "display_name": "Chemical stability",
-          "score": 0.5148259997367859
-        },
-        {
-          "id": "https://openalex.org/keywords/hydrogen",
-          "display_name": "Hydrogen",
-          "score": 0.5140936970710754
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.5103599429130554
-        },
-        {
-          "id": "https://openalex.org/keywords/chemical-engineering",
-          "display_name": "Chemical engineering",
-          "score": 0.5071289539337158
-        },
-        {
-          "id": "https://openalex.org/keywords/clay-minerals",
-          "display_name": "Clay minerals",
-          "score": 0.4339948296546936
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.38198113441467285
-        },
-        {
-          "id": "https://openalex.org/keywords/mineralogy",
-          "display_name": "Mineralogy",
-          "score": 0.3075316548347473
-        },
-        {
-          "id": "https://openalex.org/keywords/organic-chemistry",
-          "display_name": "Organic chemistry",
-          "score": 0.17837119102478027
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2776910235",
-          "wikidata": "https://www.wikidata.org/wiki/Q18574",
-          "display_name": "Reactivity (psychology)",
-          "level": 3,
-          "score": 0.6164804697036743
-        },
-        {
-          "id": "https://openalex.org/C186399102",
-          "wikidata": "https://www.wikidata.org/wiki/Q903517",
-          "display_name": "Chemical stability",
-          "level": 2,
-          "score": 0.5148259997367859
-        },
-        {
-          "id": "https://openalex.org/C512968161",
-          "wikidata": "https://www.wikidata.org/wiki/Q556",
-          "display_name": "Hydrogen",
-          "level": 2,
-          "score": 0.5140936970710754
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.5103599429130554
-        },
-        {
-          "id": "https://openalex.org/C42360764",
-          "wikidata": "https://www.wikidata.org/wiki/Q83588",
-          "display_name": "Chemical engineering",
-          "level": 1,
-          "score": 0.5071289539337158
-        },
-        {
-          "id": "https://openalex.org/C40212044",
-          "wikidata": "https://www.wikidata.org/wiki/Q1799034",
-          "display_name": "Clay minerals",
-          "level": 2,
-          "score": 0.4339948296546936
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.38198113441467285
-        },
-        {
-          "id": "https://openalex.org/C199289684",
-          "wikidata": "https://www.wikidata.org/wiki/Q83353",
-          "display_name": "Mineralogy",
-          "level": 1,
-          "score": 0.3075316548347473
-        },
-        {
-          "id": "https://openalex.org/C178790620",
-          "wikidata": "https://www.wikidata.org/wiki/Q11351",
-          "display_name": "Organic chemistry",
-          "level": 1,
-          "score": 0.17837119102478027
-        },
-        {
-          "id": "https://openalex.org/C71924100",
-          "wikidata": "https://www.wikidata.org/wiki/Q11190",
-          "display_name": "Medicine",
-          "level": 0,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C204787440",
-          "wikidata": "https://www.wikidata.org/wiki/Q188504",
-          "display_name": "Alternative medicine",
-          "level": 2,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C142724271",
-          "wikidata": "https://www.wikidata.org/wiki/Q7208",
-          "display_name": "Pathology",
-          "level": 1,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C127413603",
-          "wikidata": "https://www.wikidata.org/wiki/Q11023",
-          "display_name": "Engineering",
-          "level": 0,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.fuel.2025.134615",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.fuel.2025.134615",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S164770093",
-            "display_name": "Fuel",
-            "issn_l": "0016-2361",
-            "issn": [
-              "0016-2361",
-              "1873-7153"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Fuel",
-          "raw_type": "journal-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "grants": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "referenced_works_count": 72,
-      "referenced_works": [
-        "https://openalex.org/W4366494153",
-        "https://openalex.org/W2913447794",
-        "https://openalex.org/W4224243020",
-        "https://openalex.org/W4284967692",
-        "https://openalex.org/W2621290343",
-        "https://openalex.org/W2991904870",
-        "https://openalex.org/W3009253106",
-        "https://openalex.org/W3033254345",
-        "https://openalex.org/W6868653087",
-        "https://openalex.org/W4309114627",
-        "https://openalex.org/W6850866692",
-        "https://openalex.org/W4396905774",
-        "https://openalex.org/W4390086859",
-        "https://openalex.org/W6860306990",
-        "https://openalex.org/W6856738935",
-        "https://openalex.org/W6810296816",
-        "https://openalex.org/W3120083494",
-        "https://openalex.org/W4386959758",
-        "https://openalex.org/W3182444102",
-        "https://openalex.org/W3173855053",
-        "https://openalex.org/W6853709164",
-        "https://openalex.org/W3202007182",
-        "https://openalex.org/W4404860723",
-        "https://openalex.org/W6853865080",
-        "https://openalex.org/W4229378929",
-        "https://openalex.org/W2788521973",
-        "https://openalex.org/W3036095237",
-        "https://openalex.org/W4224910438",
-        "https://openalex.org/W4403485983",
-        "https://openalex.org/W4399993244",
-        "https://openalex.org/W4221035789",
-        "https://openalex.org/W4392200981",
-        "https://openalex.org/W4205778634",
-        "https://openalex.org/W6849735897",
-        "https://openalex.org/W6841784189",
-        "https://openalex.org/W6872653911",
-        "https://openalex.org/W6860788749",
-        "https://openalex.org/W4398238351",
-        "https://openalex.org/W6843237362",
-        "https://openalex.org/W4315498100",
-        "https://openalex.org/W3193634300",
-        "https://openalex.org/W2056885800",
-        "https://openalex.org/W6852012030",
-        "https://openalex.org/W6805126883",
-        "https://openalex.org/W2011254969",
-        "https://openalex.org/W2312199777",
-        "https://openalex.org/W2043843726",
-        "https://openalex.org/W3196588466",
-        "https://openalex.org/W3198689307",
-        "https://openalex.org/W4388267788",
-        "https://openalex.org/W2278652762",
-        "https://openalex.org/W4391619568",
-        "https://openalex.org/W6801573457",
-        "https://openalex.org/W6803776170",
-        "https://openalex.org/W4386913250",
-        "https://openalex.org/W4388033045",
-        "https://openalex.org/W4385892163",
-        "https://openalex.org/W4320719921",
-        "https://openalex.org/W3201994217",
-        "https://openalex.org/W4402864230",
-        "https://openalex.org/W4291335310",
-        "https://openalex.org/W4225154543",
-        "https://openalex.org/W4365456076",
-        "https://openalex.org/W3213975010",
-        "https://openalex.org/W4403043860",
-        "https://openalex.org/W4383340910",
-        "https://openalex.org/W4390242419",
-        "https://openalex.org/W4323637217",
-        "https://openalex.org/W4398161917",
-        "https://openalex.org/W4380762638",
-        "https://openalex.org/W3216100213",
-        "https://openalex.org/W4390242465"
-      ],
-      "related_works": [
-        "https://openalex.org/W2489835961",
-        "https://openalex.org/W2186995930",
-        "https://openalex.org/W2315562402",
-        "https://openalex.org/W2349779306",
-        "https://openalex.org/W2025956089",
-        "https://openalex.org/W1529997723",
-        "https://openalex.org/W2009295787",
-        "https://openalex.org/W264197684",
-        "https://openalex.org/W2168579327",
-        "https://openalex.org/W4206471597"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 12
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
@@ -15469,7 +15018,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15705,7 +15256,7 @@
       "has_fulltext": false,
       "cited_by_count": 30,
       "citation_normalized_percentile": {
-        "value": 0.89995177,
+        "value": 0.89991905,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -16057,7 +15608,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -16071,18 +15624,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320309037",
-          "funder_display_name": "Office of Research and Development",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320320987",
-          "funder_display_name": "Curtin University of Technology",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -16165,12 +15706,12 @@
         "https://openalex.org/W2885630113",
         "https://openalex.org/W2951482870",
         "https://openalex.org/W3097143012",
-        "https://openalex.org/W1993635908",
-        "https://openalex.org/W2199795497",
-        "https://openalex.org/W1822441710",
-        "https://openalex.org/W2170633168",
+        "https://openalex.org/W4292373596",
         "https://openalex.org/W3020849199",
-        "https://openalex.org/W4292373596"
+        "https://openalex.org/W2199795497",
+        "https://openalex.org/W2170633168",
+        "https://openalex.org/W1822441710",
+        "https://openalex.org/W1993635908"
       ],
       "related_works": [
         "https://openalex.org/W4328054900",
@@ -16238,7 +15779,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -16920,12 +16463,6 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Laboratory of Catalysis and Corrosion of Materials, Faculty of Sciences, Chouaib Doukkali University, P.O. Box 20, El Jadida 24000, Morocco",
-              "institution_ids": [
-                "https://openalex.org/I4210125507"
-              ]
-            },
-            {
               "raw_affiliation_string": "Univ. Lille, CNRS, INRAE, Centrale Lille, UMR 8207-UMET-Unité Matériaux et Transformations, F-59000 Lille, France",
               "institution_ids": [
                 "https://openalex.org/I1294671590",
@@ -16933,6 +16470,12 @@
                 "https://openalex.org/I4210088668",
                 "https://openalex.org/I4210143235",
                 "https://openalex.org/I7454413"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Laboratory of Catalysis and Corrosion of Materials, Faculty of Sciences, Chouaib Doukkali University, P.O. Box 20, El Jadida 24000, Morocco",
+              "institution_ids": [
+                "https://openalex.org/I4210125507"
               ]
             }
           ]
@@ -17029,7 +16572,7 @@
       "has_fulltext": true,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.83827175,
+        "value": 0.83775856,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17359,7 +16902,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -17478,7 +17023,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -17490,7 +17037,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -17596,9 +17142,9 @@
         "https://openalex.org/W2803403153",
         "https://openalex.org/W3021875719",
         "https://openalex.org/W3040285276",
-        "https://openalex.org/W2613400452",
         "https://openalex.org/W3170284439",
         "https://openalex.org/W3099459562",
+        "https://openalex.org/W2613400452",
         "https://openalex.org/W2619335652"
       ],
       "related_works": [
@@ -18082,7 +17628,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -18264,7 +17812,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.84736006,
+        "value": 0.84723446,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18623,7 +18171,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -18637,7 +18187,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -19416,6 +18965,505 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
+      "id": "https://openalex.org/W4407275033",
+      "doi": "https://doi.org/10.1016/j.fuel.2025.134615",
+      "title": "Clay minerals and hydrogen: Insights into reactivity, pore structure, and chemical stability",
+      "display_name": "Clay minerals and hydrogen: Insights into reactivity, pore structure, and chemical stability",
+      "publication_year": 2025,
+      "publication_date": "2025-02-09",
+      "ids": {
+        "openalex": "https://openalex.org/W4407275033",
+        "doi": "https://doi.org/10.1016/j.fuel.2025.134615"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.fuel.2025.134615",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.fuel.2025.134615",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S164770093",
+          "display_name": "Fuel",
+          "issn_l": "0016-2361",
+          "issn": [
+            "0016-2361",
+            "1873-7153"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Fuel",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5087940859",
+            "display_name": "Ahmed Fatah",
+            "orcid": "https://orcid.org/0000-0003-4152-6060"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ahmed Fatah",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5059738250",
+            "display_name": "Ahmed Al‐Yaseri",
+            "orcid": "https://orcid.org/0000-0001-9094-1258"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ahmed Al-Yaseri",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5047530160",
+            "display_name": "Omar Radwan",
+            "orcid": "https://orcid.org/0000-0003-1104-2380"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Omar A. Radwan",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5009379762",
+            "display_name": "Rajesh Theravalappil",
+            "orcid": "https://orcid.org/0000-0002-6022-6461"
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Rajesh Theravalappil",
+          "raw_affiliation_strings": [],
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 4080,
+        "currency": "USD",
+        "value_usd": 4080
+      },
+      "apc_paid": null,
+      "fwci": 24.96760246,
+      "has_fulltext": false,
+      "cited_by_count": 12,
+      "citation_normalized_percentile": {
+        "value": 0.98913215,
+        "is_in_top_1_percent": true,
+        "is_in_top_10_percent": true
+      },
+      "cited_by_percentile_year": {
+        "min": 98,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "389",
+        "issue": null,
+        "first_page": "134615",
+        "last_page": "134615"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11852",
+        "display_name": "Clay minerals and soil interactions",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2502",
+          "display_name": "Biomaterials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11852",
+          "display_name": "Clay minerals and soil interactions",
+          "score": 0.9993000030517578,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2502",
+            "display_name": "Biomaterials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/25",
+            "display_name": "Materials Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10716",
+          "display_name": "Soil and Unsaturated Flow",
+          "score": 0.9976000189781189,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2205",
+            "display_name": "Civil and Structural Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "score": 0.996399998664856,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2211",
+            "display_name": "Mechanics of Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/reactivity",
+          "display_name": "Reactivity (psychology)",
+          "score": 0.6164804697036743
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-stability",
+          "display_name": "Chemical stability",
+          "score": 0.5148259997367859
+        },
+        {
+          "id": "https://openalex.org/keywords/hydrogen",
+          "display_name": "Hydrogen",
+          "score": 0.5140936970710754
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.5103599429130554
+        },
+        {
+          "id": "https://openalex.org/keywords/chemical-engineering",
+          "display_name": "Chemical engineering",
+          "score": 0.5071289539337158
+        },
+        {
+          "id": "https://openalex.org/keywords/clay-minerals",
+          "display_name": "Clay minerals",
+          "score": 0.4339948296546936
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.38198113441467285
+        },
+        {
+          "id": "https://openalex.org/keywords/mineralogy",
+          "display_name": "Mineralogy",
+          "score": 0.3075316548347473
+        },
+        {
+          "id": "https://openalex.org/keywords/organic-chemistry",
+          "display_name": "Organic chemistry",
+          "score": 0.17837119102478027
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C2776910235",
+          "wikidata": "https://www.wikidata.org/wiki/Q18574",
+          "display_name": "Reactivity (psychology)",
+          "level": 3,
+          "score": 0.6164804697036743
+        },
+        {
+          "id": "https://openalex.org/C186399102",
+          "wikidata": "https://www.wikidata.org/wiki/Q903517",
+          "display_name": "Chemical stability",
+          "level": 2,
+          "score": 0.5148259997367859
+        },
+        {
+          "id": "https://openalex.org/C512968161",
+          "wikidata": "https://www.wikidata.org/wiki/Q556",
+          "display_name": "Hydrogen",
+          "level": 2,
+          "score": 0.5140936970710754
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.5103599429130554
+        },
+        {
+          "id": "https://openalex.org/C42360764",
+          "wikidata": "https://www.wikidata.org/wiki/Q83588",
+          "display_name": "Chemical engineering",
+          "level": 1,
+          "score": 0.5071289539337158
+        },
+        {
+          "id": "https://openalex.org/C40212044",
+          "wikidata": "https://www.wikidata.org/wiki/Q1799034",
+          "display_name": "Clay minerals",
+          "level": 2,
+          "score": 0.4339948296546936
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.38198113441467285
+        },
+        {
+          "id": "https://openalex.org/C199289684",
+          "wikidata": "https://www.wikidata.org/wiki/Q83353",
+          "display_name": "Mineralogy",
+          "level": 1,
+          "score": 0.3075316548347473
+        },
+        {
+          "id": "https://openalex.org/C178790620",
+          "wikidata": "https://www.wikidata.org/wiki/Q11351",
+          "display_name": "Organic chemistry",
+          "level": 1,
+          "score": 0.17837119102478027
+        },
+        {
+          "id": "https://openalex.org/C71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "level": 0,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C204787440",
+          "wikidata": "https://www.wikidata.org/wiki/Q188504",
+          "display_name": "Alternative medicine",
+          "level": 2,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C142724271",
+          "wikidata": "https://www.wikidata.org/wiki/Q7208",
+          "display_name": "Pathology",
+          "level": 1,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C127413603",
+          "wikidata": "https://www.wikidata.org/wiki/Q11023",
+          "display_name": "Engineering",
+          "level": 0,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.fuel.2025.134615",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.fuel.2025.134615",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S164770093",
+            "display_name": "Fuel",
+            "issn_l": "0016-2361",
+            "issn": [
+              "0016-2361",
+              "1873-7153"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Fuel",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "referenced_works_count": 72,
+      "referenced_works": [
+        "https://openalex.org/W4366494153",
+        "https://openalex.org/W2913447794",
+        "https://openalex.org/W4224243020",
+        "https://openalex.org/W4284967692",
+        "https://openalex.org/W2621290343",
+        "https://openalex.org/W2991904870",
+        "https://openalex.org/W3009253106",
+        "https://openalex.org/W3033254345",
+        "https://openalex.org/W6868653087",
+        "https://openalex.org/W4309114627",
+        "https://openalex.org/W6850866692",
+        "https://openalex.org/W4396905774",
+        "https://openalex.org/W4390086859",
+        "https://openalex.org/W6860306990",
+        "https://openalex.org/W6856738935",
+        "https://openalex.org/W6810296816",
+        "https://openalex.org/W3120083494",
+        "https://openalex.org/W4386959758",
+        "https://openalex.org/W3182444102",
+        "https://openalex.org/W3173855053",
+        "https://openalex.org/W6853709164",
+        "https://openalex.org/W3202007182",
+        "https://openalex.org/W4404860723",
+        "https://openalex.org/W6853865080",
+        "https://openalex.org/W4229378929",
+        "https://openalex.org/W2788521973",
+        "https://openalex.org/W3036095237",
+        "https://openalex.org/W4224910438",
+        "https://openalex.org/W4403485983",
+        "https://openalex.org/W4399993244",
+        "https://openalex.org/W4221035789",
+        "https://openalex.org/W4392200981",
+        "https://openalex.org/W4205778634",
+        "https://openalex.org/W6849735897",
+        "https://openalex.org/W6841784189",
+        "https://openalex.org/W6872653911",
+        "https://openalex.org/W6860788749",
+        "https://openalex.org/W4398238351",
+        "https://openalex.org/W6843237362",
+        "https://openalex.org/W4315498100",
+        "https://openalex.org/W3193634300",
+        "https://openalex.org/W2056885800",
+        "https://openalex.org/W6852012030",
+        "https://openalex.org/W6805126883",
+        "https://openalex.org/W2011254969",
+        "https://openalex.org/W2312199777",
+        "https://openalex.org/W2043843726",
+        "https://openalex.org/W3196588466",
+        "https://openalex.org/W3198689307",
+        "https://openalex.org/W4388267788",
+        "https://openalex.org/W2278652762",
+        "https://openalex.org/W4391619568",
+        "https://openalex.org/W6801573457",
+        "https://openalex.org/W6803776170",
+        "https://openalex.org/W4386913250",
+        "https://openalex.org/W4388033045",
+        "https://openalex.org/W4385892163",
+        "https://openalex.org/W4383340910",
+        "https://openalex.org/W4291335310",
+        "https://openalex.org/W4402864230",
+        "https://openalex.org/W4390242465",
+        "https://openalex.org/W4365456076",
+        "https://openalex.org/W3201994217",
+        "https://openalex.org/W4320719921",
+        "https://openalex.org/W4398161917",
+        "https://openalex.org/W3216100213",
+        "https://openalex.org/W4390242419",
+        "https://openalex.org/W4380762638",
+        "https://openalex.org/W4323637217",
+        "https://openalex.org/W4225154543",
+        "https://openalex.org/W3213975010",
+        "https://openalex.org/W4403043860"
+      ],
+      "related_works": [
+        "https://openalex.org/W2489835961",
+        "https://openalex.org/W2186995930",
+        "https://openalex.org/W2315562402",
+        "https://openalex.org/W2349779306",
+        "https://openalex.org/W2025956089",
+        "https://openalex.org/W1529997723",
+        "https://openalex.org/W2009295787",
+        "https://openalex.org/W264197684",
+        "https://openalex.org/W2168579327",
+        "https://openalex.org/W4206471597"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 12
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
       "id": "https://openalex.org/W4391785355",
       "doi": "https://doi.org/10.1021/acs.energyfuels.3c04971",
       "title": "Surface Chemistry and Chemical Structure of Shale Caprocks Exposed to CO<sub>2</sub>: Implication for Sealing Integrity",
@@ -19448,7 +19496,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -19594,7 +19644,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.91069044,
+        "value": 0.91053476,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19910,7 +19960,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19924,7 +19976,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -20712,7 +20763,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -20890,7 +20943,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.94860084,
+        "value": 0.94768691,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -21177,7 +21230,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -21192,12 +21247,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.5299999713897705
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -21305,9 +21359,9 @@
         "https://openalex.org/W4300981107",
         "https://openalex.org/W3040758490",
         "https://openalex.org/W638108327",
-        "https://openalex.org/W4392439517",
         "https://openalex.org/W4299940692",
-        "https://openalex.org/W2159352443"
+        "https://openalex.org/W2159352443",
+        "https://openalex.org/W4392439517"
       ],
       "related_works": [
         "https://openalex.org/W2039543756",
@@ -21363,7 +21417,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -21481,7 +21537,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.98800462,
+        "value": 0.9875669,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -21705,7 +21761,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -21720,12 +21778,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5299999713897705
+          "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -21800,19 +21857,19 @@
         "https://openalex.org/W3172749496",
         "https://openalex.org/W3097143012",
         "https://openalex.org/W4307294642",
-        "https://openalex.org/W4390242419",
-        "https://openalex.org/W2000016046",
-        "https://openalex.org/W4210268067",
-        "https://openalex.org/W1988984241",
-        "https://openalex.org/W2886373337",
         "https://openalex.org/W2172687074",
-        "https://openalex.org/W3042721252",
-        "https://openalex.org/W4297349172",
         "https://openalex.org/W3209834050",
+        "https://openalex.org/W2000016046",
+        "https://openalex.org/W2886373337",
         "https://openalex.org/W4221003583",
+        "https://openalex.org/W4297349172",
+        "https://openalex.org/W3042721252",
+        "https://openalex.org/W1992210990",
+        "https://openalex.org/W1988984241",
         "https://openalex.org/W4297231408",
+        "https://openalex.org/W4390242419",
         "https://openalex.org/W4293483791",
-        "https://openalex.org/W1992210990"
+        "https://openalex.org/W4210268067"
       ],
       "related_works": [
         "https://openalex.org/W3107994849",
@@ -21870,7 +21927,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -22088,7 +22147,7 @@
       "has_fulltext": false,
       "cited_by_count": 33,
       "citation_normalized_percentile": {
-        "value": 0.80195176,
+        "value": 0.80231136,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22378,7 +22437,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -22393,12 +22454,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.7699999809265137,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.7699999809265137
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -22444,15 +22504,15 @@
         "https://openalex.org/W2008889244",
         "https://openalex.org/W2037370351",
         "https://openalex.org/W2012100164",
-        "https://openalex.org/W2004211718",
-        "https://openalex.org/W4249395127",
-        "https://openalex.org/W1974085346",
-        "https://openalex.org/W643119304",
         "https://openalex.org/W2553975475",
+        "https://openalex.org/W643119304",
+        "https://openalex.org/W2004211718",
         "https://openalex.org/W264024157",
         "https://openalex.org/W2275543919",
         "https://openalex.org/W2746323139",
-        "https://openalex.org/W2145884973"
+        "https://openalex.org/W2145884973",
+        "https://openalex.org/W4249395127",
+        "https://openalex.org/W1974085346"
       ],
       "related_works": [
         "https://openalex.org/W2372555464",
@@ -22558,7 +22618,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -22776,7 +22838,7 @@
       "has_fulltext": false,
       "cited_by_count": 28,
       "citation_normalized_percentile": {
-        "value": 0.73862532,
+        "value": 0.73900207,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23157,7 +23219,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -23172,12 +23236,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/7",
-          "score": 0.5299999713897705
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -23300,7 +23363,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -23363,15 +23428,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            },
-            {
               "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences",
               "institution_ids": [
                 "https://openalex.org/I4210118538"
+              ]
+            },
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
               ]
             }
           ]
@@ -23449,7 +23514,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.94859907,
+        "value": 0.94749592,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -23727,7 +23792,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -23741,7 +23808,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -23907,9 +23973,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -24053,7 +24117,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.67782098,
+        "value": 0.68026752,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24297,9 +24361,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -24388,9 +24450,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -24404,12 +24464,11 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Good health and well-being",
+          "score": 0.44999998807907104,
           "id": "https://metadata.un.org/sdg/3",
-          "score": 0.44999998807907104
+          "display_name": "Good health and well-being"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -24418,44 +24477,44 @@
       },
       "referenced_works_count": 38,
       "referenced_works": [
-        "https://openalex.org/W1968447037",
-        "https://openalex.org/W1980211776",
+        "https://openalex.org/W2897867294",
+        "https://openalex.org/W2021926698",
+        "https://openalex.org/W2019360046",
+        "https://openalex.org/W2158812706",
         "https://openalex.org/W2011854883",
+        "https://openalex.org/W2066024676",
+        "https://openalex.org/W2070697546",
+        "https://openalex.org/W2077689523",
         "https://openalex.org/W1970442323",
         "https://openalex.org/W2112380741",
         "https://openalex.org/W2036186603",
-        "https://openalex.org/W2105935043",
-        "https://openalex.org/W2016162719",
-        "https://openalex.org/W2074914768",
-        "https://openalex.org/W2078459232",
-        "https://openalex.org/W1024869266",
-        "https://openalex.org/W2163399518",
-        "https://openalex.org/W2048158572",
-        "https://openalex.org/W2728203930",
-        "https://openalex.org/W2846002970",
-        "https://openalex.org/W2077689523",
-        "https://openalex.org/W2124613914",
-        "https://openalex.org/W2066024676",
-        "https://openalex.org/W2102964484",
-        "https://openalex.org/W2070697546",
-        "https://openalex.org/W2067971776",
-        "https://openalex.org/W2897867294",
-        "https://openalex.org/W2024769108",
         "https://openalex.org/W2174331910",
+        "https://openalex.org/W2900908250",
+        "https://openalex.org/W1980211776",
+        "https://openalex.org/W2108082043",
+        "https://openalex.org/W1968447037",
+        "https://openalex.org/W2124613914",
+        "https://openalex.org/W2024769108",
+        "https://openalex.org/W2339754221",
+        "https://openalex.org/W2846002970",
         "https://openalex.org/W2147746565",
         "https://openalex.org/W2145929067",
-        "https://openalex.org/W1982453726",
-        "https://openalex.org/W2158812706",
-        "https://openalex.org/W2021926698",
-        "https://openalex.org/W2077824109",
-        "https://openalex.org/W2069472397",
         "https://openalex.org/W2605563215",
-        "https://openalex.org/W2045966865",
         "https://openalex.org/W2066879547",
-        "https://openalex.org/W2339754221",
-        "https://openalex.org/W2900908250",
-        "https://openalex.org/W2108082043",
-        "https://openalex.org/W2019360046"
+        "https://openalex.org/W2102964484",
+        "https://openalex.org/W2163399518",
+        "https://openalex.org/W2074914768",
+        "https://openalex.org/W1024869266",
+        "https://openalex.org/W2069472397",
+        "https://openalex.org/W2077824109",
+        "https://openalex.org/W2048158572",
+        "https://openalex.org/W2078459232",
+        "https://openalex.org/W2728203930",
+        "https://openalex.org/W2105935043",
+        "https://openalex.org/W2016162719",
+        "https://openalex.org/W1982453726",
+        "https://openalex.org/W2045966865",
+        "https://openalex.org/W2067971776"
       ],
       "related_works": [
         "https://openalex.org/W2200979148",
@@ -24622,7 +24681,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -24764,11 +24825,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.86833781,
+      "fwci": 2.49111708,
       "has_fulltext": false,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.81140419,
+        "value": 0.84855067,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25051,7 +25112,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -25065,7 +25128,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -25129,7 +25191,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 2
+          "cited_by_count": 3
         },
         {
           "year": 2024,
@@ -25172,7 +25234,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -25235,15 +25299,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center of Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geoscience",
-              "institution_ids": [
-                "https://openalex.org/I4210118538"
-              ]
-            },
-            {
               "raw_affiliation_string": "King Fahd University of Petroleum & Minerals",
               "institution_ids": [
                 "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Center of Integrative Petroleum Research (CIPR), College of Petroleum Engineering and Geoscience",
+              "institution_ids": [
+                "https://openalex.org/I4210118538"
               ]
             }
           ]
@@ -25265,7 +25329,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.92762085,
+        "value": 0.92603234,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -25538,7 +25602,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -25552,7 +25618,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -25627,8 +25692,8 @@
         "https://openalex.org/W4318485257",
         "https://openalex.org/W4308652013",
         "https://openalex.org/W27619749",
-        "https://openalex.org/W2920723609",
-        "https://openalex.org/W4239450530"
+        "https://openalex.org/W4239450530",
+        "https://openalex.org/W2920723609"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -25685,7 +25750,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -25751,7 +25818,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.94490137,
+        "value": 0.94334993,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -25981,7 +26048,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -25995,7 +26064,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -26124,32 +26192,32 @@
         "https://openalex.org/W2991064474",
         "https://openalex.org/W6843729747",
         "https://openalex.org/W6804954198",
-        "https://openalex.org/W3203710359",
-        "https://openalex.org/W2499444343",
-        "https://openalex.org/W4402864230",
-        "https://openalex.org/W4255469871",
-        "https://openalex.org/W4365812584",
+        "https://openalex.org/W3028307456",
+        "https://openalex.org/W4323637217",
+        "https://openalex.org/W2901463992",
         "https://openalex.org/W4384281892",
-        "https://openalex.org/W4397032883",
+        "https://openalex.org/W4255469871",
         "https://openalex.org/W4297906271",
+        "https://openalex.org/W4381332753",
+        "https://openalex.org/W4386750855",
+        "https://openalex.org/W3010629397",
+        "https://openalex.org/W2896184178",
         "https://openalex.org/W2465224185",
         "https://openalex.org/W4392200862",
-        "https://openalex.org/W4214837692",
-        "https://openalex.org/W4407275033",
-        "https://openalex.org/W4386750855",
-        "https://openalex.org/W1986857360",
-        "https://openalex.org/W4200559907",
-        "https://openalex.org/W2896184178",
         "https://openalex.org/W4391286500",
-        "https://openalex.org/W4381332753",
-        "https://openalex.org/W4323637217",
-        "https://openalex.org/W3107334742",
-        "https://openalex.org/W2901463992",
-        "https://openalex.org/W3028307456",
-        "https://openalex.org/W4224243020",
+        "https://openalex.org/W4365812584",
+        "https://openalex.org/W4402864230",
+        "https://openalex.org/W4200559907",
+        "https://openalex.org/W4214837692",
+        "https://openalex.org/W2499444343",
+        "https://openalex.org/W4200225615",
+        "https://openalex.org/W4397032883",
+        "https://openalex.org/W4407275033",
+        "https://openalex.org/W3203710359",
         "https://openalex.org/W3009253106",
-        "https://openalex.org/W3010629397",
-        "https://openalex.org/W4200225615"
+        "https://openalex.org/W4224243020",
+        "https://openalex.org/W3107334742",
+        "https://openalex.org/W1986857360"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -26201,9 +26269,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -26347,7 +26413,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.79610195,
+        "value": 0.79635584,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26612,9 +26678,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -26630,12 +26694,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Good health and well-being",
+          "score": 0.5699999928474426,
           "id": "https://metadata.un.org/sdg/3",
-          "score": 0.5699999928474426
+          "display_name": "Good health and well-being"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -26743,7 +26806,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4323237894"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Egypts Presidential Specialized Council for Education and Scientific Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -26922,7 +26987,7 @@
       "has_fulltext": true,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.63544661,
+        "value": 0.63634534,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27116,7 +27181,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4323237894"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Egypts Presidential Specialized Council for Education and Scientific Research"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -27149,7 +27216,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4323237894"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Egypts Presidential Specialized Council for Education and Scientific Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -27161,7 +27230,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -27172,28 +27240,28 @@
       "referenced_works": [
         "https://openalex.org/W4254925754",
         "https://openalex.org/W2121810876",
-        "https://openalex.org/W2020644428",
-        "https://openalex.org/W1969007224",
-        "https://openalex.org/W2804469067",
-        "https://openalex.org/W2081922716",
         "https://openalex.org/W2266121293",
+        "https://openalex.org/W2081922716",
+        "https://openalex.org/W2065649163",
         "https://openalex.org/W2580078856",
         "https://openalex.org/W2013780305",
-        "https://openalex.org/W2046923534",
-        "https://openalex.org/W2026494848",
+        "https://openalex.org/W2040125494",
+        "https://openalex.org/W2804469067",
         "https://openalex.org/W2594506790",
         "https://openalex.org/W188242369",
-        "https://openalex.org/W2042681381",
-        "https://openalex.org/W2154380706",
-        "https://openalex.org/W2065649163",
-        "https://openalex.org/W2015422791",
-        "https://openalex.org/W2040125494",
+        "https://openalex.org/W2580960528",
         "https://openalex.org/W2098896460",
+        "https://openalex.org/W2154380706",
         "https://openalex.org/W2107526149",
-        "https://openalex.org/W2134685277",
-        "https://openalex.org/W3147753565",
         "https://openalex.org/W2034079870",
-        "https://openalex.org/W2580960528"
+        "https://openalex.org/W1969007224",
+        "https://openalex.org/W2015422791",
+        "https://openalex.org/W3147753565",
+        "https://openalex.org/W2046923534",
+        "https://openalex.org/W2026494848",
+        "https://openalex.org/W2020644428",
+        "https://openalex.org/W2042681381",
+        "https://openalex.org/W2134685277"
       ],
       "related_works": [
         "https://openalex.org/W2369588367",
@@ -27842,7 +27910,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "repository"
         },
         "license": "cc-by",
@@ -27934,7 +28004,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.49405886,
+        "value": 0.49630079,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28259,7 +28329,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "repository"
           },
           "license": "cc-by",
@@ -28289,7 +28361,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "repository"
         },
         "license": "cc-by",
@@ -28302,12 +28376,11 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6000000238418579
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -28348,10 +28421,10 @@
         "https://openalex.org/W2991047371",
         "https://openalex.org/W2912765035",
         "https://openalex.org/W4233653725",
-        "https://openalex.org/W1981090047",
         "https://openalex.org/W4247095944",
-        "https://openalex.org/W1981571062",
-        "https://openalex.org/W2806654796"
+        "https://openalex.org/W1981090047",
+        "https://openalex.org/W2806654796",
+        "https://openalex.org/W1981571062"
       ],
       "related_works": [
         "https://openalex.org/W1973392441",
@@ -29023,7 +29096,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
           "type": "book series"
         },
         "license": null,
@@ -29498,7 +29573,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
             "type": "book series"
           },
           "license": null,
@@ -29513,12 +29590,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Good health and well-being",
+          "score": 0.6000000238418579,
           "id": "https://metadata.un.org/sdg/3",
-          "score": 0.6000000238418579
+          "display_name": "Good health and well-being"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -29637,7 +29713,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.58956627,
+        "value": 0.58882704,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30025,7 +30101,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -30967,12 +31042,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.75,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.75
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -31335,7 +31409,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -31429,7 +31505,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.38937374,
+        "value": 0.38286884,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31649,7 +31725,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -31663,7 +31741,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -31714,23 +31791,23 @@
         "https://openalex.org/W6805345839",
         "https://openalex.org/W4410076899",
         "https://openalex.org/W2025041182",
-        "https://openalex.org/W4391719763",
+        "https://openalex.org/W4391140252",
+        "https://openalex.org/W4380762638",
+        "https://openalex.org/W4200559907",
         "https://openalex.org/W3135078345",
+        "https://openalex.org/W4394580664",
         "https://openalex.org/W3187483253",
         "https://openalex.org/W4328090518",
-        "https://openalex.org/W4205791355",
-        "https://openalex.org/W3036095237",
-        "https://openalex.org/W4220870329",
-        "https://openalex.org/W4402399232",
-        "https://openalex.org/W3107597821",
-        "https://openalex.org/W4390226446",
-        "https://openalex.org/W4381795514",
-        "https://openalex.org/W4322102392",
-        "https://openalex.org/W4380762638",
-        "https://openalex.org/W4394580664",
-        "https://openalex.org/W4200559907",
         "https://openalex.org/W4389783782",
-        "https://openalex.org/W4391140252"
+        "https://openalex.org/W4391719763",
+        "https://openalex.org/W3036095237",
+        "https://openalex.org/W3107597821",
+        "https://openalex.org/W4322102392",
+        "https://openalex.org/W4205791355",
+        "https://openalex.org/W4220870329",
+        "https://openalex.org/W4381795514",
+        "https://openalex.org/W4390226446",
+        "https://openalex.org/W4402399232"
       ],
       "related_works": [
         "https://openalex.org/W4387497383",

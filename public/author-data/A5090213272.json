@@ -8,10 +8,10 @@
       "А. Scerbacova"
     ],
     "works_count": 18,
-    "cited_by_count": 98,
+    "cited_by_count": 100,
     "summary_stats": {
-      "2yr_mean_citedness": 3.3333333333333335,
-      "h_index": 5,
+      "2yr_mean_citedness": 3.5555555555555554,
+      "h_index": 6,
       "i10_index": 4
     },
     "ids": {
@@ -206,7 +206,7 @@
       {
         "id": "https://openalex.org/T10491",
         "display_name": "Enhanced Oil Recovery Techniques",
-        "value": 0.0000842,
+        "value": 0.0000841,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -240,7 +240,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000312,
+        "value": 0.0000311,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -274,7 +274,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "value": 0.0000167,
+        "value": 0.0000166,
         "subfield": {
           "id": "https://openalex.org/subfields/2211",
           "display_name": "Mechanics of Materials"
@@ -360,7 +360,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5090213272",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2022-07-21"
   },
   "works": [
@@ -397,7 +397,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -781,7 +783,7 @@
       "has_fulltext": false,
       "cited_by_count": 23,
       "citation_normalized_percentile": {
-        "value": 0.9281942,
+        "value": 0.92834319,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1078,7 +1080,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1093,19 +1097,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.5099999904632568,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.5099999904632568
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320321912",
-          "funder_display_name": "Ministry of Education and Science of the Russian Federation",
-          "award_id": "075-10-2020-119"
+          "id": "https://openalex.org/G2262071029",
+          "display_name": null,
+          "funder_award_id": "075-10-2020-119",
+          "funder_id": "https://openalex.org/F4320321912",
+          "funder_display_name": "Ministry of Education and Science of the Russian Federation"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320321912",
@@ -1208,11 +1213,11 @@
         "https://openalex.org/W4281552087",
         "https://openalex.org/W2771052179",
         "https://openalex.org/W4224244550",
-        "https://openalex.org/W2015873836",
         "https://openalex.org/W2959743433",
-        "https://openalex.org/W4205462480",
         "https://openalex.org/W63294479",
-        "https://openalex.org/W3208143380"
+        "https://openalex.org/W2015873836",
+        "https://openalex.org/W3208143380",
+        "https://openalex.org/W4205462480"
       ],
       "related_works": [
         "https://openalex.org/W1969539204",
@@ -1277,7 +1282,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1442,7 +1449,7 @@
       "has_fulltext": false,
       "cited_by_count": 13,
       "citation_normalized_percentile": {
-        "value": 0.84547595,
+        "value": 0.84592996,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1782,7 +1789,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320547"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Taylor & Francis"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1797,24 +1806,27 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6399999856948853
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320327494",
-          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation",
-          "award_id": "-119"
+          "id": "https://openalex.org/G821286692",
+          "display_name": null,
+          "funder_award_id": "-119",
+          "funder_id": "https://openalex.org/F4320327494",
+          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation"
         },
         {
-          "funder": "https://openalex.org/F4320327494",
-          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation",
-          "award_id": "075-10-"
+          "id": "https://openalex.org/G4663741502",
+          "display_name": null,
+          "funder_award_id": "075-10-",
+          "funder_id": "https://openalex.org/F4320327494",
+          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320327494",
@@ -1862,9 +1874,9 @@
         "https://openalex.org/W2178184315",
         "https://openalex.org/W2560106459",
         "https://openalex.org/W2793706956",
+        "https://openalex.org/W1582020291",
         "https://openalex.org/W411746085",
-        "https://openalex.org/W4206542356",
-        "https://openalex.org/W1582020291"
+        "https://openalex.org/W4206542356"
       ],
       "related_works": [
         "https://openalex.org/W2046301687",
@@ -2302,7 +2314,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2524,7 +2538,7 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.7882468,
+        "value": 0.78877406,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2883,7 +2897,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -2898,19 +2914,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.8600000143051147,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.8600000143051147
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320321912",
-          "funder_display_name": "Ministry of Education and Science of the Russian Federation",
-          "award_id": "075–10-2020–119"
+          "id": "https://openalex.org/G1885513773",
+          "display_name": null,
+          "funder_award_id": "075–10-2020–119",
+          "funder_id": "https://openalex.org/F4320321912",
+          "funder_display_name": "Ministry of Education and Science of the Russian Federation"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320321912",
@@ -2992,11 +3009,11 @@
         "https://openalex.org/W2147101171",
         "https://openalex.org/W2093895204",
         "https://openalex.org/W2981644170",
-        "https://openalex.org/W3202347926",
-        "https://openalex.org/W4221061210",
-        "https://openalex.org/W2503348119",
         "https://openalex.org/W3158056424",
-        "https://openalex.org/W4224244550"
+        "https://openalex.org/W3202347926",
+        "https://openalex.org/W2503348119",
+        "https://openalex.org/W4224244550",
+        "https://openalex.org/W4221061210"
       ],
       "related_works": [
         "https://openalex.org/W2360693319",
@@ -3061,7 +3078,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3124,15 +3143,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Petroleum Science and Engineering, Skolkovo Institute of Science and Technology, Bolshoy Boulevard 30, bld. 1, Moscow 121205, Russia;",
-              "institution_ids": [
-                "https://openalex.org/I125989756"
-              ]
-            },
-            {
               "raw_affiliation_string": "Western Australian School of Mines (WASM): Minerals, Energy and Chemical Engineering, Curtin University, 26 Dick Perry Avenue, Kensington, Western Australia 6151, Australia;",
               "institution_ids": [
                 "https://openalex.org/I205640436"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Center for Petroleum Science and Engineering, Skolkovo Institute of Science and Technology, Bolshoy Boulevard 30, bld. 1, Moscow 121205, Russia;",
+              "institution_ids": [
+                "https://openalex.org/I125989756"
               ]
             }
           ]
@@ -3442,7 +3461,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.84724024,
+        "value": 0.84658531,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3789,7 +3808,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3804,19 +3825,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.7200000286102295,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.7200000286102295
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320327494",
-          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation",
-          "award_id": "075-10-2022-011"
+          "id": "https://openalex.org/G6995661432",
+          "display_name": null,
+          "funder_award_id": "075-10-2022-011",
+          "funder_id": "https://openalex.org/F4320327494",
+          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320327494",
@@ -4529,7 +4551,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4802,7 +4826,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.78834224,
+        "value": 0.78843036,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5161,7 +5185,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5175,7 +5201,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -5275,8 +5300,8 @@
         "https://openalex.org/W1970602844",
         "https://openalex.org/W2416978327",
         "https://openalex.org/W2082233650",
-        "https://openalex.org/W63294479",
-        "https://openalex.org/W2504320662"
+        "https://openalex.org/W2504320662",
+        "https://openalex.org/W63294479"
       ],
       "related_works": [
         "https://openalex.org/W2087977212",
@@ -5970,9 +5995,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -6460,7 +6483,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.87220288,
+        "value": 0.87195425,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6811,9 +6834,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -6829,12 +6850,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.6100000143051147,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6100000143051147
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -6863,10 +6883,10 @@
         "https://openalex.org/W1977136268",
         "https://openalex.org/W2779829226",
         "https://openalex.org/W2795357846",
-        "https://openalex.org/W1977150888",
-        "https://openalex.org/W3124387679",
         "https://openalex.org/W2272391079",
-        "https://openalex.org/W2601050889"
+        "https://openalex.org/W1977150888",
+        "https://openalex.org/W2601050889",
+        "https://openalex.org/W3124387679"
       ],
       "related_works": [
         "https://openalex.org/W2091944272",
@@ -7893,9 +7913,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -8383,7 +8401,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.91213248,
+        "value": 0.91177469,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8612,9 +8630,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -8630,12 +8646,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.5299999713897705,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.5299999713897705
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8664,8 +8679,8 @@
         "https://openalex.org/W1977136268",
         "https://openalex.org/W2779829226",
         "https://openalex.org/W2795357846",
-        "https://openalex.org/W2272391079",
         "https://openalex.org/W1970635216",
+        "https://openalex.org/W2272391079",
         "https://openalex.org/W2601050889"
       ],
       "related_works": [
@@ -8728,9 +8743,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -8824,14 +8837,14 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "LABADVANCE",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Skolkovo Institute of Science and Technology",
               "institution_ids": [
                 "https://openalex.org/I125989756"
               ]
+            },
+            {
+              "raw_affiliation_string": "LABADVANCE",
+              "institution_ids": []
             }
           ]
         },
@@ -9045,11 +9058,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.08987952,
+      "fwci": 1.3623494,
       "has_fulltext": true,
-      "cited_by_count": 4,
+      "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.72425031,
+        "value": 0.76217969,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9319,9 +9332,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -9352,9 +9363,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -9368,12 +9377,11 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/9",
-          "score": 0.4399999976158142
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -9877,6 +9885,10 @@
       },
       "counts_by_year": [
         {
+          "year": 2025,
+          "cited_by_count": 1
+        },
+        {
           "year": 2024,
           "cited_by_count": 3
         },
@@ -10345,7 +10357,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.72868128,
+        "value": 0.72898951,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10701,12 +10713,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.47999998927116394,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.47999998927116394
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -10735,14 +10746,14 @@
         "https://openalex.org/W6687617579",
         "https://openalex.org/W6805090932",
         "https://openalex.org/W2259623567",
+        "https://openalex.org/W3111641489",
+        "https://openalex.org/W4242323931",
+        "https://openalex.org/W3147805635",
         "https://openalex.org/W3023901170",
         "https://openalex.org/W1969795034",
-        "https://openalex.org/W4249681580",
-        "https://openalex.org/W3147805635",
-        "https://openalex.org/W4242323931",
-        "https://openalex.org/W3111641489",
+        "https://openalex.org/W4234400575",
         "https://openalex.org/W1831086515",
-        "https://openalex.org/W4234400575"
+        "https://openalex.org/W4249681580"
       ],
       "related_works": [
         "https://openalex.org/W2989730517",
@@ -11283,7 +11294,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -11391,7 +11404,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.92542836,
+        "value": 0.92391591,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -11678,7 +11691,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11693,19 +11708,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
+          "score": 0.5699999928474426,
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.5699999928474426
+          "display_name": "Climate action"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320324099",
-          "funder_display_name": "Russian Science Foundation",
-          "award_id": "23\\u201377-01086"
+          "id": "https://openalex.org/G5590096405",
+          "display_name": null,
+          "funder_award_id": "23\\u201377-01086",
+          "funder_id": "https://openalex.org/F4320324099",
+          "funder_display_name": "Russian Science Foundation"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320324099",
@@ -11769,16 +11785,16 @@
         "https://openalex.org/W3128899248",
         "https://openalex.org/W4223601067",
         "https://openalex.org/W3205808610",
-        "https://openalex.org/W2034063916",
         "https://openalex.org/W4402545915",
-        "https://openalex.org/W2083550612",
+        "https://openalex.org/W2034063916",
         "https://openalex.org/W4224244550",
+        "https://openalex.org/W4403277765",
         "https://openalex.org/W1589163079",
+        "https://openalex.org/W2967693046",
         "https://openalex.org/W4399070571",
         "https://openalex.org/W2417974527",
-        "https://openalex.org/W3004024615",
-        "https://openalex.org/W2967693046",
-        "https://openalex.org/W4403277765"
+        "https://openalex.org/W2083550612",
+        "https://openalex.org/W3004024615"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -11830,9 +11846,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -12083,7 +12097,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.87748894,
+        "value": 0.87752281,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12459,9 +12473,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -12477,12 +12489,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.6700000166893005,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.6700000166893005
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -12517,8 +12528,8 @@
         "https://openalex.org/W2596329033",
         "https://openalex.org/W2795357846",
         "https://openalex.org/W2923613555",
-        "https://openalex.org/W2848823574",
-        "https://openalex.org/W2978492403"
+        "https://openalex.org/W2978492403",
+        "https://openalex.org/W2848823574"
       ],
       "related_works": [
         "https://openalex.org/W2013943673",
@@ -13369,9 +13380,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -13658,7 +13667,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.92785235,
+        "value": 0.92812106,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -13985,9 +13994,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -14002,7 +14009,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14042,12 +14048,12 @@
         "https://openalex.org/W3175725239",
         "https://openalex.org/W1980932365",
         "https://openalex.org/W6750091656",
-        "https://openalex.org/W2964472094",
-        "https://openalex.org/W4241864196",
-        "https://openalex.org/W2978492403",
         "https://openalex.org/W3035954883",
+        "https://openalex.org/W2964472094",
         "https://openalex.org/W2979053801",
-        "https://openalex.org/W2528664296"
+        "https://openalex.org/W2978492403",
+        "https://openalex.org/W2528664296",
+        "https://openalex.org/W4241864196"
       ],
       "related_works": [
         "https://openalex.org/W64324643",
@@ -14671,7 +14677,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.67307967,
+        "value": 0.67387162,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15022,12 +15028,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "score": 0.46000000834465027,
           "id": "https://metadata.un.org/sdg/6",
-          "score": 0.46000000834465027
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15056,10 +15061,10 @@
         "https://openalex.org/W2319472660",
         "https://openalex.org/W1986405393",
         "https://openalex.org/W4200032867",
+        "https://openalex.org/W4224244550",
         "https://openalex.org/W2045547845",
         "https://openalex.org/W3007578353",
         "https://openalex.org/W3101157997",
-        "https://openalex.org/W4224244550",
         "https://openalex.org/W3088015351"
       ],
       "related_works": [
@@ -15706,7 +15711,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15898,7 +15905,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.64278654,
+        "value": 0.64321361,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16190,7 +16197,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -16205,16 +16214,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/13",
-          "score": 0.6899999976158142
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320327494",
-          "funder_display_name": "Ministry of Science and Higher Education of the Russian Federation",
-          "award_id": null
+          "display_name": "Climate action"
         }
       ],
       "awards": [],
@@ -16317,19 +16319,19 @@
         "https://openalex.org/W2413778174",
         "https://openalex.org/W2611424285",
         "https://openalex.org/W2029188744",
-        "https://openalex.org/W3035188260",
+        "https://openalex.org/W4206105069",
+        "https://openalex.org/W4212773366",
         "https://openalex.org/W4365451773",
         "https://openalex.org/W4229709421",
-        "https://openalex.org/W3205419042",
-        "https://openalex.org/W4212773366",
-        "https://openalex.org/W4379347728",
-        "https://openalex.org/W4206105069",
-        "https://openalex.org/W2317481205",
-        "https://openalex.org/W2935817180",
         "https://openalex.org/W3004327159",
-        "https://openalex.org/W3207433824",
+        "https://openalex.org/W4312648657",
+        "https://openalex.org/W3035188260",
+        "https://openalex.org/W4379347728",
+        "https://openalex.org/W2317481205",
         "https://openalex.org/W2943098170",
-        "https://openalex.org/W4312648657"
+        "https://openalex.org/W3205419042",
+        "https://openalex.org/W2935817180",
+        "https://openalex.org/W3207433824"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -16386,7 +16388,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310312638"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Georesursy Ltd."
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -16990,7 +16994,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.78907925,
+        "value": 0.78506158,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -17261,7 +17265,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310312638"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Georesursy Ltd."
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -17287,9 +17293,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -17323,7 +17327,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310312638"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Georesursy Ltd."
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -17335,7 +17341,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -18109,9 +18114,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -18259,7 +18262,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.85335689,
+        "value": 0.85102807,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -18490,9 +18493,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -18519,9 +18520,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -18551,9 +18550,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -18566,14 +18563,15 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "EC231010"
+          "id": "https://openalex.org/G5912698192",
+          "display_name": null,
+          "funder_award_id": "EC231010",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -18634,22 +18632,22 @@
         "https://openalex.org/W2317813775",
         "https://openalex.org/W2887424861",
         "https://openalex.org/W2066854206",
-        "https://openalex.org/W2091020328",
-        "https://openalex.org/W3201697790",
-        "https://openalex.org/W4396773761",
-        "https://openalex.org/W4387702076",
-        "https://openalex.org/W2094059153",
-        "https://openalex.org/W2056501647",
-        "https://openalex.org/W1989716604",
-        "https://openalex.org/W2052227116",
-        "https://openalex.org/W4245252993",
-        "https://openalex.org/W4388750918",
-        "https://openalex.org/W2033303477",
         "https://openalex.org/W2500866594",
-        "https://openalex.org/W2946858441",
+        "https://openalex.org/W4245252993",
+        "https://openalex.org/W3087762426",
+        "https://openalex.org/W2052227116",
         "https://openalex.org/W1997783064",
+        "https://openalex.org/W2946858441",
+        "https://openalex.org/W4396773761",
+        "https://openalex.org/W4388750918",
+        "https://openalex.org/W3201697790",
+        "https://openalex.org/W1989716604",
+        "https://openalex.org/W2056501647",
+        "https://openalex.org/W4387702076",
+        "https://openalex.org/W2091020328",
         "https://openalex.org/W63294479",
-        "https://openalex.org/W3087762426"
+        "https://openalex.org/W2094059153",
+        "https://openalex.org/W2033303477"
       ],
       "related_works": [
         "https://openalex.org/W2120330316",
@@ -19161,9 +19159,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -19214,7 +19210,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.12563639,
+        "value": 0.1253268,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19382,9 +19378,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -19399,7 +19393,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -19460,9 +19453,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -19575,15 +19566,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
-              "institution_ids": [
-                "https://openalex.org/I4210092357"
-              ]
-            },
-            {
               "raw_affiliation_string": "Skolkovo Institute of Science and Technology",
               "institution_ids": [
                 "https://openalex.org/I125989756"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
+              "institution_ids": [
+                "https://openalex.org/I4210092357"
               ]
             },
             {
@@ -19647,15 +19638,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Moldova State University",
-              "institution_ids": [
-                "https://openalex.org/I29920723"
-              ]
-            },
-            {
               "raw_affiliation_string": "Institute of Mathematics and Computer Science of Moldova",
               "institution_ids": [
                 "https://openalex.org/I4210092357"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Moldova State University",
+              "institution_ids": [
+                "https://openalex.org/I29920723"
               ]
             },
             {
@@ -19719,9 +19710,9 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Moldova State University",
+              "raw_affiliation_string": "Skolkovo Institute of Science and Technology",
               "institution_ids": [
-                "https://openalex.org/I29920723"
+                "https://openalex.org/I125989756"
               ]
             },
             {
@@ -19731,9 +19722,9 @@
               ]
             },
             {
-              "raw_affiliation_string": "Skolkovo Institute of Science and Technology",
+              "raw_affiliation_string": "Moldova State University",
               "institution_ids": [
-                "https://openalex.org/I125989756"
+                "https://openalex.org/I29920723"
               ]
             }
           ]
@@ -19750,7 +19741,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17125117,
+        "value": 0.16970538,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20012,9 +20003,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -20025,20 +20014,6 @@
           "is_published": true,
           "raw_source_name": "Computer Science Journal of Moldova",
           "raw_type": "journal-article"
-        },
-        {
-          "id": "pmh:oai:ibn.idsi.md:162354",
-          "is_oa": true,
-          "landing_page_url": "https://ibn.idsi.md/vizualizare_articol/162354",
-          "pdf_url": null,
-          "source": null,
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Computer Science Journal of Moldova 89 (2) 170-186",
-          "raw_type": "info:eu-repo/semantics/article"
         },
         {
           "id": "pmh:oai:doaj.org/article:b4d7644999fb4a7daf1c5c77c469b997",
@@ -20055,9 +20030,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -20068,6 +20041,20 @@
           "is_published": false,
           "raw_source_name": "Computer Science Journal of Moldova, Vol 30, Iss 2(89), Pp 170-186 (2022)",
           "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:ibn.idsi.md:162354",
+          "is_oa": true,
+          "landing_page_url": "https://ibn.idsi.md/vizualizare_articol/162354",
+          "pdf_url": null,
+          "source": null,
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Computer Science Journal of Moldova 89 (2) 170-186",
+          "raw_type": "info:eu-repo/semantics/article"
         }
       ],
       "best_oa_location": {
@@ -20088,9 +20075,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -20104,12 +20089,11 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Reduced inequalities",
+          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/10",
-          "score": 0.6399999856948853
+          "display_name": "Reduced inequalities"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -20127,10 +20111,10 @@
         "https://openalex.org/W49730022",
         "https://openalex.org/W2073205225",
         "https://openalex.org/W2069909488",
-        "https://openalex.org/W3084393768",
-        "https://openalex.org/W2963643121",
+        "https://openalex.org/W2617573639",
         "https://openalex.org/W4240995166",
-        "https://openalex.org/W2617573639"
+        "https://openalex.org/W3084393768",
+        "https://openalex.org/W2963643121"
       ],
       "related_works": [
         "https://openalex.org/W2186480202",

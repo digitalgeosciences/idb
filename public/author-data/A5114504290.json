@@ -47,24 +47,6 @@
     ],
     "topics": [
       {
-        "id": "https://openalex.org/T10635",
-        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "count": 2,
-        "score": 0.9993000030517578,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2210",
-          "display_name": "Mechanical Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10892",
         "display_name": "Drilling and Well Engineering",
         "count": 2,
@@ -83,17 +65,17 @@
         }
       },
       {
-        "id": "https://openalex.org/T10110",
-        "display_name": "earthquake and tectonic studies",
-        "count": 1,
-        "score": 0.9898999929428101,
+        "id": "https://openalex.org/T10635",
+        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+        "count": 2,
+        "score": 0.9993000030517578,
         "subfield": {
-          "id": "https://openalex.org/subfields/1908",
-          "display_name": "Geophysics"
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -101,17 +83,17 @@
         }
       },
       {
-        "id": "https://openalex.org/T11699",
-        "display_name": "High-Velocity Impact and Material Behavior",
+        "id": "https://openalex.org/T11302",
+        "display_name": "CO2 Sequestration and Geologic Interactions",
         "count": 1,
-        "score": 0.9799000024795532,
+        "score": 0.9879000186920166,
         "subfield": {
-          "id": "https://openalex.org/subfields/2505",
-          "display_name": "Materials Chemistry"
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
         },
         "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -130,6 +112,24 @@
         "field": {
           "id": "https://openalex.org/fields/22",
           "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11699",
+        "display_name": "High-Velocity Impact and Material Behavior",
+        "count": 1,
+        "score": 0.9799000024795532,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -271,7 +271,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5114504290",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T23:17:08.748858",
     "created_date": "2025-10-10"
   },
   "works": [
@@ -468,7 +468,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.30916706,
+        "value": 0.30662219,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -717,16 +717,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9",
-          "score": 0.41999998688697815
+          "score": 0.41999998688697815,
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 15,
       "referenced_works": [
@@ -1658,7 +1657,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17884526,
+        "value": 0.17602478,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1833,12 +1832,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 39,
       "referenced_works": [
@@ -1878,9 +1876,9 @@
         "https://openalex.org/W2898280479",
         "https://openalex.org/W4328029781",
         "https://openalex.org/W4200389087",
-        "https://openalex.org/W296008216",
+        "https://openalex.org/W2899490418",
         "https://openalex.org/W2598952810",
-        "https://openalex.org/W2899490418"
+        "https://openalex.org/W296008216"
       ],
       "related_works": [
         "https://openalex.org/W4391375266",
@@ -2708,7 +2706,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2799,7 +2799,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.33126802,
+        "value": 0.32539984,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2995,7 +2995,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3021,9 +3023,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -3057,7 +3057,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3071,21 +3073,20 @@
       "sustainable_development_goals": [
         {
           "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12",
-          "score": 0.44999998807907104
+          "score": 0.44999998807907104,
+          "id": "https://metadata.un.org/sdg/12"
         },
         {
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9",
-          "score": 0.4300000071525574
+          "score": 0.4300000071525574,
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 48,
       "referenced_works": [
@@ -3129,14 +3130,14 @@
         "https://openalex.org/W4309484293",
         "https://openalex.org/W4401808405",
         "https://openalex.org/W4395683956",
+        "https://openalex.org/W609968965",
         "https://openalex.org/W3021695002",
-        "https://openalex.org/W4401871333",
-        "https://openalex.org/W2032335337",
-        "https://openalex.org/W4323362927",
-        "https://openalex.org/W4250379933",
         "https://openalex.org/W4381663938",
         "https://openalex.org/W2915586549",
-        "https://openalex.org/W609968965"
+        "https://openalex.org/W4401871333",
+        "https://openalex.org/W4250379933",
+        "https://openalex.org/W2032335337",
+        "https://openalex.org/W4323362927"
       ],
       "related_works": [
         "https://openalex.org/W2096720932",

@@ -11,7 +11,7 @@
       "Sheikha lardhi"
     ],
     "works_count": 18,
-    "cited_by_count": 464,
+    "cited_by_count": 466,
     "summary_stats": {
       "2yr_mean_citedness": 1.25,
       "h_index": 9,
@@ -122,24 +122,6 @@
         }
       },
       {
-        "id": "https://openalex.org/T11907",
-        "display_name": "Copper-based nanomaterials and applications",
-        "count": 3,
-        "score": 0.9990000128746033,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2505",
-          "display_name": "Materials Chemistry"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/25",
-          "display_name": "Materials Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10247",
         "display_name": "Perovskite Materials and Applications",
         "count": 3,
@@ -151,6 +133,24 @@
         "field": {
           "id": "https://openalex.org/fields/22",
           "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11907",
+        "display_name": "Copper-based nanomaterials and applications",
+        "count": 3,
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -248,7 +248,7 @@
       {
         "id": "https://openalex.org/T10247",
         "display_name": "Perovskite Materials and Applications",
-        "value": 0.0000152,
+        "value": 0.0000151,
         "subfield": {
           "id": "https://openalex.org/subfields/2208",
           "display_name": "Electrical and Electronic Engineering"
@@ -340,7 +340,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5066597466",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T06:51:31.235846",
     "created_date": "2016-06-24"
   },
   "works": [
@@ -378,7 +378,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -896,7 +898,7 @@
       "has_fulltext": false,
       "cited_by_count": 129,
       "citation_normalized_percentile": {
-        "value": 0.94818932,
+        "value": 0.94825365,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1243,7 +1245,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1286,14 +1290,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320321114",
-          "funder_display_name": "Bundesministerium für Bildung und Forschung",
-          "award_id": "03SF0478A"
+          "id": "https://openalex.org/G834066857",
+          "display_name": null,
+          "funder_award_id": "03SF0478A",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320321114",
@@ -1973,7 +1978,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -2120,7 +2127,7 @@
       "has_fulltext": false,
       "cited_by_count": 69,
       "citation_normalized_percentile": {
-        "value": 0.88372691,
+        "value": 0.88398248,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2373,7 +2380,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -2414,35 +2423,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:repository.kaust.edu.sa:10754/663895",
-          "is_oa": true,
-          "landing_page_url": "http://hdl.handle.net/10754/663895",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401596",
-            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I71920554",
-            "host_organization_name": "King Abdullah University of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I71920554"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "Article"
-        },
-        {
           "id": "pmh:oai:pubmedcentral.nih.gov:7467742",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7467742",
@@ -2470,6 +2450,35 @@
           "is_published": false,
           "raw_source_name": "J Phys Chem Lett",
           "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:repository.kaust.edu.sa:10754/663895",
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/10754/663895",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401596",
+            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I71920554",
+            "host_organization_name": "King Abdullah University of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I71920554"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
         }
       ],
       "best_oa_location": {
@@ -2492,7 +2501,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -2506,15 +2517,8 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.8299999833106995
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322320",
-          "funder_display_name": "King Abdullah University of Science and Technology",
-          "award_id": null
+          "score": 0.8299999833106995,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -2576,28 +2580,28 @@
         "https://openalex.org/W2005400443",
         "https://openalex.org/W2066061012",
         "https://openalex.org/W1592325855",
-        "https://openalex.org/W2331256947",
-        "https://openalex.org/W2003368879",
-        "https://openalex.org/W2007395042",
-        "https://openalex.org/W2809491021",
-        "https://openalex.org/W1966599307",
-        "https://openalex.org/W2188261346",
-        "https://openalex.org/W2086310984",
+        "https://openalex.org/W2006357728",
         "https://openalex.org/W2036113194",
+        "https://openalex.org/W2003368879",
+        "https://openalex.org/W2098747335",
+        "https://openalex.org/W1970127494",
+        "https://openalex.org/W2007395042",
+        "https://openalex.org/W1979544533",
+        "https://openalex.org/W2188261346",
+        "https://openalex.org/W2569226784",
+        "https://openalex.org/W2312706848",
+        "https://openalex.org/W1966599307",
+        "https://openalex.org/W1964047551",
+        "https://openalex.org/W2312297470",
+        "https://openalex.org/W2315393410",
+        "https://openalex.org/W2331256947",
+        "https://openalex.org/W2086310984",
+        "https://openalex.org/W2321575493",
         "https://openalex.org/W2001731414",
+        "https://openalex.org/W1981368803",
         "https://openalex.org/W2083222334",
         "https://openalex.org/W2087698390",
-        "https://openalex.org/W2312297470",
-        "https://openalex.org/W1964047551",
-        "https://openalex.org/W1970127494",
-        "https://openalex.org/W2569226784",
-        "https://openalex.org/W2315393410",
-        "https://openalex.org/W2321575493",
-        "https://openalex.org/W1979544533",
-        "https://openalex.org/W2312706848",
-        "https://openalex.org/W2098747335",
-        "https://openalex.org/W1981368803",
-        "https://openalex.org/W2006357728"
+        "https://openalex.org/W2809491021"
       ],
       "related_works": [
         "https://openalex.org/W2202470948",
@@ -3042,7 +3046,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320257"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Institute of Physics"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3296,7 +3302,7 @@
       "has_fulltext": false,
       "cited_by_count": 51,
       "citation_normalized_percentile": {
-        "value": 0.92228319,
+        "value": 0.92238888,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3666,7 +3672,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320257"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Institute of Physics"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3711,11 +3719,10 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -4096,7 +4103,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4536,7 +4545,7 @@
       "has_fulltext": false,
       "cited_by_count": 51,
       "citation_normalized_percentile": {
-        "value": 0.83791505,
+        "value": 0.83825626,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4854,7 +4863,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4899,28 +4910,33 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.75
+          "score": 0.75,
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320320751",
-          "funder_display_name": "Ministry of Education - Singapore",
-          "award_id": "MOE2016-T2-1-030"
+          "id": "https://openalex.org/G7882266486",
+          "display_name": null,
+          "funder_award_id": "01DP14011",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
         },
         {
-          "funder": "https://openalex.org/F4320321114",
-          "funder_display_name": "Bundesministerium für Bildung und Forschung",
-          "award_id": "01DP14011"
+          "id": "https://openalex.org/G834066857",
+          "display_name": null,
+          "funder_award_id": "03SF0478A",
+          "funder_id": "https://openalex.org/F4320321114",
+          "funder_display_name": "Bundesministerium für Bildung und Forschung"
         },
         {
-          "funder": "https://openalex.org/F4320321114",
-          "funder_display_name": "Bundesministerium für Bildung und Forschung",
-          "award_id": "03SF0478A"
+          "id": "https://openalex.org/G7711484159",
+          "display_name": null,
+          "funder_award_id": "MOE2016-T2-1-030",
+          "funder_id": "https://openalex.org/F4320320751",
+          "funder_display_name": "Ministry of Education - Singapore"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320320751",
@@ -5464,7 +5480,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5643,7 +5661,7 @@
       "has_fulltext": false,
       "cited_by_count": 44,
       "citation_normalized_percentile": {
-        "value": 0.83158569,
+        "value": 0.83169364,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5951,7 +5969,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -6023,13 +6043,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322320",
-          "funder_display_name": "King Abdullah University of Science and Technology",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -6500,7 +6513,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6646,7 +6661,7 @@
       "has_fulltext": false,
       "cited_by_count": 34,
       "citation_normalized_percentile": {
-        "value": 0.75432351,
+        "value": 0.75484069,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6962,7 +6977,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -7007,15 +7024,8 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.4699999988079071
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322320",
-          "funder_display_name": "King Abdullah University of Science and Technology",
-          "award_id": null
+          "score": 0.4699999988079071,
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -7560,7 +7570,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320556"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -7615,17 +7627,7 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            },
-            {
               "raw_affiliation_string": "Saudi Arabia",
-              "institution_ids": []
-            },
-            {
-              "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
               "institution_ids": []
             },
             {
@@ -7636,6 +7638,16 @@
             },
             {
               "raw_affiliation_string": "Thuwal",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
+            },
+            {
+              "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
               "institution_ids": []
             }
           ]
@@ -7673,8 +7685,10 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Thuwal",
-              "institution_ids": []
+              "raw_affiliation_string": "Division of Physical Sciences and Engineering, KAUST Catalysis Center (KCC), King Abdullah University of Science and Technology (KAUST), 4700 KAUST, Thuwal, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
             },
             {
               "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
@@ -7683,18 +7697,16 @@
               ]
             },
             {
+              "raw_affiliation_string": "Thuwal",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "Saudi Arabia",
               "institution_ids": []
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
               "institution_ids": []
-            },
-            {
-              "raw_affiliation_string": "Division of Physical Sciences and Engineering, KAUST Catalysis Center (KCC), King Abdullah University of Science and Technology (KAUST), 4700 KAUST, Thuwal, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
             }
           ]
         },
@@ -7731,18 +7743,18 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
+              "raw_affiliation_string": "Saudi Arabia",
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Thuwal",
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Saudi Arabia",
-              "institution_ids": []
+              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -7789,11 +7801,11 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Saudi Arabia",
+              "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
+              "raw_affiliation_string": "Thuwal",
               "institution_ids": []
             },
             {
@@ -7803,14 +7815,14 @@
               ]
             },
             {
-              "raw_affiliation_string": "Thuwal",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
+            },
+            {
+              "raw_affiliation_string": "Saudi Arabia",
+              "institution_ids": []
             }
           ]
         },
@@ -7847,14 +7859,18 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
+              "raw_affiliation_string": "Thuwal",
+              "institution_ids": []
             },
             {
               "raw_affiliation_string": "Saudi Arabia",
               "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC)",
@@ -7865,10 +7881,6 @@
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "raw_affiliation_string": "Thuwal",
-              "institution_ids": []
             }
           ]
         },
@@ -7905,17 +7917,17 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
+              "raw_affiliation_string": "Division of Physical Sciences and Engineering, KAUST Catalysis Center (KCC), King Abdullah University of Science and Technology (KAUST), 4700 KAUST, Thuwal, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
             },
             {
-              "raw_affiliation_string": "Thuwal",
+              "raw_affiliation_string": "Saudi Arabia",
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Saudi Arabia",
+              "raw_affiliation_string": "Thuwal",
               "institution_ids": []
             },
             {
@@ -7923,7 +7935,7 @@
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Division of Physical Sciences and Engineering, KAUST Catalysis Center (KCC), King Abdullah University of Science and Technology (KAUST), 4700 KAUST, Thuwal, Saudi Arabia",
+              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST)",
               "institution_ids": [
                 "https://openalex.org/I71920554"
               ]
@@ -7942,7 +7954,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.81332128,
+        "value": 0.81342346,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8253,7 +8265,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320556"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Royal Society of Chemistry"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc",
@@ -8315,7 +8329,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320556"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -8327,7 +8343,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8535,7 +8550,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320556"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -8601,17 +8618,6 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE)",
-              "institution_ids": [
-                "https://openalex.org/I4210113003",
-                "https://openalex.org/I71920554"
-              ]
-            },
-            {
-              "raw_affiliation_string": "Saudi Arabia",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST), KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE), 4700 KAUST, Thuwal, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I71920554"
@@ -8620,6 +8626,17 @@
             {
               "raw_affiliation_string": "Thuwal",
               "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "Saudi Arabia",
+              "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE)",
+              "institution_ids": [
+                "https://openalex.org/I4210113003",
+                "https://openalex.org/I71920554"
+              ]
             }
           ]
         },
@@ -8666,8 +8683,10 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
-              "institution_ids": []
+              "raw_affiliation_string": "Université Claude Bernard Lyon 1",
+              "institution_ids": [
+                "https://openalex.org/I100532134"
+              ]
             },
             {
               "raw_affiliation_string": "Univ Lyon, ENS de Lyon",
@@ -8677,10 +8696,8 @@
               ]
             },
             {
-              "raw_affiliation_string": "Université Claude Bernard Lyon 1",
-              "institution_ids": [
-                "https://openalex.org/I100532134"
-              ]
+              "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
+              "institution_ids": []
             }
           ]
         },
@@ -8727,6 +8744,10 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Thuwal",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "Saudi Arabia",
               "institution_ids": []
             },
@@ -8736,10 +8757,6 @@
                 "https://openalex.org/I4210113003",
                 "https://openalex.org/I71920554"
               ]
-            },
-            {
-              "raw_affiliation_string": "Thuwal",
-              "institution_ids": []
             },
             {
               "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST), KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE), 4700 KAUST, Thuwal, Saudi Arabia",
@@ -8792,18 +8809,18 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST), KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE), 4700 KAUST, Thuwal, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I71920554"
-              ]
-            },
-            {
               "raw_affiliation_string": "Thuwal",
               "institution_ids": []
             },
             {
               "raw_affiliation_string": "Saudi Arabia",
               "institution_ids": []
+            },
+            {
+              "raw_affiliation_string": "King Abdullah University of Science and Technology (KAUST), KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE), 4700 KAUST, Thuwal, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I71920554"
+              ]
             },
             {
               "raw_affiliation_string": "KAUST Catalysis Center (KCC) and Physical Sciences and Engineering Division (PSE)",
@@ -8857,10 +8874,6 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "Université Claude Bernard Lyon 1",
               "institution_ids": [
                 "https://openalex.org/I100532134"
@@ -8872,6 +8885,10 @@
                 "https://openalex.org/I100532134",
                 "https://openalex.org/I113428412"
               ]
+            },
+            {
+              "raw_affiliation_string": "Laboratoire de Chimie UMR 5182",
+              "institution_ids": []
             }
           ]
         }
@@ -8880,8 +8897,8 @@
       "countries_distinct_count": 3,
       "institutions_distinct_count": 5,
       "corresponding_author_ids": [
-        "https://openalex.org/A5025385863",
-        "https://openalex.org/A5070028419"
+        "https://openalex.org/A5070028419",
+        "https://openalex.org/A5025385863"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I100532134",
@@ -8895,7 +8912,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.8440526,
+        "value": 0.84415983,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9242,7 +9259,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320556"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Royal Society of Chemistry"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -9283,35 +9302,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:repository.kaust.edu.sa:10754/623257",
-          "is_oa": false,
-          "landing_page_url": "http://hdl.handle.net/10754/623257",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401596",
-            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I71920554",
-            "host_organization_name": "King Abdullah University of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I71920554"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "Article"
-        },
-        {
           "id": "pmh:oai:HAL:hal-01889554v1",
           "is_oa": false,
           "landing_page_url": "https://hal.science/hal-01889554",
@@ -9339,17 +9329,45 @@
           "is_published": false,
           "raw_source_name": "Physical Chemistry Chemical Physics, 2017, 19 (19), pp.12321 - 12330. &#x27E8;10.1039/c7cp01684k&#x27E9;",
           "raw_type": "Journal articles"
+        },
+        {
+          "id": "pmh:oai:repository.kaust.edu.sa:10754/623257",
+          "is_oa": false,
+          "landing_page_url": "http://hdl.handle.net/10754/623257",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401596",
+            "display_name": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I71920554",
+            "host_organization_name": "King Abdullah University of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I71920554"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Article"
         }
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.6600000262260437
+          "score": 0.6600000262260437,
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -9576,7 +9594,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -10191,7 +10211,7 @@
       "has_fulltext": true,
       "cited_by_count": 28,
       "citation_normalized_percentile": {
-        "value": 0.75153942,
+        "value": 0.75228949,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10439,7 +10459,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -10449,35 +10471,6 @@
           "is_published": true,
           "raw_source_name": "Solar RRL",
           "raw_type": "journal-article"
-        },
-        {
-          "id": "pmh:oai:scholarworks.unist.ac.kr:201301/31672",
-          "is_oa": false,
-          "landing_page_url": "https://scholarworks.unist.ac.kr/handle/201301/31672",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401118",
-            "display_name": "Scholarworks@UNIST (Ulsan National Institute of Science and Technology)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I48566637",
-            "host_organization_name": "Ulsan National Institute of Science and Technology",
-            "host_organization_lineage": [
-              "https://openalex.org/I48566637"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "",
-          "raw_type": "ARTICLE"
         },
         {
           "id": "pmh:oai:repository.kaust.edu.sa:10754/661434",
@@ -10507,6 +10500,35 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "Article"
+        },
+        {
+          "id": "pmh:oai:scholarworks.unist.ac.kr:201301/31672",
+          "is_oa": false,
+          "landing_page_url": "https://scholarworks.unist.ac.kr/handle/201301/31672",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401118",
+            "display_name": "Scholarworks@UNIST (Ulsan National Institute of Science and Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I48566637",
+            "host_organization_name": "Ulsan National Institute of Science and Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I48566637"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "ARTICLE"
         }
       ],
       "best_oa_location": {
@@ -10529,7 +10551,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -10543,11 +10567,10 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/7",
-          "display_name": "Affordable and clean energy",
-          "score": 0.8700000047683716
+          "score": 0.8700000047683716,
+          "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -11190,7 +11213,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -11584,7 +11609,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.77567355,
+        "value": 0.77444833,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11838,7 +11863,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11852,14 +11879,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322484",
-          "funder_display_name": "Princess Nourah Bint Abdulrahman University",
-          "award_id": "PNURSP2024R7"
+          "id": "https://openalex.org/G2787225260",
+          "display_name": null,
+          "funder_award_id": "PNURSP2024R7",
+          "funder_id": "https://openalex.org/F4320322484",
+          "funder_display_name": "Princess Nourah Bint Abdulrahman University"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322484",
@@ -11938,17 +11966,17 @@
         "https://openalex.org/W1927499036",
         "https://openalex.org/W3124164846",
         "https://openalex.org/W2943684313",
-        "https://openalex.org/W3037814420",
-        "https://openalex.org/W2912290661",
-        "https://openalex.org/W4200314696",
-        "https://openalex.org/W4224060365",
-        "https://openalex.org/W4386572289",
-        "https://openalex.org/W3195344957",
-        "https://openalex.org/W3016420224",
-        "https://openalex.org/W4224923060",
         "https://openalex.org/W2791826156",
-        "https://openalex.org/W4379141173",
-        "https://openalex.org/W3170841578"
+        "https://openalex.org/W4224060365",
+        "https://openalex.org/W4200314696",
+        "https://openalex.org/W3016420224",
+        "https://openalex.org/W2912290661",
+        "https://openalex.org/W3170841578",
+        "https://openalex.org/W4386572289",
+        "https://openalex.org/W3037814420",
+        "https://openalex.org/W4224923060",
+        "https://openalex.org/W3195344957",
+        "https://openalex.org/W4379141173"
       ],
       "related_works": [
         "https://openalex.org/W4255463199",
@@ -12010,7 +12038,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -12063,13 +12093,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, 31261 Dhahran, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, 31261 Dhahran, Saudi Arabia",
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -12178,7 +12208,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.86118299,
+        "value": 0.86247127,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -12432,7 +12462,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -12475,7 +12507,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -13032,7 +13063,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13547,7 +13580,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.8963295,
+        "value": 0.89636894,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13880,7 +13913,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -13913,7 +13948,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13927,11 +13964,10 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.6700000166893005
+          "score": 0.6700000166893005,
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14482,9 +14518,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -14529,11 +14563,10 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation",
-          "score": 0.7400000095367432
+          "score": 0.7400000095367432,
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14542,55 +14575,55 @@
       },
       "referenced_works_count": 49,
       "referenced_works": [
-        "https://openalex.org/W597110520",
-        "https://openalex.org/W1511418103",
-        "https://openalex.org/W2017535115",
-        "https://openalex.org/W2071200562",
-        "https://openalex.org/W1645422644",
-        "https://openalex.org/W2117894566",
-        "https://openalex.org/W2009867601",
-        "https://openalex.org/W1986982278",
-        "https://openalex.org/W1504277857",
-        "https://openalex.org/W2150981663",
-        "https://openalex.org/W2010655542",
-        "https://openalex.org/W1989842813",
-        "https://openalex.org/W1801529118",
-        "https://openalex.org/W2094279870",
-        "https://openalex.org/W1546195973",
-        "https://openalex.org/W2063392457",
-        "https://openalex.org/W2093021165",
-        "https://openalex.org/W2043858812",
-        "https://openalex.org/W1989984464",
-        "https://openalex.org/W2132629607",
-        "https://openalex.org/W2072782129",
-        "https://openalex.org/W1550061415",
-        "https://openalex.org/W2230728100",
-        "https://openalex.org/W2029667189",
-        "https://openalex.org/W2023271753",
-        "https://openalex.org/W1625931829",
-        "https://openalex.org/W2071936173",
-        "https://openalex.org/W2121192472",
-        "https://openalex.org/W2030976617",
-        "https://openalex.org/W1504770578",
-        "https://openalex.org/W3141554777",
         "https://openalex.org/W3037896947",
-        "https://openalex.org/W2049079467",
-        "https://openalex.org/W2111877311",
-        "https://openalex.org/W2089799306",
-        "https://openalex.org/W2004183267",
-        "https://openalex.org/W2030687437",
-        "https://openalex.org/W2318122588",
-        "https://openalex.org/W2082175923",
-        "https://openalex.org/W1983468193",
-        "https://openalex.org/W1484479398",
+        "https://openalex.org/W1546195973",
+        "https://openalex.org/W2117894566",
+        "https://openalex.org/W1645422644",
         "https://openalex.org/W1966078827",
+        "https://openalex.org/W2071200562",
+        "https://openalex.org/W2009867601",
         "https://openalex.org/W2014166972",
-        "https://openalex.org/W2116373706",
         "https://openalex.org/W1991074394",
-        "https://openalex.org/W2052637367",
+        "https://openalex.org/W1550061415",
+        "https://openalex.org/W2093021165",
+        "https://openalex.org/W2071936173",
+        "https://openalex.org/W1511418103",
+        "https://openalex.org/W1983468193",
+        "https://openalex.org/W2230728100",
+        "https://openalex.org/W2017535115",
+        "https://openalex.org/W1989842813",
+        "https://openalex.org/W2121192472",
         "https://openalex.org/W2274668686",
         "https://openalex.org/W1994007952",
-        "https://openalex.org/W1965838279"
+        "https://openalex.org/W2030976617",
+        "https://openalex.org/W1989984464",
+        "https://openalex.org/W1625931829",
+        "https://openalex.org/W2010655542",
+        "https://openalex.org/W1965838279",
+        "https://openalex.org/W1504277857",
+        "https://openalex.org/W2150981663",
+        "https://openalex.org/W2030687437",
+        "https://openalex.org/W1986982278",
+        "https://openalex.org/W2063392457",
+        "https://openalex.org/W2043858812",
+        "https://openalex.org/W2049079467",
+        "https://openalex.org/W2318122588",
+        "https://openalex.org/W3141554777",
+        "https://openalex.org/W2082175923",
+        "https://openalex.org/W2132629607",
+        "https://openalex.org/W2072782129",
+        "https://openalex.org/W2089799306",
+        "https://openalex.org/W2116373706",
+        "https://openalex.org/W1801529118",
+        "https://openalex.org/W1504770578",
+        "https://openalex.org/W2111877311",
+        "https://openalex.org/W2029667189",
+        "https://openalex.org/W2023271753",
+        "https://openalex.org/W2004183267",
+        "https://openalex.org/W1484479398",
+        "https://openalex.org/W2052637367",
+        "https://openalex.org/W2094279870",
+        "https://openalex.org/W597110520"
       ],
       "related_works": [
         "https://openalex.org/W2792731764",
@@ -15408,7 +15441,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.22869095,
+        "value": 0.22844228,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15506,7 +15539,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15652,7 +15684,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.40103228,
+        "value": 0.40071202,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15752,11 +15784,10 @@
       "sustainable_development_goals": [
         {
           "id": "https://metadata.un.org/sdg/2",
-          "display_name": "Zero hunger",
-          "score": 0.5799999833106995
+          "score": 0.5799999833106995,
+          "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -16135,9 +16166,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -16180,7 +16209,6 @@
         "raw_type": "Dissertation"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -17143,7 +17171,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.380506,
+        "value": 0.37194455,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17249,7 +17277,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -17705,7 +17732,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -17897,7 +17926,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.41161684,
+        "value": 0.40199986,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18134,7 +18163,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -18175,6 +18206,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:5cb0af6e73ff413e956e3df2c5bf962c",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/5cb0af6e73ff413e956e3df2c5bf962c",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Molecules, Vol 30, Iss 18, p 3712 (2025)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:europepmc.org:11280987",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12472223",
@@ -18202,35 +18260,6 @@
           "is_published": false,
           "raw_source_name": null,
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:5cb0af6e73ff413e956e3df2c5bf962c",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/5cb0af6e73ff413e956e3df2c5bf962c",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Molecules, Vol 30, Iss 18, p 3712 (2025)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -18254,7 +18283,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -18266,7 +18297,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -18445,9 +18475,9 @@
         "https://openalex.org/W3174039041",
         "https://openalex.org/W2943675828",
         "https://openalex.org/W3149871039",
+        "https://openalex.org/W3146152867",
         "https://openalex.org/W3037802142",
-        "https://openalex.org/W3158495239",
-        "https://openalex.org/W3146152867"
+        "https://openalex.org/W3158495239"
       ],
       "related_works": [],
       "abstract_inverted_index": {

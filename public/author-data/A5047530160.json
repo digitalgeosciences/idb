@@ -10,10 +10,10 @@
       "Radwan, Omar"
     ],
     "works_count": 20,
-    "cited_by_count": 83,
+    "cited_by_count": 87,
     "summary_stats": {
-      "2yr_mean_citedness": 5.333333333333333,
-      "h_index": 5,
+      "2yr_mean_citedness": 5.666666666666667,
+      "h_index": 6,
       "i10_index": 4
     },
     "ids": {
@@ -90,24 +90,6 @@
         }
       },
       {
-        "id": "https://openalex.org/T10716",
-        "display_name": "Soil and Unsaturated Flow",
-        "count": 4,
-        "score": 0.9976000189781189,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2205",
-          "display_name": "Civil and Structural Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T12613",
         "display_name": "X-ray Diffraction in Crystallography",
         "count": 4,
@@ -119,6 +101,24 @@
         "field": {
           "id": "https://openalex.org/fields/25",
           "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10716",
+        "display_name": "Soil and Unsaturated Flow",
+        "count": 4,
+        "score": 0.9976000189781189,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -148,7 +148,7 @@
       {
         "id": "https://openalex.org/T10938",
         "display_name": "Phase Change Materials Research",
-        "value": 0.0000348,
+        "value": 0.0000347,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -165,7 +165,7 @@
       {
         "id": "https://openalex.org/T13298",
         "display_name": "Solar Energy Systems and Technologies",
-        "value": 0.0000321,
+        "value": 0.000032,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -199,7 +199,7 @@
       {
         "id": "https://openalex.org/T11852",
         "display_name": "Clay minerals and soil interactions",
-        "value": 0.0000253,
+        "value": 0.0000252,
         "subfield": {
           "id": "https://openalex.org/subfields/2502",
           "display_name": "Biomaterials"
@@ -302,7 +302,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5047530160",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T06:51:31.235846",
     "created_date": "2025-10-10"
   },
   "works": [
@@ -339,7 +339,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -597,7 +599,7 @@
       "has_fulltext": false,
       "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.97579126,
+        "value": 0.97615364,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
@@ -872,7 +874,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -886,12 +890,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 82,
       "referenced_works": [
@@ -968,15 +971,15 @@
         "https://openalex.org/W3203303206",
         "https://openalex.org/W2784051271",
         "https://openalex.org/W2070871264",
-        "https://openalex.org/W2900479427",
+        "https://openalex.org/W4380762638",
         "https://openalex.org/W2901463992",
-        "https://openalex.org/W3173855053",
-        "https://openalex.org/W4391140252",
-        "https://openalex.org/W3211282255",
         "https://openalex.org/W4224243020",
-        "https://openalex.org/W1978551621",
+        "https://openalex.org/W2900479427",
         "https://openalex.org/W4225154543",
-        "https://openalex.org/W4380762638"
+        "https://openalex.org/W3211282255",
+        "https://openalex.org/W1978551621",
+        "https://openalex.org/W4391140252",
+        "https://openalex.org/W3173855053"
       ],
       "related_works": [
         "https://openalex.org/W2047245391",
@@ -1037,7 +1040,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1131,13 +1136,13 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.98889184,
+        "value": 0.98913215,
         "is_in_top_1_percent": true,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 99,
-        "max": 100
+        "min": 98,
+        "max": 99
       },
       "biblio": {
         "volume": "389",
@@ -1382,7 +1387,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1396,12 +1403,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 72,
       "referenced_works": [
@@ -1462,21 +1468,21 @@
         "https://openalex.org/W4386913250",
         "https://openalex.org/W4388033045",
         "https://openalex.org/W4385892163",
-        "https://openalex.org/W4320719921",
-        "https://openalex.org/W3201994217",
-        "https://openalex.org/W4402864230",
-        "https://openalex.org/W4291335310",
-        "https://openalex.org/W4225154543",
-        "https://openalex.org/W4365456076",
-        "https://openalex.org/W3213975010",
-        "https://openalex.org/W4403043860",
         "https://openalex.org/W4383340910",
-        "https://openalex.org/W4390242419",
-        "https://openalex.org/W4323637217",
+        "https://openalex.org/W4291335310",
+        "https://openalex.org/W4402864230",
+        "https://openalex.org/W4390242465",
+        "https://openalex.org/W4365456076",
+        "https://openalex.org/W3201994217",
+        "https://openalex.org/W4320719921",
         "https://openalex.org/W4398161917",
-        "https://openalex.org/W4380762638",
         "https://openalex.org/W3216100213",
-        "https://openalex.org/W4390242465"
+        "https://openalex.org/W4390242419",
+        "https://openalex.org/W4380762638",
+        "https://openalex.org/W4323637217",
+        "https://openalex.org/W4225154543",
+        "https://openalex.org/W3213975010",
+        "https://openalex.org/W4403043860"
       ],
       "related_works": [
         "https://openalex.org/W2489835961",
@@ -1533,7 +1539,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1647,7 +1655,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.67563984,
+        "value": 0.67555908,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1984,7 +1992,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1999,24 +2009,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7900000214576721,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.7900000214576721
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": "SF-19006"
+          "id": "https://openalex.org/G1617410373",
+          "display_name": null,
+          "funder_award_id": "SF-19006",
+          "funder_id": "https://openalex.org/F4320336956",
+          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -2030,8 +2036,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 199,
       "referenced_works": [
@@ -2205,35 +2211,35 @@
         "https://openalex.org/W2112264185",
         "https://openalex.org/W6794458309",
         "https://openalex.org/W2657676663",
+        "https://openalex.org/W4200019866",
+        "https://openalex.org/W2093888242",
         "https://openalex.org/W3099760083",
-        "https://openalex.org/W2558988907",
-        "https://openalex.org/W2990091272",
-        "https://openalex.org/W2783698554",
+        "https://openalex.org/W3210609185",
+        "https://openalex.org/W3157900880",
+        "https://openalex.org/W2040380713",
+        "https://openalex.org/W3160013701",
+        "https://openalex.org/W2339660337",
+        "https://openalex.org/W2610662409",
+        "https://openalex.org/W2043821633",
+        "https://openalex.org/W2324297111",
+        "https://openalex.org/W2236644456",
+        "https://openalex.org/W2183372832",
         "https://openalex.org/W2177870002",
+        "https://openalex.org/W3181016006",
+        "https://openalex.org/W2546626976",
+        "https://openalex.org/W4200613625",
+        "https://openalex.org/W3176859051",
+        "https://openalex.org/W1914783063",
+        "https://openalex.org/W2886096310",
+        "https://openalex.org/W2990091272",
         "https://openalex.org/W3034790871",
         "https://openalex.org/W2605469748",
-        "https://openalex.org/W2324297111",
-        "https://openalex.org/W1914783063",
+        "https://openalex.org/W2783698554",
         "https://openalex.org/W2439295900",
-        "https://openalex.org/W3176859051",
-        "https://openalex.org/W2236644456",
-        "https://openalex.org/W3157900880",
-        "https://openalex.org/W3181016006",
-        "https://openalex.org/W4200613625",
-        "https://openalex.org/W2093888242",
-        "https://openalex.org/W4200019866",
-        "https://openalex.org/W2546626976",
-        "https://openalex.org/W2040380713",
-        "https://openalex.org/W2043821633",
-        "https://openalex.org/W3160013701",
-        "https://openalex.org/W2183372832",
-        "https://openalex.org/W3210609185",
-        "https://openalex.org/W2886096310",
-        "https://openalex.org/W319873135",
-        "https://openalex.org/W2339660337",
         "https://openalex.org/W2093339533",
+        "https://openalex.org/W319873135",
         "https://openalex.org/W3094245480",
-        "https://openalex.org/W2610662409"
+        "https://openalex.org/W2558988907"
       ],
       "related_works": [
         "https://openalex.org/W2902122534",
@@ -2295,7 +2301,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2482,7 +2490,7 @@
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.62737554,
+        "value": 0.62810125,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2762,7 +2770,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -2777,24 +2787,20 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8899999856948853,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.8899999856948853
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320314423",
-          "funder_display_name": "American Association of Petroleum Geologists Foundation",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "SF-19006"
+          "id": "https://openalex.org/G3488163521",
+          "display_name": null,
+          "funder_award_id": "SF-19006",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320314423",
@@ -2808,8 +2814,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 54,
       "referenced_works": [
@@ -2852,21 +2858,21 @@
         "https://openalex.org/W3013182307",
         "https://openalex.org/W3088350509",
         "https://openalex.org/W2048817500",
-        "https://openalex.org/W959111736",
-        "https://openalex.org/W2899804604",
         "https://openalex.org/W1589757706",
         "https://openalex.org/W193055875",
-        "https://openalex.org/W4252237640",
-        "https://openalex.org/W3140493742",
-        "https://openalex.org/W626434885",
-        "https://openalex.org/W206520695",
-        "https://openalex.org/W574712229",
-        "https://openalex.org/W1640974333",
-        "https://openalex.org/W3217371956",
-        "https://openalex.org/W2889562228",
         "https://openalex.org/W2167701681",
+        "https://openalex.org/W4252237640",
+        "https://openalex.org/W2899804604",
+        "https://openalex.org/W206520695",
+        "https://openalex.org/W4393656866",
+        "https://openalex.org/W626434885",
+        "https://openalex.org/W959111736",
+        "https://openalex.org/W574712229",
         "https://openalex.org/W3082120955",
-        "https://openalex.org/W4393656866"
+        "https://openalex.org/W1640974333",
+        "https://openalex.org/W3140493742",
+        "https://openalex.org/W2889562228",
+        "https://openalex.org/W3217371956"
       ],
       "related_works": [
         "https://openalex.org/W2480351005",
@@ -2938,9 +2944,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3194,7 +3204,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.67012379,
+        "value": 0.67412387,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3565,9 +3575,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3582,17 +3596,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8700000047683716
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 21,
       "referenced_works": [
@@ -3613,10 +3626,10 @@
         "https://openalex.org/W2883563830",
         "https://openalex.org/W2333697182",
         "https://openalex.org/W2065403812",
-        "https://openalex.org/W4239198781",
+        "https://openalex.org/W1982339776",
         "https://openalex.org/W2140364622",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W1982339776"
+        "https://openalex.org/W4239198781",
+        "https://openalex.org/W4285719527"
       ],
       "related_works": [
         "https://openalex.org/W3136940746",
@@ -3685,7 +3698,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310315809"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -3821,8 +3836,8 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 3,
       "corresponding_author_ids": [
-        "https://openalex.org/A5082826691",
-        "https://openalex.org/A5047530160"
+        "https://openalex.org/A5047530160",
+        "https://openalex.org/A5082826691"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -3841,7 +3856,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.59472441,
+        "value": 0.59891218,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4118,7 +4133,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310315809"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Geophysical Union"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -4144,9 +4161,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -4179,7 +4194,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310315809"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -4191,14 +4208,15 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "SF‐19006"
+          "id": "https://openalex.org/G2255181423",
+          "display_name": null,
+          "funder_award_id": "SF‐19006",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -4207,8 +4225,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 33,
       "referenced_works": [
@@ -4846,7 +4864,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5074,7 +5094,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.94154206,
+        "value": 0.94261685,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -5303,7 +5323,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5344,6 +5366,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:5d9da98ad98049cabac627089924bf5c",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/5d9da98ad98049cabac627089924bf5c",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "ACS Omega, Vol 9, Iss 19, Pp 21580-21586 (2024)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:pubmedcentral.nih.gov:11097373",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11097373",
@@ -5371,35 +5420,6 @@
           "is_published": false,
           "raw_source_name": "ACS Omega",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:5d9da98ad98049cabac627089924bf5c",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/5d9da98ad98049cabac627089924bf5c",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "ACS Omega, Vol 9, Iss 19, Pp 21580-21586 (2024)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -5422,7 +5442,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5434,12 +5456,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 26,
       "referenced_works": [
@@ -6007,7 +6028,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6129,7 +6152,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.75679761,
+        "value": 0.75677353,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6378,7 +6401,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -6393,16 +6418,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.44999998807907104,
+          "id": "https://metadata.un.org/sdg/12",
           "display_name": "Responsible consumption and production",
-          "id": "https://metadata.un.org/sdg/12"
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
+          "score": 0.44999998807907104
         }
       ],
       "awards": [],
@@ -6414,8 +6432,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -6476,9 +6494,9 @@
         "https://openalex.org/W2792772266",
         "https://openalex.org/W3083656568",
         "https://openalex.org/W2075251495",
-        "https://openalex.org/W3149641801",
+        "https://openalex.org/W1531651084",
         "https://openalex.org/W1997639027",
-        "https://openalex.org/W1531651084"
+        "https://openalex.org/W3149641801"
       ],
       "related_works": [
         "https://openalex.org/W3006540667",
@@ -6536,7 +6554,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4320800773"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Polish Geological Institute"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6678,7 +6698,7 @@
       "has_fulltext": true,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.56431738,
+        "value": 0.56763092,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7035,7 +7055,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4320800773"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Polish Geological Institute"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -7068,7 +7090,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4320800773"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Polish Geological Institute"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -7081,17 +7105,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.4399999976158142,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.4399999976158142
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 72,
       "referenced_works": [
@@ -7131,42 +7154,42 @@
         "https://openalex.org/W6787352905",
         "https://openalex.org/W1996372223",
         "https://openalex.org/W1549612192",
-        "https://openalex.org/W2093685842",
-        "https://openalex.org/W1973227610",
-        "https://openalex.org/W2007182244",
-        "https://openalex.org/W2057827920",
+        "https://openalex.org/W2254348545",
         "https://openalex.org/W1949645224",
-        "https://openalex.org/W1534978302",
+        "https://openalex.org/W2272371986",
+        "https://openalex.org/W2094255421",
+        "https://openalex.org/W2246559164",
+        "https://openalex.org/W2064104965",
+        "https://openalex.org/W2005649253",
+        "https://openalex.org/W2033564142",
+        "https://openalex.org/W2066458246",
+        "https://openalex.org/W2108751654",
+        "https://openalex.org/W2209829396",
+        "https://openalex.org/W2027339831",
+        "https://openalex.org/W2025579489",
+        "https://openalex.org/W2043654386",
         "https://openalex.org/W2149972174",
         "https://openalex.org/W3109625297",
-        "https://openalex.org/W2066458246",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W2043654386",
-        "https://openalex.org/W2047124464",
-        "https://openalex.org/W4248209252",
-        "https://openalex.org/W2114014408",
-        "https://openalex.org/W2209829396",
-        "https://openalex.org/W2108751654",
-        "https://openalex.org/W1858247535",
-        "https://openalex.org/W2272371986",
+        "https://openalex.org/W2093685842",
+        "https://openalex.org/W2048833586",
+        "https://openalex.org/W2072262437",
         "https://openalex.org/W2036947692",
-        "https://openalex.org/W2064104965",
-        "https://openalex.org/W2027339831",
+        "https://openalex.org/W2047124464",
+        "https://openalex.org/W2114014408",
+        "https://openalex.org/W1973227610",
+        "https://openalex.org/W1534978302",
+        "https://openalex.org/W2119062511",
+        "https://openalex.org/W4248209252",
+        "https://openalex.org/W2057827920",
+        "https://openalex.org/W2007182244",
+        "https://openalex.org/W2077238121",
+        "https://openalex.org/W1858247535",
+        "https://openalex.org/W2084242975",
         "https://openalex.org/W1529493629",
         "https://openalex.org/W2071184501",
-        "https://openalex.org/W2246559164",
-        "https://openalex.org/W2005649253",
         "https://openalex.org/W2112368111",
-        "https://openalex.org/W2084242975",
-        "https://openalex.org/W2119062511",
-        "https://openalex.org/W2025579489",
-        "https://openalex.org/W2072262437",
-        "https://openalex.org/W2033564142",
-        "https://openalex.org/W2048833586",
-        "https://openalex.org/W2094255421",
-        "https://openalex.org/W2254348545",
-        "https://openalex.org/W2007236147",
-        "https://openalex.org/W2077238121"
+        "https://openalex.org/W4285719527",
+        "https://openalex.org/W2007236147"
       ],
       "related_works": [
         "https://openalex.org/W3009566342",
@@ -7949,11 +7972,12 @@
       "publication_year": 2021,
       "publication_date": "2021-06-02",
       "ids": {
-        "openalex": "https://openalex.org/W4393656866"
+        "openalex": "https://openalex.org/W4393656866",
+        "doi": "https://doi.org/10.5281/zenodo.4892151"
       },
       "language": "en",
       "primary_location": {
-        "id": "pmh:oai:zenodo.org:4892151",
+        "id": "doi:10.5281/zenodo.4892151",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5281/zenodo.4892151",
         "pdf_url": null,
@@ -7975,14 +7999,16 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
+        "version": null,
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_type": "dataset"
       },
       "type": "dataset",
-      "indexed_in": [],
+      "indexed_in": [
+        "datacite"
+      ],
       "open_access": {
         "is_oa": true,
         "oa_status": "green",
@@ -8258,7 +8284,7 @@
       "locations_count": 1,
       "locations": [
         {
-          "id": "pmh:oai:zenodo.org:4892151",
+          "id": "doi:10.5281/zenodo.4892151",
           "is_oa": true,
           "landing_page_url": "https://doi.org/10.5281/zenodo.4892151",
           "pdf_url": null,
@@ -8280,15 +8306,15 @@
           },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
+          "version": null,
           "is_accepted": false,
-          "is_published": false,
+          "is_published": null,
           "raw_source_name": null,
-          "raw_type": "info:eu-repo/semantics/other"
+          "raw_type": "dataset"
         }
       ],
       "best_oa_location": {
-        "id": "pmh:oai:zenodo.org:4892151",
+        "id": "doi:10.5281/zenodo.4892151",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5281/zenodo.4892151",
         "pdf_url": null,
@@ -8310,19 +8336,18 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
+        "version": null,
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_type": "dataset"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -8339,179 +8364,160 @@
         "https://openalex.org/W2029513011"
       ],
       "abstract_inverted_index": {
-        "&lt;p&gt;&lt;strong&gt;This": [
+        "<strong>This": [
           0
         ],
         "dataset": [
           1
         ],
-        "includes:&lt;/strong&gt;&lt;/p&gt;": [
+        "includes:</strong>": [
           2
         ],
-        "&lt;ul&gt;": [
+        "Sampling": [
           3
         ],
-        "&lt;li&gt;Sampling": [
+        "locations": [
           4
         ],
-        "locations": [
-          5
-        ],
         "of": [
-          6,
-          14,
-          52
-        ],
-        "Arabian": [
-          7
-        ],
-        "sands": [
-          8
-        ],
-        "(kmz": [
-          9
-        ],
-        "format)&lt;/li&gt;": [
-          10
-        ],
-        "&lt;li&gt;": [
-          11,
-          27,
-          40,
-          50,
-          61
-        ],
-        "&lt;p&gt;Quantitative": [
-          12
-        ],
-        "Evaluation": [
-          13
-        ],
-        "Materials": [
-          15
-        ],
-        "by": [
-          16
-        ],
-        "SCANning": [
-          17
-        ],
-        "electron": [
-          18
-        ],
-        "microscopy": [
-          19
-        ],
-        "(QEMSCAN)": [
-          20
-        ],
-        "data": [
-          21,
-          34,
-          46,
-          65
-        ],
-        "(figures": [
-          22,
-          35
-        ],
-        "and": [
-          23,
-          36
-        ],
-        "excel": [
-          24,
-          37
-        ],
-        "file)&lt;/p&gt;": [
-          25,
-          38,
-          48
-        ],
-        "&lt;/li&gt;": [
-          26,
-          39,
-          49,
-          60,
-          68
-        ],
-        "&lt;p&gt;Simultaneous": [
-          28
-        ],
-        "differential": [
-          29
-        ],
-        "scanning": [
-          30
-        ],
-        "calorimeter/thermogravimetric": [
-          31
-        ],
-        "analyzer": [
-          32
-        ],
-        "(DSC/TGA)": [
-          33
-        ],
-        "&lt;p&gt;Ultraviolet-visible": [
-          41
-        ],
-        "(UV-VIS)": [
-          42
-        ],
-        "diffuse": [
-          43
-        ],
-        "reflectance": [
+          5,
+          12,
           44
         ],
-        "spectrophotometer": [
-          45
+        "Arabian": [
+          6
         ],
-        "(excel": [
-          47
+        "sands": [
+          7
         ],
-        "&lt;p&gt;Photo": [
-          51
+        "(kmz": [
+          8
         ],
-        "some": [
-          53
-        ],
-        "samples": [
-          54
-        ],
-        "after&nbsp;coating": [
-          55
-        ],
-        "removal": [
-          56
-        ],
-        "or": [
-          57
-        ],
-        "heat": [
+        "format)": [
+          9,
           58
         ],
-        "treatment&lt;/p&gt;": [
-          59
+        "Quantitative": [
+          10
         ],
-        "&lt;p&gt;X-ray": [
-          62
+        "Evaluation": [
+          11
+        ],
+        "Materials": [
+          13
+        ],
+        "by": [
+          14
+        ],
+        "SCANning": [
+          15
+        ],
+        "electron": [
+          16
+        ],
+        "microscopy": [
+          17
+        ],
+        "(QEMSCAN)": [
+          18
+        ],
+        "data": [
+          19,
+          30,
+          40,
+          56
+        ],
+        "(figures": [
+          20,
+          31
+        ],
+        "and": [
+          21,
+          32
+        ],
+        "excel": [
+          22,
+          33
+        ],
+        "file)": [
+          23,
+          34,
+          42
+        ],
+        "Simultaneous": [
+          24
+        ],
+        "differential": [
+          25
+        ],
+        "scanning": [
+          26
+        ],
+        "calorimeter/thermogravimetric": [
+          27
+        ],
+        "analyzer": [
+          28
+        ],
+        "(DSC/TGA)": [
+          29
+        ],
+        "Ultraviolet-visible": [
+          35
+        ],
+        "(UV-VIS)": [
+          36
+        ],
+        "diffuse": [
+          37
+        ],
+        "reflectance": [
+          38
+        ],
+        "spectrophotometer": [
+          39
+        ],
+        "(excel": [
+          41
+        ],
+        "Photo": [
+          43
+        ],
+        "some": [
+          45
+        ],
+        "samples": [
+          46
+        ],
+        "after": [
+          47
+        ],
+        "coating": [
+          48
+        ],
+        "removal": [
+          49
+        ],
+        "or": [
+          50
+        ],
+        "heat": [
+          51
+        ],
+        "treatment": [
+          52
+        ],
+        "X-ray": [
+          53
         ],
         "diffraction": [
-          63
+          54
         ],
         "(XRD)": [
-          64
+          55
         ],
         "(xrdml": [
-          66
-        ],
-        "format)&lt;/p&gt;": [
-          67
-        ],
-        "&lt;/ul&gt;": [
-          69
+          57
         ]
       },
       "counts_by_year": [
@@ -8520,7 +8526,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2025-11-06T06:51:31.235846",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8971,12 +8977,11 @@
         "raw_type": "text"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -9321,11 +9326,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03763766,
+        "value": 0.03743108,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9574,17 +9579,16 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.800000011920929,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.800000011920929
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -10687,12 +10691,11 @@
         "raw_type": "dataset"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -10880,11 +10883,12 @@
       "publication_year": 2021,
       "publication_date": "2021-06-02",
       "ids": {
-        "openalex": "https://openalex.org/W4393605132"
+        "openalex": "https://openalex.org/W4393605132",
+        "doi": "https://doi.org/10.5281/zenodo.4892237"
       },
       "language": "en",
       "primary_location": {
-        "id": "pmh:oai:zenodo.org:4892237",
+        "id": "doi:10.5281/zenodo.4892237",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5281/zenodo.4892237",
         "pdf_url": null,
@@ -10906,14 +10910,16 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
+        "version": null,
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_type": "dataset"
       },
       "type": "dataset",
-      "indexed_in": [],
+      "indexed_in": [
+        "datacite"
+      ],
       "open_access": {
         "is_oa": true,
         "oa_status": "green",
@@ -11201,7 +11207,7 @@
       "locations_count": 1,
       "locations": [
         {
-          "id": "pmh:oai:zenodo.org:4892237",
+          "id": "doi:10.5281/zenodo.4892237",
           "is_oa": true,
           "landing_page_url": "https://doi.org/10.5281/zenodo.4892237",
           "pdf_url": null,
@@ -11223,15 +11229,15 @@
           },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
+          "version": null,
           "is_accepted": false,
-          "is_published": false,
+          "is_published": null,
           "raw_source_name": null,
-          "raw_type": "info:eu-repo/semantics/other"
+          "raw_type": "dataset"
         }
       ],
       "best_oa_location": {
-        "id": "pmh:oai:zenodo.org:4892237",
+        "id": "doi:10.5281/zenodo.4892237",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5281/zenodo.4892237",
         "pdf_url": null,
@@ -11253,19 +11259,18 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
+        "version": null,
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_type": "dataset"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -11282,186 +11287,167 @@
         "https://openalex.org/W1999891779"
       ],
       "abstract_inverted_index": {
-        "&lt;p&gt;&lt;strong&gt;This": [
+        "<strong>This": [
           0
         ],
         "dataset": [
           1
         ],
-        "includes:&lt;/strong&gt;&lt;/p&gt;": [
+        "includes:</strong>": [
           2
         ],
-        "&lt;ul&gt;": [
+        "Sampling": [
           3
         ],
-        "&lt;li&gt;Sampling": [
+        "locations": [
           4
         ],
-        "locations": [
-          5
-        ],
         "of": [
-          6,
-          14,
-          52
-        ],
-        "Arabian": [
-          7
-        ],
-        "sands": [
-          8
-        ],
-        "(kmz": [
-          9
-        ],
-        "format),&lt;/li&gt;": [
-          10
-        ],
-        "&lt;li&gt;": [
-          11,
-          27,
-          40,
-          50,
-          62
-        ],
-        "&lt;p&gt;Quantitative": [
-          12
-        ],
-        "Evaluation": [
-          13
-        ],
-        "Materials": [
-          15
-        ],
-        "by": [
-          16
-        ],
-        "SCANning": [
-          17
-        ],
-        "electron": [
-          18
-        ],
-        "microscopy": [
-          19
-        ],
-        "(QEMSCAN)": [
-          20
-        ],
-        "data": [
-          21,
-          34,
-          46,
-          66
-        ],
-        "(figures": [
-          22,
-          35
-        ],
-        "and": [
-          23,
-          36
-        ],
-        "excel": [
-          24,
-          37
-        ],
-        "file),&lt;/p&gt;": [
-          25,
-          38,
-          48
-        ],
-        "&lt;/li&gt;": [
-          26,
-          39,
-          49,
-          61,
-          69
-        ],
-        "&lt;p&gt;Simultaneous": [
-          28
-        ],
-        "differential": [
-          29
-        ],
-        "scanning": [
-          30
-        ],
-        "calorimeter/thermogravimetric": [
-          31
-        ],
-        "analyzer": [
-          32
-        ],
-        "(DSC/TGA)": [
-          33
-        ],
-        "&lt;p&gt;Ultraviolet-visible": [
-          41
-        ],
-        "(UV-VIS)": [
-          42
-        ],
-        "diffuse": [
-          43
-        ],
-        "reflectance": [
+          5,
+          12,
           44
         ],
-        "spectrophotometer": [
-          45
+        "Arabian": [
+          6
         ],
-        "(excel": [
-          47
+        "sands": [
+          7
         ],
-        "&lt;p&gt;Photo": [
-          51
+        "(kmz": [
+          8
         ],
-        "some": [
-          53
+        "format),": [
+          9
         ],
-        "samples": [
-          54
+        "Quantitative": [
+          10
         ],
-        "after&nbsp;coating": [
-          55
+        "Evaluation": [
+          11
         ],
-        "removal": [
-          56
+        "Materials": [
+          13
         ],
-        "or": [
+        "by": [
+          14
+        ],
+        "SCANning": [
+          15
+        ],
+        "electron": [
+          16
+        ],
+        "microscopy": [
+          17
+        ],
+        "(QEMSCAN)": [
+          18
+        ],
+        "data": [
+          19,
+          30,
+          40,
           57
         ],
+        "(figures": [
+          20,
+          31
+        ],
+        "and": [
+          21,
+          32,
+          53
+        ],
+        "excel": [
+          22,
+          33
+        ],
+        "file),": [
+          23,
+          34,
+          42
+        ],
+        "Simultaneous": [
+          24
+        ],
+        "differential": [
+          25
+        ],
+        "scanning": [
+          26
+        ],
+        "calorimeter/thermogravimetric": [
+          27
+        ],
+        "analyzer": [
+          28
+        ],
+        "(DSC/TGA)": [
+          29
+        ],
+        "Ultraviolet-visible": [
+          35
+        ],
+        "(UV-VIS)": [
+          36
+        ],
+        "diffuse": [
+          37
+        ],
+        "reflectance": [
+          38
+        ],
+        "spectrophotometer": [
+          39
+        ],
+        "(excel": [
+          41
+        ],
+        "Photo": [
+          43
+        ],
+        "some": [
+          45
+        ],
+        "samples": [
+          46
+        ],
+        "after": [
+          47
+        ],
+        "coating": [
+          48
+        ],
+        "removal": [
+          49
+        ],
+        "or": [
+          50
+        ],
         "heat": [
-          58
+          51
         ],
         "treatment,": [
-          59
+          52
         ],
-        "and&lt;/p&gt;": [
-          60
-        ],
-        "&lt;p&gt;X-ray": [
-          63
+        "X-ray": [
+          54
         ],
         "diffraction": [
-          64
+          55
         ],
         "(XRD)": [
-          65
+          56
         ],
         "(xrdml": [
-          67
+          58
         ],
-        "format).&lt;/p&gt;": [
-          68
-        ],
-        "&lt;/ul&gt;": [
-          70
+        "format).": [
+          59
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2025-11-06T06:51:31.235846",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -11884,12 +11870,11 @@
         "raw_type": "info:eu-repo/semantics/other"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -12840,12 +12825,11 @@
         "raw_type": "info:eu-repo/semantics/other"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -13772,12 +13756,11 @@
         "raw_type": "dataset"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -14273,26 +14256,27 @@
       "publication_year": 2020,
       "publication_date": "2020-11-29",
       "ids": {
-        "openalex": "https://openalex.org/W4394030403"
+        "openalex": "https://openalex.org/W4394030403",
+        "doi": "https://doi.org/10.5281/zenodo.4635553"
       },
       "language": "en",
       "primary_location": {
-        "id": "pmh:oai:zenodo.org:4635553",
+        "id": "pmh:oai:figshare.com:article/14316072",
         "is_oa": true,
-        "landing_page_url": "https://doi.org/10.5281/zenodo.4635553",
+        "landing_page_url": null,
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306400562",
-          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "id": "https://openalex.org/S4306400572",
+          "display_name": "OPAL (Open@LaTrobe) (La Trobe University)",
           "issn_l": null,
           "issn": null,
-          "is_oa": true,
+          "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I67311998",
-          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization": "https://openalex.org/I196829312",
+          "host_organization_name": "La Trobe University",
           "host_organization_lineage": [
-            "https://openalex.org/I67311998"
+            "https://openalex.org/I196829312"
           ],
           "host_organization_lineage_names": [],
           "type": "repository"
@@ -14302,15 +14286,17 @@
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_source_name": "",
+        "raw_type": "Dataset"
       },
       "type": "dataset",
-      "indexed_in": [],
+      "indexed_in": [
+        "datacite"
+      ],
       "open_access": {
         "is_oa": true,
         "oa_status": "green",
-        "oa_url": "https://doi.org/10.5281/zenodo.4635553",
+        "oa_url": null,
         "any_repository_has_fulltext": false
       },
       "authorships": [
@@ -14594,35 +14580,6 @@
       "locations_count": 2,
       "locations": [
         {
-          "id": "pmh:oai:zenodo.org:4635553",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.5281/zenodo.4635553",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306400562",
-            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I67311998",
-            "host_organization_name": "European Organization for Nuclear Research",
-            "host_organization_lineage": [
-              "https://openalex.org/I67311998"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "info:eu-repo/semantics/other"
-        },
-        {
           "id": "pmh:oai:figshare.com:article/14316072",
           "is_oa": true,
           "landing_page_url": null,
@@ -14650,25 +14607,54 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "Dataset"
+        },
+        {
+          "id": "doi:10.5281/zenodo.4635553",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.5281/zenodo.4635553",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400562",
+            "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I67311998",
+            "host_organization_name": "European Organization for Nuclear Research",
+            "host_organization_lineage": [
+              "https://openalex.org/I67311998"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": "dataset"
         }
       ],
       "best_oa_location": {
-        "id": "pmh:oai:zenodo.org:4635553",
+        "id": "pmh:oai:figshare.com:article/14316072",
         "is_oa": true,
-        "landing_page_url": "https://doi.org/10.5281/zenodo.4635553",
+        "landing_page_url": null,
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306400562",
-          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "id": "https://openalex.org/S4306400572",
+          "display_name": "OPAL (Open@LaTrobe) (La Trobe University)",
           "issn_l": null,
           "issn": null,
-          "is_oa": true,
+          "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I67311998",
-          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization": "https://openalex.org/I196829312",
+          "host_organization_name": "La Trobe University",
           "host_organization_lineage": [
-            "https://openalex.org/I67311998"
+            "https://openalex.org/I196829312"
           ],
           "host_organization_lineage_names": [],
           "type": "repository"
@@ -14678,16 +14664,15 @@
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "info:eu-repo/semantics/other"
+        "raw_source_name": "",
+        "raw_type": "Dataset"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -14705,22 +14690,22 @@
       ],
       "abstract_inverted_index": {
         "3": [
-          108
+          112
         ],
         "10": [
-          150
+          156
         ],
         "15": [
-          62
+          64
         ],
         "40": [
-          141,
-          159
+          147,
+          165
         ],
         "45": [
-          138
+          144
         ],
-        "&lt;p&gt;This": [
+        "This": [
           0
         ],
         "data": [
@@ -14735,22 +14720,22 @@
         ],
         "powder": [
           4,
-          54,
-          112
+          56,
+          116
         ],
         "diffraction": [
           5,
-          176
+          182
         ],
         "for": [
           7,
-          61,
-          107
+          63,
+          111
         ],
         "Arabian": [
           8,
           25,
-          42
+          44
         ],
         "sands": [
           9,
@@ -14761,65 +14746,65 @@
         ],
         "Quaternary": [
           11,
-          82
+          86
         ],
         "from": [
           13,
           32,
-          41,
-          68,
-          79,
-          87,
-          149
+          43,
+          70,
+          81,
+          91,
+          155
         ],
         "Nafud,": [
           14,
-          88
+          92
         ],
         "Dahna": [
           15,
-          89
+          93
         ],
         "corridor,": [
           16,
-          90
+          94
         ],
         "and": [
           17,
           24,
           29,
           34,
-          45,
-          71,
-          74,
-          91,
-          98,
-          119,
-          140,
-          191
+          47,
+          73,
+          76,
+          95,
+          102,
+          123,
+          146,
+          199
         ],
         "the": [
           18,
-          92,
-          125,
-          195
+          96,
+          129,
+          203
         ],
         "western": [
           19,
-          93
+          97
         ],
         "part": [
           20,
-          94
+          98
         ],
         "of": [
           21,
-          95,
-          194
+          99,
+          202
         ],
         "AlRub'AlKhali": [
           22,
-          96
+          100
         ],
         "deserts),": [
           23
@@ -14833,13 +14818,13 @@
         ],
         "Paleozoic": [
           28,
-          44,
-          64
+          46,
+          66
         ],
         "Mesozoic": [
           30,
-          46,
-          75
+          48,
+          77
         ],
         "northern": [
           33
@@ -14847,314 +14832,332 @@
         "central": [
           35
         ],
-        "Arabia).&lt;/p&gt;\\n\\n&lt;p&gt;&lt;br&gt;\\nForty": [
+        "Arabia).": [
           36
         ],
+        "<br>": [
+          37,
+          84,
+          132
+        ],
+        "Forty": [
+          38
+        ],
         "sandstone": [
-          37
+          39
         ],
         "samples": [
-          38,
-          65,
-          76,
-          84,
-          196
-        ],
-        "were": [
-          39,
-          50,
-          66,
-          77,
-          85,
-          129,
-          147
-        ],
-        "collected": [
           40,
           67,
           78,
-          86
+          88,
+          204
+        ],
+        "were": [
+          41,
+          52,
+          68,
+          79,
+          89,
+          135,
+          153
+        ],
+        "collected": [
+          42,
+          69,
+          80,
+          90
         ],
         "platform": [
-          43
+          45
         ],
         "outcrop": [
-          47
-        ],
-        "successions.": [
-          48
-        ],
-        "These": [
           49
         ],
+        "successions.": [
+          50
+        ],
+        "These": [
+          51
+        ],
         "ground": [
-          51,
-          99
+          53,
+          103
         ],
         "to": [
-          52,
-          151
-        ],
-        "a": [
-          53,
-          56,
-          103,
-          116,
-          132,
-          173
-        ],
-        "using": [
-          55,
-          115,
-          143
-        ],
-        "steel": [
-          57
-        ],
-        "vibratory": [
-          58
-        ],
-        "disc": [
-          59
-        ],
-        "mill": [
-          60,
-          106
-        ],
-        "seconds.": [
-          63
-        ],
-        "Madinah,": [
-          69
-        ],
-        "AlJawf,": [
-          70
-        ],
-        "Qasim": [
-          72
-        ],
-        "Provinces,": [
-          73
-        ],
-        "Riyadh": [
-          80
-        ],
-        "Province.&lt;/p&gt;\\n\\n&lt;p&gt;&lt;br&gt;\\nThirty-two": [
-          81
-        ],
-        "sand": [
-          83
-        ],
-        "deserts": [
-          97
-        ],
-        "with": [
-          100,
-          158
-        ],
-        "corundum": [
-          101
-        ],
-        "in": [
-          102,
-          131,
-          180,
-          186,
-          199
-        ],
-        "McCrone": [
-          104
-        ],
-        "micronizing": [
-          105
-        ],
-        "minutes.": [
-          109
-        ],
-        "The": [
-          110
-        ],
-        "resulting": [
-          111
-        ],
-        "was": [
-          113,
-          170
-        ],
-        "screened": [
-          114
-        ],
-        "75-μm": [
-          117
-        ],
-        "sieve,": [
-          118
-        ],
-        "then": [
-          120
-        ],
-        "packed": [
-          121
-        ],
-        "through": [
-          122
-        ],
-        "back": [
-          123
-        ],
-        "loading": [
-          124
-        ],
-        "specimen": [
-          126
-        ],
-        "holder.&lt;/p&gt;\\n\\n&lt;p&gt;&lt;br&gt;\\nX-ray": [
-          127
-        ],
-        "diffractograms": [
-          128
-        ],
-        "recorded": [
-          130
-        ],
-        "PANalytical": [
-          133
-        ],
-        "Empyrean": [
-          134
-        ],
-        "diffractometer": [
-          135
-        ],
-        "operated": [
-          136
-        ],
-        "at": [
-          137,
-          154
-        ],
-        "kV": [
-          139
-        ],
-        "mA": [
-          142
-        ],
-        "CuKα": [
-          144
-        ],
-        "radiation.": [
-          145
-        ],
-        "Samples": [
-          146
-        ],
-        "scanned": [
-          148
-        ],
-        "110°": [
-          152
-        ],
-        "2θ": [
-          153,
-          156
-        ],
-        "0.005°": [
-          155
-        ],
-        "increments,": [
+          54,
           157
         ],
-        "s": [
-          160
+        "a": [
+          55,
+          58,
+          107,
+          120,
+          138,
+          179
         ],
-        "counting": [
-          161
+        "using": [
+          57,
+          119,
+          149
         ],
-        "time": [
-          162
+        "steel": [
+          59
         ],
-        "per": [
-          163
+        "vibratory": [
+          60
         ],
-        "increment.": [
+        "disc": [
+          61
+        ],
+        "mill": [
+          62,
+          110
+        ],
+        "seconds.": [
+          65
+        ],
+        "Madinah,": [
+          71
+        ],
+        "AlJawf,": [
+          72
+        ],
+        "Qasim": [
+          74
+        ],
+        "Provinces,": [
+          75
+        ],
+        "Riyadh": [
+          82
+        ],
+        "Province.": [
+          83
+        ],
+        "Thirty-two": [
+          85
+        ],
+        "sand": [
+          87
+        ],
+        "deserts": [
+          101
+        ],
+        "with": [
+          104,
           164
         ],
-        "Clear": [
-          165
+        "corundum": [
+          105
         ],
-        "euhedral": [
+        "in": [
+          106,
+          137,
+          186,
+          193,
+          207
+        ],
+        "McCrone": [
+          108
+        ],
+        "micronizing": [
+          109
+        ],
+        "minutes.": [
+          113
+        ],
+        "The": [
+          114
+        ],
+        "resulting": [
+          115
+        ],
+        "was": [
+          117,
+          176
+        ],
+        "screened": [
+          118
+        ],
+        "75-μm": [
+          121
+        ],
+        "sieve,": [
+          122
+        ],
+        "then": [
+          124
+        ],
+        "packed": [
+          125
+        ],
+        "through": [
+          126
+        ],
+        "back": [
+          127
+        ],
+        "loading": [
+          128
+        ],
+        "specimen": [
+          130
+        ],
+        "holder.": [
+          131
+        ],
+        "X-ray": [
+          133
+        ],
+        "diffractograms": [
+          134
+        ],
+        "recorded": [
+          136
+        ],
+        "PANalytical": [
+          139
+        ],
+        "Empyrean": [
+          140
+        ],
+        "diffractometer": [
+          141
+        ],
+        "operated": [
+          142
+        ],
+        "at": [
+          143,
+          160
+        ],
+        "kV": [
+          145
+        ],
+        "mA": [
+          148
+        ],
+        "CuKα": [
+          150
+        ],
+        "radiation.": [
+          151
+        ],
+        "Samples": [
+          152
+        ],
+        "scanned": [
+          154
+        ],
+        "110°": [
+          158
+        ],
+        "2θ": [
+          159,
+          162
+        ],
+        "0.005°": [
+          161
+        ],
+        "increments,": [
+          163
+        ],
+        "s": [
           166
         ],
-        "quartz": [
+        "counting": [
           167
         ],
-        "(FossilEra": [
+        "time": [
           168
         ],
-        "Co.)": [
+        "per": [
           169
         ],
-        "used": [
+        "increment.": [
+          170
+        ],
+        "Clear": [
           171
         ],
-        "as": [
+        "euhedral": [
           172
         ],
-        "reference.&lt;/p&gt;\\n\\n&lt;p&gt;": [
+        "quartz": [
+          173
+        ],
+        "(FossilEra": [
           174
         ],
-        "&lt;/p&gt;\\n\\n&lt;p&gt;Powder": [
+        "Co.)": [
           175
         ],
-        "files": [
+        "used": [
           177
         ],
-        "are": [
-          178,
-          184,
-          197
+        "as": [
+          178
         ],
-        "given": [
-          179,
-          185,
-          198
+        "reference.": [
+          180
         ],
-        "XRDML": [
+        "Powder": [
           181
         ],
-        "format.&lt;br&gt;\\nSampling": [
-          182
-        ],
-        "Locations": [
+        "files": [
           183
         ],
-        "KML": [
+        "are": [
+          184,
+          191,
+          205
+        ],
+        "given": [
+          185,
+          192,
+          206
+        ],
+        "XRDML": [
           187
         ],
-        "format.&lt;br&gt;\\nIDs,": [
-          188
+        "format.<br>": [
+          188,
+          195
         ],
-        "locations,": [
+        "Sampling": [
           189
         ],
-        "coordinates,": [
+        "Locations": [
           190
         ],
+        "KML": [
+          194
+        ],
+        "IDs,": [
+          196
+        ],
+        "locations,": [
+          197
+        ],
+        "coordinates,": [
+          198
+        ],
         "lithostratigraphic": [
-          192
-        ],
-        "units": [
-          193
-        ],
-        "Table": [
           200
         ],
-        "1.&lt;/p&gt;": [
+        "units": [
           201
+        ],
+        "Table": [
+          208
+        ],
+        "1.": [
+          209
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2025-11-06T06:51:31.235846",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -15190,7 +15193,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310311650"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of London"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15242,14 +15247,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Department of Geosciences",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
-            },
-            {
-              "raw_affiliation_string": "Department of Geosciences",
-              "institution_ids": []
             }
           ]
         },
@@ -15356,14 +15361,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Department of Geosciences",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "King Fahd University of Petroleum and Minerals",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
-            },
-            {
-              "raw_affiliation_string": "Department of Geosciences",
-              "institution_ids": []
             }
           ]
         },
@@ -15408,9 +15413,10 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Queen's University",
+              "raw_affiliation_string": "Arthur B. McDonald Canadian Astroparticle Physics Research Institute, Department of Physics, Engineering Physics & Astronomy, Queen's University",
               "institution_ids": [
-                "https://openalex.org/I204722609"
+                "https://openalex.org/I204722609",
+                "https://openalex.org/I4210100002"
               ]
             },
             {
@@ -15418,10 +15424,9 @@
               "institution_ids": []
             },
             {
-              "raw_affiliation_string": "Arthur B. McDonald Canadian Astroparticle Physics Research Institute, Department of Physics, Engineering Physics & Astronomy, Queen's University",
+              "raw_affiliation_string": "Queen's University",
               "institution_ids": [
-                "https://openalex.org/I204722609",
-                "https://openalex.org/I4210100002"
+                "https://openalex.org/I204722609"
               ]
             }
           ]
@@ -15438,7 +15443,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.28130109,
+        "value": 0.27252139,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15682,7 +15687,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310311650"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of London"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -15696,14 +15703,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "CPG21107"
+          "id": "https://openalex.org/G4542511778",
+          "display_name": null,
+          "funder_award_id": "CPG21107",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -15712,8 +15720,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 85,
       "referenced_works": [
@@ -16322,7 +16330,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -16430,7 +16440,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.38651436,
+        "value": 0.37907162,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16693,7 +16703,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -16707,18 +16719,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -16733,8 +16733,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 52,
       "referenced_works": [
@@ -16787,9 +16787,9 @@
         "https://openalex.org/W3155996521",
         "https://openalex.org/W2107645944",
         "https://openalex.org/W3164912917",
-        "https://openalex.org/W4410088921",
+        "https://openalex.org/W4407009293",
         "https://openalex.org/W3195631572",
-        "https://openalex.org/W4407009293"
+        "https://openalex.org/W4410088921"
       ],
       "related_works": [
         "https://openalex.org/W2099125473",

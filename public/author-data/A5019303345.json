@@ -415,7 +415,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -824,7 +826,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.90851269,
+        "value": 0.90870386,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1101,7 +1103,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -1127,9 +1131,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -1191,7 +1193,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -1209,12 +1213,11 @@
           "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 202,
       "referenced_works": [
@@ -1412,14 +1415,14 @@
         "https://openalex.org/W2994577932",
         "https://openalex.org/W2601674375",
         "https://openalex.org/W2905475537",
+        "https://openalex.org/W4246026596",
+        "https://openalex.org/W2308557003",
         "https://openalex.org/W2365891644",
         "https://openalex.org/W2914353648",
         "https://openalex.org/W2938007955",
-        "https://openalex.org/W4246026596",
-        "https://openalex.org/W2185905748",
-        "https://openalex.org/W2308557003",
         "https://openalex.org/W2060794423",
-        "https://openalex.org/W2615209976"
+        "https://openalex.org/W2615209976",
+        "https://openalex.org/W2185905748"
       ],
       "related_works": [
         "https://openalex.org/W2382920002",
@@ -1947,7 +1950,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2115,7 +2120,7 @@
       "has_fulltext": false,
       "cited_by_count": 69,
       "citation_normalized_percentile": {
-        "value": 0.95414332,
+        "value": 0.95422806,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2537,7 +2542,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -2580,12 +2587,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 47,
       "referenced_works": [
@@ -2629,13 +2635,13 @@
         "https://openalex.org/W2041346182",
         "https://openalex.org/W2092066814",
         "https://openalex.org/W6654459342",
-        "https://openalex.org/W1992627106",
+        "https://openalex.org/W2015941369",
+        "https://openalex.org/W4251692722",
         "https://openalex.org/W2100823976",
         "https://openalex.org/W2139329985",
         "https://openalex.org/W3151728843",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2015941369",
-        "https://openalex.org/W4251692722"
+        "https://openalex.org/W1992627106"
       ],
       "related_works": [
         "https://openalex.org/W2361506154",
@@ -2738,7 +2744,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2801,15 +2809,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Mechanics, Structural Analysis and Dynamics, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Stuttgart 70569, Germany",
-              "institution_ids": [
-                "https://openalex.org/I100066346"
-              ]
-            },
-            {
               "raw_affiliation_string": "Institute of Mechanics, Structural Analysis, and Dynamics, TU Dortmund University, Dortmund 44227, Germany",
               "institution_ids": [
                 "https://openalex.org/I200332995"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Institute of Mechanics, Structural Analysis and Dynamics, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Stuttgart 70569, Germany",
+              "institution_ids": [
+                "https://openalex.org/I100066346"
               ]
             }
           ]
@@ -2978,7 +2986,7 @@
       "has_fulltext": false,
       "cited_by_count": 48,
       "citation_normalized_percentile": {
-        "value": 0.96923297,
+        "value": 0.96928453,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3392,7 +3400,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3441,12 +3451,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 52,
       "referenced_works": [
@@ -3489,19 +3498,19 @@
         "https://openalex.org/W2507906162",
         "https://openalex.org/W2273689028",
         "https://openalex.org/W2571641145",
-        "https://openalex.org/W1501400980",
-        "https://openalex.org/W1492403865",
         "https://openalex.org/W1607319668",
-        "https://openalex.org/W2313768288",
-        "https://openalex.org/W2242795086",
-        "https://openalex.org/W2474867663",
-        "https://openalex.org/W1964519141",
-        "https://openalex.org/W560632477",
-        "https://openalex.org/W1499976760",
-        "https://openalex.org/W167680297",
         "https://openalex.org/W1659842140",
         "https://openalex.org/W1518160170",
-        "https://openalex.org/W1515480945"
+        "https://openalex.org/W2474867663",
+        "https://openalex.org/W560632477",
+        "https://openalex.org/W1501400980",
+        "https://openalex.org/W1492403865",
+        "https://openalex.org/W167680297",
+        "https://openalex.org/W1515480945",
+        "https://openalex.org/W1964519141",
+        "https://openalex.org/W2313768288",
+        "https://openalex.org/W2242795086",
+        "https://openalex.org/W1499976760"
       ],
       "related_works": [
         "https://openalex.org/W2326350333",
@@ -3583,7 +3592,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3769,7 +3780,7 @@
       "has_fulltext": false,
       "cited_by_count": 26,
       "citation_normalized_percentile": {
-        "value": 0.85787502,
+        "value": 0.85861549,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4111,7 +4122,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4131,12 +4144,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 69,
       "referenced_works": [
@@ -4207,8 +4219,8 @@
         "https://openalex.org/W2129711897",
         "https://openalex.org/W2045327140",
         "https://openalex.org/W1976014451",
-        "https://openalex.org/W2106897393",
-        "https://openalex.org/W1993966163"
+        "https://openalex.org/W1993966163",
+        "https://openalex.org/W2106897393"
       ],
       "related_works": [
         "https://openalex.org/W2253284738",
@@ -4569,7 +4581,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -4978,7 +4992,7 @@
       "has_fulltext": true,
       "cited_by_count": 24,
       "citation_normalized_percentile": {
-        "value": 0.86353771,
+        "value": 0.8637304,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5348,7 +5362,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -5374,9 +5390,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -5438,7 +5452,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -5456,12 +5472,11 @@
           "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 254,
       "referenced_works": [
@@ -5711,14 +5726,14 @@
         "https://openalex.org/W2903573746",
         "https://openalex.org/W3036855490",
         "https://openalex.org/W1983348759",
-        "https://openalex.org/W2770928509",
-        "https://openalex.org/W1641218989",
+        "https://openalex.org/W2890649118",
         "https://openalex.org/W3183038704",
         "https://openalex.org/W2365891644",
-        "https://openalex.org/W1972226951",
         "https://openalex.org/W2086843634",
         "https://openalex.org/W2003410892",
-        "https://openalex.org/W2890649118"
+        "https://openalex.org/W1641218989",
+        "https://openalex.org/W2770928509",
+        "https://openalex.org/W1972226951"
       ],
       "related_works": [
         "https://openalex.org/W3015898143",
@@ -6287,7 +6302,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -6341,13 +6358,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Mechanics, Structural Analysis and Dynamics, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Porous Media Laboratory, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
             },
             {
-              "raw_affiliation_string": "Porous Media Laboratory, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Institute of Mechanics, Structural Analysis and Dynamics, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
@@ -6529,7 +6546,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.76170371,
+        "value": 0.76280665,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6937,7 +6954,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -6976,6 +6995,62 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "Article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:eae3605af3544146a51dcfa9cbed78b0",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/eae3605af3544146a51dcfa9cbed78b0",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Water, Vol 13, Iss 3, p 383 (2021)",
+          "raw_type": "article"
+        },
+        {
+          "id": "pmh:oai:elib.uni-stuttgart.de:11682/12674",
+          "is_oa": true,
+          "landing_page_url": "http://nbn-resolving.de/urn:nbn:de:bsz:93-opus-ds-126742",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401556",
+            "display_name": "OPUS Publication Server of the University of Stuttgart (University of Stuttgart)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I100066346",
+            "host_organization_name": "University of Stuttgart",
+            "host_organization_lineage": [
+              "https://openalex.org/I100066346"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2073-4441/13/3/383/",
@@ -7065,60 +7140,29 @@
           "raw_type": "Artikel"
         },
         {
-          "id": "pmh:oai:doaj.org/article:eae3605af3544146a51dcfa9cbed78b0",
+          "id": "doi:10.18419/opus-12655",
           "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/eae3605af3544146a51dcfa9cbed78b0",
+          "landing_page_url": "https://doi.org/10.18419/opus-12655",
           "pdf_url": null,
           "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "id": "https://openalex.org/S7407052998",
+            "display_name": "Universitätsbibliothek Stuttgart",
             "issn_l": null,
-            "issn": null,
+            "issn": [],
             "is_oa": false,
             "is_in_doaj": false,
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Water, Vol 13, Iss 3, p 383 (2021)",
-          "raw_type": "article"
-        },
-        {
-          "id": "pmh:oai:elib.uni-stuttgart.de:11682/12674",
-          "is_oa": true,
-          "landing_page_url": "http://nbn-resolving.de/urn:nbn:de:bsz:93-opus-ds-126742",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401556",
-            "display_name": "OPUS Publication Server of the University of Stuttgart (University of Stuttgart)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I100066346",
-            "host_organization_name": "University of Stuttgart",
-            "host_organization_lineage": [
-              "https://openalex.org/I100066346"
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
           "license": "cc-by",
           "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
+          "version": null,
           "is_accepted": false,
-          "is_published": false,
+          "is_published": null,
           "raw_source_name": null,
           "raw_type": "article"
         },
@@ -7137,9 +7181,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -7150,35 +7192,6 @@
           "is_published": null,
           "raw_source_name": null,
           "raw_type": "article-journal"
-        },
-        {
-          "id": "doi:10.18419/opus-12655",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.18419/opus-12655",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S7407052998",
-            "display_name": "Universitätsbibliothek Stuttgart",
-            "issn_l": null,
-            "issn": [],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": null,
-          "is_accepted": false,
-          "is_published": null,
-          "raw_source_name": null,
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -7201,7 +7214,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -7219,14 +7234,15 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320332999",
-          "funder_display_name": "Horizon 2020 Framework Programme",
-          "award_id": "643087"
+          "id": "https://openalex.org/G6481797382",
+          "display_name": null,
+          "funder_award_id": "643087",
+          "funder_id": "https://openalex.org/F4320332999",
+          "funder_display_name": "Horizon 2020 Framework Programme"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320332999",
@@ -7235,8 +7251,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 45,
       "referenced_works": [
@@ -7280,11 +7296,11 @@
         "https://openalex.org/W6720643178",
         "https://openalex.org/W869937496",
         "https://openalex.org/W2136096025",
+        "https://openalex.org/W1607319668",
         "https://openalex.org/W1499976760",
-        "https://openalex.org/W2242795086",
         "https://openalex.org/W2474867663",
         "https://openalex.org/W2321944203",
-        "https://openalex.org/W1607319668"
+        "https://openalex.org/W2242795086"
       ],
       "related_works": [
         "https://openalex.org/W2033352828",
@@ -7678,9 +7694,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -7975,7 +7995,7 @@
       "has_fulltext": false,
       "cited_by_count": 14,
       "citation_normalized_percentile": {
-        "value": 0.63475284,
+        "value": 0.63648509,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8465,9 +8485,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -8556,9 +8580,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -8570,14 +8598,15 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320332999",
-          "funder_display_name": "Horizon 2020 Framework Programme",
-          "award_id": "No. 643087 REMEDIATE"
+          "id": "https://openalex.org/G6847527073",
+          "display_name": null,
+          "funder_award_id": "No. 643087 REMEDIATE",
+          "funder_id": "https://openalex.org/F4320332999",
+          "funder_display_name": "Horizon 2020 Framework Programme"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320332999",
@@ -8586,8 +8615,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 79,
       "referenced_works": [
@@ -8664,12 +8693,12 @@
         "https://openalex.org/W2061034623",
         "https://openalex.org/W2096845642",
         "https://openalex.org/W1976297638",
-        "https://openalex.org/W3144873443",
+        "https://openalex.org/W2220779474",
+        "https://openalex.org/W2007337155",
+        "https://openalex.org/W2025352264",
         "https://openalex.org/W2301207364",
         "https://openalex.org/W2308019473",
-        "https://openalex.org/W2007337155",
-        "https://openalex.org/W2220779474",
-        "https://openalex.org/W2025352264"
+        "https://openalex.org/W3144873443"
       ],
       "related_works": [
         "https://openalex.org/W2378854276",
@@ -8745,7 +8774,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -9013,7 +9044,7 @@
       "has_fulltext": true,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.93566932,
+        "value": 0.93532956,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9278,7 +9309,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -9310,7 +9343,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -9322,12 +9357,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 25,
       "referenced_works": [
@@ -9922,9 +9956,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -10060,7 +10098,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.96516704,
+        "value": 0.96501725,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -10324,9 +10362,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -10346,19 +10388,22 @@
           "display_name": "Affordable and clean energy"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "CREP2522 - Renewable Energy Technical Incubator (RETI) - Interdisciplinary Research Center for Renewable Energy"
+          "id": "https://openalex.org/G294763592",
+          "display_name": null,
+          "funder_award_id": "Power Systems (IRC-REPS)",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         },
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "Power Systems (IRC-REPS)"
+          "id": "https://openalex.org/G1703595092",
+          "display_name": null,
+          "funder_award_id": "CREP2522 - Renewable Energy Technical Incubator (RETI) - Interdisciplinary Research Center for Renewable Energy",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -10367,8 +10412,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 87,
       "referenced_works": [
@@ -10455,10 +10500,10 @@
         "https://openalex.org/W2887247604",
         "https://openalex.org/W2125419028",
         "https://openalex.org/W4211047278",
-        "https://openalex.org/W4205691162",
+        "https://openalex.org/W1594266899",
         "https://openalex.org/W636720296",
         "https://openalex.org/W1555476047",
-        "https://openalex.org/W1594266899"
+        "https://openalex.org/W4205691162"
       ],
       "related_works": [
         "https://openalex.org/W222545103",
@@ -10521,7 +10566,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -10787,7 +10834,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.69728371,
+        "value": 0.69790099,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11195,7 +11242,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -11244,12 +11293,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 48,
       "referenced_works": [
@@ -11290,16 +11338,16 @@
         "https://openalex.org/W6702101487",
         "https://openalex.org/W2914833097",
         "https://openalex.org/W3087033324",
-        "https://openalex.org/W2779184548",
+        "https://openalex.org/W3120504724",
+        "https://openalex.org/W184755470",
+        "https://openalex.org/W2330543631",
+        "https://openalex.org/W2784260286",
+        "https://openalex.org/W3062842748",
         "https://openalex.org/W3019776223",
         "https://openalex.org/W2508570029",
-        "https://openalex.org/W2330543631",
-        "https://openalex.org/W184755470",
-        "https://openalex.org/W3062842748",
         "https://openalex.org/W2597411049",
-        "https://openalex.org/W2784260286",
+        "https://openalex.org/W2779184548",
         "https://openalex.org/W2783188429",
-        "https://openalex.org/W3120504724",
         "https://openalex.org/W2911697714"
       ],
       "related_works": [
@@ -11372,7 +11420,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -11635,7 +11685,7 @@
       "has_fulltext": true,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.85381488,
+        "value": 0.85776385,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11900,7 +11950,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -11910,6 +11962,33 @@
           "is_published": true,
           "raw_source_name": "Water",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:6027df767be64d56988536fabe83cd90",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/6027df767be64d56988536fabe83cd90",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Water, Vol 14, Iss 4, p 563 (2022)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2073-4441/14/4/563/",
@@ -11939,35 +12018,6 @@
           "is_published": false,
           "raw_source_name": "Water; Volume 14; Issue 4; Pages: 563",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:6027df767be64d56988536fabe83cd90",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/6027df767be64d56988536fabe83cd90",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Water, Vol 14, Iss 4, p 563 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -11990,7 +12040,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -12008,14 +12060,15 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "CIPR 2338"
+          "id": "https://openalex.org/G8780553949",
+          "display_name": null,
+          "funder_award_id": "CIPR 2338",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -12024,8 +12077,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 88,
       "referenced_works": [
@@ -12113,10 +12166,10 @@
         "https://openalex.org/W2166268040",
         "https://openalex.org/W2012690171",
         "https://openalex.org/W2113476080",
+        "https://openalex.org/W1572819095",
         "https://openalex.org/W2170156776",
         "https://openalex.org/W3043576947",
-        "https://openalex.org/W1564171545",
-        "https://openalex.org/W1572819095"
+        "https://openalex.org/W1564171545"
       ],
       "related_works": [
         "https://openalex.org/W2253284738",
@@ -12517,7 +12570,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -12744,7 +12799,7 @@
       "has_fulltext": true,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.13752575,
+        "value": 0.13128692,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13010,7 +13065,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -13072,7 +13129,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -13084,14 +13143,15 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320334631",
-          "funder_display_name": "Natural Environment Research Council",
-          "award_id": "NE/R006725/1"
+          "id": "https://openalex.org/G4716407748",
+          "display_name": null,
+          "funder_award_id": "NE/R006725/1",
+          "funder_id": "https://openalex.org/F4320334631",
+          "funder_display_name": "Natural Environment Research Council"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320334631",
@@ -13100,8 +13160,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 48,
       "referenced_works": [
@@ -13140,19 +13200,19 @@
         "https://openalex.org/W2057357008",
         "https://openalex.org/W2042828988",
         "https://openalex.org/W2106958762",
-        "https://openalex.org/W2119092724",
-        "https://openalex.org/W2022168065",
-        "https://openalex.org/W988290895",
-        "https://openalex.org/W1515543311",
-        "https://openalex.org/W2102284379",
-        "https://openalex.org/W1982460781",
-        "https://openalex.org/W2741000561",
-        "https://openalex.org/W2493661768",
         "https://openalex.org/W2154307880",
-        "https://openalex.org/W1976146385",
+        "https://openalex.org/W988290895",
+        "https://openalex.org/W631291862",
+        "https://openalex.org/W2022168065",
+        "https://openalex.org/W2741000561",
+        "https://openalex.org/W1982460781",
+        "https://openalex.org/W2119092724",
         "https://openalex.org/W2183582574",
-        "https://openalex.org/W2092569987",
-        "https://openalex.org/W631291862"
+        "https://openalex.org/W1976146385",
+        "https://openalex.org/W2493661768",
+        "https://openalex.org/W2102284379",
+        "https://openalex.org/W1515543311",
+        "https://openalex.org/W2092569987"
       ],
       "related_works": [
         "https://openalex.org/W2142316164",
@@ -13753,9 +13813,13 @@
           "host_organization": "https://openalex.org/P4310319908",
           "host_organization_name": "Nature Portfolio",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319908"
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -14195,7 +14259,7 @@
       "has_fulltext": true,
       "cited_by_count": 14,
       "citation_normalized_percentile": {
-        "value": 0.76531284,
+        "value": 0.76545246,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14621,9 +14685,13 @@
             "host_organization": "https://openalex.org/P4310319908",
             "host_organization_name": "Nature Portfolio",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319908"
+              "https://openalex.org/P4310319908",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Nature Portfolio",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -14664,6 +14732,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:b7c1a0eaee6148d29f644b90d2e9be0e",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/b7c1a0eaee6148d29f644b90d2e9be0e",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Scientific Reports, Vol 12, Iss 1, Pp 1-11 (2022)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:pubmedcentral.nih.gov:9669010",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9669010",
@@ -14691,35 +14786,6 @@
           "is_published": false,
           "raw_source_name": "Sci Rep",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:b7c1a0eaee6148d29f644b90d2e9be0e",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/b7c1a0eaee6148d29f644b90d2e9be0e",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Scientific Reports, Vol 12, Iss 1, Pp 1-11 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -14740,9 +14806,13 @@
           "host_organization": "https://openalex.org/P4310319908",
           "host_organization_name": "Nature Portfolio",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319908"
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -14760,12 +14830,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 56,
       "referenced_works": [
@@ -14888,7 +14957,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -15295,7 +15366,7 @@
       "has_fulltext": true,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.82656952,
+        "value": 0.8272414,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15565,7 +15636,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -15575,6 +15648,33 @@
           "is_published": true,
           "raw_source_name": "Remote Sensing",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:db99cdd5b55d4cdbb29a79471d835bbe",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/db99cdd5b55d4cdbb29a79471d835bbe",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Remote Sensing, Vol 14, Iss 3, p 735 (2022)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2072-4292/14/3/735/",
@@ -15604,35 +15704,6 @@
           "is_published": false,
           "raw_source_name": "Remote Sensing",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:db99cdd5b55d4cdbb29a79471d835bbe",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/db99cdd5b55d4cdbb29a79471d835bbe",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Remote Sensing, Vol 14, Iss 3, p 735 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -15655,7 +15726,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -15673,12 +15746,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 60,
       "referenced_works": [
@@ -15737,10 +15809,10 @@
         "https://openalex.org/W2115314373",
         "https://openalex.org/W6701964430",
         "https://openalex.org/W2528334314",
-        "https://openalex.org/W2008068458",
         "https://openalex.org/W2330903344",
-        "https://openalex.org/W2122926182",
         "https://openalex.org/W2035508669",
+        "https://openalex.org/W2008068458",
+        "https://openalex.org/W2122926182",
         "https://openalex.org/W195523536"
       ],
       "related_works": [
@@ -16300,7 +16372,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -16353,13 +16427,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Porous Media Laboratory, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
             },
             {
-              "raw_affiliation_string": "Porous Media Laboratory, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
@@ -16396,13 +16470,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Porous Media Laboratory, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
             },
             {
-              "raw_affiliation_string": "Porous Media Laboratory, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
+              "raw_affiliation_string": "Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Faculty of Aerospace Engineering and Geodesy, University of Stuttgart, Pfaffenwaldring 27, 70569 Stuttgart, Germany",
               "institution_ids": [
                 "https://openalex.org/I100066346"
               ]
@@ -16620,7 +16694,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.68451197,
+        "value": 0.6857554,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16940,7 +17014,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -16950,6 +17026,33 @@
           "is_published": true,
           "raw_source_name": "Water",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:812a70aa356e4691aa9351ab14844de0",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/812a70aa356e4691aa9351ab14844de0",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Water, Vol 15, Iss 1, p 159 (2022)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2073-4441/15/1/159/",
@@ -16979,35 +17082,6 @@
           "is_published": false,
           "raw_source_name": "Water; Volume 15; Issue 1; Pages: 159",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:812a70aa356e4691aa9351ab14844de0",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/812a70aa356e4691aa9351ab14844de0",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Water, Vol 15, Iss 1, p 159 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -17030,7 +17104,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -17048,12 +17124,11 @@
           "display_name": "Life in Land"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 40,
       "referenced_works": [
@@ -17625,7 +17700,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -18037,13 +18114,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Geosciences, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "IRC-Center of Integrated Petroleum Research-CIPR and IRC-Renewable Energy and Power System Center-REPSC, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "IRC-Center of Integrated Petroleum Research-CIPR and IRC-Renewable Energy and Power System Center-REPSC, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Department of Geosciences, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -18074,7 +18151,7 @@
       "has_fulltext": true,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.79728994,
+        "value": 0.7980204,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18360,7 +18437,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -18386,9 +18465,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -18421,7 +18498,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -18439,12 +18518,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 51,
       "referenced_works": [
@@ -18909,7 +18987,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -19136,7 +19216,7 @@
       "has_fulltext": true,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.91742267,
+        "value": 0.91761043,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19346,7 +19426,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -19372,9 +19454,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -19407,7 +19487,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -19425,12 +19507,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 40,
       "referenced_works": [
@@ -19471,8 +19552,8 @@
         "https://openalex.org/W2027447908",
         "https://openalex.org/W2170482959",
         "https://openalex.org/W2125460652",
-        "https://openalex.org/W2420064727",
         "https://openalex.org/W4233118064",
+        "https://openalex.org/W2420064727",
         "https://openalex.org/W2068451724"
       ],
       "related_works": [
@@ -20148,7 +20229,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -20312,7 +20395,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.84532653,
+        "value": 0.84694877,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -20498,7 +20581,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -20518,12 +20603,11 @@
           "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 52,
       "referenced_works": [
@@ -20568,17 +20652,17 @@
         "https://openalex.org/W2027140989",
         "https://openalex.org/W2040056295",
         "https://openalex.org/W3197205976",
-        "https://openalex.org/W195523536",
-        "https://openalex.org/W3008619293",
-        "https://openalex.org/W4213433252",
-        "https://openalex.org/W2204138179",
         "https://openalex.org/W3027475076",
-        "https://openalex.org/W4388798018",
-        "https://openalex.org/W2484572755",
         "https://openalex.org/W2035508669",
-        "https://openalex.org/W1533550986",
         "https://openalex.org/W1835654170",
-        "https://openalex.org/W16286578"
+        "https://openalex.org/W3008619293",
+        "https://openalex.org/W16286578",
+        "https://openalex.org/W2204138179",
+        "https://openalex.org/W4213433252",
+        "https://openalex.org/W195523536",
+        "https://openalex.org/W2484572755",
+        "https://openalex.org/W1533550986",
+        "https://openalex.org/W4388798018"
       ],
       "related_works": [
         "https://openalex.org/W985732587",
@@ -20635,7 +20719,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -20941,7 +21027,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.95081658,
+        "value": 0.94944962,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -21297,7 +21383,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -21352,9 +21440,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -21416,7 +21502,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -21428,13 +21516,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -21444,8 +21525,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 36,
       "referenced_works": [
@@ -21480,11 +21561,11 @@
         "https://openalex.org/W2557546533",
         "https://openalex.org/W2087070363",
         "https://openalex.org/W2155482699",
+        "https://openalex.org/W2499961455",
         "https://openalex.org/W2598952810",
-        "https://openalex.org/W638108327",
-        "https://openalex.org/W604368492",
         "https://openalex.org/W4291667727",
-        "https://openalex.org/W2499961455"
+        "https://openalex.org/W638108327",
+        "https://openalex.org/W604368492"
       ],
       "related_works": [
         "https://openalex.org/W1990082719",
@@ -22200,7 +22281,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -22571,7 +22654,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.82193926,
+        "value": 0.82281603,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22831,7 +22914,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -22857,9 +22942,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -22921,7 +23004,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -22933,12 +23018,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 46,
       "referenced_works": [
@@ -23534,7 +23618,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -23674,7 +23760,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.68834264,
+        "value": 0.68995338,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23939,7 +24025,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -23965,9 +24053,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -24000,7 +24086,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -24018,12 +24106,11 @@
           "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 36,
       "referenced_works": [
@@ -24714,9 +24801,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -25027,7 +25118,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.81795845,
+        "value": 0.81872805,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25341,9 +25432,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -25357,14 +25452,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": "INRE2200"
+          "id": "https://openalex.org/G4116262112",
+          "display_name": null,
+          "funder_award_id": "INRE2200",
+          "funder_id": "https://openalex.org/F4320336956",
+          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320336956",
@@ -25373,8 +25469,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 59,
       "referenced_works": [
@@ -25501,7 +25597,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -25823,7 +25921,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.77030978,
+        "value": 0.77130708,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26113,7 +26211,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -26133,12 +26233,11 @@
           "display_name": "Life in Land"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 68,
       "referenced_works": [
@@ -26206,9 +26305,9 @@
         "https://openalex.org/W1975436113",
         "https://openalex.org/W1984003229",
         "https://openalex.org/W4200567919",
-        "https://openalex.org/W2014928657",
-        "https://openalex.org/W1572709184",
         "https://openalex.org/W2169239440",
+        "https://openalex.org/W1572709184",
+        "https://openalex.org/W2014928657",
         "https://openalex.org/W3128211510"
       ],
       "related_works": [
@@ -26770,7 +26869,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -26858,14 +26959,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Water Resources, Irrigation and Environmental Geoinformatics Laboratory, Institute for Olive Tree,",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "Water Resources, Irrigation and Environmental Geoinformatics Laboratory, Institute for Olive Tree, Subtropical Crops and Viticulture, Directorate General of Agricultural Research, Hellenic Agricultural Organization “DIMITRA”, 73100 Chania, Greece",
               "institution_ids": [
                 "https://openalex.org/I1283664872"
               ]
-            },
-            {
-              "raw_affiliation_string": "Water Resources, Irrigation and Environmental Geoinformatics Laboratory, Institute for Olive Tree,",
-              "institution_ids": []
             }
           ]
         },
@@ -26997,7 +27098,7 @@
       "has_fulltext": true,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.74644296,
+        "value": 0.74552228,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27357,7 +27458,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -27389,7 +27492,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -27407,12 +27512,11 @@
           "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 35,
       "referenced_works": [
@@ -27946,9 +28050,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -28098,7 +28206,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.79948602,
+        "value": 0.79996337,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -28307,9 +28415,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -28329,12 +28441,11 @@
           "display_name": "Life in Land"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 69,
       "referenced_works": [
@@ -28463,7 +28574,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -28717,7 +28830,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.8088677,
+        "value": 0.80915168,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -28911,7 +29024,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320547"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Taylor & Francis"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -28925,12 +29040,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 40,
       "referenced_works": [
@@ -29030,7 +29144,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -29166,7 +29282,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.94415283,
+        "value": 0.9432981,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -29391,7 +29507,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -29411,12 +29529,11 @@
           "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 94,
       "referenced_works": [
@@ -29502,18 +29619,18 @@
         "https://openalex.org/W2530914917",
         "https://openalex.org/W2131947476",
         "https://openalex.org/W123971796",
-        "https://openalex.org/W4200332395",
-        "https://openalex.org/W4229061254",
-        "https://openalex.org/W1624012152",
-        "https://openalex.org/W2106168839",
-        "https://openalex.org/W2146645055",
-        "https://openalex.org/W4377115456",
-        "https://openalex.org/W3123528235",
-        "https://openalex.org/W571672737",
-        "https://openalex.org/W4240692557",
         "https://openalex.org/W2484572755",
+        "https://openalex.org/W4200332395",
+        "https://openalex.org/W3123528235",
+        "https://openalex.org/W1624012152",
+        "https://openalex.org/W571672737",
+        "https://openalex.org/W2146645055",
+        "https://openalex.org/W2106168839",
+        "https://openalex.org/W637015574",
+        "https://openalex.org/W4240692557",
+        "https://openalex.org/W4229061254",
         "https://openalex.org/W4387501665",
-        "https://openalex.org/W637015574"
+        "https://openalex.org/W4377115456"
       ],
       "related_works": [
         "https://openalex.org/W222545103",
@@ -29571,7 +29688,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -29743,7 +29862,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.79568923,
+        "value": 0.79660442,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29994,7 +30113,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -30043,14 +30164,15 @@
           "display_name": "Life in Land"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320306107",
-          "funder_display_name": "U.S. Environmental Protection Agency",
-          "award_id": "W0576.1A.01758"
+          "id": "https://openalex.org/G3769187969",
+          "display_name": null,
+          "funder_award_id": "W0576.1A.01758",
+          "funder_id": "https://openalex.org/F4320306107",
+          "funder_display_name": "U.S. Environmental Protection Agency"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320306107",
@@ -30059,8 +30181,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 86,
       "referenced_works": [
@@ -30131,25 +30253,25 @@
         "https://openalex.org/W2884859931",
         "https://openalex.org/W1996772006",
         "https://openalex.org/W6756914125",
-        "https://openalex.org/W3081995830",
         "https://openalex.org/W2500189970",
-        "https://openalex.org/W2949031084",
-        "https://openalex.org/W3084348143",
-        "https://openalex.org/W2268865576",
-        "https://openalex.org/W2972007825",
-        "https://openalex.org/W4306246725",
-        "https://openalex.org/W1564437760",
-        "https://openalex.org/W3004800366",
-        "https://openalex.org/W2523050513",
         "https://openalex.org/W2046927613",
         "https://openalex.org/W657443852",
-        "https://openalex.org/W2569725283",
-        "https://openalex.org/W4211254639",
-        "https://openalex.org/W4200625215",
+        "https://openalex.org/W2109444462",
         "https://openalex.org/W4294703671",
+        "https://openalex.org/W1564437760",
+        "https://openalex.org/W3004800366",
+        "https://openalex.org/W4200625215",
+        "https://openalex.org/W2569725283",
+        "https://openalex.org/W4306246725",
+        "https://openalex.org/W2523050513",
+        "https://openalex.org/W2949031084",
         "https://openalex.org/W2045974760",
+        "https://openalex.org/W3081995830",
         "https://openalex.org/W1030183094",
-        "https://openalex.org/W2109444462"
+        "https://openalex.org/W3084348143",
+        "https://openalex.org/W2268865576",
+        "https://openalex.org/W4211254639",
+        "https://openalex.org/W2972007825"
       ],
       "related_works": [
         "https://openalex.org/W4296536021",
@@ -30214,7 +30336,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -30658,7 +30782,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.57353943,
+        "value": 0.5761435,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -31002,7 +31126,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -31043,35 +31169,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:pubmedcentral.nih.gov:9737458",
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9737458",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Sensors (Basel)",
-          "raw_type": "Text"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:1005d6dfd4b14f3b8ca71a400ea944d1",
           "is_oa": true,
           "landing_page_url": "https://doaj.org/article/1005d6dfd4b14f3b8ca71a400ea944d1",
@@ -31086,9 +31183,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -31128,6 +31223,35 @@
           "is_published": false,
           "raw_source_name": "Sensors; Volume 22; Issue 23; Pages: 9337",
           "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:9737458",
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9737458",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Sensors (Basel)",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
@@ -31150,7 +31274,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -31162,12 +31288,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 46,
       "referenced_works": [
@@ -31857,9 +31982,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -32254,7 +32377,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.71997728,
+        "value": 0.72055408,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -32461,9 +32584,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -32484,7 +32605,6 @@
           "display_name": "Responsible consumption and production"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -32494,8 +32614,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 2,
       "referenced_works": [
@@ -33257,7 +33377,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.71750072,
+        "value": 0.7178787,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33566,12 +33686,11 @@
           "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 2,
       "referenced_works": [
@@ -33871,7 +33990,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -34134,7 +34255,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.15964139,
+        "value": 0.15792483,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34423,7 +34544,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -34433,6 +34556,33 @@
           "is_published": true,
           "raw_source_name": "Applied Sciences",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:d89d690003954b289ac4cae7079b7991",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/d89d690003954b289ac4cae7079b7991",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Applied Sciences, Vol 11, Iss 23, p 11249 (2021)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2076-3417/11/23/11249/",
@@ -34462,35 +34612,6 @@
           "is_published": false,
           "raw_source_name": "Applied Sciences",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:d89d690003954b289ac4cae7079b7991",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/d89d690003954b289ac4cae7079b7991",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Applied Sciences, Vol 11, Iss 23, p 11249 (2021)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -34513,7 +34634,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -34531,14 +34654,15 @@
           "display_name": "Sustainable cities and communities"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "DRI 238 (CIPR 2338)"
+          "id": "https://openalex.org/G5050505754",
+          "display_name": null,
+          "funder_award_id": "DRI 238 (CIPR 2338)",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -34547,8 +34671,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 45,
       "referenced_works": [
@@ -34595,8 +34719,8 @@
         "https://openalex.org/W2167760597",
         "https://openalex.org/W2150022640",
         "https://openalex.org/W3116184924",
-        "https://openalex.org/W150600131",
-        "https://openalex.org/W2186945434"
+        "https://openalex.org/W2186945434",
+        "https://openalex.org/W150600131"
       ],
       "related_works": [
         "https://openalex.org/W3172374220",
@@ -35335,7 +35459,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.6637149,
+        "value": 0.66598492,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35592,12 +35716,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -35997,7 +36120,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -36283,7 +36408,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.69068335,
+        "value": 0.69260356,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -36525,7 +36650,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -36545,12 +36672,11 @@
           "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 78,
       "referenced_works": [
@@ -36624,14 +36750,14 @@
         "https://openalex.org/W6846883702",
         "https://openalex.org/W2011530008",
         "https://openalex.org/W4206788255",
-        "https://openalex.org/W196072105",
+        "https://openalex.org/W2463144217",
         "https://openalex.org/W388293534",
+        "https://openalex.org/W2319529333",
+        "https://openalex.org/W196072105",
+        "https://openalex.org/W3177950329",
         "https://openalex.org/W1977584727",
         "https://openalex.org/W2556699375",
-        "https://openalex.org/W4306294647",
-        "https://openalex.org/W3177950329",
-        "https://openalex.org/W2463144217",
-        "https://openalex.org/W2319529333"
+        "https://openalex.org/W4306294647"
       ],
       "related_works": [
         "https://openalex.org/W2022438866",
@@ -37269,9 +37395,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -37462,7 +37592,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.72396325,
+        "value": 0.72398738,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37848,7 +37978,7 @@
           "descriptor_name": "Environmental Monitoring",
           "qualifier_ui": "Q000379",
           "qualifier_name": "methods",
-          "is_major_topic": true
+          "is_major_topic": false
         },
         {
           "descriptor_ui": "D060587",
@@ -37876,7 +38006,7 @@
           "descriptor_name": "Environmental Monitoring",
           "qualifier_ui": "Q000379",
           "qualifier_name": "methods",
-          "is_major_topic": false
+          "is_major_topic": true
         }
       ],
       "locations_count": 3,
@@ -37900,9 +38030,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -37991,9 +38125,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -38011,14 +38149,15 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320338337",
-          "funder_display_name": "H2020 Marie Skłodowska-Curie Actions",
-          "award_id": "643087"
+          "id": "https://openalex.org/G2319187224",
+          "display_name": "Improved decision-making in contaminated land site investigation and risk assessment",
+          "funder_award_id": "643087",
+          "funder_id": "https://openalex.org/F4320338337",
+          "funder_display_name": "H2020 Marie Skłodowska-Curie Actions"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320338337",
@@ -38027,8 +38166,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 69,
       "referenced_works": [
@@ -38156,7 +38295,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -38384,7 +38525,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.9256862,
+        "value": 0.92881875,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -38625,7 +38766,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -38657,7 +38800,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -38669,12 +38814,11 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 41,
       "referenced_works": [
@@ -39348,7 +39492,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -39456,7 +39602,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.91594873,
+        "value": 0.91572804,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -39655,7 +39801,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -39669,13 +39817,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -39685,8 +39826,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 85,
       "referenced_works": [
@@ -39767,14 +39908,14 @@
         "https://openalex.org/W654973716",
         "https://openalex.org/W3006743285",
         "https://openalex.org/W2913783173",
-        "https://openalex.org/W1870699677",
-        "https://openalex.org/W4396222044",
         "https://openalex.org/W3114571695",
-        "https://openalex.org/W4243379057",
-        "https://openalex.org/W4388913530",
-        "https://openalex.org/W3037294326",
         "https://openalex.org/W2171977351",
-        "https://openalex.org/W2484572755"
+        "https://openalex.org/W4396222044",
+        "https://openalex.org/W2484572755",
+        "https://openalex.org/W3037294326",
+        "https://openalex.org/W4388913530",
+        "https://openalex.org/W1870699677",
+        "https://openalex.org/W4243379057"
       ],
       "related_works": [
         "https://openalex.org/W2748952813",
@@ -39989,7 +40130,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.84564795,
+        "value": 0.84598574,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40246,9 +40387,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -40263,12 +40402,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -41051,9 +41189,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -41415,7 +41557,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.62988306,
+        "value": 0.63240279,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41674,9 +41816,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -41690,12 +41836,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 34,
       "referenced_works": [
@@ -41790,9 +41935,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -41992,7 +42135,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.09962187,
+        "value": 0.0992949,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -42246,9 +42389,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -42263,12 +42404,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -42908,7 +43048,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.61467231,
+        "value": 0.61494871,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -43250,12 +43390,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -44265,7 +44404,7 @@
       "has_fulltext": true,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.36732443,
+        "value": 0.3689118,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44676,12 +44815,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 38,
       "referenced_works": [
@@ -45528,12 +45666,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -45584,9 +45721,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -45765,7 +45900,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.10042176,
+        "value": 0.10016719,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46033,9 +46168,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -46056,17 +46189,16 @@
           "display_name": "Life in Land"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 2,
       "referenced_works": [
-        "https://openalex.org/W2014928657",
-        "https://openalex.org/W2074511223"
+        "https://openalex.org/W2074511223",
+        "https://openalex.org/W2014928657"
       ],
       "related_works": [
         "https://openalex.org/W2374901194",
@@ -46301,9 +46433,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -47679,7 +47809,7 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": null,
@@ -47729,9 +47859,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -47746,12 +47874,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -49190,7 +49317,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310318077"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "National Documentation Centre"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -49389,7 +49518,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02143579,
+        "value": 0.02130472,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -49621,7 +49750,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310318077"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "National Documentation Centre"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc",
@@ -49654,7 +49785,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310318077"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "National Documentation Centre"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -49672,12 +49805,11 @@
           "display_name": "Sustainable cities and communities"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 1,
       "referenced_works": [
@@ -50243,7 +50375,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08710064,
+        "value": 0.0867294,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -50568,12 +50700,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -51145,7 +51276,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.24900413,
+        "value": 0.24849895,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51415,12 +51546,11 @@
           "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -51656,7 +51786,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03052403,
+        "value": 0.03053733,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -51779,6 +51909,20 @@
           "raw_type": "conferenceObject"
         },
         {
+          "id": "doi:10.13140/rg.2.2.16854.55363",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.13140/rg.2.2.16854.55363",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": null,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        },
+        {
           "id": "mag:2801030991",
           "is_oa": false,
           "landing_page_url": "https://pure.qub.ac.uk/en/publications/bioelectrochemical-systems-for-enhancement-and-monitoring-of-wast",
@@ -51796,7 +51940,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310313756"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Copernicus Publications"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -51806,20 +51952,6 @@
           "is_published": null,
           "raw_source_name": "The EGU General Assembly",
           "raw_type": null
-        },
-        {
-          "id": "doi:10.13140/rg.2.2.16854.55363",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.13140/rg.2.2.16854.55363",
-          "pdf_url": null,
-          "source": null,
-          "license": null,
-          "license_id": null,
-          "version": null,
-          "is_accepted": false,
-          "is_published": null,
-          "raw_source_name": null,
-          "raw_type": "article-journal"
         }
       ],
       "best_oa_location": {
@@ -51843,12 +51975,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -52548,7 +52679,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03269415,
+        "value": 0.03270083,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -52760,12 +52891,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -53487,7 +53617,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.14011983,
+        "value": 0.13440884,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -53716,12 +53846,11 @@
         "raw_type": "conferenceObject"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -54348,7 +54477,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.15867319,
+        "value": 0.15404079,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -54589,12 +54718,11 @@
           "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -55243,11 +55371,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02732214,
+        "value": 0.02704489,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -55419,12 +55547,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -55994,11 +56121,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03705223,
+        "value": 0.03479102,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -56229,12 +56356,11 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -57233,11 +57359,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.04820881,
+        "value": 0.04743735,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -57382,12 +57508,11 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -58109,9 +58234,13 @@
           "host_organization": "https://openalex.org/P4310319972",
           "host_organization_name": "Springer International Publishing",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319972"
+            "https://openalex.org/P4310319972",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer International Publishing",
+            "Springer Nature"
+          ],
           "type": "book series"
         },
         "license": null,
@@ -58473,7 +58602,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.10486322,
+        "value": 0.10499087,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -58765,9 +58894,13 @@
             "host_organization": "https://openalex.org/P4310319972",
             "host_organization_name": "Springer International Publishing",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319972"
+              "https://openalex.org/P4310319972",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer International Publishing",
+              "Springer Nature"
+            ],
             "type": "book series"
           },
           "license": null,
@@ -58787,12 +58920,11 @@
           "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 5,
       "referenced_works": [
@@ -58850,9 +58982,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -59038,7 +59174,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.28364864,
+        "value": 0.2783052,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59390,9 +59526,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -59412,12 +59552,11 @@
           "display_name": "Climate action"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 84,
       "referenced_works": [
@@ -59638,11 +59777,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08574454,
+        "value": 0.08368543,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -59848,12 +59987,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -61068,7 +61206,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.25970226,
+        "value": 0.25163563,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -61279,12 +61417,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 7,
       "referenced_works": [
@@ -62190,7 +62327,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.44352273,
+        "value": 0.43588305,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -62358,12 +62495,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -62613,7 +62749,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.43972119,
+        "value": 0.42601912,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -62719,12 +62855,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 16,
       "referenced_works": [
@@ -63798,7 +63933,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.43980725,
+        "value": 0.426103,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -63904,12 +64039,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 31,
       "referenced_works": [
@@ -64960,7 +65094,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.44002237,
+        "value": 0.4263127,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -65066,12 +65200,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 12,
       "referenced_works": [
@@ -66012,7 +66145,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.43116832,
+        "value": 0.40771208,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -66118,12 +66251,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 31,
       "referenced_works": [
@@ -66156,8 +66288,8 @@
         "https://openalex.org/W2022549667",
         "https://openalex.org/W4389080083",
         "https://openalex.org/W2005379035",
-        "https://openalex.org/W2988598656",
-        "https://openalex.org/W637015574"
+        "https://openalex.org/W637015574",
+        "https://openalex.org/W2988598656"
       ],
       "related_works": [],
       "abstract_inverted_index": {
@@ -67098,7 +67230,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.40603306,
+        "value": 0.39115621,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -67204,12 +67336,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 37,
       "referenced_works": [
@@ -67246,10 +67377,10 @@
         "https://openalex.org/W2778156346",
         "https://openalex.org/W4398159676",
         "https://openalex.org/W3006743285",
+        "https://openalex.org/W4388913530",
         "https://openalex.org/W3037294326",
         "https://openalex.org/W3114571695",
-        "https://openalex.org/W4396222044",
-        "https://openalex.org/W4388913530"
+        "https://openalex.org/W4396222044"
       ],
       "related_works": [],
       "abstract_inverted_index": {
@@ -68378,7 +68509,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.44032355,
+        "value": 0.42660627,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -68484,12 +68615,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 13,
       "referenced_works": [
@@ -68504,8 +68634,8 @@
         "https://openalex.org/W2007696540",
         "https://openalex.org/W1984003229",
         "https://openalex.org/W2045327140",
-        "https://openalex.org/W1977584727",
-        "https://openalex.org/W2270301047"
+        "https://openalex.org/W2270301047",
+        "https://openalex.org/W1977584727"
       ],
       "related_works": [],
       "abstract_inverted_index": {
@@ -69267,7 +69397,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.4417434,
+        "value": 0.42794833,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -69373,12 +69503,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 9,
       "referenced_works": [
@@ -69389,8 +69518,8 @@
         "https://openalex.org/W4403775428",
         "https://openalex.org/W2074511223",
         "https://openalex.org/W1983847496",
-        "https://openalex.org/W3042533206",
-        "https://openalex.org/W4280628293"
+        "https://openalex.org/W4280628293",
+        "https://openalex.org/W3042533206"
       ],
       "related_works": [],
       "abstract_inverted_index": {
@@ -70170,7 +70299,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.46742965,
+        "value": 0.45281832,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -70276,12 +70405,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 10,
       "referenced_works": [

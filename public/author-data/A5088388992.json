@@ -9,9 +9,9 @@
       "Nabil Saraih"
     ],
     "works_count": 11,
-    "cited_by_count": 67,
+    "cited_by_count": 68,
     "summary_stats": {
-      "2yr_mean_citedness": 1.3333333333333333,
+      "2yr_mean_citedness": 1.5,
       "h_index": 3,
       "i10_index": 2
     },
@@ -80,24 +80,6 @@
         }
       },
       {
-        "id": "https://openalex.org/T11801",
-        "display_name": "Reservoir Engineering and Simulation Methods",
-        "count": 3,
-        "score": 0.9991999864578247,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2212",
-          "display_name": "Ocean Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10965",
         "display_name": "Geological formations and processes",
         "count": 3,
@@ -116,17 +98,35 @@
         }
       },
       {
-        "id": "https://openalex.org/T13177",
-        "display_name": "Geological and Geophysical Studies",
+        "id": "https://openalex.org/T11801",
+        "display_name": "Reservoir Engineering and Simulation Methods",
+        "count": 3,
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11302",
+        "display_name": "CO2 Sequestration and Geologic Interactions",
         "count": 2,
         "score": 0.9995999932289124,
         "subfield": {
-          "id": "https://openalex.org/subfields/1907",
-          "display_name": "Geology"
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -138,7 +138,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000187,
+        "value": 0.0000186,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -155,7 +155,7 @@
       {
         "id": "https://openalex.org/T11302",
         "display_name": "CO2 Sequestration and Geologic Interactions",
-        "value": 0.0000157,
+        "value": 0.0000156,
         "subfield": {
           "id": "https://openalex.org/subfields/2305",
           "display_name": "Environmental Engineering"
@@ -172,7 +172,7 @@
       {
         "id": "https://openalex.org/T11225",
         "display_name": "Geothermal Energy Systems and Applications",
-        "value": 0.0000143,
+        "value": 0.0000142,
         "subfield": {
           "id": "https://openalex.org/subfields/2105",
           "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -244,7 +244,7 @@
         "id": "109007969",
         "wikidata": "https://www.wikidata.org/wiki/Q749565",
         "display_name": "Structural basin",
-        "score": 0.0979665219783783
+        "score": 0.06649956107139587
       }
     ],
     "counts_by_year": [
@@ -280,7 +280,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5088388992",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10"
   },
   "works": [
@@ -318,7 +318,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -370,13 +372,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
             },
             {
-              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
@@ -485,13 +487,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
             },
             {
-              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
@@ -528,13 +530,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
             },
             {
-              "raw_affiliation_string": "Shale Gas Research Group (SGRG), Institute of Hydrocarbon Recovery, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
+              "raw_affiliation_string": "Department of Petroleum Engineering, Universiti Teknologi PETRONAS, Seri Iskandar, 32610, Perak, Malaysia",
               "institution_ids": [
                 "https://openalex.org/I203899302"
               ]
@@ -594,7 +596,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.93064614,
+        "value": 0.93094014,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -903,7 +905,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -919,15 +923,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6299999952316284,
-          "id": "https://metadata.un.org/sdg/6"
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320323380",
-          "funder_display_name": "Universiti Teknologi Petronas",
-          "award_id": null
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6299999952316284
         }
       ],
       "awards": [],
@@ -991,22 +988,22 @@
         "https://openalex.org/W2066213148",
         "https://openalex.org/W2180963020",
         "https://openalex.org/W2937182469",
-        "https://openalex.org/W1964167166",
-        "https://openalex.org/W3196067587",
-        "https://openalex.org/W1998097168",
-        "https://openalex.org/W2478435339",
         "https://openalex.org/W2132514334",
-        "https://openalex.org/W2973138423",
-        "https://openalex.org/W615914851",
-        "https://openalex.org/W2621230590",
-        "https://openalex.org/W1980434848",
         "https://openalex.org/W2063403475",
         "https://openalex.org/W2081042095",
+        "https://openalex.org/W2621230590",
+        "https://openalex.org/W1980434848",
         "https://openalex.org/W2432359412",
-        "https://openalex.org/W3044656254",
+        "https://openalex.org/W1964167166",
+        "https://openalex.org/W2478435339",
         "https://openalex.org/W2043853435",
+        "https://openalex.org/W1998097168",
+        "https://openalex.org/W3196067587",
+        "https://openalex.org/W2973138423",
+        "https://openalex.org/W615914851",
+        "https://openalex.org/W2489252044",
         "https://openalex.org/W2038375479",
-        "https://openalex.org/W2489252044"
+        "https://openalex.org/W3044656254"
       ],
       "related_works": [
         "https://openalex.org/W4307830884",
@@ -1084,7 +1081,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -1349,7 +1348,7 @@
       "has_fulltext": false,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.83194444,
+        "value": 0.83265687,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1647,7 +1646,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -1686,6 +1687,33 @@
           "is_published": true,
           "raw_source_name": "Polymers",
           "raw_type": null
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:ac278b013714404a913e8ffb6ff018e1",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/ac278b013714404a913e8ffb6ff018e1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Polymers, Vol 11, Iss 9, p 1453 (2019)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/2073-4360/11/9/1453/",
@@ -1744,35 +1772,6 @@
           "is_published": false,
           "raw_source_name": "Polymers (Basel)",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:ac278b013714404a913e8ffb6ff018e1",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/ac278b013714404a913e8ffb6ff018e1",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Polymers, Vol 11, Iss 9, p 1453 (2019)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -1795,7 +1794,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -1809,11 +1810,10 @@
       "sustainable_development_goals": [
         {
           "display_name": "Clean water and sanitation",
-          "score": 0.6399999856948853,
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "score": 0.6399999856948853
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -1858,8 +1858,8 @@
         "https://openalex.org/W2050039312",
         "https://openalex.org/W2037496637",
         "https://openalex.org/W1966644126",
-        "https://openalex.org/W2002236405",
-        "https://openalex.org/W1963676304"
+        "https://openalex.org/W1963676304",
+        "https://openalex.org/W2002236405"
       ],
       "related_works": [
         "https://openalex.org/W2365682719",
@@ -2429,7 +2429,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -2692,7 +2694,7 @@
       "has_fulltext": true,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.72425214,
+        "value": 0.72477553,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3023,7 +3025,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -3033,6 +3037,33 @@
           "is_published": true,
           "raw_source_name": "Energies",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:doaj.org/article:bc265d0bb2ad4ab9840708a9ecfd5dbf",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/bc265d0bb2ad4ab9840708a9ecfd5dbf",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Energies, Vol 13, Iss 21, p 5557 (2020)",
+          "raw_type": "article"
         },
         {
           "id": "pmh:oai:mdpi.com:/1996-1073/13/21/5557/",
@@ -3062,35 +3093,6 @@
           "is_published": false,
           "raw_source_name": "Energies; Volume 13; Issue 21; Pages: 5557",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:bc265d0bb2ad4ab9840708a9ecfd5dbf",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/bc265d0bb2ad4ab9840708a9ecfd5dbf",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Energies, Vol 13, Iss 21, p 5557 (2020)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -3113,7 +3115,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -3127,18 +3131,19 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.8500000238418579,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8500000238418579
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "SF 19031"
+          "id": "https://openalex.org/G5932767441",
+          "display_name": null,
+          "funder_award_id": "SF 19031",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -3182,11 +3187,11 @@
         "https://openalex.org/W1587879115",
         "https://openalex.org/W2565515669",
         "https://openalex.org/W6824728034",
-        "https://openalex.org/W2104712884",
-        "https://openalex.org/W2188088257",
-        "https://openalex.org/W2518641950",
-        "https://openalex.org/W3109625297",
         "https://openalex.org/W2124833092",
+        "https://openalex.org/W2104712884",
+        "https://openalex.org/W3109625297",
+        "https://openalex.org/W2518641950",
+        "https://openalex.org/W2188088257",
         "https://openalex.org/W4285719527"
       ],
       "related_works": [
@@ -3927,7 +3932,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4206,8 +4213,8 @@
       "countries_distinct_count": 2,
       "institutions_distinct_count": 7,
       "corresponding_author_ids": [
-        "https://openalex.org/A5088388992",
-        "https://openalex.org/A5040857714"
+        "https://openalex.org/A5040857714",
+        "https://openalex.org/A5088388992"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -4222,7 +4229,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.73421172,
+        "value": 0.73632791,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4538,7 +4545,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4554,23 +4563,19 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8899999856948853
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": "SF19031"
+          "id": "https://openalex.org/G394724057",
+          "display_name": null,
+          "funder_award_id": "SF19031",
+          "funder_id": "https://openalex.org/F4320336956",
+          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -4622,14 +4627,14 @@
         "https://openalex.org/W2971608975",
         "https://openalex.org/W6632532228",
         "https://openalex.org/W4210554603",
+        "https://openalex.org/W4220873824",
+        "https://openalex.org/W659468049",
+        "https://openalex.org/W1542450666",
+        "https://openalex.org/W1564076024",
+        "https://openalex.org/W575777269",
         "https://openalex.org/W2183796025",
         "https://openalex.org/W2935903750",
-        "https://openalex.org/W1542450666",
-        "https://openalex.org/W2006670884",
-        "https://openalex.org/W575777269",
-        "https://openalex.org/W1564076024",
-        "https://openalex.org/W659468049",
-        "https://openalex.org/W4220873824"
+        "https://openalex.org/W2006670884"
       ],
       "related_works": [
         "https://openalex.org/W616711343",
@@ -4686,7 +4691,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4853,13 +4860,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -4896,13 +4903,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -4982,13 +4989,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -5025,13 +5032,13 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
             },
             {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Building 76, Dhahran, 31261, Saudi Arabia",
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering & Geosciences, King Fahd University of Petroleum & Minerals, Building 78, Dhahran 31261, Saudi Arabia",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
@@ -5059,7 +5066,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.73557323,
+        "value": 0.7339895,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5296,7 +5303,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5310,19 +5319,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "SF19031"
-        },
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
+          "id": "https://openalex.org/G873832165",
+          "display_name": null,
+          "funder_award_id": "SF19031",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -5395,24 +5400,24 @@
         "https://openalex.org/W2513057828",
         "https://openalex.org/W6806964430",
         "https://openalex.org/W6803482517",
-        "https://openalex.org/W3210838918",
-        "https://openalex.org/W4385889001",
-        "https://openalex.org/W2138099875",
-        "https://openalex.org/W2954889443",
         "https://openalex.org/W1972891910",
-        "https://openalex.org/W2994097002",
-        "https://openalex.org/W3178410114",
-        "https://openalex.org/W4283757143",
-        "https://openalex.org/W4293256942",
-        "https://openalex.org/W2985518597",
-        "https://openalex.org/W4386495999",
-        "https://openalex.org/W2006670884",
         "https://openalex.org/W3195332584",
-        "https://openalex.org/W2339737691",
-        "https://openalex.org/W4206497011",
-        "https://openalex.org/W4235840849",
         "https://openalex.org/W4377824556",
-        "https://openalex.org/W4234735774"
+        "https://openalex.org/W2985518597",
+        "https://openalex.org/W4235840849",
+        "https://openalex.org/W4293256942",
+        "https://openalex.org/W2994097002",
+        "https://openalex.org/W4386495999",
+        "https://openalex.org/W3178410114",
+        "https://openalex.org/W4234735774",
+        "https://openalex.org/W3210838918",
+        "https://openalex.org/W2339737691",
+        "https://openalex.org/W4283757143",
+        "https://openalex.org/W2006670884",
+        "https://openalex.org/W2138099875",
+        "https://openalex.org/W4206497011",
+        "https://openalex.org/W2954889443",
+        "https://openalex.org/W4385889001"
       ],
       "related_works": [
         "https://openalex.org/W1966018702",
@@ -5469,7 +5474,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319808"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5755,7 +5762,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.73619999,
+        "value": 0.73635353,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5978,7 +5985,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319808"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5992,13 +6001,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -6403,8 +6405,8 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 8,
       "corresponding_author_ids": [
-        "https://openalex.org/A5022552999",
-        "https://openalex.org/A5035815399"
+        "https://openalex.org/A5035815399",
+        "https://openalex.org/A5022552999"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -6415,7 +6417,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.49008201,
+        "value": 0.49327418,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6661,7 +6663,6 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -7609,7 +7610,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "repository"
         },
         "license": "cc-by",
@@ -7863,7 +7866,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.53747863,
+        "value": 0.53818593,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8192,7 +8195,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "repository"
           },
           "license": "cc-by",
@@ -8222,7 +8227,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "repository"
         },
         "license": "cc-by",
@@ -8236,11 +8243,10 @@
       "sustainable_development_goals": [
         {
           "display_name": "Life below water",
-          "score": 0.8500000238418579,
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.8500000238418579
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8273,11 +8279,11 @@
         "https://openalex.org/W2989415696",
         "https://openalex.org/W2092063754",
         "https://openalex.org/W3123103367",
-        "https://openalex.org/W1984542663",
+        "https://openalex.org/W2134242876",
         "https://openalex.org/W2188088257",
-        "https://openalex.org/W3121143574",
         "https://openalex.org/W3109625297",
-        "https://openalex.org/W2134242876"
+        "https://openalex.org/W3121143574",
+        "https://openalex.org/W1984542663"
       ],
       "related_works": [
         "https://openalex.org/W2379688619",
@@ -8997,9 +9003,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -9178,7 +9182,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02706883,
+        "value": 0.02687548,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9518,9 +9522,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -9537,16 +9539,15 @@
       "sustainable_development_goals": [
         {
           "display_name": "Sustainable cities and communities",
-          "score": 0.4099999964237213,
-          "id": "https://metadata.un.org/sdg/11"
+          "id": "https://metadata.un.org/sdg/11",
+          "score": 0.4099999964237213
         },
         {
           "display_name": "Life in Land",
-          "score": 0.4000000059604645,
-          "id": "https://metadata.un.org/sdg/15"
+          "id": "https://metadata.un.org/sdg/15",
+          "score": 0.4000000059604645
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -9561,8 +9562,8 @@
         "https://openalex.org/W2899900456",
         "https://openalex.org/W1998908429",
         "https://openalex.org/W2023398964",
-        "https://openalex.org/W4255729883",
-        "https://openalex.org/W4210965228"
+        "https://openalex.org/W4210965228",
+        "https://openalex.org/W4255729883"
       ],
       "related_works": [
         "https://openalex.org/W3106778653",
@@ -10382,11 +10383,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09392049,
+        "value": 0.09375,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10625,7 +10626,6 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -10988,7 +10988,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.45336424,
+        "value": 0.44287646,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11094,7 +11094,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {

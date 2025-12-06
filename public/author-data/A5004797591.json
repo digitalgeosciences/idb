@@ -15,7 +15,7 @@
       "Sami AlNuaim"
     ],
     "works_count": 42,
-    "cited_by_count": 270,
+    "cited_by_count": 271,
     "summary_stats": {
       "2yr_mean_citedness": 1,
       "h_index": 9,
@@ -171,7 +171,7 @@
       {
         "id": "https://openalex.org/T13050",
         "display_name": "Oil and Gas Production Techniques",
-        "value": 0.0001062,
+        "value": 0.0001058,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -205,7 +205,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.000081,
+        "value": 0.0000808,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -239,7 +239,7 @@
       {
         "id": "https://openalex.org/T14224",
         "display_name": "Oil, Gas, and Environmental Issues",
-        "value": 0.0000303,
+        "value": 0.0000301,
         "subfield": {
           "id": "https://openalex.org/subfields/2105",
           "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -283,7 +283,7 @@
         "id": "105795698",
         "wikidata": "https://www.wikidata.org/wiki/Q12483",
         "display_name": "Statistics",
-        "score": 0.27389973402023315
+        "score": 0
       }
     ],
     "counts_by_year": [
@@ -337,7 +337,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5004797591",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10"
   },
   "works": [
@@ -369,9 +369,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -549,7 +547,7 @@
       "apc_paid": null,
       "fwci": 11.04654517,
       "has_fulltext": false,
-      "cited_by_count": 47,
+      "cited_by_count": 48,
       "citation_normalized_percentile": {
         "value": 0.99254102,
         "is_in_top_1_percent": true,
@@ -823,9 +821,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -842,11 +838,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.49000000953674316,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -879,10 +874,10 @@
         "https://openalex.org/W2013645747",
         "https://openalex.org/W1998438732",
         "https://openalex.org/W2021973602",
+        "https://openalex.org/W152651262",
         "https://openalex.org/W2077009979",
         "https://openalex.org/W2034895800",
-        "https://openalex.org/W2048344652",
-        "https://openalex.org/W152651262"
+        "https://openalex.org/W2048344652"
       ],
       "related_works": [
         "https://openalex.org/W3157999811",
@@ -1736,7 +1731,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 5
+          "cited_by_count": 6
         },
         {
           "year": 2024,
@@ -1924,7 +1919,7 @@
       "has_fulltext": false,
       "cited_by_count": 32,
       "citation_normalized_percentile": {
-        "value": 0.92860942,
+        "value": 0.92865573,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2302,11 +2297,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5400000214576721,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -2328,9 +2322,9 @@
         "https://openalex.org/W4242246817",
         "https://openalex.org/W2040930140",
         "https://openalex.org/W2025905204",
-        "https://openalex.org/W2065004228",
-        "https://openalex.org/W2094100334",
         "https://openalex.org/W425359854",
+        "https://openalex.org/W2094100334",
+        "https://openalex.org/W2065004228",
         "https://openalex.org/W2148138104"
       ],
       "related_works": [
@@ -3214,7 +3208,7 @@
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.95248355,
+        "value": 0.95255206,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3497,7 +3491,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -3538,14 +3531,14 @@
         "https://openalex.org/W6666037815",
         "https://openalex.org/W6659087877",
         "https://openalex.org/W2030873289",
-        "https://openalex.org/W2062684873",
-        "https://openalex.org/W2067259779",
-        "https://openalex.org/W3040959868",
-        "https://openalex.org/W2010513984",
-        "https://openalex.org/W2010100627",
+        "https://openalex.org/W1898259180",
         "https://openalex.org/W1539648212",
         "https://openalex.org/W1507163784",
-        "https://openalex.org/W1898259180"
+        "https://openalex.org/W2067259779",
+        "https://openalex.org/W2062684873",
+        "https://openalex.org/W3040959868",
+        "https://openalex.org/W2010513984",
+        "https://openalex.org/W2010100627"
       ],
       "related_works": [
         "https://openalex.org/W4324266279",
@@ -4419,9 +4412,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -4564,7 +4555,7 @@
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.81564019,
+        "value": 0.81514658,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4905,9 +4896,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -4922,7 +4911,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -4945,8 +4933,8 @@
         "https://openalex.org/W2052800072",
         "https://openalex.org/W6660793334",
         "https://openalex.org/W2014877129",
-        "https://openalex.org/W4230149437",
         "https://openalex.org/W4285719527",
+        "https://openalex.org/W4230149437",
         "https://openalex.org/W2041688786"
       ],
       "related_works": [
@@ -5672,9 +5660,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -5835,7 +5821,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.7469164,
+        "value": 0.74703196,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6133,9 +6119,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -6152,11 +6136,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.4000000059604645,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -6178,9 +6161,9 @@
         "https://openalex.org/W4255454756",
         "https://openalex.org/W2023949362",
         "https://openalex.org/W4247022383",
-        "https://openalex.org/W2054480272",
         "https://openalex.org/W2052985205",
-        "https://openalex.org/W2078783184"
+        "https://openalex.org/W2078783184",
+        "https://openalex.org/W2054480272"
       ],
       "related_works": [
         "https://openalex.org/W2002035872",
@@ -6962,9 +6945,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -7107,7 +7088,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.88562209,
+        "value": 0.88589882,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7374,9 +7355,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -7391,7 +7370,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -7415,9 +7393,9 @@
         "https://openalex.org/W6600295006",
         "https://openalex.org/W2057596542",
         "https://openalex.org/W6639376729",
-        "https://openalex.org/W1879678483",
         "https://openalex.org/W1559005923",
-        "https://openalex.org/W1539648212"
+        "https://openalex.org/W1539648212",
+        "https://openalex.org/W1879678483"
       ],
       "related_works": [
         "https://openalex.org/W4206833511",
@@ -8190,9 +8168,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -8371,7 +8347,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.65584511,
+        "value": 0.6565841,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8691,9 +8667,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -8708,7 +8682,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8736,8 +8709,8 @@
         "https://openalex.org/W2069293862",
         "https://openalex.org/W2040957261",
         "https://openalex.org/W2091114951",
-        "https://openalex.org/W2096069328",
-        "https://openalex.org/W2543580944"
+        "https://openalex.org/W2543580944",
+        "https://openalex.org/W2096069328"
       ],
       "related_works": [
         "https://openalex.org/W986128749",
@@ -9624,9 +9597,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -9769,7 +9740,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.85980066,
+        "value": 0.85946844,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10038,9 +10009,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -10055,7 +10024,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -10722,9 +10690,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -10801,7 +10767,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.76479025,
+        "value": 0.76498027,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10982,9 +10948,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -10999,7 +10963,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -11078,9 +11041,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -11187,7 +11148,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.51094467,
+        "value": 0.51137034,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11485,9 +11446,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -11502,7 +11461,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -11525,12 +11483,12 @@
         "https://openalex.org/W2101220476",
         "https://openalex.org/W1997174216",
         "https://openalex.org/W2597848786",
-        "https://openalex.org/W4254067265",
         "https://openalex.org/W4230493282",
-        "https://openalex.org/W2111779446",
-        "https://openalex.org/W4251476040",
-        "https://openalex.org/W2082525804",
         "https://openalex.org/W1507989722",
+        "https://openalex.org/W4251476040",
+        "https://openalex.org/W4254067265",
+        "https://openalex.org/W2111779446",
+        "https://openalex.org/W2082525804",
         "https://openalex.org/W1987762800"
       ],
       "related_works": [
@@ -12194,7 +12152,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -12251,7 +12211,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.42331376,
+        "value": 0.42487236,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12509,7 +12469,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -12523,7 +12485,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -13449,9 +13410,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -13594,7 +13553,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.77482969,
+        "value": 0.77502691,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13980,9 +13939,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -13997,7 +13954,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14767,9 +14723,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -14912,7 +14866,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.58322446,
+        "value": 0.58333333,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15174,9 +15128,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -15191,7 +15143,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15263,9 +15214,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -15372,7 +15321,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.82938347,
+        "value": 0.82976467,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15763,9 +15712,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -15780,7 +15727,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15801,11 +15747,11 @@
         "https://openalex.org/W2062006835",
         "https://openalex.org/W4232180113",
         "https://openalex.org/W3022077913",
+        "https://openalex.org/W2025366304",
         "https://openalex.org/W2591950566",
+        "https://openalex.org/W4242272900",
         "https://openalex.org/W2066814083",
         "https://openalex.org/W2051906070",
-        "https://openalex.org/W2025366304",
-        "https://openalex.org/W4242272900",
         "https://openalex.org/W1985387358"
       ],
       "related_works": [
@@ -16506,7 +16452,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.83660495,
+        "value": 0.83671179,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16834,11 +16780,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5799999833106995,
-          "id": "https://metadata.un.org/sdg/8",
-          "display_name": "Decent work and economic growth"
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -16862,9 +16807,9 @@
         "https://openalex.org/W2050268989",
         "https://openalex.org/W2000997495",
         "https://openalex.org/W1997879761",
+        "https://openalex.org/W2056895698",
         "https://openalex.org/W2094100334",
-        "https://openalex.org/W1975270852",
-        "https://openalex.org/W2056895698"
+        "https://openalex.org/W1975270852"
       ],
       "related_works": [
         "https://openalex.org/W2373855248",
@@ -17744,9 +17689,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -17853,7 +17796,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.71960298,
+        "value": 0.72098976,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18094,9 +18037,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -18111,7 +18052,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -18139,19 +18079,19 @@
         "https://openalex.org/W6668363443",
         "https://openalex.org/W6650229969",
         "https://openalex.org/W1999980304",
-        "https://openalex.org/W1998196444",
-        "https://openalex.org/W1485268022",
+        "https://openalex.org/W2071075719",
+        "https://openalex.org/W4285719527",
         "https://openalex.org/W2484215240",
         "https://openalex.org/W2076422580",
-        "https://openalex.org/W2082746886",
-        "https://openalex.org/W2036682764",
-        "https://openalex.org/W1976883852",
-        "https://openalex.org/W4285719527",
-        "https://openalex.org/W1975029220",
-        "https://openalex.org/W2071075719",
         "https://openalex.org/W2005673201",
+        "https://openalex.org/W2082746886",
+        "https://openalex.org/W2027595878",
+        "https://openalex.org/W1998196444",
+        "https://openalex.org/W1975029220",
+        "https://openalex.org/W2036682764",
+        "https://openalex.org/W1485268022",
         "https://openalex.org/W3213609336",
-        "https://openalex.org/W2027595878"
+        "https://openalex.org/W1976883852"
       ],
       "related_works": [
         "https://openalex.org/W2081966820",
@@ -19283,7 +19223,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.7732699,
+        "value": 0.77345686,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19480,7 +19420,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -19575,7 +19514,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -19632,7 +19573,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.95480643,
+        "value": 0.95502395,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -19984,7 +19925,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19998,7 +19941,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -20950,9 +20892,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -21095,7 +21035,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.60861069,
+        "value": 0.60885058,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21453,9 +21393,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -21470,7 +21408,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -21519,15 +21456,15 @@
         "https://openalex.org/W1988805234",
         "https://openalex.org/W2052289610",
         "https://openalex.org/W1997292810",
-        "https://openalex.org/W2111503939",
-        "https://openalex.org/W2082097636",
         "https://openalex.org/W579236342",
         "https://openalex.org/W629479456",
+        "https://openalex.org/W2138735618",
         "https://openalex.org/W425359854",
-        "https://openalex.org/W2066552023",
+        "https://openalex.org/W2082097636",
         "https://openalex.org/W2002887158",
         "https://openalex.org/W1992392179",
-        "https://openalex.org/W2138735618",
+        "https://openalex.org/W2066552023",
+        "https://openalex.org/W2111503939",
         "https://openalex.org/W1539648212"
       ],
       "related_works": [
@@ -22226,7 +22163,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.11596201,
+        "value": 0.11572162,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22476,7 +22413,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -23111,7 +23047,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.1618032,
+        "value": 0.16169739,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23475,11 +23411,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.8399999737739563,
-          "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -23998,7 +23933,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -24055,7 +23992,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.42888207,
+        "value": 0.43044412,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24353,7 +24290,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -24367,7 +24306,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -25438,9 +25376,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -25795,9 +25731,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -25814,11 +25748,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.8199999928474426,
-          "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -25839,18 +25772,18 @@
         "https://openalex.org/W3155026544",
         "https://openalex.org/W6645813650",
         "https://openalex.org/W6667450160",
-        "https://openalex.org/W1981649459",
-        "https://openalex.org/W44285885",
-        "https://openalex.org/W1981696810",
-        "https://openalex.org/W2078091672",
         "https://openalex.org/W2005276650",
+        "https://openalex.org/W2034114571",
+        "https://openalex.org/W44285885",
+        "https://openalex.org/W2013848898",
         "https://openalex.org/W2048448681",
+        "https://openalex.org/W1981649459",
+        "https://openalex.org/W2078091672",
+        "https://openalex.org/W2087522963",
         "https://openalex.org/W2085248099",
         "https://openalex.org/W2970756265",
-        "https://openalex.org/W2018643809",
-        "https://openalex.org/W2034114571",
-        "https://openalex.org/W2013848898",
-        "https://openalex.org/W2087522963"
+        "https://openalex.org/W1981696810",
+        "https://openalex.org/W2018643809"
       ],
       "related_works": [
         "https://openalex.org/W3157999811",
@@ -26454,9 +26387,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -26890,9 +26821,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -26907,7 +26836,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -26924,8 +26852,8 @@
         "https://openalex.org/W6939933734",
         "https://openalex.org/W4242142115",
         "https://openalex.org/W3210801412",
-        "https://openalex.org/W4388881635",
-        "https://openalex.org/W4225417637"
+        "https://openalex.org/W4225417637",
+        "https://openalex.org/W4388881635"
       ],
       "related_works": [
         "https://openalex.org/W4385790734",
@@ -27993,9 +27921,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -28102,7 +28028,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.0714309,
+        "value": 0.07098584,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28478,9 +28404,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -28495,7 +28419,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -28526,10 +28449,10 @@
         "https://openalex.org/W4244589020",
         "https://openalex.org/W2000818778",
         "https://openalex.org/W4254537877",
-        "https://openalex.org/W2002427555",
         "https://openalex.org/W2036253715",
         "https://openalex.org/W2079863867",
-        "https://openalex.org/W2005809912"
+        "https://openalex.org/W2005809912",
+        "https://openalex.org/W2002427555"
       ],
       "related_works": [
         "https://openalex.org/W3121178534",
@@ -29224,9 +29147,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -29445,7 +29366,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.07479505,
+        "value": 0.07434593,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29733,9 +29654,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -29752,11 +29671,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7799999713897705,
-          "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -30309,7 +30227,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -30366,7 +30286,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.45985327,
+        "value": 0.46140287,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30731,7 +30651,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -30747,11 +30669,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.41999998688697815,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -31663,9 +31584,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -31772,7 +31691,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.63774974,
+        "value": 0.63728093,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -32031,9 +31950,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -32048,7 +31965,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -32062,8 +31978,8 @@
         "https://openalex.org/W4205949984",
         "https://openalex.org/W3103736598",
         "https://openalex.org/W1984377500",
-        "https://openalex.org/W2077937077",
-        "https://openalex.org/W1999296117"
+        "https://openalex.org/W1999296117",
+        "https://openalex.org/W2077937077"
       ],
       "related_works": [
         "https://openalex.org/W2387364627",
@@ -32664,7 +32580,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -32721,7 +32639,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.42215483,
+        "value": 0.4230862,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33036,7 +32954,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -33050,7 +32970,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -34153,9 +34072,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -34298,7 +34215,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.64511041,
+        "value": 0.64471588,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34574,9 +34491,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -34593,11 +34508,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5199999809265137,
-          "id": "https://metadata.un.org/sdg/8",
-          "display_name": "Decent work and economic growth"
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -35445,7 +35359,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -35502,7 +35418,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.67242134,
+        "value": 0.67326887,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35772,7 +35688,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -35788,11 +35706,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.6100000143051147,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -36853,7 +36770,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -36910,7 +36829,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.43603552,
+        "value": 0.43755572,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37208,7 +37127,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -37222,7 +37143,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -38315,7 +38235,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -38372,7 +38294,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.09622695,
+        "value": 0.09615595,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -38601,7 +38523,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -38617,11 +38541,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5299999713897705,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -39725,7 +39648,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -39782,7 +39707,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.02873797,
+        "value": 0.02949773,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -40078,7 +40003,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -40094,11 +40021,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7300000190734863,
-          "id": "https://metadata.un.org/sdg/1",
-          "display_name": "No poverty"
+          "display_name": "No poverty",
+          "id": "https://metadata.un.org/sdg/1"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -41357,7 +41283,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.5584843,
+        "value": 0.56026578,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -41719,7 +41645,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -41747,10 +41672,10 @@
         "https://openalex.org/W2062006835",
         "https://openalex.org/W2000818778",
         "https://openalex.org/W2028654775",
-        "https://openalex.org/W2053346601",
         "https://openalex.org/W2051906070",
-        "https://openalex.org/W2089245405",
-        "https://openalex.org/W4234374506"
+        "https://openalex.org/W2053346601",
+        "https://openalex.org/W4234374506",
+        "https://openalex.org/W2089245405"
       ],
       "related_works": [
         "https://openalex.org/W3122794661",
@@ -42469,9 +42394,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -42614,7 +42537,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.07185551,
+        "value": 0.07140993,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -42979,9 +42902,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -42996,7 +42917,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -43017,9 +42937,9 @@
         "https://openalex.org/W2011969685",
         "https://openalex.org/W2127919606",
         "https://openalex.org/W2044290428",
-        "https://openalex.org/W2002427555",
         "https://openalex.org/W2089485022",
-        "https://openalex.org/W4254537877"
+        "https://openalex.org/W4254537877",
+        "https://openalex.org/W2002427555"
       ],
       "related_works": [
         "https://openalex.org/W57268378",
@@ -43792,9 +43712,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -43937,7 +43855,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.68743306,
+        "value": 0.68774562,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44206,9 +44124,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -44225,11 +44141,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5,
-          "id": "https://metadata.un.org/sdg/8",
-          "display_name": "Decent work and economic growth"
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -44621,9 +44536,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -45049,9 +44962,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -45068,11 +44979,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.6000000238418579,
-          "id": "https://metadata.un.org/sdg/8",
-          "display_name": "Decent work and economic growth"
+          "display_name": "Decent work and economic growth",
+          "id": "https://metadata.un.org/sdg/8"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -45088,15 +44998,15 @@
         "https://openalex.org/W1964755599",
         "https://openalex.org/W6648269024",
         "https://openalex.org/W6685140977",
-        "https://openalex.org/W1994495124",
-        "https://openalex.org/W2082295089",
-        "https://openalex.org/W2149873147",
         "https://openalex.org/W1976048053",
+        "https://openalex.org/W2149873147",
+        "https://openalex.org/W1994495124",
         "https://openalex.org/W4231284449",
-        "https://openalex.org/W2174997299",
+        "https://openalex.org/W1974092080",
         "https://openalex.org/W2022156531",
         "https://openalex.org/W1990476081",
-        "https://openalex.org/W1974092080"
+        "https://openalex.org/W2082295089",
+        "https://openalex.org/W2174997299"
       ],
       "related_works": [
         "https://openalex.org/W3095032300",
@@ -45940,7 +45850,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -45997,7 +45909,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17914323,
+        "value": 0.17907878,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -46214,7 +46126,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -46230,11 +46144,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.4699999988079071,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -47288,7 +47201,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -47345,7 +47260,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.1194981,
+        "value": 0.11937811,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -47700,7 +47615,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -47714,7 +47631,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -48753,7 +48669,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4322614974"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Society of Petroleum Engineers"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -48810,7 +48728,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.01463206,
+        "value": 0.01481076,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -49072,7 +48990,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4322614974"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Society of Petroleum Engineers"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -49088,11 +49008,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.4300000071525574,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -50303,7 +50222,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17326498,
+        "value": 0.17285092,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -50638,7 +50557,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -50673,9 +50591,9 @@
         "https://openalex.org/W2885337643",
         "https://openalex.org/W6629751701",
         "https://openalex.org/W2076955006",
-        "https://openalex.org/W1490086197",
         "https://openalex.org/W2806997003",
-        "https://openalex.org/W2058772564"
+        "https://openalex.org/W2058772564",
+        "https://openalex.org/W1490086197"
       ],
       "related_works": [
         "https://openalex.org/W4378230775",

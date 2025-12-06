@@ -353,7 +353,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -607,7 +609,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.76418627,
+        "value": 0.76473934,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -879,7 +881,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -894,16 +898,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.75,
-          "id": "https://metadata.un.org/sdg/6"
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320324706",
-          "funder_display_name": "Saudi Aramco",
-          "award_id": null
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -915,8 +912,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 19,
       "referenced_works": [
@@ -1001,7 +998,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1220,7 +1219,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.54422451,
+        "value": 0.54565007,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1503,7 +1502,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1546,12 +1547,11 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 31,
       "referenced_works": [
@@ -2271,7 +2271,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2324,14 +2326,14 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "Department of Chemical Engineering",
-              "institution_ids": []
-            },
-            {
               "raw_affiliation_string": "KFUPM",
               "institution_ids": [
                 "https://openalex.org/I134085113"
               ]
+            },
+            {
+              "raw_affiliation_string": "Department of Chemical Engineering",
+              "institution_ids": []
             }
           ]
         },
@@ -2406,14 +2408,14 @@
           ],
           "affiliations": [
             {
+              "raw_affiliation_string": "Department of Chemistry",
+              "institution_ids": []
+            },
+            {
               "raw_affiliation_string": "University of Houston",
               "institution_ids": [
                 "https://openalex.org/I44461941"
               ]
-            },
-            {
-              "raw_affiliation_string": "Department of Chemistry",
-              "institution_ids": []
             }
           ]
         },
@@ -2458,15 +2460,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "CIPR, College of Petroleum & Geosciences",
-              "institution_ids": [
-                "https://openalex.org/I4210118538"
-              ]
-            },
-            {
               "raw_affiliation_string": "KFUPM",
               "institution_ids": [
                 "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "CIPR, College of Petroleum & Geosciences",
+              "institution_ids": [
+                "https://openalex.org/I4210118538"
               ]
             }
           ]
@@ -2512,15 +2514,15 @@
           ],
           "affiliations": [
             {
-              "raw_affiliation_string": "CIPR, College of Petroleum & Geosciences",
-              "institution_ids": [
-                "https://openalex.org/I4210118538"
-              ]
-            },
-            {
               "raw_affiliation_string": "KFUPM",
               "institution_ids": [
                 "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "CIPR, College of Petroleum & Geosciences",
+              "institution_ids": [
+                "https://openalex.org/I4210118538"
               ]
             }
           ]
@@ -2645,7 +2647,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.86081632,
+        "value": 0.86292278,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2963,7 +2965,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3007,17 +3011,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.7200000286102295,
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 56,
       "referenced_works": [
@@ -3688,9 +3691,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -3871,7 +3872,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.6152689,
+        "value": 0.61451674,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4169,9 +4170,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -4187,17 +4186,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6",
           "score": 0.6700000166893005,
-          "id": "https://metadata.un.org/sdg/6"
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 6,
       "referenced_works": [
@@ -4899,11 +4897,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0315292,
+        "value": 0.03150585,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5206,12 +5204,11 @@
         "raw_type": "posted-content"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -5259,9 +5256,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -5740,9 +5735,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -5758,17 +5751,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
           "score": 0.7200000286102295,
-          "id": "https://metadata.un.org/sdg/14"
+          "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "referenced_works_count": 4,
       "referenced_works": [

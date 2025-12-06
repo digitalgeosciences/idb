@@ -126,17 +126,17 @@
         }
       },
       {
-        "id": "https://openalex.org/T10643",
-        "display_name": "Marine and coastal plant biology",
+        "id": "https://openalex.org/T10341",
+        "display_name": "Coral and Marine Ecosystems Studies",
         "count": 1,
-        "score": 0.991599977016449,
+        "score": 0.9965999722480774,
         "subfield": {
-          "id": "https://openalex.org/subfields/1910",
-          "display_name": "Oceanography"
+          "id": "https://openalex.org/subfields/2303",
+          "display_name": "Ecology"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -254,13 +254,13 @@
         "id": "111368507",
         "wikidata": "https://www.wikidata.org/wiki/Q43518",
         "display_name": "Oceanography",
-        "score": 0.6609413027763367
+        "score": 0.3506256937980652
       },
       {
         "id": "111368507",
         "wikidata": "https://www.wikidata.org/wiki/Q43518",
         "display_name": "Oceanography",
-        "score": 0.6728163957595825
+        "score": 0.5334368348121643
       }
     ],
     "counts_by_year": [
@@ -308,7 +308,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5025816670",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T06:51:31.235846",
     "created_date": "2020-12-07"
   },
   "works": [
@@ -346,7 +346,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -464,7 +466,7 @@
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.93277501,
+        "value": 0.93333833,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -759,7 +761,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -779,12 +783,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -1360,7 +1363,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310321534"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Malaysia"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1493,7 +1498,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.88943798,
+        "value": 0.89060169,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1744,7 +1749,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310321534"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of Malaysia"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1835,7 +1842,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310321534"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Malaysia"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1853,12 +1862,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -2539,7 +2547,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316755"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Cushman Foundation for Foraminiferal Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2828,7 +2838,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.76198271,
+        "value": 0.76979199,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3125,7 +3135,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316755"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Cushman Foundation for Foraminiferal Research"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3174,12 +3186,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 72,
       "referenced_works": [
@@ -3238,23 +3249,23 @@
         "https://openalex.org/W2111347924",
         "https://openalex.org/W2147440792",
         "https://openalex.org/W2025301696",
-        "https://openalex.org/W1590632801",
-        "https://openalex.org/W306889123",
-        "https://openalex.org/W3120222657",
-        "https://openalex.org/W1921992103",
-        "https://openalex.org/W2335693598",
         "https://openalex.org/W2739555314",
-        "https://openalex.org/W2144267890",
-        "https://openalex.org/W2409088644",
-        "https://openalex.org/W2544934345",
-        "https://openalex.org/W2770861395",
-        "https://openalex.org/W1971346443",
-        "https://openalex.org/W612211758",
-        "https://openalex.org/W2572634414",
+        "https://openalex.org/W2335693598",
         "https://openalex.org/W2332237006",
+        "https://openalex.org/W1971346443",
+        "https://openalex.org/W2572634414",
+        "https://openalex.org/W612211758",
+        "https://openalex.org/W306889123",
+        "https://openalex.org/W2770861395",
+        "https://openalex.org/W1921992103",
         "https://openalex.org/W593338328",
+        "https://openalex.org/W1590632801",
+        "https://openalex.org/W2144267890",
+        "https://openalex.org/W2544934345",
         "https://openalex.org/W3030875661",
-        "https://openalex.org/W2532923993"
+        "https://openalex.org/W2532923993",
+        "https://openalex.org/W2409088644",
+        "https://openalex.org/W3120222657"
       ],
       "related_works": [
         "https://openalex.org/W2403591496",
@@ -3742,7 +3753,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310321534"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Malaysia"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3847,7 +3860,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.77493927,
+        "value": 0.77722526,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4060,7 +4073,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310321534"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of Malaysia"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4070,35 +4085,6 @@
           "is_published": true,
           "raw_source_name": "Bulletin Of The Geological Society Of Malaysia",
           "raw_type": "journal-article"
-        },
-        {
-          "id": "pmh:oai:serval.unil.ch:BIB_850378C88BB8",
-          "is_oa": false,
-          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_850378C88BB8",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401797",
-            "display_name": "SERVAL (Université de Lausanne)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I4210093590",
-            "host_organization_name": "Swiss School of Archaeology in Greece",
-            "host_organization_lineage": [
-              "https://openalex.org/I4210093590"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Bulletin of the Geological Society of Malaysia, vol. 70, pp. 139–151",
-          "raw_type": "article"
         },
         {
           "id": "pmh:oai:iris.unige.it:11567/1031858",
@@ -4128,6 +4114,35 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "pmh:oai:serval.unil.ch:BIB_850378C88BB8",
+          "is_oa": false,
+          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_850378C88BB8",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401797",
+            "display_name": "SERVAL (Université de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4210093590",
+            "host_organization_name": "Swiss School of Archaeology in Greece",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210093590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Bulletin of the Geological Society of Malaysia, vol. 70, pp. 139–151",
+          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -4151,7 +4166,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310321534"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Malaysia"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4169,12 +4186,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -4754,9 +4770,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -4861,7 +4875,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.81149306,
+        "value": 0.81412545,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5084,9 +5098,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -5165,12 +5177,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -5734,9 +5745,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -5869,7 +5878,7 @@
       "has_fulltext": false,
       "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.78323426,
+        "value": 0.78624851,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6077,9 +6086,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -6090,35 +6097,6 @@
           "is_published": true,
           "raw_source_name": "Palaeontographica Abteilung A",
           "raw_type": "journal-article"
-        },
-        {
-          "id": "pmh:oai:serval.unil.ch:BIB_025C894D1DD4",
-          "is_oa": false,
-          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_025C894D1DD4",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401797",
-            "display_name": "SERVAL (Université de Lausanne)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I4210093590",
-            "host_organization_name": "Swiss School of Archaeology in Greece",
-            "host_organization_lineage": [
-              "https://openalex.org/I4210093590"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Palaeontographica Abteilung A, vol. 318, no. 5-6, pp. 129-223",
-          "raw_type": "article"
         },
         {
           "id": "pmh:oai:iris.unige.it:11567/1051949",
@@ -6148,6 +6126,35 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "pmh:oai:serval.unil.ch:BIB_025C894D1DD4",
+          "is_oa": false,
+          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_025C894D1DD4",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401797",
+            "display_name": "SERVAL (Université de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4210093590",
+            "host_organization_name": "Swiss School of Archaeology in Greece",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210093590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Palaeontographica Abteilung A, vol. 318, no. 5-6, pp. 129-223",
+          "raw_type": "article"
         }
       ],
       "best_oa_location": null,
@@ -6158,12 +6165,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -6791,7 +6797,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -7018,7 +7026,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.69786654,
+        "value": 0.70995181,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7300,7 +7308,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -7341,35 +7351,6 @@
           "raw_type": "info:eu-repo/semantics/publishedVersion"
         },
         {
-          "id": "pmh:oai:serval.unil.ch:BIB_27F9E3E28B2B",
-          "is_oa": false,
-          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_27F9E3E28B2B",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401797",
-            "display_name": "SERVAL (Université de Lausanne)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I4210093590",
-            "host_organization_name": "Swiss School of Archaeology in Greece",
-            "host_organization_lineage": [
-              "https://openalex.org/I4210093590"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "proceedings"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:a3ef3015aa1d4ac591fee24f629f0f7e",
           "is_oa": false,
           "landing_page_url": "https://doaj.org/article/a3ef3015aa1d4ac591fee24f629f0f7e",
@@ -7384,9 +7365,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -7426,6 +7405,35 @@
           "is_published": false,
           "raw_source_name": "Diversity; Volume 15; Issue 8; Pages: 937",
           "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:serval.unil.ch:BIB_27F9E3E28B2B",
+          "is_oa": false,
+          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_27F9E3E28B2B",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401797",
+            "display_name": "SERVAL (Université de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4210093590",
+            "host_organization_name": "Swiss School of Archaeology in Greece",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210093590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "proceedings"
         }
       ],
       "best_oa_location": {
@@ -7448,7 +7456,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -7466,14 +7476,15 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320311019",
-          "funder_display_name": "Universiti Brunei Darussalam",
-          "award_id": "[UBD/RSCH/1.4/FICBF(b)/2021/033]"
+          "id": "https://openalex.org/G7664425703",
+          "display_name": null,
+          "funder_award_id": "[UBD/RSCH/1.4/FICBF(b)/2021/033]",
+          "funder_id": "https://openalex.org/F4320311019",
+          "funder_display_name": "Universiti Brunei Darussalam"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320311019",
@@ -7482,8 +7493,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "referenced_works_count": 57,
       "referenced_works": [
@@ -7542,8 +7553,8 @@
         "https://openalex.org/W2077849516",
         "https://openalex.org/W209371986",
         "https://openalex.org/W2477629636",
-        "https://openalex.org/W2739555314",
-        "https://openalex.org/W2409088644"
+        "https://openalex.org/W2409088644",
+        "https://openalex.org/W2739555314"
       ],
       "related_works": [
         "https://openalex.org/W849327309",
@@ -8224,7 +8235,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -8342,7 +8355,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.87276739,
+        "value": 0.87343846,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -8569,7 +8582,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -8618,12 +8633,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -9351,7 +9365,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -9427,7 +9443,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.69863014,
+        "value": 0.70287268,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9705,7 +9721,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -9754,12 +9772,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -10148,7 +10165,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.78014184,
+        "value": 0.7821137,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10356,12 +10373,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -10409,9 +10425,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -10528,7 +10542,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.4522293,
+        "value": 0.45052632,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10739,9 +10753,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -10762,12 +10774,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -10808,9 +10819,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -10927,7 +10936,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.40425532,
+        "value": 0.40124335,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11100,9 +11109,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -11123,12 +11130,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -11187,9 +11193,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -11416,9 +11420,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -11466,12 +11468,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -11595,7 +11596,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08460412,
+        "value": 0.08312086,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11775,35 +11776,6 @@
           "raw_type": "posted-content"
         },
         {
-          "id": "pmh:oai:serval.unil.ch:BIB_80981CEE41F2",
-          "is_oa": false,
-          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_80981CEE41F2",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401797",
-            "display_name": "SERVAL (Université de Lausanne)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I4210093590",
-            "host_organization_name": "Swiss School of Archaeology in Greece",
-            "host_organization_lineage": [
-              "https://openalex.org/I4210093590"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-7479",
-          "raw_type": "inproceedings"
-        },
-        {
           "id": "pmh:oai:iris.unige.it:11567/1063246",
           "is_oa": false,
           "landing_page_url": "http://hdl.handle.net/11567/1063246",
@@ -11831,6 +11803,35 @@
           "is_published": false,
           "raw_source_name": "",
           "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "pmh:oai:serval.unil.ch:BIB_80981CEE41F2",
+          "is_oa": false,
+          "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_80981CEE41F2",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401797",
+            "display_name": "SERVAL (Université de Lausanne)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I4210093590",
+            "host_organization_name": "Swiss School of Archaeology in Greece",
+            "host_organization_lineage": [
+              "https://openalex.org/I4210093590"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-7479",
+          "raw_type": "inproceedings"
         }
       ],
       "best_oa_location": {
@@ -11854,12 +11855,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -12462,7 +12462,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.11001982,
+        "value": 0.10827809,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12786,12 +12786,11 @@
           "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "referenced_works_count": 0,
       "referenced_works": [],

@@ -364,7 +364,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -654,9 +656,9 @@
       "apc_paid": null,
       "fwci": 6.49376882,
       "has_fulltext": false,
-      "cited_by_count": 93,
+      "cited_by_count": 94,
       "citation_normalized_percentile": {
-        "value": 0.97548756,
+        "value": 0.97552541,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -843,7 +845,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -888,11 +892,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.5799999833106995,
-          "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "id": "https://metadata.un.org/sdg/9",
+          "display_name": "Industry, innovation and infrastructure"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -1050,13 +1053,13 @@
         "https://openalex.org/W2604397249",
         "https://openalex.org/W2941484375",
         "https://openalex.org/W1599984600",
-        "https://openalex.org/W1544840507",
-        "https://openalex.org/W1965006735",
-        "https://openalex.org/W1484952703",
-        "https://openalex.org/W1961461001",
-        "https://openalex.org/W146372860",
         "https://openalex.org/W3011163803",
-        "https://openalex.org/W264839230"
+        "https://openalex.org/W1484952703",
+        "https://openalex.org/W1965006735",
+        "https://openalex.org/W1544840507",
+        "https://openalex.org/W264839230",
+        "https://openalex.org/W146372860",
+        "https://openalex.org/W1961461001"
       ],
       "related_works": [
         "https://openalex.org/W1975048310",
@@ -1680,7 +1683,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 18
+          "cited_by_count": 19
         },
         {
           "year": 2024,
@@ -1736,7 +1739,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2024,9 +2029,9 @@
       "apc_paid": null,
       "fwci": 6.61683027,
       "has_fulltext": false,
-      "cited_by_count": 51,
+      "cited_by_count": 53,
       "citation_normalized_percentile": {
-        "value": 0.96899155,
+        "value": 0.969123,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -2311,7 +2316,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -2325,13 +2332,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -2380,17 +2380,17 @@
         "https://openalex.org/W2922390815",
         "https://openalex.org/W2122767913",
         "https://openalex.org/W6831487290",
+        "https://openalex.org/W2114185128",
         "https://openalex.org/W2037652903",
-        "https://openalex.org/W2767963245",
+        "https://openalex.org/W2081594998",
         "https://openalex.org/W2007614864",
         "https://openalex.org/W2952701526",
-        "https://openalex.org/W4302344771",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2269184053",
-        "https://openalex.org/W1985574842",
+        "https://openalex.org/W2767963245",
         "https://openalex.org/W2116982362",
-        "https://openalex.org/W2114185128",
-        "https://openalex.org/W2081594998"
+        "https://openalex.org/W4302344771",
+        "https://openalex.org/W1985574842",
+        "https://openalex.org/W2269184053"
       ],
       "related_works": [
         "https://openalex.org/W1990810545",
@@ -2408,7 +2408,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 5
+          "cited_by_count": 7
         },
         {
           "year": 2024,
@@ -2472,7 +2472,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2618,7 +2620,7 @@
       "has_fulltext": false,
       "cited_by_count": 50,
       "citation_normalized_percentile": {
-        "value": 0.88091908,
+        "value": 0.88099699,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2874,7 +2876,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -2890,11 +2894,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7799999713897705,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -2948,9 +2951,9 @@
         "https://openalex.org/W1998580543",
         "https://openalex.org/W2048883976",
         "https://openalex.org/W2023729534",
-        "https://openalex.org/W2033134905",
+        "https://openalex.org/W2060690594",
         "https://openalex.org/W2122309892",
-        "https://openalex.org/W2060690594"
+        "https://openalex.org/W2033134905"
       ],
       "related_works": [
         "https://openalex.org/W757470175",
@@ -3040,7 +3043,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -3293,9 +3298,9 @@
       "apc_paid": null,
       "fwci": 2.7630705,
       "has_fulltext": false,
-      "cited_by_count": 19,
+      "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.8944915,
+        "value": 0.89502729,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3608,7 +3613,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -3641,7 +3648,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -3653,7 +3662,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -3709,13 +3717,13 @@
         "https://openalex.org/W2047823712",
         "https://openalex.org/W2895315430",
         "https://openalex.org/W2892967926",
-        "https://openalex.org/W2485076753",
         "https://openalex.org/W2269361011",
-        "https://openalex.org/W1996353249",
-        "https://openalex.org/W2091817266",
         "https://openalex.org/W2060312056",
-        "https://openalex.org/W2023589352",
-        "https://openalex.org/W1978803201"
+        "https://openalex.org/W1996353249",
+        "https://openalex.org/W2485076753",
+        "https://openalex.org/W1978803201",
+        "https://openalex.org/W2091817266",
+        "https://openalex.org/W2023589352"
       ],
       "related_works": [
         "https://openalex.org/W2899084033",
@@ -4161,7 +4169,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 3
+          "cited_by_count": 4
         },
         {
           "year": 2024,
@@ -4178,6 +4186,628 @@
         {
           "year": 2021,
           "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2025-11-06T03:46:38.306776",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3139415666",
+      "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
+      "title": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
+      "display_name": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
+      "publication_year": 2021,
+      "publication_date": "2021-03-18",
+      "ids": {
+        "openalex": "https://openalex.org/W3139415666",
+        "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
+        "mag": "3139415666"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.jngse.2021.103917",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.jngse.2021.103917",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S125705681",
+          "display_name": "Journal of Natural Gas Science and Engineering",
+          "issn_l": "1875-5100",
+          "issn": [
+            "1875-5100",
+            "2212-3865"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Natural Gas Science and Engineering",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5040857714",
+            "display_name": "Hassan A. Eltom",
+            "orcid": "https://orcid.org/0000-0002-3515-0127"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Hassan A. Eltom",
+          "raw_affiliation_strings": [
+            "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5035537771",
+            "display_name": "Abdullah Alqubalee",
+            "orcid": "https://orcid.org/0000-0002-0543-9026"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Abdullah M. Alqubalee",
+          "raw_affiliation_strings": [
+            "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5023484800",
+            "display_name": "Abdullah S. Sultan",
+            "orcid": "https://orcid.org/0000-0001-9617-4678"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Abdullah S. Sultan",
+          "raw_affiliation_strings": [
+            "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5113878758",
+            "display_name": "Assad Barri",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Assad A. Barri",
+          "raw_affiliation_strings": [
+            "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5000230700",
+            "display_name": "Khalid Abdelbasit",
+            "orcid": "https://orcid.org/0000-0003-0276-7777"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Khalid Abdelbasit",
+          "raw_affiliation_strings": [
+            "Mechanical Engineering Department, College of Engineering and Sciences and Applied Engineering, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
+          ],
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Mechanical Engineering Department, College of Engineering and Sciences and Applied Engineering, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 5,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5040857714",
+        "https://openalex.org/A5035537771"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.93400027,
+      "has_fulltext": false,
+      "cited_by_count": 19,
+      "citation_normalized_percentile": {
+        "value": 0.83868712,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 90,
+        "max": 99
+      },
+      "biblio": {
+        "volume": "90",
+        "issue": null,
+        "first_page": "103917",
+        "last_page": "103917"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10399",
+        "display_name": "Hydrocarbon exploration and reservoir analysis",
+        "score": 1,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "score": 1,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2211",
+            "display_name": "Mechanics of Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10635",
+          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10491",
+          "display_name": "Enhanced Oil Recovery Techniques",
+          "score": 0.9993000030517578,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.7324477434158325
+        },
+        {
+          "id": "https://openalex.org/keywords/permeability",
+          "display_name": "Permeability (electromagnetism)",
+          "score": 0.6967377066612244
+        },
+        {
+          "id": "https://openalex.org/keywords/petrography",
+          "display_name": "Petrography",
+          "score": 0.6926135420799255
+        },
+        {
+          "id": "https://openalex.org/keywords/porosity",
+          "display_name": "Porosity",
+          "score": 0.5145982503890991
+        },
+        {
+          "id": "https://openalex.org/keywords/burrow",
+          "display_name": "Burrow",
+          "score": 0.4461280107498169
+        },
+        {
+          "id": "https://openalex.org/keywords/petrology",
+          "display_name": "Petrology",
+          "score": 0.3850717842578888
+        },
+        {
+          "id": "https://openalex.org/keywords/mineralogy",
+          "display_name": "Mineralogy",
+          "score": 0.32597050070762634
+        },
+        {
+          "id": "https://openalex.org/keywords/geotechnical-engineering",
+          "display_name": "Geotechnical engineering",
+          "score": 0.2672002911567688
+        },
+        {
+          "id": "https://openalex.org/keywords/paleontology",
+          "display_name": "Paleontology",
+          "score": 0.13958686590194702
+        },
+        {
+          "id": "https://openalex.org/keywords/chemistry",
+          "display_name": "Chemistry",
+          "score": 0.06945061683654785
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.7324477434158325
+        },
+        {
+          "id": "https://openalex.org/C120882062",
+          "wikidata": "https://www.wikidata.org/wiki/Q28352",
+          "display_name": "Permeability (electromagnetism)",
+          "level": 3,
+          "score": 0.6967377066612244
+        },
+        {
+          "id": "https://openalex.org/C59235061",
+          "wikidata": "https://www.wikidata.org/wiki/Q289600",
+          "display_name": "Petrography",
+          "level": 2,
+          "score": 0.6926135420799255
+        },
+        {
+          "id": "https://openalex.org/C6648577",
+          "wikidata": "https://www.wikidata.org/wiki/Q622669",
+          "display_name": "Porosity",
+          "level": 2,
+          "score": 0.5145982503890991
+        },
+        {
+          "id": "https://openalex.org/C175422226",
+          "wikidata": "https://www.wikidata.org/wiki/Q1410542",
+          "display_name": "Burrow",
+          "level": 2,
+          "score": 0.4461280107498169
+        },
+        {
+          "id": "https://openalex.org/C5900021",
+          "wikidata": "https://www.wikidata.org/wiki/Q163082",
+          "display_name": "Petrology",
+          "level": 1,
+          "score": 0.3850717842578888
+        },
+        {
+          "id": "https://openalex.org/C199289684",
+          "wikidata": "https://www.wikidata.org/wiki/Q83353",
+          "display_name": "Mineralogy",
+          "level": 1,
+          "score": 0.32597050070762634
+        },
+        {
+          "id": "https://openalex.org/C187320778",
+          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+          "display_name": "Geotechnical engineering",
+          "level": 1,
+          "score": 0.2672002911567688
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.13958686590194702
+        },
+        {
+          "id": "https://openalex.org/C185592680",
+          "wikidata": "https://www.wikidata.org/wiki/Q2329",
+          "display_name": "Chemistry",
+          "level": 0,
+          "score": 0.06945061683654785
+        },
+        {
+          "id": "https://openalex.org/C41625074",
+          "wikidata": "https://www.wikidata.org/wiki/Q176088",
+          "display_name": "Membrane",
+          "level": 2,
+          "score": 0
+        },
+        {
+          "id": "https://openalex.org/C55493867",
+          "wikidata": "https://www.wikidata.org/wiki/Q7094",
+          "display_name": "Biochemistry",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.jngse.2021.103917",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1016/j.jngse.2021.103917",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S125705681",
+            "display_name": "Journal of Natural Gas Science and Engineering",
+            "issn_l": "1875-5100",
+            "issn": [
+              "1875-5100",
+              "2212-3865"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Natural Gas Science and Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "score": 0.5099999904632568,
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
+        },
+        {
+          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
+        }
+      ],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "referenced_works_count": 38,
+      "referenced_works": [
+        "https://openalex.org/W2990128836",
+        "https://openalex.org/W2601810315",
+        "https://openalex.org/W2044778400",
+        "https://openalex.org/W2093730098",
+        "https://openalex.org/W6658268894",
+        "https://openalex.org/W6680289203",
+        "https://openalex.org/W2048410163",
+        "https://openalex.org/W6778671313",
+        "https://openalex.org/W3035028305",
+        "https://openalex.org/W2923992571",
+        "https://openalex.org/W2766559441",
+        "https://openalex.org/W2013432809",
+        "https://openalex.org/W2606002868",
+        "https://openalex.org/W2133990480",
+        "https://openalex.org/W2944267028",
+        "https://openalex.org/W2954735392",
+        "https://openalex.org/W2992184602",
+        "https://openalex.org/W2113648463",
+        "https://openalex.org/W2068223601",
+        "https://openalex.org/W2684577149",
+        "https://openalex.org/W2076098565",
+        "https://openalex.org/W2192490761",
+        "https://openalex.org/W1963487408",
+        "https://openalex.org/W6681384688",
+        "https://openalex.org/W2277390287",
+        "https://openalex.org/W2167279371",
+        "https://openalex.org/W1975115126",
+        "https://openalex.org/W2555546878",
+        "https://openalex.org/W2143999902",
+        "https://openalex.org/W195523536",
+        "https://openalex.org/W597470951",
+        "https://openalex.org/W2138099875",
+        "https://openalex.org/W1977123972",
+        "https://openalex.org/W3102597749",
+        "https://openalex.org/W3030653473",
+        "https://openalex.org/W2494602570",
+        "https://openalex.org/W2079538932",
+        "https://openalex.org/W2029837300"
+      ],
+      "related_works": [
+        "https://openalex.org/W2141217927",
+        "https://openalex.org/W2988910414",
+        "https://openalex.org/W4305072486",
+        "https://openalex.org/W1995654536",
+        "https://openalex.org/W2030154654",
+        "https://openalex.org/W596005183",
+        "https://openalex.org/W2187776112",
+        "https://openalex.org/W2189087700",
+        "https://openalex.org/W1195254246",
+        "https://openalex.org/W1969352637"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
@@ -4216,7 +4846,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -4372,7 +5004,7 @@
       "has_fulltext": false,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.88718503,
+        "value": 0.88718403,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -4606,7 +5238,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -4647,6 +5281,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:33393cd4ae6849629bd8ae814329f920",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/33393cd4ae6849629bd8ae814329f920",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "ACS Omega, Vol 7, Iss 10, Pp 8938-8949 (2022)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:pubmedcentral.nih.gov:8928500",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8928500",
@@ -4674,35 +5335,6 @@
           "is_published": false,
           "raw_source_name": "ACS Omega",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:33393cd4ae6849629bd8ae814329f920",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/33393cd4ae6849629bd8ae814329f920",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "ACS Omega, Vol 7, Iss 10, Pp 8938-8949 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -4725,7 +5357,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -4739,18 +5373,19 @@
       "sustainable_development_goals": [
         {
           "score": 0.7599999904632568,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322997",
-          "funder_display_name": "King Abdulaziz City for Science and Technology",
-          "award_id": "NSTIP-13-Oil-151-04"
+          "id": "https://openalex.org/G3538451584",
+          "display_name": null,
+          "funder_award_id": "NSTIP-13-Oil-151-04",
+          "funder_id": "https://openalex.org/F4320322997",
+          "funder_display_name": "King Abdulaziz City for Science and Technology"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322997",
@@ -5567,7 +6202,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -5848,8 +6485,8 @@
       "countries_distinct_count": 1,
       "institutions_distinct_count": 7,
       "corresponding_author_ids": [
-        "https://openalex.org/A5081101199",
-        "https://openalex.org/A5005252413"
+        "https://openalex.org/A5005252413",
+        "https://openalex.org/A5081101199"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -5868,7 +6505,7 @@
       "has_fulltext": true,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.88330364,
+        "value": 0.88332437,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -6135,7 +6772,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310310987"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -6176,35 +6815,6 @@
           "raw_type": null
         },
         {
-          "id": "pmh:oai:pubmedcentral.nih.gov:9657942",
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9657942",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "other-oa",
-          "license_id": "https://openalex.org/licenses/other-oa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Polymers (Basel)",
-          "raw_type": "Text"
-        },
-        {
           "id": "pmh:oai:doaj.org/article:6c258deb6bae4bbab28d3ef55238807d",
           "is_oa": true,
           "landing_page_url": "https://doaj.org/article/6c258deb6bae4bbab28d3ef55238807d",
@@ -6219,9 +6829,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -6261,6 +6869,35 @@
           "is_published": false,
           "raw_source_name": "Polymers; Volume 14; Issue 21; Pages: 4621",
           "raw_type": "Text"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:9657942",
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9657942",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Polymers (Basel)",
+          "raw_type": "Text"
         }
       ],
       "best_oa_location": {
@@ -6283,7 +6920,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310310987"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -6297,11 +6936,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7900000214576721,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -6969,7 +7607,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -7295,7 +7935,7 @@
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.84334353,
+        "value": 0.84334917,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -7606,7 +8246,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -7620,14 +8262,15 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": "SR-211014"
+          "id": "https://openalex.org/G2392440625",
+          "display_name": null,
+          "funder_award_id": "SR-211014",
+          "funder_id": "https://openalex.org/F4320322323",
+          "funder_display_name": "King Fahd University of Petroleum and Minerals"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -7695,8 +8338,8 @@
         "https://openalex.org/W3167574189",
         "https://openalex.org/W3215383046",
         "https://openalex.org/W2744307344",
-        "https://openalex.org/W4387554293",
-        "https://openalex.org/W167776123"
+        "https://openalex.org/W167776123",
+        "https://openalex.org/W4387554293"
       ],
       "related_works": [
         "https://openalex.org/W2508255706",
@@ -8285,7 +8928,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316053"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "ASM International"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -8421,8 +9066,8 @@
       "institutions_distinct_count": 3,
       "corresponding_author_ids": [
         "https://openalex.org/A5049649985",
-        "https://openalex.org/A5113878758",
-        "https://openalex.org/A5046818830"
+        "https://openalex.org/A5046818830",
+        "https://openalex.org/A5113878758"
       ],
       "corresponding_institution_ids": [
         "https://openalex.org/I134085113"
@@ -8433,7 +9078,7 @@
       "has_fulltext": false,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.89941859,
+        "value": 0.89962595,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8716,7 +9361,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316053"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "ASM International"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -8730,7 +9377,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -8789,10 +9435,10 @@
         "https://openalex.org/W2602433356",
         "https://openalex.org/W2029605330",
         "https://openalex.org/W2751140125",
-        "https://openalex.org/W2499325214",
         "https://openalex.org/W2072342039",
         "https://openalex.org/W1534538809",
-        "https://openalex.org/W3144268767"
+        "https://openalex.org/W3144268767",
+        "https://openalex.org/W2499325214"
       ],
       "related_works": [
         "https://openalex.org/W1975048310",
@@ -9394,7 +10040,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -9540,7 +10188,7 @@
       "has_fulltext": false,
       "cited_by_count": 26,
       "citation_normalized_percentile": {
-        "value": 0.81509165,
+        "value": 0.81551944,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9942,7 +10590,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -9958,11 +10608,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.8399999737739563,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -10008,21 +10657,21 @@
         "https://openalex.org/W6606146267",
         "https://openalex.org/W2566718897",
         "https://openalex.org/W2462053886",
-        "https://openalex.org/W2082693826",
-        "https://openalex.org/W2290176364",
-        "https://openalex.org/W2054411662",
-        "https://openalex.org/W2084251457",
-        "https://openalex.org/W1966670494",
-        "https://openalex.org/W4235958401",
-        "https://openalex.org/W2314505269",
-        "https://openalex.org/W2330014076",
-        "https://openalex.org/W2030249809",
-        "https://openalex.org/W2059251959",
-        "https://openalex.org/W2021216777",
-        "https://openalex.org/W2091586940",
         "https://openalex.org/W1999015847",
         "https://openalex.org/W2109843552",
-        "https://openalex.org/W2014242378"
+        "https://openalex.org/W2082693826",
+        "https://openalex.org/W2021216777",
+        "https://openalex.org/W1966670494",
+        "https://openalex.org/W2290176364",
+        "https://openalex.org/W2330014076",
+        "https://openalex.org/W2014242378",
+        "https://openalex.org/W2091586940",
+        "https://openalex.org/W2054411662",
+        "https://openalex.org/W4235958401",
+        "https://openalex.org/W2059251959",
+        "https://openalex.org/W2030249809",
+        "https://openalex.org/W2314505269",
+        "https://openalex.org/W2084251457"
       ],
       "related_works": [
         "https://openalex.org/W2371901143",
@@ -10108,7 +10757,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -10398,7 +11049,7 @@
       "has_fulltext": false,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.67090587,
+        "value": 0.67160951,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10786,7 +11437,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -10802,23 +11455,19 @@
       "sustainable_development_goals": [
         {
           "score": 0.6600000262260437,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        },
-        {
-          "funder": "https://openalex.org/F4320324706",
-          "funder_display_name": "Saudi Aramco",
-          "award_id": "CIPR-2323"
+          "id": "https://openalex.org/G4610756726",
+          "display_name": null,
+          "funder_award_id": "CIPR-2323",
+          "funder_id": "https://openalex.org/F4320324706",
+          "funder_display_name": "Saudi Aramco"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320322323",
@@ -10864,19 +11513,19 @@
         "https://openalex.org/W2688991832",
         "https://openalex.org/W2003289664",
         "https://openalex.org/W2767327529",
-        "https://openalex.org/W2038657098",
-        "https://openalex.org/W4313143101",
-        "https://openalex.org/W2001120451",
-        "https://openalex.org/W2087837951",
-        "https://openalex.org/W4236006096",
-        "https://openalex.org/W2532789476",
         "https://openalex.org/W2903571843",
-        "https://openalex.org/W2901668086",
-        "https://openalex.org/W1981910368",
-        "https://openalex.org/W2761623523",
+        "https://openalex.org/W4236006096",
         "https://openalex.org/W2014827720",
+        "https://openalex.org/W4313143101",
+        "https://openalex.org/W1981910368",
+        "https://openalex.org/W2043871829",
+        "https://openalex.org/W2087837951",
+        "https://openalex.org/W2761623523",
+        "https://openalex.org/W2001120451",
         "https://openalex.org/W2122986804",
-        "https://openalex.org/W2043871829"
+        "https://openalex.org/W2532789476",
+        "https://openalex.org/W2038657098",
+        "https://openalex.org/W2901668086"
       ],
       "related_works": [
         "https://openalex.org/W2761572403",
@@ -10921,631 +11570,6 @@
       "created_date": "2025-10-10T00:00:00"
     },
     {
-      "id": "https://openalex.org/W3139415666",
-      "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
-      "title": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
-      "display_name": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
-      "publication_year": 2021,
-      "publication_date": "2021-03-18",
-      "ids": {
-        "openalex": "https://openalex.org/W3139415666",
-        "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
-        "mag": "3139415666"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.1016/j.jngse.2021.103917",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1016/j.jngse.2021.103917",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S125705681",
-          "display_name": "Journal of Natural Gas Science and Engineering",
-          "issn_l": "1875-5100",
-          "issn": [
-            "1875-5100",
-            "2212-3865"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320990",
-          "host_organization_name": "Elsevier BV",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320990"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Journal of Natural Gas Science and Engineering",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5040857714",
-            "display_name": "Hassan A. Eltom",
-            "orcid": "https://orcid.org/0000-0002-3515-0127"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Hassan A. Eltom",
-          "raw_affiliation_strings": [
-            "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Geosciences Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5035537771",
-            "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Abdullah M. Alqubalee",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5023484800",
-            "display_name": "Abdullah S. Sultan",
-            "orcid": "https://orcid.org/0000-0001-9617-4678"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Abdullah S. Sultan",
-          "raw_affiliation_strings": [
-            "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5113878758",
-            "display_name": "Assad Barri",
-            "orcid": null
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Assad A. Barri",
-          "raw_affiliation_strings": [
-            "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Petroleum Engineering Department, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5000230700",
-            "display_name": "Khalid Abdelbasit",
-            "orcid": "https://orcid.org/0000-0003-0276-7777"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Khalid Abdelbasit",
-          "raw_affiliation_strings": [
-            "Mechanical Engineering Department, College of Engineering and Sciences and Applied Engineering, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
-          ],
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Mechanical Engineering Department, College of Engineering and Sciences and Applied Engineering, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 5,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5035537771",
-        "https://openalex.org/A5040857714"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 1.93400027,
-      "has_fulltext": false,
-      "cited_by_count": 18,
-      "citation_normalized_percentile": {
-        "value": 0.83835832,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
-      "cited_by_percentile_year": {
-        "min": 90,
-        "max": 98
-      },
-      "biblio": {
-        "volume": "90",
-        "issue": null,
-        "first_page": "103917",
-        "last_page": "103917"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10399",
-        "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "score": 1,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2211",
-          "display_name": "Mechanics of Materials"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
-          "score": 1,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10635",
-          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-          "score": 0.9998999834060669,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2210",
-            "display_name": "Mechanical Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10491",
-          "display_name": "Enhanced Oil Recovery Techniques",
-          "score": 0.9993000030517578,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/geology",
-          "display_name": "Geology",
-          "score": 0.7324477434158325
-        },
-        {
-          "id": "https://openalex.org/keywords/permeability",
-          "display_name": "Permeability (electromagnetism)",
-          "score": 0.6967377066612244
-        },
-        {
-          "id": "https://openalex.org/keywords/petrography",
-          "display_name": "Petrography",
-          "score": 0.6926135420799255
-        },
-        {
-          "id": "https://openalex.org/keywords/porosity",
-          "display_name": "Porosity",
-          "score": 0.5145982503890991
-        },
-        {
-          "id": "https://openalex.org/keywords/burrow",
-          "display_name": "Burrow",
-          "score": 0.4461280107498169
-        },
-        {
-          "id": "https://openalex.org/keywords/petrology",
-          "display_name": "Petrology",
-          "score": 0.3850717842578888
-        },
-        {
-          "id": "https://openalex.org/keywords/mineralogy",
-          "display_name": "Mineralogy",
-          "score": 0.32597050070762634
-        },
-        {
-          "id": "https://openalex.org/keywords/geotechnical-engineering",
-          "display_name": "Geotechnical engineering",
-          "score": 0.2672002911567688
-        },
-        {
-          "id": "https://openalex.org/keywords/paleontology",
-          "display_name": "Paleontology",
-          "score": 0.13958686590194702
-        },
-        {
-          "id": "https://openalex.org/keywords/chemistry",
-          "display_name": "Chemistry",
-          "score": 0.06945061683654785
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C127313418",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069",
-          "display_name": "Geology",
-          "level": 0,
-          "score": 0.7324477434158325
-        },
-        {
-          "id": "https://openalex.org/C120882062",
-          "wikidata": "https://www.wikidata.org/wiki/Q28352",
-          "display_name": "Permeability (electromagnetism)",
-          "level": 3,
-          "score": 0.6967377066612244
-        },
-        {
-          "id": "https://openalex.org/C59235061",
-          "wikidata": "https://www.wikidata.org/wiki/Q289600",
-          "display_name": "Petrography",
-          "level": 2,
-          "score": 0.6926135420799255
-        },
-        {
-          "id": "https://openalex.org/C6648577",
-          "wikidata": "https://www.wikidata.org/wiki/Q622669",
-          "display_name": "Porosity",
-          "level": 2,
-          "score": 0.5145982503890991
-        },
-        {
-          "id": "https://openalex.org/C175422226",
-          "wikidata": "https://www.wikidata.org/wiki/Q1410542",
-          "display_name": "Burrow",
-          "level": 2,
-          "score": 0.4461280107498169
-        },
-        {
-          "id": "https://openalex.org/C5900021",
-          "wikidata": "https://www.wikidata.org/wiki/Q163082",
-          "display_name": "Petrology",
-          "level": 1,
-          "score": 0.3850717842578888
-        },
-        {
-          "id": "https://openalex.org/C199289684",
-          "wikidata": "https://www.wikidata.org/wiki/Q83353",
-          "display_name": "Mineralogy",
-          "level": 1,
-          "score": 0.32597050070762634
-        },
-        {
-          "id": "https://openalex.org/C187320778",
-          "wikidata": "https://www.wikidata.org/wiki/Q1349130",
-          "display_name": "Geotechnical engineering",
-          "level": 1,
-          "score": 0.2672002911567688
-        },
-        {
-          "id": "https://openalex.org/C151730666",
-          "wikidata": "https://www.wikidata.org/wiki/Q7205",
-          "display_name": "Paleontology",
-          "level": 1,
-          "score": 0.13958686590194702
-        },
-        {
-          "id": "https://openalex.org/C185592680",
-          "wikidata": "https://www.wikidata.org/wiki/Q2329",
-          "display_name": "Chemistry",
-          "level": 0,
-          "score": 0.06945061683654785
-        },
-        {
-          "id": "https://openalex.org/C41625074",
-          "wikidata": "https://www.wikidata.org/wiki/Q176088",
-          "display_name": "Membrane",
-          "level": 2,
-          "score": 0
-        },
-        {
-          "id": "https://openalex.org/C55493867",
-          "wikidata": "https://www.wikidata.org/wiki/Q7094",
-          "display_name": "Biochemistry",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.1016/j.jngse.2021.103917",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.1016/j.jngse.2021.103917",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S125705681",
-            "display_name": "Journal of Natural Gas Science and Engineering",
-            "issn_l": "1875-5100",
-            "issn": [
-              "1875-5100",
-              "2212-3865"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310320990",
-            "host_organization_name": "Elsevier BV",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310320990"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "Journal of Natural Gas Science and Engineering",
-          "raw_type": "journal-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [
-        {
-          "score": 0.5099999904632568,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
-        },
-        {
-          "score": 0.49000000953674316,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
-      "awards": [],
-      "funders": [
-        {
-          "id": "https://openalex.org/F4320322323",
-          "display_name": "King Fahd University of Petroleum and Minerals",
-          "ror": "https://ror.org/03yez3163"
-        }
-      ],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "referenced_works_count": 38,
-      "referenced_works": [
-        "https://openalex.org/W2990128836",
-        "https://openalex.org/W2601810315",
-        "https://openalex.org/W2044778400",
-        "https://openalex.org/W2093730098",
-        "https://openalex.org/W6658268894",
-        "https://openalex.org/W6680289203",
-        "https://openalex.org/W2048410163",
-        "https://openalex.org/W6778671313",
-        "https://openalex.org/W3035028305",
-        "https://openalex.org/W2923992571",
-        "https://openalex.org/W2766559441",
-        "https://openalex.org/W2013432809",
-        "https://openalex.org/W2606002868",
-        "https://openalex.org/W2133990480",
-        "https://openalex.org/W2944267028",
-        "https://openalex.org/W2954735392",
-        "https://openalex.org/W2992184602",
-        "https://openalex.org/W2113648463",
-        "https://openalex.org/W2068223601",
-        "https://openalex.org/W2684577149",
-        "https://openalex.org/W2076098565",
-        "https://openalex.org/W2192490761",
-        "https://openalex.org/W1963487408",
-        "https://openalex.org/W6681384688",
-        "https://openalex.org/W2277390287",
-        "https://openalex.org/W2167279371",
-        "https://openalex.org/W1975115126",
-        "https://openalex.org/W2079538932",
-        "https://openalex.org/W1977123972",
-        "https://openalex.org/W2029837300",
-        "https://openalex.org/W2143999902",
-        "https://openalex.org/W195523536",
-        "https://openalex.org/W597470951",
-        "https://openalex.org/W3102597749",
-        "https://openalex.org/W2494602570",
-        "https://openalex.org/W2138099875",
-        "https://openalex.org/W2555546878",
-        "https://openalex.org/W3030653473"
-      ],
-      "related_works": [
-        "https://openalex.org/W2141217927",
-        "https://openalex.org/W2988910414",
-        "https://openalex.org/W4305072486",
-        "https://openalex.org/W1995654536",
-        "https://openalex.org/W2030154654",
-        "https://openalex.org/W596005183",
-        "https://openalex.org/W2187776112",
-        "https://openalex.org/W2189087700",
-        "https://openalex.org/W1195254246",
-        "https://openalex.org/W1969352637"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 5
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 1
-        },
-        {
-          "year": 2023,
-          "cited_by_count": 4
-        },
-        {
-          "year": 2022,
-          "cited_by_count": 6
-        },
-        {
-          "year": 2021,
-          "cited_by_count": 2
-        }
-      ],
-      "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W2739037931",
       "doi": "https://doi.org/10.1155/2017/1958463",
       "title": "Effect of Flow Direction on Relative Permeability Curves in Water/Gas Reservoir System: Implications in Geological CO<sub>2</sub> Sequestration",
@@ -11579,7 +11603,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319869"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Hindawi Publishing Corporation"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -11734,7 +11760,7 @@
       "has_fulltext": true,
       "cited_by_count": 17,
       "citation_normalized_percentile": {
-        "value": 0.72592398,
+        "value": 0.72664969,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12104,7 +12130,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319869"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Hindawi Publishing Corporation"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -12130,9 +12158,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -12166,7 +12192,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319869"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Hindawi Publishing Corporation"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -12180,15 +12208,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7699999809265137,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
-        }
-      ],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
       "awards": [],
@@ -13015,7 +13036,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316082"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Association of Petroleum Geologists"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13485,7 +13508,7 @@
       "has_fulltext": false,
       "cited_by_count": 15,
       "citation_normalized_percentile": {
-        "value": 0.79801757,
+        "value": 0.79877014,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13774,7 +13797,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316082"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Association of Petroleum Geologists"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -13790,11 +13815,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.4399999976158142,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14420,7 +14444,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -14756,7 +14782,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.78572792,
+        "value": 0.78620013,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15102,7 +15128,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -15143,6 +15171,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:3ce74bbe8c0b44fe946d762113719dfd",
+          "is_oa": false,
+          "landing_page_url": "https://doaj.org/article/3ce74bbe8c0b44fe946d762113719dfd",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "ACS Omega, Vol 7, Iss 21, Pp 17976-17983 (2022)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:pubmedcentral.nih.gov:9161417",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9161417",
@@ -15170,35 +15225,6 @@
           "is_published": false,
           "raw_source_name": "ACS Omega",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:3ce74bbe8c0b44fe946d762113719dfd",
-          "is_oa": false,
-          "landing_page_url": "https://doaj.org/article/3ce74bbe8c0b44fe946d762113719dfd",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "ACS Omega, Vol 7, Iss 21, Pp 17976-17983 (2022)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -15221,7 +15247,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15233,7 +15261,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -16023,9 +16050,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -16310,14 +16335,14 @@
       "apc_paid": null,
       "fwci": 5.11344853,
       "has_fulltext": false,
-      "cited_by_count": 13,
+      "cited_by_count": 14,
       "citation_normalized_percentile": {
         "value": 0.96732789,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
       "cited_by_percentile_year": {
-        "min": 91,
+        "min": 93,
         "max": 97
       },
       "biblio": {
@@ -16646,9 +16671,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -16665,11 +16688,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.4099999964237213,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -16702,22 +16724,22 @@
         "https://openalex.org/W2050936272",
         "https://openalex.org/W2209696761",
         "https://openalex.org/W2021435882",
-        "https://openalex.org/W2062674468",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2773129097",
-        "https://openalex.org/W2122432673",
-        "https://openalex.org/W1985574842",
-        "https://openalex.org/W2485076753",
-        "https://openalex.org/W2048340958",
-        "https://openalex.org/W2042894182",
         "https://openalex.org/W2952701526",
-        "https://openalex.org/W1966737979",
+        "https://openalex.org/W2122432673",
+        "https://openalex.org/W2062674468",
+        "https://openalex.org/W2485076753",
+        "https://openalex.org/W2014453555",
         "https://openalex.org/W2269361011",
-        "https://openalex.org/W1995287717",
-        "https://openalex.org/W1996896750",
-        "https://openalex.org/W2007614864",
+        "https://openalex.org/W1966737979",
         "https://openalex.org/W2161428842",
-        "https://openalex.org/W2014453555"
+        "https://openalex.org/W2007614864",
+        "https://openalex.org/W1996896750",
+        "https://openalex.org/W1995287717",
+        "https://openalex.org/W2048340958",
+        "https://openalex.org/W1985574842",
+        "https://openalex.org/W2042894182",
+        "https://openalex.org/W2773129097"
       ],
       "related_works": [
         "https://openalex.org/W2897903382",
@@ -17291,7 +17313,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2024,
@@ -17351,7 +17373,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -17556,7 +17580,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.72101462,
+        "value": 0.72183011,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17869,7 +17893,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -17885,11 +17911,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.6499999761581421,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -17927,9 +17952,9 @@
         "https://openalex.org/W2204591223",
         "https://openalex.org/W2013599966",
         "https://openalex.org/W2462053886",
+        "https://openalex.org/W1518765694",
         "https://openalex.org/W2004257819",
-        "https://openalex.org/W1499879941",
-        "https://openalex.org/W1518765694"
+        "https://openalex.org/W1499879941"
       ],
       "related_works": [
         "https://openalex.org/W2750108493",
@@ -18547,9 +18572,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -18731,7 +18760,7 @@
       "has_fulltext": false,
       "cited_by_count": 9,
       "citation_normalized_percentile": {
-        "value": 0.80738529,
+        "value": 0.80833839,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19026,9 +19055,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19042,7 +19075,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -19082,9 +19114,9 @@
         "https://openalex.org/W2042444576",
         "https://openalex.org/W2084390146",
         "https://openalex.org/W2590148778",
-        "https://openalex.org/W2046282941",
         "https://openalex.org/W1535718930",
-        "https://openalex.org/W2016921641"
+        "https://openalex.org/W2016921641",
+        "https://openalex.org/W2046282941"
       ],
       "related_works": [
         "https://openalex.org/W1975048310",
@@ -19150,7 +19182,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -19566,7 +19600,7 @@
       "has_fulltext": false,
       "cited_by_count": 6,
       "citation_normalized_percentile": {
-        "value": 0.7324965,
+        "value": 0.73374773,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19804,7 +19838,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320006"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Chemical Society"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -19845,6 +19881,33 @@
           "raw_type": null
         },
         {
+          "id": "pmh:oai:doaj.org/article:736535f910d942858579d732cc6149db",
+          "is_oa": true,
+          "landing_page_url": "https://doaj.org/article/736535f910d942858579d732cc6149db",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401280",
+            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-sa",
+          "license_id": "https://openalex.org/licenses/cc-by-sa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "ACS Omega, Vol 6, Iss 46, Pp 30919-30931 (2021)",
+          "raw_type": "article"
+        },
+        {
           "id": "pmh:oai:pubmedcentral.nih.gov:8613817",
           "is_oa": true,
           "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8613817",
@@ -19872,35 +19935,6 @@
           "is_published": false,
           "raw_source_name": "ACS Omega",
           "raw_type": "Text"
-        },
-        {
-          "id": "pmh:oai:doaj.org/article:736535f910d942858579d732cc6149db",
-          "is_oa": true,
-          "landing_page_url": "https://doaj.org/article/736535f910d942858579d732cc6149db",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306401280",
-            "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "host_organization": null,
-            "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-sa",
-          "license_id": "https://openalex.org/licenses/cc-by-sa",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "ACS Omega, Vol 6, Iss 46, Pp 30919-30931 (2021)",
-          "raw_type": "article"
         }
       ],
       "best_oa_location": {
@@ -19923,7 +19957,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320006"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -19937,18 +19973,19 @@
       "sustainable_development_goals": [
         {
           "score": 0.8399999737739563,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320324706",
-          "funder_display_name": "Saudi Aramco",
-          "award_id": "CIPR 2323"
+          "id": "https://openalex.org/G507238230",
+          "display_name": null,
+          "funder_award_id": "CIPR 2323",
+          "funder_id": "https://openalex.org/F4320324706",
+          "funder_display_name": "Saudi Aramco"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320324706",
@@ -20645,7 +20682,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -20895,11 +20934,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.81740964,
+      "fwci": 1.08987952,
       "has_fulltext": false,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.69369086,
+        "value": 0.73831802,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21218,7 +21257,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -21232,13 +21273,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -21282,9 +21316,9 @@
         "https://openalex.org/W2033008599",
         "https://openalex.org/W3021579803",
         "https://openalex.org/W4281636542",
-        "https://openalex.org/W4379280315",
-        "https://openalex.org/W4281560995",
         "https://openalex.org/W623525486",
+        "https://openalex.org/W4281560995",
+        "https://openalex.org/W4379280315",
         "https://openalex.org/W2969835582"
       ],
       "related_works": [
@@ -21303,7 +21337,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 2
+          "cited_by_count": 3
         },
         {
           "year": 2024,
@@ -21344,9 +21378,13 @@
           "host_organization": "https://openalex.org/P4310319900",
           "host_organization_name": "Springer Science+Business Media",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319900"
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -21564,7 +21602,7 @@
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.70841314,
+        "value": 0.70879668,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21900,9 +21938,13 @@
             "host_organization": "https://openalex.org/P4310319900",
             "host_organization_name": "Springer Science+Business Media",
             "host_organization_lineage": [
-              "https://openalex.org/P4310319900"
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -21916,13 +21958,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -22123,7 +22158,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.71117982,
+        "value": 0.71124502,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -22344,7 +22379,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -22360,38 +22394,38 @@
       "referenced_works_count": 33,
       "referenced_works": [
         "https://openalex.org/W2068748484",
-        "https://openalex.org/W1998580543",
-        "https://openalex.org/W2026777342",
-        "https://openalex.org/W2095065195",
-        "https://openalex.org/W2089097570",
-        "https://openalex.org/W2011521727",
-        "https://openalex.org/W2043504124",
         "https://openalex.org/W2007815282",
-        "https://openalex.org/W2499325214",
-        "https://openalex.org/W2076973406",
-        "https://openalex.org/W2093460901",
-        "https://openalex.org/W1981770768",
-        "https://openalex.org/W2121010135",
-        "https://openalex.org/W2043100870",
-        "https://openalex.org/W2133923595",
-        "https://openalex.org/W1997446211",
-        "https://openalex.org/W2029295089",
-        "https://openalex.org/W2042444576",
+        "https://openalex.org/W1969192757",
+        "https://openalex.org/W1984399586",
         "https://openalex.org/W1969157287",
-        "https://openalex.org/W87637287",
-        "https://openalex.org/W2033134905",
+        "https://openalex.org/W2133923595",
+        "https://openalex.org/W2032896948",
+        "https://openalex.org/W2016921641",
         "https://openalex.org/W2072342039",
+        "https://openalex.org/W1997446211",
+        "https://openalex.org/W1998580543",
+        "https://openalex.org/W2121010135",
+        "https://openalex.org/W2011521727",
+        "https://openalex.org/W87637287",
+        "https://openalex.org/W2076973406",
+        "https://openalex.org/W2033134905",
+        "https://openalex.org/W1977956156",
+        "https://openalex.org/W2095065195",
+        "https://openalex.org/W2026777342",
+        "https://openalex.org/W2043504124",
+        "https://openalex.org/W2043100870",
         "https://openalex.org/W2037415830",
+        "https://openalex.org/W2089097570",
+        "https://openalex.org/W2053571829",
+        "https://openalex.org/W2625996523",
+        "https://openalex.org/W1981770768",
+        "https://openalex.org/W2042444576",
+        "https://openalex.org/W2029295089",
+        "https://openalex.org/W2093460901",
+        "https://openalex.org/W2499325214",
         "https://openalex.org/W2084390146",
         "https://openalex.org/W1534538809",
-        "https://openalex.org/W2002048563",
-        "https://openalex.org/W2032896948",
-        "https://openalex.org/W2625996523",
-        "https://openalex.org/W1977956156",
-        "https://openalex.org/W2016921641",
-        "https://openalex.org/W2053571829",
-        "https://openalex.org/W1969192757",
-        "https://openalex.org/W1984399586"
+        "https://openalex.org/W2002048563"
       ],
       "related_works": [
         "https://openalex.org/W2164027811",
@@ -22463,9 +22497,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -22644,7 +22676,7 @@
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.91566763,
+        "value": 0.91556291,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -22906,9 +22938,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -22923,7 +22953,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -22989,45 +23018,45 @@
         "https://openalex.org/W2466230134",
         "https://openalex.org/W1997289609",
         "https://openalex.org/W6673480824",
-        "https://openalex.org/W2055072688",
-        "https://openalex.org/W2606824829",
-        "https://openalex.org/W1970614936",
-        "https://openalex.org/W2011373987",
-        "https://openalex.org/W2017778086",
-        "https://openalex.org/W2006418517",
-        "https://openalex.org/W1550424556",
-        "https://openalex.org/W1974062307",
-        "https://openalex.org/W1990809791",
-        "https://openalex.org/W2464551282",
-        "https://openalex.org/W4249510326",
-        "https://openalex.org/W2065554923",
-        "https://openalex.org/W2087278325",
-        "https://openalex.org/W2154393266",
-        "https://openalex.org/W2278652762",
-        "https://openalex.org/W2162228948",
-        "https://openalex.org/W4244093644",
-        "https://openalex.org/W1970367026",
-        "https://openalex.org/W2482496553",
-        "https://openalex.org/W2126387283",
-        "https://openalex.org/W1981712727",
         "https://openalex.org/W305642555",
-        "https://openalex.org/W2135401660",
-        "https://openalex.org/W4256344704",
-        "https://openalex.org/W1996637922",
-        "https://openalex.org/W2077902082",
-        "https://openalex.org/W1976848780",
-        "https://openalex.org/W1972914084",
-        "https://openalex.org/W2108694067",
-        "https://openalex.org/W2317646957",
+        "https://openalex.org/W1550424556",
         "https://openalex.org/W1966855401",
-        "https://openalex.org/W2335943001",
-        "https://openalex.org/W2081561857",
-        "https://openalex.org/W2091991433",
-        "https://openalex.org/W38868731",
+        "https://openalex.org/W2017778086",
+        "https://openalex.org/W2055072688",
+        "https://openalex.org/W2464551282",
+        "https://openalex.org/W2124852832",
+        "https://openalex.org/W2087278325",
         "https://openalex.org/W2320801438",
+        "https://openalex.org/W1981712727",
+        "https://openalex.org/W2108694067",
+        "https://openalex.org/W2065554923",
+        "https://openalex.org/W1976848780",
+        "https://openalex.org/W2077902082",
+        "https://openalex.org/W2335943001",
         "https://openalex.org/W2081917439",
+        "https://openalex.org/W1970367026",
+        "https://openalex.org/W4244093644",
+        "https://openalex.org/W1974062307",
+        "https://openalex.org/W4249510326",
+        "https://openalex.org/W2317646957",
+        "https://openalex.org/W2006418517",
+        "https://openalex.org/W2126387283",
+        "https://openalex.org/W4256344704",
+        "https://openalex.org/W1972914084",
+        "https://openalex.org/W2081561857",
+        "https://openalex.org/W2162228948",
+        "https://openalex.org/W2154393266",
+        "https://openalex.org/W1996637922",
         "https://openalex.org/W1986998633",
-        "https://openalex.org/W2124852832"
+        "https://openalex.org/W2278652762",
+        "https://openalex.org/W38868731",
+        "https://openalex.org/W2011373987",
+        "https://openalex.org/W1970614936",
+        "https://openalex.org/W1990809791",
+        "https://openalex.org/W2606824829",
+        "https://openalex.org/W2135401660",
+        "https://openalex.org/W2482496553",
+        "https://openalex.org/W2091991433"
       ],
       "related_works": [
         "https://openalex.org/W4307830884",
@@ -23919,7 +23948,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.62781701,
+        "value": 0.6286795,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -24369,11 +24398,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.41999998688697815,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [
         {
@@ -24407,11 +24435,11 @@
         "https://openalex.org/W1964950741",
         "https://openalex.org/W4300309437",
         "https://openalex.org/W2083775573",
-        "https://openalex.org/W2256059751",
-        "https://openalex.org/W2319692794",
-        "https://openalex.org/W2063538171",
+        "https://openalex.org/W2015941956",
         "https://openalex.org/W2093118732",
-        "https://openalex.org/W2015941956"
+        "https://openalex.org/W2256059751",
+        "https://openalex.org/W2063538171",
+        "https://openalex.org/W2319692794"
       ],
       "related_works": [
         "https://openalex.org/W2059150570",
@@ -25136,9 +25164,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -25601,9 +25627,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -25620,11 +25644,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7200000286102295,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -25655,8 +25678,8 @@
         "https://openalex.org/W4241921720",
         "https://openalex.org/W2574571898",
         "https://openalex.org/W4254195889",
-        "https://openalex.org/W3154792525",
-        "https://openalex.org/W2038344962"
+        "https://openalex.org/W2038344962",
+        "https://openalex.org/W3154792525"
       ],
       "related_works": [
         "https://openalex.org/W1966738534",
@@ -26396,7 +26419,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.11596201,
+        "value": 0.11572162,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -26646,7 +26669,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -27222,7 +27244,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316082"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "American Association of Petroleum Geologists"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -27620,7 +27644,7 @@
       "has_fulltext": false,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.45574091,
+        "value": 0.45847873,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -27949,7 +27973,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316082"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "American Association of Petroleum Geologists"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -27963,7 +27989,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -28478,9 +28503,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -28695,7 +28718,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.08122938,
+        "value": 0.08083774,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -28921,9 +28944,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -28940,11 +28961,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "id": "https://metadata.un.org/sdg/14",
+          "display_name": "Life below water"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -28967,10 +28987,10 @@
         "https://openalex.org/W2025516856",
         "https://openalex.org/W2029813981",
         "https://openalex.org/W623525486",
-        "https://openalex.org/W2333882041",
         "https://openalex.org/W4256726852",
-        "https://openalex.org/W1983843049",
-        "https://openalex.org/W1534538809"
+        "https://openalex.org/W1534538809",
+        "https://openalex.org/W2333882041",
+        "https://openalex.org/W1983843049"
       ],
       "related_works": [
         "https://openalex.org/W757470175",
@@ -29773,11 +29793,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.13321517,
+        "value": 0.13270385,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30073,11 +30093,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.6100000143051147,
-          "display_name": "Zero hunger",
-          "id": "https://metadata.un.org/sdg/2"
+          "id": "https://metadata.un.org/sdg/2",
+          "display_name": "Zero hunger"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -30276,11 +30295,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.19283177,
+        "value": 0.18882949,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -30640,11 +30659,10 @@
       "sustainable_development_goals": [
         {
           "score": 0.7599999904632568,
-          "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "id": "https://metadata.un.org/sdg/6",
+          "display_name": "Clean water and sanitation"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {

@@ -108,24 +108,6 @@
         }
       },
       {
-        "id": "https://openalex.org/T13177",
-        "display_name": "Geological and Geophysical Studies",
-        "count": 5,
-        "score": 0.9991000294685364,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1907",
-          "display_name": "Geology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T12073",
         "display_name": "Isotope Analysis in Ecology",
         "count": 5,
@@ -144,17 +126,17 @@
         }
       },
       {
-        "id": "https://openalex.org/T10635",
-        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "count": 4,
-        "score": 0.9998999834060669,
+        "id": "https://openalex.org/T13177",
+        "display_name": "Geological and Geophysical Studies",
+        "count": 5,
+        "score": 0.9991000294685364,
         "subfield": {
-          "id": "https://openalex.org/subfields/2210",
-          "display_name": "Mechanical Engineering"
+          "id": "https://openalex.org/subfields/1907",
+          "display_name": "Geology"
         },
         "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -178,13 +160,31 @@
           "id": "https://openalex.org/domains/3",
           "display_name": "Physical Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T10109",
+        "display_name": "Paleontology and Stratigraphy of Fossils",
+        "count": 4,
+        "score": 0.9976999759674072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
       }
     ],
     "topic_share": [
       {
         "id": "https://openalex.org/T12073",
         "display_name": "Isotope Analysis in Ecology",
-        "value": 0.0000195,
+        "value": 0.0000194,
         "subfield": {
           "id": "https://openalex.org/subfields/2303",
           "display_name": "Ecology"
@@ -201,7 +201,7 @@
       {
         "id": "https://openalex.org/T10017",
         "display_name": "Geology and Paleoclimatology Research",
-        "value": 0.0000181,
+        "value": 0.000018,
         "subfield": {
           "id": "https://openalex.org/subfields/1902",
           "display_name": "Atmospheric Science"
@@ -218,7 +218,7 @@
       {
         "id": "https://openalex.org/T14047",
         "display_name": "Marine and environmental studies",
-        "value": 0.0000154,
+        "value": 0.0000153,
         "subfield": {
           "id": "https://openalex.org/subfields/1910",
           "display_name": "Oceanography"
@@ -252,7 +252,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000125,
+        "value": 0.0000124,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -290,7 +290,7 @@
         "id": "109007969",
         "wikidata": "https://www.wikidata.org/wiki/Q749565",
         "display_name": "Structural basin",
-        "score": 0.5392957925796509
+        "score": 0.4970391094684601
       }
     ],
     "counts_by_year": [
@@ -350,7 +350,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5053676730",
-    "updated_date": "2025-10-31T23:40:09.989599",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2023-12-06"
   },
   "works": [
@@ -512,7 +512,7 @@
       "has_fulltext": false,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.61665088,
+        "value": 0.61721146,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -772,12 +772,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4399999976158142,
           "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4399999976158142,
           "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -792,9 +791,9 @@
         "https://openalex.org/W2186773233",
         "https://openalex.org/W2107206595",
         "https://openalex.org/W2029135989",
-        "https://openalex.org/W1999066391",
         "https://openalex.org/W1500661657",
-        "https://openalex.org/W4231695871"
+        "https://openalex.org/W4231695871",
+        "https://openalex.org/W1999066391"
       ],
       "related_works": [
         "https://openalex.org/W2174668684",
@@ -1405,7 +1404,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -1495,7 +1496,7 @@
       "has_fulltext": false,
       "cited_by_count": 10,
       "citation_normalized_percentile": {
-        "value": 0.77966511,
+        "value": 0.78209074,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1742,7 +1743,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -1757,12 +1760,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8899999856948853,
           "display_name": "Life below water",
+          "score": 0.8899999856948853,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -2046,9 +2048,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -2332,7 +2332,7 @@
       "has_fulltext": false,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.68585037,
+        "value": 0.68625943,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2633,9 +2633,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -2666,9 +2664,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -2682,12 +2678,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8500000238418579,
           "display_name": "Clean water and sanitation",
+          "score": 0.8500000238418579,
           "id": "https://metadata.un.org/sdg/6"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -2696,21 +2691,21 @@
       },
       "referenced_works_count": 15,
       "referenced_works": [
-        "https://openalex.org/W2551406048",
-        "https://openalex.org/W3205719246",
-        "https://openalex.org/W2790906574",
-        "https://openalex.org/W3216156593",
-        "https://openalex.org/W2030600611",
-        "https://openalex.org/W3203645716",
-        "https://openalex.org/W3043421121",
-        "https://openalex.org/W3116630050",
-        "https://openalex.org/W3035521099",
-        "https://openalex.org/W2079679118",
-        "https://openalex.org/W2762053199",
-        "https://openalex.org/W2801268920",
-        "https://openalex.org/W1968605305",
         "https://openalex.org/W2963973683",
-        "https://openalex.org/W2074177842"
+        "https://openalex.org/W3116630050",
+        "https://openalex.org/W2079679118",
+        "https://openalex.org/W2551406048",
+        "https://openalex.org/W2762053199",
+        "https://openalex.org/W3043421121",
+        "https://openalex.org/W3205719246",
+        "https://openalex.org/W2074177842",
+        "https://openalex.org/W3035521099",
+        "https://openalex.org/W2030600611",
+        "https://openalex.org/W1968605305",
+        "https://openalex.org/W3203645716",
+        "https://openalex.org/W2801268920",
+        "https://openalex.org/W2790906574",
+        "https://openalex.org/W3216156593"
       ],
       "related_works": [
         "https://openalex.org/W3132883032",
@@ -3249,7 +3244,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310317595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "University of Milan"
+          ],
           "type": "journal"
         },
         "license": "cc-by-sa",
@@ -3392,7 +3389,7 @@
       "has_fulltext": true,
       "cited_by_count": 5,
       "citation_normalized_percentile": {
-        "value": 0.67860748,
+        "value": 0.68254182,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3689,7 +3686,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310317595"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "University of Milan"
+            ],
             "type": "journal"
           },
           "license": "cc-by-sa",
@@ -3715,9 +3714,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "repository"
           },
@@ -3780,7 +3777,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310317595"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "University of Milan"
+          ],
           "type": "journal"
         },
         "license": "cc-by-sa",
@@ -3793,12 +3792,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8999999761581421,
           "display_name": "Life below water",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -3816,47 +3814,47 @@
         "https://openalex.org/W2894525608",
         "https://openalex.org/W4252474431",
         "https://openalex.org/W2335273254",
+        "https://openalex.org/W1883729029",
+        "https://openalex.org/W143427429",
         "https://openalex.org/W2111194718",
-        "https://openalex.org/W2316753861",
-        "https://openalex.org/W2974641455",
-        "https://openalex.org/W2099164476",
-        "https://openalex.org/W2980427729",
+        "https://openalex.org/W2483310254",
         "https://openalex.org/W4232818854",
+        "https://openalex.org/W183657746",
         "https://openalex.org/W2171365707",
+        "https://openalex.org/W1488847646",
+        "https://openalex.org/W2131544974",
+        "https://openalex.org/W2343679832",
+        "https://openalex.org/W2110619496",
+        "https://openalex.org/W3082913453",
+        "https://openalex.org/W2146718762",
+        "https://openalex.org/W1942686657",
+        "https://openalex.org/W2042147116",
+        "https://openalex.org/W2079305132",
+        "https://openalex.org/W2016225258",
+        "https://openalex.org/W6939073",
+        "https://openalex.org/W2337043150",
+        "https://openalex.org/W2316753861",
+        "https://openalex.org/W2496180574",
+        "https://openalex.org/W2041690756",
+        "https://openalex.org/W2415647633",
+        "https://openalex.org/W2793840175",
+        "https://openalex.org/W2161062485",
+        "https://openalex.org/W2293060849",
+        "https://openalex.org/W2505259627",
+        "https://openalex.org/W2980427729",
+        "https://openalex.org/W2099164476",
+        "https://openalex.org/W2319056469",
+        "https://openalex.org/W4297958478",
+        "https://openalex.org/W1986439882",
         "https://openalex.org/W1579438866",
         "https://openalex.org/W169062192",
-        "https://openalex.org/W143427429",
-        "https://openalex.org/W2793840175",
-        "https://openalex.org/W2505259627",
-        "https://openalex.org/W2161062485",
-        "https://openalex.org/W2496180574",
-        "https://openalex.org/W1942686657",
-        "https://openalex.org/W2146718762",
-        "https://openalex.org/W2110619496",
-        "https://openalex.org/W2343679832",
-        "https://openalex.org/W1883729029",
-        "https://openalex.org/W2483310254",
-        "https://openalex.org/W1488847646",
-        "https://openalex.org/W2041690756",
-        "https://openalex.org/W2131544974",
-        "https://openalex.org/W2415647633",
-        "https://openalex.org/W2079521322",
-        "https://openalex.org/W2337043150",
-        "https://openalex.org/W2497485012",
-        "https://openalex.org/W2293060849",
-        "https://openalex.org/W2167653235",
         "https://openalex.org/W2111011406",
-        "https://openalex.org/W6939073",
-        "https://openalex.org/W4297958478",
-        "https://openalex.org/W2319056469",
-        "https://openalex.org/W183657746",
-        "https://openalex.org/W3082913453",
-        "https://openalex.org/W2016225258",
-        "https://openalex.org/W2127929414",
         "https://openalex.org/W4285542155",
-        "https://openalex.org/W2079305132",
-        "https://openalex.org/W2042147116",
-        "https://openalex.org/W1986439882"
+        "https://openalex.org/W2974641455",
+        "https://openalex.org/W2497485012",
+        "https://openalex.org/W2079521322",
+        "https://openalex.org/W2167653235",
+        "https://openalex.org/W2127929414"
       ],
       "related_works": [
         "https://openalex.org/W2356997920",
@@ -4354,7 +4352,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310317504"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "AGH University of Science and Technology"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -4461,7 +4461,7 @@
       "has_fulltext": true,
       "cited_by_count": 2,
       "citation_normalized_percentile": {
-        "value": 0.57302267,
+        "value": 0.57833593,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4703,7 +4703,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310317504"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "AGH University of Science and Technology"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -4765,7 +4767,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310317504"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "AGH University of Science and Technology"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -4778,12 +4782,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8100000023841858,
           "display_name": "Life below water",
+          "score": 0.8100000023841858,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -4984,9 +4987,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -5091,7 +5092,7 @@
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.68856558,
+        "value": 0.6893182,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5258,9 +5259,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -5275,7 +5274,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -5644,9 +5642,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -5823,7 +5819,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08112818,
+        "value": 0.08088188,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6017,9 +6013,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -6034,7 +6028,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -6178,9 +6171,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -6365,7 +6356,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.09260258,
+        "value": 0.09228939,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6645,9 +6636,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -6662,7 +6651,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -7002,9 +6990,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "conference"
         },
@@ -7389,9 +7375,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "conference"
           },
@@ -7407,12 +7391,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5199999809265137,
           "display_name": "Climate action",
+          "score": 0.5199999809265137,
           "id": "https://metadata.un.org/sdg/13"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -7928,9 +7911,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -8073,7 +8054,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.06538851,
+        "value": 0.06498336,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8430,9 +8411,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -8447,7 +8426,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -8731,9 +8709,7 @@
           "is_core": true,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -8876,7 +8852,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.05928625,
+        "value": 0.05905577,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -9218,9 +9194,7 @@
             "is_core": true,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -9235,7 +9209,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -9801,7 +9774,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.18437469,
+        "value": 0.18382593,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -10143,7 +10116,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -10160,11 +10132,11 @@
         "https://openalex.org/W1988282920",
         "https://openalex.org/W4242728112",
         "https://openalex.org/W2049206064",
-        "https://openalex.org/W2011015774",
-        "https://openalex.org/W2072314026",
-        "https://openalex.org/W2072832518",
         "https://openalex.org/W2053154595",
-        "https://openalex.org/W411845753"
+        "https://openalex.org/W2072314026",
+        "https://openalex.org/W2011015774",
+        "https://openalex.org/W411845753",
+        "https://openalex.org/W2072832518"
       ],
       "related_works": [
         "https://openalex.org/W2038888171",
@@ -10796,7 +10768,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17079487,
+        "value": 0.17061204,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11116,12 +11088,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4300000071525574,
           "display_name": "Industry, innovation and infrastructure",
+          "score": 0.4300000071525574,
           "id": "https://metadata.un.org/sdg/9"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -11136,11 +11107,11 @@
         "https://openalex.org/W2047782309",
         "https://openalex.org/W2026374846",
         "https://openalex.org/W4235726898",
-        "https://openalex.org/W2089038637",
-        "https://openalex.org/W1972804893",
         "https://openalex.org/W2317738276",
+        "https://openalex.org/W2066552023",
+        "https://openalex.org/W2089038637",
         "https://openalex.org/W4285719527",
-        "https://openalex.org/W2066552023"
+        "https://openalex.org/W1972804893"
       ],
       "related_works": [
         "https://openalex.org/W2096720932",
@@ -11611,11 +11582,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02349057,
+        "value": 0.02344969,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -11871,12 +11842,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8700000047683716,
           "display_name": "Life below water",
+          "score": 0.8700000047683716,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -12362,7 +12332,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319845"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of America"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -12540,7 +12512,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.07603193,
+        "value": 0.06195912,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12739,7 +12711,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319845"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of America"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -12753,7 +12727,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -12918,7 +12891,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.08013683,
+        "value": 0.06531632,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13197,7 +13170,6 @@
         "raw_type": "proceedings-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -13673,7 +13645,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13749,7 +13723,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.02581395,
+        "value": 0.02559232,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -13933,7 +13907,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -13948,12 +13924,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8999999761581421,
           "display_name": "Life below water",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -14225,11 +14200,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.0364532,
+        "value": 0.03566846,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -14533,12 +14508,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.8999999761581421,
           "display_name": "Life below water",
+          "score": 0.8999999761581421,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15447,7 +15421,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316755"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Cushman Foundation for Foraminiferal Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15553,7 +15529,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.25004582,
+        "value": 0.24664859,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15732,7 +15708,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316755"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Cushman Foundation for Foraminiferal Research"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -15765,7 +15743,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316755"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Cushman Foundation for Foraminiferal Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15778,12 +15758,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.7300000190734863,
           "display_name": "Life below water",
+          "score": 0.7300000190734863,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -15800,8 +15779,8 @@
         "https://openalex.org/W2464628163",
         "https://openalex.org/W2319056469",
         "https://openalex.org/W2094054644",
-        "https://openalex.org/W612211758",
-        "https://openalex.org/W2292781563"
+        "https://openalex.org/W2292781563",
+        "https://openalex.org/W612211758"
       ],
       "related_works": [
         "https://openalex.org/W2403591496",
@@ -16160,7 +16139,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310316755"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Cushman Foundation for Foraminiferal Research"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -16266,7 +16247,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.25007201,
+        "value": 0.24667442,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -16445,7 +16426,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310316755"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Cushman Foundation for Foraminiferal Research"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -16460,12 +16443,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.7300000190734863,
           "display_name": "Life below water",
+          "score": 0.7300000190734863,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -16482,8 +16464,8 @@
         "https://openalex.org/W2464628163",
         "https://openalex.org/W2319056469",
         "https://openalex.org/W2094054644",
-        "https://openalex.org/W2292781563",
-        "https://openalex.org/W612211758"
+        "https://openalex.org/W612211758",
+        "https://openalex.org/W2292781563"
       ],
       "related_works": [
         "https://openalex.org/W2403591496",
@@ -16842,7 +16824,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -16946,7 +16930,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.12212371,
+        "value": 0.1206638,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17113,7 +17097,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -17157,12 +17143,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8899999856948853,
           "display_name": "Life below water",
+          "score": 0.8899999856948853,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -17645,9 +17630,7 @@
           "is_core": false,
           "host_organization": null,
           "host_organization_name": null,
-          "host_organization_lineage": [
-            null
-          ],
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "journal"
         },
@@ -17752,7 +17735,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.41606155,
+        "value": 0.40747,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18062,9 +18045,7 @@
             "is_core": false,
             "host_organization": null,
             "host_organization_name": null,
-            "host_organization_lineage": [
-              null
-            ],
+            "host_organization_lineage": [],
             "host_organization_lineage_names": [],
             "type": "journal"
           },
@@ -18080,12 +18061,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.6399999856948853,
           "display_name": "Affordable and clean energy",
+          "score": 0.6399999856948853,
           "id": "https://metadata.un.org/sdg/7"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -18644,7 +18624,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310319845"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of America"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -18720,7 +18702,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.26733348,
+        "value": 0.26384585,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -18996,7 +18978,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310319845"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of America"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19011,12 +18995,11 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.8799999952316284,
           "display_name": "Life below water",
+          "score": 0.8799999952316284,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -19076,7 +19059,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969182"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Poland"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -19194,7 +19179,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.57458128,
+        "value": 0.55959713,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19391,7 +19376,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969182"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of Poland"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19425,7 +19412,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969182"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Poland"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -19438,12 +19427,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.6899999976158142,
           "display_name": "Life below water",
+          "score": 0.6899999976158142,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -19502,7 +19490,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969446"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Micropaleontology Press"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -19592,7 +19582,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.33596417,
+        "value": 0.32152021,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -19790,7 +19780,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969446"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Micropaleontology Press"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -19804,7 +19796,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -20172,7 +20163,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969182"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Poland"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -20222,7 +20215,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.40552476,
+        "value": 0.38808223,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -20402,7 +20395,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4360969182"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Geological Society of Poland"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -20436,7 +20431,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4360969182"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Geological Society of Poland"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -20449,12 +20446,11 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.7300000190734863,
           "display_name": "Life below water",
+          "score": 0.7300000190734863,
           "id": "https://metadata.un.org/sdg/14"
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -20511,9 +20507,13 @@
           "host_organization": "https://openalex.org/P4310317382",
           "host_organization_name": "Institute of Paleobiology",
           "host_organization_lineage": [
-            "https://openalex.org/P4310317382"
+            "https://openalex.org/P4310317382",
+            "https://openalex.org/P4310317485"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Institute of Paleobiology",
+            "Polish Academy of Sciences"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -20594,7 +20594,7 @@
         "currency": "EUR",
         "value_usd": 23
       },
-      "fwci": 0,
+      "fwci": null,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": null,
@@ -20634,9 +20634,13 @@
             "host_organization": "https://openalex.org/P4310317382",
             "host_organization_name": "Institute of Paleobiology",
             "host_organization_lineage": [
-              "https://openalex.org/P4310317382"
+              "https://openalex.org/P4310317382",
+              "https://openalex.org/P4310317485"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Institute of Paleobiology",
+              "Polish Academy of Sciences"
+            ],
             "type": "journal"
           },
           "license": "cc-by",
@@ -20667,9 +20671,13 @@
           "host_organization": "https://openalex.org/P4310317382",
           "host_organization_name": "Institute of Paleobiology",
           "host_organization_lineage": [
-            "https://openalex.org/P4310317382"
+            "https://openalex.org/P4310317382",
+            "https://openalex.org/P4310317485"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Institute of Paleobiology",
+            "Polish Academy of Sciences"
+          ],
           "type": "journal"
         },
         "license": "cc-by",
@@ -20681,7 +20689,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {

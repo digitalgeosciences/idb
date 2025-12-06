@@ -44,8 +44,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "patil@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 337,
-    "totalCitations": 6426,
+    "totalPublications": 340,
+    "totalCitations": 6557,
     "hIndex": 37
   },
   {
@@ -74,9 +74,9 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "mmahmoud@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 972,
-    "totalCitations": 17962,
-    "hIndex": 61
+    "totalPublications": 977,
+    "totalCitations": 18274,
+    "hIndex": 62
   },
   {
     "authorId": "5",
@@ -90,8 +90,8 @@ export const authors: AuthorRecord[] = [
     "email": "aazeez@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 357,
-    "totalCitations": 7191,
-    "hIndex": 44
+    "totalCitations": 7282,
+    "hIndex": 45
   },
   {
     "authorId": "6",
@@ -104,8 +104,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "awotunde@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 75,
-    "totalCitations": 1045,
+    "totalPublications": 76,
+    "totalCitations": 1067,
     "hIndex": 16
   },
   {
@@ -119,9 +119,9 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "elkatatny@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 545,
-    "totalCitations": 9498,
-    "hIndex": 47
+    "totalPublications": 551,
+    "totalCitations": 9670,
+    "hIndex": 48
   },
   {
     "authorId": "8",
@@ -135,7 +135,7 @@ export const authors: AuthorRecord[] = [
     "email": "Alshehrida@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 204,
-    "totalCitations": 4114,
+    "totalCitations": 4244,
     "hIndex": 33
   },
   {
@@ -150,7 +150,7 @@ export const authors: AuthorRecord[] = [
     "email": "bhaq@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 76,
-    "totalCitations": 2163,
+    "totalCitations": 2226,
     "hIndex": 22
   },
   {
@@ -195,7 +195,7 @@ export const authors: AuthorRecord[] = [
     "email": "malramadan@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 49,
-    "totalCitations": 593,
+    "totalCitations": 611,
     "hIndex": 15
   },
   {
@@ -224,8 +224,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "hasan.khan@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 41,
-    "totalCitations": 305,
+    "totalPublications": 42,
+    "totalCitations": 310,
     "hIndex": 9
   },
   {
@@ -239,9 +239,9 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "Alajmisn@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 29,
-    "totalCitations": 86,
-    "hIndex": 5
+    "totalPublications": 30,
+    "totalCitations": 90,
+    "hIndex": 6
   },
   {
     "authorId": "16",
@@ -270,7 +270,7 @@ export const authors: AuthorRecord[] = [
     "email": "salneaim@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 42,
-    "totalCitations": 270,
+    "totalCitations": 271,
     "hIndex": 9
   },
   {
@@ -284,8 +284,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "arshad.raza@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 143,
-    "totalCitations": 2992,
+    "totalPublications": 145,
+    "totalCitations": 3085,
     "hIndex": 29
   },
   {
@@ -315,7 +315,7 @@ export const authors: AuthorRecord[] = [
     "email": "mohammad.jamal@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 25,
-    "totalCitations": 237,
+    "totalCitations": 238,
     "hIndex": 8
   },
   {
@@ -330,7 +330,7 @@ export const authors: AuthorRecord[] = [
     "email": "Salem.basfar@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 31,
-    "totalCitations": 515,
+    "totalCitations": 520,
     "hIndex": 13
   },
   {
@@ -360,7 +360,7 @@ export const authors: AuthorRecord[] = [
     "email": "Abdulmalek.ahmed@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 54,
-    "totalCitations": 747,
+    "totalCitations": 756,
     "hIndex": 18
   },
   {
@@ -375,8 +375,8 @@ export const authors: AuthorRecord[] = [
     "email": "Mahmoud.desouky@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 19,
-    "totalCitations": 267,
-    "hIndex": 6
+    "totalCitations": 277,
+    "hIndex": 7
   },
   {
     "authorId": "25",
@@ -390,7 +390,7 @@ export const authors: AuthorRecord[] = [
     "email": "khaled.azani@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 20,
-    "totalCitations": 373,
+    "totalCitations": 379,
     "hIndex": 9
   },
   {
@@ -404,8 +404,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ahmed.gowida@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 40,
-    "totalCitations": 588,
+    "totalPublications": 41,
+    "totalCitations": 601,
     "hIndex": 12
   },
   {
@@ -420,7 +420,7 @@ export const authors: AuthorRecord[] = [
     "email": "Ala.dogail@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 27,
-    "totalCitations": 142,
+    "totalCitations": 143,
     "hIndex": 6
   },
   {
@@ -434,9 +434,9 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ramadank@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 141,
-    "totalCitations": 2091,
-    "hIndex": 23
+    "totalPublications": 143,
+    "totalCitations": 2135,
+    "hIndex": 24
   },
   {
     "authorId": "29",
@@ -449,8 +449,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ashuhail@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 171,
-    "totalCitations": 1212,
+    "totalPublications": 172,
+    "totalCitations": 1226,
     "hIndex": 21
   },
   {
@@ -465,8 +465,8 @@ export const authors: AuthorRecord[] = [
     "email": "nikolai.pedenchuk@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 84,
-    "totalCitations": 2937,
-    "hIndex": 24
+    "totalCitations": 2825,
+    "hIndex": 23
   },
   {
     "authorId": "31",
@@ -495,7 +495,7 @@ export const authors: AuthorRecord[] = [
     "email": "basem.elsafty@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 133,
-    "totalCitations": 3374,
+    "totalCitations": 3403,
     "hIndex": 36
   },
   {
@@ -510,7 +510,7 @@ export const authors: AuthorRecord[] = [
     "email": "scott.whattam@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 244,
-    "totalCitations": 3189,
+    "totalCitations": 3220,
     "hIndex": 26
   },
   {
@@ -525,7 +525,7 @@ export const authors: AuthorRecord[] = [
     "email": "bassamst@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 124,
-    "totalCitations": 1639,
+    "totalCitations": 1660,
     "hIndex": 21
   },
   {
@@ -539,7 +539,7 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "husam.baalousha@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 2,
+    "totalPublications": 1,
     "totalCitations": 0,
     "hIndex": 0
   },
@@ -554,8 +554,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "sherif.mahmoud@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 175,
-    "totalCitations": 1092,
+    "totalPublications": 176,
+    "totalCitations": 1097,
     "hIndex": 18
   },
   {
@@ -614,8 +614,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ammar.elhusseiny@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 124,
-    "totalCitations": 1224,
+    "totalPublications": 125,
+    "totalCitations": 1256,
     "hIndex": 17
   },
   {
@@ -630,7 +630,7 @@ export const authors: AuthorRecord[] = [
     "email": "a.koeshidayatullah @kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 95,
-    "totalCitations": 994,
+    "totalCitations": 1019,
     "hIndex": 19
   },
   {
@@ -645,8 +645,8 @@ export const authors: AuthorRecord[] = [
     "email": "israa.abumahfouz@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 65,
-    "totalCitations": 529,
-    "hIndex": 12
+    "totalCitations": 546,
+    "hIndex": 13
   },
   {
     "authorId": "43",
@@ -705,7 +705,7 @@ export const authors: AuthorRecord[] = [
     "email": "mutasimsami@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 40,
-    "totalCitations": 51,
+    "totalCitations": 52,
     "hIndex": 4
   },
   {
@@ -719,8 +719,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "simone.pilia@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 108,
-    "totalCitations": 709,
+    "totalPublications": 110,
+    "totalCitations": 724,
     "hIndex": 17
   },
   {
@@ -735,8 +735,8 @@ export const authors: AuthorRecord[] = [
     "email": "omaratef.radwan@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 20,
-    "totalCitations": 83,
-    "hIndex": 5
+    "totalCitations": 87,
+    "hIndex": 6
   },
   {
     "authorId": "49",
@@ -795,7 +795,7 @@ export const authors: AuthorRecord[] = [
     "email": "nabil.saraih@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 11,
-    "totalCitations": 67,
+    "totalCitations": 68,
     "hIndex": 3
   },
   {
@@ -809,8 +809,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "theis.solling@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 264,
-    "totalCitations": 4502,
+    "totalPublications": 265,
+    "totalCitations": 4539,
     "hIndex": 32
   },
   {
@@ -825,7 +825,7 @@ export const authors: AuthorRecord[] = [
     "email": "kion.norrman@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 161,
-    "totalCitations": 10566,
+    "totalCitations": 10592,
     "hIndex": 38
   },
   {
@@ -840,7 +840,7 @@ export const authors: AuthorRecord[] = [
     "email": "smshakil@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 144,
-    "totalCitations": 2414,
+    "totalCitations": 2446,
     "hIndex": 30
   },
   {
@@ -855,7 +855,7 @@ export const authors: AuthorRecord[] = [
     "email": "mahmoud.abdulhamid@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 71,
-    "totalCitations": 1501,
+    "totalCitations": 1526,
     "hIndex": 23
   },
   {
@@ -869,8 +869,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ahmed.elzohry@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 115,
-    "totalCitations": 4826,
+    "totalPublications": 118,
+    "totalCitations": 4864,
     "hIndex": 32
   },
   {
@@ -884,8 +884,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "badr.bageri@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 62,
-    "totalCitations": 952,
+    "totalPublications": 63,
+    "totalCitations": 962,
     "hIndex": 18
   },
   {
@@ -929,8 +929,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "sivabalan.sakthivel@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 49,
-    "totalCitations": 1186,
+    "totalPublications": 50,
+    "totalCitations": 1200,
     "hIndex": 22
   },
   {
@@ -945,7 +945,7 @@ export const authors: AuthorRecord[] = [
     "email": "mobeen@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 141,
-    "totalCitations": 2059,
+    "totalCitations": 2115,
     "hIndex": 27
   },
   {
@@ -959,8 +959,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "ahmad.mahboob@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 28,
-    "totalCitations": 377,
+    "totalPublications": 29,
+    "totalCitations": 384,
     "hIndex": 10
   },
   {
@@ -975,7 +975,7 @@ export const authors: AuthorRecord[] = [
     "email": "ahmadade@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 42,
-    "totalCitations": 1284,
+    "totalCitations": 1310,
     "hIndex": 18
   },
   {
@@ -1005,8 +1005,8 @@ export const authors: AuthorRecord[] = [
     "email": "masooma.nazar@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 30,
-    "totalCitations": 341,
-    "hIndex": 9
+    "totalCitations": 351,
+    "hIndex": 10
   },
   {
     "authorId": "67",
@@ -1035,8 +1035,8 @@ export const authors: AuthorRecord[] = [
     "email": "alexandra.scerbacova@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 18,
-    "totalCitations": 98,
-    "hIndex": 5
+    "totalCitations": 100,
+    "hIndex": 6
   },
   {
     "authorId": "69",
@@ -1050,7 +1050,7 @@ export const authors: AuthorRecord[] = [
     "email": "amro.othman@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 14,
-    "totalCitations": 104,
+    "totalCitations": 107,
     "hIndex": 7
   },
   {
@@ -1095,7 +1095,7 @@ export const authors: AuthorRecord[] = [
     "email": "shaikhah.laradhi@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 18,
-    "totalCitations": 464,
+    "totalCitations": 466,
     "hIndex": 9
   },
   {
@@ -1110,7 +1110,7 @@ export const authors: AuthorRecord[] = [
     "email": "joakim.beck@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 50,
-    "totalCitations": 708,
+    "totalCitations": 713,
     "hIndex": 13
   },
   {
@@ -1125,7 +1125,7 @@ export const authors: AuthorRecord[] = [
     "email": "mohamed.rezk@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 31,
-    "totalCitations": 747,
+    "totalCitations": 764,
     "hIndex": 12
   },
   {
@@ -1140,7 +1140,7 @@ export const authors: AuthorRecord[] = [
     "email": "athaa.otaibi@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 3,
-    "totalCitations": 17,
+    "totalCitations": 18,
     "hIndex": 2
   },
   {
@@ -1170,8 +1170,8 @@ export const authors: AuthorRecord[] = [
     "email": "ahmed.yaseri@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 186,
-    "totalCitations": 6809,
-    "hIndex": 47
+    "totalCitations": 6925,
+    "hIndex": 48
   },
   {
     "authorId": "79",
@@ -1230,7 +1230,7 @@ export const authors: AuthorRecord[] = [
     "email": "almukainah@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 20,
-    "totalCitations": 435,
+    "totalCitations": 447,
     "hIndex": 9
   },
   {
@@ -1245,7 +1245,7 @@ export const authors: AuthorRecord[] = [
     "email": "sarmad@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 14,
-    "totalCitations": 113,
+    "totalCitations": 122,
     "hIndex": 6
   },
   {
@@ -1260,7 +1260,7 @@ export const authors: AuthorRecord[] = [
     "email": "rahul.babu@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 7,
-    "totalCitations": 79,
+    "totalCitations": 80,
     "hIndex": 4
   },
   {
@@ -1305,7 +1305,7 @@ export const authors: AuthorRecord[] = [
     "email": "ahmed.mohammed@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 38,
-    "totalCitations": 1282,
+    "totalCitations": 1310,
     "hIndex": 19
   },
   {
@@ -1320,7 +1320,7 @@ export const authors: AuthorRecord[] = [
     "email": "liu.xu@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 128,
-    "totalCitations": 1118,
+    "totalCitations": 1139,
     "hIndex": 17
   },
   {
@@ -1350,7 +1350,7 @@ export const authors: AuthorRecord[] = [
     "email": "amao@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 149,
-    "totalCitations": 1075,
+    "totalCitations": 1116,
     "hIndex": 19
   },
   {
@@ -1364,9 +1364,9 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "abdulwahab.bello@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 61,
-    "totalCitations": 482,
-    "hIndex": 12
+    "totalPublications": 62,
+    "totalCitations": 509,
+    "hIndex": 13
   },
   {
     "authorId": "92",
@@ -1380,7 +1380,7 @@ export const authors: AuthorRecord[] = [
     "email": "adhipa.herlambang@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 30,
-    "totalCitations": 47,
+    "totalCitations": 52,
     "hIndex": 5
   },
   {
@@ -1395,7 +1395,7 @@ export const authors: AuthorRecord[] = [
     "email": "abdullah.alqubalee@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 45,
-    "totalCitations": 377,
+    "totalCitations": 385,
     "hIndex": 12
   },
   {
@@ -1410,8 +1410,8 @@ export const authors: AuthorRecord[] = [
     "email": "anas.salisu@kfupm.edu.sa",
     "orcid": "",
     "totalPublications": 16,
-    "totalCitations": 99,
-    "hIndex": 6
+    "totalCitations": 107,
+    "hIndex": 7
   },
   {
     "authorId": "95",
@@ -1439,8 +1439,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "denis.anikiev@kfupm.edu.sa",
     "orcid": "",
-    "totalPublications": 61,
-    "totalCitations": 509,
+    "totalPublications": 62,
+    "totalCitations": 518,
     "hIndex": 11
   },
   {

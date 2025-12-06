@@ -6,7 +6,7 @@
     "display_name_alternatives": [
       "Husam Baalousha"
     ],
-    "works_count": 2,
+    "works_count": 1,
     "cited_by_count": 0,
     "summary_stats": {
       "2yr_mean_citedness": 0,
@@ -21,17 +21,17 @@
     "last_known_institutions": [],
     "topics": [
       {
-        "id": "https://openalex.org/T10398",
-        "display_name": "Groundwater and Isotope Geochemistry",
+        "id": "https://openalex.org/T11331",
+        "display_name": "Fecal contamination and water quality",
         "count": 1,
-        "score": 0.1022825762629509,
+        "score": 0.07813245058059692,
         "subfield": {
-          "id": "https://openalex.org/subfields/1906",
-          "display_name": "Geochemistry and Petrology"
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -57,17 +57,17 @@
         }
       },
       {
-        "id": "https://openalex.org/T11331",
-        "display_name": "Fecal contamination and water quality",
+        "id": "https://openalex.org/T10398",
+        "display_name": "Groundwater and Isotope Geochemistry",
         "count": 1,
-        "score": 0.07813245058059692,
+        "score": 0.1022825762629509,
         "subfield": {
-          "id": "https://openalex.org/subfields/2312",
-          "display_name": "Water Science and Technology"
+          "id": "https://openalex.org/subfields/1906",
+          "display_name": "Geochemistry and Petrology"
         },
         "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -131,7 +131,7 @@
     "x_concepts": [],
     "counts_by_year": [],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A400295131",
-    "updated_date": "2025-10-27T03:11:17.418693",
+    "updated_date": "2025-11-06T04:12:42.849631",
     "created_date": "2025-10-27"
   },
   "works": []

@@ -9,7 +9,7 @@
       "Rahul S. Babu"
     ],
     "works_count": 7,
-    "cited_by_count": 79,
+    "cited_by_count": 80,
     "summary_stats": {
       "2yr_mean_citedness": 1,
       "h_index": 4,
@@ -41,13 +41,13 @@
     "last_known_institutions": [],
     "topics": [
       {
-        "id": "https://openalex.org/T10892",
-        "display_name": "Drilling and Well Engineering",
+        "id": "https://openalex.org/T10635",
+        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
         "count": 5,
-        "score": 1,
+        "score": 0.9998999834060669,
         "subfield": {
-          "id": "https://openalex.org/subfields/2212",
-          "display_name": "Ocean Engineering"
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
         },
         "field": {
           "id": "https://openalex.org/fields/22",
@@ -59,13 +59,13 @@
         }
       },
       {
-        "id": "https://openalex.org/T10635",
-        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+        "id": "https://openalex.org/T10892",
+        "display_name": "Drilling and Well Engineering",
         "count": 5,
-        "score": 0.9998999834060669,
+        "score": 1,
         "subfield": {
-          "id": "https://openalex.org/subfields/2210",
-          "display_name": "Mechanical Engineering"
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
         },
         "field": {
           "id": "https://openalex.org/fields/22",
@@ -152,7 +152,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000156,
+        "value": 0.0000155,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -169,7 +169,7 @@
       {
         "id": "https://openalex.org/T11225",
         "display_name": "Geothermal Energy Systems and Applications",
-        "value": 0.0000143,
+        "value": 0.0000142,
         "subfield": {
           "id": "https://openalex.org/subfields/2105",
           "display_name": "Renewable Energy, Sustainability and the Environment"
@@ -247,7 +247,7 @@
         "id": "106131492",
         "wikidata": "https://www.wikidata.org/wiki/Q3072260",
         "display_name": "Filter (signal processing)",
-        "score": 0.5033699870109558
+        "score": 0.5138685703277588
       }
     ],
     "counts_by_year": [
@@ -277,7 +277,7 @@
       }
     ],
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5019355087",
-    "updated_date": "2025-10-27T03:07:04.448195",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10"
   },
   "works": [
@@ -315,7 +315,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -533,7 +535,7 @@
       "has_fulltext": false,
       "cited_by_count": 24,
       "citation_normalized_percentile": {
-        "value": 0.91957797,
+        "value": 0.91987762,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -899,7 +901,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -913,13 +917,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320322323",
-          "funder_display_name": "King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -1039,7 +1036,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320556"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -1159,7 +1158,7 @@
       "has_fulltext": true,
       "cited_by_count": 22,
       "citation_normalized_percentile": {
-        "value": 0.8567729,
+        "value": 0.85751971,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1443,7 +1442,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320556"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Royal Society of Chemistry"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc",
@@ -1533,7 +1534,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320556"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc",
@@ -1551,7 +1554,6 @@
           "score": 0.8600000143051147
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -1696,7 +1698,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -1949,9 +1953,9 @@
       "apc_paid": null,
       "fwci": 2.7630705,
       "has_fulltext": false,
-      "cited_by_count": 19,
+      "cited_by_count": 20,
       "citation_normalized_percentile": {
-        "value": 0.8944915,
+        "value": 0.89502729,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -2264,7 +2268,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": "cc-by-nc-nd",
@@ -2297,7 +2303,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": "cc-by-nc-nd",
@@ -2309,7 +2317,6 @@
         "raw_type": "journal-article"
       },
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -2365,13 +2372,13 @@
         "https://openalex.org/W2047823712",
         "https://openalex.org/W2895315430",
         "https://openalex.org/W2892967926",
-        "https://openalex.org/W2485076753",
         "https://openalex.org/W2269361011",
-        "https://openalex.org/W1996353249",
-        "https://openalex.org/W2091817266",
         "https://openalex.org/W2060312056",
-        "https://openalex.org/W2023589352",
-        "https://openalex.org/W1978803201"
+        "https://openalex.org/W1996353249",
+        "https://openalex.org/W2485076753",
+        "https://openalex.org/W1978803201",
+        "https://openalex.org/W2091817266",
+        "https://openalex.org/W2023589352"
       ],
       "related_works": [
         "https://openalex.org/W2899084033",
@@ -2817,7 +2824,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 3
+          "cited_by_count": 4
         },
         {
           "year": 2024,
@@ -2873,7 +2880,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3055,7 +3064,7 @@
       "has_fulltext": false,
       "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.83280124,
+        "value": 0.83342421,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -3371,7 +3380,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -3385,7 +3396,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -3439,24 +3449,24 @@
         "https://openalex.org/W6658048777",
         "https://openalex.org/W2604388234",
         "https://openalex.org/W2918726956",
-        "https://openalex.org/W1981596913",
-        "https://openalex.org/W2977505918",
-        "https://openalex.org/W1988703228",
-        "https://openalex.org/W2122340771",
-        "https://openalex.org/W1991048318",
-        "https://openalex.org/W3022158695",
-        "https://openalex.org/W2482292517",
-        "https://openalex.org/W2160579781",
-        "https://openalex.org/W2130449750",
-        "https://openalex.org/W1967021495",
-        "https://openalex.org/W3014704512",
-        "https://openalex.org/W1980707737",
         "https://openalex.org/W3036627389",
         "https://openalex.org/W2030381156",
-        "https://openalex.org/W2136224102",
+        "https://openalex.org/W1967021495",
+        "https://openalex.org/W2160579781",
+        "https://openalex.org/W2944939494",
         "https://openalex.org/W1597724255",
+        "https://openalex.org/W1991048318",
+        "https://openalex.org/W1980707737",
+        "https://openalex.org/W2977505918",
+        "https://openalex.org/W2122340771",
         "https://openalex.org/W1970693571",
-        "https://openalex.org/W2944939494"
+        "https://openalex.org/W1988703228",
+        "https://openalex.org/W2136224102",
+        "https://openalex.org/W1981596913",
+        "https://openalex.org/W3014704512",
+        "https://openalex.org/W3022158695",
+        "https://openalex.org/W2130449750",
+        "https://openalex.org/W2482292517"
       ],
       "related_works": [
         "https://openalex.org/W2266141962",
@@ -3532,7 +3542,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3782,11 +3794,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 0.81740964,
+      "fwci": 1.08987952,
       "has_fulltext": false,
-      "cited_by_count": 3,
+      "cited_by_count": 4,
       "citation_normalized_percentile": {
-        "value": 0.69369086,
+        "value": 0.73831802,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4105,7 +4117,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -4119,13 +4133,6 @@
       ],
       "best_oa_location": null,
       "sustainable_development_goals": [],
-      "grants": [
-        {
-          "funder": "https://openalex.org/F4320336956",
-          "funder_display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
-          "award_id": null
-        }
-      ],
       "awards": [],
       "funders": [
         {
@@ -4169,9 +4176,9 @@
         "https://openalex.org/W2033008599",
         "https://openalex.org/W3021579803",
         "https://openalex.org/W4281636542",
-        "https://openalex.org/W4379280315",
-        "https://openalex.org/W4281560995",
         "https://openalex.org/W623525486",
+        "https://openalex.org/W4281560995",
+        "https://openalex.org/W4379280315",
         "https://openalex.org/W2969835582"
       ],
       "related_works": [
@@ -4190,7 +4197,7 @@
       "counts_by_year": [
         {
           "year": 2025,
-          "cited_by_count": 2
+          "cited_by_count": 3
         },
         {
           "year": 2024,
@@ -4370,11 +4377,11 @@
       "corresponding_institution_ids": [],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": null,
+      "fwci": 0,
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.13321517,
+        "value": 0.13270385,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -4674,7 +4681,6 @@
           "score": 0.6100000143051147
         }
       ],
-      "grants": [],
       "awards": [],
       "funders": [],
       "has_content": {
@@ -4760,7 +4766,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320990"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4868,7 +4876,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.15008157,
+        "value": 0.14652696,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -5205,7 +5213,9 @@
             "host_organization_lineage": [
               "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
             "type": "journal"
           },
           "license": null,
@@ -5225,14 +5235,15 @@
           "score": 0.6700000166893005
         }
       ],
-      "grants": [
+      "awards": [
         {
-          "funder": "https://openalex.org/F4320324706",
-          "funder_display_name": "Saudi Aramco",
-          "award_id": "CIPR 2358"
+          "id": "https://openalex.org/G3101170337",
+          "display_name": null,
+          "funder_award_id": "CIPR 2358",
+          "funder_id": "https://openalex.org/F4320324706",
+          "funder_display_name": "Saudi Aramco"
         }
       ],
-      "awards": [],
       "funders": [
         {
           "id": "https://openalex.org/F4320324706",
@@ -5269,9 +5280,9 @@
         "https://openalex.org/W3215178632",
         "https://openalex.org/W6636879753",
         "https://openalex.org/W6720020721",
-        "https://openalex.org/W4238001053",
+        "https://openalex.org/W1656596044",
         "https://openalex.org/W230017325",
-        "https://openalex.org/W1656596044"
+        "https://openalex.org/W4238001053"
       ],
       "related_works": [
         "https://openalex.org/W2004690139",
