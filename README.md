@@ -74,5 +74,10 @@ This runs, in order: `npm run update:authors:openalex`, `npm run generate:author
 ## Documentation
 - See [docs/README.md](https://github.com/digitalgeosciences/idb/tree/main/docs) for config schemas (authors-source, siteinfo, announcement, blacklist), blacklisting examples, full data refresh details, deployment notes (GitHub Pages/static), and troubleshooting.
 
+## Citation
+```
+Alqubalee, A. (2025). Integrative Dashboard (IDB) (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.17918877
+```
+
 ## Questions and support
 For questions, feedback, or suggestions about the dashboard or its data pipeline, contact the IDB maintainers at `info@digitalgeosciences.com`.
