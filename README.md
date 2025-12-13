@@ -33,7 +33,7 @@ Start the dev server with hot reload:
 ```bash
 npm run dev
 ```
-Vite will print the local URL (default `http://localhost:5173`).
+Vite will print the local URL (default `http://localhost:8080`).
 
 ## Build for production
 Create an optimized static build:
@@ -72,7 +72,7 @@ This runs, in order: `npm run update:authors:openalex`, `npm run generate:author
 - `npm run refresh:data` - regenerate all derived data tables from source CSV and cached works
 
 ## Documentation
-- See `docs/README.md` for config schemas (authors-source, siteinfo, announcement, blacklist), blacklisting examples, full data refresh details, deployment notes (GitHub Pages/static), and troubleshooting.
+- See [docs/README.md](https://github.com/digitalgeosciences/idb/tree/main/docs) for config schemas (authors-source, siteinfo, announcement, blacklist), blacklisting examples, full data refresh details, deployment notes (GitHub Pages/static), and troubleshooting.
 
 ## Questions and support
 For questions, feedback, or suggestions about the dashboard or its data pipeline, contact the IDB maintainers at `info@digitalgeosciences.com`.
