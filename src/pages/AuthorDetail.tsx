@@ -289,7 +289,7 @@ export default function AuthorDetail() {
   const handleExportWorksCsv = () => {
     if (!sortedWorks.length) return;
 
-    const headers = ["title", "year", "venue", "citations"];
+    const headers = ["title", "year", "venue", "citations", "citation_harvard"];
 
     const escape = (value: unknown) => {
       const str = value == null ? "" : String(value);
@@ -309,6 +309,125 @@ export default function AuthorDetail() {
       return work.year ?? "";
     };
 
+    const formatHarvardCitation = (w: (typeof worksTable)[number]) => {
+      const fixMojibake = (value: string) =>
+        value
+          // common mojibake for diacritics
+          .replace(/Ã¡/g, "á")
+          .replace(/Ã©/g, "é")
+          .replace(/Ã­/g, "í")
+          .replace(/Ã³/g, "ó")
+          .replace(/Ãº/g, "ú")
+          .replace(/Ã±/g, "ñ")
+          .replace(/Ã/g, "Á")
+          .replace(/Ã‰/g, "É")
+          .replace(/Ã/g, "Í")
+          .replace(/Ã“/g, "Ó")
+          .replace(/Ãš/g, "Ú")
+          .replace(/Ã‘/g, "Ñ")
+          .replace(/Ã¼/g, "ü")
+          .replace(/Ãœ/g, "Ü")
+          .replace(/Ã¶/g, "ö")
+          .replace(/Ã–/g, "Ö")
+          .replace(/Ã¨/g, "è")
+          .replace(/Ã€/g, "À")
+          .replace(/Ä°/g, "İ")
+          // punctuation
+          .replace(/â€™/g, "'")
+          .replace(/â€œ|â€/g, '"')
+          .replace(/â€“|â€”|â€/g, "-");
+
+      const sanitizeText = (value: string) =>
+        fixMojibake(value)
+          .replace(/<[^>]+>/g, "")
+          .normalize("NFD")
+          .replace(/\p{M}+/gu, "")
+          .trim();
+
+      const authors = (w.allAuthors || []).map((name) => sanitizeText(name));
+      const formatInitials = (name: string) =>
+        name
+          .split(/[\s-]+/)
+          .filter(Boolean)
+          .map((part) => `${part[0]?.toUpperCase() || ""}.`)
+          .join("");
+
+      const formattedAuthors = authors
+        .map((fullName) => {
+          const parts = fullName.trim().split(/\s+/);
+          if (!parts.length) return "";
+          const last = parts.pop() || "";
+          const initials = formatInitials(parts.join(" "));
+          const cleanLast = last.replace(/[,]+/g, "");
+          return initials ? `${cleanLast}, ${initials}` : cleanLast;
+        })
+        .filter(Boolean);
+
+      let authorsPart = "";
+      if (formattedAuthors.length === 1) {
+        authorsPart = formattedAuthors[0];
+      } else if (formattedAuthors.length === 2) {
+        authorsPart = `${formattedAuthors[0]} and ${formattedAuthors[1]}`;
+      } else if (formattedAuthors.length > 2) {
+        authorsPart = `${formattedAuthors.slice(0, -1).join(", ")}, and ${
+          formattedAuthors[formattedAuthors.length - 1]
+        }`;
+      }
+
+      const yearPart = exportYear(w);
+      const venuePart = w.venue ? `${w.venue}.` : "";
+      const doiPart = w.doi ? `doi:${w.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}` : "";
+
+      return [
+        authorsPart ? `${authorsPart},` : "",
+        yearPart ? `${yearPart}.` : "",
+        w.title ? `${w.title}.` : "",
+        venuePart,
+        doiPart,
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .replace(/\s+/g, " ")
+        .trim();
+    };
+
+    const decodeHtmlEntities = (value: string) => {
+      const textarea = document.createElement("textarea");
+      textarea.innerHTML = value;
+      return textarea.value;
+    };
+
+    const cleanCitationText = (value: string) =>
+      decodeHtmlEntities(value)
+        .replace(/&#8217;/g, "’")
+        .replace(/&#8220;/g, "“")
+        .replace(/&#8221;/g, "”")
+        .replace(/&#8211;/g, "–")
+        .replace(/&#8212;/g, "—")
+        .replace(/Ã¡/g, "á")
+        .replace(/Ã©/g, "é")
+        .replace(/Ã­/g, "í")
+        .replace(/Ã³/g, "ó")
+        .replace(/Ãº/g, "ú")
+        .replace(/Ã±/g, "ñ")
+        .replace(/Ã¼/g, "ü")
+        .replace(/Ã‰/g, "É")
+        .replace(/Ã/g, "Á")
+        .replace(/Ã“/g, "Ó")
+        .replace(/Ãœ/g, "Ü")
+        .replace(/Ã–/g, "Ö")
+        .replace(/Ã¤/g, "ä")
+        .replace(/Ã§/g, "ç")
+        .replace(/Ä°/g, "İ")
+        .replace(/â€™/g, "’")
+        .replace(/â€œ/g, "“")
+        .replace(/â€/g, "”")
+        .replace(/â€“/g, "–")
+        .replace(/â€”|â€/g, "—")
+        .replace(/<[^>]+>/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
     const lines = [headers.join(",")];
     for (const w of sortedWorks) {
       lines.push(
@@ -317,6 +436,7 @@ export default function AuthorDetail() {
           escape(exportYear(w)),
           escape(w.venue || ""),
           escape(w.citations ?? 0),
+          escape(cleanCitationText(formatHarvardCitation(w))),
         ].join(","),
       );
     }
@@ -327,7 +447,10 @@ export default function AuthorDetail() {
     const a = document.createElement("a");
     a.href = url;
     a.download = `${(localAuthor?.name || name).replace(/\s+/g, "_")}-works.csv`;
+    a.style.display = "none";
+    document.body.appendChild(a);
     a.click();
+    document.body.removeChild(a);
     URL.revokeObjectURL(url);
   };
 
@@ -452,20 +575,20 @@ export default function AuthorDetail() {
                   variant="outline"
                   size="icon"
                   className="h-8 w-8"
-                  onClick={handleExportWorksCsv}
-                  title="Export CSV"
+                  onClick={handleSavePdf}
+                  title="Save PDF"
                 >
-                  <FileText className="h-3 w-3" />
+                  <Download className="h-3 w-3" />
                 </Button>
                 <Button
                   type="button"
                   variant="outline"
                   size="icon"
                   className="h-8 w-8"
-                  onClick={handleSavePdf}
-                  title="Save PDF"
+                  onClick={handleExportWorksCsv}
+                  title="Export CSV"
                 >
-                  <Download className="h-3 w-3" />
+                  <FileText className="h-3 w-3" />
                 </Button>
                 <Button
                   type="button"
