@@ -684,10 +684,10 @@ export const worksTable: WorkTableRecord[] = [
       "Ahmed Gowida"
     ],
     "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
-    "publicationDate": "2023-01-18",
+    "publicationDate": "2023-01-19",
     "year": 2023,
     "venue": "",
-    "citations": 4,
+    "citations": 5,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Geologic Mapping",
