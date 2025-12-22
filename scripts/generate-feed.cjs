@@ -200,7 +200,7 @@ const main = async () => {
     '<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">',
   );
   lines.push("  <channel>");
-  lines.push("    <title>Integrative Dashboard - OpenAlex Feed</title>");
+  lines.push("    <title>Integrative Dashboard</title>");
   lines.push(`    <link>${escapeXml(siteUrl)}</link>`);
   lines.push(
     "    <description>Recent publications with OpenAlex abstracts and topics.</description>",

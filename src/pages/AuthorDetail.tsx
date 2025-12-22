@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { FileText, ArrowUpDown, Download, Linkedin, Link as LinkIcon, User, Network, BarChart3, ArrowLeft, Award, Tags, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -251,13 +251,13 @@ export default function AuthorDetail() {
   };
 
 
-  const getPublicationSortValue = (w: (typeof filteredWorks)[number]) => {
+  const getPublicationSortValue = useCallback((w: (typeof filteredWorks)[number]) => {
     if (w.publicationDate) {
       const t = Date.parse(w.publicationDate);
       if (!Number.isNaN(t)) return t;
     }
     return w.year ?? 0;
-  };
+  }, []);
 
   const sortedWorks = useMemo(() => {
     const items = [...filteredWorks];
@@ -269,7 +269,7 @@ export default function AuthorDetail() {
       return ((a.citations ?? 0) - (b.citations ?? 0)) * dir;
     });
     return items;
-  }, [filteredWorks, sortBy, sortOrder]);
+  }, [filteredWorks, sortBy, sortOrder, getPublicationSortValue]);
 
   const visibleWorks = sortedWorks.slice(0, visibleCount || sortedWorks.length);
   const hasMoreToShow = visibleCount < filteredWorks.length;

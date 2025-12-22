@@ -132,7 +132,7 @@ const main = () => {
     '<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">',
   );
   lines.push("  <channel>");
-  lines.push("    <title>Integrative Dashboard - Publications</title>");
+  lines.push("    <title>Integrative Dashboard</title>");
   lines.push(`    <link>${escapeXml(siteUrl)}</link>`);
   lines.push(
     "    <description>Recent publications from the Integrative Geosciences dashboard.</description>",

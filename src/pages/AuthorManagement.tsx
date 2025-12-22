@@ -9,6 +9,7 @@ import {
   getAuthorWorks,
   searchWorksByTitle,
   searchWorksGlobalByTitle,
+  searchWorksByDoi,
   type OpenAlexAuthor,
   type OpenAlexWork,
 } from "@/services/openAlex";
@@ -40,6 +41,36 @@ export default function AuthorManagement() {
     if (!raw) return "";
     const parts = raw.split("/");
     return parts[parts.length - 1] || raw;
+  };
+
+  const buildDoiHref = (doi?: string | null) => {
+    if (!doi) return "";
+    const cleaned = doi.replace(/^https?:\/\/(www\.)?doi\.org\//i, "").replace(/^doi:/i, "").trim();
+    return cleaned ? `https://doi.org/${cleaned}` : "";
+  };
+
+  const buildOpenAlexHref = (id?: string | null) => {
+    const workId = normalizeWorkId(id);
+    return workId ? `https://openalex.org/${workId}` : "";
+  };
+
+  const normalizeDoiInput = (value: string) => {
+    return value
+      .trim()
+      .replace(/^https?:\/\/(www\.)?doi\.org\//i, "")
+      .replace(/^doi:/i, "")
+      .replace(/\s+/g, "");
+  };
+
+  const formatAuthors = (authorships?: OpenAlexWork["authorships"]) => {
+    if (!authorships?.length) return "Authors n/a";
+    const names = authorships
+      .map((a) => a?.author?.display_name?.trim())
+      .filter(Boolean) as string[];
+    if (!names.length) return "Authors n/a";
+    const limit = 3;
+    const visible = names.slice(0, limit).join(", ");
+    return names.length > limit ? `${visible}, et al.` : visible;
   };
 
   const handleCopyId = async (id?: string | null) => {
@@ -134,18 +165,29 @@ export default function AuthorManagement() {
   const handleSearchGlobalWorks = async () => {
     const query = globalWorkQuery.trim();
     if (!query) return;
+    const cleanedDoi = normalizeDoiInput(query);
+    const isDoi = cleanedDoi.includes("/");
     setIsSearchingGlobalWorks(true);
     try {
-      const results = await searchWorksGlobalByTitle(query);
-      setGlobalWorkResults(results);
-      toast({
-        title: "Title search complete",
-        description: `Found ${results.length} works matching "${query}"`,
-      });
+      if (isDoi) {
+        const results = await searchWorksByDoi(cleanedDoi);
+        setGlobalWorkResults(results);
+        toast({
+          title: "DOI search complete",
+          description: `Found ${results.length} work(s) for DOI ${cleanedDoi}`,
+        });
+      } else {
+        const results = await searchWorksGlobalByTitle(query);
+        setGlobalWorkResults(results);
+        toast({
+          title: "Title search complete",
+          description: `Found ${results.length} works matching "${query}"`,
+        });
+      }
     } catch (error) {
       toast({
         title: "Search failed",
-        description: "Could not search works by title.",
+        description: "Could not search works by title or DOI.",
         variant: "destructive",
       });
     } finally {
@@ -292,14 +334,27 @@ export default function AuthorManagement() {
                         {works ? (
                           <>
                             <ul className="space-y-2 text-sm">
-                              {previewList.map((work) => (
-                                <li key={work.id} className="flex flex-col">
-                                  {(() => {
-                                    const workId = normalizeWorkId(work.id);
-                                    return workId ? (
+                              {previewList.map((work) => {
+                                const workId = normalizeWorkId(work.id);
+                                const doiHref = buildDoiHref(work.doi);
+                                const openAlexHref = buildOpenAlexHref(work.id);
+                                return (
+                                  <li key={work.id} className="flex flex-col">
+                                    {workId ? (
                                       <div className="mb-1 flex items-center gap-2 text-[11px] text-muted-foreground">
                                         <span className="font-semibold">Work ID:</span>
-                                        <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId}</code>
+                                        {openAlexHref ? (
+                                          <a
+                                            href={openAlexHref}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="rounded bg-muted px-1 py-0.5 text-[11px] hover:underline"
+                                          >
+                                            {workId}
+                                          </a>
+                                        ) : (
+                                          <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId}</code>
+                                        )}
                                         <Button
                                           type="button"
                                           variant="ghost"
@@ -311,19 +366,39 @@ export default function AuthorManagement() {
                                           <Copy className="h-3 w-3" />
                                         </Button>
                                       </div>
-                                    ) : null;
-                                  })()}
-                                  <span className="font-medium text-foreground">
-                                    {work.publication_year ? `${work.publication_year} Aú ` : ""}
-                                    {work.title || "Untitled work"}
-                                  </span>
-                                  <span className="text-xs text-muted-foreground">
-                                    {(work.primary_location?.source?.display_name &&
-                                      `${work.primary_location.source.display_name}`) ||
-                                      "Venue n/a"}
-                                  </span>
-                                </li>
-                              ))}
+                                    ) : null}
+                                    <span className="font-medium text-foreground">
+                                      {work.publication_year ? `${work.publication_year} - ` : ""}
+                                      {doiHref ? (
+                                        <a
+                                          href={doiHref}
+                                          target="_blank"
+                                          rel="noreferrer"
+                                          className="text-primary hover:underline"
+                                        >
+                                          {work.title || "Untitled work"}
+                                        </a>
+                                      ) : openAlexHref ? (
+                                        <a
+                                          href={openAlexHref}
+                                          target="_blank"
+                                          rel="noreferrer"
+                                          className="text-primary hover:underline"
+                                        >
+                                          {work.title || "Untitled work"}
+                                        </a>
+                                      ) : (
+                                        <span>{work.title || "Untitled work"}</span>
+                                      )}
+                                    </span>
+                                    <span className="text-xs text-muted-foreground">
+                                      {(work.primary_location?.source?.display_name &&
+                                        `${work.primary_location.source.display_name}`) ||
+                                        "Venue n/a"}
+                                    </span>
+                                  </li>
+                                );
+                              })}
                             </ul>
                             {works.length > previewCount ? (
                               <div className="flex justify-center pt-3">
@@ -382,12 +457,25 @@ export default function AuthorManagement() {
                             <ul className="space-y-2 text-sm">
                               {workSearchResults[author.id].map((work) => {
                                 const workId = normalizeWorkId(work.id);
+                                const doiHref = buildDoiHref(work.doi);
+                                const openAlexHref = buildOpenAlexHref(work.id);
                                 return (
                                   <li key={work.id} className="rounded-md border border-border/60 bg-card/40 p-2">
                                     <div className="flex items-center justify-between gap-2 text-[11px] text-muted-foreground">
                                       <div className="flex items-center gap-2">
                                         <span className="font-semibold">Work ID:</span>
-                                        <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId || "n/a"}</code>
+                                        {openAlexHref ? (
+                                          <a
+                                            href={openAlexHref}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="rounded bg-muted px-1 py-0.5 text-[11px] hover:underline"
+                                          >
+                                            {workId || "n/a"}
+                                          </a>
+                                        ) : (
+                                          <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId || "n/a"}</code>
+                                        )}
                                       </div>
                                       {workId ? (
                                         <Button
@@ -403,8 +491,28 @@ export default function AuthorManagement() {
                                       ) : null}
                                     </div>
                                     <div className="font-medium text-foreground">
-                                      {work.publication_year ? `${work.publication_year} Aú ` : ""}
-                                      {work.title || "Untitled work"}
+                                      {work.publication_year ? `${work.publication_year} - ` : ""}
+                                      {doiHref ? (
+                                        <a
+                                          href={doiHref}
+                                          target="_blank"
+                                          rel="noreferrer"
+                                          className="text-primary hover:underline"
+                                        >
+                                          {work.title || "Untitled work"}
+                                        </a>
+                                      ) : openAlexHref ? (
+                                        <a
+                                          href={openAlexHref}
+                                          target="_blank"
+                                          rel="noreferrer"
+                                          className="text-primary hover:underline"
+                                        >
+                                          {work.title || "Untitled work"}
+                                        </a>
+                                      ) : (
+                                        <span>{work.title || "Untitled work"}</span>
+                                      )}
                                     </div>
                                     <div className="text-xs text-muted-foreground">
                                       {(work.primary_location?.source?.display_name &&
@@ -443,7 +551,7 @@ export default function AuthorManagement() {
           <CardContent className="space-y-3">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
               <Input
-                placeholder="Enter title fragment..."
+                placeholder="Enter title fragment or DOI..."
                 value={globalWorkQuery}
                 onChange={(e) => setGlobalWorkQuery(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSearchGlobalWorks()}
@@ -468,12 +576,25 @@ export default function AuthorManagement() {
               <ul className="space-y-2 text-sm">
                 {globalWorkResults.map((work) => {
                   const workId = normalizeWorkId(work.id);
+                  const doiHref = buildDoiHref(work.doi);
+                  const openAlexHref = buildOpenAlexHref(work.id);
                   return (
                     <li key={work.id} className="rounded-md border border-border/60 bg-card/40 p-3">
                       <div className="flex items-center justify-between gap-2 text-[11px] text-muted-foreground">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold">Work ID:</span>
-                          <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId || "n/a"}</code>
+                          {buildOpenAlexHref(work.id) ? (
+                            <a
+                              href={buildOpenAlexHref(work.id)}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="rounded bg-muted px-1 py-0.5 text-[11px] hover:underline"
+                            >
+                              {workId || "n/a"}
+                            </a>
+                          ) : (
+                            <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{workId || "n/a"}</code>
+                          )}
                         </div>
                         {workId ? (
                           <Button
@@ -489,13 +610,37 @@ export default function AuthorManagement() {
                         ) : null}
                       </div>
                       <div className="font-medium text-foreground">
-                        {work.publication_year ? `${work.publication_year} · ` : ""}
-                        {work.title || "Untitled work"}
+                        {work.publication_year ? `${work.publication_year} - ` : ""}
+                        {doiHref ? (
+                          <a
+                            href={doiHref}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            {work.title || "Untitled work"}
+                          </a>
+                        ) : openAlexHref ? (
+                          <a
+                            href={openAlexHref}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-primary hover:underline"
+                          >
+                            {work.title || "Untitled work"}
+                          </a>
+                        ) : (
+                          <span>{work.title || "Untitled work"}</span>
+                        )}
                       </div>
-                      <div className="text-xs text-muted-foreground">
-                        {(work.primary_location?.source?.display_name &&
-                          `${work.primary_location.source.display_name}`) ||
-                          "Venue n/a"}
+                      <div className="text-xs text-muted-foreground flex flex-wrap items-center gap-1">
+                        <span className="truncate">{formatAuthors(work.authorships)}</span>
+                        <span aria-hidden>•</span>
+                        <span className="truncate">
+                          {(work.primary_location?.source?.display_name &&
+                            `${work.primary_location.source.display_name}`) ||
+                            "Venue n/a"}
+                        </span>
                       </div>
                     </li>
                   );

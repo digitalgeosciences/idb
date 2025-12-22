@@ -247,6 +247,46 @@ const Index = () => {
   return (
     <SiteShell>
       <main className="container mx-auto px-4 py-4 sm:py-8">
+        {allYears.length > 0 && (
+          <div className="mb-4 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+            <span className="font-semibold text-foreground">Year range:</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="font-semibold text-foreground">From</span>
+              <select
+                className="h-7 rounded border border-border bg-background px-2 text-xs"
+                value={startYear ?? ""}
+                onChange={(e) => {
+                  const value = Number(e.target.value);
+                  setStartYear(value);
+                  if (endYear != null && value > endYear) setEndYear(value);
+                }}
+              >
+                {allYears.map((y) => (
+                  <option key={y} value={y}>
+                    {y}
+                  </option>
+                ))}
+              </select>
+              <span className="font-semibold text-foreground">to</span>
+              <select
+                className="h-7 rounded border border-border bg-background px-2 text-xs"
+                value={endYear ?? ""}
+                onChange={(e) => {
+                  const value = Number(e.target.value);
+                  setEndYear(value);
+                  if (startYear != null && value < startYear) setStartYear(value);
+                }}
+              >
+                {allYears.map((y) => (
+                  <option key={y} value={y}>
+                    {y}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        )}
+
         {dashboardConfig.showStats && (
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5 mb-6 text-xs sm:text-sm">
             {dashboardConfig.statCards.members && (
@@ -300,45 +340,6 @@ const Index = () => {
         {/* Topic & institution trend (single chart) */}
         {dashboardConfig.showCharts && (
           <section className="mb-10">
-            <div className="mb-4 flex flex-col gap-2 text-xs text-muted-foreground">
-              <div className="flex flex-wrap items-center gap-4">
-                <div className="flex items-center gap-2">
-                  <span className="font-semibold text-foreground">Year range:</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={startYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setStartYear(value);
-                      if (endYear != null && value > endYear) setEndYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                  <span>to</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={endYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setEndYear(value);
-                      if (startYear != null && value < startYear) setStartYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-            </div>
-
             <Card className="border-border/60">
               <CardHeader className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <CardTitle className="flex items-center gap-2 text-lg">
@@ -509,7 +510,10 @@ const Index = () => {
 
             <div className="space-y-3">
               <div className="flex items-center justify-between">
-                <h2 className="text-2xl font-bold text-foreground">Trending topics</h2>
+                <h2 className="flex items-center gap-2 text-2xl font-bold text-foreground">
+                  <TrendingUp className="h-5 w-5 text-primary" />
+                  <span>Trending topics</span>
+                </h2>
                 <button
                   type="button"
                   className="inline-flex items-center gap-1 rounded-md bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground shadow hover:bg-primary/90"

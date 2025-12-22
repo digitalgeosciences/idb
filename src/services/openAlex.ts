@@ -91,6 +91,17 @@ export const searchWorksGlobalByTitle = async (query: string): Promise<OpenAlexW
   return data.results;
 };
 
+export const searchWorksByDoi = async (doi: string): Promise<OpenAlexWork[]> => {
+  const response = await fetch(
+    `${BASE_URL}/works?filter=doi:${encodeURIComponent(doi)}&per-page=5&mailto=research@example.com`,
+  );
+
+  if (!response.ok) throw new Error("Failed to search works by DOI");
+
+  const data = await response.json();
+  return data.results;
+};
+
 export const getAuthorDetails = async (authorId: string): Promise<OpenAlexAuthor> => {
   const response = await fetch(
     `${BASE_URL}/authors/${authorId}?mailto=research@example.com`
