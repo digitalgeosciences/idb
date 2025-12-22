@@ -19,6 +19,7 @@ import { filterWorks } from "@/lib/blacklist";
 import { toast } from "@/components/ui/use-toast";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
+import { repairUtf8 } from "@/lib/textRepair";
 
 const getPublicationSortValue = (w: (typeof worksTable)[number]) => {
   if (w.publicationDate) {
@@ -70,6 +71,38 @@ const normalizeName = (raw: string) => {
   s = s.replace(/\s+/g, " ");
 
   return s;
+};
+
+const namesRoughlyMatch = (left: string, right: string) => {
+  // Repair potential mojibake before normalization
+  const cleanInput = (value: string) => repairUtf8(value || "");
+
+  const firstLast = (value: string) => {
+    const cleaned = cleanInput(value);
+    if (!cleaned) return { first: "", last: "" };
+    const hadComma = cleaned.includes(",");
+    const norm = normalizeName(cleaned);
+    const tokens = norm.split(" ").filter(Boolean);
+    if (!tokens.length) return { first: "", last: "" };
+
+    if (hadComma) {
+      // Assume "Last, First Middle"
+      const commaParts = cleaned.split(",");
+      const leftPart = normalizeName(commaParts[0] || "");
+      const rightPart = normalizeName(commaParts.slice(1).join(" ") || "");
+      const rightTokens = rightPart.split(" ").filter(Boolean);
+      const leftTokens = leftPart.split(" ").filter(Boolean);
+      const first = rightTokens[0] || tokens[0];
+      const last = leftTokens[leftTokens.length - 1] || tokens[tokens.length - 1];
+      return { first, last };
+    }
+
+    return { first: tokens[0], last: tokens[tokens.length - 1] };
+  };
+
+  const a = firstLast(left);
+  const b = firstLast(right);
+  return !!a.first && !!a.last && a.first === b.first && a.last === b.last;
 };
 
 const ALL = "all";
@@ -141,7 +174,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
       if (
         authorFilter &&
         !(w.allAuthors || []).some(
-          (name) => normalizeName(name) === normalizeName(authorFilter),
+          (name) => namesRoughlyMatch(name, authorFilter),
         )
       ) {
         return false;
@@ -149,7 +182,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
       if (
         coAuthorFilter &&
         !(w.allAuthors || []).some(
-          (name) => normalizeName(name) === normalizeName(coAuthorFilter),
+          (name) => namesRoughlyMatch(name, coAuthorFilter),
         )
       ) {
         return false;
@@ -244,8 +277,11 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
     }
   };
 
+
   const handleExportCsv = () => {
     if (!sorted.length) return;
+
+    const clean = (value: unknown) => repairUtf8(value ?? "");
 
     const headers = [
       "title",
@@ -259,13 +295,19 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
     ];
 
     const escape = (value: unknown) => {
-      const str = value == null ? "" : String(value);
+      const str = clean(value);
       if (str === "") return "";
       const cleaned = str.replace(/\r?\n/g, " ");
       if (/[",]/.test(cleaned)) {
         return `"${cleaned.replace(/"/g, '""')}"`;
       }
       return cleaned;
+    };
+
+    const decodeHtmlEntities = (value: string) => {
+      const textarea = document.createElement("textarea");
+      textarea.innerHTML = value;
+      return textarea.value;
     };
 
     const getExportYear = (w: (typeof worksTable)[number]) => {
@@ -277,38 +319,10 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
     };
 
     const formatHarvardCitation = (w: (typeof worksTable)[number]) => {
-      const fixMojibake = (value: string) =>
-        value
-          // common mojibake for diacritics
-          .replace(/Ã¡/g, "á")
-          .replace(/Ã©/g, "é")
-          .replace(/Ã­/g, "í")
-          .replace(/Ã³/g, "ó")
-          .replace(/Ãº/g, "ú")
-          .replace(/Ã±/g, "ñ")
-          .replace(/Ã/g, "Á")
-          .replace(/Ã‰/g, "É")
-          .replace(/Ã/g, "Í")
-          .replace(/Ã“/g, "Ó")
-          .replace(/Ãš/g, "Ú")
-          .replace(/Ã‘/g, "Ñ")
-          .replace(/Ã¼/g, "ü")
-          .replace(/Ãœ/g, "Ü")
-          .replace(/Ã¶/g, "ö")
-          .replace(/Ã–/g, "Ö")
-          .replace(/Ã¨/g, "è")
-          .replace(/Ã€/g, "À")
-          .replace(/Ä°/g, "İ")
-          // punctuation
-          .replace(/â€™/g, "'")
-          .replace(/â€œ|â€/g, '"')
-          .replace(/â€“|â€”|â€/g, "-");
-
       const sanitizeText = (value: string) =>
-        fixMojibake(value)
-          .replace(/<[^>]+>/g, "")
-          .normalize("NFD")
-          .replace(/\p{M}+/gu, "")
+        clean(value)
+          .replace(/<[^>]+>/g, " ")
+          .replace(/\s+/g, " ")
           .trim();
 
       const authors = (w.allAuthors || []).map((name) => sanitizeText(name));
@@ -342,14 +356,17 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
         }`;
       }
 
+      const titlePart = sanitizeText(decodeHtmlEntities(w.title || ""));
       const yearPart = getExportYear(w);
-      const venuePart = w.venue ? `${w.venue}.` : "";
-      const doiPart = w.doi ? `doi:${w.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}` : "";
+      const venuePart = w.venue ? `${sanitizeText(w.venue)}.` : "";
+      const doiPart = w.doi
+        ? `doi:${clean(w.doi).replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}`
+        : "";
 
       return [
         authorsPart ? `${authorsPart},` : "",
         yearPart ? `${yearPart}.` : "",
-        w.title ? `${w.title}.` : "",
+        titlePart ? `${titlePart}.` : "",
         venuePart,
         doiPart,
       ]
@@ -359,71 +376,39 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
         .trim();
     };
 
-    const decodeHtmlEntities = (value: string) => {
-      const textarea = document.createElement("textarea");
-      textarea.innerHTML = value;
-      return textarea.value;
-    };
-
-    const cleanCitationText = (value: string) =>
-      decodeHtmlEntities(value)
-        .replace(/&#8217;/g, "’")
-        .replace(/&#8220;/g, "“")
-        .replace(/&#8221;/g, "”")
-        .replace(/&#8211;/g, "–")
-        .replace(/&#8212;/g, "—")
-        .replace(/Ã¡/g, "á")
-        .replace(/Ã©/g, "é")
-        .replace(/Ã­/g, "í")
-        .replace(/Ã³/g, "ó")
-        .replace(/Ãº/g, "ú")
-        .replace(/Ã±/g, "ñ")
-        .replace(/Ã¼/g, "ü")
-        .replace(/Ã‰/g, "É")
-        .replace(/Ã/g, "Á")
-        .replace(/Ã“/g, "Ó")
-        .replace(/Ãœ/g, "Ü")
-        .replace(/Ã–/g, "Ö")
-        .replace(/Ã¤/g, "ä")
-        .replace(/Ã§/g, "ç")
-        .replace(/Ä°/g, "İ")
-        .replace(/â€™/g, "’")
-        .replace(/â€œ/g, "“")
-        .replace(/â€/g, "”")
-        .replace(/â€“/g, "–")
-        .replace(/â€”|â€/g, "—")
-        .replace(/<[^>]+>/g, "")
-        .replace(/\s+/g, " ")
-        .trim();
-
     const lines = [headers.join(",")];
 
     for (const w of sorted) {
       lines.push(
         [
-          escape(w.title || ""),
-          escape((w.allAuthors || []).join("|")),
-          escape(getExportYear(w)),
-          escape((w.topics || []).join("|")),
-          escape((w.institutions || []).join("|")),
-          escape(w.venue || ""),
-          escape(w.citations ?? 0),
-          escape(cleanCitationText(formatHarvardCitation(w))),
-        ].join(","),
+          decodeHtmlEntities(clean(w.title || "")),
+          (w.allAuthors || []).map((name) => clean(name)).join("; "),
+          getExportYear(w),
+          (w.topics || []).map((t) => clean(t)).join("; "),
+          (w.institutions || []).map((i) => clean(i)).join("; "),
+          clean(w.venue || ""),
+          w.citations ?? "",
+          formatHarvardCitation({
+            ...w,
+            title: decodeHtmlEntities(clean(w.title || "")),
+          }),
+        ]
+          .map(escape)
+          .join(","),
       );
     }
 
-    const csv = lines.join("\n");
+    // Prepend BOM so Excel consistently opens the file as UTF-8
+    const csv = `\uFEFF${lines.join("\n")}`;
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
+
     const a = document.createElement("a");
     a.href = url;
     a.download =
       mode === "citations" ? "publications-by-citations.csv" : "publications.csv";
-    a.style.display = "none";
-    document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
+
     URL.revokeObjectURL(url);
   };
 

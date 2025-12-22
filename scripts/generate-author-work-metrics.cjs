@@ -10,6 +10,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { repairUtf8 } = require("./lib/textRepair.cjs");
 
 const ROOT = path.resolve(__dirname, "..");
 const worksPath = path.join(ROOT, "data", "works.csv");
@@ -26,12 +27,12 @@ const readCsv = (filePath) => {
 
   if (lines.length < 2) return { headers: [], rows: [] };
 
-  const headers = lines[0].split(",").map((h) => h.trim());
+  const headers = lines[0].split(",").map((h) => repairUtf8(h.trim()));
   const rows = lines.slice(1).map((line) => {
-    const values = line.split(",").map((v) => v.trim());
+    const values = line.split(",").map((v) => repairUtf8(v.trim()));
     const record = {};
     headers.forEach((header, idx) => {
-      record[header] = values[idx] ?? "";
+      record[header] = repairUtf8(values[idx] ?? "");
     });
     return record;
   });
@@ -88,4 +89,3 @@ const main = () => {
 };
 
 main();
-
