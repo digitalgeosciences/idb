@@ -73,6 +73,10 @@ const dashboardConfig = (dashboardConfigJson as DashboardConfig) || {
 
 const Index = () => {
   const navigate = useNavigate();
+  const INITIAL_PUBLICATIONS_LIMIT = 9;
+  const INITIAL_TOPICS_LIMIT = 20;
+  const PUBLICATIONS_STEP = 6;
+  const TOPICS_STEP = 10;
 
   const memberCount = authors.length;
   const cleanWorks = useMemo(() => filterWorks(worksTable), []);
@@ -88,6 +92,8 @@ const Index = () => {
   const [startYear, setStartYear] = useState<number | null>(null);
   const [endYear, setEndYear] = useState<number | null>(null);
   const [compareYears, setCompareYears] = useState<number>(1);
+  const [publicationLimit, setPublicationLimit] = useState<number>(INITIAL_PUBLICATIONS_LIMIT);
+  const [topicLimit, setTopicLimit] = useState<number>(INITIAL_TOPICS_LIMIT);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -272,17 +278,21 @@ const Index = () => {
       }));
   }, [allYears, startYear, endYear, perYearAggregates]);
 
-  const recentPublications = useMemo(() => {
+  const sortedPublications = useMemo(() => {
     return [...cleanWorks]
       .sort((a, b) => {
         const aDate = a.publicationDate || `${a.year || 0}-01-01`;
         const bDate = b.publicationDate || `${b.year || 0}-01-01`;
         return bDate.localeCompare(aDate);
       })
-      .slice(0, 9);
+      .filter(Boolean);
   }, [cleanWorks]);
 
-  const topTopics = useMemo(() => {
+  const recentPublications = useMemo(() => {
+    return sortedPublications.slice(0, Math.max(0, publicationLimit));
+  }, [sortedPublications, publicationLimit]);
+
+  const sortedTopTopics = useMemo(() => {
     const counts = new Map<string, number>();
     const from = startYear ?? (allYears.length ? allYears[0] : undefined);
     const to = endYear ?? (allYears.length ? allYears[allYears.length - 1] : undefined);
@@ -296,9 +306,15 @@ const Index = () => {
     }
     return Array.from(counts.entries())
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
       .map(([name, count]) => ({ name, count }));
   }, [allYears, startYear, endYear, cleanWorks]);
+
+  const topTopics = useMemo(() => {
+    return sortedTopTopics.slice(0, Math.max(0, topicLimit));
+  }, [sortedTopTopics, topicLimit]);
+
+  const hasMorePublications = publicationLimit < sortedPublications.length;
+  const hasMoreTopics = topicLimit < sortedTopTopics.length;
 
   const buildRangeParams = () => {
     const from = startYear ?? (allYears.length ? allYears[0] : undefined);
@@ -650,6 +666,30 @@ const Index = () => {
                   </Card>
                 ))}
               </div>
+              {sortedPublications.length > INITIAL_PUBLICATIONS_LIMIT && (
+                <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-md border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground shadow hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={() =>
+                      setPublicationLimit((prev) =>
+                        Math.min(prev + PUBLICATIONS_STEP, sortedPublications.length),
+                      )
+                    }
+                    disabled={!hasMorePublications}
+                  >
+                    Load more
+                  </button>
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-md border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground shadow hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={() => setPublicationLimit(sortedPublications.length)}
+                    disabled={!hasMorePublications}
+                  >
+                    Load all
+                  </button>
+                </div>
+              )}
             </div>
 
             <div className="space-y-3">
@@ -693,6 +733,28 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+              {sortedTopTopics.length > INITIAL_TOPICS_LIMIT && (
+                <div className="flex flex-wrap items-center justify-center gap-2">
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-md border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground shadow hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={() =>
+                      setTopicLimit((prev) => Math.min(prev + TOPICS_STEP, sortedTopTopics.length))
+                    }
+                    disabled={!hasMoreTopics}
+                  >
+                    Load more
+                  </button>
+                  <button
+                    type="button"
+                    className="inline-flex items-center justify-center rounded-md border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground shadow hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={() => setTopicLimit(sortedTopTopics.length)}
+                    disabled={!hasMoreTopics}
+                  >
+                    Load all
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </section>
