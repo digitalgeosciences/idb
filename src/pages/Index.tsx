@@ -91,7 +91,6 @@ const Index = () => {
 
   const [startYear, setStartYear] = useState<number | null>(null);
   const [endYear, setEndYear] = useState<number | null>(null);
-  const [compareYears, setCompareYears] = useState<number>(1);
   const [publicationLimit, setPublicationLimit] = useState<number>(INITIAL_PUBLICATIONS_LIMIT);
   const [topicLimit, setTopicLimit] = useState<number>(INITIAL_TOPICS_LIMIT);
 
@@ -124,14 +123,6 @@ const Index = () => {
     return map;
   }, [cleanWorks]);
 
-  const totalsByYear = useMemo(() => {
-    const map = new Map<number, { publications: number; citations: number }>();
-    for (const [year, entry] of perYearAggregates.entries()) {
-      map.set(year, { publications: entry.publications, citations: entry.citations });
-    }
-    return map;
-  }, [perYearAggregates]);
-
   const totalPublicationsInRange = useMemo(() => {
     if (!allYears.length) return 0;
     const from = startYear ?? allYears[0];
@@ -155,110 +146,38 @@ const Index = () => {
   }, [allYears, startYear, endYear, cleanWorks]);
 
   const topicsTotals = useMemo(() => {
-    if (!allYears.length) return { total: 0, current: 0, previous: 0, currentYear: null as number | null, previousYear: null as number | null };
+    if (!allYears.length) return { total: 0 };
     const from = startYear ?? allYears[0];
     const to = endYear ?? allYears[allYears.length - 1];
-    const currentYear = allYears[allYears.length - 1];
-    const previousYear = currentYear - compareYears;
-
     const totalSet = new Set<string>();
-    const currentSet = new Set<string>();
-    const previousSet = new Set<string>();
 
     for (const [year, entry] of perYearAggregates.entries()) {
       if (year >= from && year <= to) {
         entry.topics.forEach((t) => totalSet.add(t));
       }
-      if (year === currentYear) {
-        entry.topics.forEach((t) => currentSet.add(t));
-      }
-      if (year === previousYear) {
-        entry.topics.forEach((t) => previousSet.add(t));
-      }
     }
 
     return {
       total: totalSet.size,
-      current: currentSet.size,
-      previous: previousSet.size,
-      currentYear,
-      previousYear,
     };
-  }, [allYears, startYear, endYear, compareYears, perYearAggregates]);
+  }, [allYears, startYear, endYear, perYearAggregates]);
 
   const institutionsTotals = useMemo(() => {
-    if (!allYears.length) return { total: 0, current: 0, previous: 0, currentYear: null as number | null, previousYear: null as number | null };
+    if (!allYears.length) return { total: 0 };
     const from = startYear ?? allYears[0];
     const to = endYear ?? allYears[allYears.length - 1];
-    const currentYear = allYears[allYears.length - 1];
-    const previousYear = currentYear - compareYears;
-
     const totalSet = new Set<string>();
-    const currentSet = new Set<string>();
-    const previousSet = new Set<string>();
 
     for (const [year, entry] of perYearAggregates.entries()) {
       if (year >= from && year <= to) {
         entry.institutions.forEach((i) => totalSet.add(i));
       }
-      if (year === currentYear) {
-        entry.institutions.forEach((i) => currentSet.add(i));
-      }
-      if (year === previousYear) {
-        entry.institutions.forEach((i) => previousSet.add(i));
-      }
     }
 
     return {
       total: totalSet.size,
-      current: currentSet.size,
-      previous: previousSet.size,
-      currentYear,
-      previousYear,
     };
-  }, [allYears, startYear, endYear, compareYears, perYearAggregates]);
-
-  const latestYear = useMemo(() => {
-    if (!allYears.length) return null;
-    return allYears[allYears.length - 1];
-  }, [allYears]);
-
-  const comparisonYear = useMemo(() => {
-    if (latestYear == null || !allYears.length || compareYears <= 0) return null;
-    const target = latestYear - compareYears;
-    return allYears.includes(target) ? target : null;
-  }, [allYears, latestYear, compareYears]);
-
-  const getChangePercent = (current: number, previous: number) => {
-    if (!previous || previous <= 0) return null;
-    const raw = ((current - previous) / previous) * 100;
-    if (!Number.isFinite(raw)) return null;
-    return Math.round(raw);
-  };
-
-  const publicationsChangePct = useMemo(() => {
-    if (latestYear == null || comparisonYear == null) return null;
-    const current = totalsByYear.get(latestYear)?.publications ?? 0;
-    const previous = totalsByYear.get(comparisonYear)?.publications ?? 0;
-    return getChangePercent(current, previous);
-  }, [latestYear, comparisonYear, totalsByYear]);
-
-  const citationsChangePct = useMemo(() => {
-    if (latestYear == null || comparisonYear == null) return null;
-    const current = totalsByYear.get(latestYear)?.citations ?? 0;
-    const previous = totalsByYear.get(comparisonYear)?.citations ?? 0;
-    return getChangePercent(current, previous);
-  }, [latestYear, comparisonYear, totalsByYear]);
-
-  const topicsChangePct = useMemo(
-    () => getChangePercent(topicsTotals.current, topicsTotals.previous),
-    [topicsTotals],
-  );
-
-  const institutionsChangePct = useMemo(
-    () => getChangePercent(institutionsTotals.current, institutionsTotals.previous),
-    [institutionsTotals],
-  );
+  }, [allYears, startYear, endYear, perYearAggregates]);
 
   const topicsChartData = useMemo(() => {
     const from = startYear ?? (allYears.length ? allYears[0] : undefined);
@@ -336,6 +255,7 @@ const Index = () => {
                 value={<span title={memberCount.toLocaleString()}>{memberCount}</span>}
                 icon={Users}
                 onClick={() => navigate("/members")}
+                actionLabel="view"
               />
             )}
             {dashboardConfig.statCards.topics && (
@@ -343,29 +263,7 @@ const Index = () => {
                 title="Topics"
                 value={<span title={topicsTotals.total.toLocaleString()}>{topicsTotals.total.toLocaleString()}</span>}
                 icon={TrendingUp}
-                subtitle={
-                  topicsTotals.currentYear != null ? (
-                    <>
-                      <div className="text-emerald-600 font-semibold">
-                        {topicsTotals.current.toLocaleString()}
-                        <span aria-hidden className="ml-0.5">{"\u2022"}</span>
-                      </div>
-                      {topicsChangePct != null && topicsTotals.previousYear != null && (
-                        <div className="mt-0.5 text-[11px] text-muted-foreground">
-                          <span
-                            className={
-                              topicsChangePct >= 0 ? "text-emerald-600" : "text-red-600"
-                            }
-                          >
-                            {topicsChangePct >= 0 ? "+" : ""}
-                            {Math.abs(topicsChangePct)}%
-                            <span aria-hidden className="ml-0.5">{"\u0394"}</span>
-                          </span>
-                        </div>
-                      )}
-                    </>
-                  ) : undefined
-                }
+                actionLabel="view"
                 onClick={() => navigate("/topics")}
               />
             )}
@@ -374,29 +272,7 @@ const Index = () => {
                 title="Institutions"
                 value={<span title={institutionsTotals.total.toLocaleString()}>{institutionsTotals.total.toLocaleString()}</span>}
                 icon={TrendingUp}
-                subtitle={
-                  institutionsTotals.currentYear != null ? (
-                    <>
-                      <div className="text-emerald-600 font-semibold">
-                        {institutionsTotals.current.toLocaleString()}
-                        <span aria-hidden className="ml-0.5">{"\u2022"}</span>
-                      </div>
-                      {institutionsChangePct != null && institutionsTotals.previousYear != null && (
-                        <div className="mt-0.5 text-[11px] text-muted-foreground">
-                          <span
-                            className={
-                              institutionsChangePct >= 0 ? "text-emerald-600" : "text-red-600"
-                            }
-                          >
-                            {institutionsChangePct >= 0 ? "+" : ""}
-                            {Math.abs(institutionsChangePct)}%
-                            <span aria-hidden className="ml-0.5">{"\u0394"}</span>
-                          </span>
-                        </div>
-                      )}
-                    </>
-                  ) : undefined
-                }
+                actionLabel="view"
                 onClick={() => navigate("/institutions")}
               />
             )}
@@ -405,29 +281,7 @@ const Index = () => {
                 title="Publications"
                 value={<span title={totalPublicationsInRange.toLocaleString()}>{totalPublicationsInRange.toLocaleString()}</span>}
                 icon={TrendingUp}
-                subtitle={
-                  latestYear != null ? (
-                    <>
-                      <div className="text-emerald-600 font-semibold">
-                        {(totalsByYear.get(latestYear)?.publications ?? 0).toLocaleString()}
-                        <span aria-hidden className="ml-0.5">{"\u2022"}</span>
-                      </div>
-                      {publicationsChangePct != null && comparisonYear != null && (
-                        <div className="mt-0.5 text-[11px] text-muted-foreground">
-                          <span
-                            className={
-                              publicationsChangePct >= 0 ? "text-emerald-600" : "text-red-600"
-                            }
-                          >
-                            {publicationsChangePct >= 0 ? "+" : ""}
-                            {Math.abs(publicationsChangePct)}%
-                            <span aria-hidden className="ml-0.5">{"\u0394"}</span>
-                          </span>
-                        </div>
-                      )}
-                    </>
-                  ) : undefined
-                }
+                actionLabel="view"
                 onClick={() => navigate("/publications")}
               />
             )}
@@ -436,29 +290,7 @@ const Index = () => {
                 title="Citations"
                 value={<span title={totalCitationsInRange.toLocaleString()}>{totalCitationsInRange.toLocaleString()}</span>}
                 icon={Award}
-                subtitle={
-                  latestYear != null ? (
-                    <>
-                      <div className="text-emerald-600 font-semibold">
-                        {(totalsByYear.get(latestYear)?.citations ?? 0).toLocaleString()}
-                        <span aria-hidden className="ml-0.5">{"\u2022"}</span>
-                      </div>
-                      {citationsChangePct != null && comparisonYear != null && (
-                        <div className="mt-0.5 text-[11px] text-muted-foreground">
-                          <span
-                            className={
-                              citationsChangePct >= 0 ? "text-emerald-600" : "text-red-600"
-                            }
-                          >
-                            {citationsChangePct >= 0 ? "+" : ""}
-                            {Math.abs(citationsChangePct)}%
-                            <span aria-hidden className="ml-0.5">{"\u0394"}</span>
-                          </span>
-                        </div>
-                      )}
-                    </>
-                  ) : undefined
-                }
+                actionLabel="view"
                 onClick={() => navigate("/citations")}
               />
             )}
@@ -469,23 +301,6 @@ const Index = () => {
         {dashboardConfig.showCharts && (
           <section className="mb-10">
             <div className="mb-4 flex flex-col gap-2 text-xs text-muted-foreground">
-              <div className="flex items-center gap-1 justify-end">
-                <span className="font-semibold text-foreground">Compare:</span>
-                <select
-                  className="h-7 rounded border border-border bg-background px-2 text-xs"
-                  value={compareYears}
-                  onChange={(e) => setCompareYears(Number(e.target.value))}
-                  title="Number of years back used when computing the change percentages in the summary cards."
-                >
-                  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
-                    <option key={n} value={n}>
-                      {n}
-                    </option>
-                  ))}
-                </select>
-                <span>year(s)</span>
-              </div>
-
               <div className="flex flex-wrap items-center gap-4">
                 <div className="flex items-center gap-2">
                   <span className="font-semibold text-foreground">Year range:</span>

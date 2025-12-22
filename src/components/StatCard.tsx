@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { LucideIcon } from "lucide-react";
+import { ArrowUpRight, LucideIcon } from "lucide-react";
 import type { ReactNode } from "react";
 
 interface StatCardProps {
@@ -7,8 +7,7 @@ interface StatCardProps {
   value: ReactNode;
   icon: LucideIcon;
   onClick?: () => void;
-  subtitle?: ReactNode;
-  subtitleClassName?: string;
+  actionLabel?: string;
 }
 
 export const StatCard = ({
@@ -16,12 +15,11 @@ export const StatCard = ({
   value,
   icon: Icon,
   onClick,
-  subtitle,
-  subtitleClassName,
+  actionLabel,
 }: StatCardProps) => {
   return (
     <Card
-      className={`p-4 transition-all hover:shadow-lg border-border/50 ${
+      className={`relative p-4 transition-all hover:shadow-lg border-border/50 ${
         onClick ? "cursor-pointer" : ""
       }`}
       onClick={onClick}
@@ -40,18 +38,13 @@ export const StatCard = ({
         <p className="text-3xl sm:text-4xl font-bold text-foreground leading-tight">
           {value}
         </p>
-        {subtitle && (
-          <div
-            className={`ml-3 text-right text-[11px] sm:text-xs leading-snug ${
-              subtitleClassName ? subtitleClassName : "text-muted-foreground"
-            }`}
-          >
-            {subtitle}
-          </div>
-        )}
       </div>
-
-
+      {actionLabel && (
+        <div className="absolute bottom-2 right-3 inline-flex items-center gap-1 text-[11px] sm:text-xs font-semibold text-primary">
+          <span className="lowercase">{actionLabel}</span>
+          <ArrowUpRight className="h-3 w-3" />
+        </div>
+      )}
     </Card>
   );
 };
