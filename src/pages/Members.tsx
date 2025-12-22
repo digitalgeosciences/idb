@@ -328,43 +328,7 @@ const Members = () => {
               </div>
 
             </div>
-            <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
-              {allYears.length > 0 && (
-                <div className="flex items-center gap-2">
-                  <span className="font-semibold text-foreground">Year range:</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={startYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setStartYear(value);
-                      if (endYear != null && value > endYear) setEndYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                  <span>to</span>
-                  <select
-                    className="h-7 rounded border border-border bg-background px-2 text-xs"
-                    value={endYear ?? ""}
-                    onChange={(e) => {
-                      const value = Number(e.target.value);
-                      setEndYear(value);
-                      if (startYear != null && value < startYear) setStartYear(value);
-                    }}
-                  >
-                    {allYears.map((y) => (
-                      <option key={y} value={y}>
-                        {y}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-              )}
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
               <div className="flex items-center gap-2">
                 <Button
                   variant="outline"
