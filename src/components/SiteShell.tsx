@@ -90,6 +90,20 @@ export const SiteShell = ({ children }: SiteShellProps) => {
     }
   }, []);
 
+  const navLinks =
+    Array.isArray((siteInfo as any).navLinks) && (siteInfo as any).navLinks.length
+      ? (siteInfo as any).navLinks
+      : [
+          { label: "Dashboard", href: "/" },
+          { label: "IDs Finder", href: "/authors" },
+          { label: "About", href: "/about" },
+        ];
+
+  const isActiveLink = (href: string) => {
+    if (href === "/") return location.pathname === "/";
+    return location.pathname === href || location.pathname.startsWith(`${href}/`);
+  };
+
   const handleDismissAnnouncement = () => {
     if (typeof window !== "undefined") {
       const key = `announcementDismissed:${typedAnnouncement.id}`;
@@ -111,33 +125,26 @@ export const SiteShell = ({ children }: SiteShellProps) => {
             </Link>
 
             <nav className="flex items-center gap-2 text-xs sm:text-sm">
-              <Button
-                asChild
-                size="xs"
-                variant={location.pathname === "/" ? "secondary" : "ghost"}
-              >
-                <Link to="/">Dashboard</Link>
-              </Button>
-              <Button
-                asChild
-                size="xs"
-                variant={
-                  location.pathname === "/authors" ||
-                    location.pathname === "/contact" ||
-                    location.pathname.startsWith("/author")
-                    ? "secondary"
-                    : "ghost"
-                }
-              >
-                <Link to="/authors">IDs Finder</Link>
-              </Button>
-              <Button
-                asChild
-                size="xs"
-                variant={location.pathname === "/about" ? "secondary" : "ghost"}
-              >
-                <Link to="/about">About</Link>
-              </Button>
+              {navLinks.map((item: { label: string; href: string }) => {
+                const active = isActiveLink(item.href);
+                const isExternal = /^https?:\/\//i.test(item.href);
+                return (
+                  <Button
+                    key={`${item.href}-${item.label}`}
+                    asChild
+                    size="xs"
+                    variant={active ? "secondary" : "ghost"}
+                  >
+                    {isExternal ? (
+                      <a href={item.href} target="_blank" rel="noreferrer">
+                        {item.label}
+                      </a>
+                    ) : (
+                      <Link to={item.href}>{item.label}</Link>
+                    )}
+                  </Button>
+                );
+              })}
             </nav>
           </div>
         </div>
