@@ -554,27 +554,6 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                   <span>
                     Showing {visibleRows.length} of {sorted.length} publications
                   </span>
-                  <div className="flex items-center gap-2">
-                    <span className="font-semibold text-foreground">Sort by:</span>
-                    <Button
-                      variant="ghost"
-                      size="xs"
-                      className="flex items-center gap-1"
-                      onClick={() => toggleSort("year")}
-                    >
-                      Year
-                      <ArrowUpDown className="h-3 w-3" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="xs"
-                      className="flex items-center gap-1"
-                      onClick={() => toggleSort("citations")}
-                    >
-                      Citations
-                      <ArrowUpDown className="h-3 w-3" />
-                    </Button>
-                  </div>
                 </div>
 
                 <div className="overflow-x-auto rounded-md border border-border/60 bg-card/40">
