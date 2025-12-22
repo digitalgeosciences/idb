@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 54,
-    "citations": 605
+    "citations": 606
   },
   {
     "id": "https://openalex.org/T10002",
@@ -38,7 +38,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 44,
-    "citations": 492
+    "citations": 493
   },
   {
     "id": "https://openalex.org/T10491",
@@ -122,7 +122,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10995",
     "name": "Methane Hydrates and Related Phenomena",
     "publications": 10,
-    "citations": 80
+    "citations": 81
   },
   {
     "id": "https://openalex.org/T11320",
@@ -224,7 +224,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 6,
-    "citations": 18
+    "citations": 19
   },
   {
     "id": "https://openalex.org/T10045",
@@ -953,6 +953,18 @@ export const topicStats: TopicStats[] = [
     "citations": 1
   },
   {
+    "id": "https://openalex.org/T12425",
+    "name": "Industrial Gas Emission Control",
+    "publications": 1,
+    "citations": 1
+  },
+  {
+    "id": "https://openalex.org/T10192",
+    "name": "Catalytic Processes in Materials Science",
+    "publications": 1,
+    "citations": 1
+  },
+  {
     "id": "https://openalex.org/T10405",
     "name": "Advanced Polymer Synthesis and Characterization",
     "publications": 1,
@@ -1085,18 +1097,6 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T12425",
-    "name": "Industrial Gas Emission Control",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10192",
-    "name": "Catalytic Processes in Materials Science",
-    "publications": 1,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T10402",
     "name": "Phase Equilibria and Thermodynamics",
     "publications": 1,
@@ -1163,7 +1163,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 141,
-    "citations": 1573
+    "citations": 1574
   },
   {
     "id": "https://openalex.org/I124055696",

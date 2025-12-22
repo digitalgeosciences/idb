@@ -684,10 +684,10 @@ export const worksTable: WorkTableRecord[] = [
       "Ahmed Gowida"
     ],
     "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
-    "publicationDate": "2023-01-18",
+    "publicationDate": "2023-01-19",
     "year": 2023,
     "venue": "",
-    "citations": 4,
+    "citations": 5,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Geologic Mapping",
@@ -7630,6 +7630,34 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4403024797",
+    "doi": "https://doi.org/10.1016/j.ijhydene.2024.09.383",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5038432622",
+    "allAuthorOpenAlexIds": [
+      "A5038432622",
+      "A5028901037",
+      "A5092646260"
+    ],
+    "firstAuthorLastName": "Alsulami",
+    "allAuthors": [
+      "Ahmed Alsulami",
+      "Abdulmohsen A. Al-Sibaie",
+      "Theis I. Sølling"
+    ],
+    "title": "Photo-induced loss of H2 from H2S, CH4, H2O and SiH4, when and why is it possible",
+    "publicationDate": "2024-10-01",
+    "year": 2024,
+    "venue": "International Journal of Hydrogen Energy",
+    "citations": 1,
+    "topics": [
+      "Industrial Gas Emission Control",
+      "Catalytic Processes in Materials Science",
+      "Methane Hydrates and Related Phenomena"
+    ],
+    "institutions": []
+  },
+  {
     "workId": "https://openalex.org/W4406913825",
     "doi": "https://doi.org/10.1021/acsomega.4c08146",
     "program": "",
@@ -10552,34 +10580,6 @@ export const worksTable: WorkTableRecord[] = [
       "Petroleum Processing and Analysis",
       "Computational Drug Discovery Methods",
       "Free Radicals and Antioxidants"
-    ],
-    "institutions": []
-  },
-  {
-    "workId": "https://openalex.org/W4403024797",
-    "doi": "https://doi.org/10.1016/j.ijhydene.2024.09.383",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5038432622",
-    "allAuthorOpenAlexIds": [
-      "A5038432622",
-      "A5028901037",
-      "A5092646260"
-    ],
-    "firstAuthorLastName": "Alsulami",
-    "allAuthors": [
-      "Ahmed Alsulami",
-      "Abdulmohsen A. Al-Sibaie",
-      "Theis I. Sølling"
-    ],
-    "title": "Photo-induced loss of H2 from H2S, CH4, H2O and SiH4, when and why is it possible",
-    "publicationDate": "2024-10-01",
-    "year": 2024,
-    "venue": "International Journal of Hydrogen Energy",
-    "citations": 0,
-    "topics": [
-      "Industrial Gas Emission Control",
-      "Catalytic Processes in Materials Science",
-      "Methane Hydrates and Related Phenomena"
     ],
     "institutions": []
   },

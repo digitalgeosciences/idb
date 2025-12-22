@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>Integrative Dashboard - OpenAlex Feed</title>
+    <title>Integrative Dashboard</title>
     <link>https://digitalgeosciences.github.io/dashboard3.2/</link>
     <description>Recent publications with OpenAlex abstracts and topics.</description>
-    <lastBuildDate>Wed, 17 Dec 2025 13:29:17 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 21:13:05 GMT</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Paper spray analysis of crude oil samples: comparing traditional characterization schemes with mass spectrometric outcomes</title>
@@ -272,7 +272,7 @@
       <category>Chemistry</category>
       <category>Materials science</category>
       <category>Environmental science</category>
-      <description>Topics: Chemistry, Materials science, Environmental science&#10;Venue: International Journal of Hydrogen Energy&#10;Year: 2024&#10;Citations: 0</description>
+      <description>Topics: Chemistry, Materials science, Environmental science&#10;Venue: International Journal of Hydrogen Energy&#10;Year: 2024&#10;Citations: 1</description>
     </item>
     <item>
       <title>Calcium sulfate scale: A review of state-of-the-art</title>
@@ -790,7 +790,7 @@
     <item>
       <title>Decision Tree Ensembles for Automatic Identification of Lithology</title>
       <link>https://doi.org/10.2118/214460-ms</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">https://openalex.org/W4317376201</guid>
       <dc:creator>Mahmoud Desouky, Abdullah Alqubalee, Ahmed Gowida</dc:creator>
       <category>Random forest</category>
@@ -798,7 +798,7 @@
       <category>Decision tree</category>
       <category>Identification (biology)</category>
       <category>Hyperparameter</category>
-      <description>Abstract: Abstract Lithology types identification is one of the processes geoscientists rely on to understand the subsurface formations and better evaluate the quality of reservoirs and aquifers. However, direct lithological identification processes usually require more effort and time. Therefore, researchers developed several machine learning models based on well-logging data to avoid challenges associated with direct lithological identification and increase identification accuracy. Nevertheless, high uncertainty and low accuracy are commonly encountered issues due to the heterogeneous nature of lithology types. This work aims to employ decision tree ensemble techniques to predict the lithologies more accurately in time saving and cost-efficient manner, accounting for the uncertainty. This study investigated the real-world well logs dataset from the public Athabasca Oil Sands Database to identify and extract the relevant features. Then, we conducted a thorough training using grid search to optimize the hyperparameters of the ensemble decision tree models. This paper evaluated two ensemble techniques: random forest (RF) and extreme gradient boosting (XGB). We picked metrics such as accuracy, precision, and recall to assess the developed models&apos; performance using 5-fold cross-validation. Finally, we performed a chi-squared test to test our hypothesis of the identical performance of the developed models. The XGB and RF models have 94% and 93% accuracy, respectively. Also, the extreme gra…&#10;Topics: Random forest, Computer science, Decision tree, Identification (biology), Hyperparameter&#10;Year: 2023&#10;Citations: 4</description>
+      <description>Abstract: Abstract Lithology types identification is one of the processes geoscientists rely on to understand the subsurface formations and better evaluate the quality of reservoirs and aquifers. However, direct lithological identification processes usually require more effort and time. Therefore, researchers developed several machine learning models based on well-logging data to avoid challenges associated with direct lithological identification and increase identification accuracy. Nevertheless, high uncertainty and low accuracy are commonly encountered issues due to the heterogeneous nature of lithology types. This work aims to employ decision tree ensemble techniques to predict the lithologies more accurately in time saving and cost-efficient manner, accounting for the uncertainty. This study investigated the real-world well logs dataset from the public Athabasca Oil Sands Database to identify and extract the relevant features. Then, we conducted a thorough training using grid search to optimize the hyperparameters of the ensemble decision tree models. This paper evaluated two ensemble techniques: random forest (RF) and extreme gradient boosting (XGB). We picked metrics such as accuracy, precision, and recall to assess the developed models&apos; performance using 5-fold cross-validation. Finally, we performed a chi-squared test to test our hypothesis of the identical performance of the developed models. The XGB and RF models have 94% and 93% accuracy, respectively. Also, the extreme gra…&#10;Topics: Random forest, Computer science, Decision tree, Identification (biology), Hyperparameter&#10;Year: 2023&#10;Citations: 5</description>
     </item>
     <item>
       <title>Controls on Mechanical Properties of Carbonate Mudstone: Insights from Non-Destructive Techniques and Geochemical Data</title>
