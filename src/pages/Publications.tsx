@@ -39,6 +39,21 @@ const getPublicationTooltip = (w: (typeof worksTable)[number]) => {
   });
 };
 
+const formatPublicationDate = (w: (typeof worksTable)[number]) => {
+  if (w.publicationDate) {
+    const t = Date.parse(w.publicationDate);
+    if (!Number.isNaN(t)) {
+      return new Date(t).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      });
+    }
+    return w.publicationDate;
+  }
+  return w.year ? String(w.year) : "";
+};
+
 const renderTitleHtml = (title: string | undefined) => (
   <span dangerouslySetInnerHTML={{ __html: title || "" }} />
 );
@@ -568,7 +583,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                             className="flex w-full items-center justify-end gap-1 bg-transparent p-0 text-xs font-medium text-muted-foreground hover:text-foreground border-0 focus-visible:outline-none"
                             onClick={() => toggleSort("year")}
                           >
-                            Year
+                            Date
                             <ArrowUpDown className="h-3 w-3" />
                           </button>
                         </TableHead>
@@ -600,9 +615,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                           return cleaned ? `https://doi.org/${cleaned}` : "";
                         })();
 
-                        const displayYear = w.publicationDate
-                          ? new Date(w.publicationDate).getFullYear()
-                          : w.year ?? "";
+                        const displayDate = formatPublicationDate(w);
 
                         return (
                           <TableRow key={w.workId}>
@@ -650,10 +663,10 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                                     </>
                                   )}
 
-                                  {displayYear && (
+                                  {displayDate && (
                                     <>
                                       <span>•</span>
-                                      <span>{displayYear}</span>
+                                      <span>{displayDate}</span>
                                     </>
                                   )}
 
@@ -687,7 +700,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                               className="hidden md:table-cell text-right text-muted-foreground"
                               title={getPublicationTooltip(w)}
                             >
-                              {displayYear}
+                              {displayDate}
                             </TableCell>
 
                             <TableCell className="hidden lg:table-cell text-xs text-muted-foreground">
