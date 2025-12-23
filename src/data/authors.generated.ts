@@ -36,23 +36,5 @@ export const authors: AuthorRecord[] = [
     "totalPublications": 45,
     "totalCitations": 390,
     "hIndex": 12
-  },
-  {
-    "authorId": "idb0000-solling-theis",
-    "openAlexId": "A5038432622",
-    "openAlexIds": [
-      "A5038432622"
-    ],
-    "name": "Theis Sølling",
-    "groupId": "",
-    "groupName": "",
-    "affiliate1": "",
-    "affiliate2": "",
-    "affiliate3": "",
-    "email": "",
-    "orcid": "",
-    "totalPublications": 267,
-    "totalCitations": 4554,
-    "hIndex": 32
   }
 ];
