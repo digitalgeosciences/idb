@@ -1630,5 +1630,27 @@ export const worksTable: WorkTableRecord[] = [
       "Environmental Monitoring and Data Management"
     ],
     "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W7117128083",
+    "doi": "https://doi.org/10.5281/zenodo.18027324",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "Integrative Dashboard (IDB)",
+    "publicationDate": "2025-12-23",
+    "year": 2025,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "citations": 0,
+    "topics": [],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
   }
 ];
