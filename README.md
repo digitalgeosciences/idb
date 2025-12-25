@@ -76,7 +76,7 @@ This runs, in order: `npm run update:authors:openalex`, `npm run generate:author
 
 ## Citation
 ```
-Alqubalee, A. (2025). Integrative Dashboard (IDB) (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.17918877
+Abdullah Alqubalee. (2025). Integrative Dashboard (IDB) (v0.2.0). Zenodo. https://doi.org/10.5281/zenodo.18027324
 ```
 
 ## Questions and support
