@@ -95,7 +95,7 @@ export const SiteShell = ({ children }: SiteShellProps) => {
       ? (siteInfo as any).navLinks
       : [
           { label: "Dashboard", href: "/" },
-          { label: "IDs Finder", href: "/authors" },
+          { label: "Help", href: "/help" },
           { label: "About", href: "/about" },
         ];
 

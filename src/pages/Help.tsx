@@ -16,7 +16,7 @@ import {
 import { useToast } from "@/hooks/use-toast";
 import { SiteShell } from "@/components/SiteShell";
 
-export default function AuthorManagement() {
+export default function Help() {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<OpenAlexAuthor[]>([]);
   const [isSearching, setIsSearching] = useState(false);
