@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Search, ExternalLink, Loader2, Link2, BookOpen, Copy } from "lucide-react";
+import { Search, ExternalLink, Loader2, Link2, BookOpen, Copy, LifeBuoy } from "lucide-react";
 import {
   searchAuthors,
   getAuthorWorks,
@@ -229,11 +229,65 @@ export default function Help() {
     <SiteShell>
       <main className="container mx-auto px-4 py-6 space-y-6">
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold text-foreground">Author and Work IDs finder</h1>
+          <h1 className="text-3xl font-bold text-foreground">Help &amp; OpenAlex support</h1>
           <p className="text-muted-foreground text-sm">
-            Search OpenAlex by name or title to pinpoint the correct author and work IDs.
+            Fix OpenAlex profiles, contact support, and search OpenAlex to pinpoint the correct author and work IDs.
           </p>
         </div>
+
+        <Card className="border border-border/60">
+          <CardHeader className="pb-2 space-y-1">
+            <CardTitle className="flex items-center gap-2">
+              <LifeBuoy className="h-5 w-5 text-primary" />
+              OpenAlex support
+            </CardTitle>
+            <CardDescription>Useful links for fixing profiles or getting help.</CardDescription>
+          </CardHeader>
+          <CardContent className="pt-0">
+            <ul className="list-disc space-y-2 pl-5 text-sm text-foreground">
+              <li>
+                <a
+                  className="text-primary underline"
+                  href="https://help.openalex.org/hc/en-us/categories/24734214039703-How-to"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  How to guide
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-primary underline"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSehRQBTvckqFhmbTLruRxu-GEOuaIpZWGBI4PDGcI4E4kZqWQ/viewform"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Fix an OpenAlex source profile
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-primary underline"
+                  href="https://docs.google.com/forms/d/1WzSGs0AIPyghKuSHHzlh3uLJ2QOzz3UJ4feO8xZh_9o/viewform?edit_requested=true"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Fix an OpenAlex author profile
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-primary underline"
+                  href="https://help.openalex.org/hc/en-us/requests/new"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Contact OpenAlex support
+                </a>
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
 
         <Card>
           <CardHeader className="space-y-1">
