@@ -57,6 +57,12 @@ const renderTitleHtml = (title: string | undefined) => (
   <span dangerouslySetInnerHTML={{ __html: title || "" }} />
 );
 
+const formatFirstAuthor = (authors: string[] | undefined, firstAuthorLastName?: string) => {
+  if (!authors?.length) return "";
+  const baseName = firstAuthorLastName || authors[0];
+  return authors.length > 1 && baseName ? `${baseName} et al.` : baseName;
+};
+
 // Normalize DOIs so duplicates can be detected reliably
 const normalizeDoi = (raw?: string | null) => {
   if (!raw) return "";
@@ -634,11 +640,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                                   {w.allAuthors && w.allAuthors.length > 0 ? (
                                     <>
                                       <span>•</span>
-                                      <span>
-                                        {w.firstAuthorLastName
-                                          ? `${w.firstAuthorLastName} et al.`
-                                        : `${w.allAuthors[0]} et al.`}
-                                      </span>
+                                      <span>{formatFirstAuthor(w.allAuthors, w.firstAuthorLastName)}</span>
                                     </>
                                   ) : (
                                     <>
@@ -671,9 +673,7 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                                   title={w.allAuthors.join(", ")}
                                   className="cursor-default"
                                 >
-                                  {w.firstAuthorLastName
-                                    ? `${w.firstAuthorLastName} et al.`
-                                    : `${w.allAuthors[0]} et al.`}
+                                  {formatFirstAuthor(w.allAuthors, w.firstAuthorLastName)}
                                 </span>
                               ) : (
                                 ""
