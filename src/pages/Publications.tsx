@@ -18,7 +18,6 @@ import { worksTable } from "@/data/worksTable.generated";   // <- keep this one
 import { filterWorks } from "@/lib/blacklist";
 import { toast } from "@/components/ui/use-toast";
 import { Input } from "@/components/ui/input";
-import { Checkbox } from "@/components/ui/checkbox";
 import { repairUtf8 } from "@/lib/textRepair";
 
 const getPublicationSortValue = (w: (typeof worksTable)[number]) => {
@@ -158,7 +157,6 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
   const [endYear, setEndYear] = useState<number | null>(
     toYearParam ? Number(toYearParam) : null,
   );
-  const [includeNoVenue, setIncludeNoVenue] = useState(false);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -180,7 +178,6 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
 
     return baseWorks.filter((w) => {
       if (!w.year) return false;
-      if (!includeNoVenue && !w.venue) return false;
       if (from != null && w.year < from) return false;
       if (to != null && w.year > to) return false;
       if (topicFilter && !(w.topics || []).includes(topicFilter)) return false;
@@ -231,7 +228,6 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
     endYear,
     allYears,
     searchQuery,
-    includeNoVenue,
     topicFilter,
     institutionFilter,
     authorFilter,
@@ -545,18 +541,6 @@ const PublicationsPage = ({ mode = "publications" }: PublicationsPageProps) => {
                   </select>
                 </>
               )}
-
-              <label
-                className="flex items-center gap-1"
-                title="Include conference papers and publications without a venue"
-              >
-                <Checkbox
-                  checked={includeNoVenue}
-                  onCheckedChange={(checked) => setIncludeNoVenue(checked === true)}
-                  className="h-3.5 w-3.5"
-                />
-                <span>Show all publications</span>
-              </label>
             </div>
 
             {sorted.length === 0 ? (
