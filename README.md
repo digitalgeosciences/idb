@@ -1,4 +1,5 @@
 ## Integrative Dashboard (IDB)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18027324.svg)](https://doi.org/10.5281/zenodo.18027324)
 
 The Integrative Dashboard (IDB) is an offline, data-driven research analytics app built with React, Vite, TypeScript, Tailwind CSS, and the shadcn/ui component system. It uses locally cached OpenAlex data to keep navigation fast and available without live API calls.
 
