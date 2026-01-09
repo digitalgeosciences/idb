@@ -20,31 +20,31 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 28,
-    "citations": 306
+    "citations": 310
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 129
+    "citations": 130
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 11,
-    "citations": 140
+    "citations": 143
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 8,
-    "citations": 60
+    "citations": 62
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 6,
-    "citations": 72
+    "citations": 73
   },
   {
     "id": "https://openalex.org/T13177",
@@ -62,7 +62,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 4,
-    "citations": 90
+    "citations": 91
   },
   {
     "id": "https://openalex.org/T10995",
@@ -74,7 +74,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 3,
-    "citations": 23
+    "citations": 24
   },
   {
     "id": "https://openalex.org/T10577",
@@ -92,7 +92,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10271",
     "name": "Seismic Imaging and Inversion Techniques",
     "publications": 2,
-    "citations": 35
+    "citations": 36
   },
   {
     "id": "https://openalex.org/T10001",
@@ -140,29 +140,29 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11304",
     "name": "Advanced Neuroimaging Techniques and Applications",
     "publications": 1,
-    "citations": 33
+    "citations": 34
   },
   {
     "id": "https://openalex.org/T11809",
     "name": "Advanced NMR Techniques and Applications",
     "publications": 1,
-    "citations": 33
-  },
-  {
-    "id": "https://openalex.org/T10491",
-    "name": "Enhanced Oil Recovery Techniques",
-    "publications": 1,
-    "citations": 19
+    "citations": 34
   },
   {
     "id": "https://openalex.org/T10572",
     "name": "Geophysical and Geoelectrical Methods",
     "publications": 1,
-    "citations": 19
+    "citations": 20
   },
   {
     "id": "https://openalex.org/T10033",
     "name": "Concrete and Cement Materials Research",
+    "publications": 1,
+    "citations": 20
+  },
+  {
+    "id": "https://openalex.org/T10491",
+    "name": "Enhanced Oil Recovery Techniques",
     "publications": 1,
     "citations": 19
   },
@@ -256,8 +256,8 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 40,
-    "citations": 390
+    "publications": 41,
+    "citations": 396
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -287,31 +287,31 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
-    "citations": 32
+    "citations": 33
   },
   {
     "id": "https://openalex.org/I47818738",
     "name": "Sultan Qaboos University",
     "publications": 2,
-    "citations": 30
+    "citations": 31
   },
   {
     "id": "https://openalex.org/I188973947",
     "name": "Novosibirsk State University",
     "publications": 2,
-    "citations": 30
+    "citations": 31
   },
   {
     "id": "https://openalex.org/I194028371",
     "name": "University of Regina",
     "publications": 2,
-    "citations": 30
+    "citations": 31
   },
   {
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 28
+    "citations": 30
   },
   {
     "id": "https://openalex.org/I21203515",
@@ -332,14 +332,14 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 5
   },
   {
-    "id": "https://openalex.org/I4387154749",
-    "name": "University of Poonch Rawalakot",
+    "id": "https://openalex.org/I146840658",
+    "name": "University of Azad Jammu and Kashmir",
     "publications": 2,
     "citations": 5
   },
   {
-    "id": "https://openalex.org/I146840658",
-    "name": "University of Azad Jammu and Kashmir",
+    "id": "https://openalex.org/I4387154749",
+    "name": "University of Poonch Rawalakot",
     "publications": 2,
     "citations": 5
   },
@@ -414,5 +414,11 @@ export const institutionStats: InstitutionStats[] = [
     "name": "Qatar University",
     "publications": 1,
     "citations": 3
+  },
+  {
+    "id": "https://openalex.org/I4210164339",
+    "name": "Oldham Council",
+    "publications": 1,
+    "citations": 0
   }
 ];

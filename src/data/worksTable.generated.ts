@@ -53,7 +53,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-11-22",
     "year": 2023,
     "venue": "Marine and Petroleum Geology",
-    "citations": 27,
+    "citations": 28,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Paleontology and Stratigraphy of Fossils",
@@ -95,7 +95,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-03-17",
     "year": 2020,
     "venue": "ACS Omega",
-    "citations": 33,
+    "citations": 34,
     "topics": [
       "NMR spectroscopy and applications",
       "Advanced Neuroimaging Techniques and Applications",
@@ -240,6 +240,45 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4388205616",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5072935704",
+      "A5014657720",
+      "A5080748045",
+      "A5010595990",
+      "A5027197211",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Salisu",
+    "allAuthors": [
+      "Anas Muhammad Salisu",
+      "Abdullah Alqubalee",
+      "Abdulwahab Muhammad Bello",
+      "Abdulkarim Al-Hussaini",
+      "Abdulrauf R. Adebayo",
+      "Abduljamiu O. Amao",
+      "Khalid Al–Ramadan"
+    ],
+    "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
+    "publicationDate": "2023-10-26",
+    "year": 2023,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 20,
+    "topics": [
+      "Geophysical and Geoelectrical Methods",
+      "Concrete and Cement Materials Research",
+      "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "The University of Texas at Austin"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3139415666",
     "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
     "program": "",
@@ -271,45 +310,6 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4388205616",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5072935704",
-      "A5014657720",
-      "A5080748045",
-      "A5010595990",
-      "A5027197211",
-      "A5085007251"
-    ],
-    "firstAuthorLastName": "Salisu",
-    "allAuthors": [
-      "Anas Muhammad Salisu",
-      "Abdullah Alqubalee",
-      "Abdulwahab Muhammad Bello",
-      "Abdulkarim Al-Hussaini",
-      "Abdulrauf R. Adebayo",
-      "Abduljamiu O. Amao",
-      "Khalid Al–Ramadan"
-    ],
-    "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
-    "publicationDate": "2023-10-26",
-    "year": 2023,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 19,
-    "topics": [
-      "Geophysical and Geoelectrical Methods",
-      "Concrete and Cement Materials Research",
-      "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "The University of Texas at Austin"
     ]
   },
   {
@@ -372,7 +372,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-05-28",
     "year": 2024,
     "venue": "Journal of African Earth Sciences",
-    "citations": 9,
+    "citations": 10,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -471,7 +471,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-03-30",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
-    "citations": 13,
+    "citations": 14,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -536,7 +536,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-07-01",
     "year": 2022,
     "venue": "Natural Resources Research",
-    "citations": 10,
+    "citations": 11,
     "topics": [
       "Seismic Imaging and Inversion Techniques",
       "Hydrocarbon exploration and reservoir analysis",
@@ -760,40 +760,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4223471131",
-    "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5074504776",
-      "A5040857714",
-      "A5064720324",
-      "A5035815399"
-    ],
-    "firstAuthorLastName": "Syahputra",
-    "allAuthors": [
-      "M. Rika Nanda Syahputra",
-      "Hassan A. Eltom",
-      "Ammar El‐Husseiny",
-      "Michael A. Kaminski",
-      "Abdullah Alqubalee"
-    ],
-    "title": "Spatial patterns variations of a burrowed carbonate stratum (ramp carbonates), Upper Jurassic Hanifa Formation, central Saudi Arabia",
-    "publicationDate": "2022-04-12",
-    "year": 2022,
-    "venue": "Sedimentary Geology",
-    "citations": 6,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geological formations and processes",
-      "Hydrocarbon exploration and reservoir analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4387996609",
     "doi": "https://doi.org/10.1038/s41598-023-45563-9",
     "program": "",
@@ -917,8 +883,8 @@ export const worksTable: WorkTableRecord[] = [
       "King Saud University",
       "University of Technology Malaysia",
       "Yarmouk University",
-      "University of Poonch Rawalakot",
-      "University of Azad Jammu and Kashmir"
+      "University of Azad Jammu and Kashmir",
+      "University of Poonch Rawalakot"
     ]
   },
   {
@@ -959,36 +925,34 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4391286506",
-    "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
+    "workId": "https://openalex.org/W4223471131",
+    "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
     "program": "",
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5070455488",
-      "A5044235421",
-      "A5079903196",
-      "A5053747503",
-      "A5111119662"
+      "A5074504776",
+      "A5040857714",
+      "A5064720324",
+      "A5035815399"
     ],
-    "firstAuthorLastName": "AlGhamdi",
+    "firstAuthorLastName": "Syahputra",
     "allAuthors": [
-      "Faisal AlGhamdi",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Israa S. Abu‐Mahfouz",
-      "Bandar Alotaibi",
-      "Mohammed Abouelresh"
+      "M. Rika Nanda Syahputra",
+      "Hassan A. Eltom",
+      "Ammar El‐Husseiny",
+      "Michael A. Kaminski",
+      "Abdullah Alqubalee"
     ],
-    "title": "Source rock potential, thermal maturity, and depositional environment of the Ordovician Ra’an Shale Member, central Saudi Arabia",
-    "publicationDate": "2024-01-28",
-    "year": 2024,
-    "venue": "Journal of Asian Earth Sciences X",
-    "citations": 3,
+    "title": "Spatial patterns variations of a burrowed carbonate stratum (ramp carbonates), Upper Jurassic Hanifa Formation, central Saudi Arabia",
+    "publicationDate": "2022-04-12",
+    "year": 2022,
+    "venue": "Sedimentary Geology",
+    "citations": 6,
     "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
       "Paleontology and Stratigraphy of Fossils",
-      "Geological formations and processes"
+      "Geological formations and processes",
+      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1073,6 +1037,42 @@ export const worksTable: WorkTableRecord[] = [
       "Geochemistry and Elemental Analysis",
       "Radioactive element chemistry and processing",
       "Paleontology and Stratigraphy of Fossils"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4391286506",
+    "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5070455488",
+      "A5044235421",
+      "A5079903196",
+      "A5053747503",
+      "A5111119662"
+    ],
+    "firstAuthorLastName": "AlGhamdi",
+    "allAuthors": [
+      "Faisal AlGhamdi",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Israa S. Abu‐Mahfouz",
+      "Bandar Alotaibi",
+      "Mohammed Abouelresh"
+    ],
+    "title": "Source rock potential, thermal maturity, and depositional environment of the Ordovician Ra’an Shale Member, central Saudi Arabia",
+    "publicationDate": "2024-01-28",
+    "year": 2024,
+    "venue": "Journal of Asian Earth Sciences X",
+    "citations": 3,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Paleontology and Stratigraphy of Fossils",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1269,7 +1269,8 @@ export const worksTable: WorkTableRecord[] = [
       "Michael A. Kaminski",
       "Michael A. Kaminski",
       "Osman Abdullatif",
-      "Osman Abdullatif"
+      "Osman Abdullatif",
+      "Osman M. Abdullatif"
     ],
     "title": "STABLE ISOTOPE CHEMOSTRATIGRAPHY OF A BIOTURBATED MIDDLE JURASSIC CARBONATE SEQUENCE, CENTRAL SAUDI ARABIA: PALEOTEMPERATURE RECONSTRUCTION, DEPOSITION ENVIRONMENT AND DIAGENETIC INTERPRETATIONS",
     "publicationDate": "2019-01-01",
@@ -1343,7 +1344,9 @@ export const worksTable: WorkTableRecord[] = [
       "Ichthyology and Marine Biology",
       "Geological and Geophysical Studies"
     ],
-    "institutions": []
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
   },
   {
     "workId": "https://openalex.org/W4385654401",
@@ -1378,6 +1381,7 @@ export const worksTable: WorkTableRecord[] = [
       "Drilling and Well Engineering"
     ],
     "institutions": [
+      "Oldham Council",
       "King Fahd University of Petroleum and Minerals"
     ]
   },
