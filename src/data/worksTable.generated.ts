@@ -1269,8 +1269,7 @@ export const worksTable: WorkTableRecord[] = [
       "Michael A. Kaminski",
       "Michael A. Kaminski",
       "Osman Abdullatif",
-      "Osman Abdullatif",
-      "Osman M. Abdullatif"
+      "Osman Abdullatif"
     ],
     "title": "STABLE ISOTOPE CHEMOSTRATIGRAPHY OF A BIOTURBATED MIDDLE JURASSIC CARBONATE SEQUENCE, CENTRAL SAUDI ARABIA: PALEOTEMPERATURE RECONSTRUCTION, DEPOSITION ENVIRONMENT AND DIAGENETIC INTERPRETATIONS",
     "publicationDate": "2019-01-01",
