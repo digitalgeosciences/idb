@@ -279,40 +279,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W3139415666",
-    "doi": "https://doi.org/10.1016/j.jngse.2021.103917",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5023484800",
-      "A5113878758",
-      "A5000230700"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Abdullah S. Sultan",
-      "Assad Barri",
-      "Khalid Abdelbasit"
-    ],
-    "title": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
-    "publicationDate": "2021-03-18",
-    "year": 2021,
-    "venue": "Journal of Natural Gas Science and Engineering",
-    "citations": 19,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Enhanced Oil Recovery Techniques"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W2945148837",
     "doi": "https://doi.org/10.1007/s12517-019-4467-0",
     "program": "",
@@ -505,42 +471,6 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Hydrology and Sediment Transport Processes",
       "Hydrology and Watershed Management Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4283757143",
-    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5064720324",
-      "A5040857714",
-      "A5006844997",
-      "A5024882078",
-      "A5044457172"
-    ],
-    "firstAuthorLastName": "El‐Husseiny",
-    "allAuthors": [
-      "Ammar El‐Husseiny",
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Ammar Abdlmutalib",
-      "Hani Al-Mukainah",
-      "Rika N. Syahputra"
-    ],
-    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
-    "publicationDate": "2022-07-01",
-    "year": 2022,
-    "venue": "Natural Resources Research",
-    "citations": 11,
-    "topics": [
-      "Seismic Imaging and Inversion Techniques",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -836,58 +766,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4391167607",
-    "doi": "https://doi.org/10.3390/min14020126",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029716563",
-      "A5043354798",
-      "A5022797343",
-      "A5044055562",
-      "A5102858778",
-      "A5006452421",
-      "A5023467994",
-      "A5061703841",
-      "A5037236117"
-    ],
-    "firstAuthorLastName": "Hakimi",
-    "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Alok Kumar",
-      "Abdullah Alqubalee",
-      "Alok K. Singh",
-      "Mohammed Almobarky",
-      "Afikah Rahim",
-      "Mohammad Alqudah",
-      "Aref Lashin",
-      "Khairul Azlan Mustapha",
-      "Waqas Naseem"
-    ],
-    "title": "Mineralogy and Geochemistry of the Paleocene–Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conditions and Volcanic Activity",
-    "publicationDate": "2024-01-24",
-    "year": 2024,
-    "venue": "Minerals",
-    "citations": 5,
-    "topics": [
-      "Geology and Paleoclimatology Research",
-      "Geochemistry and Elemental Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
-    ],
-    "institutions": [
-      "Kazan Federal University",
-      "University of Malaya",
-      "King Fahd University of Petroleum and Minerals",
-      "Rajiv Gandhi Institute of Petroleum Technology",
-      "King Saud University",
-      "University of Technology Malaysia",
-      "Yarmouk University",
-      "University of Azad Jammu and Kashmir",
-      "University of Poonch Rawalakot"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4390685983",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
     "program": "",
@@ -1037,42 +915,6 @@ export const worksTable: WorkTableRecord[] = [
       "Geochemistry and Elemental Analysis",
       "Radioactive element chemistry and processing",
       "Paleontology and Stratigraphy of Fossils"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4391286506",
-    "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5070455488",
-      "A5044235421",
-      "A5079903196",
-      "A5053747503",
-      "A5111119662"
-    ],
-    "firstAuthorLastName": "AlGhamdi",
-    "allAuthors": [
-      "Faisal AlGhamdi",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Israa S. Abu‐Mahfouz",
-      "Bandar Alotaibi",
-      "Mohammed Abouelresh"
-    ],
-    "title": "Source rock potential, thermal maturity, and depositional environment of the Ordovician Ra’an Shale Member, central Saudi Arabia",
-    "publicationDate": "2024-01-28",
-    "year": 2024,
-    "venue": "Journal of Asian Earth Sciences X",
-    "citations": 3,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Paleontology and Stratigraphy of Fossils",
-      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1383,40 +1225,6 @@ export const worksTable: WorkTableRecord[] = [
       "Oldham Council",
       "King Fahd University of Petroleum and Minerals"
     ]
-  },
-  {
-    "workId": "https://openalex.org/W4388593599",
-    "doi": "https://doi.org/10.29041/strat.19.3.02",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029738708",
-      "A5035815399",
-      "A5082826691",
-      "A5085007251",
-      "A5061005201"
-    ],
-    "firstAuthorLastName": "Babiker",
-    "allAuthors": [
-      "Jarrah Babiker",
-      "Michael A. Kaminski",
-      "John Humphrey",
-      "Khalid Al–Ramadan",
-      "Jonathan L. Payne",
-      "Abdullah Alqubalee"
-    ],
-    "title": "First record of shark microremains from the Lower Khartam Member, Khuff Formation: an Upper Permian origin of the genus Lissodus, or a new placement of the Permo/Triassic boundary in Saudi Arabia?",
-    "publicationDate": "2022-09-01",
-    "year": 2022,
-    "venue": "Stratigraphy",
-    "citations": 0,
-    "topics": [
-      "Ichthyology and Marine Biology",
-      "Paleontology and Evolutionary Biology",
-      "Fish Biology and Ecology Studies"
-    ],
-    "institutions": []
   },
   {
     "workId": "https://openalex.org/W4388960641",
