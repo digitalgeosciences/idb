@@ -19,38 +19,38 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 24,
-    "citations": 272
+    "publications": 28,
+    "citations": 310
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
-    "publications": 11,
-    "citations": 111
+    "publications": 12,
+    "citations": 130
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
-    "publications": 9,
-    "citations": 129
+    "publications": 11,
+    "citations": 143
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 7,
-    "citations": 59
+    "publications": 8,
+    "citations": 62
+  },
+  {
+    "id": "https://openalex.org/T11740",
+    "name": "Geochemistry and Elemental Analysis",
+    "publications": 6,
+    "citations": 73
   },
   {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 6,
     "citations": 69
-  },
-  {
-    "id": "https://openalex.org/T11740",
-    "name": "Geochemistry and Elemental Analysis",
-    "publications": 5,
-    "citations": 68
   },
   {
     "id": "https://openalex.org/T12157",
@@ -83,16 +83,22 @@ export const topicStats: TopicStats[] = [
     "citations": 12
   },
   {
+    "id": "https://openalex.org/T10017",
+    "name": "Geology and Paleoclimatology Research",
+    "publications": 3,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/T10271",
+    "name": "Seismic Imaging and Inversion Techniques",
+    "publications": 2,
+    "citations": 36
+  },
+  {
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
     "citations": 12
-  },
-  {
-    "id": "https://openalex.org/T10017",
-    "name": "Geology and Paleoclimatology Research",
-    "publications": 2,
-    "citations": 5
   },
   {
     "id": "https://openalex.org/T10973",
@@ -103,6 +109,24 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T11588",
     "name": "Atmospheric and Environmental Gas Dynamics",
+    "publications": 2,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12319",
+    "name": "Fish Biology and Ecology Studies",
+    "publications": 2,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10955",
+    "name": "Paleontology and Evolutionary Biology",
+    "publications": 2,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T11387",
+    "name": "Ichthyology and Marine Biology",
     "publications": 2,
     "citations": 0
   },
@@ -125,12 +149,6 @@ export const topicStats: TopicStats[] = [
     "citations": 34
   },
   {
-    "id": "https://openalex.org/T10271",
-    "name": "Seismic Imaging and Inversion Techniques",
-    "publications": 1,
-    "citations": 25
-  },
-  {
     "id": "https://openalex.org/T10572",
     "name": "Geophysical and Geoelectrical Methods",
     "publications": 1,
@@ -141,6 +159,12 @@ export const topicStats: TopicStats[] = [
     "name": "Concrete and Cement Materials Research",
     "publications": 1,
     "citations": 20
+  },
+  {
+    "id": "https://openalex.org/T10491",
+    "name": "Enhanced Oil Recovery Techniques",
+    "publications": 1,
+    "citations": 19
   },
   {
     "id": "https://openalex.org/T10330",
@@ -181,24 +205,6 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T11801",
     "name": "Reservoir Engineering and Simulation Methods",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T12319",
-    "name": "Fish Biology and Ecology Studies",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10955",
-    "name": "Paleontology and Evolutionary Biology",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T11387",
-    "name": "Ichthyology and Marine Biology",
     "publications": 1,
     "citations": 0
   },
@@ -250,14 +256,32 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 37,
-    "citations": 358
+    "publications": 41,
+    "citations": 396
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
     "citations": 16
+  },
+  {
+    "id": "https://openalex.org/I33849332",
+    "name": "University of Malaya",
+    "publications": 3,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I28022161",
+    "name": "King Saud University",
+    "publications": 3,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 3,
+    "citations": 10
   },
   {
     "id": "https://openalex.org/I203899302",
@@ -290,20 +314,32 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 30
   },
   {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
+    "id": "https://openalex.org/I21203515",
+    "name": "Kazan Federal University",
     "publications": 2,
     "citations": 5
   },
   {
-    "id": "https://openalex.org/I33849332",
-    "name": "University of Malaya",
+    "id": "https://openalex.org/I98210582",
+    "name": "Rajiv Gandhi Institute of Petroleum Technology",
     "publications": 2,
     "citations": 5
   },
   {
-    "id": "https://openalex.org/I28022161",
-    "name": "King Saud University",
+    "id": "https://openalex.org/I4576418",
+    "name": "University of Technology Malaysia",
+    "publications": 2,
+    "citations": 5
+  },
+  {
+    "id": "https://openalex.org/I146840658",
+    "name": "University of Azad Jammu and Kashmir",
+    "publications": 2,
+    "citations": 5
+  },
+  {
+    "id": "https://openalex.org/I4387154749",
+    "name": "University of Poonch Rawalakot",
     "publications": 2,
     "citations": 5
   },
@@ -382,36 +418,6 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I4210164339",
     "name": "Oldham Council",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I21203515",
-    "name": "Kazan Federal University",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I98210582",
-    "name": "Rajiv Gandhi Institute of Petroleum Technology",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I4576418",
-    "name": "University of Technology Malaysia",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I4387154749",
-    "name": "University of Poonch Rawalakot",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I146840658",
-    "name": "University of Azad Jammu and Kashmir",
     "publications": 1,
     "citations": 0
   }
