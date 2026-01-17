@@ -483,9 +483,19 @@ const InsightsPage = () => {
               </div>
             </div>
 
+            <div className="flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground">
+              <span className="font-semibold text-foreground">Legend:</span>
+              <span>Pubs A = Period A publications</span>
+              <span>Pubs B = Period B publications</span>
+              <span>Pubs Δ% = % change from Period A to B</span>
+              <span>Cites A = Period A citations</span>
+              <span>Cites B = Period B citations</span>
+              <span>Cites Δ% = % change from Period A to B</span>
+            </div>
+
             <div className="overflow-auto rounded-md border border-border/60" id="insights-table">
               <table className="min-w-full text-sm">
-                <thead className="bg-muted/60 text-left">
+                <thead className="bg-muted/60">
                   <tr>
                     <th className="px-3 py-2 font-semibold text-foreground">Topic</th>
                     <th className="px-3 py-2 font-semibold text-foreground">
@@ -523,7 +533,7 @@ const InsightsPage = () => {
                           setSortDir((prev) => (sortKey === "pubsDelta" && prev === "desc" ? "asc" : "desc"));
                         }}
                       >
-                        Pubs change
+                        Pubs Δ%
                         <ArrowUpDown className="h-3 w-3" />
                       </button>
                     </th>
@@ -562,7 +572,7 @@ const InsightsPage = () => {
                           setSortDir((prev) => (sortKey === "citesDelta" && prev === "desc" ? "asc" : "desc"));
                         }}
                       >
-                        Cites change
+                        Cites Δ%
                         <ArrowUpDown className="h-3 w-3" />
                       </button>
                     </th>
