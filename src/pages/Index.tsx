@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { StatCard } from "@/components/StatCard";
-import { TrendingUp, Users, Award, FileText, User, ArrowUpRight } from "lucide-react";
+import { TrendingUp, Users, FileText, User, ArrowUpRight, Download } from "lucide-react";
 import { authors } from "@/data/authors.generated";
 import { useNavigate } from "react-router-dom";
 import { SiteShell } from "@/components/SiteShell";
@@ -9,8 +9,9 @@ import { filterWorks } from "@/lib/blacklist";
 import dashboardConfigJson from "@/data/dashboardConfig.json";
 import {
   Bar,
-  BarChart,
+  ComposedChart,
   CartesianGrid,
+  Line,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -93,6 +94,12 @@ const Index = () => {
   const [endYear, setEndYear] = useState<number | null>(null);
   const [publicationLimit, setPublicationLimit] = useState<number>(INITIAL_PUBLICATIONS_LIMIT);
   const [topicLimit, setTopicLimit] = useState<number>(INITIAL_TOPICS_LIMIT);
+  const [showTopics, setShowTopics] = useState(true);
+  const [showPublications, setShowPublications] = useState(true);
+  const [showCitations, setShowCitations] = useState(false);
+  const [showInstitutions, setShowInstitutions] = useState(false);
+  const [showExportMenu, setShowExportMenu] = useState(false);
+  const chartRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -194,8 +201,119 @@ const Index = () => {
         label: String(year),
         topics: entry.topics.size,
         publications: entry.publications,
+        citations: entry.citations,
+        institutions: entry.institutions.size,
       }));
   }, [allYears, startYear, endYear, perYearAggregates]);
+
+  const statTrends = useMemo(() => {
+    return {
+      topics: topicsChartData.map((d) => d.topics),
+      institutions: topicsChartData.map((d) => d.institutions),
+      publications: topicsChartData.map((d) => d.publications),
+      citations: topicsChartData.map((d) => d.citations),
+    };
+  }, [topicsChartData]);
+
+  const handleExportChart = (format: "svg" | "png") => {
+    const svg = chartRef.current?.querySelector("svg");
+    if (!svg) return;
+
+    const serializer = new XMLSerializer();
+    const source = serializer.serializeToString(svg);
+    const rect = svg.getBoundingClientRect();
+    const width = Math.max(1, Math.round(rect.width));
+    const chartHeight = Math.max(1, Math.round(rect.height));
+    const headerHeight = 36;
+    const totalHeight = headerHeight + chartHeight;
+
+    const chartInner = source
+      .replace(/^<svg[^>]*>/, "")
+      .replace(/<\/svg>$/, "");
+
+    const estimateTextWidth = (text: string) => Math.max(10, text.length * 7);
+
+    const legendItems = [
+      showTopics ? { label: "Topics", color: "#22c55e" } : null,
+      showInstitutions ? { label: "Institutions", color: "#0ea5e9" } : null,
+      showPublications ? { label: "Publications", color: "#7c3aed" } : null,
+      showCitations ? { label: "Citations", color: "#f97316" } : null,
+    ].filter(Boolean) as { label: string; color: string }[];
+
+    const legendWidth =
+      legendItems.reduce((sum, item) => sum + 18 + estimateTextWidth(item.label) + 12, 0) - 12;
+    let legendX = Math.max(0, width - legendWidth);
+    const legendSvg = legendItems
+      .map((item) => {
+        const x = legendX;
+        legendX += 18 + estimateTextWidth(item.label) + 12;
+        return `<g transform="translate(${x},8)">
+          <rect x="0" y="2" width="12" height="12" rx="2" fill="${item.color}" />
+          <text x="18" y="13" fill="#111827" font-size="12" font-family="Inter, system-ui, -apple-system, sans-serif">${item.label}</text>
+        </g>`;
+      })
+      .join("");
+
+    const yearText =
+      startYear != null && endYear != null
+        ? `Year range: ${startYear} to ${endYear}`
+        : startYear != null
+          ? `Year range from ${startYear}`
+          : "";
+
+    const headerSvg = `
+      <g>
+        ${yearText ? `<text x="0" y="20" fill="#111827" font-size="12" font-family="Inter, system-ui, -apple-system, sans-serif">${yearText}</text>` : ""}
+        ${legendSvg}
+      </g>
+    `;
+
+    const combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${totalHeight}" viewBox="0 0 ${width} ${totalHeight}">
+      <rect width="100%" height="100%" fill="${getComputedStyle(document.body).backgroundColor || "#ffffff"}" />
+      ${headerSvg}
+      <g transform="translate(0, ${headerHeight})">
+        ${chartInner}
+      </g>
+    </svg>`;
+
+    const blob = new Blob([combinedSvg], { type: "image/svg+xml;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const timestamp = Date.now();
+
+    if (format === "svg") {
+      const svgLink = document.createElement("a");
+      svgLink.href = url;
+      svgLink.download = `topic-stats-${timestamp}.svg`;
+      svgLink.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      return;
+    }
+
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = width;
+      canvas.height = totalHeight;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return;
+      ctx.fillStyle = getComputedStyle(document.body).backgroundColor || "#ffffff";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, width, totalHeight);
+      canvas.toBlob((pngBlob) => {
+        if (!pngBlob) return;
+        const pngUrl = URL.createObjectURL(pngBlob);
+        const link = document.createElement("a");
+        link.href = pngUrl;
+        link.download = `topic-stats-${timestamp}.png`;
+        link.click();
+        setTimeout(() => {
+          URL.revokeObjectURL(pngUrl);
+          URL.revokeObjectURL(url);
+        }, 1000);
+      }, "image/png");
+    };
+    img.src = url;
+  };
 
   const sortedPublications = useMemo(() => {
     return [...cleanWorks]
@@ -247,46 +365,6 @@ const Index = () => {
   return (
     <SiteShell>
       <main className="container mx-auto px-4 py-4 sm:py-8">
-        {allYears.length > 0 && (
-          <div className="mb-4 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
-            <span className="font-semibold text-foreground">Year range:</span>
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="font-semibold text-foreground">From</span>
-              <select
-                className="h-7 rounded border border-border bg-background px-2 text-xs"
-                value={startYear ?? ""}
-                onChange={(e) => {
-                  const value = Number(e.target.value);
-                  setStartYear(value);
-                  if (endYear != null && value > endYear) setEndYear(value);
-                }}
-              >
-                {allYears.map((y) => (
-                  <option key={y} value={y}>
-                    {y}
-                  </option>
-                ))}
-              </select>
-              <span className="font-semibold text-foreground">to</span>
-              <select
-                className="h-7 rounded border border-border bg-background px-2 text-xs"
-                value={endYear ?? ""}
-                onChange={(e) => {
-                  const value = Number(e.target.value);
-                  setEndYear(value);
-                  if (startYear != null && value < startYear) setStartYear(value);
-                }}
-              >
-                {allYears.map((y) => (
-                  <option key={y} value={y}>
-                    {y}
-                  </option>
-                ))}
-              </select>
-            </div>
-          </div>
-        )}
-
         {dashboardConfig.showStats && (
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5 mb-6 text-xs sm:text-sm">
             {dashboardConfig.statCards.members && (
@@ -302,7 +380,7 @@ const Index = () => {
               <StatCard
                 title="Topics"
                 value={<span title={topicsTotals.total.toLocaleString()}>{topicsTotals.total.toLocaleString()}</span>}
-                icon={TrendingUp}
+                trend={{ values: statTrends.topics }}
                 actionLabel="view"
                 onClick={() => navigate("/topics")}
               />
@@ -311,7 +389,7 @@ const Index = () => {
               <StatCard
                 title="Institutions"
                 value={<span title={institutionsTotals.total.toLocaleString()}>{institutionsTotals.total.toLocaleString()}</span>}
-                icon={TrendingUp}
+                trend={{ values: statTrends.institutions }}
                 actionLabel="view"
                 onClick={() => navigate("/institutions")}
               />
@@ -320,7 +398,7 @@ const Index = () => {
               <StatCard
                 title="Publications"
                 value={<span title={totalPublicationsInRange.toLocaleString()}>{totalPublicationsInRange.toLocaleString()}</span>}
-                icon={TrendingUp}
+                trend={{ values: statTrends.publications }}
                 actionLabel="view"
                 onClick={() => navigate("/publications")}
               />
@@ -329,7 +407,7 @@ const Index = () => {
               <StatCard
                 title="Citations"
                 value={<span title={totalCitationsInRange.toLocaleString()}>{totalCitationsInRange.toLocaleString()}</span>}
-                icon={Award}
+                trend={{ values: statTrends.citations }}
                 actionLabel="view"
                 onClick={() => navigate("/citations")}
               />
@@ -341,51 +419,201 @@ const Index = () => {
         {dashboardConfig.showCharts && (
           <section className="mb-10">
             <Card className="border-border/60">
-              <CardHeader className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <TrendingUp className="h-5 w-5 text-primary" />
-                  <span>Topic stats</span>
-                </CardTitle>
-                <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <span className="inline-block h-2 w-2 rounded-sm bg-[#22c55e]" />
-                    <span>Topics (unique topics)</span>
+              <CardHeader className="relative flex flex-col gap-3 pb-2">
+                <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+                  {allYears.length > 0 && (
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-semibold text-foreground">Year range:</span>
+                      <span className="font-semibold text-foreground">From</span>
+                      <select
+                        className="h-7 rounded border border-border bg-background px-2 text-xs"
+                        value={startYear ?? ""}
+                        onChange={(e) => {
+                          const value = Number(e.target.value);
+                          setStartYear(value);
+                          if (endYear != null && value > endYear) setEndYear(value);
+                        }}
+                      >
+                        {allYears.map((y) => (
+                          <option key={y} value={y}>
+                            {y}
+                          </option>
+                        ))}
+                      </select>
+                      <span className="font-semibold text-foreground">to</span>
+                      <select
+                        className="h-7 rounded border border-border bg-background px-2 text-xs"
+                        value={endYear ?? ""}
+                        onChange={(e) => {
+                          const value = Number(e.target.value);
+                          setEndYear(value);
+                          if (startYear != null && value < startYear) setStartYear(value);
+                        }}
+                      >
+                        {allYears.map((y) => (
+                          <option key={y} value={y}>
+                            {y}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+                  <div className="ml-auto flex flex-wrap items-center gap-3 pr-10">
+                    <button
+                      type="button"
+                      onClick={() => setShowTopics((prev) => !prev)}
+                      className={`flex items-center gap-2 rounded px-2 py-1 transition-colors ${
+                        showTopics ? "bg-muted text-foreground" : "text-muted-foreground hover:bg-muted/60"
+                      }`}
+                    >
+                      <span className="inline-block h-2 w-2 rounded-sm bg-[#22c55e]" />
+                      <span>Topics</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setShowInstitutions((prev) => !prev)}
+                      className={`flex items-center gap-2 rounded px-2 py-1 transition-colors ${
+                        showInstitutions ? "bg-muted text-foreground" : "text-muted-foreground hover:bg-muted/60"
+                      }`}
+                    >
+                      <span className="inline-block h-2 w-2 rounded-sm bg-[#0ea5e9]" />
+                      <span>Institutions</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setShowPublications((prev) => !prev)}
+                      className={`flex items-center gap-2 rounded px-2 py-1 transition-colors ${
+                        showPublications ? "bg-muted text-foreground" : "text-muted-foreground hover:bg-muted/60"
+                      }`}
+                    >
+                      <span className="inline-block h-2 w-2 rounded-sm bg-[#7c3aed]" />
+                      <span>Publications</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setShowCitations((prev) => !prev)}
+                      className={`flex items-center gap-2 rounded px-2 py-1 transition-colors ${
+                        showCitations ? "bg-muted text-foreground" : "text-muted-foreground hover:bg-muted/60"
+                      }`}
+                    >
+                      <span className="inline-block h-1.5 w-4 rounded-sm bg-[#f97316]" />
+                      <span>Citations</span>
+                    </button>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="inline-block h-2 w-2 rounded-sm bg-[#7c3aed]" />
-                    <span>Publications</span>
+                </div>
+                <div className="absolute right-3 top-3">
+                  <div className="relative flex items-center gap-1">
+                    <button
+                      type="button"
+                      onClick={() => setShowExportMenu((prev) => !prev)}
+                      className="inline-flex items-center justify-center rounded px-2 py-1 text-muted-foreground hover:bg-muted/60"
+                      title="Export chart"
+                    >
+                      <Download className="h-4 w-4" />
+                    </button>
+                    {showExportMenu ? (
+                      <div className="absolute right-0 top-9 z-10 min-w-[110px] rounded-md border border-border bg-popover p-1 shadow-lg">
+                        <button
+                          type="button"
+                          className="w-full rounded px-2 py-1 text-left text-sm hover:bg-muted"
+                          onClick={() => {
+                            handleExportChart("svg");
+                            setShowExportMenu(false);
+                          }}
+                        >
+                          Export SVG
+                        </button>
+                        <button
+                          type="button"
+                          className="w-full rounded px-2 py-1 text-left text-sm hover:bg-muted"
+                          onClick={() => {
+                            handleExportChart("png");
+                            setShowExportMenu(false);
+                          }}
+                        >
+                          Export PNG
+                        </button>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
-                <div className="h-[260px] w-full">
+              <CardContent className="pt-2 pb-4">
+                <div ref={chartRef} className="h-[260px] w-full">
                   <ResponsiveContainer width="100%" height="100%">
-                    <BarChart data={topicsChartData} margin={{ left: -10, right: 10 }}>
+                    <ComposedChart
+                      data={topicsChartData}
+                      margin={{ top: 0, right: 10, bottom: 12, left: 12 }}
+                    >
                       <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                       <XAxis
                         dataKey="year"
-                        stroke="hsl(var(--muted-foreground))"
+                        stroke="#1f2937"
+                        axisLine={{ stroke: "#1f2937", strokeWidth: 1.2 }}
+                        tickLine={{ stroke: "#1f2937" }}
                         tick={{
-                          fill: "hsl(var(--muted-foreground))",
+                          fill: "#1f2937",
+                          fontSize: 12,
+                        }}
+                        label={{
+                          value: "Year",
+                          position: "insideBottom",
+                          offset: -6,
+                          fill: "#1f2937",
                           fontSize: 12,
                         }}
                       />
                       <YAxis
-                        stroke="hsl(var(--muted-foreground))"
+                        stroke="#1f2937"
+                        axisLine={{ stroke: "#1f2937", strokeWidth: 1.2 }}
+                        tickLine={{ stroke: "#1f2937" }}
+                        width={34}
                         tick={{
-                          fill: "hsl(var(--muted-foreground))",
+                          fill: "#1f2937",
+                          fontSize: 12,
+                        }}
+                        domain={[0, "auto"]}
+                        label={{
+                          value: "Count",
+                          angle: -90,
+                          position: "insideLeft",
+                          offset: 6,
+                          fill: "#1f2937",
                           fontSize: 12,
                         }}
                       />
                       <Tooltip content={<SimpleTooltip />} />
-                      <Bar dataKey="topics" name="Topics (unique topics)" fill="#22c55e" />
-                      <Bar
-                        dataKey="publications"
-                        name="Publications"
-                        fill="#7c3aed"
-                        opacity={0.8}
-                      />
-                    </BarChart>
+                      {showTopics ? (
+                        <Bar dataKey="topics" name="Topics (unique topics)" fill="#22c55e" />
+                      ) : null}
+                      {showInstitutions ? (
+                        <Bar
+                          dataKey="institutions"
+                          name="Institutions"
+                          fill="#0ea5e9"
+                          opacity={0.85}
+                        />
+                      ) : null}
+                      {showPublications ? (
+                        <Bar
+                          dataKey="publications"
+                          name="Publications"
+                          fill="#7c3aed"
+                          opacity={0.8}
+                        />
+                      ) : null}
+                      {showCitations ? (
+                        <Line
+                          type="monotone"
+                          dataKey="citations"
+                          name="Citations"
+                          stroke="#f97316"
+                          strokeWidth={2}
+                          dot={{ r: 3 }}
+                          activeDot={{ r: 4 }}
+                        />
+                      ) : null}
+                    </ComposedChart>
                   </ResponsiveContainer>
                 </div>
               </CardContent>

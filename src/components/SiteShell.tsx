@@ -224,7 +224,7 @@ export const SiteShell = ({ children }: SiteShellProps) => {
                 </a>
               </div>
               <span className="text-muted-foreground">
-                Version 0.2.0
+                Version 0.3.0
               </span>
             </div>
 
