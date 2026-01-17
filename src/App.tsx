@@ -12,6 +12,7 @@ import PublicationsPage from "./pages/Publications";
 import Members from "./pages/Members";
 import TopicsPage from "./pages/Topics";
 import InstitutionsPage from "./pages/Institutions";
+import InsightsPage from "./pages/Insights";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/author/:id/network" element={<AuthorNetwork />} />
             <Route path="/publications" element={<PublicationsPage mode="publications" />} />
             <Route path="/citations" element={<PublicationsPage mode="citations" />} />
+            <Route path="/insights" element={<InsightsPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Help />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

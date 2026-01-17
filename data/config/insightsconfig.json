@@ -1,0 +1,20 @@
+{
+  "insightRules": [
+    "Emerging: appears only in Period B.",
+    "Declining: missing in Period B or publications and citations both drop more than 20%.",
+    "Strong surge: publications at least 2x and citations at least 2x.",
+    "Growing priority: publications at least 1.5x and citations at least 1.2x.",
+    "Impact-led: citations at least 1.5x while publications are flat or declining.",
+    "Output rising, impact softening: publications at least 1.2x but citations below 0.9x.",
+    "Stable: none of the above rules apply."
+  ],
+  "insightsDefaultPeriodA": { "from": 2017, "to": 2022 },
+  "insightsDefaultPeriodB": { "from": 2023, "to": 2025 },
+  "insightThresholds": {
+    "strongSurge": { "pubs": 2.0, "cites": 2.0 },
+    "growingPriority": { "pubs": 1.5, "cites": 1.2 },
+    "impactLed": { "cites": 1.5, "pubsMax": 1.0 },
+    "outputSoftening": { "pubs": 1.2, "citesMax": 0.9 },
+    "declineDrop": 0.8
+  }
+}
