@@ -63,6 +63,7 @@ const insightRules = [
 ];
 
 const formatPct = (value: number | null) => {
+  if (value === Infinity) return "New";
   if (value == null || !isFinite(value)) return "N/A";
   const pct = Math.round(value * 100);
   const sign = pct > 0 ? "+" : "";
@@ -170,8 +171,8 @@ const InsightsPage = () => {
     topics.forEach((topic) => {
       const a = aggA.get(topic) || { pubs: 0, cites: 0 };
       const b = aggB.get(topic) || { pubs: 0, cites: 0 };
-      const pubsDeltaPct = a.pubs === 0 ? (b.pubs > 0 ? Infinity : null) : (b.pubs - a.pubs) / a.pubs;
-      const citesDeltaPct = a.cites === 0 ? (b.cites > 0 ? Infinity : null) : (b.cites - a.cites) / a.cites;
+      const pubsDeltaPct = a.pubs === 0 ? (b.pubs > 0 ? Infinity : 0) : (b.pubs - a.pubs) / a.pubs;
+      const citesDeltaPct = a.cites === 0 ? (b.cites > 0 ? Infinity : 0) : (b.cites - a.cites) / a.cites;
       const row: TopicInsight = {
         topic,
         pubsA: a.pubs,
