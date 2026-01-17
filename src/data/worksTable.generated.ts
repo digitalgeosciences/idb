@@ -1655,5 +1655,61 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
     ]
+  },
+  {
+    "workId": "https://openalex.org/W7124278131",
+    "doi": "https://doi.org/10.48550/arxiv.2601.09283",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5113089995",
+      "A5022893471"
+    ],
+    "firstAuthorLastName": "Alonso-Marroquin",
+    "allAuthors": [
+      "Fernando Alonso-Marroquin",
+      "Abdullah Alqubalee",
+      "Christian Tantardini"
+    ],
+    "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
+    "publicationDate": "2026-01-14",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "citations": 0,
+    "topics": [
+      "Seismic Imaging and Inversion Techniques",
+      "Enhanced Oil Recovery Techniques",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W7124358305",
+    "doi": "",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5113089995",
+      "A5022893471"
+    ],
+    "firstAuthorLastName": "Alonso-Marroquin",
+    "allAuthors": [
+      "Fernando Alonso-Marroquin",
+      "Abdullah Alqubalee",
+      "Christian Tantardini"
+    ],
+    "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
+    "publicationDate": "2026-01-14",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "citations": 0,
+    "topics": [
+      "Seismic Imaging and Inversion Techniques",
+      "Enhanced Oil Recovery Techniques",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": []
   }
 ];
