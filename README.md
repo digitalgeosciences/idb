@@ -41,6 +41,15 @@ Create an optimized static build:
 ```bash
 npm run build
 ```
+
+## Insight rules (Topic Insights)
+- Emerging: appears only in Period B.
+- Declining: missing in Period B or publications and citations both drop more than 20%.
+- Strong surge: publications at least 2x and citations at least 2x.
+- Growing priority: publications at least 1.5x and citations at least 1.2x.
+- Impact-led: citations at least 1.5x while publications are flat or declining.
+- Output rising, impact softening: publications at least 1.2x but citations below 0.9x.
+- Stable: none of the above apply.
 Preview the production build locally:
 ```bash
 npm run preview

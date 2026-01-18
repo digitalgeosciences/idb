@@ -16,6 +16,9 @@ import {
   Search,
   ArrowUpDown,
   Info,
+  Tag,
+  BookOpen,
+  BarChart3,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import insightsConfig from "../../data/config/insightsconfig.json";
@@ -42,32 +45,31 @@ const thresholdsConfig =
     declineDrop: 0.8,
   };
 
-const insightRules = [
-  "Emerging: appears only in Period B.",
-  `Declining: missing in Period B or publications and citations both drop more than ${Math.round(
-    (1 - (thresholdsConfig.declineDrop ?? 0.8)) * 100,
-  )}%.`,
-  `Strong surge: publications at least ${thresholdsConfig.strongSurge?.pubs ?? 2}x and citations at least ${
-    thresholdsConfig.strongSurge?.cites ?? 2
-  }x.`,
-  `Growing priority: publications at least ${thresholdsConfig.growingPriority?.pubs ?? 1.5}x and citations at least ${
-    thresholdsConfig.growingPriority?.cites ?? 1.2
-  }x.`,
-  `Impact-led: citations at least ${thresholdsConfig.impactLed?.cites ?? 1.5}x while publications are flat or declining (<= ${
-    thresholdsConfig.impactLed?.pubsMax ?? 1
-  }x).`,
-  `Output rising, impact softening: publications at least ${thresholdsConfig.outputSoftening?.pubs ?? 1.2}x but citations below ${
-    thresholdsConfig.outputSoftening?.citesMax ?? 0.9
-  }x.`,
-  "Stable: none of the above rules apply.",
-];
-
 const formatPct = (value: number | null) => {
   if (value === Infinity) return "New";
+  if (value === -Infinity) return "Absent";
   if (value == null || !isFinite(value)) return "N/A";
   const pct = Math.round(value * 100);
   const sign = pct > 0 ? "+" : "";
   return `${sign}${pct}%`;
+};
+
+const classifyMetricChange = (delta: number | null) => {
+  if (delta === Infinity) return "Emerging";
+  if (delta === -Infinity) return "Absent";
+  if (delta == null || !isFinite(delta)) return "N/A";
+  if (delta >= 0.5) return "Rising";
+  if (delta >= 0.2) return "Up";
+  if (delta <= -0.5) return "Declining";
+  if (delta <= -0.2) return "Softening";
+  return "Stable";
+};
+
+const badgeTone = (status: string) => {
+  if (status === "Emerging" || status === "Rising" || status === "Up") return "bg-emerald-100 text-emerald-700";
+  if (status === "Declining" || status === "Softening" || status === "Absent") return "bg-rose-100 text-rose-700";
+  if (status === "Stable") return "bg-slate-100 text-slate-700";
+  return "bg-muted text-muted-foreground";
 };
 
 const deriveInsight = (row: TopicInsight) => {
@@ -132,6 +134,7 @@ const InsightsPage = () => {
     "topic" | "pubsA" | "pubsB" | "pubsDelta" | "citesA" | "citesB" | "citesDelta" | "insight"
   >("pubsDelta");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
+  const [showLegend, setShowLegend] = useState(false);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -171,8 +174,22 @@ const InsightsPage = () => {
     topics.forEach((topic) => {
       const a = aggA.get(topic) || { pubs: 0, cites: 0 };
       const b = aggB.get(topic) || { pubs: 0, cites: 0 };
-      const pubsDeltaPct = a.pubs === 0 ? (b.pubs > 0 ? Infinity : 0) : (b.pubs - a.pubs) / a.pubs;
-      const citesDeltaPct = a.cites === 0 ? (b.cites > 0 ? Infinity : 0) : (b.cites - a.cites) / a.cites;
+      const pubsDeltaPct =
+        a.pubs === 0
+          ? b.pubs > 0
+            ? Infinity
+            : 0
+          : b.pubs === 0
+            ? -Infinity
+            : (b.pubs - a.pubs) / a.pubs;
+      const citesDeltaPct =
+        a.cites === 0
+          ? b.cites > 0
+            ? Infinity
+            : 0
+          : b.cites === 0
+            ? -Infinity
+            : (b.cites - a.cites) / a.cites;
       const row: TopicInsight = {
         topic,
         pubsA: a.pubs,
@@ -483,15 +500,59 @@ const InsightsPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2 text-[11px] text-muted-foreground">
-              <span className="font-semibold text-foreground">Legend:</span>
-              <span>Pubs A = Period A publications</span>
-              <span>Pubs B = Period B publications</span>
-              <span>Pubs Δ% = % change from Period A to B</span>
-              <span>Cites A = Period A citations</span>
-              <span>Cites B = Period B citations</span>
-              <span>Cites Δ% = % change from Period A to B</span>
+            <div className="flex items-center justify-between">
+              <div className="flex flex-wrap gap-2 text-[11px] text-muted-foreground">
+                <span className="font-semibold text-foreground">Legend & insights</span>
+              </div>
+              <Button variant="outline" size="sm" className="h-8" onClick={() => setShowLegend((prev) => !prev)}>
+                {showLegend ? "Hide details" : "Show details"}
+              </Button>
             </div>
+
+            {showLegend && (
+              <div className="rounded-md border border-border/60 bg-muted/40 p-3 text-[11px] text-muted-foreground">
+                <div className="grid gap-3 md:grid-cols-2">
+                  <div className="space-y-2">
+                    <div className="font-semibold text-foreground">Legend</div>
+                    <div className="grid gap-1 sm:grid-cols-2">
+                      <span>Pubs A = Period A publications</span>
+                      <span>Pubs B = Period B publications</span>
+                      <span>Pubs Δ% = % change from Period A to B</span>
+                      <span>Cites A = Period A citations</span>
+                      <span>Cites B = Period B citations</span>
+                      <span>Cites Δ% = % change from Period A to B</span>
+                    </div>
+                    <div className="flex flex-wrap items-center gap-3">
+                      <span className="font-semibold text-foreground">Badges:</span>
+                      <span className="inline-flex items-center gap-1">
+                        <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
+                          <BookOpen className="h-3 w-3" />
+                        </span>
+                        Publications trend
+                      </span>
+                      <span className="inline-flex items-center gap-1">
+                        <span className={`inline-flex items-center justify-center rounded-full p-1 ${badgeTone("Stable")}`}>
+                          <BarChart3 className="h-3 w-3" />
+                        </span>
+                        Citations trend
+                      </span>
+                    </div>
+                  </div>
+                  <div className="space-y-1 text-foreground">
+                    <div className="font-semibold">Insights</div>
+                    <ul className="list-disc pl-4 space-y-0.5">
+                      <li>Emerging: only in Period B</li>
+                      <li>Declining: missing in Period B or both drop &gt;20%</li>
+                      <li>Strong surge: publications ≥2x and citations ≥2x</li>
+                      <li>Growing priority: publications ≥1.5x and citations ≥1.2x</li>
+                      <li>Impact-led: citations ≥1.5x with publications flat/declining</li>
+                      <li>Output rising, impact softening: publications ≥1.2x but citations &lt;0.9x</li>
+                      <li>Stable: otherwise</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            )}
 
             <div className="overflow-auto rounded-md border border-border/60" id="insights-table">
               <table className="min-w-full text-sm">
@@ -586,65 +647,79 @@ const InsightsPage = () => {
                             setSortDir((prev) => (sortKey === "insight" && prev === "desc" ? "asc" : "desc"));
                           }}
                         >
-                          Insight
+                          Insights
                           <ArrowUpDown className="h-3 w-3" />
                         </button>
-                        <div className="group relative inline-flex" role="tooltip" aria-label="Insight rules">
-                          <Info className="h-3.5 w-3.5 text-muted-foreground cursor-pointer" />
-                          <div className="pointer-events-none absolute right-0 top-6 z-30 w-80 max-w-[360px] rounded-md border border-border bg-popover px-3 py-2 text-[11px] text-foreground opacity-0 shadow-lg transition-opacity duration-150 group-hover:opacity-100">
-                            <p className="font-semibold leading-snug">
-                              Insights are auto-assigned (Period B vs Period A):Emerging = only in B; Declining = missing
-                              in B or both drop &gt;20%; Strong surge = pubs ≥2x and cites ≥2x; Growing priority = pubs
-                              ≥1.5x and cites ≥1.2x; Impact-led = cites ≥1.5x with pubs flat/declining; Output rising,
-                              impact softening = pubs ≥1.2x but cites &lt;0.9x; Stable = none of the above.
-                            </p>
-                          </div>
-                        </div>
                       </div>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  {insights.map((row) => (
-                    <tr key={row.topic} className="border-t border-border/60">
-                      <td className="px-3 py-2 font-semibold text-foreground">{row.topic}</td>
-                      <td className="px-3 py-2">
-                        <Link
-                          to={buildTopicLink(row.topic, rangeA)}
-                          className="text-primary hover:underline"
-                        >
-                          {row.pubsA}
-                        </Link>
-                      </td>
-                      <td className="px-3 py-2">
-                        <Link
-                          to={buildTopicLink(row.topic, rangeB)}
-                          className="text-primary hover:underline"
-                        >
-                          {row.pubsB}
-                        </Link>
-                      </td>
-                      <td className="px-3 py-2">{formatPct(row.pubsDeltaPct)}</td>
-                      <td className="px-3 py-2">
-                        <Link
-                          to={buildTopicLink(row.topic, rangeA)}
-                          className="text-primary hover:underline"
-                        >
-                          {row.citesA.toLocaleString()}
-                        </Link>
-                      </td>
-                      <td className="px-3 py-2">
-                        <Link
-                          to={buildTopicLink(row.topic, rangeB)}
-                          className="text-primary hover:underline"
-                        >
-                          {row.citesB.toLocaleString()}
-                        </Link>
-                      </td>
-                      <td className="px-3 py-2">{formatPct(row.citesDeltaPct)}</td>
-                      <td className="px-3 py-2 text-muted-foreground">{row.insight}</td>
-                    </tr>
-                  ))}
+                  {insights.map((row) => {
+                    const pubsStatus = classifyMetricChange(row.pubsDeltaPct);
+                    const citesStatus = classifyMetricChange(row.citesDeltaPct);
+                    return (
+                      <tr key={row.topic} className="border-t border-border/60">
+                        <td className="px-3 py-2 font-semibold text-foreground">
+                          <div className="flex items-center gap-2">
+                            <Tag className="h-3.5 w-3.5 text-primary" />
+                            <span>{row.topic}</span>
+                          </div>
+                        </td>
+                        <td className="px-3 py-2">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.pubsA}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeB)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.pubsB}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2">{formatPct(row.pubsDeltaPct)}</td>
+                        <td className="px-3 py-2">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeA)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.citesA.toLocaleString()}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2">
+                          <Link
+                            to={buildTopicLink(row.topic, rangeB)}
+                            className="text-primary hover:underline"
+                          >
+                            {row.citesB.toLocaleString()}
+                          </Link>
+                        </td>
+                        <td className="px-3 py-2">{formatPct(row.citesDeltaPct)}</td>
+                        <td className="px-3 py-2 text-muted-foreground">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span
+                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(pubsStatus)}`}
+                              title={`Publications: ${pubsStatus}`}
+                            >
+                              <BookOpen className="h-3 w-3" />
+                            </span>
+                            <span
+                              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-semibold ${badgeTone(citesStatus)}`}
+                              title={`Citations: ${citesStatus}`}
+                            >
+                              <BarChart3 className="h-3 w-3" />
+                            </span>
+                            <span className="text-xs text-muted-foreground">{row.insight}</span>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
