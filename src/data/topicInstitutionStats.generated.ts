@@ -19,7 +19,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 28,
+    "publications": 30,
     "citations": 310
   },
   {
@@ -65,6 +65,12 @@ export const topicStats: TopicStats[] = [
     "citations": 91
   },
   {
+    "id": "https://openalex.org/T10271",
+    "name": "Seismic Imaging and Inversion Techniques",
+    "publications": 4,
+    "citations": 36
+  },
+  {
     "id": "https://openalex.org/T10995",
     "name": "Methane Hydrates and Related Phenomena",
     "publications": 4,
@@ -77,6 +83,12 @@ export const topicStats: TopicStats[] = [
     "citations": 24
   },
   {
+    "id": "https://openalex.org/T10491",
+    "name": "Enhanced Oil Recovery Techniques",
+    "publications": 3,
+    "citations": 19
+  },
+  {
     "id": "https://openalex.org/T10577",
     "name": "Hydrology and Sediment Transport Processes",
     "publications": 3,
@@ -87,12 +99,6 @@ export const topicStats: TopicStats[] = [
     "name": "Geology and Paleoclimatology Research",
     "publications": 3,
     "citations": 10
-  },
-  {
-    "id": "https://openalex.org/T10271",
-    "name": "Seismic Imaging and Inversion Techniques",
-    "publications": 2,
-    "citations": 36
   },
   {
     "id": "https://openalex.org/T10001",
@@ -159,12 +165,6 @@ export const topicStats: TopicStats[] = [
     "name": "Concrete and Cement Materials Research",
     "publications": 1,
     "citations": 20
-  },
-  {
-    "id": "https://openalex.org/T10491",
-    "name": "Enhanced Oil Recovery Techniques",
-    "publications": 1,
-    "citations": 19
   },
   {
     "id": "https://openalex.org/T10330",
