@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { SiteShell } from "@/components/SiteShell";
 import { worksTable } from "@/data/worksTable.generated";
 import { filterWorks } from "@/lib/blacklist";
@@ -23,6 +23,17 @@ import {
   ChevronUp,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
+import {
+  Line,
+  LineChart,
+  CartesianGrid,
+  XAxis,
+  YAxis,
+  Tooltip as RechartsTooltip,
+  ResponsiveContainer,
+  Legend as RechartsLegend,
+  ReferenceArea,
+} from "recharts";
 import insightsConfig from "../../data/config/insightsconfig.json";
 
 type Range = { from: number | null; to: number | null };
@@ -147,6 +158,16 @@ const InsightsPage = () => {
   >("pubsDelta");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [showLegend, setShowLegend] = useState(false);
+  const [showChart, setShowChart] = useState(false);
+  const [chartScale, setChartScale] = useState<"linear" | "log">("linear");
+  const [xDomain, setXDomain] = useState<[number, number] | null>(null);
+  const [yDomain, setYDomain] = useState<[number, number] | null>(null);
+  const [dragStart, setDragStart] = useState<number | null>(null);
+  const [dragEnd, setDragEnd] = useState<number | null>(null);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
+  const [showPubsSeries, setShowPubsSeries] = useState(true);
+  const [showCitesSeries, setShowCitesSeries] = useState(true);
+  const initializedSelection = useRef(false);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -250,6 +271,168 @@ const InsightsPage = () => {
     });
     return sorted;
   }, [allYears.length, cleanWorks, rangeA.from, rangeA.to, rangeB.from, rangeB.to, searchQuery, sortDir, sortKey]);
+
+  const toggleTopicSelection = (topic: string) => {
+    setSelectedTopics((prev) => (prev.includes(topic) ? prev.filter((t) => t !== topic) : [...prev, topic]));
+  };
+
+  const chartYearRange = useMemo(() => {
+    if (!allYears.length) return { from: null as number | null, to: null as number | null };
+    const minYear = allYears[0];
+    const maxYear = allYears[allYears.length - 1];
+    const start = Math.min(rangeA.from ?? minYear, rangeB.from ?? minYear);
+    const end = Math.max(rangeA.to ?? maxYear, rangeB.to ?? maxYear);
+    return { from: start, to: end };
+  }, [allYears, rangeA.from, rangeA.to, rangeB.from, rangeB.to]);
+
+  const chartData = useMemo(() => {
+    if (!selectedTopics.length || chartYearRange.from == null || chartYearRange.to == null) return [];
+    const years: number[] = [];
+    for (let y = chartYearRange.from; y <= chartYearRange.to; y += 1) years.push(y);
+    const byTopicYear = new Map<
+      string,
+      {
+        pubs: Map<number, number>;
+        cites: Map<number, number>;
+      }
+    >();
+    selectedTopics.forEach((topic) => {
+      byTopicYear.set(topic, { pubs: new Map(), cites: new Map() });
+    });
+    cleanWorks.forEach((work) => {
+      if (typeof work.year !== "number") return;
+      if (work.year < chartYearRange.from || work.year > chartYearRange.to) return;
+      (work.topics || []).forEach((topic) => {
+        if (!topic || !byTopicYear.has(topic)) return;
+        const entry = byTopicYear.get(topic)!;
+        entry.pubs.set(work.year, (entry.pubs.get(work.year) || 0) + 1);
+        entry.cites.set(work.year, (entry.cites.get(work.year) || 0) + (work.citations || 0));
+      });
+    });
+    return years.map((year) => {
+      const row: Record<string, number | string> = { year };
+      selectedTopics.forEach((topic) => {
+        const entry = byTopicYear.get(topic);
+        const pubsVal = entry?.pubs.get(year) ?? 0;
+        const citesVal = entry?.cites.get(year) ?? 0;
+        const safePubs = chartScale === "log" && pubsVal === 0 ? 0.1 : pubsVal;
+        const safeCites = chartScale === "log" && citesVal === 0 ? 0.1 : citesVal;
+        row[`${topic}-pubs`] = safePubs;
+        row[`${topic}-cites`] = safeCites;
+      });
+      return row;
+    });
+  }, [selectedTopics, chartYearRange.from, chartYearRange.to, cleanWorks, chartScale]);
+
+  const chartExtent = useMemo(() => {
+    let min = Number.POSITIVE_INFINITY;
+    let max = Number.NEGATIVE_INFINITY;
+    chartData.forEach((row) => {
+      selectedTopics.forEach((topic) => {
+        const p = row[`${topic}-pubs`] as number | undefined;
+        const c = row[`${topic}-cites`] as number | undefined;
+        if (typeof p === "number") {
+          min = Math.min(min, p);
+          max = Math.max(max, p);
+        }
+        if (typeof c === "number") {
+          min = Math.min(min, c);
+          max = Math.max(max, c);
+        }
+      });
+    });
+    if (!isFinite(min) || !isFinite(max)) return null;
+    if (min === max) return { min: Math.max(0, min - 1), max: max + 1 };
+    return { min, max };
+  }, [chartData, selectedTopics]);
+
+  const xTicks = useMemo(() => {
+    if (!chartData.length) return undefined;
+    const years = chartData.map((row) => row.year as number).filter((y) => typeof y === "number");
+    if (years.length <= 8) return years;
+    const step = Math.ceil(years.length / 8);
+    return years.filter((_, idx) => idx % step === 0 || idx === years.length - 1);
+  }, [chartData]);
+
+  const xAxisDomain = useMemo<[number | "auto", number | "auto"]>(() => {
+    if (xDomain) return xDomain;
+    if (chartYearRange.from != null && chartYearRange.to != null) return [chartYearRange.from, chartYearRange.to];
+    return ["auto", "auto"];
+  }, [xDomain, chartYearRange.from, chartYearRange.to]);
+
+  const yAxisDomain = useMemo<[number | "auto", number | "auto"]>(() => {
+    if (yDomain) return yDomain;
+    if (!chartExtent) return ["auto", "auto"];
+    if (chartScale === "log") return [Math.max(0.1, chartExtent.min || 0.1), "auto"];
+    const pad = Math.max(1, (chartExtent.max - chartExtent.min) * 0.08);
+    return [Math.max(0, chartExtent.min - pad), chartExtent.max + pad];
+  }, [yDomain, chartExtent, chartScale]);
+
+  const resetAxes = () => {
+    setXDomain(null);
+    setYDomain(null);
+    setDragStart(null);
+    setDragEnd(null);
+  };
+
+  const handleWheelZoomY = (event: React.WheelEvent<HTMLDivElement>) => {
+    if (!chartExtent) return;
+    event.preventDefault();
+    const factor = event.deltaY > 0 ? 1.1 : 0.9;
+    const [currentMin, currentMax] = yDomain ?? [chartExtent.min, chartExtent.max];
+    const span = Math.max(1, currentMax - currentMin);
+    const center = currentMin + span / 2;
+    let newSpan = span * factor;
+    if (chartScale === "log") {
+      const logMin = Math.log10(Math.max(currentMin, 0.1));
+      const logMax = Math.log10(Math.max(currentMax, 0.1));
+      const logSpan = Math.max(0.1, logMax - logMin) * factor;
+      const logCenter = (logMin + logMax) / 2;
+      const newLogMin = logCenter - logSpan / 2;
+      const newLogMax = logCenter + logSpan / 2;
+      setYDomain([Math.max(0.1, 10 ** newLogMin), Math.max(0.2, 10 ** newLogMax)]);
+      return;
+    }
+    newSpan = Math.max(1, newSpan);
+      const newMin = Math.max(0, center - newSpan / 2);
+      const newMax = center + newSpan / 2;
+      setYDomain([newMin, newMax]);
+    };
+
+  const handleDragStart = (state: any) => {
+    if (state?.activeLabel == null) return;
+    setDragStart(state.activeLabel as number);
+    setDragEnd(state.activeLabel as number);
+  };
+
+  const handleDragMove = (state: any) => {
+    if (dragStart == null) return;
+    if (state?.activeLabel == null) return;
+    setDragEnd(state.activeLabel as number);
+  };
+
+  const handleDragEnd = () => {
+    if (dragStart != null && dragEnd != null && dragStart !== dragEnd) {
+      const [start, end] = dragStart < dragEnd ? [dragStart, dragEnd] : [dragEnd, dragStart];
+      setXDomain([start, end]);
+    }
+    setDragStart(null);
+    setDragEnd(null);
+  };
+
+  const topicColor = (topic: string) => {
+    const palette = ["#10b981", "#3b82f6", "#8b5cf6", "#f59e0b", "#ef4444", "#14b8a6", "#6366f1"];
+    const idx = selectedTopics.indexOf(topic);
+    return palette[idx % palette.length];
+  };
+
+  useEffect(() => {
+    if (initializedSelection.current) return;
+    if (insights.length) {
+      initializedSelection.current = true;
+      setSelectedTopics([insights[0].topic]);
+    }
+  }, [insights]);
 
   const handleExportCsv = () => {
     const headers = [
@@ -518,7 +701,7 @@ const InsightsPage = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-start">
+            <div className="flex flex-wrap items-center gap-3">
               <Button
                 variant="outline"
                 size="sm"
@@ -537,7 +720,169 @@ const InsightsPage = () => {
                   </>
                 )}
               </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="h-7 text-[11px]"
+                onClick={() => setShowChart((prev) => !prev)}
+              >
+                {showChart ? (
+                  <>
+                    <ChevronUp className="h-3 w-3" />
+                    Hide chart
+                  </>
+                ) : (
+                  <>
+                    <ChevronDown className="h-3 w-3" />
+                    Show chart
+                  </>
+                )}
+              </Button>
+              <span className="text-xs text-muted-foreground">
+                {selectedTopics.length ? `${selectedTopics.length} topic${selectedTopics.length > 1 ? "s" : ""} selected` : "Click a topic to plot it"}
+              </span>
             </div>
+
+            {showChart && (
+              <Card className="border-border/60 mb-4">
+                <CardContent className="h-[420px] space-y-3 pb-4 pt-4 overflow-hidden">
+                  <div className="flex flex-wrap items-center gap-4 text-[11px] text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        className={`flex items-center gap-1 rounded px-2 py-1 transition ${
+                          showPubsSeries ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"
+                        }`}
+                        onClick={() => setShowPubsSeries((prev) => !prev)}
+                      >
+                        <BookOpen className="h-3 w-3" />
+                        Publications
+                      </button>
+                      <button
+                        type="button"
+                        className={`flex items-center gap-1 rounded px-2 py-1 transition ${
+                          showCitesSeries ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"
+                        }`}
+                        onClick={() => setShowCitesSeries((prev) => !prev)}
+                      >
+                        <BarChart3 className="h-3 w-3" />
+                        Citations
+                      </button>
+                      <span className="flex items-center gap-2 text-[11px] text-muted-foreground">
+                        <span className="text-foreground">Scale:</span>
+                        <button
+                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "linear" ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"}`}
+                          onClick={() => setChartScale("linear")}
+                          type="button"
+                        >
+                          Linear
+                        </button>
+                        <button
+                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "log" ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"}`}
+                          onClick={() => setChartScale("log")}
+                          type="button"
+                        >
+                          Log
+                        </button>
+                      </span>
+                      <button
+                        type="button"
+                        className="rounded bg-muted px-2 py-1 text-[11px] text-foreground transition hover:bg-muted/70"
+                        onClick={resetAxes}
+                        title="Reset zoom on both axes"
+                      >
+                        Reset axes
+                      </button>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
+                    {selectedTopics.map((topic) => (
+                      <span key={topic} className="flex items-center gap-1 text-foreground">
+                        <span className="h-2 w-2 rounded-full" style={{ backgroundColor: topicColor(topic) }} />
+                        {topic}
+                      </span>
+                    ))}
+                  </div>
+                  {selectedTopics.length === 0 ? (
+                    <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
+                      Select topics to plot.
+                    </div>
+                  ) : (
+                    <div className="h-full w-full" onWheel={handleWheelZoomY}>
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart
+                          data={chartData}
+                          margin={{ left: 12, right: 12, top: 8, bottom: 32 }}
+                          onMouseDown={handleDragStart}
+                          onMouseMove={handleDragMove}
+                          onMouseUp={handleDragEnd}
+                        >
+                          <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                          <XAxis
+                            dataKey="year"
+                            type="number"
+                            tickMargin={8}
+                            domain={xAxisDomain}
+                            ticks={xTicks}
+                            interval="preserveStartEnd"
+                            padding={{ left: 8, right: 8 }}
+                            allowDecimals={false}
+                            allowDataOverflow
+                          />
+                          <YAxis
+                            type="number"
+                            scale={chartScale === "log" ? "log" : "linear"}
+                            domain={yAxisDomain}
+                            allowDecimals={false}
+                            allowDataOverflow
+                          />
+                          <RechartsTooltip
+                            formatter={(value: any, name: string) => [value, name]}
+                            labelFormatter={(label) => `Year: ${label}`}
+                          />
+                          {dragStart != null && dragEnd != null && dragStart !== dragEnd && (
+                            <ReferenceArea
+                              x1={dragStart}
+                              x2={dragEnd}
+                              strokeOpacity={0.1}
+                              fill="#0ea5e9"
+                              fillOpacity={0.1}
+                            />
+                          )}
+                          {showPubsSeries &&
+                            selectedTopics.map((topic) => (
+                              <Line
+                                key={`${topic}-pubs`}
+                                type="monotone"
+                                dataKey={`${topic}-pubs`}
+                                name={`${topic} pubs`}
+                                stroke={topicColor(topic)}
+                                strokeWidth={2}
+                                dot={false}
+                                isAnimationActive={false}
+                              />
+                            ))}
+                          {showCitesSeries &&
+                            selectedTopics.map((topic) => (
+                              <Line
+                                key={`${topic}-cites`}
+                                type="monotone"
+                                dataKey={`${topic}-cites`}
+                                name={`${topic} cites`}
+                                stroke={topicColor(topic)}
+                                strokeWidth={2}
+                                strokeDasharray="4 2"
+                                dot={false}
+                                isAnimationActive={false}
+                              />
+                            ))}
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </div>
+                  )}
+                </CardContent>
+              </Card>
+            )}
 
             {showLegend && (
               <div className="rounded-md border border-border/60 bg-muted/40 p-3 text-[11px] text-muted-foreground">
@@ -545,12 +890,30 @@ const InsightsPage = () => {
                   <div className="space-y-2">
                     <div className="font-semibold text-foreground">Legend</div>
                     <div className="grid gap-1 sm:grid-cols-2">
-                      <span>Pubs A = Period A publications</span>
-                      <span>Pubs B = Period B publications</span>
-                      <span>Pubs Δ% = % change from Period A to B</span>
-                      <span>Cites A = Period A citations</span>
-                      <span>Cites B = Period B citations</span>
-                      <span>Cites Δ% = % change from Period A to B</span>
+                      <span className="inline-flex items-center gap-2">
+                        <BookOpen className="h-3 w-3 text-primary" />
+                        Pubs A = Period A publications
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <BookOpen className="h-3 w-3 text-primary" />
+                        Pubs B = Period B publications
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <BookOpen className="h-3 w-3 text-primary" />
+                        Pubs Δ% = % change from Period A to B
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <BarChart3 className="h-3 w-3 text-primary" />
+                        Cites A = Period A citations
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <BarChart3 className="h-3 w-3 text-primary" />
+                        Cites B = Period B citations
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <BarChart3 className="h-3 w-3 text-primary" />
+                        Cites Δ% = % change from Period A to B
+                      </span>
                     </div>
                     <div className="flex flex-wrap items-center gap-3">
                       <span className="font-semibold text-foreground">Badges:</span>
@@ -688,12 +1051,27 @@ const InsightsPage = () => {
                   {insights.map((row) => {
                     const pubsStatus = classifyMetricChange(row.pubsDeltaPct);
                     const citesStatus = classifyMetricChange(row.citesDeltaPct);
+                    const selected = selectedTopics.includes(row.topic);
                     return (
                       <tr key={row.topic} className="border-t border-border/60">
                         <td className="px-3 py-2 font-semibold text-foreground">
                           <div className="flex items-center gap-2">
+                            {showChart && (
+                              <button
+                                type="button"
+                                onClick={() => toggleTopicSelection(row.topic)}
+                                className={`h-6 w-6 rounded border px-1 text-xs font-semibold transition ${
+                                  selected
+                                    ? "border-primary bg-primary/10 text-primary"
+                                    : "border-border bg-background text-muted-foreground"
+                                }`}
+                                title={selected ? "Remove from chart" : "Add to chart"}
+                              >
+                                {selected ? "✓" : "+"}
+                              </button>
+                            )}
                             <Tag className="h-3.5 w-3.5 text-primary" />
-                            <span>{row.topic}</span>
+                            <span className={selected ? "text-primary" : ""}>{row.topic}</span>
                           </div>
                         </td>
                         <td className="px-3 py-2">
