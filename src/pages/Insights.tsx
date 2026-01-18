@@ -375,6 +375,7 @@ const InsightsPage = () => {
     setYDomain(null);
     setDragStart(null);
     setDragEnd(null);
+    setChartScale("linear");
   };
 
   const handleWheelZoomY = (event: React.WheelEvent<HTMLDivElement>) => {
@@ -812,7 +813,7 @@ const InsightsPage = () => {
                         onClick={() => setShowPubsSeries((prev) => !prev)}
                       >
                         <BookOpen className="h-3 w-3" />
-                        Publications
+                        Publications (solid)
                       </button>
                       <button
                         type="button"
@@ -822,7 +823,7 @@ const InsightsPage = () => {
                         onClick={() => setShowCitesSeries((prev) => !prev)}
                       >
                         <BarChart3 className="h-3 w-3" />
-                        Citations
+                        Citations (dash)
                       </button>
                       <span className="flex items-center gap-2 text-[11px] text-muted-foreground">
                         <span className="text-foreground">Scale:</span>
