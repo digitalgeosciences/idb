@@ -158,7 +158,7 @@ const InsightsPage = () => {
   >("pubsDelta");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [showLegend, setShowLegend] = useState(false);
-  const [showChart, setShowChart] = useState(false);
+  const [showChart, setShowChart] = useState(true);
   const [chartScale, setChartScale] = useState<"linear" | "log">("linear");
   const [xDomain, setXDomain] = useState<[number, number] | null>(null);
   const [yDomain, setYDomain] = useState<[number, number] | null>(null);
@@ -168,6 +168,8 @@ const InsightsPage = () => {
   const [showPubsSeries, setShowPubsSeries] = useState(true);
   const [showCitesSeries, setShowCitesSeries] = useState(true);
   const initializedSelection = useRef(false);
+  const chartRef = useRef<HTMLDivElement | null>(null);
+  const [showChartExportMenu, setShowChartExportMenu] = useState(false);
 
   useEffect(() => {
     if (!allYears.length) return;
@@ -553,6 +555,60 @@ const InsightsPage = () => {
     img.src = url;
   };
 
+  const handleExportChart = (format: "svg" | "png") => {
+    const svg = chartRef.current?.querySelector("svg");
+    if (!svg) return;
+    const serializer = new XMLSerializer();
+    const source = serializer.serializeToString(svg);
+    const rect = svg.getBoundingClientRect();
+    const width = Math.max(1, Math.round(rect.width));
+    const height = Math.max(1, Math.round(rect.height));
+    const chartInner = source.replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "");
+    const background = getComputedStyle(document.body).backgroundColor || "#ffffff";
+    const combinedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+      <rect width="100%" height="100%" fill="${background}" />
+      ${chartInner}
+    </svg>`;
+
+    const blob = new Blob([combinedSvg], { type: "image/svg+xml;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const timestamp = Date.now();
+
+    if (format === "svg") {
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `insights-chart-${timestamp}.svg`;
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      return;
+    }
+
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return;
+      ctx.fillStyle = background;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, width, height);
+      canvas.toBlob((pngBlob) => {
+        if (!pngBlob) return;
+        const pngUrl = URL.createObjectURL(pngBlob);
+        const link = document.createElement("a");
+        link.href = pngUrl;
+        link.download = `insights-chart-${timestamp}.png`;
+        link.click();
+        setTimeout(() => {
+          URL.revokeObjectURL(pngUrl);
+          URL.revokeObjectURL(url);
+        }, 1000);
+      }, "image/png");
+    };
+    img.src = url;
+  };
+
   const handleRangeChange = (
     which: "A" | "B",
     field: "from" | "to",
@@ -745,13 +801,13 @@ const InsightsPage = () => {
 
             {showChart && (
               <Card className="border-border/60 mb-4">
-                <CardContent className="h-[420px] space-y-3 pb-4 pt-4 overflow-hidden">
-                  <div className="flex flex-wrap items-center gap-4 text-[11px] text-muted-foreground">
-                    <div className="flex items-center gap-2">
+                <CardContent className="flex h-[320px] flex-col space-y-3 overflow-hidden pb-4 pt-4">
+                  <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
+                    <div className="flex flex-wrap items-center gap-2">
                       <button
                         type="button"
                         className={`flex items-center gap-1 rounded px-2 py-1 transition ${
-                          showPubsSeries ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"
+                          showPubsSeries ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
                         }`}
                         onClick={() => setShowPubsSeries((prev) => !prev)}
                       >
@@ -761,7 +817,7 @@ const InsightsPage = () => {
                       <button
                         type="button"
                         className={`flex items-center gap-1 rounded px-2 py-1 transition ${
-                          showCitesSeries ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"
+                          showCitesSeries ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"
                         }`}
                         onClick={() => setShowCitesSeries((prev) => !prev)}
                       >
@@ -771,14 +827,14 @@ const InsightsPage = () => {
                       <span className="flex items-center gap-2 text-[11px] text-muted-foreground">
                         <span className="text-foreground">Scale:</span>
                         <button
-                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "linear" ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"}`}
+                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "linear" ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
                           onClick={() => setChartScale("linear")}
                           type="button"
                         >
                           Linear
                         </button>
                         <button
-                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "log" ? "bg-muted/50 text-foreground" : "bg-muted text-muted-foreground"}`}
+                          className={`rounded px-2 py-1 text-[11px] ${chartScale === "log" ? "bg-muted/50 text-foreground" : "text-muted-foreground hover:bg-muted/40"}`}
                           onClick={() => setChartScale("log")}
                           type="button"
                         >
@@ -794,6 +850,40 @@ const InsightsPage = () => {
                         Reset axes
                       </button>
                     </div>
+                    <div className="ml-auto relative flex items-center gap-1">
+                      <button
+                        type="button"
+                        onClick={() => setShowChartExportMenu((prev) => !prev)}
+                        className="inline-flex items-center justify-center rounded px-2 py-1 text-muted-foreground hover:bg-muted/60"
+                        title="Export chart"
+                      >
+                        <Download className="h-4 w-4" />
+                      </button>
+                      {showChartExportMenu ? (
+                        <div className="absolute right-0 top-8 z-10 min-w-[110px] rounded-md border border-border bg-popover p-1 shadow-lg">
+                          <button
+                            type="button"
+                            className="w-full rounded px-2 py-1 text-left text-sm hover:bg-muted"
+                            onClick={() => {
+                              handleExportChart("svg");
+                              setShowChartExportMenu(false);
+                            }}
+                          >
+                            Export SVG
+                          </button>
+                          <button
+                            type="button"
+                            className="w-full rounded px-2 py-1 text-left text-sm hover:bg-muted"
+                            onClick={() => {
+                              handleExportChart("png");
+                              setShowChartExportMenu(false);
+                            }}
+                          >
+                            Export PNG
+                          </button>
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
                   <div className="flex flex-wrap items-center gap-3 text-[11px] text-muted-foreground">
                     {selectedTopics.map((topic) => (
@@ -808,26 +898,40 @@ const InsightsPage = () => {
                       Select topics to plot.
                     </div>
                   ) : (
-                    <div className="h-full w-full" onWheel={handleWheelZoomY}>
+                    <div ref={chartRef} className="w-full flex-1 min-h-0" onWheel={handleWheelZoomY}>
                       <ResponsiveContainer width="100%" height="100%">
                         <LineChart
                           data={chartData}
-                          margin={{ left: 12, right: 12, top: 8, bottom: 32 }}
+                          margin={{ left: 6, right: 16, top: 0, bottom: 6 }}
                           onMouseDown={handleDragStart}
                           onMouseMove={handleDragMove}
                           onMouseUp={handleDragEnd}
                         >
-                          <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                          <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                           <XAxis
                             dataKey="year"
                             type="number"
-                            tickMargin={8}
+                            tickMargin={6}
                             domain={xAxisDomain}
                             ticks={xTicks}
                             interval="preserveStartEnd"
-                            padding={{ left: 8, right: 8 }}
+                            padding={{ left: 6, right: 6 }}
                             allowDecimals={false}
                             allowDataOverflow
+                            stroke="#1f2937"
+                            axisLine={{ stroke: "#1f2937", strokeWidth: 1.2 }}
+                            tickLine={{ stroke: "#1f2937" }}
+                            tick={{
+                              fill: "#1f2937",
+                              fontSize: 12,
+                            }}
+                            label={{
+                              value: "Year",
+                              position: "insideBottom",
+                              offset: -4,
+                              fill: "#1f2937",
+                              fontSize: 12,
+                            }}
                           />
                           <YAxis
                             type="number"
@@ -835,6 +939,23 @@ const InsightsPage = () => {
                             domain={yAxisDomain}
                             allowDecimals={false}
                             allowDataOverflow
+                            stroke="#1f2937"
+                            axisLine={{ stroke: "#1f2937", strokeWidth: 1.2 }}
+                            tickLine={{ stroke: "#1f2937" }}
+                            width={30}
+                            tickMargin={4}
+                            tick={{
+                              fill: "#1f2937",
+                              fontSize: 12,
+                            }}
+                            label={{
+                              value: "Count",
+                              angle: -90,
+                              position: "insideLeft",
+                              offset: 2,
+                              fill: "#1f2937",
+                              fontSize: 12,
+                            }}
                           />
                           <RechartsTooltip
                             formatter={(value: any, name: string) => [value, name]}
