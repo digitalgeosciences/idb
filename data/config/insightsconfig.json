@@ -1,6 +1,6 @@
 {
-  "insightsDefaultPeriodA": { "from": 1990, "to": 2014 },
-  "insightsDefaultPeriodB": { "from": 2015, "to": 2025 },
+  "insightsDefaultPeriodA": { "from": null, "to": 2020 },
+  "insightsDefaultPeriodB": { "from": 2021, "to": null },
   "insightThresholds": {
     "strongSurge": { "pubs": 2.0, "cites": 2.0 },
     "growingPriority": { "pubs": 1.5, "cites": 1.2 },

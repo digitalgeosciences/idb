@@ -19,6 +19,8 @@ import {
   Tag,
   BookOpen,
   BarChart3,
+  ChevronDown,
+  ChevronUp,
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import insightsConfig from "../../data/config/insightsconfig.json";
@@ -50,8 +52,18 @@ const formatPct = (value: number | null) => {
   if (value === -Infinity) return "Absent";
   if (value == null || !isFinite(value)) return "N/A";
   const pct = Math.round(value * 100);
+  if (pct === 0) return "Stable";
   const sign = pct > 0 ? "+" : "";
   return `${sign}${pct}%`;
+};
+
+const deltaClass = (value: number | null) => {
+  if (value === Infinity) return "text-emerald-600";
+  if (value === -Infinity) return "text-rose-700";
+  if (value == null || !isFinite(value)) return "text-muted-foreground";
+  if (value > 0) return "text-emerald-600";
+  if (value < 0) return "text-rose-700";
+  return "text-slate-600";
 };
 
 const classifyMetricChange = (delta: number | null) => {
@@ -161,8 +173,14 @@ const InsightsPage = () => {
     const defaultB =
       (insightsConfig as { insightsDefaultPeriodB?: { from?: number; to?: number } })?.insightsDefaultPeriodB || {};
 
-    setRangeA(normalizeRange(defaultA.from, defaultA.to));
-    setRangeB(normalizeRange(defaultB.from, defaultB.to));
+    // If Period A "from" is missing, use the oldest; if Period B "to" is missing, use the newest.
+    const resolvedAFrom = defaultA.from ?? min;
+    const resolvedATo = defaultA.to;
+    const resolvedBFrom = defaultB.from;
+    const resolvedBTo = defaultB.to ?? max;
+
+    setRangeA(normalizeRange(resolvedAFrom, resolvedATo));
+    setRangeB(normalizeRange(resolvedBFrom, resolvedBTo));
   }, [allYears]);
 
   const insights = useMemo<TopicInsight[]>(() => {
@@ -500,12 +518,24 @@ const InsightsPage = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-between">
-              <div className="flex flex-wrap gap-2 text-[11px] text-muted-foreground">
-                <span className="font-semibold text-foreground">Legend & insights</span>
-              </div>
-              <Button variant="outline" size="sm" className="h-8" onClick={() => setShowLegend((prev) => !prev)}>
-                {showLegend ? "Hide details" : "Show details"}
+            <div className="flex items-center justify-start">
+              <Button
+                variant="outline"
+                size="sm"
+                className="h-7 text-[11px]"
+                onClick={() => setShowLegend((prev) => !prev)}
+              >
+                {showLegend ? (
+                  <>
+                    <ChevronUp className="h-3 w-3" />
+                    Hide legend
+                  </>
+                ) : (
+                  <>
+                    <ChevronDown className="h-3 w-3" />
+                    Show legend
+                  </>
+                )}
               </Button>
             </div>
 
@@ -682,7 +712,9 @@ const InsightsPage = () => {
                             {row.pubsB}
                           </Link>
                         </td>
-                        <td className="px-3 py-2">{formatPct(row.pubsDeltaPct)}</td>
+                        <td className="px-3 py-2">
+                          <span className={deltaClass(row.pubsDeltaPct)}>{formatPct(row.pubsDeltaPct)}</span>
+                        </td>
                         <td className="px-3 py-2">
                           <Link
                             to={buildTopicLink(row.topic, rangeA)}
@@ -699,7 +731,9 @@ const InsightsPage = () => {
                             {row.citesB.toLocaleString()}
                           </Link>
                         </td>
-                        <td className="px-3 py-2">{formatPct(row.citesDeltaPct)}</td>
+                        <td className="px-3 py-2">
+                          <span className={deltaClass(row.citesDeltaPct)}>{formatPct(row.citesDeltaPct)}</span>
+                        </td>
                         <td className="px-3 py-2 text-muted-foreground">
                           <div className="flex flex-wrap items-center gap-2">
                             <span
