@@ -872,8 +872,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 5,
     "topics": [
       "Geology and Paleoclimatology Research",
-      "Geochemistry and Elemental Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "Kazan Federal University",
