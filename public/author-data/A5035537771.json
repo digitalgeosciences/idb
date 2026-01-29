@@ -4,17 +4,19 @@
     "orcid": "https://orcid.org/0000-0002-0543-9026",
     "display_name": "Abdullah Alqubalee",
     "display_name_alternatives": [
+      "A. Alqubalee",
+      "ABDULLAH MOHAMMED ALQUBALEE",
       "Abdullah Alqubalee",
       "Abdullah M. Alqubalee",
-      "ABDULLAH MOHAMMED ALQUBALEE",
-      "A. Alqubalee"
+      "Alqubalee, Abdullah",
+      "Hassan Eltom"
     ],
-    "works_count": 45,
-    "cited_by_count": 390,
+    "works_count": 49,
+    "cited_by_count": 397,
     "summary_stats": {
-      "2yr_mean_citedness": 5.411764705882353,
+      "2yr_mean_citedness": 2.466666666666667,
       "h_index": 12,
-      "i10_index": 14
+      "i10_index": 15
     },
     "ids": {
       "openalex": "https://openalex.org/A5035537771",
@@ -44,23 +46,12 @@
         ]
       }
     ],
-    "last_known_institutions": [
-      {
-        "id": "https://openalex.org/I134085113",
-        "ror": "https://ror.org/03yez3163",
-        "display_name": "King Fahd University of Petroleum and Minerals",
-        "country_code": "SA",
-        "type": "education",
-        "lineage": [
-          "https://openalex.org/I134085113"
-        ]
-      }
-    ],
+    "last_known_institutions": null,
     "topics": [
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "count": 28,
+        "count": 30,
         "score": 1,
         "subfield": {
           "id": "https://openalex.org/subfields/2211",
@@ -130,13 +121,13 @@
         }
       },
       {
-        "id": "https://openalex.org/T13177",
-        "display_name": "Geological and Geophysical Studies",
+        "id": "https://openalex.org/T11740",
+        "display_name": "Geochemistry and Elemental Analysis",
         "count": 6,
         "score": 0.9997000098228455,
         "subfield": {
-          "id": "https://openalex.org/subfields/1907",
-          "display_name": "Geology"
+          "id": "https://openalex.org/subfields/1906",
+          "display_name": "Geochemistry and Petrology"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -152,7 +143,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "value": 0.0000617,
+        "value": 0.0000665,
         "subfield": {
           "id": "https://openalex.org/subfields/2211",
           "display_name": "Mechanics of Materials"
@@ -169,7 +160,7 @@
       {
         "id": "https://openalex.org/T11740",
         "display_name": "Geochemistry and Elemental Analysis",
-        "value": 0.0000498,
+        "value": 0.0000508,
         "subfield": {
           "id": "https://openalex.org/subfields/1906",
           "display_name": "Geochemistry and Petrology"
@@ -186,7 +177,7 @@
       {
         "id": "https://openalex.org/T10965",
         "display_name": "Geological formations and processes",
-        "value": 0.000041,
+        "value": 0.0000417,
         "subfield": {
           "id": "https://openalex.org/subfields/1904",
           "display_name": "Earth-Surface Processes"
@@ -203,7 +194,7 @@
       {
         "id": "https://openalex.org/T10635",
         "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-        "value": 0.0000384,
+        "value": 0.0000385,
         "subfield": {
           "id": "https://openalex.org/subfields/2210",
           "display_name": "Mechanical Engineering"
@@ -220,7 +211,7 @@
       {
         "id": "https://openalex.org/T10109",
         "display_name": "Paleontology and Stratigraphy of Fossils",
-        "value": 0.0000351,
+        "value": 0.0000361,
         "subfield": {
           "id": "https://openalex.org/subfields/1911",
           "display_name": "Paleontology"
@@ -237,34 +228,34 @@
     ],
     "x_concepts": [
       {
+        "id": "11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "score": 0.35836145281791687
+      },
+      {
+        "id": "121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "score": 0.3011452853679657
+      },
+      {
+        "id": "110521144",
+        "wikidata": "https://www.wikidata.org/wiki/Q193460",
+        "display_name": "Scalar field",
+        "score": 0.29009079933166504
+      },
+      {
+        "id": "109663097",
+        "wikidata": "https://www.wikidata.org/wiki/Q182453",
+        "display_name": "Adiabatic process",
+        "score": 0.2839665412902832
+      },
+      {
         "id": "121332964",
         "wikidata": "https://www.wikidata.org/wiki/Q413",
         "display_name": "Physics",
         "score": 0
-      },
-      {
-        "id": "127313418",
-        "wikidata": "https://www.wikidata.org/wiki/Q1069",
-        "display_name": "Geology",
-        "score": 0.8058322668075562
-      },
-      {
-        "id": "130452526",
-        "wikidata": "https://www.wikidata.org/wiki/Q180621",
-        "display_name": "Diagenesis",
-        "score": 0.8511802554130554
-      },
-      {
-        "id": "151730666",
-        "wikidata": "https://www.wikidata.org/wiki/Q7205",
-        "display_name": "Paleontology",
-        "score": 0.5303429365158081
-      },
-      {
-        "id": "164304813",
-        "wikidata": "https://www.wikidata.org/wiki/Q25276",
-        "display_name": "Isotope",
-        "score": 0.30110108852386475
       }
     ],
     "counts_by_year": [
@@ -290,7 +281,7 @@
         "year": 2020,
         "works_count": 3,
         "oa_works_count": 1,
-        "cited_by_count": 93
+        "cited_by_count": 94
       },
       {
         "year": 2021,
@@ -302,23 +293,29 @@
         "year": 2022,
         "works_count": 10,
         "oa_works_count": 2,
-        "cited_by_count": 73
+        "cited_by_count": 75
       },
       {
         "year": 2023,
         "works_count": 6,
         "oa_works_count": 3,
-        "cited_by_count": 56
+        "cited_by_count": 59
       },
       {
         "year": 2024,
         "works_count": 8,
         "oa_works_count": 4,
-        "cited_by_count": 36
+        "cited_by_count": 37
       },
       {
         "year": 2025,
-        "works_count": 3,
+        "works_count": 5,
+        "oa_works_count": 4,
+        "cited_by_count": 0
+      },
+      {
+        "year": 2026,
+        "works_count": 2,
         "oa_works_count": 2,
         "cited_by_count": 0
       }
@@ -333,7 +330,7 @@
     },
     "block_key": "a alqubalee",
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5035537771",
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-01-29T04:20:28.980091",
     "created_date": "2019-08-13"
   },
   "works": [
@@ -29781,7 +29778,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.01084721,
+        "value": 0.010767,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -33833,7 +33830,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.03341988,
+        "value": 0.03336653,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
