@@ -53,7 +53,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-11-22",
     "year": 2023,
     "venue": "Marine and Petroleum Geology",
-    "citations": 28,
+    "citations": 29,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Paleontology and Stratigraphy of Fossils",
@@ -785,8 +785,8 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Scientific Reports",
     "citations": 6,
     "topics": [
-      "Geochemistry and Elemental Analysis",
       "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
       "Iron oxide chemistry and applications"
     ],
     "institutions": [
@@ -826,8 +826,8 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Arabian Journal for Science and Engineering",
     "citations": 6,
     "topics": [
-      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
       "Geological and Geochemical Analysis"
     ],
     "institutions": [
