@@ -44,7 +44,7 @@ export const worksTable: WorkTableRecord[] = [
       "Mohamed S. H. Moustafa",
       "Osman Salad Hersi",
       "Numair Ahmed Siddiqui",
-      "Khalid Al–Ramadan",
+      "Khalid Al‐Ramadan",
       "Abdullah Alqubalee",
       "Abdulwahab Muhammad Bello",
       "Abduljamiu O. Amao"
@@ -261,7 +261,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abdulkarim Al-Hussaini",
       "Abdulrauf R. Adebayo",
       "Abduljamiu O. Amao",
-      "Khalid Al–Ramadan"
+      "Khalid Al‐Ramadan"
     ],
     "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
     "publicationDate": "2023-10-26",
@@ -366,7 +366,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abduljamiu O. Amao",
       "Murtada Al-Hashem",
       "Abdulkarim Al-Hussaini",
-      "Khalid Al–Ramadan"
+      "Khalid Al‐Ramadan"
     ],
     "title": "Diagenetic controls on the quality of shallow marine sandstones: An example from the Cambro-Ordovician Saq Formation, central Saudi Arabia",
     "publicationDate": "2024-05-28",
