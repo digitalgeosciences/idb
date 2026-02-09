@@ -406,7 +406,7 @@ export const worksTable: WorkTableRecord[] = [
       "Yaser Alzayer"
     ],
     "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
-    "publicationDate": "2024-01-09",
+    "publicationDate": "2024-01-08",
     "year": 2024,
     "venue": "Marine and Petroleum Geology",
     "citations": 5,
@@ -1703,7 +1703,7 @@ export const worksTable: WorkTableRecord[] = [
     "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
     "publicationDate": "2026-01-14",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
+    "venue": "",
     "citations": 0,
     "topics": [
       "Seismic Imaging and Inversion Techniques",
