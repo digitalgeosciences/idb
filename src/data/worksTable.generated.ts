@@ -1703,7 +1703,7 @@ export const worksTable: WorkTableRecord[] = [
     "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
     "publicationDate": "2026-01-14",
     "year": 2026,
-    "venue": "",
+    "venue": "ArXiv.org",
     "citations": 0,
     "topics": [
       "Seismic Imaging and Inversion Techniques",
