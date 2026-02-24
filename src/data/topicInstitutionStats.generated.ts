@@ -110,7 +110,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10973",
     "name": "Radioactive element chemistry and processing",
     "publications": 2,
-    "citations": 4
+    "citations": 5
   },
   {
     "id": "https://openalex.org/T11588",
@@ -203,6 +203,18 @@ export const topicStats: TopicStats[] = [
     "citations": 3
   },
   {
+    "id": "https://openalex.org/T11007",
+    "name": "Hybrid Renewable Energy Systems",
+    "publications": 1,
+    "citations": 1
+  },
+  {
+    "id": "https://openalex.org/T13465",
+    "name": "Graphite, nuclear technology, radiation studies",
+    "publications": 1,
+    "citations": 1
+  },
+  {
     "id": "https://openalex.org/T11801",
     "name": "Reservoir Engineering and Simulation Methods",
     "publications": 1,
@@ -211,18 +223,6 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10535",
     "name": "Landslides and related hazards",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T11007",
-    "name": "Hybrid Renewable Energy Systems",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T13465",
-    "name": "Graphite, nuclear technology, radiation studies",
     "publications": 1,
     "citations": 0
   },
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 406
+    "citations": 407
   },
   {
     "id": "https://openalex.org/I4210143841",

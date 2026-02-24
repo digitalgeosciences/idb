@@ -456,6 +456,38 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4412890921",
+    "doi": "https://doi.org/10.1515/9783111437040-019",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5000790686",
+      "A5011750653",
+      "A5059738250"
+    ],
+    "firstAuthorLastName": "Fawad",
+    "allAuthors": [
+      "Manzar Fawad",
+      "Scott Whattam",
+      "Abdullah Alqubalee",
+      "Ahmed Al‐Yaseri"
+    ],
+    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
+    "publicationDate": "2025-03-29",
+    "year": 2025,
+    "venue": "",
+    "citations": 1,
+    "topics": [
+      "Hybrid Renewable Energy Systems",
+      "Radioactive element chemistry and processing",
+      "Graphite, nuclear technology, radiation studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W2988910414",
     "doi": "https://doi.org/10.3390/en12224302",
     "program": "",
@@ -1539,38 +1571,6 @@ export const worksTable: WorkTableRecord[] = [
       "Aeolian processes and effects",
       "Landslides and related hazards",
       "Hydrology and Sediment Transport Processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4412890921",
-    "doi": "https://doi.org/10.1515/9783111437040-019",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5000790686",
-      "A5011750653",
-      "A5059738250"
-    ],
-    "firstAuthorLastName": "Fawad",
-    "allAuthors": [
-      "Manzar Fawad",
-      "Scott Whattam",
-      "Abdullah Alqubalee",
-      "Ahmed Al‐Yaseri"
-    ],
-    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
-    "publicationDate": "2025-03-29",
-    "year": 2025,
-    "venue": "",
-    "citations": 0,
-    "topics": [
-      "Hybrid Renewable Energy Systems",
-      "Radioactive element chemistry and processing",
-      "Graphite, nuclear technology, radiation studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
