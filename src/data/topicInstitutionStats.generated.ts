@@ -56,7 +56,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 5,
-    "citations": 17
+    "citations": 18
   },
   {
     "id": "https://openalex.org/T12603",
@@ -104,7 +104,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
-    "citations": 12
+    "citations": 13
   },
   {
     "id": "https://openalex.org/T10973",
@@ -188,7 +188,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10413",
     "name": "High-pressure geophysics and materials",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/T11630",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 407
+    "citations": 408
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -347,43 +347,43 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I162577319",
     "name": "The University of Texas at Dallas",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I3124704065",
     "name": "University of Kurdistan",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I4210139925",
     "name": "Korea Basic Science Institute",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I185163786",
     "name": "King Abdulaziz University",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I135310074",
     "name": "University of Wisconsin–Madison",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I139660479",
     "name": "Central South University",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I86310350",
     "name": "Aswan University",
     "publications": 1,
-    "citations": 6
+    "citations": 7
   },
   {
     "id": "https://openalex.org/I36197038",

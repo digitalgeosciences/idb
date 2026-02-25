@@ -419,6 +419,57 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4398159676",
+    "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5011750653",
+      "A5035240990",
+      "A5087693955",
+      "A5091048626",
+      "A5039769816",
+      "A5075689314",
+      "A5068582901",
+      "A5112600754",
+      "A5089449027"
+    ],
+    "firstAuthorLastName": "Whattam",
+    "allAuthors": [
+      "Scott Whattam",
+      "Robert J. Stern",
+      "Hossein Azizi",
+      "Keewook Yi",
+      "Haitham M. Baggazi",
+      "Abdullah Alqubalee",
+      "Fatemeh Nouri",
+      "Brian R. Jicha",
+      "Yanick Brice Lemdjou",
+      "Abdelhamid El Fakharani"
+    ],
+    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
+    "publicationDate": "2024-05-21",
+    "year": 2024,
+    "venue": "Precambrian Research",
+    "citations": 7,
+    "topics": [
+      "Geological and Geochemical Analysis",
+      "Geochemistry and Geologic Mapping",
+      "High-pressure geophysics and materials"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "The University of Texas at Dallas",
+      "University of Kurdistan",
+      "Korea Basic Science Institute",
+      "King Abdulaziz University",
+      "University of Wisconsin–Madison",
+      "Central South University",
+      "Aswan University"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4390685983",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
     "program": "",
@@ -684,57 +735,6 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4398159676",
-    "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5011750653",
-      "A5035240990",
-      "A5087693955",
-      "A5091048626",
-      "A5039769816",
-      "A5075689314",
-      "A5068582901",
-      "A5112600754",
-      "A5089449027"
-    ],
-    "firstAuthorLastName": "Whattam",
-    "allAuthors": [
-      "Scott Whattam",
-      "Robert J. Stern",
-      "Hossein Azizi",
-      "Keewook Yi",
-      "Haitham M. Baggazi",
-      "Abdullah Alqubalee",
-      "Fatemeh Nouri",
-      "Brian R. Jicha",
-      "Yanick Brice Lemdjou",
-      "Abdelhamid El Fakharani"
-    ],
-    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
-    "publicationDate": "2024-05-21",
-    "year": 2024,
-    "venue": "Precambrian Research",
-    "citations": 6,
-    "topics": [
-      "Geological and Geochemical Analysis",
-      "Geochemistry and Geologic Mapping",
-      "High-pressure geophysics and materials"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "The University of Texas at Dallas",
-      "University of Kurdistan",
-      "Korea Basic Science Institute",
-      "King Abdulaziz University",
-      "University of Wisconsin–Madison",
-      "Central South University",
-      "Aswan University"
     ]
   },
   {
