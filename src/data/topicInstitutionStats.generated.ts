@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 30,
-    "citations": 318
+    "citations": 319
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 134
+    "citations": 135
   },
   {
     "id": "https://openalex.org/T10965",
@@ -62,7 +62,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 4,
-    "citations": 92
+    "citations": 93
   },
   {
     "id": "https://openalex.org/T10271",
@@ -146,13 +146,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11304",
     "name": "Advanced Neuroimaging Techniques and Applications",
     "publications": 1,
-    "citations": 35
+    "citations": 36
   },
   {
     "id": "https://openalex.org/T11809",
     "name": "Advanced NMR Techniques and Applications",
     "publications": 1,
-    "citations": 35
+    "citations": 36
   },
   {
     "id": "https://openalex.org/T10572",
@@ -176,7 +176,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11284",
     "name": "Coal Properties and Utilization",
     "publications": 1,
-    "citations": 9
+    "citations": 10
   },
   {
     "id": "https://openalex.org/T11877",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 409
+    "citations": 411
   },
   {
     "id": "https://openalex.org/I4210143841",
