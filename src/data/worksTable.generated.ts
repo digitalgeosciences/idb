@@ -538,6 +538,58 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4200149467",
+    "doi": "https://doi.org/10.1016/j.jseaes.2021.105040",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029716563",
+      "A5059202675",
+      "A5006452421",
+      "A5007946242",
+      "A5057960065",
+      "A5061703841",
+      "A5037030769",
+      "A5023467994",
+      "A5033145509"
+    ],
+    "firstAuthorLastName": "Hakimi",
+    "allAuthors": [
+      "Mohammed Hail Hakimi",
+      "Abbas F. Gharib",
+      "Mohammad Alqudah",
+      "Adeeb Ahmed",
+      "Baleid Ali Hatem",
+      "Khairul Azlan Mustapha",
+      "Nor Syazwani Zainal Abidin",
+      "Aref Lashin",
+      "Nura Abdulmumini Yelwa",
+      "Abdullah Alqubalee"
+    ],
+    "title": "Geochemistry and organofacies characteristics of organic-rich chalky marl deposits, northern Jordan: Insights into Type II-S source rock",
+    "publicationDate": "2021-12-16",
+    "year": 2021,
+    "venue": "Journal of Asian Earth Sciences",
+    "citations": 6,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Geologic Mapping",
+      "Petroleum Processing and Analysis"
+    ],
+    "institutions": [
+      "Taiz University",
+      "Imam Ja’afar Al-Sadiq University",
+      "Yarmouk University",
+      "Bahria University",
+      "University of Malaya",
+      "Universiti Teknologi Petronas",
+      "King Saud University",
+      "Usmanu Danfodiyo University",
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4390685983",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
     "program": "",
@@ -987,58 +1039,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4200149467",
-    "doi": "https://doi.org/10.1016/j.jseaes.2021.105040",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029716563",
-      "A5059202675",
-      "A5006452421",
-      "A5007946242",
-      "A5057960065",
-      "A5061703841",
-      "A5037030769",
-      "A5023467994",
-      "A5033145509"
-    ],
-    "firstAuthorLastName": "Hakimi",
-    "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Abbas F. Gharib",
-      "Mohammad Alqudah",
-      "Adeeb Ahmed",
-      "Baleid Ali Hatem",
-      "Khairul Azlan Mustapha",
-      "Nor Syazwani Zainal Abidin",
-      "Aref Lashin",
-      "Nura Abdulmumini Yelwa",
-      "Abdullah Alqubalee"
-    ],
-    "title": "Geochemistry and organofacies characteristics of organic-rich chalky marl deposits, northern Jordan: Insights into Type II-S source rock",
-    "publicationDate": "2021-12-16",
-    "year": 2021,
-    "venue": "Journal of Asian Earth Sciences",
-    "citations": 5,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Geologic Mapping",
-      "Petroleum Processing and Analysis"
-    ],
-    "institutions": [
-      "Taiz University",
-      "Imam Ja’afar Al-Sadiq University",
-      "Yarmouk University",
-      "Bahria University",
-      "University of Malaya",
-      "Universiti Teknologi Petronas",
-      "King Saud University",
-      "Usmanu Danfodiyo University",
       "King Fahd University of Petroleum and Minerals"
     ]
   },

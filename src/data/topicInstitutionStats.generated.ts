@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 30,
-    "citations": 321
+    "citations": 322
   },
   {
     "id": "https://openalex.org/T10635",
@@ -56,7 +56,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 5,
-    "citations": 18
+    "citations": 19
   },
   {
     "id": "https://openalex.org/T12603",
@@ -194,7 +194,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11630",
     "name": "Petroleum Processing and Analysis",
     "publications": 1,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/T13205",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 415
+    "citations": 416
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -266,28 +266,28 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 19
   },
   {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 3,
+    "citations": 11
+  },
+  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 3,
-    "citations": 10
+    "citations": 11
   },
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
     "publications": 3,
-    "citations": 10
-  },
-  {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 3,
-    "citations": 10
+    "citations": 11
   },
   {
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
-    "citations": 36
+    "citations": 37
   },
   {
     "id": "https://openalex.org/I47818738",
@@ -389,25 +389,25 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I36197038",
     "name": "Taiz University",
     "publications": 1,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/I4401041618",
     "name": "Imam Ja’afar Al-Sadiq University",
     "publications": 1,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/I59225215",
     "name": "Bahria University",
     "publications": 1,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/I55202024",
     "name": "Usmanu Danfodiyo University",
     "publications": 1,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/I60342839",
