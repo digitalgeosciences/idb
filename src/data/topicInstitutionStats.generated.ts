@@ -80,7 +80,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 3,
-    "citations": 27
+    "citations": 28
   },
   {
     "id": "https://openalex.org/T10491",
@@ -158,13 +158,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10572",
     "name": "Geophysical and Geoelectrical Methods",
     "publications": 1,
-    "citations": 22
+    "citations": 23
   },
   {
     "id": "https://openalex.org/T10033",
     "name": "Concrete and Cement Materials Research",
     "publications": 1,
-    "citations": 22
+    "citations": 23
   },
   {
     "id": "https://openalex.org/T10330",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 417
+    "citations": 418
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -290,6 +290,12 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 37
   },
   {
+    "id": "https://openalex.org/I86519309",
+    "name": "The University of Texas at Austin",
+    "publications": 2,
+    "citations": 35
+  },
+  {
     "id": "https://openalex.org/I47818738",
     "name": "Sultan Qaboos University",
     "publications": 2,
@@ -304,12 +310,6 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I194028371",
     "name": "University of Regina",
-    "publications": 2,
-    "citations": 34
-  },
-  {
-    "id": "https://openalex.org/I86519309",
-    "name": "The University of Texas at Austin",
     "publications": 2,
     "citations": 34
   },
