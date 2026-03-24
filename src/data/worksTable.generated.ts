@@ -1412,7 +1412,6 @@ export const worksTable: WorkTableRecord[] = [
       "Drilling and Well Engineering"
     ],
     "institutions": [
-      "Oldham Council",
       "King Fahd University of Petroleum and Minerals"
     ]
   },

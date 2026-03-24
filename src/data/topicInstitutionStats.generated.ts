@@ -414,11 +414,5 @@ export const institutionStats: InstitutionStats[] = [
     "name": "Qatar University",
     "publications": 1,
     "citations": 3
-  },
-  {
-    "id": "https://openalex.org/I4210164339",
-    "name": "Oldham Council",
-    "publications": 1,
-    "citations": 0
   }
 ];
