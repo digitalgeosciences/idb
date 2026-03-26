@@ -1320,16 +1320,16 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5013728813",
+      "A5040857714",
       "A5073104646",
-      "A5040857714"
+      "A5013728813"
     ],
-    "firstAuthorLastName": "Alqubalee",
+    "firstAuthorLastName": "Eltom",
     "allAuthors": [
+      "Hassan A. Eltom",
       "Abdullah Alqubalee",
-      "JABER MUHARRAG",
       "ANAS MUHAMMAD SALISU",
-      "Hassan A. Eltom"
+      "JABER MUHARRAG"
     ],
     "title": "The Negative Impact of Ophiomorpha on Reservoir Quality of Tidal Channel Deposits: The Case Study of the Dam Formation, Saudi Arabia",
     "publicationDate": "2022-01-01",
