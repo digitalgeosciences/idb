@@ -253,6 +253,36 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W3102597749",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104798",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5059504799"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Mohamed A. Yassin"
+    ],
+    "title": "Potential overlooked bioturbated reservoir zones in the shallow marine strata of the Hanifa Formation in central Saudi Arabia",
+    "publicationDate": "2020-11-11",
+    "year": 2020,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 31,
+    "topics": [
+      "Geological formations and processes",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological and Geophysical Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3035028305",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104512",
     "program": "",
@@ -281,36 +311,6 @@ export const worksTable: WorkTableRecord[] = [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3102597749",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104798",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5059504799"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Mohamed A. Yassin"
-    ],
-    "title": "Potential overlooked bioturbated reservoir zones in the shallow marine strata of the Hanifa Formation in central Saudi Arabia",
-    "publicationDate": "2020-11-11",
-    "year": 2020,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 30,
-    "topics": [
-      "Geological formations and processes",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -520,7 +520,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-05-21",
     "year": 2024,
     "venue": "Precambrian Research",
-    "citations": 7,
+    "citations": 8,
     "topics": [
       "Geological and Geochemical Analysis",
       "Geochemistry and Geologic Mapping",
