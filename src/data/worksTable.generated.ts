@@ -440,7 +440,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-03-30",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
-    "citations": 15,
+    "citations": 16,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
