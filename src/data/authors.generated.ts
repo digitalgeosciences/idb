@@ -33,8 +33,8 @@ export const authors: AuthorRecord[] = [
     "affiliate3": "",
     "email": "abdullah.alqubalee@kfupm.edu.sa",
     "orcid": "0000-0002-0543-9026",
-    "totalPublications": 48,
-    "totalCitations": 421,
+    "totalPublications": 49,
+    "totalCitations": 427,
     "hIndex": 13
   }
 ];
