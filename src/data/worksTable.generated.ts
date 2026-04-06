@@ -241,7 +241,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-10-27",
     "year": 2023,
     "venue": "Scientific Reports",
-    "citations": 9,
+    "citations": 10,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
       "Geochemistry and Elemental Analysis",
@@ -381,6 +381,38 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
       "Enhanced Oil Recovery Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W2944809997",
+    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Mohammad Makkawi"
+    ],
+    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-08",
+    "year": 2019,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 18,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Geological and Geophysical Studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -739,38 +771,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
       "NMR spectroscopy and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W2944809997",
-    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Mohammad Makkawi"
-    ],
-    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-08",
-    "year": 2019,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 17,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Geological and Geophysical Studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"

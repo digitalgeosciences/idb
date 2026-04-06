@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 30,
-    "citations": 328
+    "citations": 329
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 138
+    "citations": 139
   },
   {
     "id": "https://openalex.org/T10965",
@@ -38,19 +38,19 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 8,
-    "citations": 72
+    "citations": 73
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 6,
-    "citations": 81
+    "citations": 82
   },
   {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 6,
-    "citations": 70
+    "citations": 71
   },
   {
     "id": "https://openalex.org/T12157",
@@ -173,16 +173,16 @@ export const topicStats: TopicStats[] = [
     "citations": 12
   },
   {
-    "id": "https://openalex.org/T11284",
-    "name": "Coal Properties and Utilization",
+    "id": "https://openalex.org/T11877",
+    "name": "Iron oxide chemistry and applications",
     "publications": 1,
     "citations": 10
   },
   {
-    "id": "https://openalex.org/T11877",
-    "name": "Iron oxide chemistry and applications",
+    "id": "https://openalex.org/T11284",
+    "name": "Coal Properties and Utilization",
     "publications": 1,
-    "citations": 9
+    "citations": 10
   },
   {
     "id": "https://openalex.org/T10413",
@@ -257,13 +257,13 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 426
+    "citations": 428
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 20
+    "citations": 21
   },
   {
     "id": "https://openalex.org/I85507684",
