@@ -20,37 +20,37 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 30,
-    "citations": 329
+    "citations": 334
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 139
+    "citations": 141
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 11,
-    "citations": 153
+    "citations": 157
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 8,
-    "citations": 73
+    "citations": 74
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 6,
-    "citations": 82
+    "citations": 83
   },
   {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 6,
-    "citations": 71
+    "citations": 72
   },
   {
     "id": "https://openalex.org/T12157",
@@ -86,13 +86,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
     "publications": 3,
-    "citations": 19
+    "citations": 20
   },
   {
     "id": "https://openalex.org/T10577",
     "name": "Hydrology and Sediment Transport Processes",
     "publications": 3,
-    "citations": 12
+    "citations": 13
   },
   {
     "id": "https://openalex.org/T10017",
@@ -170,7 +170,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10330",
     "name": "Hydrology and Watershed Management Studies",
     "publications": 1,
-    "citations": 12
+    "citations": 13
   },
   {
     "id": "https://openalex.org/T11877",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 41,
-    "citations": 428
+    "citations": 434
   },
   {
     "id": "https://openalex.org/I4210143841",

@@ -179,6 +179,38 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4220873824",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5061727407",
+      "A5072935704",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Jaber Muharrag",
+      "Anas Muhammad Salisu",
+      "Hassan A. Eltom"
+    ],
+    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
+    "publicationDate": "2022-03-30",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 17,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4399072009",
     "doi": "https://doi.org/10.1016/j.jafrearsci.2024.105295",
     "program": "",
@@ -272,7 +304,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-11-11",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 31,
+    "citations": 32,
     "topics": [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
@@ -306,7 +338,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-06-16",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 30,
+    "citations": 31,
     "topics": [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
@@ -376,7 +408,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-03-18",
     "year": 2021,
     "venue": "Journal of Natural Gas Science and Engineering",
-    "citations": 19,
+    "citations": 20,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
@@ -445,38 +477,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological and Geophysical Studies",
       "Methane Hydrates and Related Phenomena"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4220873824",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5061727407",
-      "A5072935704",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Jaber Muharrag",
-      "Anas Muhammad Salisu",
-      "Hassan A. Eltom"
-    ],
-    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
-    "publicationDate": "2022-03-30",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 16,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -622,58 +622,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4391167607",
-    "doi": "https://doi.org/10.3390/min14020126",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029716563",
-      "A5043354798",
-      "A5022797343",
-      "A5044055562",
-      "A5102858778",
-      "A5006452421",
-      "A5023467994",
-      "A5061703841",
-      "A5037236117"
-    ],
-    "firstAuthorLastName": "Hakimi",
-    "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Alok Kumar",
-      "Abdullah Alqubalee",
-      "Alok K. Singh",
-      "Mohammed Almobarky",
-      "Afikah Rahim",
-      "Mohammad Alqudah",
-      "Aref Lashin",
-      "Khairul Azlan Mustapha",
-      "Waqas Naseem"
-    ],
-    "title": "Mineralogy and Geochemistry of the Paleocene–Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conditions and Volcanic Activity",
-    "publicationDate": "2024-01-24",
-    "year": 2024,
-    "venue": "Minerals",
-    "citations": 6,
-    "topics": [
-      "Geology and Paleoclimatology Research",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "Kazan Federal University",
-      "University of Malaya",
-      "King Fahd University of Petroleum and Minerals",
-      "Rajiv Gandhi Institute of Petroleum Technology",
-      "King Saud University",
-      "University of Technology Malaysia",
-      "Yarmouk University",
-      "University of Azad Jammu and Kashmir",
-      "University of Poonch Rawalakot"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4390685983",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
     "program": "",
@@ -796,7 +744,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-08-23",
     "year": 2021,
     "venue": "International Journal of Earth Sciences",
-    "citations": 12,
+    "citations": 13,
     "topics": [
       "Hydrology and Sediment Transport Processes",
       "Hydrology and Watershed Management Studies"
@@ -839,6 +787,92 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4223471131",
+    "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5074504776",
+      "A5040857714",
+      "A5064720324",
+      "A5035815399"
+    ],
+    "firstAuthorLastName": "Syahputra",
+    "allAuthors": [
+      "M. Rika Nanda Syahputra",
+      "Hassan A. Eltom",
+      "Ammar El‐Husseiny",
+      "Michael A. Kaminski",
+      "Abdullah Alqubalee"
+    ],
+    "title": "Spatial patterns variations of a burrowed carbonate stratum (ramp carbonates), Upper Jurassic Hanifa Formation, central Saudi Arabia",
+    "publicationDate": "2022-04-12",
+    "year": 2022,
+    "venue": "Sedimentary Geology",
+    "citations": 7,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geological formations and processes",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4391167607",
+    "doi": "https://doi.org/10.3390/min14020126",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029716563",
+      "A5043354798",
+      "A5022797343",
+      "A5044055562",
+      "A5102858778",
+      "A5006452421",
+      "A5023467994",
+      "A5061703841",
+      "A5037236117"
+    ],
+    "firstAuthorLastName": "Hakimi",
+    "allAuthors": [
+      "Mohammed Hail Hakimi",
+      "Alok Kumar",
+      "Abdullah Alqubalee",
+      "Alok K. Singh",
+      "Mohammed Almobarky",
+      "Afikah Rahim",
+      "Mohammad Alqudah",
+      "Aref Lashin",
+      "Khairul Azlan Mustapha",
+      "Waqas Naseem"
+    ],
+    "title": "Mineralogy and Geochemistry of the Paleocene–Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conditions and Volcanic Activity",
+    "publicationDate": "2024-01-24",
+    "year": 2024,
+    "venue": "Minerals",
+    "citations": 6,
+    "topics": [
+      "Geology and Paleoclimatology Research",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis"
+    ],
+    "institutions": [
+      "Kazan Federal University",
+      "University of Malaya",
+      "King Fahd University of Petroleum and Minerals",
+      "Rajiv Gandhi Institute of Petroleum Technology",
+      "King Saud University",
+      "University of Technology Malaysia",
+      "Yarmouk University",
+      "University of Azad Jammu and Kashmir",
+      "University of Poonch Rawalakot"
     ]
   },
   {
@@ -1006,40 +1040,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4223471131",
-    "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5074504776",
-      "A5040857714",
-      "A5064720324",
-      "A5035815399"
-    ],
-    "firstAuthorLastName": "Syahputra",
-    "allAuthors": [
-      "M. Rika Nanda Syahputra",
-      "Hassan A. Eltom",
-      "Ammar El‐Husseiny",
-      "Michael A. Kaminski",
-      "Abdullah Alqubalee"
-    ],
-    "title": "Spatial patterns variations of a burrowed carbonate stratum (ramp carbonates), Upper Jurassic Hanifa Formation, central Saudi Arabia",
-    "publicationDate": "2022-04-12",
-    "year": 2022,
-    "venue": "Sedimentary Geology",
-    "citations": 6,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geological formations and processes",
-      "Hydrocarbon exploration and reservoir analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -1497,8 +1497,8 @@ export const worksTable: WorkTableRecord[] = [
       "King Saud University",
       "University of Technology Malaysia",
       "Yarmouk University",
-      "University of Poonch Rawalakot",
-      "University of Azad Jammu and Kashmir"
+      "University of Azad Jammu and Kashmir",
+      "University of Poonch Rawalakot"
     ]
   },
   {
