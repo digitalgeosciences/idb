@@ -483,42 +483,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4223892951",
-    "doi": "https://doi.org/10.1007/s13369-022-06720-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014177485",
-      "A5049649985",
-      "A5080526944",
-      "A5064720324",
-      "A5005252413"
-    ],
-    "firstAuthorLastName": "Afagwu",
-    "allAuthors": [
-      "Clement Afagwu",
-      "Mohamed Mahmoud",
-      "Saad Alafnan",
-      "Abdullah Alqubalee",
-      "Ammar El‐Husseiny",
-      "Shirish Patil"
-    ],
-    "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
-    "publicationDate": "2022-04-15",
-    "year": 2022,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 10,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Coal Properties and Utilization"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4398159676",
     "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
     "program": "",
@@ -619,43 +583,6 @@ export const worksTable: WorkTableRecord[] = [
       "King Saud University",
       "Usmanu Danfodiyo University",
       "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4390685983",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5004157772",
-      "A5080643603",
-      "A5082826691",
-      "A5064720324",
-      "A5008057862"
-    ],
-    "firstAuthorLastName": "Albensaad",
-    "allAuthors": [
-      "Baqer Albensaad",
-      "Septriandi A. Chan",
-      "John Humphrey",
-      "Abdullah Alqubalee",
-      "Ammar El‐Husseiny",
-      "Yaser Alzayer"
-    ],
-    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
-    "publicationDate": "2024-01-08",
-    "year": 2024,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 5,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -790,6 +717,41 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4223892951",
+    "doi": "https://doi.org/10.1007/s13369-022-06720-w",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014177485",
+      "A5049649985",
+      "A5080526944",
+      "A5005252413"
+    ],
+    "firstAuthorLastName": "Afagwu",
+    "allAuthors": [
+      "Clement Afagwu",
+      "Mohamed Mahmoud",
+      "Saad Alafnan",
+      "Abdullah Alqubalee",
+      "Ammar ElHusseiny",
+      "Shirish Patil"
+    ],
+    "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
+    "publicationDate": "2022-04-15",
+    "year": 2022,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 10,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Coal Properties and Utilization"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4223471131",
     "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
     "program": "",
@@ -798,14 +760,13 @@ export const worksTable: WorkTableRecord[] = [
       "A5035537771",
       "A5074504776",
       "A5040857714",
-      "A5064720324",
       "A5035815399"
     ],
     "firstAuthorLastName": "Syahputra",
     "allAuthors": [
       "M. Rika Nanda Syahputra",
       "Hassan A. Eltom",
-      "Ammar El‐Husseiny",
+      "Ammar El-Husseiny",
       "Michael A. Kaminski",
       "Abdullah Alqubalee"
     ],
@@ -937,6 +898,42 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4390685983",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5004157772",
+      "A5080643603",
+      "A5082826691",
+      "A5008057862"
+    ],
+    "firstAuthorLastName": "Albensaad",
+    "allAuthors": [
+      "Baqer Albensaad",
+      "Septriandi A. Chan",
+      "John Humphrey",
+      "Abdullah Alqubalee",
+      "Ammar El-Husseiny",
+      "Yaser Alzayer"
+    ],
+    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
+    "publicationDate": "2024-01-08",
+    "year": 2024,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 5,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -1389,7 +1386,6 @@ export const worksTable: WorkTableRecord[] = [
       "A5004157772",
       "A5080643603",
       "A5082826691",
-      "A5064720324",
       "A5008057862"
     ],
     "firstAuthorLastName": "Albensaad",
@@ -1398,7 +1394,7 @@ export const worksTable: WorkTableRecord[] = [
       "Septriandi A. Chan",
       "John Humphrey",
       "Abdullah Alqubalee",
-      "Ammar El‐Husseiny",
+      "Ammar El-Husseiny",
       "Yaser Alzayer"
     ],
     "title": "Controls on Mechanical Properties of Carbonate Mudstone: Insights from Non-Destructive Techniques and Geochemical Data",
