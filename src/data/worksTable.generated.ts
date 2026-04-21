@@ -20,44 +20,6 @@ export interface WorkTableRecord {
 
 export const worksTable: WorkTableRecord[] = [
   {
-    "workId": "https://openalex.org/W3012467253",
-    "doi": "https://doi.org/10.1021/acsomega.9b04228",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5085377966",
-      "A5030457016",
-      "A5064720324",
-      "A5010595990",
-      "A5081441008",
-      "A5049649985"
-    ],
-    "firstAuthorLastName": "Elsayed",
-    "allAuthors": [
-      "Mahmoud Elsayed",
-      "Guenther Glatz",
-      "Ammar El‐Husseiny",
-      "Abdullah Alqubalee",
-      "Abdulrauf R. Adebayo",
-      "Karem Al-Garadi",
-      "Mohamed Mahmoud"
-    ],
-    "title": "The Effect of Clay Content on the Spin–Spin NMR Relaxation Time Measured in Porous Media",
-    "publicationDate": "2020-03-17",
-    "year": 2020,
-    "venue": "ACS Omega",
-    "citations": 36,
-    "topics": [
-      "NMR spectroscopy and applications",
-      "Advanced Neuroimaging Techniques and Applications",
-      "Advanced NMR Techniques and Applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4388923668",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106611",
     "program": "",
@@ -282,6 +244,44 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3012467253",
+    "doi": "https://doi.org/10.1021/acsomega.9b04228",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5085377966",
+      "A5030457016",
+      "A5064720324",
+      "A5010595990",
+      "A5081441008",
+      "A5049649985"
+    ],
+    "firstAuthorLastName": "Elsayed",
+    "allAuthors": [
+      "Mahmoud Elsayed",
+      "Guenther Glatz",
+      "Ammar El‐Husseiny",
+      "Abdullah Alqubalee",
+      "Abdulrauf R. Adebayo",
+      "Karem Al-Garadi",
+      "Mohamed Mahmoud"
+    ],
+    "title": "The Effect of Clay Content on the Spin–Spin NMR Relaxation Time Measured in Porous Media",
+    "publicationDate": "2020-03-17",
+    "year": 2020,
+    "venue": "ACS Omega",
+    "citations": 36,
+    "topics": [
+      "NMR spectroscopy and applications",
+      "Advanced Neuroimaging Techniques and Applications",
+      "Advanced NMR Techniques and Applications"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
