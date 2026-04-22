@@ -274,7 +274,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-03-17",
     "year": 2020,
     "venue": "ACS Omega",
-    "citations": 36,
+    "citations": 37,
     "topics": [
       "NMR spectroscopy and applications",
       "Advanced Neuroimaging Techniques and Applications",
@@ -440,7 +440,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2019-05-08",
     "year": 2019,
     "venue": "Arabian Journal for Science and Engineering",
-    "citations": 18,
+    "citations": 19,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
