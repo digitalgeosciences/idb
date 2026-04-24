@@ -82,7 +82,7 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Bello",
     "allAuthors": [
       "Abdulwahab Muhammad Bello",
-      "Khalid Al–Ramadan",
+      "Khalid Al‐Ramadan",
       "Lamidi Babalola",
       "Abdullah Alqubalee",
       "Abduljamiu O. Amao"
@@ -134,77 +134,6 @@ export const worksTable: WorkTableRecord[] = [
       "Geophysical and Geoelectrical Methods",
       "Concrete and Cement Materials Research",
       "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "The University of Texas at Austin"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4220873824",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5061727407",
-      "A5072935704",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Jaber Muharrag",
-      "Anas Muhammad Salisu",
-      "Hassan A. Eltom"
-    ],
-    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
-    "publicationDate": "2022-03-30",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 17,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4399072009",
-    "doi": "https://doi.org/10.1016/j.jafrearsci.2024.105295",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014657720",
-      "A5072935704",
-      "A5027197211",
-      "A5080266129",
-      "A5080748045",
-      "A5085007251"
-    ],
-    "firstAuthorLastName": "Bello",
-    "allAuthors": [
-      "Abdulwahab Muhammad Bello",
-      "Anas Muhammad Salisu",
-      "Abdullah Alqubalee",
-      "Abduljamiu O. Amao",
-      "Murtada Al-Hashem",
-      "Abdulkarim Al-Hussaini",
-      "Khalid Al‐Ramadan"
-    ],
-    "title": "Diagenetic controls on the quality of shallow marine sandstones: An example from the Cambro-Ordovician Saq Formation, central Saudi Arabia",
-    "publicationDate": "2024-05-28",
-    "year": 2024,
-    "venue": "Journal of African Earth Sciences",
-    "citations": 13,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -480,6 +409,77 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4220873824",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5061727407",
+      "A5072935704",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Jaber Muharrag",
+      "Anas Muhammad Salisu",
+      "Hassan A. Eltom"
+    ],
+    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
+    "publicationDate": "2022-03-30",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 17,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4399072009",
+    "doi": "https://doi.org/10.1016/j.jafrearsci.2024.105295",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014657720",
+      "A5072935704",
+      "A5027197211",
+      "A5080266129",
+      "A5080748045",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Bello",
+    "allAuthors": [
+      "Abdulwahab Muhammad Bello",
+      "Anas Muhammad Salisu",
+      "Abdullah Alqubalee",
+      "Abduljamiu O. Amao",
+      "Murtada Al-Hashem",
+      "Abdulkarim Al-Hussaini",
+      "Khalid Al‐Ramadan"
+    ],
+    "title": "Diagenetic controls on the quality of shallow marine sandstones: An example from the Cambro-Ordovician Saq Formation, central Saudi Arabia",
+    "publicationDate": "2024-05-28",
+    "year": 2024,
+    "venue": "Journal of African Earth Sciences",
+    "citations": 13,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "The University of Texas at Austin"
     ]
   },
   {
@@ -1357,7 +1357,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Jarrah Babiker",
       "John Humphrey",
-      "Khalid Al–Ramadan",
+      "Khalid Al‐Ramadan",
       "Jonathan L. Payne",
       "Michael A. Kaminski",
       "Abdullah Alqubalee"
