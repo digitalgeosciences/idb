@@ -1318,14 +1318,14 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthorOpenAlexIds": [
       "A5035537771",
       "A5040857714",
-      "A5073104646",
+      "A5072935704",
       "A5013728813"
     ],
     "firstAuthorLastName": "Eltom",
     "allAuthors": [
       "Hassan A. Eltom",
       "Abdullah Alqubalee",
-      "ANAS MUHAMMAD SALISU",
+      "Anas Muhammad Salisu",
       "JABER MUHARRAG"
     ],
     "title": "The Negative Impact of Ophiomorpha on Reservoir Quality of Tidal Channel Deposits: The Case Study of the Dam Formation, Saudi Arabia",
@@ -1698,7 +1698,7 @@ export const worksTable: WorkTableRecord[] = [
     "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
     "publicationDate": "2026-01-14",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
+    "venue": "ArXiv.org",
     "citations": 0,
     "topics": [
       "Seismic Imaging and Inversion Techniques",
