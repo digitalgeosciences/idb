@@ -1505,7 +1505,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthorOpenAlexIds": [
       "A5035537771",
       "A5094100781",
-      "A5094100782",
+      "A5000790686",
       "A5011750653",
       "A5054922583",
       "A5111604304",
