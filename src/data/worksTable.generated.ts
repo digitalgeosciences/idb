@@ -1544,14 +1544,14 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5117197460",
+      "A5112528832",
       "A5000180362",
       "A5011378626",
       "A5054922583"
     ],
-    "firstAuthorLastName": "Marroquin",
+    "firstAuthorLastName": "Marroquín",
     "allAuthors": [
-      "Fernando Alonso Marroquin",
+      "Fernando Alonso Marroquín",
       "Sarmad Zafar Khan",
       "Abdullah Alqubalee",
       "Péter Móra",
