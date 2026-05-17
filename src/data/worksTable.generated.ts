@@ -1606,6 +1606,48 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W7115004822",
+    "doi": "https://doi.org/10.5281/zenodo.17915410",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "OpenGeo",
+    "publicationDate": "2025-12-12",
+    "year": 2025,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "citations": 0,
+    "topics": [],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W7115017761",
+    "doi": "https://doi.org/10.5281/zenodo.17915559",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "FutureGeo",
+    "publicationDate": "2025-12-12",
+    "year": 2025,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "citations": 0,
+    "topics": [],
+    "institutions": []
+  },
+  {
     "workId": "https://openalex.org/W7116794122",
     "doi": "https://doi.org/10.13140/rg.2.2.21030.79680",
     "program": "",
