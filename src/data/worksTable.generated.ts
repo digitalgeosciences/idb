@@ -141,41 +141,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4387996609",
-    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5072935704",
-      "A5014657720",
-      "A5080748045",
-      "A5085007251"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Anas Muhammad Salisu",
-      "Abdulwahab Muhammad Bello",
-      "Abdulkarim Al-Hussaini",
-      "Khalid Al–Ramadan"
-    ],
-    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
-    "publicationDate": "2023-10-27",
-    "year": 2023,
-    "venue": "Scientific Reports",
-    "citations": 10,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis",
-      "Iron oxide chemistry and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W3012467253",
     "doi": "https://doi.org/10.1021/acsomega.9b04228",
     "program": "",
@@ -337,7 +302,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-03-18",
     "year": 2021,
     "venue": "Journal of Natural Gas Science and Engineering",
-    "citations": 20,
+    "citations": 21,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
@@ -380,6 +345,38 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4220873824",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5061727407",
+      "A5072935704",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Jaber Muharrag",
+      "Anas Muhammad Salisu",
+      "Hassan A. Eltom"
+    ],
+    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
+    "publicationDate": "2022-03-30",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 18,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W2945148837",
     "doi": "https://doi.org/10.1007/s12517-019-4467-0",
     "program": "",
@@ -406,38 +403,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological and Geophysical Studies",
       "Methane Hydrates and Related Phenomena"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4220873824",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5061727407",
-      "A5072935704",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Jaber Muharrag",
-      "Anas Muhammad Salisu",
-      "Hassan A. Eltom"
-    ],
-    "title": "The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia",
-    "publicationDate": "2022-03-30",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 17,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -480,6 +445,41 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "The University of Texas at Austin"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4387996609",
+    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5072935704",
+      "A5014657720",
+      "A5080748045",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Anas Muhammad Salisu",
+      "Abdulwahab Muhammad Bello",
+      "Abdulkarim Al-Hussaini",
+      "Khalid Al‐Ramadan"
+    ],
+    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
+    "publicationDate": "2023-10-27",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "citations": 10,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
+      "Iron oxide chemistry and applications"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -1429,7 +1429,7 @@ export const worksTable: WorkTableRecord[] = [
       "Jarrah Babiker",
       "Michael A. Kaminski",
       "John Humphrey",
-      "Khalid Al–Ramadan",
+      "Khalid Al‐Ramadan",
       "Jonathan L. Payne",
       "Abdullah Alqubalee"
     ],
