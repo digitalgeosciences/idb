@@ -567,7 +567,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-12-16",
     "year": 2021,
     "venue": "Journal of Asian Earth Sciences",
-    "citations": 6,
+    "citations": 7,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Geologic Mapping",

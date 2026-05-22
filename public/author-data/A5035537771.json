@@ -12,7 +12,7 @@
     ],
     "full_name": "ABDULLAH MOHAMMED ALQUBALEE",
     "works_count": 51,
-    "cited_by_count": 439,
+    "cited_by_count": 441,
     "summary_stats": {
       "2yr_mean_citedness": 2.7058823529411766,
       "h_index": 13,
@@ -282,13 +282,13 @@
         "year": 2021,
         "works_count": 6,
         "oa_works_count": 0,
-        "cited_by_count": 77
+        "cited_by_count": 78
       },
       {
         "year": 2022,
         "works_count": 10,
         "oa_works_count": 2,
-        "cited_by_count": 84
+        "cited_by_count": 85
       },
       {
         "year": 2023,
@@ -324,7 +324,7 @@
     ],
     "block_key": "a alqubalee",
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5035537771",
-    "updated_date": "2026-05-17T12:20:54",
+    "updated_date": "2026-05-21T12:23:45",
     "created_date": "2019-08-13T00:00:00"
   },
   "works": [
@@ -1176,8 +1176,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5699999928474426,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -1932,8 +1932,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5,
-          "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land"
+          "display_name": "Life in Land",
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
       "awards": [],
@@ -3089,11 +3089,11 @@
         "currency": "USD",
         "value_usd": 1685
       },
-      "fwci": 8.8423,
+      "fwci": 8.8412,
       "has_fulltext": false,
       "cited_by_count": 37,
       "citation_normalized_percentile": {
-        "value": 0.97078533,
+        "value": 0.97078406,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -3484,12 +3484,11 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
+        "grobid_xml": false,
         "pdf": true
       },
       "content_urls": {
-        "pdf": "https://content.openalex.org/works/W3012467253.pdf",
-        "grobid_xml": "https://content.openalex.org/works/W3012467253.grobid-xml"
+        "pdf": "https://content.openalex.org/works/W3012467253.pdf"
       },
       "referenced_works_count": 55,
       "referenced_works": [
@@ -3629,7 +3628,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-05-06T08:25:59.206177",
+      "updated_date": "2026-05-22T09:01:20.584952",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -4142,8 +4141,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -4824,8 +4823,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -6300,13 +6299,13 @@
       "sustainable_development_goals": [
         {
           "score": 0.5099999904632568,
-          "id": "https://metadata.un.org/sdg/6",
-          "display_name": "Clean water and sanitation"
+          "display_name": "Clean water and sanitation",
+          "id": "https://metadata.un.org/sdg/6"
         },
         {
           "score": 0.49000000953674316,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -7578,8 +7577,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7200000286102295,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -8870,8 +8869,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -9654,8 +9653,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -11333,6 +11332,7 @@
           "raw_affiliation_strings": [
             "Geology Department, Faculty of Applied Science, Taiz University, 6803 Taiz, Yemen"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Geology Department, Faculty of Applied Science, Taiz University, 6803 Taiz, Yemen",
@@ -11369,6 +11369,7 @@
           "raw_affiliation_strings": [
             "Department of Oil and Gas Economics, College of Administrative and Financial Science, Imam Ja'afar Al-Sadiq University, Baghdad, Iraq"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Oil and Gas Economics, College of Administrative and Financial Science, Imam Ja'afar Al-Sadiq University, Baghdad, Iraq",
@@ -11405,6 +11406,7 @@
           "raw_affiliation_strings": [
             "Department of Earth and Environmental Sciences, Yarmouk University, Shafeeq Irsheidat Street, 21163 Irbid, Jordan"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Earth and Environmental Sciences, Yarmouk University, Shafeeq Irsheidat Street, 21163 Irbid, Jordan",
@@ -11441,6 +11443,7 @@
           "raw_affiliation_strings": [
             "Department of Earth and Environmental Sciences, Bahria University, Islamabad 44000, Pakistan"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Earth and Environmental Sciences, Bahria University, Islamabad 44000, Pakistan",
@@ -11477,6 +11480,7 @@
           "raw_affiliation_strings": [
             "Department of Geology, University of Malaya, 50603 Kuala Lumpur, Malaysia"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Geology, University of Malaya, 50603 Kuala Lumpur, Malaysia",
@@ -11513,6 +11517,7 @@
           "raw_affiliation_strings": [
             "Department of Geology, University of Malaya, 50603 Kuala Lumpur, Malaysia"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Geology, University of Malaya, 50603 Kuala Lumpur, Malaysia",
@@ -11549,6 +11554,7 @@
           "raw_affiliation_strings": [
             "Geosciences Department, Faculty of Science and Information Technology, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Geosciences Department, Faculty of Science and Information Technology, Universiti Teknologi PETRONAS, 32610 Bandar Seri Iskandar, Perak, Malaysia",
@@ -11585,6 +11591,7 @@
           "raw_affiliation_strings": [
             "King Saud University, College of Engineering-Petroleum and Natural Gas Engineering Department, Riyadh 11421, Saudi Arabia"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "King Saud University, College of Engineering-Petroleum and Natural Gas Engineering Department, Riyadh 11421, Saudi Arabia",
@@ -11621,6 +11628,7 @@
           "raw_affiliation_strings": [
             "Department of Geology, Usmanu Danfodiyo University, P.M.B. 2346 Sokoto, Nigeria"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Department of Geology, Usmanu Danfodiyo University, P.M.B. 2346 Sokoto, Nigeria",
@@ -11657,6 +11665,7 @@
           "raw_affiliation_strings": [
             "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia"
           ],
+          "raw_orcid": null,
           "affiliations": [
             {
               "raw_affiliation_string": "Center for Integrative Petroleum Research, College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals, Dhahran, 31261, Saudi Arabia",
@@ -11682,16 +11691,16 @@
         "value_usd": 3430
       },
       "apc_paid": null,
-      "fwci": 0.7387,
+      "fwci": 0.7419,
       "has_fulltext": false,
-      "cited_by_count": 6,
+      "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.66271899,
+        "value": 0.66422505,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
-        "min": 89,
+        "min": 90,
         "max": 99
       },
       "biblio": {
@@ -12176,7 +12185,7 @@
       "counts_by_year": [
         {
           "year": 2026,
-          "cited_by_count": 1
+          "cited_by_count": 2
         },
         {
           "year": 2024,
@@ -12191,7 +12200,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-05-22T09:01:20.584952",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -14596,8 +14605,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.7099999785423279,
-          "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action"
+          "display_name": "Climate action",
+          "id": "https://metadata.un.org/sdg/13"
         }
       ],
       "awards": [
@@ -16897,8 +16906,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8799999952316284,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -17809,8 +17818,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8299999833106995,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -19173,8 +19182,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8299999833106995,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -19847,8 +19856,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.6800000071525574,
-          "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land"
+          "display_name": "Life in Land",
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
       "awards": [],
@@ -22602,8 +22611,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8199999928474426,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -24964,8 +24973,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.4699999988079071,
-          "id": "https://metadata.un.org/sdg/13",
-          "display_name": "Climate action"
+          "display_name": "Climate action",
+          "id": "https://metadata.un.org/sdg/13"
         }
       ],
       "awards": [
@@ -25819,8 +25828,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8899999856948853,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -28283,8 +28292,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.5899999737739563,
-          "id": "https://metadata.un.org/sdg/15",
-          "display_name": "Life in Land"
+          "display_name": "Life in Land",
+          "id": "https://metadata.un.org/sdg/15"
         }
       ],
       "awards": [],
@@ -30816,8 +30825,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.6700000166893005,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -31390,8 +31399,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8299999833106995,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -32855,8 +32864,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8700000047683716,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [],
@@ -34090,8 +34099,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.8199999928474426,
-          "id": "https://metadata.un.org/sdg/14",
-          "display_name": "Life below water"
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14"
         }
       ],
       "awards": [
@@ -35150,7 +35159,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.032028,
+        "value": 0.03165799,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -35282,8 +35291,8 @@
       "sustainable_development_goals": [
         {
           "score": 0.4699999988079071,
-          "id": "https://metadata.un.org/sdg/9",
-          "display_name": "Industry, innovation and infrastructure"
+          "display_name": "Industry, innovation and infrastructure",
+          "id": "https://metadata.un.org/sdg/9"
         }
       ],
       "awards": [],
@@ -35758,7 +35767,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-05-03T08:25:01.440150",
+      "updated_date": "2026-05-21T09:19:25.381259",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -36241,7 +36250,7 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-05-05T08:41:31.759640",
+      "updated_date": "2026-05-21T09:19:25.381259",
       "created_date": "2025-10-10T00:00:00"
     },
     {
