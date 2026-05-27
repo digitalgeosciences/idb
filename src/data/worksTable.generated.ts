@@ -706,11 +706,39 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-07-01",
     "year": 2022,
     "venue": "Natural Resources Research",
-    "citations": 11,
+    "citations": 12,
     "topics": [
       "Seismic Imaging and Inversion Techniques",
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4213326878",
+    "doi": "https://doi.org/10.2110/palo.2021.012",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee"
+    ],
+    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
+    "publicationDate": "2022-02-22",
+    "year": 2022,
+    "venue": "Palaios",
+    "citations": 10,
+    "topics": [
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -965,34 +993,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
       "NMR spectroscopy and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4213326878",
-    "doi": "https://doi.org/10.2110/palo.2021.012",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee"
-    ],
-    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
-    "publicationDate": "2022-02-22",
-    "year": 2022,
-    "venue": "Palaios",
-    "citations": 9,
-    "topics": [
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"

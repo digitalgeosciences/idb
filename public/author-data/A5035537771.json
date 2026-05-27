@@ -15018,11 +15018,11 @@
         "value_usd": 3590
       },
       "apc_paid": null,
-      "fwci": 1.9974,
+      "fwci": 1.9958,
       "has_fulltext": false,
-      "cited_by_count": 11,
+      "cited_by_count": 12,
       "citation_normalized_percentile": {
-        "value": 0.84252941,
+        "value": 0.84220083,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -15532,6 +15532,10 @@
       "abstract_inverted_index": null,
       "counts_by_year": [
         {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
           "year": 2025,
           "cited_by_count": 3
         },
@@ -15548,7 +15552,980 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2025-11-06T03:46:38.306776",
+      "updated_date": "2026-05-27T09:02:27.158192",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W4213326878",
+      "doi": "https://doi.org/10.2110/palo.2021.012",
+      "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
+      "display_name": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
+      "publication_year": 2022,
+      "publication_date": "2022-02-22",
+      "ids": {
+        "openalex": "https://openalex.org/W4213326878",
+        "doi": "https://doi.org/10.2110/palo.2021.012"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.2110/palo.2021.012",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.2110/palo.2021.012",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S125561884",
+          "display_name": "Palaios",
+          "issn_l": "0883-1351",
+          "issn": [
+            "0883-1351",
+            "1938-5323"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310316185",
+          "host_organization_name": "Society for Sedimentary Geology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316185"
+          ],
+          "host_organization_lineage_names": [
+            "Society for Sedimentary Geology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PALAIOS",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5040857714",
+            "display_name": "Hassan A. Eltom",
+            "orcid": "https://orcid.org/0000-0002-3515-0127"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "HASSAN ABDALLA ELTOM",
+          "raw_affiliation_strings": [
+            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
+            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5035537771",
+            "display_name": "Abdullah Alqubalee",
+            "orcid": "https://orcid.org/0000-0002-0543-9026"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I134085113",
+              "display_name": "King Fahd University of Petroleum and Minerals",
+              "ror": "https://ror.org/03yez3163",
+              "country_code": "SA",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ],
+          "countries": [
+            "SA"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "ABDULLAH MOHAMMED ALQUBALEE",
+          "raw_affiliation_strings": [
+            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
+            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            },
+            {
+              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia",
+              "institution_ids": [
+                "https://openalex.org/I134085113"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5040857714"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I134085113"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 1.9669,
+      "has_fulltext": false,
+      "cited_by_count": 10,
+      "citation_normalized_percentile": {
+        "value": 0.82806099,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 90,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "37",
+        "issue": "2",
+        "first_page": "35",
+        "last_page": "43"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10965",
+        "display_name": "Geological formations and processes",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1904",
+          "display_name": "Earth-Surface Processes"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10965",
+          "display_name": "Geological formations and processes",
+          "score": 0.9995999932289124,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10635",
+          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+          "score": 0.9969000220298767,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10399",
+          "display_name": "Hydrocarbon exploration and reservoir analysis",
+          "score": 0.9947999715805054,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2211",
+            "display_name": "Mechanics of Materials"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/burrow",
+          "display_name": "Burrow",
+          "score": 0.9855499267578125
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.6393497586250305
+        },
+        {
+          "id": "https://openalex.org/keywords/range",
+          "display_name": "Range (aeronautics)",
+          "score": 0.4170783460140228
+        },
+        {
+          "id": "https://openalex.org/keywords/paleontology",
+          "display_name": "Paleontology",
+          "score": 0.38632383942604065
+        },
+        {
+          "id": "https://openalex.org/keywords/materials-science",
+          "display_name": "Materials science",
+          "score": 0.06051665544509888
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C175422226",
+          "wikidata": "https://www.wikidata.org/wiki/Q1410542",
+          "display_name": "Burrow",
+          "level": 2,
+          "score": 0.9855499267578125
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.6393497586250305
+        },
+        {
+          "id": "https://openalex.org/C204323151",
+          "wikidata": "https://www.wikidata.org/wiki/Q905424",
+          "display_name": "Range (aeronautics)",
+          "level": 2,
+          "score": 0.4170783460140228
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.38632383942604065
+        },
+        {
+          "id": "https://openalex.org/C192562407",
+          "wikidata": "https://www.wikidata.org/wiki/Q228736",
+          "display_name": "Materials science",
+          "level": 0,
+          "score": 0.06051665544509888
+        },
+        {
+          "id": "https://openalex.org/C159985019",
+          "wikidata": "https://www.wikidata.org/wiki/Q181790",
+          "display_name": "Composite material",
+          "level": 1,
+          "score": 0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.2110/palo.2021.012",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.2110/palo.2021.012",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S125561884",
+            "display_name": "Palaios",
+            "issn_l": "0883-1351",
+            "issn": [
+              "0883-1351",
+              "1938-5323"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310316185",
+            "host_organization_name": "Society for Sedimentary Geology",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316185"
+            ],
+            "host_organization_lineage_names": [
+              "Society for Sedimentary Geology"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "PALAIOS",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 30,
+      "referenced_works": [
+        "https://openalex.org/W1485617499",
+        "https://openalex.org/W1896425695",
+        "https://openalex.org/W2001911026",
+        "https://openalex.org/W2044778400",
+        "https://openalex.org/W2088381531",
+        "https://openalex.org/W2093730098",
+        "https://openalex.org/W2133990480",
+        "https://openalex.org/W2143999902",
+        "https://openalex.org/W2167279371",
+        "https://openalex.org/W2292951450",
+        "https://openalex.org/W2329547329",
+        "https://openalex.org/W2330336985",
+        "https://openalex.org/W2334002538",
+        "https://openalex.org/W2601810315",
+        "https://openalex.org/W2745955966",
+        "https://openalex.org/W2923992571",
+        "https://openalex.org/W2953570489",
+        "https://openalex.org/W2992184602",
+        "https://openalex.org/W2995034329",
+        "https://openalex.org/W2999454379",
+        "https://openalex.org/W2999867442",
+        "https://openalex.org/W3014134223",
+        "https://openalex.org/W3030653473",
+        "https://openalex.org/W3049337797",
+        "https://openalex.org/W3097692413",
+        "https://openalex.org/W3102597749",
+        "https://openalex.org/W3124889144",
+        "https://openalex.org/W3139415666",
+        "https://openalex.org/W3154509136",
+        "https://openalex.org/W3195908734"
+      ],
+      "related_works": [
+        "https://openalex.org/W2073763581",
+        "https://openalex.org/W4312886114",
+        "https://openalex.org/W2119345069",
+        "https://openalex.org/W2174327169",
+        "https://openalex.org/W1819803238",
+        "https://openalex.org/W2038737360",
+        "https://openalex.org/W2088894575",
+        "https://openalex.org/W3113063002",
+        "https://openalex.org/W3102452392",
+        "https://openalex.org/W1984990175"
+      ],
+      "abstract_inverted_index": {
+        "165": [
+          54
+        ],
+        "202": [
+          46
+        ],
+        "ABSTRACT": [
+          0
+        ],
+        "This": [
+          1
+        ],
+        "study": [
+          2
+        ],
+        "examines": [
+          3
+        ],
+        "computed": [
+          4
+        ],
+        "tomography": [
+          5
+        ],
+        "(CT)": [
+          6
+        ],
+        "scans": [
+          7
+        ],
+        "of": [
+          8,
+          42,
+          64,
+          91,
+          101,
+          103,
+          140,
+          146,
+          148,
+          152,
+          163,
+          174,
+          179,
+          205,
+          238
+        ],
+        "a": [
+          9,
+          88,
+          137,
+          197,
+          215,
+          235
+        ],
+        "15.24-cm": [
+          10
+        ],
+        "diameter": [
+          11
+        ],
+        "and": [
+          12,
+          53,
+          95,
+          99,
+          105,
+          115,
+          144,
+          169
+        ],
+        "17.1-cm": [
+          13
+        ],
+        "length": [
+          14
+        ],
+        "core": [
+          15,
+          44
+        ],
+        "cut": [
+          16
+        ],
+        "from": [
+          17,
+          83,
+          132,
+          228,
+          248
+        ],
+        "Thalassinoides-bearing": [
+          18
+        ],
+        "strata": [
+          19
+        ],
+        "(Hanifa": [
+          20
+        ],
+        "Formation,": [
+          21
+        ],
+        "central": [
+          22
+        ],
+        "Saudi": [
+          23
+        ],
+        "Arabia)": [
+          24
+        ],
+        "to": [
+          25,
+          85,
+          134,
+          200,
+          218
+        ],
+        "explore": [
+          26
+        ],
+        "the": [
+          27,
+          65,
+          78,
+          108,
+          126,
+          161,
+          164,
+          180,
+          185,
+          201,
+          206,
+          220,
+          225
+        ],
+        "quantitative": [
+          28
+        ],
+        "variability": [
+          29,
+          118,
+          239
+        ],
+        "in": [
+          30,
+          49,
+          240
+        ],
+        "burrow": [
+          31,
+          75,
+          123,
+          165,
+          186,
+          203,
+          226,
+          241
+        ],
+        "percentage": [
+          32,
+          76,
+          124,
+          130,
+          166,
+          187,
+          204,
+          227,
+          242
+        ],
+        "when": [
+          33,
+          121,
+          246
+        ],
+        "estimated": [
+          34,
+          74,
+          122,
+          247
+        ],
+        "using": [
+          35,
+          125
+        ],
+        "2D": [
+          36,
+          47,
+          56,
+          79,
+          229,
+          249
+        ],
+        "views.": [
+          37,
+          250
+        ],
+        "A": [
+          38,
+          112,
+          172
+        ],
+        "cropped": [
+          39,
+          70
+        ],
+        "quadrangular": [
+          40,
+          71
+        ],
+        "prism": [
+          41
+        ],
+        "this": [
+          43,
+          69
+        ],
+        "allowed": [
+          45
+        ],
+        "slices": [
+          48,
+          81,
+          128,
+          178,
+          194
+        ],
+        "two": [
+          50,
+          109
+        ],
+        "vertical": [
+          51,
+          80,
+          110,
+          168
+        ],
+        "orientations": [
+          52
+        ],
+        "horizontal": [
+          55,
+          127,
+          170
+        ],
+        "slices.": [
+          57,
+          171
+        ],
+        "Thalassinoides": [
+          58
+        ],
+        "volume": [
+          59,
+          67
+        ],
+        "represents": [
+          60
+        ],
+        "20.0%": [
+          61
+        ],
+        "(burrow": [
+          62,
+          129
+        ],
+        "percentage)": [
+          63
+        ],
+        "total": [
+          66
+        ],
+        "within": [
+          68
+        ],
+        "prism.": [
+          72
+        ],
+        "The": [
+          73
+        ],
+        "by": [
+          77
+        ],
+        "varies": [
+          82
+        ],
+        "11.8%": [
+          84
+        ],
+        "30.3%": [
+          86
+        ],
+        "with": [
+          87,
+          136,
+          223
+        ],
+        "mean": [
+          89,
+          138,
+          198
+        ],
+        "value": [
+          90,
+          139
+        ],
+        "19.9%": [
+          92
+        ],
+        "±": [
+          93,
+          97,
+          142
+        ],
+        "3.3%": [
+          94
+        ],
+        "19.6%": [
+          96
+        ],
+        "3.9%,": [
+          98
+        ],
+        "coefficients": [
+          100
+        ],
+        "variation": [
+          102,
+          147
+        ],
+        "17%": [
+          104
+        ],
+        "20%,": [
+          106
+        ],
+        "for": [
+          107
+        ],
+        "orientations.": [
+          111
+        ],
+        "wider": [
+          113
+        ],
+        "range": [
+          114,
+          131
+        ],
+        "slightly": [
+          116
+        ],
+        "more": [
+          117
+        ],
+        "are": [
+          119
+        ],
+        "found": [
+          120
+        ],
+        "6.1%": [
+          133
+        ],
+        "33.1%": [
+          135
+        ],
+        "19.8%": [
+          141
+        ],
+        "6.5%": [
+          143
+        ],
+        "coefficient": [
+          145
+        ],
+        "33.1%).": [
+          149
+        ],
+        "However,": [
+          150
+        ],
+        "analysis": [
+          151
+        ],
+        "variance": [
+          153
+        ],
+        "results": [
+          154
+        ],
+        "indicated": [
+          155,
+          188
+        ],
+        "no": [
+          156
+        ],
+        "statistically": [
+          157
+        ],
+        "significant": [
+          158
+        ],
+        "difference": [
+          159
+        ],
+        "between": [
+          160
+        ],
+        "distribution": [
+          162
+        ],
+        "among": [
+          167
+        ],
+        "test": [
+          173
+        ],
+        "how": [
+          175
+        ],
+        "randomly": [
+          176,
+          192
+        ],
+        "selected": [
+          177,
+          193
+        ],
+        "CT": [
+          181,
+          207
+        ],
+        "scan": [
+          182
+        ],
+        "would": [
+          183
+        ],
+        "represent": [
+          184
+        ],
+        "that": [
+          189
+        ],
+        "even": [
+          190
+        ],
+        "five": [
+          191
+        ],
+        "could": [
+          195
+        ],
+        "retain": [
+          196
+        ],
+        "comparable": [
+          199
+        ],
+        "actual": [
+          202
+        ],
+        "scan.": [
+          208
+        ],
+        "Based": [
+          209
+        ],
+        "on": [
+          210
+        ],
+        "these": [
+          211
+        ],
+        "results,": [
+          212
+        ],
+        "we": [
+          213
+        ],
+        "suggested": [
+          214
+        ],
+        "statistical": [
+          216
+        ],
+        "way": [
+          217
+        ],
+        "quantify": [
+          219
+        ],
+        "uncertainty": [
+          221
+        ],
+        "associated": [
+          222
+        ],
+        "estimating": [
+          224
+        ],
+        "views,": [
+          230
+        ],
+        "an": [
+          231
+        ],
+        "important": [
+          232
+        ],
+        "step": [
+          233
+        ],
+        "toward": [
+          234
+        ],
+        "complete": [
+          236
+        ],
+        "understanding": [
+          237
+        ],
+        "(and": [
+          243
+        ],
+        "bioturbation": [
+          244
+        ],
+        "intensity)": [
+          245
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-05-27T09:02:27.158192",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -22758,975 +23735,6 @@
         }
       ],
       "updated_date": "2025-11-06T03:46:38.306776",
-      "created_date": "2025-10-10T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W4213326878",
-      "doi": "https://doi.org/10.2110/palo.2021.012",
-      "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
-      "display_name": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
-      "publication_year": 2022,
-      "publication_date": "2022-02-22",
-      "ids": {
-        "openalex": "https://openalex.org/W4213326878",
-        "doi": "https://doi.org/10.2110/palo.2021.012"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.2110/palo.2021.012",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.2110/palo.2021.012",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S125561884",
-          "display_name": "Palaios",
-          "issn_l": "0883-1351",
-          "issn": [
-            "0883-1351",
-            "1938-5323"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310316185",
-          "host_organization_name": "Society for Sedimentary Geology",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310316185"
-          ],
-          "host_organization_lineage_names": [
-            "Society for Sedimentary Geology"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "PALAIOS",
-        "raw_type": "journal-article"
-      },
-      "type": "article",
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5040857714",
-            "display_name": "Hassan A. Eltom",
-            "orcid": "https://orcid.org/0000-0002-3515-0127"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "HASSAN ABDALLA ELTOM",
-          "raw_affiliation_strings": [
-            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
-            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            },
-            {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5035537771",
-            "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "ABDULLAH MOHAMMED ALQUBALEE",
-          "raw_affiliation_strings": [
-            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
-            "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Center for Integrative Petroleum Research, Building 78, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            },
-            {
-              "raw_affiliation_string": "King Fahd University of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences Department, Building 76, Dhahran, 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 2,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5040857714"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": 1.967,
-      "has_fulltext": false,
-      "cited_by_count": 9,
-      "citation_normalized_percentile": {
-        "value": 0.82806099,
-        "is_in_top_1_percent": false,
-        "is_in_top_10_percent": false
-      },
-      "cited_by_percentile_year": {
-        "min": 90,
-        "max": 97
-      },
-      "biblio": {
-        "volume": "37",
-        "issue": "2",
-        "first_page": "35",
-        "last_page": "43"
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10965",
-        "display_name": "Geological formations and processes",
-        "score": 0.9995999932289124,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1904",
-          "display_name": "Earth-Surface Processes"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10965",
-          "display_name": "Geological formations and processes",
-          "score": 0.9995999932289124,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1904",
-            "display_name": "Earth-Surface Processes"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10635",
-          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
-          "score": 0.9969000220298767,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2210",
-            "display_name": "Mechanical Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
-          "score": 0.9947999715805054,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2211",
-            "display_name": "Mechanics of Materials"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/burrow",
-          "display_name": "Burrow",
-          "score": 0.9855499267578125
-        },
-        {
-          "id": "https://openalex.org/keywords/geology",
-          "display_name": "Geology",
-          "score": 0.6393497586250305
-        },
-        {
-          "id": "https://openalex.org/keywords/range",
-          "display_name": "Range (aeronautics)",
-          "score": 0.4170783460140228
-        },
-        {
-          "id": "https://openalex.org/keywords/paleontology",
-          "display_name": "Paleontology",
-          "score": 0.38632383942604065
-        },
-        {
-          "id": "https://openalex.org/keywords/materials-science",
-          "display_name": "Materials science",
-          "score": 0.06051665544509888
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C175422226",
-          "wikidata": "https://www.wikidata.org/wiki/Q1410542",
-          "display_name": "Burrow",
-          "level": 2,
-          "score": 0.9855499267578125
-        },
-        {
-          "id": "https://openalex.org/C127313418",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069",
-          "display_name": "Geology",
-          "level": 0,
-          "score": 0.6393497586250305
-        },
-        {
-          "id": "https://openalex.org/C204323151",
-          "wikidata": "https://www.wikidata.org/wiki/Q905424",
-          "display_name": "Range (aeronautics)",
-          "level": 2,
-          "score": 0.4170783460140228
-        },
-        {
-          "id": "https://openalex.org/C151730666",
-          "wikidata": "https://www.wikidata.org/wiki/Q7205",
-          "display_name": "Paleontology",
-          "level": 1,
-          "score": 0.38632383942604065
-        },
-        {
-          "id": "https://openalex.org/C192562407",
-          "wikidata": "https://www.wikidata.org/wiki/Q228736",
-          "display_name": "Materials science",
-          "level": 0,
-          "score": 0.06051665544509888
-        },
-        {
-          "id": "https://openalex.org/C159985019",
-          "wikidata": "https://www.wikidata.org/wiki/Q181790",
-          "display_name": "Composite material",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.2110/palo.2021.012",
-          "is_oa": false,
-          "landing_page_url": "https://doi.org/10.2110/palo.2021.012",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S125561884",
-            "display_name": "Palaios",
-            "issn_l": "0883-1351",
-            "issn": [
-              "0883-1351",
-              "1938-5323"
-            ],
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": true,
-            "host_organization": "https://openalex.org/P4310316185",
-            "host_organization_name": "Society for Sedimentary Geology",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310316185"
-            ],
-            "host_organization_lineage_names": [
-              "Society for Sedimentary Geology"
-            ],
-            "type": "journal"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "PALAIOS",
-          "raw_type": "journal-article"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 30,
-      "referenced_works": [
-        "https://openalex.org/W1485617499",
-        "https://openalex.org/W1896425695",
-        "https://openalex.org/W2001911026",
-        "https://openalex.org/W2044778400",
-        "https://openalex.org/W2088381531",
-        "https://openalex.org/W2093730098",
-        "https://openalex.org/W2133990480",
-        "https://openalex.org/W2143999902",
-        "https://openalex.org/W2167279371",
-        "https://openalex.org/W2292951450",
-        "https://openalex.org/W2329547329",
-        "https://openalex.org/W2330336985",
-        "https://openalex.org/W2334002538",
-        "https://openalex.org/W2601810315",
-        "https://openalex.org/W2745955966",
-        "https://openalex.org/W2923992571",
-        "https://openalex.org/W2953570489",
-        "https://openalex.org/W2992184602",
-        "https://openalex.org/W2995034329",
-        "https://openalex.org/W2999454379",
-        "https://openalex.org/W2999867442",
-        "https://openalex.org/W3014134223",
-        "https://openalex.org/W3030653473",
-        "https://openalex.org/W3049337797",
-        "https://openalex.org/W3097692413",
-        "https://openalex.org/W3102597749",
-        "https://openalex.org/W3124889144",
-        "https://openalex.org/W3139415666",
-        "https://openalex.org/W3154509136",
-        "https://openalex.org/W3195908734"
-      ],
-      "related_works": [
-        "https://openalex.org/W2073763581",
-        "https://openalex.org/W4312886114",
-        "https://openalex.org/W2119345069",
-        "https://openalex.org/W2174327169",
-        "https://openalex.org/W1819803238",
-        "https://openalex.org/W2038737360",
-        "https://openalex.org/W2088894575",
-        "https://openalex.org/W3113063002",
-        "https://openalex.org/W3102452392",
-        "https://openalex.org/W1984990175"
-      ],
-      "abstract_inverted_index": {
-        "165": [
-          54
-        ],
-        "202": [
-          46
-        ],
-        "ABSTRACT": [
-          0
-        ],
-        "This": [
-          1
-        ],
-        "study": [
-          2
-        ],
-        "examines": [
-          3
-        ],
-        "computed": [
-          4
-        ],
-        "tomography": [
-          5
-        ],
-        "(CT)": [
-          6
-        ],
-        "scans": [
-          7
-        ],
-        "of": [
-          8,
-          42,
-          64,
-          91,
-          101,
-          103,
-          140,
-          146,
-          148,
-          152,
-          163,
-          174,
-          179,
-          205,
-          238
-        ],
-        "a": [
-          9,
-          88,
-          137,
-          197,
-          215,
-          235
-        ],
-        "15.24-cm": [
-          10
-        ],
-        "diameter": [
-          11
-        ],
-        "and": [
-          12,
-          53,
-          95,
-          99,
-          105,
-          115,
-          144,
-          169
-        ],
-        "17.1-cm": [
-          13
-        ],
-        "length": [
-          14
-        ],
-        "core": [
-          15,
-          44
-        ],
-        "cut": [
-          16
-        ],
-        "from": [
-          17,
-          83,
-          132,
-          228,
-          248
-        ],
-        "Thalassinoides-bearing": [
-          18
-        ],
-        "strata": [
-          19
-        ],
-        "(Hanifa": [
-          20
-        ],
-        "Formation,": [
-          21
-        ],
-        "central": [
-          22
-        ],
-        "Saudi": [
-          23
-        ],
-        "Arabia)": [
-          24
-        ],
-        "to": [
-          25,
-          85,
-          134,
-          200,
-          218
-        ],
-        "explore": [
-          26
-        ],
-        "the": [
-          27,
-          65,
-          78,
-          108,
-          126,
-          161,
-          164,
-          180,
-          185,
-          201,
-          206,
-          220,
-          225
-        ],
-        "quantitative": [
-          28
-        ],
-        "variability": [
-          29,
-          118,
-          239
-        ],
-        "in": [
-          30,
-          49,
-          240
-        ],
-        "burrow": [
-          31,
-          75,
-          123,
-          165,
-          186,
-          203,
-          226,
-          241
-        ],
-        "percentage": [
-          32,
-          76,
-          124,
-          130,
-          166,
-          187,
-          204,
-          227,
-          242
-        ],
-        "when": [
-          33,
-          121,
-          246
-        ],
-        "estimated": [
-          34,
-          74,
-          122,
-          247
-        ],
-        "using": [
-          35,
-          125
-        ],
-        "2D": [
-          36,
-          47,
-          56,
-          79,
-          229,
-          249
-        ],
-        "views.": [
-          37,
-          250
-        ],
-        "A": [
-          38,
-          112,
-          172
-        ],
-        "cropped": [
-          39,
-          70
-        ],
-        "quadrangular": [
-          40,
-          71
-        ],
-        "prism": [
-          41
-        ],
-        "this": [
-          43,
-          69
-        ],
-        "allowed": [
-          45
-        ],
-        "slices": [
-          48,
-          81,
-          128,
-          178,
-          194
-        ],
-        "two": [
-          50,
-          109
-        ],
-        "vertical": [
-          51,
-          80,
-          110,
-          168
-        ],
-        "orientations": [
-          52
-        ],
-        "horizontal": [
-          55,
-          127,
-          170
-        ],
-        "slices.": [
-          57,
-          171
-        ],
-        "Thalassinoides": [
-          58
-        ],
-        "volume": [
-          59,
-          67
-        ],
-        "represents": [
-          60
-        ],
-        "20.0%": [
-          61
-        ],
-        "(burrow": [
-          62,
-          129
-        ],
-        "percentage)": [
-          63
-        ],
-        "total": [
-          66
-        ],
-        "within": [
-          68
-        ],
-        "prism.": [
-          72
-        ],
-        "The": [
-          73
-        ],
-        "by": [
-          77
-        ],
-        "varies": [
-          82
-        ],
-        "11.8%": [
-          84
-        ],
-        "30.3%": [
-          86
-        ],
-        "with": [
-          87,
-          136,
-          223
-        ],
-        "mean": [
-          89,
-          138,
-          198
-        ],
-        "value": [
-          90,
-          139
-        ],
-        "19.9%": [
-          92
-        ],
-        "±": [
-          93,
-          97,
-          142
-        ],
-        "3.3%": [
-          94
-        ],
-        "19.6%": [
-          96
-        ],
-        "3.9%,": [
-          98
-        ],
-        "coefficients": [
-          100
-        ],
-        "variation": [
-          102,
-          147
-        ],
-        "17%": [
-          104
-        ],
-        "20%,": [
-          106
-        ],
-        "for": [
-          107
-        ],
-        "orientations.": [
-          111
-        ],
-        "wider": [
-          113
-        ],
-        "range": [
-          114,
-          131
-        ],
-        "slightly": [
-          116
-        ],
-        "more": [
-          117
-        ],
-        "are": [
-          119
-        ],
-        "found": [
-          120
-        ],
-        "6.1%": [
-          133
-        ],
-        "33.1%": [
-          135
-        ],
-        "19.8%": [
-          141
-        ],
-        "6.5%": [
-          143
-        ],
-        "coefficient": [
-          145
-        ],
-        "33.1%).": [
-          149
-        ],
-        "However,": [
-          150
-        ],
-        "analysis": [
-          151
-        ],
-        "variance": [
-          153
-        ],
-        "results": [
-          154
-        ],
-        "indicated": [
-          155,
-          188
-        ],
-        "no": [
-          156
-        ],
-        "statistically": [
-          157
-        ],
-        "significant": [
-          158
-        ],
-        "difference": [
-          159
-        ],
-        "between": [
-          160
-        ],
-        "distribution": [
-          162
-        ],
-        "among": [
-          167
-        ],
-        "test": [
-          173
-        ],
-        "how": [
-          175
-        ],
-        "randomly": [
-          176,
-          192
-        ],
-        "selected": [
-          177,
-          193
-        ],
-        "CT": [
-          181,
-          207
-        ],
-        "scan": [
-          182
-        ],
-        "would": [
-          183
-        ],
-        "represent": [
-          184
-        ],
-        "that": [
-          189
-        ],
-        "even": [
-          190
-        ],
-        "five": [
-          191
-        ],
-        "could": [
-          195
-        ],
-        "retain": [
-          196
-        ],
-        "comparable": [
-          199
-        ],
-        "actual": [
-          202
-        ],
-        "scan.": [
-          208
-        ],
-        "Based": [
-          209
-        ],
-        "on": [
-          210
-        ],
-        "these": [
-          211
-        ],
-        "results,": [
-          212
-        ],
-        "we": [
-          213
-        ],
-        "suggested": [
-          214
-        ],
-        "statistical": [
-          216
-        ],
-        "way": [
-          217
-        ],
-        "quantify": [
-          219
-        ],
-        "uncertainty": [
-          221
-        ],
-        "associated": [
-          222
-        ],
-        "estimating": [
-          224
-        ],
-        "views,": [
-          230
-        ],
-        "an": [
-          231
-        ],
-        "important": [
-          232
-        ],
-        "step": [
-          233
-        ],
-        "toward": [
-          234
-        ],
-        "complete": [
-          236
-        ],
-        "understanding": [
-          237
-        ],
-        "(and": [
-          243
-        ],
-        "bioturbation": [
-          244
-        ],
-        "intensity)": [
-          245
-        ]
-      },
-      "counts_by_year": [
-        {
-          "year": 2025,
-          "cited_by_count": 3
-        },
-        {
-          "year": 2024,
-          "cited_by_count": 2
-        },
-        {
-          "year": 2023,
-          "cited_by_count": 3
-        },
-        {
-          "year": 2022,
-          "cited_by_count": 1
-        }
-      ],
-      "updated_date": "2026-05-21T06:26:12.895304",
       "created_date": "2025-10-10T00:00:00"
     },
     {
