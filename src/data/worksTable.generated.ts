@@ -730,7 +730,7 @@ export const worksTable: WorkTableRecord[] = [
       "Hassan A. Eltom",
       "Abdullah Alqubalee"
     ],
-    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i>-BEARING STRATA, CENTRAL SAUDI ARABIA",
+    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i> -BEARING STRATA, CENTRAL SAUDI ARABIA",
     "publicationDate": "2022-02-22",
     "year": 2022,
     "venue": "Palaios",
