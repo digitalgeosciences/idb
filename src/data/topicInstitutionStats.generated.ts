@@ -92,7 +92,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10577",
     "name": "Hydrology and Sediment Transport Processes",
     "publications": 3,
-    "citations": 13
+    "citations": 14
   },
   {
     "id": "https://openalex.org/T10017",
@@ -170,7 +170,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10330",
     "name": "Hydrology and Watershed Management Studies",
     "publications": 1,
-    "citations": 13
+    "citations": 14
   },
   {
     "id": "https://openalex.org/T11877",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 42,
-    "citations": 450
+    "citations": 451
   },
   {
     "id": "https://openalex.org/I4210143841",
