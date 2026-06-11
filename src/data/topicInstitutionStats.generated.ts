@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 30,
-    "citations": 345
+    "citations": 347
   },
   {
     "id": "https://openalex.org/T10635",
@@ -32,7 +32,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 11,
-    "citations": 163
+    "citations": 165
   },
   {
     "id": "https://openalex.org/T10109",
@@ -50,7 +50,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 6,
-    "citations": 73
+    "citations": 74
   },
   {
     "id": "https://openalex.org/T12157",
@@ -104,7 +104,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
-    "citations": 15
+    "citations": 16
   },
   {
     "id": "https://openalex.org/T10973",
@@ -257,13 +257,13 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 42,
-    "citations": 451
+    "citations": 453
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 21
+    "citations": 22
   },
   {
     "id": "https://openalex.org/I85507684",
