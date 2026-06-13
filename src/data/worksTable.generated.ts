@@ -180,6 +180,41 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4387996609",
+    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5072935704",
+      "A5014657720",
+      "A5080748045",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Anas Muhammad Salisu",
+      "Abdulwahab Muhammad Bello",
+      "Abdulkarim Al-Hussaini",
+      "Khalid Al‐Ramadan"
+    ],
+    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
+    "publicationDate": "2023-10-27",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "citations": 11,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
+      "Iron oxide chemistry and applications"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3012467253",
     "doi": "https://doi.org/10.1021/acsomega.9b04228",
     "program": "",
@@ -373,11 +408,43 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2019-05-08",
     "year": 2019,
     "venue": "Arabian Journal for Science and Engineering",
-    "citations": 19,
+    "citations": 20,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
       "Geological and Geophysical Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W2945148837",
+    "doi": "https://doi.org/10.1007/s12517-019-4467-0",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5028390167",
+      "A5044235421",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Osman Abdullatif",
+      "Lamidi Babalola",
+      "Mohammad Makkawi"
+    ],
+    "title": "Characteristics of Paleozoic tight gas sandstone reservoir: integration of lithofacies, paleoenvironments, and spectral gamma-ray analyses, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-23",
+    "year": 2019,
+    "venue": "Arabian Journal of Geosciences",
+    "citations": 18,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological and Geophysical Studies",
+      "Methane Hydrates and Related Phenomena"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -416,38 +483,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W2945148837",
-    "doi": "https://doi.org/10.1007/s12517-019-4467-0",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5028390167",
-      "A5044235421",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Osman Abdullatif",
-      "Lamidi Babalola",
-      "Mohammad Makkawi"
-    ],
-    "title": "Characteristics of Paleozoic tight gas sandstone reservoir: integration of lithofacies, paleoenvironments, and spectral gamma-ray analyses, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-23",
-    "year": 2019,
-    "venue": "Arabian Journal of Geosciences",
-    "citations": 17,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies",
-      "Methane Hydrates and Related Phenomena"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W3195908734",
     "doi": "https://doi.org/10.1007/s00531-021-02102-z",
     "program": "",
@@ -474,41 +509,6 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4387996609",
-    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5072935704",
-      "A5014657720",
-      "A5080748045",
-      "A5085007251"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Anas Muhammad Salisu",
-      "Abdulwahab Muhammad Bello",
-      "Abdulkarim Al-Hussaini",
-      "Khalid Al‐Ramadan"
-    ],
-    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
-    "publicationDate": "2023-10-27",
-    "year": 2023,
-    "venue": "Scientific Reports",
-    "citations": 10,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis",
-      "Iron oxide chemistry and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -1134,7 +1134,7 @@ export const worksTable: WorkTableRecord[] = [
       "Arshad Ali",
       "Osman Salad Hersi",
       "Shahad Al Mahrooqi",
-      "Khalid Al–Ramadan",
+      "Khalid Al‐Ramadan",
       "Abdulwahab Muhammad Bello",
       "Hezam Al-Awah",
       "Abdullah Alqubalee"
@@ -1748,5 +1748,44 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W7164575895",
+    "doi": "https://doi.org/10.1007/s13369-026-11417-5",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5119806997",
+      "A5051302005",
+      "A5129043439",
+      "A5138521549",
+      "A5138541931",
+      "A5096609462"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Abdulwahab Bello",
+      "Adhipa Herlambang",
+      "John Humphrey",
+      "Ardiansyah Koeshidayatullah",
+      "Kevin Taylor",
+      "Khalid Al-Ramadan"
+    ],
+    "title": "Fluvial Heterogeneity of Upper Triassic Strata in Central Saudi Arabia: Enhancing CO₂ Storage Strategies",
+    "publicationDate": "2026-06-12",
+    "year": 2026,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 0,
+    "topics": [
+      "CO2 Sequestration and Geologic Interactions",
+      "Paleontology and Stratigraphy of Fossils",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "University of Manchester"
+    ]
   }
 ];

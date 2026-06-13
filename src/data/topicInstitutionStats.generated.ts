@@ -19,14 +19,14 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 30,
-    "citations": 347
+    "publications": 31,
+    "citations": 349
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 146
+    "citations": 147
   },
   {
     "id": "https://openalex.org/T10965",
@@ -37,20 +37,20 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 8,
-    "citations": 78
+    "publications": 9,
+    "citations": 79
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 6,
-    "citations": 85
+    "citations": 86
   },
   {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 6,
-    "citations": 74
+    "citations": 76
   },
   {
     "id": "https://openalex.org/T12157",
@@ -74,7 +74,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10995",
     "name": "Methane Hydrates and Related Phenomena",
     "publications": 4,
-    "citations": 18
+    "citations": 19
   },
   {
     "id": "https://openalex.org/T10892",
@@ -176,7 +176,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11877",
     "name": "Iron oxide chemistry and applications",
     "publications": 1,
-    "citations": 10
+    "citations": 11
   },
   {
     "id": "https://openalex.org/T11284",
@@ -249,6 +249,12 @@ export const topicStats: TopicStats[] = [
     "name": "Environmental Monitoring and Data Management",
     "publications": 1,
     "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T11302",
+    "name": "CO2 Sequestration and Geologic Interactions",
+    "publications": 1,
+    "citations": 0
   }
 ];
 
@@ -256,14 +262,14 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 42,
-    "citations": 453
+    "publications": 43,
+    "citations": 456
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 22
+    "citations": 23
   },
   {
     "id": "https://openalex.org/I85507684",
@@ -414,5 +420,11 @@ export const institutionStats: InstitutionStats[] = [
     "name": "Qatar University",
     "publications": 1,
     "citations": 3
+  },
+  {
+    "id": "https://openalex.org/I28407311",
+    "name": "University of Manchester",
+    "publications": 1,
+    "citations": 0
   }
 ];
