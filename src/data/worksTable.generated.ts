@@ -822,6 +822,36 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4317376201",
+    "doi": "https://doi.org/10.2118/214460-ms",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5017097772",
+      "A5091022304"
+    ],
+    "firstAuthorLastName": "Desouky",
+    "allAuthors": [
+      "Mahmoud Desouky",
+      "Abdullah Alqubalee",
+      "Ahmed Gowida"
+    ],
+    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
+    "publicationDate": "2023-01-19",
+    "year": 2023,
+    "venue": "",
+    "citations": 6,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Geologic Mapping",
+      "Hydraulic Fracturing and Reservoir Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4391167607",
     "doi": "https://doi.org/10.3390/min14020126",
     "program": "",
@@ -902,36 +932,6 @@ export const worksTable: WorkTableRecord[] = [
       "Paleontology and Stratigraphy of Fossils",
       "Geological and Geophysical Studies",
       "Geology and Paleoclimatology Research"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4317376201",
-    "doi": "https://doi.org/10.2118/214460-ms",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5017097772",
-      "A5091022304"
-    ],
-    "firstAuthorLastName": "Desouky",
-    "allAuthors": [
-      "Mahmoud Desouky",
-      "Abdullah Alqubalee",
-      "Ahmed Gowida"
-    ],
-    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
-    "publicationDate": "2023-01-19",
-    "year": 2023,
-    "venue": "",
-    "citations": 5,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Geologic Mapping",
-      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
