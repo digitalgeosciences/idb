@@ -306,7 +306,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-06-16",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 31,
+    "citations": 32,
     "topics": [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
