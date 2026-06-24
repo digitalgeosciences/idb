@@ -1308,7 +1308,10 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Geochemistry and Geologic Mapping"
     ],
-    "institutions": []
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "University of Petroleum"
+    ]
   },
   {
     "workId": "https://openalex.org/W4205343768",
