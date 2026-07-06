@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 31,
-    "citations": 354
+    "citations": 356
   },
   {
     "id": "https://openalex.org/T10635",
@@ -62,13 +62,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 4,
-    "citations": 95
+    "citations": 97
   },
   {
     "id": "https://openalex.org/T10271",
     "name": "Seismic Imaging and Inversion Techniques",
     "publications": 4,
-    "citations": 37
+    "citations": 39
   },
   {
     "id": "https://openalex.org/T10995",
@@ -263,7 +263,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 461
+    "citations": 463
   },
   {
     "id": "https://openalex.org/I4210143841",

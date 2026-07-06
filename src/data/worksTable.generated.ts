@@ -342,7 +342,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-04-20",
     "year": 2021,
     "venue": "Journal of Petroleum Science and Engineering",
-    "citations": 25,
+    "citations": 27,
     "topics": [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
