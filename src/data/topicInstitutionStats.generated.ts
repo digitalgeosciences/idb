@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 31,
-    "citations": 356
+    "citations": 357
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 150
+    "citations": 151
   },
   {
     "id": "https://openalex.org/T10965",
@@ -80,7 +80,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 3,
-    "citations": 31
+    "citations": 32
   },
   {
     "id": "https://openalex.org/T10491",
@@ -263,13 +263,13 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 463
+    "citations": 464
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 23
+    "citations": 24
   },
   {
     "id": "https://openalex.org/I85507684",

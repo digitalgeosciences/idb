@@ -811,6 +811,42 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4390685983",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5004157772",
+      "A5080643603",
+      "A5082826691",
+      "A5008057862"
+    ],
+    "firstAuthorLastName": "Albensaad",
+    "allAuthors": [
+      "Baqer Albensaad",
+      "Septriandi A. Chan",
+      "John Humphrey",
+      "Abdullah Alqubalee",
+      "Ammar El-Husseiny",
+      "Yaser Alzayer"
+    ],
+    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
+    "publicationDate": "2024-01-08",
+    "year": 2024,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 6,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4391167607",
     "doi": "https://doi.org/10.3390/min14020126",
     "program": "",
@@ -894,42 +930,6 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4390685983",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5004157772",
-      "A5080643603",
-      "A5082826691",
-      "A5008057862"
-    ],
-    "firstAuthorLastName": "Albensaad",
-    "allAuthors": [
-      "Baqer Albensaad",
-      "Septriandi A. Chan",
-      "John Humphrey",
-      "Abdullah Alqubalee",
-      "Ammar El-Husseiny",
-      "Yaser Alzayer"
-    ],
-    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
-    "publicationDate": "2024-01-08",
-    "year": 2024,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 5,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
