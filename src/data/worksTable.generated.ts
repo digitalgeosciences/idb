@@ -68,40 +68,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4313367735",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014657720",
-      "A5085007251",
-      "A5044235421",
-      "A5027197211"
-    ],
-    "firstAuthorLastName": "Bello",
-    "allAuthors": [
-      "Abdulwahab Muhammad Bello",
-      "Khalid Al‐Ramadan",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Abduljamiu O. Amao"
-    ],
-    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
-    "publicationDate": "2022-12-23",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 26,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4388205616",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
     "program": "",
@@ -177,41 +143,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "The University of Texas at Austin"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4387996609",
-    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5072935704",
-      "A5014657720",
-      "A5080748045",
-      "A5085007251"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Anas Muhammad Salisu",
-      "Abdulwahab Muhammad Bello",
-      "Abdulkarim Al-Hussaini",
-      "Khalid Al‐Ramadan"
-    ],
-    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
-    "publicationDate": "2023-10-27",
-    "year": 2023,
-    "venue": "Scientific Reports",
-    "citations": 11,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis",
-      "Iron oxide chemistry and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -347,6 +278,40 @@ export const worksTable: WorkTableRecord[] = [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
       "Seismic Imaging and Inversion Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4313367735",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014657720",
+      "A5085007251",
+      "A5044235421",
+      "A5027197211"
+    ],
+    "firstAuthorLastName": "Bello",
+    "allAuthors": [
+      "Abdulwahab Muhammad Bello",
+      "Khalid Al‐Ramadan",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Abduljamiu O. Amao"
+    ],
+    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
+    "publicationDate": "2022-12-23",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 26,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -509,6 +474,41 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4387996609",
+    "doi": "https://doi.org/10.1038/s41598-023-45563-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5072935704",
+      "A5014657720",
+      "A5080748045",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Anas Muhammad Salisu",
+      "Abdulwahab Muhammad Bello",
+      "Abdulkarim Al-Hussaini",
+      "Khalid Al‐Ramadan"
+    ],
+    "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
+    "publicationDate": "2023-10-27",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "citations": 11,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
+      "Iron oxide chemistry and applications"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
     ]
   },
   {
@@ -770,7 +770,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-04-12",
     "year": 2022,
     "venue": "Sedimentary Geology",
-    "citations": 7,
+    "citations": 8,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
       "Geological formations and processes",
@@ -814,58 +814,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4391167607",
-    "doi": "https://doi.org/10.3390/min14020126",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029716563",
-      "A5043354798",
-      "A5022797343",
-      "A5044055562",
-      "A5102858778",
-      "A5006452421",
-      "A5023467994",
-      "A5061703841",
-      "A5037236117"
-    ],
-    "firstAuthorLastName": "Hakimi",
-    "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Alok Kumar",
-      "Abdullah Alqubalee",
-      "Alok K. Singh",
-      "Mohammed Almobarky",
-      "Afikah Rahim",
-      "Mohammad Alqudah",
-      "Aref Lashin",
-      "Khairul Azlan Mustapha",
-      "Waqas Naseem"
-    ],
-    "title": "Mineralogy and Geochemistry of the Paleocene–Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conditions and Volcanic Activity",
-    "publicationDate": "2024-01-24",
-    "year": 2024,
-    "venue": "Minerals",
-    "citations": 6,
-    "topics": [
-      "Geology and Paleoclimatology Research",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "Kazan Federal University",
-      "University of Malaya",
-      "King Fahd University of Petroleum and Minerals",
-      "Rajiv Gandhi Institute of Petroleum Technology",
-      "King Saud University",
-      "University of Technology Malaysia",
-      "Yarmouk University",
-      "University of Azad Jammu and Kashmir",
-      "University of Poonch Rawalakot"
     ]
   },
   {
@@ -975,6 +923,58 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4391167607",
+    "doi": "https://doi.org/10.3390/min14020126",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029716563",
+      "A5043354798",
+      "A5022797343",
+      "A5044055562",
+      "A5102858778",
+      "A5006452421",
+      "A5023467994",
+      "A5061703841",
+      "A5037236117"
+    ],
+    "firstAuthorLastName": "Hakimi",
+    "allAuthors": [
+      "Mohammed Hail Hakimi",
+      "Alok Kumar",
+      "Abdullah Alqubalee",
+      "Alok K. Singh",
+      "Mohammed Almobarky",
+      "Afikah Rahim",
+      "Mohammad Alqudah",
+      "Aref Lashin",
+      "Khairul Azlan Mustapha",
+      "Waqas Naseem"
+    ],
+    "title": "Mineralogy and Geochemistry of the Paleocene–Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conditions and Volcanic Activity",
+    "publicationDate": "2024-01-24",
+    "year": 2024,
+    "venue": "Minerals",
+    "citations": 6,
+    "topics": [
+      "Geology and Paleoclimatology Research",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis"
+    ],
+    "institutions": [
+      "Kazan Federal University",
+      "University of Malaya",
+      "King Fahd University of Petroleum and Minerals",
+      "Rajiv Gandhi Institute of Petroleum Technology",
+      "King Saud University",
+      "University of Technology Malaysia",
+      "Yarmouk University",
+      "University of Azad Jammu and Kashmir",
+      "University of Poonch Rawalakot"
     ]
   },
   {
