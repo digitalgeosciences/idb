@@ -80,7 +80,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 3,
-    "citations": 32
+    "citations": 33
   },
   {
     "id": "https://openalex.org/T10491",
@@ -158,13 +158,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10572",
     "name": "Geophysical and Geoelectrical Methods",
     "publications": 1,
-    "citations": 26
+    "citations": 27
   },
   {
     "id": "https://openalex.org/T10033",
     "name": "Concrete and Cement Materials Research",
     "publications": 1,
-    "citations": 26
+    "citations": 27
   },
   {
     "id": "https://openalex.org/T10330",
@@ -263,7 +263,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 465
+    "citations": 466
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -290,14 +290,14 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 13
   },
   {
-    "id": "https://openalex.org/I203899302",
-    "name": "Universiti Teknologi Petronas",
-    "publications": 2,
-    "citations": 41
-  },
-  {
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
+    "publications": 2,
+    "citations": 42
+  },
+  {
+    "id": "https://openalex.org/I203899302",
+    "name": "Universiti Teknologi Petronas",
     "publications": 2,
     "citations": 41
   },
