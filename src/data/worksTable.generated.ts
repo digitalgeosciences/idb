@@ -1750,7 +1750,9 @@ export const worksTable: WorkTableRecord[] = [
       "Enhanced Oil Recovery Techniques",
       "Hydrocarbon exploration and reservoir analysis"
     ],
-    "institutions": []
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
   },
   {
     "workId": "https://openalex.org/W7164575895",

@@ -262,7 +262,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 44,
+    "publications": 45,
     "citations": 468
   },
   {
