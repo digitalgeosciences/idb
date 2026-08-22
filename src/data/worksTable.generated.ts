@@ -512,7 +512,7 @@ export const worksTable: WorkTableRecord[] = [
       "Yanick Brice Lemdjou",
       "Abdelhamid El Fakharani"
     ],
-    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
+    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
     "publicationDate": "2024-05-21",
     "year": 2024,
     "venue": "Precambrian Research",
@@ -646,7 +646,7 @@ export const worksTable: WorkTableRecord[] = [
       "Hassan A. Eltom",
       "Abdullah Alqubalee"
     ],
-    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM <i>THALASSINOIDES</i> -BEARING STRATA, CENTRAL SAUDI ARABIA",
+    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM THALASSINOIDES -BEARING STRATA, CENTRAL SAUDI ARABIA",
     "publicationDate": "2022-02-22",
     "year": 2022,
     "venue": "Palaios",
