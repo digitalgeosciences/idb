@@ -313,70 +313,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W2944809997",
-    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Mohammad Makkawi"
-    ],
-    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-08",
-    "year": 2019,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 20,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Geological and Geophysical Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W2945148837",
-    "doi": "https://doi.org/10.1007/s12517-019-4467-0",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5028390167",
-      "A5044235421",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Osman Abdullatif",
-      "Lamidi Babalola",
-      "Mohammad Makkawi"
-    ],
-    "title": "Characteristics of Paleozoic tight gas sandstone reservoir: integration of lithofacies, paleoenvironments, and spectral gamma-ray analyses, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-23",
-    "year": 2019,
-    "venue": "Arabian Journal of Geosciences",
-    "citations": 18,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies",
-      "Methane Hydrates and Related Phenomena"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4220873824",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2022.105666",
     "program": "",
@@ -568,6 +504,70 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W2944809997",
+    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Mohammad Makkawi"
+    ],
+    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-08",
+    "year": 2019,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 20,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Geological and Geophysical Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W2945148837",
+    "doi": "https://doi.org/10.1007/s12517-019-4467-0",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5028390167",
+      "A5044235421",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Osman Abdullatif",
+      "Lamidi Babalola",
+      "Mohammad Makkawi"
+    ],
+    "title": "Characteristics of Paleozoic tight gas sandstone reservoir: integration of lithofacies, paleoenvironments, and spectral gamma-ray analyses, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-23",
+    "year": 2019,
+    "venue": "Arabian Journal of Geosciences",
+    "citations": 18,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological and Geophysical Studies",
+      "Methane Hydrates and Related Phenomena"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3195908734",
     "doi": "https://doi.org/10.1007/s00531-021-02102-z",
     "program": "",
@@ -591,42 +591,6 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Hydrology and Sediment Transport Processes",
       "Hydrology and Watershed Management Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4283757143",
-    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5064720324",
-      "A5040857714",
-      "A5006844997",
-      "A5024882078",
-      "A5044457172"
-    ],
-    "firstAuthorLastName": "El‐Husseiny",
-    "allAuthors": [
-      "Ammar El‐Husseiny",
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Ammar Abdlmutalib",
-      "Hani Al-Mukainah",
-      "Rika N. Syahputra"
-    ],
-    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
-    "publicationDate": "2022-07-01",
-    "year": 2022,
-    "venue": "Natural Resources Research",
-    "citations": 12,
-    "topics": [
-      "Seismic Imaging and Inversion Techniques",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -899,34 +863,36 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4309553920",
-    "doi": "https://doi.org/10.1007/s00531-022-02261-7",
+    "workId": "https://openalex.org/W4283757143",
+    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
     "program": "",
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5044235421",
-      "A5035815399",
-      "A5028390167",
-      "A5039010638"
+      "A5064720324",
+      "A5040857714",
+      "A5006844997",
+      "A5024882078",
+      "A5044457172"
     ],
-    "firstAuthorLastName": "Babalola",
+    "firstAuthorLastName": "El‐Husseiny",
     "allAuthors": [
-      "Lamidi Babalola",
+      "Ammar El‐Husseiny",
+      "Hassan A. Eltom",
       "Abdullah Alqubalee",
-      "Michael A. Kaminski",
-      "Osman Abdullatif",
-      "Mohamed O. Abouelresh"
+      "Ammar Abdlmutalib",
+      "Hani Al-Mukainah",
+      "Rika N. Syahputra"
     ],
-    "title": "Stable carbon and oxygen isotope records in a Middle Jurassic carbonate sequence: implications for paleoenvironment, and sea-level fluctuation, central Saudi Arabia",
-    "publicationDate": "2022-11-20",
+    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
+    "publicationDate": "2022-07-01",
     "year": 2022,
-    "venue": "International Journal of Earth Sciences",
-    "citations": 5,
+    "venue": "Natural Resources Research",
+    "citations": 12,
     "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geological and Geophysical Studies",
-      "Geology and Paleoclimatology Research"
+      "Seismic Imaging and Inversion Techniques",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1005,6 +971,40 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4309553920",
+    "doi": "https://doi.org/10.1007/s00531-022-02261-7",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5035815399",
+      "A5028390167",
+      "A5039010638"
+    ],
+    "firstAuthorLastName": "Babalola",
+    "allAuthors": [
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Michael A. Kaminski",
+      "Osman Abdullatif",
+      "Mohamed O. Abouelresh"
+    ],
+    "title": "Stable carbon and oxygen isotope records in a Middle Jurassic carbonate sequence: implications for paleoenvironment, and sea-level fluctuation, central Saudi Arabia",
+    "publicationDate": "2022-11-20",
+    "year": 2022,
+    "venue": "International Journal of Earth Sciences",
+    "citations": 5,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geological and Geophysical Studies",
+      "Geology and Paleoclimatology Research"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
