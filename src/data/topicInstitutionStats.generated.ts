@@ -20,19 +20,19 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 31,
-    "citations": 359
+    "citations": 361
   },
   {
     "id": "https://openalex.org/T10635",
     "name": "Hydraulic Fracturing and Reservoir Analysis",
     "publications": 12,
-    "citations": 151
+    "citations": 152
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 11,
-    "citations": 169
+    "citations": 170
   },
   {
     "id": "https://openalex.org/T10109",
@@ -44,7 +44,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 6,
-    "citations": 88
+    "citations": 89
   },
   {
     "id": "https://openalex.org/T13177",
@@ -86,7 +86,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
     "publications": 3,
-    "citations": 22
+    "citations": 23
   },
   {
     "id": "https://openalex.org/T10577",
@@ -263,7 +263,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 45,
-    "citations": 468
+    "citations": 470
   },
   {
     "id": "https://openalex.org/I4210143841",

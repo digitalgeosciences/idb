@@ -159,7 +159,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-06-16",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 32,
+    "citations": 33,
     "topics": [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
@@ -302,7 +302,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-03-18",
     "year": 2021,
     "venue": "Journal of Natural Gas Science and Engineering",
-    "citations": 22,
+    "citations": 23,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
