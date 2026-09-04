@@ -102,7 +102,8 @@ export const worksTable: WorkTableRecord[] = [
       "Advanced NMR Techniques and Applications"
     ],
     "institutions": [
-      "King Fahd University of Petroleum and Minerals"
+      "King Fahd University of Petroleum and Minerals",
+      "University of Petroleum"
     ]
   },
   {
@@ -372,7 +373,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-05-28",
     "year": 2024,
     "venue": "Journal of African Earth Sciences",
-    "citations": 15,
+    "citations": 16,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",

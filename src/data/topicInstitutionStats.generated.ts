@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 31,
-    "citations": 361
+    "citations": 362
   },
   {
     "id": "https://openalex.org/T10635",
@@ -32,13 +32,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 11,
-    "citations": 170
+    "citations": 171
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 9,
-    "citations": 80
+    "citations": 81
   },
   {
     "id": "https://openalex.org/T11740",
@@ -263,7 +263,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 45,
-    "citations": 470
+    "citations": 471
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -293,13 +293,19 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 42
+    "citations": 43
   },
   {
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
     "citations": 41
+  },
+  {
+    "id": "https://openalex.org/I4210118538",
+    "name": "University of Petroleum",
+    "publications": 2,
+    "citations": 38
   },
   {
     "id": "https://openalex.org/I47818738",
@@ -420,12 +426,6 @@ export const institutionStats: InstitutionStats[] = [
     "name": "Qatar University",
     "publications": 1,
     "citations": 3
-  },
-  {
-    "id": "https://openalex.org/I4210118538",
-    "name": "University of Petroleum",
-    "publications": 1,
-    "citations": 0
   },
   {
     "id": "https://openalex.org/I28407311",
