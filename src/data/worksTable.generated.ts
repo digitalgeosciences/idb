@@ -44,10 +44,10 @@ export const worksTable: WorkTableRecord[] = [
       "Mohamed S. H. Moustafa",
       "Osman Salad Hersi",
       "Numair Ahmed Siddiqui",
-      "Khalid Al‐Ramadan",
+      "Khalid A. Al-Ramadan",
       "Abdullah Alqubalee",
       "Abdulwahab Muhammad Bello",
-      "Abduljamiu O. Amao"
+      "Abduljamiu Olalekan Amao"
     ],
     "title": "Depositional and sequence stratigraphic controls on diagenesis in the Upper Cambrian-Lower Ordovician Barik Formation, central Oman: Implications for prediction of reservoir porosity in a hybrid-energy delta system",
     "publicationDate": "2023-11-22",
@@ -83,13 +83,13 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "firstAuthorLastName": "Elsayed",
     "allAuthors": [
-      "Mahmoud Elsayed",
+      "Mahmoud Mohamed Elsayed",
       "Guenther Glatz",
       "Ammar El‐Husseiny",
       "Abdullah Alqubalee",
       "Abdulrauf R. Adebayo",
       "Karem Al-Garadi",
-      "Mohamed Mahmoud"
+      "MOHAMED A. MAHMOUD"
     ],
     "title": "The Effect of Clay Content on the Spin–Spin NMR Relaxation Time Measured in Porous Media",
     "publicationDate": "2020-03-17",
@@ -153,7 +153,7 @@ export const worksTable: WorkTableRecord[] = [
       "Hassan A. Eltom",
       "Luis A. González",
       "Abdullah Alqubalee",
-      "Abduljamiu O. Amao",
+      "Abduljamiu Olalekan Amao",
       "Moaz Salih"
     ],
     "title": "Evidence for the development of a superpermeability flow zone by bioturbation in shallow marine strata, upper Jubaila Formation, central Saudi Arabia",
@@ -191,8 +191,8 @@ export const worksTable: WorkTableRecord[] = [
       "Abdulwahab Muhammad Bello",
       "Abdulkarim Al-Hussaini",
       "Abdulrauf R. Adebayo",
-      "Abduljamiu O. Amao",
-      "Khalid Al‐Ramadan"
+      "Abduljamiu Olalekan Amao",
+      "Khalid A. Al-Ramadan"
     ],
     "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
     "publicationDate": "2023-10-26",
@@ -224,10 +224,10 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "firstAuthorLastName": "Elsayed",
     "allAuthors": [
-      "Mahmoud Elsayed",
+      "Mahmoud Mohamed Elsayed",
       "Ammar El‐Husseiny",
       "Ibrahim Kadafur",
-      "Mohamed Mahmoud",
+      "MOHAMED A. MAHMOUD",
       "Murtada Saleh Aljawad",
       "Abdullah Alqubalee"
     ],
@@ -260,10 +260,10 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Bello",
     "allAuthors": [
       "Abdulwahab Muhammad Bello",
-      "Khalid Al‐Ramadan",
+      "Khalid A. Al-Ramadan",
       "Lamidi Babalola",
       "Abdullah Alqubalee",
-      "Abduljamiu O. Amao"
+      "Abduljamiu Olalekan Amao"
     ],
     "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
     "publicationDate": "2022-12-23",
@@ -296,7 +296,7 @@ export const worksTable: WorkTableRecord[] = [
       "Hassan A. Eltom",
       "Abdullah Alqubalee",
       "Abdullah S. Sultan",
-      "Assad Barri",
+      "Assad A. Barri",
       "Khalid Abdelbasit"
     ],
     "title": "Understanding the permeability of burrow-related gas reservoirs through integrated laboratory techniques",
@@ -396,10 +396,10 @@ export const worksTable: WorkTableRecord[] = [
       "Abdulwahab Muhammad Bello",
       "Anas Muhammad Salisu",
       "Abdullah Alqubalee",
-      "Abduljamiu O. Amao",
+      "Abduljamiu Olalekan Amao",
       "Murtada Al-Hashem",
       "Abdulkarim Al-Hussaini",
-      "Khalid Al‐Ramadan"
+      "Khalid A. Al-Ramadan"
     ],
     "title": "Diagenetic controls on the quality of shallow marine sandstones: An example from the Cambro-Ordovician Saq Formation, central Saudi Arabia",
     "publicationDate": "2024-05-28",
@@ -434,7 +434,7 @@ export const worksTable: WorkTableRecord[] = [
       "Anas Muhammad Salisu",
       "Abdulwahab Muhammad Bello",
       "Abdulkarim Al-Hussaini",
-      "Khalid Al‐Ramadan"
+      "Khalid A. Al-Ramadan"
     ],
     "title": "Characteristics, distribution, and origin of ferruginous deposits within the Late Ordovician glaciogenic setting of Arabia",
     "publicationDate": "2023-10-27",
@@ -470,7 +470,7 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "firstAuthorLastName": "Whattam",
     "allAuthors": [
-      "Scott Whattam",
+      "Scott Andrew Whattam",
       "Robert J. Stern",
       "Hossein Azizi",
       "Keewook Yi",
@@ -520,7 +520,7 @@ export const worksTable: WorkTableRecord[] = [
       "Lamidi Babalola",
       "Syed Rizwanullah Hussaini",
       "Abdullah Alqubalee",
-      "Rahul S. Babu"
+      "Rahul Salin Babu"
     ],
     "title": "Insight into the Pore Characteristics of a Saudi Arabian Tight Gas Sand Reservoir",
     "publicationDate": "2019-11-12",
@@ -639,12 +639,12 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "firstAuthorLastName": "Afagwu",
     "allAuthors": [
-      "Clement Afagwu",
-      "Mohamed Mahmoud",
+      "Clement  Chekwube Afagwu",
+      "MOHAMED A. MAHMOUD",
       "Saad Alafnan",
       "Abdullah Alqubalee",
       "Ammar ElHusseiny",
-      "Shirish Patil"
+      "Shirish L. Patil"
     ],
     "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
     "publicationDate": "2022-04-15",
@@ -711,11 +711,11 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Bello",
     "allAuthors": [
       "Abdulwahab Muhammad Bello",
-      "Abduljamiu O. Amao",
+      "Abduljamiu Olalekan Amao",
       "Abdullah Alqubalee",
       "Murtada Al-Hashem",
       "Houssin Albarri",
-      "Mohammed Al‐Masrahy",
+      "Mohammed A. Al-Masrahy",
       "Khalid Al‐Ramadan",
       "Lamidi Babalola"
     ],
@@ -800,7 +800,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Mahmoud Desouky",
       "Abdullah Alqubalee",
-      "Ahmed Gowida"
+      "Ahmed H. Gowida"
     ],
     "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
     "publicationDate": "2023-01-19",
@@ -838,8 +838,8 @@ export const worksTable: WorkTableRecord[] = [
       "Mohammed Hail Hakimi",
       "Alok Kumar",
       "Abdullah Alqubalee",
-      "Alok K. Singh",
-      "Mohammed Almobarky",
+      "Alok Kumar Singh",
+      "Mohammed A. Almobarky",
       "Afikah Rahim",
       "Mohammad Alqudah",
       "Aref Lashin",
@@ -884,7 +884,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Baqer Albensaad",
       "Septriandi A. Chan",
-      "John Humphrey",
+      "JOHN D. HUMPHREY",
       "Abdullah Alqubalee",
       "Ammar El-Husseiny",
       "Yaser Alzayer"
@@ -922,8 +922,8 @@ export const worksTable: WorkTableRecord[] = [
       "Ammar El‐Husseiny",
       "Hassan A. Eltom",
       "Abdullah Alqubalee",
-      "Ammar Abdlmutalib",
-      "Hani Al-Mukainah",
+      "Ammar J. Abdlmutalib",
+      "Hani Salman Al-Mukainah",
       "Rika N. Syahputra"
     ],
     "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
@@ -954,17 +954,17 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "firstAuthorLastName": "Abdlmutalib",
     "allAuthors": [
-      "Ammar Abdlmutalib",
+      "Ammar J. Abdlmutalib",
       "Osman Abdullatif",
       "Abdullah Alqubalee",
       "Luis A. González",
-      "John Humphrey"
+      "JOHN D. HUMPHREY"
     ],
     "title": "Effects of lithofacies on pore system evolution of storm-wave silt-rich fine-grained sediments. Early Silurian Qusaiba Member (Qaliba Formation), NW Saudi Arabia",
     "publicationDate": "2021-03-27",
     "year": 2021,
     "venue": "Marine and Petroleum Geology",
-    "citations": 9,
+    "citations": 10,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Hydraulic Fracturing and Reservoir Analysis",
@@ -992,7 +992,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abdullah Alqubalee",
       "Michael A. Kaminski",
       "Osman Abdullatif",
-      "Mohamed O. Abouelresh"
+      "Mohamed Omar Abouelresh"
     ],
     "title": "Stable carbon and oxygen isotope records in a Middle Jurassic carbonate sequence: implications for paleoenvironment, and sea-level fluctuation, central Saudi Arabia",
     "publicationDate": "2022-11-20",
@@ -1003,38 +1003,6 @@ export const worksTable: WorkTableRecord[] = [
       "Paleontology and Stratigraphy of Fossils",
       "Geological and Geophysical Studies",
       "Geology and Paleoclimatology Research"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4412890921",
-    "doi": "https://doi.org/10.1515/9783111437040-019",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5000790686",
-      "A5011750653",
-      "A5059738250"
-    ],
-    "firstAuthorLastName": "Fawad",
-    "allAuthors": [
-      "Manzar Fawad",
-      "Scott Whattam",
-      "Abdullah Alqubalee",
-      "Ahmed Al‐Yaseri"
-    ],
-    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
-    "publicationDate": "2025-03-29",
-    "year": 2025,
-    "venue": "",
-    "citations": 1,
-    "topics": [
-      "Hybrid Renewable Energy Systems",
-      "Radioactive element chemistry and processing",
-      "Graphite, nuclear technology, radiation studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1135,7 +1103,7 @@ export const worksTable: WorkTableRecord[] = [
       "Arshad Ali",
       "Osman Salad Hersi",
       "Shahad Al Mahrooqi",
-      "Khalid Al‐Ramadan",
+      "Khalid A. Al-Ramadan",
       "Abdulwahab Muhammad Bello",
       "Hezam Al-Awah",
       "Abdullah Alqubalee"
@@ -1156,6 +1124,38 @@ export const worksTable: WorkTableRecord[] = [
       "University of Regina",
       "King Fahd University of Petroleum and Minerals",
       "Qatar University"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4412890921",
+    "doi": "https://doi.org/10.1515/9783111437040-019",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5000790686",
+      "A5011750653",
+      "A5059738250"
+    ],
+    "firstAuthorLastName": "Fawad",
+    "allAuthors": [
+      "Manzar Fawad",
+      "Scott Andrew Whattam",
+      "Abdullah Alqubalee",
+      "Ahmed Zarzor Al-Yaseri"
+    ],
+    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
+    "publicationDate": "2025-03-29",
+    "year": 2025,
+    "venue": "",
+    "citations": 1,
+    "topics": [
+      "Hybrid Renewable Energy Systems",
+      "Radioactive element chemistry and processing",
+      "Graphite, nuclear technology, radiation studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -1294,8 +1294,8 @@ export const worksTable: WorkTableRecord[] = [
       "Aviandy W. Ismanto",
       "Abdullah Alqubalee",
       "Abdullah Alqubalee",
-      "Mohamed O. Abouelresh",
-      "Mohamed O. Abouelresh",
+      "Mohamed Omar Abouelresh",
+      "Mohamed Omar Abouelresh",
       "Michael A. Kaminski",
       "Michael A. Kaminski",
       "Osman Abdullatif",
@@ -1360,8 +1360,8 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Babiker",
     "allAuthors": [
       "Jarrah Babiker",
-      "John Humphrey",
-      "Khalid Al‐Ramadan",
+      "JOHN D. HUMPHREY",
+      "Khalid A. Al-Ramadan",
       "Jonathan L. Payne",
       "Michael A. Kaminski",
       "Abdullah Alqubalee"
@@ -1396,7 +1396,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Baqer Albensaad",
       "Septriandi A. Chan",
-      "John Humphrey",
+      "JOHN D. HUMPHREY",
       "Abdullah Alqubalee",
       "Ammar El-Husseiny",
       "Yaser Alzayer"
@@ -1432,8 +1432,8 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Jarrah Babiker",
       "Michael A. Kaminski",
-      "John Humphrey",
-      "Khalid Al‐Ramadan",
+      "JOHN D. HUMPHREY",
+      "Khalid A. Al-Ramadan",
       "Jonathan L. Payne",
       "Abdullah Alqubalee"
     ],
@@ -1471,8 +1471,8 @@ export const worksTable: WorkTableRecord[] = [
       "Mohammed Hail Hakimi",
       "Alok Kumar",
       "Abdullah Alqubalee",
-      "Alok K. Singh",
-      "Mohammed Almobarky",
+      "Alok Kumar Singh",
+      "Mohammed A. Almobarky",
       "Afikah Rahim",
       "Mohammad Alqudah",
       "Aref Lashin",
@@ -1521,8 +1521,8 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Kebba Saidy",
       "Manzar Fawad",
-      "Scott Whattam",
-      "Abdullatif Al‐Shuhail",
+      "Scott Andrew Whattam",
+      "Abdullatif Abdulrahman Al-Shuhail",
       "Abdullah A. Alshuhail",
       "Abdullah Alqubalee",
       "Farooqui Mohammed",
@@ -1559,7 +1559,7 @@ export const worksTable: WorkTableRecord[] = [
       "Sarmad Zafar Khan",
       "Abdullah Alqubalee",
       "Péter Móra",
-      "Abdullatif Al‐Shuhail"
+      "Abdullatif Abdulrahman Al-Shuhail"
     ],
     "title": "Contact morphology of sand particles in dunes",
     "publicationDate": "2025-04-17",
@@ -1593,7 +1593,7 @@ export const worksTable: WorkTableRecord[] = [
       "Sarmad Zafar Khan",
       "Abdullah Alqubalee",
       "Péter Móra",
-      "Abdullatif Al‐Shuhail"
+      "Abdullatif Abdulrahman Al-Shuhail"
     ],
     "title": "Contact morphology of sand particles in dunes",
     "publicationDate": "2025-08-19",
