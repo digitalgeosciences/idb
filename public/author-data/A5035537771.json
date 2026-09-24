@@ -357,7 +357,7 @@
     ],
     "block_key": "a alqubalee",
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5035537771",
-    "updated_date": "2026-09-22T12:21:30",
+    "updated_date": "2026-09-23T12:19:55",
     "created_date": "2019-08-13T00:00:00"
   },
   "works": [
@@ -428,7 +428,10 @@
           "author": {
             "id": "https://openalex.org/A5044806143",
             "display_name": "Mohamed A. K. El‐Ghali",
-            "orcid": "https://orcid.org/0000-0002-7850-3471"
+            "orcid": "https://orcid.org/0000-0002-7850-3471",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7850-3471"
+            ]
           },
           "institutions": [
             {
@@ -472,7 +475,10 @@
           "author": {
             "id": "https://openalex.org/A5085476024",
             "display_name": "Olga Shelukhina",
-            "orcid": "https://orcid.org/0000-0001-7304-9719"
+            "orcid": "https://orcid.org/0000-0001-7304-9719",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7304-9719"
+            ]
           },
           "institutions": [
             {
@@ -509,7 +515,10 @@
           "author": {
             "id": "https://openalex.org/A5085026818",
             "display_name": "İftikhar Ahmed Abbasi",
-            "orcid": "https://orcid.org/0000-0002-1968-0929"
+            "orcid": "https://orcid.org/0000-0002-1968-0929",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1968-0929"
+            ]
           },
           "institutions": [
             {
@@ -546,7 +555,10 @@
           "author": {
             "id": "https://openalex.org/A5054760672",
             "display_name": "Mohamed S. H. Moustafa",
-            "orcid": "https://orcid.org/0000-0003-3648-912X"
+            "orcid": "https://orcid.org/0000-0003-3648-912X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3648-912X"
+            ]
           },
           "institutions": [
             {
@@ -583,7 +595,10 @@
           "author": {
             "id": "https://openalex.org/A5029189031",
             "display_name": "Osman Salad Hersi",
-            "orcid": "https://orcid.org/0000-0002-7196-235X"
+            "orcid": "https://orcid.org/0000-0002-7196-235X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7196-235X"
+            ]
           },
           "institutions": [
             {
@@ -620,7 +635,10 @@
           "author": {
             "id": "https://openalex.org/A5032627421",
             "display_name": "Numair Ahmed Siddiqui",
-            "orcid": "https://orcid.org/0000-0002-6703-0699"
+            "orcid": "https://orcid.org/0000-0002-6703-0699",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6703-0699"
+            ]
           },
           "institutions": [
             {
@@ -664,7 +682,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -701,7 +722,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -738,7 +762,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -775,7 +803,10 @@
           "author": {
             "id": "https://openalex.org/A5027197211",
             "display_name": "Abduljamiu Olalekan Amao",
-            "orcid": "https://orcid.org/0000-0001-8203-851X"
+            "orcid": "https://orcid.org/0000-0001-8203-851X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8203-851X"
+            ]
           },
           "institutions": [
             {
@@ -823,11 +854,11 @@
         "value_usd": 3490
       },
       "apc_paid": null,
-      "fwci": 4.1001,
+      "fwci": 4.0852,
       "has_fulltext": false,
       "cited_by_count": 34,
       "citation_normalized_percentile": {
-        "value": 0.95781031,
+        "value": 0.95754537,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -1233,8 +1264,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 104,
@@ -1371,7 +1402,7 @@
           "cited_by_count": 14
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -2278,8 +2309,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": false
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3012467253.pdf"
@@ -3636,8 +3667,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -4334,8 +4365,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 100,
@@ -4554,7 +4585,11 @@
           "author": {
             "id": "https://openalex.org/A5072935704",
             "display_name": "Anas Muhammad Salisu",
-            "orcid": "https://orcid.org/0009-0002-6134-0511"
+            "orcid": "https://orcid.org/0009-0002-6134-0511",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-6134-0511",
+              "https://orcid.org/0000-0002-3186-4595"
+            ]
           },
           "institutions": [
             {
@@ -4591,7 +4626,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -4635,7 +4673,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -4672,7 +4714,10 @@
           "author": {
             "id": "https://openalex.org/A5080748045",
             "display_name": "Abdulkarim Al-Hussaini",
-            "orcid": "https://orcid.org/0000-0003-2730-4672"
+            "orcid": "https://orcid.org/0000-0003-2730-4672",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2730-4672"
+            ]
           },
           "institutions": [
             {
@@ -4709,7 +4754,10 @@
           "author": {
             "id": "https://openalex.org/A5010595990",
             "display_name": "Abdulrauf R. Adebayo",
-            "orcid": "https://orcid.org/0000-0002-0188-2688"
+            "orcid": "https://orcid.org/0000-0002-0188-2688",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0188-2688"
+            ]
           },
           "institutions": [
             {
@@ -4746,7 +4794,10 @@
           "author": {
             "id": "https://openalex.org/A5027197211",
             "display_name": "Abduljamiu Olalekan Amao",
-            "orcid": "https://orcid.org/0000-0001-8203-851X"
+            "orcid": "https://orcid.org/0000-0001-8203-851X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8203-851X"
+            ]
           },
           "institutions": [
             {
@@ -4783,7 +4834,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -4838,11 +4892,11 @@
         "value_usd": 3490
       },
       "apc_paid": null,
-      "fwci": 5.0685,
+      "fwci": 5.0462,
       "has_fulltext": false,
       "cited_by_count": 28,
       "citation_normalized_percentile": {
-        "value": 0.97205221,
+        "value": 0.97175383,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -5056,8 +5110,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 99,
@@ -5193,7 +5247,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -5863,8 +5917,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 74,
@@ -6053,7 +6107,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -6090,7 +6148,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -6134,7 +6195,10 @@
           "author": {
             "id": "https://openalex.org/A5044235421",
             "display_name": "Lamidi Babalola",
-            "orcid": "https://orcid.org/0000-0002-0052-5603"
+            "orcid": "https://orcid.org/0000-0002-0052-5603",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0052-5603"
+            ]
           },
           "institutions": [
             {
@@ -6171,7 +6235,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -6208,7 +6275,10 @@
           "author": {
             "id": "https://openalex.org/A5027197211",
             "display_name": "Abduljamiu Olalekan Amao",
-            "orcid": "https://orcid.org/0000-0001-8203-851X"
+            "orcid": "https://orcid.org/0000-0001-8203-851X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8203-851X"
+            ]
           },
           "institutions": [
             {
@@ -6257,11 +6327,11 @@
         "value_usd": 3490
       },
       "apc_paid": null,
-      "fwci": 2.4296,
+      "fwci": 2.4295,
       "has_fulltext": false,
       "cited_by_count": 27,
       "citation_normalized_percentile": {
-        "value": 0.89027419,
+        "value": 0.89023097,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -6606,8 +6676,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 72,
@@ -6716,7 +6786,7 @@
           "cited_by_count": 8
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -7283,8 +7353,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 38,
@@ -7920,8 +7990,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -8079,7 +8149,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -8123,7 +8196,10 @@
           "author": {
             "id": "https://openalex.org/A5061727407",
             "display_name": "Jaber Muharrag",
-            "orcid": "https://orcid.org/0000-0003-4156-2950"
+            "orcid": "https://orcid.org/0000-0003-4156-2950",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4156-2950"
+            ]
           },
           "institutions": [
             {
@@ -8160,7 +8236,11 @@
           "author": {
             "id": "https://openalex.org/A5072935704",
             "display_name": "Anas Muhammad Salisu",
-            "orcid": "https://orcid.org/0009-0002-6134-0511"
+            "orcid": "https://orcid.org/0009-0002-6134-0511",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-6134-0511",
+              "https://orcid.org/0000-0002-3186-4595"
+            ]
           },
           "institutions": [
             {
@@ -8197,7 +8277,10 @@
           "author": {
             "id": "https://openalex.org/A5040857714",
             "display_name": "Hassan A. Eltom",
-            "orcid": "https://orcid.org/0000-0002-3515-0127"
+            "orcid": "https://orcid.org/0000-0002-3515-0127",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3515-0127"
+            ]
           },
           "institutions": [
             {
@@ -8252,11 +8335,11 @@
         "value_usd": 3490
       },
       "apc_paid": null,
-      "fwci": 1.6198,
+      "fwci": 1.6196,
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.79746999,
+        "value": 0.7974808,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -8573,8 +8656,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 80,
@@ -8695,7 +8778,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-21T07:43:02.447757",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -8730,6 +8813,7 @@
           "listed_in": [
             "cwts-core",
             "jufo-1",
+            "ki-jl-1",
             "norway-1"
           ],
           "host_organization": "https://openalex.org/P4310320990",
@@ -8766,7 +8850,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -8803,7 +8891,11 @@
           "author": {
             "id": "https://openalex.org/A5072935704",
             "display_name": "Anas Muhammad Salisu",
-            "orcid": "https://orcid.org/0009-0002-6134-0511"
+            "orcid": "https://orcid.org/0009-0002-6134-0511",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-6134-0511",
+              "https://orcid.org/0000-0002-3186-4595"
+            ]
           },
           "institutions": [
             {
@@ -8840,7 +8932,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -8884,7 +8979,10 @@
           "author": {
             "id": "https://openalex.org/A5027197211",
             "display_name": "Abduljamiu Olalekan Amao",
-            "orcid": "https://orcid.org/0000-0001-8203-851X"
+            "orcid": "https://orcid.org/0000-0001-8203-851X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8203-851X"
+            ]
           },
           "institutions": [
             {
@@ -8921,7 +9019,10 @@
           "author": {
             "id": "https://openalex.org/A5080266129",
             "display_name": "Murtada Al-Hashem",
-            "orcid": "https://orcid.org/0009-0005-4916-7930"
+            "orcid": "https://orcid.org/0009-0005-4916-7930",
+            "observed_orcids": [
+              "https://orcid.org/0009-0005-4916-7930"
+            ]
           },
           "institutions": [
             {
@@ -8958,7 +9059,10 @@
           "author": {
             "id": "https://openalex.org/A5080748045",
             "display_name": "Abdulkarim Al-Hussaini",
-            "orcid": "https://orcid.org/0000-0003-2730-4672"
+            "orcid": "https://orcid.org/0000-0003-2730-4672",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2730-4672"
+            ]
           },
           "institutions": [
             {
@@ -8995,7 +9099,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -9051,11 +9158,11 @@
         "value_usd": 2760
       },
       "apc_paid": null,
-      "fwci": 2.6404,
+      "fwci": 2.6227,
       "has_fulltext": false,
       "cited_by_count": 16,
       "citation_normalized_percentile": {
-        "value": 0.9017445,
+        "value": 0.9007871,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9229,6 +9336,7 @@
             "listed_in": [
               "cwts-core",
               "jufo-1",
+              "ki-jl-1",
               "norway-1"
             ],
             "host_organization": "https://openalex.org/P4310320990",
@@ -9262,8 +9370,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 72,
@@ -9368,7 +9476,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -9404,6 +9512,7 @@
             "doaj",
             "doyens",
             "jufo-1",
+            "ki-jl-1",
             "medline",
             "norway-1"
           ],
@@ -9445,7 +9554,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -9503,7 +9615,11 @@
           "author": {
             "id": "https://openalex.org/A5072935704",
             "display_name": "Anas Muhammad Salisu",
-            "orcid": "https://orcid.org/0009-0002-6134-0511"
+            "orcid": "https://orcid.org/0009-0002-6134-0511",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-6134-0511",
+              "https://orcid.org/0000-0002-3186-4595"
+            ]
           },
           "institutions": [
             {
@@ -9540,7 +9656,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -9577,7 +9697,10 @@
           "author": {
             "id": "https://openalex.org/A5080748045",
             "display_name": "Abdulkarim Al-Hussaini",
-            "orcid": "https://orcid.org/0000-0003-2730-4672"
+            "orcid": "https://orcid.org/0000-0003-2730-4672",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2730-4672"
+            ]
           },
           "institutions": [
             {
@@ -9614,7 +9737,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -9688,11 +9814,11 @@
         "currency": "USD",
         "value_usd": 2390
       },
-      "fwci": 5.4069,
+      "fwci": 5.3902,
       "has_fulltext": true,
       "cited_by_count": 11,
       "citation_normalized_percentile": {
-        "value": 0.95109802,
+        "value": 0.95104446,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -9909,6 +10035,7 @@
               "doaj",
               "doyens",
               "jufo-1",
+              "ki-jl-1",
               "medline",
               "norway-1"
             ],
@@ -10041,6 +10168,7 @@
             "doaj",
             "doyens",
             "jufo-1",
+            "ki-jl-1",
             "medline",
             "norway-1"
           ],
@@ -10081,8 +10209,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4387996609.pdf",
@@ -10793,7 +10921,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -11600,8 +11728,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 76,
@@ -12459,8 +12587,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2988910414.pdf",
@@ -13739,8 +13867,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -14352,8 +14480,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -14846,8 +14974,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -16139,8 +16267,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 65,
@@ -16848,8 +16976,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 60,
@@ -17023,7 +17151,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -17067,7 +17199,10 @@
           "author": {
             "id": "https://openalex.org/A5027197211",
             "display_name": "Abduljamiu Olalekan Amao",
-            "orcid": "https://orcid.org/0000-0001-8203-851X"
+            "orcid": "https://orcid.org/0000-0001-8203-851X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8203-851X"
+            ]
           },
           "institutions": [
             {
@@ -17111,7 +17246,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -17169,7 +17307,10 @@
           "author": {
             "id": "https://openalex.org/A5080266129",
             "display_name": "Murtada Al-Hashem",
-            "orcid": "https://orcid.org/0009-0005-4916-7930"
+            "orcid": "https://orcid.org/0009-0005-4916-7930",
+            "observed_orcids": [
+              "https://orcid.org/0009-0005-4916-7930"
+            ]
           },
           "institutions": [
             {
@@ -17213,7 +17354,8 @@
           "author": {
             "id": "https://openalex.org/A5093639122",
             "display_name": "Houssin Albarri",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -17257,7 +17399,10 @@
           "author": {
             "id": "https://openalex.org/A5042665751",
             "display_name": "Mohammed A. Al-Masrahy",
-            "orcid": "https://orcid.org/0000-0002-8396-3923"
+            "orcid": "https://orcid.org/0000-0002-8396-3923",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8396-3923"
+            ]
           },
           "institutions": [
             {
@@ -17301,7 +17446,10 @@
           "author": {
             "id": "https://openalex.org/A5104094821",
             "display_name": "Khalid Al‐Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -17359,7 +17507,10 @@
           "author": {
             "id": "https://openalex.org/A5044235421",
             "display_name": "Lamidi Babalola",
-            "orcid": "https://orcid.org/0000-0002-0052-5603"
+            "orcid": "https://orcid.org/0000-0002-0052-5603",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0052-5603"
+            ]
           },
           "institutions": [
             {
@@ -17417,11 +17568,11 @@
         "value_usd": 3390
       },
       "apc_paid": null,
-      "fwci": 1.3202,
+      "fwci": 1.3114,
       "has_fulltext": false,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.73796103,
+        "value": 0.73586143,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17729,8 +17880,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 62,
@@ -17825,7 +17976,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -18687,8 +18838,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 66,
@@ -19302,8 +19453,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -20958,8 +21109,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4391167607.pdf",
@@ -22297,8 +22448,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 59,
@@ -23874,8 +24025,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -24536,8 +24687,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 91,
@@ -25379,8 +25530,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 118,
@@ -26064,8 +26215,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 82,
@@ -26931,8 +27082,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 47,
@@ -27806,7 +27957,10 @@
           "author": {
             "id": "https://openalex.org/A5044806143",
             "display_name": "Mohamed A. K. El‐Ghali",
-            "orcid": "https://orcid.org/0000-0002-7850-3471"
+            "orcid": "https://orcid.org/0000-0002-7850-3471",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7850-3471"
+            ]
           },
           "institutions": [
             {
@@ -27850,7 +28004,10 @@
           "author": {
             "id": "https://openalex.org/A5085026818",
             "display_name": "İftikhar Ahmed Abbasi",
-            "orcid": "https://orcid.org/0000-0002-1968-0929"
+            "orcid": "https://orcid.org/0000-0002-1968-0929",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1968-0929"
+            ]
           },
           "institutions": [
             {
@@ -27887,7 +28044,10 @@
           "author": {
             "id": "https://openalex.org/A5085476024",
             "display_name": "Olga Shelukhina",
-            "orcid": "https://orcid.org/0000-0001-7304-9719"
+            "orcid": "https://orcid.org/0000-0001-7304-9719",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7304-9719"
+            ]
           },
           "institutions": [
             {
@@ -27924,7 +28084,10 @@
           "author": {
             "id": "https://openalex.org/A5054760672",
             "display_name": "Mohamed S. H. Moustafa",
-            "orcid": "https://orcid.org/0000-0003-3648-912X"
+            "orcid": "https://orcid.org/0000-0003-3648-912X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-3648-912X"
+            ]
           },
           "institutions": [
             {
@@ -27961,7 +28124,10 @@
           "author": {
             "id": "https://openalex.org/A5044314407",
             "display_name": "Arshad Ali",
-            "orcid": "https://orcid.org/0000-0002-7087-0269"
+            "orcid": "https://orcid.org/0000-0002-7087-0269",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7087-0269"
+            ]
           },
           "institutions": [
             {
@@ -27998,7 +28164,10 @@
           "author": {
             "id": "https://openalex.org/A5029189031",
             "display_name": "Osman Salad Hersi",
-            "orcid": "https://orcid.org/0000-0002-7196-235X"
+            "orcid": "https://orcid.org/0000-0002-7196-235X",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7196-235X"
+            ]
           },
           "institutions": [
             {
@@ -28035,7 +28204,8 @@
           "author": {
             "id": "https://openalex.org/A5094194168",
             "display_name": "Shahad Al Mahrooqi",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -28072,7 +28242,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -28109,7 +28282,11 @@
           "author": {
             "id": "https://openalex.org/A5014657720",
             "display_name": "Abdulwahab Muhammad Bello",
-            "orcid": "https://orcid.org/0000-0002-4637-9883"
+            "orcid": "https://orcid.org/0000-0002-4637-9883",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4637-9883",
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -28146,7 +28323,10 @@
           "author": {
             "id": "https://openalex.org/A5091708119",
             "display_name": "Hezam Al-Awah",
-            "orcid": "https://orcid.org/0000-0001-9283-1909"
+            "orcid": "https://orcid.org/0000-0001-9283-1909",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9283-1909"
+            ]
           },
           "institutions": [
             {
@@ -28183,7 +28363,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -28227,11 +28410,11 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 5.4968,
+      "fwci": 5.4774,
       "has_fulltext": false,
       "cited_by_count": 3,
       "citation_normalized_percentile": {
-        "value": 0.94928702,
+        "value": 0.94907258,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": true
       },
@@ -28452,8 +28635,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 17,
@@ -28499,7 +28682,7 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -28840,8 +29023,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 51,
@@ -29702,8 +29885,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -30297,8 +30480,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -31180,8 +31363,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -31778,8 +31961,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -32433,8 +32616,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -32483,6 +32666,7 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1318003438",
           "host_organization_name": "RELX Group (Netherlands)",
           "host_organization_lineage": [
@@ -32515,7 +32699,10 @@
           "author": {
             "id": "https://openalex.org/A5040857714",
             "display_name": "Hassan A. Eltom",
-            "orcid": "https://orcid.org/0000-0002-3515-0127"
+            "orcid": "https://orcid.org/0000-0002-3515-0127",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-3515-0127"
+            ]
           },
           "institutions": [
             {
@@ -32559,7 +32746,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -32596,7 +32786,11 @@
           "author": {
             "id": "https://openalex.org/A5072935704",
             "display_name": "Anas Muhammad Salisu",
-            "orcid": "https://orcid.org/0009-0002-6134-0511"
+            "orcid": "https://orcid.org/0009-0002-6134-0511",
+            "observed_orcids": [
+              "https://orcid.org/0009-0002-6134-0511",
+              "https://orcid.org/0000-0002-3186-4595"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -32611,7 +32805,8 @@
           "author": {
             "id": "https://openalex.org/A5013728813",
             "display_name": "JABER MUHARRAG",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [],
           "countries": [],
@@ -32846,6 +33041,7 @@
             "is_oa": true,
             "is_in_doaj": false,
             "is_core": false,
+            "listed_in": [],
             "host_organization": "https://openalex.org/I1318003438",
             "host_organization_name": "RELX Group (Netherlands)",
             "host_organization_lineage": [
@@ -32878,6 +33074,7 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1318003438",
           "host_organization_name": "RELX Group (Netherlands)",
           "host_organization_lineage": [
@@ -32905,8 +33102,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -32925,7 +33122,7 @@
       ],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-07-14T23:27:15.235271",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2022-01-25T00:00:00"
     },
     {
@@ -32970,7 +33167,8 @@
           "author": {
             "id": "https://openalex.org/A5029738708",
             "display_name": "Jarrah Babiker",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -33007,7 +33205,10 @@
           "author": {
             "id": "https://openalex.org/A5082826691",
             "display_name": "JOHN D. HUMPHREY",
-            "orcid": "https://orcid.org/0000-0002-8927-2322"
+            "orcid": "https://orcid.org/0000-0002-8927-2322",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8927-2322"
+            ]
           },
           "institutions": [
             {
@@ -33044,7 +33245,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [
             {
@@ -33081,7 +33285,11 @@
           "author": {
             "id": "https://openalex.org/A5061005201",
             "display_name": "Jonathan L. Payne",
-            "orcid": "https://orcid.org/0000-0002-9601-3310"
+            "orcid": "https://orcid.org/0000-0002-9601-3310",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9601-3310",
+              "https://orcid.org/0009-0009-9668-2061"
+            ]
           },
           "institutions": [
             {
@@ -33118,7 +33326,10 @@
           "author": {
             "id": "https://openalex.org/A5035815399",
             "display_name": "Michael A. Kaminski",
-            "orcid": "https://orcid.org/0000-0002-7344-5874"
+            "orcid": "https://orcid.org/0000-0002-7344-5874",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7344-5874"
+            ]
           },
           "institutions": [
             {
@@ -33155,7 +33366,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -33476,8 +33690,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -33965,7 +34179,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -34444,8 +34658,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -34570,7 +34784,8 @@
           "author": {
             "id": "https://openalex.org/A5029738708",
             "display_name": "Jarrah Babiker",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [],
           "countries": [],
@@ -34585,7 +34800,10 @@
           "author": {
             "id": "https://openalex.org/A5035815399",
             "display_name": "Michael A. Kaminski",
-            "orcid": "https://orcid.org/0000-0002-7344-5874"
+            "orcid": "https://orcid.org/0000-0002-7344-5874",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-7344-5874"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -34600,7 +34818,10 @@
           "author": {
             "id": "https://openalex.org/A5082826691",
             "display_name": "JOHN D. HUMPHREY",
-            "orcid": "https://orcid.org/0000-0002-8927-2322"
+            "orcid": "https://orcid.org/0000-0002-8927-2322",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-8927-2322"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -34615,7 +34836,10 @@
           "author": {
             "id": "https://openalex.org/A5085007251",
             "display_name": "Khalid A. Al-Ramadan",
-            "orcid": "https://orcid.org/0000-0002-4872-6201"
+            "orcid": "https://orcid.org/0000-0002-4872-6201",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4872-6201"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -34630,7 +34854,11 @@
           "author": {
             "id": "https://openalex.org/A5061005201",
             "display_name": "Jonathan L. Payne",
-            "orcid": "https://orcid.org/0000-0002-9601-3310"
+            "orcid": "https://orcid.org/0000-0002-9601-3310",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-9601-3310",
+              "https://orcid.org/0009-0009-9668-2061"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -34645,7 +34873,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [],
           "countries": [],
@@ -34667,7 +34898,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.17558992,
+        "value": 0.17567145,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -34964,8 +35195,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -35398,7 +35629,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-09-22T06:50:58.402377",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -36311,8 +36542,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4388960641.pdf",
@@ -37455,8 +37686,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -38386,8 +38617,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4409556117.pdf",
@@ -39004,8 +39235,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4413307018.pdf",
@@ -39856,8 +40087,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40184,8 +40415,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40616,8 +40847,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40951,8 +41182,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -41743,8 +41974,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -42933,8 +43164,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": true,
-        "pdf": true
+        "pdf": true,
+        "grobid_xml": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W7124358305.pdf",
@@ -43578,7 +43809,10 @@
           "author": {
             "id": "https://openalex.org/A5035537771",
             "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026"
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
           },
           "institutions": [
             {
@@ -43636,7 +43870,10 @@
           "author": {
             "id": "https://openalex.org/A5119806997",
             "display_name": "Abdulwahab Bello",
-            "orcid": "https://orcid.org/0000-0003-4264-7673"
+            "orcid": "https://orcid.org/0000-0003-4264-7673",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4264-7673"
+            ]
           },
           "institutions": [
             {
@@ -43680,7 +43917,10 @@
           "author": {
             "id": "https://openalex.org/A5051302005",
             "display_name": "Adhipa Herlambang",
-            "orcid": "https://orcid.org/0000-0002-0583-7438"
+            "orcid": "https://orcid.org/0000-0002-0583-7438",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0583-7438"
+            ]
           },
           "institutions": [
             {
@@ -43724,7 +43964,8 @@
           "author": {
             "id": "https://openalex.org/A5129043439",
             "display_name": "John Humphrey",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -43766,9 +44007,12 @@
         {
           "author_position": "middle",
           "author": {
-            "id": "https://openalex.org/A5138521549",
+            "id": "https://openalex.org/A5059881838",
             "display_name": "Ardiansyah Koeshidayatullah",
-            "orcid": null
+            "orcid": "https://orcid.org/0000-0001-7558-8783",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-7558-8783"
+            ]
           },
           "institutions": [
             {
@@ -43826,7 +44070,8 @@
           "author": {
             "id": "https://openalex.org/A5138541931",
             "display_name": "Kevin Taylor",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -43870,7 +44115,8 @@
           "author": {
             "id": "https://openalex.org/A5096609462",
             "display_name": "Khalid Al-Ramadan",
-            "orcid": null
+            "orcid": null,
+            "observed_orcids": []
           },
           "institutions": [
             {
@@ -43944,7 +44190,7 @@
       "has_fulltext": false,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.43436287,
+        "value": 0.422216,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -44251,8 +44497,8 @@
         }
       ],
       "has_content": {
-        "grobid_xml": false,
-        "pdf": false
+        "pdf": false,
+        "grobid_xml": false
       },
       "content_urls": null,
       "referenced_works_count": 113,
@@ -44374,7 +44620,7 @@
       "related_works": [],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-09-21T07:43:02.447757",
+      "updated_date": "2026-09-24T07:57:37.273135",
       "created_date": "2026-06-13T00:00:00"
     }
   ]
