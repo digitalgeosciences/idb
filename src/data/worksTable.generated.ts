@@ -68,6 +68,45 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4388205616",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5072935704",
+      "A5014657720",
+      "A5080748045",
+      "A5010595990",
+      "A5027197211",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Salisu",
+    "allAuthors": [
+      "Anas Muhammad Salisu",
+      "Abdullah Alqubalee",
+      "Abdulwahab Muhammad Bello",
+      "Abdulkarim Al-Hussaini",
+      "Abdulrauf R. Adebayo",
+      "Abduljamiu Olalekan Amao",
+      "Khalid A. Al-Ramadan"
+    ],
+    "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
+    "publicationDate": "2023-10-26",
+    "year": 2023,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 29,
+    "topics": [
+      "Geophysical and Geoelectrical Methods",
+      "Concrete and Cement Materials Research",
+      "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "The University of Texas at Austin"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3012467253",
     "doi": "https://doi.org/10.1021/acsomega.9b04228",
     "program": "",
@@ -171,42 +210,37 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4388205616",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
+    "workId": "https://openalex.org/W4313367735",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
     "program": "",
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5072935704",
       "A5014657720",
-      "A5080748045",
-      "A5010595990",
-      "A5027197211",
-      "A5085007251"
+      "A5085007251",
+      "A5044235421",
+      "A5027197211"
     ],
-    "firstAuthorLastName": "Salisu",
+    "firstAuthorLastName": "Bello",
     "allAuthors": [
-      "Anas Muhammad Salisu",
-      "Abdullah Alqubalee",
       "Abdulwahab Muhammad Bello",
-      "Abdulkarim Al-Hussaini",
-      "Abdulrauf R. Adebayo",
-      "Abduljamiu Olalekan Amao",
-      "Khalid A. Al-Ramadan"
+      "Khalid A. Al-Ramadan",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Abduljamiu Olalekan Amao"
     ],
-    "title": "Impact of kaolinite and iron oxide cements on resistivity and quality of low resistivity pay sandstones",
-    "publicationDate": "2023-10-26",
-    "year": 2023,
+    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
+    "publicationDate": "2022-12-23",
+    "year": 2022,
     "venue": "Marine and Petroleum Geology",
     "citations": 28,
     "topics": [
-      "Geophysical and Geoelectrical Methods",
-      "Concrete and Cement Materials Research",
-      "Drilling and Well Engineering"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "The University of Texas at Austin"
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -240,40 +274,6 @@ export const worksTable: WorkTableRecord[] = [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
       "Seismic Imaging and Inversion Techniques"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4313367735",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014657720",
-      "A5085007251",
-      "A5044235421",
-      "A5027197211"
-    ],
-    "firstAuthorLastName": "Bello",
-    "allAuthors": [
-      "Abdulwahab Muhammad Bello",
-      "Khalid A. Al-Ramadan",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Abduljamiu Olalekan Amao"
-    ],
-    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
-    "publicationDate": "2022-12-23",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 27,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1323,14 +1323,14 @@ export const worksTable: WorkTableRecord[] = [
       "A5035537771",
       "A5040857714",
       "A5072935704",
-      "A5013728813"
+      "A5061727407"
     ],
     "firstAuthorLastName": "Eltom",
     "allAuthors": [
       "Hassan A. Eltom",
       "Abdullah Alqubalee",
       "Anas Muhammad Salisu",
-      "JABER MUHARRAG"
+      "Jaber Muharrag"
     ],
     "title": "The Negative Impact of Ophiomorpha on Reservoir Quality of Tidal Channel Deposits: The Case Study of the Dam Formation, Saudi Arabia",
     "publicationDate": "2022-01-01",
@@ -1762,7 +1762,7 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5119806997",
+      "A5014657720",
       "A5051302005",
       "A5129043439",
       "A5059881838",
@@ -1772,7 +1772,7 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Alqubalee",
     "allAuthors": [
       "Abdullah Alqubalee",
-      "Abdulwahab Bello",
+      "Abdulwahab Muhammad Bello",
       "Adhipa Herlambang",
       "John Humphrey",
       "Ardiansyah Koeshidayatullah",
