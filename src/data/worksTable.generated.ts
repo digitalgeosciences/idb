@@ -1766,8 +1766,8 @@ export const worksTable: WorkTableRecord[] = [
       "A5051302005",
       "A5129043439",
       "A5059881838",
-      "A5138541931",
-      "A5096609462"
+      "A5146407060",
+      "A5085007251"
     ],
     "firstAuthorLastName": "Alqubalee",
     "allAuthors": [
@@ -1777,7 +1777,7 @@ export const worksTable: WorkTableRecord[] = [
       "John Humphrey",
       "Ardiansyah Koeshidayatullah",
       "Kevin Taylor",
-      "Khalid Al-Ramadan"
+      "Khalid A. Al-Ramadan"
     ],
     "title": "Fluvial Heterogeneity of Upper Triassic Strata in Central Saudi Arabia: Enhancing CO₂ Storage Strategies",
     "publicationDate": "2026-06-12",
