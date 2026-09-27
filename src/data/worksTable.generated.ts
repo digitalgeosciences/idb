@@ -1582,14 +1582,14 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5113089995",
+      "A5068641652",
       "A5000180362",
       "A5011378626",
       "A5054922583"
     ],
-    "firstAuthorLastName": "Alonso-Marroquin",
+    "firstAuthorLastName": "Alonso-Marroquín",
     "allAuthors": [
-      "Fernando Alonso-Marroquin",
+      "Fernando Alonso-Marroquín",
       "Sarmad Zafar Khan",
       "Abdullah Alqubalee",
       "Péter Móra",
@@ -1704,12 +1704,12 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5113089995",
+      "A5068641652",
       "A5022893471"
     ],
-    "firstAuthorLastName": "Alonso-Marroquin",
+    "firstAuthorLastName": "Alonso-Marroquín",
     "allAuthors": [
-      "Fernando Alonso-Marroquin",
+      "Fernando Alonso-Marroquín",
       "Abdullah Alqubalee",
       "Christian Tantardini"
     ],
@@ -1732,12 +1732,12 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5113089995",
+      "A5068641652",
       "A5022893471"
     ],
-    "firstAuthorLastName": "Alonso-Marroquin",
+    "firstAuthorLastName": "Alonso-Marroquín",
     "allAuthors": [
-      "Fernando Alonso-Marroquin",
+      "Fernando Alonso-Marroquín",
       "Abdullah Alqubalee",
       "Christian Tantardini"
     ],
