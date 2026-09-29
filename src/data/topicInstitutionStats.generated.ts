@@ -302,12 +302,6 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 41
   },
   {
-    "id": "https://openalex.org/I4210118538",
-    "name": "University of Petroleum",
-    "publications": 2,
-    "citations": 39
-  },
-  {
     "id": "https://openalex.org/I47818738",
     "name": "Sultan Qaboos University",
     "publications": 2,
@@ -340,12 +334,6 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I4576418",
     "name": "University of Technology Malaysia",
-    "publications": 2,
-    "citations": 7
-  },
-  {
-    "id": "https://openalex.org/I146840658",
-    "name": "University of Azad Jammu and Kashmir",
     "publications": 2,
     "citations": 7
   },

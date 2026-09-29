@@ -141,8 +141,7 @@ export const worksTable: WorkTableRecord[] = [
       "Advanced NMR Techniques and Applications"
     ],
     "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "University of Petroleum"
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -864,7 +863,6 @@ export const worksTable: WorkTableRecord[] = [
       "King Saud University",
       "University of Technology Malaysia",
       "Yarmouk University",
-      "University of Azad Jammu and Kashmir",
       "University of Poonch Rawalakot"
     ]
   },
@@ -1310,8 +1308,7 @@ export const worksTable: WorkTableRecord[] = [
       "Geochemistry and Geologic Mapping"
     ],
     "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "University of Petroleum"
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -1497,7 +1494,6 @@ export const worksTable: WorkTableRecord[] = [
       "King Saud University",
       "University of Technology Malaysia",
       "Yarmouk University",
-      "University of Azad Jammu and Kashmir",
       "University of Poonch Rawalakot"
     ]
   },
