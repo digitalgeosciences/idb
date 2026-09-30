@@ -128,7 +128,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abdullah Alqubalee",
       "Abdulrauf R. Adebayo",
       "Karem Al-Garadi",
-      "MOHAMED A. MAHMOUD"
+      "Mohamed Mahmoud"
     ],
     "title": "The Effect of Clay Content on the Spin–Spin NMR Relaxation Time Measured in Porous Media",
     "publicationDate": "2020-03-17",
@@ -260,7 +260,7 @@ export const worksTable: WorkTableRecord[] = [
       "Mahmoud Mohamed Elsayed",
       "Ammar El‐Husseiny",
       "Ibrahim Kadafur",
-      "MOHAMED A. MAHMOUD",
+      "Mohamed Mahmoud",
       "Murtada Saleh Aljawad",
       "Abdullah Alqubalee"
     ],
@@ -568,35 +568,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W3195908734",
-    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5044235421"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Lamidi Babalola"
-    ],
-    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
-    "publicationDate": "2021-08-23",
-    "year": 2021,
-    "venue": "International Journal of Earth Sciences",
-    "citations": 14,
-    "topics": [
-      "Hydrology and Sediment Transport Processes",
-      "Hydrology and Watershed Management Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4213326878",
     "doi": "https://doi.org/10.2110/palo.2021.012",
     "program": "",
@@ -639,7 +610,7 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Afagwu",
     "allAuthors": [
       "Clement  Chekwube Afagwu",
-      "MOHAMED A. MAHMOUD",
+      "Mohamed Mahmoud",
       "Saad Alafnan",
       "Abdullah Alqubalee",
       "Ammar ElHusseiny",
@@ -903,6 +874,35 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W3195908734",
+    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5044235421"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Lamidi Babalola"
+    ],
+    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
+    "publicationDate": "2021-08-23",
+    "year": 2021,
+    "venue": "International Journal of Earth Sciences",
+    "citations": 14,
+    "topics": [
+      "Hydrology and Sediment Transport Processes",
+      "Hydrology and Watershed Management Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4283757143",
     "doi": "https://doi.org/10.1007/s11053-022-10097-w",
     "program": "",
@@ -1048,7 +1048,6 @@ export const worksTable: WorkTableRecord[] = [
       "A5070455488",
       "A5044235421",
       "A5079903196",
-      "A5053747503",
       "A5111119662"
     ],
     "firstAuthorLastName": "AlGhamdi",
@@ -1544,14 +1543,13 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5112528832",
       "A5000180362",
       "A5011378626",
       "A5054922583"
     ],
-    "firstAuthorLastName": "Marroquín",
+    "firstAuthorLastName": "Marroquin",
     "allAuthors": [
-      "Fernando Alonso Marroquín",
+      "Fernando Alonso Marroquin",
       "Sarmad Zafar Khan",
       "Abdullah Alqubalee",
       "Péter Móra",
