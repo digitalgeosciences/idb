@@ -631,6 +631,105 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W3195908734",
+    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5044235421"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Lamidi Babalola"
+    ],
+    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
+    "publicationDate": "2021-08-23",
+    "year": 2021,
+    "venue": "International Journal of Earth Sciences",
+    "citations": 14,
+    "topics": [
+      "Hydrology and Sediment Transport Processes",
+      "Hydrology and Watershed Management Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4283757143",
+    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5064720324",
+      "A5040857714",
+      "A5006844997",
+      "A5024882078",
+      "A5044457172"
+    ],
+    "firstAuthorLastName": "El‐Husseiny",
+    "allAuthors": [
+      "Ammar El‐Husseiny",
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Ammar J. Abdlmutalib",
+      "Hani Salman Al-Mukainah",
+      "Rika N. Syahputra"
+    ],
+    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
+    "publicationDate": "2022-07-01",
+    "year": 2022,
+    "venue": "Natural Resources Research",
+    "citations": 12,
+    "topics": [
+      "Seismic Imaging and Inversion Techniques",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3141818123",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2021.105048",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5006844997",
+      "A5028390167",
+      "A5047905444",
+      "A5082826691"
+    ],
+    "firstAuthorLastName": "Abdlmutalib",
+    "allAuthors": [
+      "Ammar J. Abdlmutalib",
+      "Osman Abdullatif",
+      "Abdullah Alqubalee",
+      "Luis A. González",
+      "JOHN D. HUMPHREY"
+    ],
+    "title": "Effects of lithofacies on pore system evolution of storm-wave silt-rich fine-grained sediments. Early Silurian Qusaiba Member (Qaliba Formation), NW Saudi Arabia",
+    "publicationDate": "2021-03-27",
+    "year": 2021,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 10,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "NMR spectroscopy and applications"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4223471131",
     "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
     "program": "",
@@ -871,105 +970,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3195908734",
-    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5044235421"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Lamidi Babalola"
-    ],
-    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
-    "publicationDate": "2021-08-23",
-    "year": 2021,
-    "venue": "International Journal of Earth Sciences",
-    "citations": 14,
-    "topics": [
-      "Hydrology and Sediment Transport Processes",
-      "Hydrology and Watershed Management Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4283757143",
-    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5064720324",
-      "A5040857714",
-      "A5006844997",
-      "A5024882078",
-      "A5044457172"
-    ],
-    "firstAuthorLastName": "El‐Husseiny",
-    "allAuthors": [
-      "Ammar El‐Husseiny",
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Ammar J. Abdlmutalib",
-      "Hani Salman Al-Mukainah",
-      "Rika N. Syahputra"
-    ],
-    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
-    "publicationDate": "2022-07-01",
-    "year": 2022,
-    "venue": "Natural Resources Research",
-    "citations": 12,
-    "topics": [
-      "Seismic Imaging and Inversion Techniques",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3141818123",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2021.105048",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5006844997",
-      "A5028390167",
-      "A5047905444",
-      "A5082826691"
-    ],
-    "firstAuthorLastName": "Abdlmutalib",
-    "allAuthors": [
-      "Ammar J. Abdlmutalib",
-      "Osman Abdullatif",
-      "Abdullah Alqubalee",
-      "Luis A. González",
-      "JOHN D. HUMPHREY"
-    ],
-    "title": "Effects of lithofacies on pore system evolution of storm-wave silt-rich fine-grained sediments. Early Silurian Qusaiba Member (Qaliba Formation), NW Saudi Arabia",
-    "publicationDate": "2021-03-27",
-    "year": 2021,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 10,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "NMR spectroscopy and applications"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -1717,7 +1717,9 @@ export const worksTable: WorkTableRecord[] = [
       "Enhanced Oil Recovery Techniques",
       "Hydrocarbon exploration and reservoir analysis"
     ],
-    "institutions": []
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
   },
   {
     "workId": "https://openalex.org/W7124358305",
