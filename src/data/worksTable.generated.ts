@@ -1752,6 +1752,68 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W7161493049",
+    "doi": "https://doi.org/10.2118/232636-ms",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5136137359",
+      "A5059738250"
+    ],
+    "firstAuthorLastName": "Fatah",
+    "allAuthors": [
+      "Ahmed Fatah",
+      "Abdullah Alqubalee",
+      "Ahmed Zarzor Al-Yaseri"
+    ],
+    "title": "In-Situ Hydrogen Generation from Iron-Rich Sandstone During CO2 Injection: A Novel Pathway for Low-Carbon Hydrogen Production",
+    "publicationDate": "2026-05-18",
+    "year": 2026,
+    "venue": "",
+    "citations": 0,
+    "topics": [
+      "CO2 Sequestration and Geologic Interactions",
+      "Carbon Dioxide Capture Technologies",
+      "Chemical Looping and Thermochemical Processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W7163184808",
+    "doi": "https://doi.org/10.48550/arxiv.2606.01248",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5022893471",
+      "A5068641652",
+      "A5144117706"
+    ],
+    "firstAuthorLastName": "Tantardini",
+    "allAuthors": [
+      "Christian Tantardini",
+      "Fernando Alonso-Marroquín",
+      "Abdullah Alqubalee",
+      "Eduardo Garzanti"
+    ],
+    "title": "Statistical admissibility and long-wavelength structural convergence determine representative support in granular materials",
+    "publicationDate": "2026-05-31",
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "citations": 0,
+    "topics": [
+      "Geotechnical Engineering and Soil Mechanics",
+      "Geophysical and Geoelectrical Methods",
+      "Composite Material Mechanics"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W7164575895",
     "doi": "https://doi.org/10.1007/s13369-026-11417-5",
     "program": "",
@@ -1788,6 +1850,123 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "University of Manchester"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W7166825184",
+    "doi": "https://doi.org/10.1007/s11004-026-10310-z",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5139746082",
+      "A5022893471"
+    ],
+    "firstAuthorLastName": "Alonso-Marroquín",
+    "allAuthors": [
+      "Fernando Alonso-Marroquín",
+      "Abdullah Alqubalee",
+      "Christian Tantardini"
+    ],
+    "title": "Representative-Volume Sizing in Finite Cylindrical Computed Tomography by Low-Wavenumber Spectral Convergence",
+    "publicationDate": "2026-07-01",
+    "year": 2026,
+    "venue": "Mathematical Geosciences",
+    "citations": 0,
+    "topics": [
+      "Seismic Imaging and Inversion Techniques",
+      "Medical Imaging Techniques and Applications",
+      "Advanced X-ray and CT Imaging"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "ETH Zurich"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W7167166554",
+    "doi": "",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "Lithofacies and Petrophysical Characterization of the Late Ordovician Sarah Formation, Rub’ Al-Khali Basin, Saudi Arabia",
+    "publicationDate": "2017-01-01",
+    "year": 2017,
+    "venue": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
+    "citations": 0,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
+    ],
+    "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W7167181268",
+    "doi": "",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "Microscale Heterogeneity of the Upper Triassic Minjur Sandstone: Implications for CO₂ Storage",
+    "publicationDate": "2025-01-01",
+    "year": 2025,
+    "venue": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
+    "citations": 0,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "CO2 Sequestration and Geologic Interactions",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W7204931662",
+    "doi": "https://doi.org/10.1021/acs.energyfuels.6c01965",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5139918897",
+      "A5037880479",
+      "A5037396820",
+      "A5003993083",
+      "A5139872098",
+      "A5087006202"
+    ],
+    "firstAuthorLastName": "TIJANI",
+    "allAuthors": [
+      "ABDULMALIK DAMILARE TIJANI",
+      "Abdulwahab Salah",
+      "Samah A. Mahyoub",
+      "Fatma Abdelghafar",
+      "ABDULLAH AAMIR",
+      "Abdullah Alqubalee",
+      "Qasem Ahmed Drmosh"
+    ],
+    "title": "One-Step Electrodeposition of Co9S8 on Ni Foam for Efficient Alkaline Overall Water Splitting",
+    "publicationDate": "2026-08-26",
+    "year": 2026,
+    "venue": "Energy & Fuels",
+    "citations": 0,
+    "topics": [
+      "Electrocatalysts for Energy Conversion",
+      "Ammonia Synthesis and Nitrogen Reduction",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   }
 ];

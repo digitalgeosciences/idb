@@ -19,8 +19,14 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 31,
+    "publications": 32,
     "citations": 369
+  },
+  {
+    "id": "https://openalex.org/T10965",
+    "name": "Geological formations and processes",
+    "publications": 12,
+    "citations": 174
   },
   {
     "id": "https://openalex.org/T10635",
@@ -29,21 +35,15 @@ export const topicStats: TopicStats[] = [
     "citations": 158
   },
   {
-    "id": "https://openalex.org/T10965",
-    "name": "Geological formations and processes",
-    "publications": 11,
-    "citations": 174
-  },
-  {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 9,
+    "publications": 11,
     "citations": 81
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
-    "publications": 6,
+    "publications": 7,
     "citations": 89
   },
   {
@@ -51,6 +51,12 @@ export const topicStats: TopicStats[] = [
     "name": "Geological and Geophysical Studies",
     "publications": 6,
     "citations": 78
+  },
+  {
+    "id": "https://openalex.org/T10271",
+    "name": "Seismic Imaging and Inversion Techniques",
+    "publications": 5,
+    "citations": 39
   },
   {
     "id": "https://openalex.org/T12157",
@@ -63,12 +69,6 @@ export const topicStats: TopicStats[] = [
     "name": "NMR spectroscopy and applications",
     "publications": 4,
     "citations": 99
-  },
-  {
-    "id": "https://openalex.org/T10271",
-    "name": "Seismic Imaging and Inversion Techniques",
-    "publications": 4,
-    "citations": 39
   },
   {
     "id": "https://openalex.org/T10995",
@@ -99,6 +99,18 @@ export const topicStats: TopicStats[] = [
     "name": "Geology and Paleoclimatology Research",
     "publications": 3,
     "citations": 12
+  },
+  {
+    "id": "https://openalex.org/T11302",
+    "name": "CO2 Sequestration and Geologic Interactions",
+    "publications": 3,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10572",
+    "name": "Geophysical and Geoelectrical Methods",
+    "publications": 2,
+    "citations": 29
   },
   {
     "id": "https://openalex.org/T10001",
@@ -153,12 +165,6 @@ export const topicStats: TopicStats[] = [
     "name": "Advanced NMR Techniques and Applications",
     "publications": 1,
     "citations": 39
-  },
-  {
-    "id": "https://openalex.org/T10572",
-    "name": "Geophysical and Geoelectrical Methods",
-    "publications": 1,
-    "citations": 29
   },
   {
     "id": "https://openalex.org/T10033",
@@ -251,8 +257,56 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T11302",
-    "name": "CO2 Sequestration and Geologic Interactions",
+    "id": "https://openalex.org/T10967",
+    "name": "Carbon Dioxide Capture Technologies",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T11802",
+    "name": "Chemical Looping and Thermochemical Processes",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10233",
+    "name": "Geotechnical Engineering and Soil Mechanics",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T11558",
+    "name": "Composite Material Mechanics",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10522",
+    "name": "Medical Imaging Techniques and Applications",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12386",
+    "name": "Advanced X-ray and CT Imaging",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10030",
+    "name": "Electrocatalysts for Energy Conversion",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12112",
+    "name": "Ammonia Synthesis and Nitrogen Reduction",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10078",
+    "name": "Advanced Photocatalysis Techniques",
     "publications": 1,
     "citations": 0
   }
@@ -262,7 +316,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 46,
+    "publications": 50,
     "citations": 481
   },
   {
@@ -418,6 +472,12 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I28407311",
     "name": "University of Manchester",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/I35440088",
+    "name": "ETH Zurich",
     "publications": 1,
     "citations": 0
   }
