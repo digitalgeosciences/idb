@@ -1144,7 +1144,7 @@ export const worksTable: WorkTableRecord[] = [
     "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
     "publicationDate": "2025-03-29",
     "year": 2025,
-    "venue": "",
+    "venue": "De Gruyter eBooks",
     "citations": 1,
     "topics": [
       "Hybrid Renewable Energy Systems",
