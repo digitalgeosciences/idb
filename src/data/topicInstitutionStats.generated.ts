@@ -19,7 +19,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 32,
+    "publications": 33,
     "citations": 369
   },
   {
@@ -125,6 +125,12 @@ export const topicStats: TopicStats[] = [
     "citations": 5
   },
   {
+    "id": "https://openalex.org/T11007",
+    "name": "Hybrid Renewable Energy Systems",
+    "publications": 2,
+    "citations": 1
+  },
+  {
     "id": "https://openalex.org/T11588",
     "name": "Atmospheric and Environmental Gas Dynamics",
     "publications": 2,
@@ -209,12 +215,6 @@ export const topicStats: TopicStats[] = [
     "citations": 3
   },
   {
-    "id": "https://openalex.org/T11007",
-    "name": "Hybrid Renewable Energy Systems",
-    "publications": 1,
-    "citations": 1
-  },
-  {
     "id": "https://openalex.org/T13465",
     "name": "Graphite, nuclear technology, radiation studies",
     "publications": 1,
@@ -253,18 +253,6 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T14427",
     "name": "Environmental Monitoring and Data Management",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10967",
-    "name": "Carbon Dioxide Capture Technologies",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T11802",
-    "name": "Chemical Looping and Thermochemical Processes",
     "publications": 1,
     "citations": 0
   },

@@ -1770,12 +1770,12 @@ export const worksTable: WorkTableRecord[] = [
     "title": "In-Situ Hydrogen Generation from Iron-Rich Sandstone During CO2 Injection: A Novel Pathway for Low-Carbon Hydrogen Production",
     "publicationDate": "2026-05-18",
     "year": 2026,
-    "venue": "",
+    "venue": "SPE Conference at Oman Petroleum & Energy Show",
     "citations": 0,
     "topics": [
       "CO2 Sequestration and Geologic Interactions",
-      "Carbon Dioxide Capture Technologies",
-      "Chemical Looping and Thermochemical Processes"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Hybrid Renewable Energy Systems"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
