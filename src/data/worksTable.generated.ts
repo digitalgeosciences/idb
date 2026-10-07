@@ -55,8 +55,8 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Marine and Petroleum Geology",
     "citations": 34,
     "topics": [
+      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
-      "Paleontology and Stratigraphy of Fossils",
       "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
@@ -97,9 +97,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Marine and Petroleum Geology",
     "citations": 29,
     "topics": [
-      "Geophysical and Geoelectrical Methods",
-      "Concrete and Cement Materials Research",
-      "Drilling and Well Engineering"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -137,8 +137,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 39,
     "topics": [
       "NMR spectroscopy and applications",
-      "Advanced Neuroimaging Techniques and Applications",
-      "Advanced NMR Techniques and Applications"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Enhanced Oil Recovery Techniques"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -166,9 +166,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Marine and Petroleum Geology",
     "citations": 34,
     "topics": [
-      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies"
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -200,9 +200,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Marine and Petroleum Geology",
     "citations": 33,
     "topics": [
-      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis"
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -235,8 +235,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 28,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -272,7 +272,7 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
-      "Seismic Imaging and Inversion Techniques"
+      "Enhanced Oil Recovery Techniques"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -305,7 +305,7 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 23,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
+      "Geological formations and processes",
       "Enhanced Oil Recovery Techniques"
     ],
     "institutions": [
@@ -337,8 +337,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 21,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Geological and Geophysical Studies"
+      "Geological formations and processes",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -370,7 +370,7 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis"
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -407,8 +407,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 16,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils"
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -441,9 +441,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Scientific Reports",
     "citations": 11,
     "topics": [
-      "Paleontology and Stratigraphy of Fossils",
+      "Geological formations and processes",
       "Geochemistry and Elemental Analysis",
-      "Iron oxide chemistry and applications"
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -487,8 +487,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 10,
     "topics": [
       "Geological and Geochemical Analysis",
-      "Geochemistry and Geologic Mapping",
-      "High-pressure geophysics and materials"
+      "Geological and Geophysical Studies",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -528,8 +528,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 23,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "NMR spectroscopy and applications"
+      "Enhanced Oil Recovery Techniques",
+      "Seismic Imaging and Inversion Techniques"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -559,9 +559,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Arabian Journal of Geosciences",
     "citations": 18,
     "topics": [
+      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies",
-      "Methane Hydrates and Related Phenomena"
+      "Geological Studies and Exploration"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -595,8 +595,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 10,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Coal Properties and Utilization"
+      "Enhanced Oil Recovery Techniques",
+      "Clay minerals and soil interactions"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -626,7 +626,7 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Geologic Mapping",
-      "Hydraulic Fracturing and Reservoir Analysis"
+      "Drilling and Well Engineering"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -654,8 +654,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "International Journal of Earth Sciences",
     "citations": 14,
     "topics": [
-      "Hydrology and Sediment Transport Processes",
-      "Hydrology and Watershed Management Studies"
+      "Geological formations and processes",
+      "Geological Modeling and Analysis",
+      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -689,8 +690,8 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Natural Resources Research",
     "citations": 12,
     "topics": [
-      "Seismic Imaging and Inversion Techniques",
       "Hydrocarbon exploration and reservoir analysis",
+      "Seismic Imaging and Inversion Techniques",
       "Geological formations and processes"
     ],
     "institutions": [
@@ -718,8 +719,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 11,
     "topics": [
       "Geological formations and processes",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -752,8 +753,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 10,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "NMR spectroscopy and applications"
+      "Geological formations and processes",
+      "Geological Studies and Exploration"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -784,8 +785,8 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Sedimentary Geology",
     "citations": 8,
     "topics": [
-      "Paleontology and Stratigraphy of Fossils",
       "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils",
       "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
@@ -825,8 +826,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 8,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Geological and Geochemical Analysis"
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -870,8 +871,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 7,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Geologic Mapping",
-      "Petroleum Processing and Analysis"
+      "Geochemistry and Elemental Analysis",
+      "Geological Studies and Exploration"
     ],
     "institutions": [
       "Taiz University",
@@ -921,9 +922,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Minerals",
     "citations": 7,
     "topics": [
-      "Geology and Paleoclimatology Research",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis"
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis",
+      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "Kazan Federal University",
@@ -964,8 +965,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 6,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Drilling and Well Engineering"
+      "Rock Mechanics and Modeling",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -999,8 +1000,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 5,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
-      "Geological and Geophysical Studies",
-      "Geology and Paleoclimatology Research"
+      "Geology and Paleoclimatology Research",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1031,8 +1032,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 4,
     "topics": [
       "Geochemistry and Elemental Analysis",
-      "Radioactive element chemistry and processing",
-      "Paleontology and Stratigraphy of Fossils"
+      "Geological formations and processes",
+      "Geological and Geochemical Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1067,7 +1068,7 @@ export const worksTable: WorkTableRecord[] = [
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Paleontology and Stratigraphy of Fossils",
-      "Geological formations and processes"
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1112,8 +1113,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 3,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Geological and Geophysical Studies Worldwide"
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "Sultan Qaboos University",
@@ -1147,9 +1148,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "De Gruyter eBooks",
     "citations": 1,
     "topics": [
-      "Hybrid Renewable Energy Systems",
-      "Radioactive element chemistry and processing",
-      "Graphite, nuclear technology, radiation studies"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological Studies and Exploration",
+      "Methane Hydrates and Related Phenomena"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1177,9 +1178,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "EGU General Assembly Conference Abstracts",
     "citations": 1,
     "topics": [
-      "Geochemistry and Geologic Mapping",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Methane Hydrates and Related Phenomena"
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Geologic Mapping"
     ],
     "institutions": []
   },
@@ -1207,9 +1208,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Proceedings",
     "citations": 0,
     "topics": [
-      "Methane Hydrates and Related Phenomena",
       "Hydrocarbon exploration and reservoir analysis",
-      "Atmospheric and Environmental Gas Dynamics"
+      "Geological formations and processes",
+      "Geological Studies and Exploration"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1234,8 +1235,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geological and Geophysical Studies",
-      "Methane Hydrates and Related Phenomena"
+      "Geological formations and processes",
+      "Geological Studies and Exploration"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1266,8 +1267,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Reservoir Engineering and Simulation Methods"
+      "Geological formations and processes",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": []
   },
@@ -1304,7 +1305,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Abstracts with programs - Geological Society of America",
     "citations": 0,
     "topics": [
-      "Geochemistry and Geologic Mapping"
+      "Paleontology and Stratigraphy of Fossils",
+      "Geology and Paleoclimatology Research",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1334,7 +1337,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "SSRN Electronic Journal",
     "citations": 0,
     "topics": [
-      "Fish Biology and Ecology Studies"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1368,9 +1373,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "",
     "citations": 0,
     "topics": [
+      "Paleontology and Stratigraphy of Fossils",
       "Paleontology and Evolutionary Biology",
-      "Ichthyology and Marine Biology",
-      "Geological and Geophysical Studies"
+      "Evolution and Paleontology Studies"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1404,8 +1409,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Hydraulic Fracturing and Reservoir Analysis",
-      "Drilling and Well Engineering"
+      "Rock Mechanics and Modeling",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1439,9 +1444,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Stratigraphy",
     "citations": 0,
     "topics": [
-      "Ichthyology and Marine Biology",
+      "Paleontology and Stratigraphy of Fossils",
       "Paleontology and Evolutionary Biology",
-      "Fish Biology and Ecology Studies"
+      "Evolution and Paleontology Studies"
     ],
     "institutions": []
   },
@@ -1481,9 +1486,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Preprints.org",
     "citations": 0,
     "topics": [
-      "Geology and Paleoclimatology Research",
+      "Paleontology and Stratigraphy of Fossils",
       "Geochemistry and Elemental Analysis",
-      "Paleontology and Stratigraphy of Fossils"
+      "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
       "Kazan Federal University",
@@ -1530,7 +1535,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "",
     "citations": 0,
     "topics": [
-      "Atmospheric and Environmental Gas Dynamics"
+      "Hydrocarbon exploration and reservoir analysis",
+      "CO2 Sequestration and Geologic Interactions",
+      "Geochemistry and Geologic Mapping"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1561,9 +1568,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Research Square",
     "citations": 0,
     "topics": [
-      "Aeolian processes and effects",
-      "Landslides and related hazards",
-      "Hydrology and Sediment Transport Processes"
+      "Geotechnical Engineering and Soil Mechanics",
+      "Granular flow and fluidized beds",
+      "Aeolian processes and effects"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1595,9 +1602,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Scientific Reports",
     "citations": 0,
     "topics": [
-      "Aeolian processes and effects",
-      "Soil erosion and sediment transport",
-      "Hydrology and Sediment Transport Processes"
+      "Geotechnical Engineering and Soil Mechanics",
+      "Granular flow and fluidized beds",
+      "Aeolian processes and effects"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1620,7 +1627,11 @@ export const worksTable: WorkTableRecord[] = [
     "year": 2025,
     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
     "citations": 0,
-    "topics": [],
+    "topics": [
+      "Research Data Management Practices",
+      "Scientific Computing and Data Management",
+      "Geographic Information Systems Studies"
+    ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
     ]
@@ -1642,7 +1653,11 @@ export const worksTable: WorkTableRecord[] = [
     "year": 2025,
     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
     "citations": 0,
-    "topics": [],
+    "topics": [
+      "Geology and Environmental Impact Studies",
+      "Geotourism and Geoheritage Conservation",
+      "Research, Science, and Academia"
+    ],
     "institutions": []
   },
   {
@@ -1664,8 +1679,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Geological Modeling and Analysis",
-      "Scientific Computing and Data Management",
-      "Environmental Monitoring and Data Management"
+      "Environmental Monitoring and Data Management",
+      "Research Data Management Practices"
     ],
     "institutions": []
   },
@@ -1686,7 +1701,11 @@ export const worksTable: WorkTableRecord[] = [
     "year": 2025,
     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
     "citations": 0,
-    "topics": [],
+    "topics": [
+      "scientometrics and bibliometrics research",
+      "Data Visualization and Analytics",
+      "Web visibility and informetrics"
+    ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
     ]
@@ -1713,9 +1732,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "arXiv (Cornell University)",
     "citations": 0,
     "topics": [
-      "Seismic Imaging and Inversion Techniques",
       "Enhanced Oil Recovery Techniques",
-      "Hydrocarbon exploration and reservoir analysis"
+      "Geological Modeling and Analysis",
+      "Advanced Mathematical Modeling in Engineering"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1743,9 +1762,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "arXiv (Cornell University)",
     "citations": 0,
     "topics": [
-      "Seismic Imaging and Inversion Techniques",
       "Enhanced Oil Recovery Techniques",
-      "Hydrocarbon exploration and reservoir analysis"
+      "Geological Modeling and Analysis",
+      "Advanced Mathematical Modeling in Engineering"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1805,9 +1824,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "arXiv (Cornell University)",
     "citations": 0,
     "topics": [
+      "Composite Material Mechanics",
       "Geotechnical Engineering and Soil Mechanics",
-      "Geophysical and Geoelectrical Methods",
-      "Composite Material Mechanics"
+      "Advanced Mathematical Modeling in Engineering"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1844,7 +1863,7 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "CO2 Sequestration and Geologic Interactions",
-      "Paleontology and Stratigraphy of Fossils",
+      "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis"
     ],
     "institutions": [
@@ -1874,9 +1893,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Mathematical Geosciences",
     "citations": 0,
     "topics": [
-      "Seismic Imaging and Inversion Techniques",
-      "Medical Imaging Techniques and Applications",
-      "Advanced X-ray and CT Imaging"
+      "Enhanced Oil Recovery Techniques",
+      "Advanced Mathematical Modeling in Engineering",
+      "Geological Modeling and Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
@@ -1901,9 +1920,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
     "citations": 0,
     "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis",
-      "Geological formations and processes"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Geological Studies and Exploration"
     ],
     "institutions": []
   },
@@ -1925,9 +1944,9 @@ export const worksTable: WorkTableRecord[] = [
     "venue": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
     "citations": 0,
     "topics": [
-      "Paleontology and Stratigraphy of Fossils",
       "CO2 Sequestration and Geologic Interactions",
-      "Hydrocarbon exploration and reservoir analysis"
+      "Hydrocarbon exploration and reservoir analysis",
+      "Enhanced Oil Recovery Techniques"
     ],
     "institutions": []
   },
@@ -1962,8 +1981,44 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Electrocatalysts for Energy Conversion",
-      "Ammonia Synthesis and Nitrogen Reduction",
-      "Advanced Photocatalysis Techniques"
+      "CO2 Reduction Techniques and Catalysts",
+      "Fuel Cells and Related Materials"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W7220382037",
+    "doi": "https://doi.org/10.1306/09012624130",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5136137359",
+      "A5059738250",
+      "A5014657720",
+      "A5051302005",
+      "A5085007251"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Ahmed Fatah",
+      "Ahmed Zarzor Al-Yaseri",
+      "Abdulwahab Muhammad Bello",
+      "Adhipa Herlambang",
+      "Khalid A. Al-Ramadan"
+    ],
+    "title": "Evaluating Microscale Heterogeneity in Upper Triassic Sandstones Under Supercritical CO₂–Brine Exposure: A 4D Perspective",
+    "publicationDate": "2026-09-30",
+    "year": 2026,
+    "venue": "AAPG Bulletin",
+    "citations": 0,
+    "topics": [
+      "CO2 Sequestration and Geologic Interactions",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Enhanced Oil Recovery Techniques"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"

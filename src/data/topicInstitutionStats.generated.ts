@@ -19,128 +19,98 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 33,
-    "citations": 369
+    "publications": 39,
+    "citations": 451
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
-    "publications": 12,
-    "citations": 174
-  },
-  {
-    "id": "https://openalex.org/T10635",
-    "name": "Hydraulic Fracturing and Reservoir Analysis",
-    "publications": 12,
-    "citations": 158
-  },
-  {
-    "id": "https://openalex.org/T10109",
-    "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 11,
-    "citations": 81
+    "publications": 30,
+    "citations": 347
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
-    "publications": 7,
-    "citations": 89
+    "publications": 15,
+    "citations": 181
   },
   {
-    "id": "https://openalex.org/T13177",
-    "name": "Geological and Geophysical Studies",
-    "publications": 6,
-    "citations": 78
-  },
-  {
-    "id": "https://openalex.org/T10271",
-    "name": "Seismic Imaging and Inversion Techniques",
-    "publications": 5,
-    "citations": 39
-  },
-  {
-    "id": "https://openalex.org/T12157",
-    "name": "Geochemistry and Geologic Mapping",
-    "publications": 5,
-    "citations": 26
-  },
-  {
-    "id": "https://openalex.org/T12603",
-    "name": "NMR spectroscopy and applications",
-    "publications": 4,
-    "citations": 99
-  },
-  {
-    "id": "https://openalex.org/T10995",
-    "name": "Methane Hydrates and Related Phenomena",
-    "publications": 4,
-    "citations": 19
-  },
-  {
-    "id": "https://openalex.org/T10892",
-    "name": "Drilling and Well Engineering",
-    "publications": 3,
-    "citations": 35
+    "id": "https://openalex.org/T10109",
+    "name": "Paleontology and Stratigraphy of Fossils",
+    "publications": 15,
+    "citations": 131
   },
   {
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
-    "publications": 3,
-    "citations": 23
+    "publications": 10,
+    "citations": 122
   },
   {
-    "id": "https://openalex.org/T10577",
-    "name": "Hydrology and Sediment Transport Processes",
-    "publications": 3,
+    "id": "https://openalex.org/T13193",
+    "name": "Geological Studies and Exploration",
+    "publications": 7,
+    "citations": 36
+  },
+  {
+    "id": "https://openalex.org/T13067",
+    "name": "Geological Modeling and Analysis",
+    "publications": 5,
     "citations": 14
-  },
-  {
-    "id": "https://openalex.org/T10017",
-    "name": "Geology and Paleoclimatology Research",
-    "publications": 3,
-    "citations": 12
   },
   {
     "id": "https://openalex.org/T11302",
     "name": "CO2 Sequestration and Geologic Interactions",
+    "publications": 5,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12100",
+    "name": "Advanced Mathematical Modeling in Engineering",
+    "publications": 4,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12157",
+    "name": "Geochemistry and Geologic Mapping",
+    "publications": 3,
+    "citations": 9
+  },
+  {
+    "id": "https://openalex.org/T10233",
+    "name": "Geotechnical Engineering and Soil Mechanics",
     "publications": 3,
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10572",
-    "name": "Geophysical and Geoelectrical Methods",
+    "id": "https://openalex.org/T12603",
+    "name": "NMR spectroscopy and applications",
     "publications": 2,
-    "citations": 29
+    "citations": 66
+  },
+  {
+    "id": "https://openalex.org/T10271",
+    "name": "Seismic Imaging and Inversion Techniques",
+    "publications": 2,
+    "citations": 35
   },
   {
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
-    "citations": 18
+    "citations": 14
   },
   {
-    "id": "https://openalex.org/T10973",
-    "name": "Radioactive element chemistry and processing",
+    "id": "https://openalex.org/T10161",
+    "name": "Rock Mechanics and Modeling",
+    "publications": 2,
+    "citations": 6
+  },
+  {
+    "id": "https://openalex.org/T10017",
+    "name": "Geology and Paleoclimatology Research",
     "publications": 2,
     "citations": 5
-  },
-  {
-    "id": "https://openalex.org/T11007",
-    "name": "Hybrid Renewable Energy Systems",
-    "publications": 2,
-    "citations": 1
-  },
-  {
-    "id": "https://openalex.org/T11588",
-    "name": "Atmospheric and Environmental Gas Dynamics",
-    "publications": 2,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T12319",
-    "name": "Fish Biology and Ecology Studies",
-    "publications": 2,
-    "citations": 0
   },
   {
     "id": "https://openalex.org/T10955",
@@ -149,8 +119,14 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T11387",
-    "name": "Ichthyology and Marine Biology",
+    "id": "https://openalex.org/T11354",
+    "name": "Evolution and Paleontology Studies",
+    "publications": 2,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10615",
+    "name": "Granular flow and fluidized beds",
     "publications": 2,
     "citations": 0
   },
@@ -161,92 +137,62 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T11304",
-    "name": "Advanced Neuroimaging Techniques and Applications",
-    "publications": 1,
-    "citations": 39
+    "id": "https://openalex.org/T11937",
+    "name": "Research Data Management Practices",
+    "publications": 2,
+    "citations": 0
   },
   {
-    "id": "https://openalex.org/T11809",
-    "name": "Advanced NMR Techniques and Applications",
-    "publications": 1,
-    "citations": 39
-  },
-  {
-    "id": "https://openalex.org/T10033",
-    "name": "Concrete and Cement Materials Research",
-    "publications": 1,
-    "citations": 29
-  },
-  {
-    "id": "https://openalex.org/T10330",
-    "name": "Hydrology and Watershed Management Studies",
-    "publications": 1,
-    "citations": 14
-  },
-  {
-    "id": "https://openalex.org/T11877",
-    "name": "Iron oxide chemistry and applications",
-    "publications": 1,
-    "citations": 11
-  },
-  {
-    "id": "https://openalex.org/T10413",
-    "name": "High-pressure geophysics and materials",
+    "id": "https://openalex.org/T13177",
+    "name": "Geological and Geophysical Studies",
     "publications": 1,
     "citations": 10
   },
   {
-    "id": "https://openalex.org/T11284",
-    "name": "Coal Properties and Utilization",
+    "id": "https://openalex.org/T11852",
+    "name": "Clay minerals and soil interactions",
     "publications": 1,
     "citations": 10
   },
   {
-    "id": "https://openalex.org/T11630",
-    "name": "Petroleum Processing and Analysis",
+    "id": "https://openalex.org/T10892",
+    "name": "Drilling and Well Engineering",
     "publications": 1,
-    "citations": 7
+    "citations": 8
   },
   {
-    "id": "https://openalex.org/T13205",
-    "name": "Geological and Geophysical Studies Worldwide",
-    "publications": 1,
-    "citations": 3
-  },
-  {
-    "id": "https://openalex.org/T13465",
-    "name": "Graphite, nuclear technology, radiation studies",
+    "id": "https://openalex.org/T10995",
+    "name": "Methane Hydrates and Related Phenomena",
     "publications": 1,
     "citations": 1
   },
   {
-    "id": "https://openalex.org/T11801",
-    "name": "Reservoir Engineering and Simulation Methods",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10535",
-    "name": "Landslides and related hazards",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10889",
-    "name": "Soil erosion and sediment transport",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T13067",
-    "name": "Geological Modeling and Analysis",
-    "publications": 1,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T11986",
     "name": "Scientific Computing and Data Management",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10757",
+    "name": "Geographic Information Systems Studies",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T13021",
+    "name": "Geology and Environmental Impact Studies",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12456",
+    "name": "Geotourism and Geoheritage Conservation",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T14185",
+    "name": "Research, Science, and Academia",
     "publications": 1,
     "citations": 0
   },
@@ -257,8 +203,26 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10233",
-    "name": "Geotechnical Engineering and Soil Mechanics",
+    "id": "https://openalex.org/T10102",
+    "name": "scientometrics and bibliometrics research",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T10799",
+    "name": "Data Visualization and Analytics",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T13976",
+    "name": "Web visibility and informetrics",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T11007",
+    "name": "Hybrid Renewable Energy Systems",
     "publications": 1,
     "citations": 0
   },
@@ -269,32 +233,20 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10522",
-    "name": "Medical Imaging Techniques and Applications",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T12386",
-    "name": "Advanced X-ray and CT Imaging",
-    "publications": 1,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T10030",
     "name": "Electrocatalysts for Energy Conversion",
     "publications": 1,
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T12112",
-    "name": "Ammonia Synthesis and Nitrogen Reduction",
+    "id": "https://openalex.org/T11784",
+    "name": "CO2 Reduction Techniques and Catalysts",
     "publications": 1,
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10078",
-    "name": "Advanced Photocatalysis Techniques",
+    "id": "https://openalex.org/T10409",
+    "name": "Fuel Cells and Related Materials",
     "publications": 1,
     "citations": 0
   }
@@ -304,7 +256,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 50,
+    "publications": 51,
     "citations": 481
   },
   {
