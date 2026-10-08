@@ -20,7 +20,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 39,
-    "citations": 451
+    "citations": 452
   },
   {
     "id": "https://openalex.org/T10965",
@@ -32,13 +32,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 15,
-    "citations": 181
+    "citations": 182
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 15,
-    "citations": 131
+    "citations": 132
   },
   {
     "id": "https://openalex.org/T10491",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 51,
-    "citations": 481
+    "citations": 482
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -266,22 +266,22 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 25
   },
   {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 3,
-    "citations": 14
-  },
-  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 3,
-    "citations": 14
+    "citations": 15
   },
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
     "publications": 3,
-    "citations": 14
+    "citations": 15
+  },
+  {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 3,
+    "citations": 15
   },
   {
     "id": "https://openalex.org/I86519309",
@@ -317,25 +317,25 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I21203515",
     "name": "Kazan Federal University",
     "publications": 2,
-    "citations": 7
+    "citations": 8
   },
   {
     "id": "https://openalex.org/I98210582",
     "name": "Rajiv Gandhi Institute of Petroleum Technology",
     "publications": 2,
-    "citations": 7
+    "citations": 8
   },
   {
     "id": "https://openalex.org/I4576418",
     "name": "University of Technology Malaysia",
     "publications": 2,
-    "citations": 7
+    "citations": 8
   },
   {
     "id": "https://openalex.org/I4387154749",
     "name": "University of Poonch Rawalakot",
     "publications": 2,
-    "citations": 7
+    "citations": 8
   },
   {
     "id": "https://openalex.org/I162577319",
