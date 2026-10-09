@@ -19,26 +19,26 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 39,
-    "citations": 452
+    "publications": 38,
+    "citations": 450
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 30,
-    "citations": 347
+    "citations": 343
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
-    "publications": 15,
-    "citations": 182
+    "publications": 14,
+    "citations": 179
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 15,
-    "citations": 132
+    "publications": 14,
+    "citations": 131
   },
   {
     "id": "https://openalex.org/T10491",
@@ -77,12 +77,6 @@ export const topicStats: TopicStats[] = [
     "citations": 9
   },
   {
-    "id": "https://openalex.org/T10233",
-    "name": "Geotechnical Engineering and Soil Mechanics",
-    "publications": 3,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 2,
@@ -98,7 +92,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
-    "citations": 14
+    "citations": 13
   },
   {
     "id": "https://openalex.org/T10161",
@@ -110,7 +104,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10017",
     "name": "Geology and Paleoclimatology Research",
     "publications": 2,
-    "citations": 5
+    "citations": 4
   },
   {
     "id": "https://openalex.org/T10955",
@@ -125,14 +119,8 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10615",
-    "name": "Granular flow and fluidized beds",
-    "publications": 2,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T12383",
-    "name": "Aeolian processes and effects",
+    "id": "https://openalex.org/T10233",
+    "name": "Geotechnical Engineering and Soil Mechanics",
     "publications": 2,
     "citations": 0
   },
@@ -165,6 +153,18 @@ export const topicStats: TopicStats[] = [
     "name": "Methane Hydrates and Related Phenomena",
     "publications": 1,
     "citations": 1
+  },
+  {
+    "id": "https://openalex.org/T10615",
+    "name": "Granular flow and fluidized beds",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12383",
+    "name": "Aeolian processes and effects",
+    "publications": 1,
+    "citations": 0
   },
   {
     "id": "https://openalex.org/T11986",
@@ -256,8 +256,8 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 51,
-    "citations": 482
+    "publications": 49,
+    "citations": 478
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -266,76 +266,52 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 25
   },
   {
-    "id": "https://openalex.org/I33849332",
-    "name": "University of Malaya",
-    "publications": 3,
-    "citations": 15
-  },
-  {
-    "id": "https://openalex.org/I28022161",
-    "name": "King Saud University",
-    "publications": 3,
-    "citations": 15
-  },
-  {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 3,
-    "citations": 15
-  },
-  {
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 45
+    "citations": 44
   },
   {
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
-    "citations": 41
+    "citations": 40
   },
   {
     "id": "https://openalex.org/I47818738",
     "name": "Sultan Qaboos University",
     "publications": 2,
-    "citations": 37
+    "citations": 36
   },
   {
     "id": "https://openalex.org/I188973947",
     "name": "Novosibirsk State University",
     "publications": 2,
-    "citations": 37
+    "citations": 36
   },
   {
     "id": "https://openalex.org/I194028371",
     "name": "University of Regina",
     "publications": 2,
-    "citations": 37
+    "citations": 36
   },
   {
-    "id": "https://openalex.org/I21203515",
-    "name": "Kazan Federal University",
+    "id": "https://openalex.org/I33849332",
+    "name": "University of Malaya",
     "publications": 2,
-    "citations": 8
+    "citations": 15
   },
   {
-    "id": "https://openalex.org/I98210582",
-    "name": "Rajiv Gandhi Institute of Petroleum Technology",
+    "id": "https://openalex.org/I28022161",
+    "name": "King Saud University",
     "publications": 2,
-    "citations": 8
+    "citations": 15
   },
   {
-    "id": "https://openalex.org/I4576418",
-    "name": "University of Technology Malaysia",
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
     "publications": 2,
-    "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I4387154749",
-    "name": "University of Poonch Rawalakot",
-    "publications": 2,
-    "citations": 8
+    "citations": 15
   },
   {
     "id": "https://openalex.org/I162577319",
@@ -378,6 +354,30 @@ export const institutionStats: InstitutionStats[] = [
     "name": "Aswan University",
     "publications": 1,
     "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I21203515",
+    "name": "Kazan Federal University",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I98210582",
+    "name": "Rajiv Gandhi Institute of Petroleum Technology",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I4576418",
+    "name": "University of Technology Malaysia",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I4387154749",
+    "name": "University of Poonch Rawalakot",
+    "publications": 1,
+    "citations": 8
   },
   {
     "id": "https://openalex.org/I36197038",

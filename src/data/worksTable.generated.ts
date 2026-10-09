@@ -53,7 +53,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-11-22",
     "year": 2023,
     "venue": "Marine and Petroleum Geology",
-    "citations": 34,
+    "citations": 33,
     "topics": [
       "Geological formations and processes",
       "Hydrocarbon exploration and reservoir analysis",
@@ -95,7 +95,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-10-26",
     "year": 2023,
     "venue": "Marine and Petroleum Geology",
-    "citations": 29,
+    "citations": 28,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Elemental Analysis",
@@ -997,7 +997,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-11-20",
     "year": 2022,
     "venue": "International Journal of Earth Sciences",
-    "citations": 5,
+    "citations": 4,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
       "Geology and Paleoclimatology Research",
@@ -1029,7 +1029,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-08-20",
     "year": 2021,
     "venue": "Arabian Journal for Science and Engineering",
-    "citations": 4,
+    "citations": 3,
     "topics": [
       "Geochemistry and Elemental Analysis",
       "Geological formations and processes",
@@ -1451,57 +1451,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": []
   },
   {
-    "workId": "https://openalex.org/W4388960641",
-    "doi": "https://doi.org/10.20944/preprints202311.1550.v1",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029716563",
-      "A5043354798",
-      "A5022797343",
-      "A5044055562",
-      "A5102858778",
-      "A5006452421",
-      "A5023467994",
-      "A5061703841",
-      "A5037236117"
-    ],
-    "firstAuthorLastName": "Hakimi",
-    "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Alok Kumar",
-      "Abdullah Alqubalee",
-      "Alok Kumar Singh",
-      "Mohammed A. Almobarky",
-      "Afikah Rahim",
-      "Mohammad Alqudah",
-      "Aref Lashin",
-      "Khairul Azlan Mustapha",
-      "Waqas Naseem"
-    ],
-    "title": "Mineralogy and Geochemistry of the Paleocene-Eocene Palana Formation in Western Rajasthan, India: Insights for Sedimentary Paleoenvironmental Conations and Volcanic Activity",
-    "publicationDate": "2023-11-24",
-    "year": 2023,
-    "venue": "Preprints.org",
-    "citations": 0,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
-    ],
-    "institutions": [
-      "Kazan Federal University",
-      "University of Malaya",
-      "King Fahd University of Petroleum and Minerals",
-      "Rajiv Gandhi Institute of Petroleum Technology",
-      "King Saud University",
-      "University of Technology Malaysia",
-      "Yarmouk University",
-      "University of Poonch Rawalakot"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4392600402",
     "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
     "program": "",
@@ -1538,39 +1487,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "CO2 Sequestration and Geologic Interactions",
       "Geochemistry and Geologic Mapping"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4409556117",
-    "doi": "https://doi.org/10.21203/rs.3.rs-6244542/v1",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5000180362",
-      "A5011378626",
-      "A5054922583"
-    ],
-    "firstAuthorLastName": "Marroquin",
-    "allAuthors": [
-      "Fernando Alonso Marroquin",
-      "Sarmad Zafar Khan",
-      "Abdullah Alqubalee",
-      "Péter Móra",
-      "Abdullatif Abdulrahman Al-Shuhail"
-    ],
-    "title": "Contact morphology of sand particles in dunes",
-    "publicationDate": "2025-04-17",
-    "year": 2025,
-    "venue": "Research Square",
-    "citations": 0,
-    "topics": [
-      "Geotechnical Engineering and Soil Mechanics",
-      "Granular flow and fluidized beds",
-      "Aeolian processes and effects"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
