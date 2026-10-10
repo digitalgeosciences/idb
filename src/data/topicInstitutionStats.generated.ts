@@ -203,24 +203,6 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T10102",
-    "name": "scientometrics and bibliometrics research",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T10799",
-    "name": "Data Visualization and Analytics",
-    "publications": 1,
-    "citations": 0
-  },
-  {
-    "id": "https://openalex.org/T13976",
-    "name": "Web visibility and informetrics",
-    "publications": 1,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T11007",
     "name": "Hybrid Renewable Energy Systems",
     "publications": 1,
@@ -256,7 +238,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 49,
+    "publications": 48,
     "citations": 478
   },
   {
