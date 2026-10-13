@@ -465,7 +465,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5075689314",
       "A5068582901",
       "A5112600754",
-      "A5089449027"
+      "A5064790520"
     ],
     "firstAuthorLastName": "Whattam",
     "allAuthors": [
@@ -478,7 +478,7 @@ export const worksTable: WorkTableRecord[] = [
       "Fatemeh Nouri",
       "Brian R. Jicha",
       "Yanick Brice Lemdjou",
-      "Abdelhamid El Fakharani"
+      "Abdelhamid El-Fakharani"
     ],
     "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
     "publicationDate": "2024-05-21",
@@ -1768,7 +1768,7 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5139746082",
+      "A5068641652",
       "A5022893471"
     ],
     "firstAuthorLastName": "Alonso-Marroquín",
