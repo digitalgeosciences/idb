@@ -577,6 +577,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5014177485",
       "A5049649985",
       "A5080526944",
+      "A5064720324",
       "A5005252413"
     ],
     "firstAuthorLastName": "Afagwu",
@@ -585,7 +586,7 @@ export const worksTable: WorkTableRecord[] = [
       "Mohamed Mahmoud",
       "Saad Alafnan",
       "Abdullah Alqubalee",
-      "Ammar ElHusseiny",
+      "Ammar El‐Husseiny",
       "Shirish L. Patil"
     ],
     "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
@@ -820,13 +821,14 @@ export const worksTable: WorkTableRecord[] = [
       "A5035537771",
       "A5074504776",
       "A5040857714",
+      "A5064720324",
       "A5035815399"
     ],
     "firstAuthorLastName": "Syahputra",
     "allAuthors": [
       "M. Rika Nanda Syahputra",
       "Hassan A. Eltom",
-      "Ammar El-Husseiny",
+      "Ammar El‐Husseiny",
       "Michael A. Kaminski",
       "Abdullah Alqubalee"
     ],
@@ -947,6 +949,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5004157772",
       "A5080643603",
       "A5082826691",
+      "A5064720324",
       "A5008057862"
     ],
     "firstAuthorLastName": "Albensaad",
@@ -955,7 +958,7 @@ export const worksTable: WorkTableRecord[] = [
       "Septriandi A. Chan",
       "JOHN D. HUMPHREY",
       "Abdullah Alqubalee",
-      "Ammar El-Husseiny",
+      "Ammar El‐Husseiny",
       "Yaser Alzayer"
     ],
     "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
@@ -1391,6 +1394,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5004157772",
       "A5080643603",
       "A5082826691",
+      "A5064720324",
       "A5008057862"
     ],
     "firstAuthorLastName": "Albensaad",
@@ -1399,7 +1403,7 @@ export const worksTable: WorkTableRecord[] = [
       "Septriandi A. Chan",
       "JOHN D. HUMPHREY",
       "Abdullah Alqubalee",
-      "Ammar El-Husseiny",
+      "Ammar El‐Husseiny",
       "Yaser Alzayer"
     ],
     "title": "Controls on Mechanical Properties of Carbonate Mudstone: Insights from Non-Destructive Techniques and Geochemical Data",
@@ -1733,7 +1737,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5051302005",
       "A5129043439",
       "A5059881838",
-      "A5146407060",
+      "A5088735262",
       "A5085007251"
     ],
     "firstAuthorLastName": "Alqubalee",
@@ -1743,7 +1747,7 @@ export const worksTable: WorkTableRecord[] = [
       "Adhipa Herlambang",
       "John Humphrey",
       "Ardiansyah Koeshidayatullah",
-      "Kevin Taylor",
+      "Kevin G. Taylor",
       "Khalid A. Al-Ramadan"
     ],
     "title": "Fluvial Heterogeneity of Upper Triassic Strata in Central Saudi Arabia: Enhancing CO₂ Storage Strategies",
