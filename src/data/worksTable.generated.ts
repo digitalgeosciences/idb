@@ -525,7 +525,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2019-11-12",
     "year": 2019,
     "venue": "Energies",
-    "citations": 23,
+    "citations": 24,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Enhanced Oil Recovery Techniques",
