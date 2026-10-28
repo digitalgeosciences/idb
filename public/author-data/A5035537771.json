@@ -1227,8 +1227,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 82,
@@ -1383,6 +1383,7 @@
             "jufo-1",
             "ki-jl-1",
             "norway-1",
+            "oarl",
             "poland-70",
             "russia-white-list-1",
             "vabb-shw"
@@ -1768,13 +1769,13 @@
         "currency": "USD",
         "value_usd": 750
       },
-      "fwci": 2.7486,
+      "fwci": 2.6575,
       "has_fulltext": false,
       "cited_by_count": 39,
       "citation_normalized_percentile": {
-        "value": 0.90363548,
+        "value": 0.89859283,
         "is_in_top_1_percent": false,
-        "is_in_top_10_percent": true
+        "is_in_top_10_percent": false
       },
       "cited_by_percentile_year": {
         "min": 88,
@@ -2025,6 +2026,7 @@
               "jufo-1",
               "ki-jl-1",
               "norway-1",
+              "oarl",
               "poland-70",
               "russia-white-list-1",
               "vabb-shw"
@@ -2046,6 +2048,37 @@
           "is_published": true,
           "raw_source_name": "ACS Omega",
           "raw_type": "journal-article"
+        },
+        {
+          "id": "pmh:oai:pubmedcentral.nih.gov:7114610",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7114610",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "ACS Omega",
+          "raw_type": "Text"
         },
         {
           "id": "pmid:32258890",
@@ -2077,37 +2110,6 @@
           "is_published": true,
           "raw_source_name": "ACS omega",
           "raw_type": "Journal Article"
-        },
-        {
-          "id": "pmh:oai:pubmedcentral.nih.gov:7114610",
-          "doi": null,
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7114610",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "ACS Omega",
-          "raw_type": "Text"
         },
         {
           "id": "pmh:oai:doaj.org/article:2863d97182844dc8933bd8937e4d34e2",
@@ -2162,6 +2164,7 @@
             "jufo-1",
             "ki-jl-1",
             "norway-1",
+            "oarl",
             "poland-70",
             "russia-white-list-1",
             "vabb-shw"
@@ -2204,8 +2207,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W3012467253.pdf"
@@ -3014,8 +3017,8 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-10-14T16:39:01.820549",
-      "created_date": "2025-10-10T00:00:00"
+      "updated_date": "2026-10-27T15:51:10.671819",
+      "created_date": "2020-03-23T00:00:00"
     },
     {
       "id": "https://openalex.org/W3102597749",
@@ -3588,8 +3591,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -4300,8 +4303,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 90,
@@ -5055,8 +5058,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 68,
@@ -5815,8 +5818,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 86,
@@ -6606,8 +6609,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 64,
@@ -7279,8 +7282,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 34,
@@ -7934,8 +7937,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 39,
@@ -8611,8 +8614,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 68,
@@ -9353,8 +9356,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 67,
@@ -10211,8 +10214,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4387996609.pdf",
@@ -11761,8 +11764,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 73,
@@ -12654,8 +12657,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W2988910414.pdf",
@@ -13936,8 +13939,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 49,
@@ -14752,8 +14755,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 65,
@@ -15348,8 +15351,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 27,
@@ -16632,7 +16635,7 @@
               "id": "https://openalex.org/I4387154749",
               "display_name": "University of Poonch Rawalakot",
               "ror": "https://ror.org/045arbm30",
-              "country_code": null,
+              "country_code": "PK",
               "type": "education",
               "lineage": [
                 "https://openalex.org/I4387154749"
@@ -16666,7 +16669,7 @@
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 5,
+      "countries_distinct_count": 6,
       "institutions_distinct_count": 8,
       "corresponding_author_ids": [
         "https://openalex.org/A5029716563"
@@ -16684,11 +16687,11 @@
         "currency": "CHF",
         "value_usd": 2728
       },
-      "fwci": 2.5709,
+      "fwci": 2.5387,
       "has_fulltext": true,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.88336825,
+        "value": 0.88162277,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -17137,8 +17140,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4391167607.pdf",
@@ -17827,7 +17830,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-10-27T15:51:10.671819",
       "created_date": "2024-01-25T00:00:00"
     },
     {
@@ -18350,8 +18353,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 50,
@@ -19236,8 +19239,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -19744,8 +19747,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 30,
@@ -20946,8 +20949,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 73,
@@ -21684,8 +21687,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 55,
@@ -22582,8 +22585,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 62,
@@ -22804,7 +22807,7 @@
               "id": "https://openalex.org/I4401041618",
               "display_name": "Imam Ja’afar Al-Sadiq University",
               "ror": "https://ror.org/02477a553",
-              "country_code": null,
+              "country_code": "IQ",
               "type": "education",
               "lineage": [
                 "https://openalex.org/I4401041618"
@@ -23149,7 +23152,7 @@
         }
       ],
       "institutions": [],
-      "countries_distinct_count": 6,
+      "countries_distinct_count": 7,
       "institutions_distinct_count": 9,
       "corresponding_author_ids": [
         "https://openalex.org/A5029716563"
@@ -23163,11 +23166,11 @@
         "value_usd": 2800
       },
       "apc_paid": null,
-      "fwci": 0.6096,
+      "fwci": 0.6121,
       "has_fulltext": false,
       "cited_by_count": 7,
       "citation_normalized_percentile": {
-        "value": 0.58874003,
+        "value": 0.58913216,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -23520,8 +23523,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 58,
@@ -23616,8 +23619,8 @@
           "cited_by_count": 2
         }
       ],
-      "updated_date": "2026-10-16T09:59:22.235173",
-      "created_date": "2025-10-10T00:00:00"
+      "updated_date": "2026-10-27T15:51:10.671819",
+      "created_date": "2021-12-31T00:00:00"
     },
     {
       "id": "https://openalex.org/W4390685983",
@@ -24332,8 +24335,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 54,
@@ -25835,8 +25838,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 118,
@@ -26572,8 +26575,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 82,
@@ -27456,8 +27459,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 46,
@@ -29036,8 +29039,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 17,
@@ -29525,8 +29528,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 51,
@@ -30390,7 +30393,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": "EGU General Assembly Conference Abstracts",
           "raw_type": null
         }
@@ -30402,8 +30405,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -31018,8 +31021,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -31893,8 +31896,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -32507,8 +32510,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -33191,8 +33194,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -33757,8 +33760,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -34339,8 +34342,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -35373,8 +35376,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 38,
@@ -35903,8 +35906,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -36965,8 +36968,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -37746,7 +37749,7 @@
       "has_fulltext": true,
       "cited_by_count": 0,
       "citation_normalized_percentile": {
-        "value": 0.15788202,
+        "value": 0.15636416,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -37949,6 +37952,37 @@
           "raw_type": "posted-content"
         },
         {
+          "id": "pmh:oai:pubmedcentral.nih.gov:12365316",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12365316",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Sci Rep",
+          "raw_type": "Text"
+        },
+        {
           "id": "pmid:40830414",
           "doi": null,
           "is_oa": false,
@@ -37978,37 +38012,6 @@
           "is_published": true,
           "raw_source_name": "Scientific reports",
           "raw_type": "Journal Article"
-        },
-        {
-          "id": "pmh:oai:pubmedcentral.nih.gov:12365316",
-          "doi": null,
-          "is_oa": true,
-          "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12365316",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": "cc-by-nc-nd",
-          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": "Sci Rep",
-          "raw_type": "Text"
         },
         {
           "id": "pmh:oai:doaj.org/article:1ceb36bb59b5461e943dcfc68c61176c",
@@ -38097,8 +38100,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W4413307018.pdf",
@@ -38667,7 +38670,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-10-27T15:51:10.671819",
       "created_date": "2025-10-10T00:00:00"
     },
     {
@@ -38985,7 +38988,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Software"
         },
@@ -39016,7 +39019,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Software"
         }
@@ -39058,8 +39061,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -39423,7 +39426,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Software"
         },
@@ -39454,7 +39457,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Software"
         }
@@ -39496,8 +39499,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -39595,6 +39598,411 @@
       "counts_by_year": [],
       "updated_date": "2026-10-09T09:14:12.587421",
       "created_date": "2025-12-13T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7116095833",
+      "doi": "https://doi.org/10.17605/osf.io/k4pxr",
+      "title": "Thalassinoides CT scan - Multiple sizes",
+      "display_name": "Thalassinoides CT scan - Multiple sizes",
+      "publication_year": 2021,
+      "publication_date": "2021-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W7116095833",
+        "doi": "https://doi.org/10.17605/osf.io/k4pxr"
+      },
+      "language": null,
+      "primary_location": {
+        "id": "pmh:oai:share.osf.io:b739fe10-4628-44b6-bd5d-6fa27c88748b",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.17605/OSF.IO/K4PXR",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401127",
+          "display_name": "OSF Preprints (OSF Preprints)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Project"
+      },
+      "volume": null,
+      "type": "preprint",
+      "indexed_in": [
+        "datacite"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "green",
+        "oa_url": "https://doi.org/10.17605/osf.io/k4pxr",
+        "any_repository_has_fulltext": true
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5035537771",
+            "display_name": "Abdullah Alqubalee",
+            "orcid": "https://orcid.org/0000-0002-0543-9026",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-0543-9026"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": true,
+          "raw_author_name": "Alqubalee, Abdullah",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-0543-9026",
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5035537771"
+      ],
+      "corresponding_institution_ids": [],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": null,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": null,
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": null,
+        "issue": null,
+        "first_page": null,
+        "last_page": null
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10109",
+        "display_name": "Paleontology and Stratigraphy of Fossils",
+        "score": 0.5938000082969666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10109",
+          "display_name": "Paleontology and Stratigraphy of Fossils",
+          "score": 0.5938000082969666,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1911",
+            "display_name": "Paleontology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10965",
+          "display_name": "Geological formations and processes",
+          "score": 0.1851000040769577,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1904",
+            "display_name": "Earth-Surface Processes"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10955",
+          "display_name": "Paleontology and Evolutionary Biology",
+          "score": 0.06689999997615814,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1911",
+            "display_name": "Paleontology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/thalassinoides",
+          "display_name": "Thalassinoides",
+          "score": 0.9710000157356262
+        },
+        {
+          "id": "https://openalex.org/keywords/trace-fossils",
+          "display_name": "trace fossils",
+          "score": 0.7089999914169312
+        },
+        {
+          "id": "https://openalex.org/keywords/sample-size",
+          "display_name": "sample size",
+          "score": 0.8190000057220459
+        },
+        {
+          "id": "https://openalex.org/keywords/computed-tomography",
+          "display_name": "computed tomography",
+          "score": 0.7409999966621399
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.46000000834465027
+        },
+        {
+          "id": "https://openalex.org/C544519230",
+          "wikidata": "https://www.wikidata.org/wiki/Q32566",
+          "display_name": "Computed tomography",
+          "level": 2,
+          "score": 0.3873000144958496
+        },
+        {
+          "id": "https://openalex.org/C198531522",
+          "wikidata": "https://www.wikidata.org/wiki/Q485146",
+          "display_name": "Sample (material)",
+          "level": 2,
+          "score": 0.3662000000476837
+        },
+        {
+          "id": "https://openalex.org/C129848803",
+          "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+          "display_name": "Sample size determination",
+          "level": 2,
+          "score": 0.2468000054359436
+        },
+        {
+          "id": "https://openalex.org/C112972136",
+          "wikidata": "https://www.wikidata.org/wiki/Q7595718",
+          "display_name": "Stability (learning theory)",
+          "level": 2,
+          "score": 0.24490000307559967
+        },
+        {
+          "id": "https://openalex.org/C165838908",
+          "wikidata": "https://www.wikidata.org/wiki/Q736777",
+          "display_name": "Calibration",
+          "level": 2,
+          "score": 0.2401999980211258
+        },
+        {
+          "id": "https://openalex.org/C151730666",
+          "wikidata": "https://www.wikidata.org/wiki/Q7205",
+          "display_name": "Paleontology",
+          "level": 1,
+          "score": 0.23549999296665192
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.2303999960422516
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.22380000352859497
+        },
+        {
+          "id": "https://openalex.org/C180016635",
+          "wikidata": "https://www.wikidata.org/wiki/Q2712821",
+          "display_name": "Compression (physics)",
+          "level": 2,
+          "score": 0.22300000488758087
+        }
+      ],
+      "mesh": [],
+      "locations_count": 2,
+      "locations": [
+        {
+          "id": "pmh:oai:share.osf.io:b739fe10-4628-44b6-bd5d-6fa27c88748b",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.17605/OSF.IO/K4PXR",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306401127",
+            "display_name": "OSF Preprints (OSF Preprints)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I2799848540",
+            "host_organization_name": "Center for Open Science",
+            "host_organization_lineage": [
+              "https://openalex.org/I2799848540"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Project"
+        },
+        {
+          "id": "doi:10.17605/osf.io/k4pxr",
+          "doi": "https://doi.org/10.17605/osf.io/k4pxr",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.17605/osf.io/k4pxr",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S7407050956",
+            "display_name": "Open Science Framework",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I2799848540",
+            "host_organization_name": "Center for Open Science",
+            "host_organization_lineage": [
+              "https://openalex.org/I2799848540"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "article-journal"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.17605/osf.io/k4pxr",
+        "doi": "https://doi.org/10.17605/osf.io/k4pxr",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.17605/osf.io/k4pxr",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407050956",
+          "display_name": "Open Science Framework",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article-journal"
+      },
+      "sustainable_development_goals": [],
+      "sustainable_development_goals_aurora": [],
+      "study_designs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 0,
+      "referenced_works": [],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "Impact": [
+          0
+        ],
+        "of": [
+          1,
+          7
+        ],
+        "sample": [
+          2
+        ],
+        "size": [
+          3
+        ],
+        "on": [
+          4
+        ],
+        "burrow": [
+          5
+        ],
+        "quantification": [
+          6
+        ],
+        "Thalassiondies-bearing": [
+          8
+        ],
+        "strata": [
+          9
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-10-27T15:51:10.671819",
+      "created_date": "2025-12-19T00:00:00"
     },
     {
       "id": "https://openalex.org/W7116794122",
@@ -39886,7 +40294,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "article-journal"
         }
@@ -39912,8 +40320,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -40487,7 +40895,7 @@
           "license_id": null,
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Preprint"
         }
@@ -40531,8 +40939,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -41715,8 +42123,8 @@
         }
       ],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W7124358305.pdf",
@@ -42836,8 +43244,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 20,
@@ -43862,7 +44270,7 @@
           "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
           "version": null,
           "is_accepted": false,
-          "is_published": null,
+          "is_published": false,
           "raw_source_name": null,
           "raw_type": "Preprint"
         }
@@ -43906,8 +44314,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": true,
-        "grobid_xml": true
+        "grobid_xml": true,
+        "pdf": true
       },
       "content_urls": {
         "pdf": "https://content.openalex.org/works/W7163184808.pdf",
@@ -45263,8 +45671,8 @@
         }
       ],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 113,
@@ -45945,8 +46353,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 25,
@@ -46294,8 +46702,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -46303,7 +46711,7 @@
       "related_works": [],
       "abstract_inverted_index": null,
       "counts_by_year": [],
-      "updated_date": "2026-10-03T13:16:28.481748",
+      "updated_date": "2026-10-27T15:51:10.671819",
       "created_date": "2026-07-03T00:00:00"
     },
     {
@@ -46628,8 +47036,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,
@@ -47376,8 +47784,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 70,
@@ -48711,8 +49119,8 @@
       "awards": [],
       "funders": [],
       "has_content": {
-        "pdf": false,
-        "grobid_xml": false
+        "grobid_xml": false,
+        "pdf": false
       },
       "content_urls": null,
       "referenced_works_count": 0,

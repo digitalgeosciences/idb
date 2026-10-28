@@ -25,20 +25,20 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
-    "publications": 30,
+    "publications": 31,
     "citations": 343
+  },
+  {
+    "id": "https://openalex.org/T10109",
+    "name": "Paleontology and Stratigraphy of Fossils",
+    "publications": 15,
+    "citations": 131
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
     "citations": 179
-  },
-  {
-    "id": "https://openalex.org/T10109",
-    "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 14,
-    "citations": 131
   },
   {
     "id": "https://openalex.org/T10491",
@@ -77,6 +77,12 @@ export const topicStats: TopicStats[] = [
     "citations": 9
   },
   {
+    "id": "https://openalex.org/T10955",
+    "name": "Paleontology and Evolutionary Biology",
+    "publications": 3,
+    "citations": 0
+  },
+  {
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 2,
@@ -105,12 +111,6 @@ export const topicStats: TopicStats[] = [
     "name": "Geology and Paleoclimatology Research",
     "publications": 2,
     "citations": 4
-  },
-  {
-    "id": "https://openalex.org/T10955",
-    "name": "Paleontology and Evolutionary Biology",
-    "publications": 2,
-    "citations": 0
   },
   {
     "id": "https://openalex.org/T11354",

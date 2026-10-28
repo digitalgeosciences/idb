@@ -1581,6 +1581,30 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": []
   },
   {
+    "workId": "https://openalex.org/W7116095833",
+    "doi": "https://doi.org/10.17605/osf.io/k4pxr",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee"
+    ],
+    "title": "Thalassinoides CT scan - Multiple sizes",
+    "publicationDate": "2021-01-01",
+    "year": 2021,
+    "venue": "OSF Preprints (OSF Preprints)",
+    "citations": 0,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geological formations and processes",
+      "Paleontology and Evolutionary Biology"
+    ],
+    "institutions": []
+  },
+  {
     "workId": "https://openalex.org/W7116794122",
     "doi": "https://doi.org/10.13140/rg.2.2.21030.79680",
     "program": "",
