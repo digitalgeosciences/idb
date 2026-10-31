@@ -15,10 +15,10 @@
       "Alqubalee, Abdullah"
     ],
     "full_name": "ABDULLAH MOHAMMED ALQUBALEE",
-    "works_count": 62,
+    "works_count": 61,
     "cited_by_count": 480,
     "summary_stats": {
-      "2yr_mean_citedness": 2.5,
+      "2yr_mean_citedness": 2.619047619047619,
       "h_index": 14,
       "i10_index": 20
     },
@@ -138,7 +138,7 @@
       {
         "id": "https://openalex.org/T10491",
         "display_name": "Enhanced Oil Recovery Techniques",
-        "count": 10,
+        "count": 9,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -157,7 +157,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "value": 0.0000884,
+        "value": 0.0000885,
         "subfield": {
           "id": "https://openalex.org/subfields/2211",
           "display_name": "Mechanics of Materials"
@@ -174,7 +174,7 @@
       {
         "id": "https://openalex.org/T10491",
         "display_name": "Enhanced Oil Recovery Techniques",
-        "value": 0.000051,
+        "value": 0.0000459,
         "subfield": {
           "id": "https://openalex.org/subfields/2212",
           "display_name": "Ocean Engineering"
@@ -189,26 +189,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T12100",
-        "display_name": "Advanced Mathematical Modeling in Engineering",
-        "value": 0.0000503,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1703",
-          "display_name": "Computational Theory and Mathematics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/17",
-          "display_name": "Computer Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10965",
         "display_name": "Geological formations and processes",
-        "value": 0.0000421,
+        "value": 0.0000424,
         "subfield": {
           "id": "https://openalex.org/subfields/1904",
           "display_name": "Earth-Surface Processes"
@@ -233,6 +216,23 @@
         "field": {
           "id": "https://openalex.org/fields/23",
           "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12100",
+        "display_name": "Advanced Mathematical Modeling in Engineering",
+        "value": 0.0000379,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -329,8 +329,8 @@
       },
       {
         "year": 2026,
-        "works_count": 8,
-        "oa_works_count": 3,
+        "works_count": 7,
+        "oa_works_count": 2,
         "cited_by_count": 85
       }
     ],
@@ -344,8 +344,8 @@
     ],
     "block_key": "a alqubalee",
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5035537771",
-    "updated_date": "2026-10-28T12:34:19",
-    "created_date": "2017-06-05T00:00:00"
+    "updated_date": "2026-10-31T12:29:50",
+    "created_date": "2019-08-13T00:00:00"
   },
   "works": [
     {
@@ -1212,9 +1212,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.5699999928474426,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.5699999928474426
         }
       ],
       "study_designs": [],
@@ -3569,9 +3569,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8899999856948853,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8899999856948853
         }
       ],
       "study_designs": [],
@@ -4281,9 +4281,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8899999856948853,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8899999856948853
         }
       ],
       "study_designs": [],
@@ -5050,9 +5050,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.5,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life on land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.5
         }
       ],
       "study_designs": [],
@@ -7255,14 +7255,14 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.5099999904632568,
+          "id": "https://metadata.un.org/sdg/6",
           "display_name": "Clean water and sanitation",
-          "id": "https://metadata.un.org/sdg/6"
+          "score": 0.5099999904632568
         },
         {
-          "score": 0.49000000953674316,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.49000000953674316
         }
       ],
       "study_designs": [],
@@ -8600,9 +8600,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.7200000286102295,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.7200000286102295
         }
       ],
       "study_designs": [],
@@ -9348,9 +9348,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8700000047683716
         }
       ],
       "study_designs": [],
@@ -10201,9 +10201,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8899999856948853,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8899999856948853
         }
       ],
       "study_designs": [],
@@ -15344,9 +15344,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.6800000071525574,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life on land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.6800000071525574
         }
       ],
       "study_designs": [],
@@ -17067,9 +17067,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8299999833106995,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8299999833106995
         }
       ],
       "study_designs": [],
@@ -18318,9 +18318,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.7099999785423279,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.7099999785423279
         }
       ],
       "study_designs": [],
@@ -20922,9 +20922,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8199999928474426,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8199999928474426
         }
       ],
       "study_designs": [],
@@ -21666,9 +21666,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8799999952316284,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8799999952316284
         }
       ],
       "study_designs": [],
@@ -25796,16 +25796,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5351999998092651,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.5351999998092651
         }
       ],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8299999833106995,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8299999833106995
         }
       ],
       "study_designs": [],
@@ -26528,9 +26528,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.4699999988079071,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.4699999988079071
         }
       ],
       "study_designs": [],
@@ -27420,9 +27420,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8899999856948853,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8899999856948853
         }
       ],
       "study_designs": [],
@@ -29504,14 +29504,14 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.9853000044822693,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.9853000044822693
         },
         {
-          "score": 0.9786999821662903,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.9786999821662903
         }
       ],
       "sustainable_development_goals_aurora": [],
@@ -30993,9 +30993,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.5899999737739563,
+          "id": "https://metadata.un.org/sdg/15",
           "display_name": "Life on land",
-          "id": "https://metadata.un.org/sdg/15"
+          "score": 0.5899999737739563
         }
       ],
       "study_designs": [],
@@ -33732,9 +33732,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.6700000166893005,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.6700000166893005
         }
       ],
       "study_designs": [],
@@ -34314,9 +34314,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8299999833106995,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8299999833106995
         }
       ],
       "study_designs": [],
@@ -35878,9 +35878,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.8700000047683716,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.8700000047683716
         }
       ],
       "study_designs": [],
@@ -36928,21 +36928,21 @@
       },
       "sustainable_development_goals": [
         {
-          "score": 0.75,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.75
         },
         {
-          "score": 0.4399999976158142,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.4399999976158142
         }
       ],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.4699999988079071,
+          "id": "https://metadata.un.org/sdg/9",
           "display_name": "Industry, innovation and infrastructure",
-          "id": "https://metadata.un.org/sdg/9"
+          "score": 0.4699999988079071
         }
       ],
       "study_designs": [],
@@ -40357,1195 +40357,6 @@
       },
       "language": "en",
       "primary_location": {
-        "id": "doi:10.48550/arxiv.2601.09283",
-        "doi": "https://doi.org/10.48550/arxiv.2601.09283",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.48550/arxiv.2601.09283",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306400194",
-          "display_name": "arXiv (Cornell University)",
-          "issn_l": "2331-8422",
-          "issn": [
-            "2331-8422"
-          ],
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/I205783295",
-          "host_organization_name": "Cornell University",
-          "host_organization_lineage": [
-            "https://openalex.org/I205783295"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": null,
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "Preprint"
-      },
-      "volume": null,
-      "type": "preprint",
-      "indexed_in": [
-        "datacite"
-      ],
-      "open_access": {
-        "is_oa": true,
-        "oa_status": "green",
-        "oa_url": "https://doi.org/10.48550/arxiv.2601.09283",
-        "any_repository_has_fulltext": true
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5068641652",
-            "display_name": "Fernando Alonso-Marroquín",
-            "orcid": "https://orcid.org/0009-0009-5774-9526",
-            "observed_orcids": [
-              "https://orcid.org/0009-0009-5774-9526"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Alonso-Marroquin, Fernando",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5035537771",
-            "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-0543-9026"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Alqubalee, Abdullah",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5022893471",
-            "display_name": "Christian Tantardini",
-            "orcid": "https://orcid.org/0000-0002-2412-9859",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-2412-9859"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Tantardini, Christian",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research , King Fahd University of Petroleum and Minerals , Dhahran 31261 , Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 1,
-      "corresponding_author_ids": [],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": null,
-      "has_fulltext": false,
-      "cited_by_count": 0,
-      "citation_normalized_percentile": null,
-      "cited_by_percentile_year": null,
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": null,
-        "last_page": null
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10491",
-        "display_name": "Enhanced Oil Recovery Techniques",
-        "score": 0.8036999702453613,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2212",
-          "display_name": "Ocean Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10491",
-          "display_name": "Enhanced Oil Recovery Techniques",
-          "score": 0.8036999702453613,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2212",
-            "display_name": "Ocean Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/22",
-            "display_name": "Engineering"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T13067",
-          "display_name": "Geological Modeling and Analysis",
-          "score": 0.040300000458955765,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1906",
-            "display_name": "Geochemistry and Petrology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12100",
-          "display_name": "Advanced Mathematical Modeling in Engineering",
-          "score": 0.03519999980926514,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1703",
-            "display_name": "Computational Theory and Mathematics"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/17",
-            "display_name": "Computer Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/representative-volume-element",
-          "display_name": "representative volume element",
-          "score": 0.8069999814033508
-        },
-        {
-          "id": "https://openalex.org/keywords/covariance-matrix-estimation",
-          "display_name": "covariance matrix estimation",
-          "score": 0.4950000047683716
-        },
-        {
-          "id": "https://openalex.org/keywords/thalassinoides",
-          "display_name": "Thalassinoides",
-          "score": 0.9700000286102295
-        },
-        {
-          "id": "https://openalex.org/keywords/digital-rock",
-          "display_name": "digital rock",
-          "score": 0.6949999928474426
-        },
-        {
-          "id": "https://openalex.org/keywords/pore-space-heterogeneity",
-          "display_name": "pore space heterogeneity",
-          "score": 0.5
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C33923547",
-          "wikidata": "https://www.wikidata.org/wiki/Q395",
-          "display_name": "Mathematics",
-          "level": 0,
-          "score": 0.583299994468689
-        },
-        {
-          "id": "https://openalex.org/C203311528",
-          "wikidata": "https://www.wikidata.org/wiki/Q34132",
-          "display_name": "Cylinder",
-          "level": 2,
-          "score": 0.5163999795913696
-        },
-        {
-          "id": "https://openalex.org/C2777303404",
-          "wikidata": "https://www.wikidata.org/wiki/Q759757",
-          "display_name": "Convergence (economics)",
-          "level": 2,
-          "score": 0.5151000022888184
-        },
-        {
-          "id": "https://openalex.org/C198082294",
-          "wikidata": "https://www.wikidata.org/wiki/Q3399648",
-          "display_name": "Position (finance)",
-          "level": 2,
-          "score": 0.5148000121116638
-        },
-        {
-          "id": "https://openalex.org/C135628077",
-          "wikidata": "https://www.wikidata.org/wiki/Q220184",
-          "display_name": "Finite element method",
-          "level": 2,
-          "score": 0.5126000046730042
-        },
-        {
-          "id": "https://openalex.org/C178650346",
-          "wikidata": "https://www.wikidata.org/wiki/Q201984",
-          "display_name": "Covariance",
-          "level": 2,
-          "score": 0.4862000048160553
-        },
-        {
-          "id": "https://openalex.org/C184050105",
-          "wikidata": "https://www.wikidata.org/wiki/Q273163",
-          "display_name": "Isotropy",
-          "level": 2,
-          "score": 0.44999998807907104
-        },
-        {
-          "id": "https://openalex.org/C134306372",
-          "wikidata": "https://www.wikidata.org/wiki/Q7754",
-          "display_name": "Mathematical analysis",
-          "level": 1,
-          "score": 0.4262000024318695
-        },
-        {
-          "id": "https://openalex.org/C2524010",
-          "wikidata": "https://www.wikidata.org/wiki/Q8087",
-          "display_name": "Geometry",
-          "level": 1,
-          "score": 0.41510000824928284
-        },
-        {
-          "id": "https://openalex.org/C50478463",
-          "wikidata": "https://www.wikidata.org/wiki/Q1401936",
-          "display_name": "Finite volume method",
-          "level": 2,
-          "score": 0.40720000863075256
-        },
-        {
-          "id": "https://openalex.org/C57691317",
-          "wikidata": "https://www.wikidata.org/wiki/Q1289248",
-          "display_name": "Scalar (mathematics)",
-          "level": 2,
-          "score": 0.4032999873161316
-        },
-        {
-          "id": "https://openalex.org/C155512373",
-          "wikidata": "https://www.wikidata.org/wiki/Q287450",
-          "display_name": "Residual",
-          "level": 2,
-          "score": 0.36629998683929443
-        },
-        {
-          "id": "https://openalex.org/C73000952",
-          "wikidata": "https://www.wikidata.org/wiki/Q17007827",
-          "display_name": "Discretization",
-          "level": 2,
-          "score": 0.3652999997138977
-        },
-        {
-          "id": "https://openalex.org/C9652623",
-          "wikidata": "https://www.wikidata.org/wiki/Q190109",
-          "display_name": "Field (mathematics)",
-          "level": 2,
-          "score": 0.3617999851703644
-        },
-        {
-          "id": "https://openalex.org/C11413529",
-          "wikidata": "https://www.wikidata.org/wiki/Q8366",
-          "display_name": "Algorithm",
-          "level": 1,
-          "score": 0.35839998722076416
-        },
-        {
-          "id": "https://openalex.org/C135981907",
-          "wikidata": "https://www.wikidata.org/wiki/Q188056",
-          "display_name": "Triangulation",
-          "level": 2,
-          "score": 0.3582000136375427
-        },
-        {
-          "id": "https://openalex.org/C158693339",
-          "wikidata": "https://www.wikidata.org/wiki/Q190524",
-          "display_name": "Eigenvalues and eigenvectors",
-          "level": 2,
-          "score": 0.3562000095844269
-        },
-        {
-          "id": "https://openalex.org/C146599234",
-          "wikidata": "https://www.wikidata.org/wiki/Q511093",
-          "display_name": "Centroid",
-          "level": 2,
-          "score": 0.3154999911785126
-        },
-        {
-          "id": "https://openalex.org/C203527163",
-          "wikidata": "https://www.wikidata.org/wiki/Q262959",
-          "display_name": "Cuboid",
-          "level": 2,
-          "score": 0.31349998712539673
-        },
-        {
-          "id": "https://openalex.org/C57879066",
-          "wikidata": "https://www.wikidata.org/wiki/Q41217",
-          "display_name": "Mechanics",
-          "level": 1,
-          "score": 0.31040000915527344
-        },
-        {
-          "id": "https://openalex.org/C121864883",
-          "wikidata": "https://www.wikidata.org/wiki/Q677916",
-          "display_name": "Statistical physics",
-          "level": 1,
-          "score": 0.3010999858379364
-        },
-        {
-          "id": "https://openalex.org/C126255220",
-          "wikidata": "https://www.wikidata.org/wiki/Q141495",
-          "display_name": "Mathematical optimization",
-          "level": 1,
-          "score": 0.29760000109672546
-        },
-        {
-          "id": "https://openalex.org/C165064840",
-          "wikidata": "https://www.wikidata.org/wiki/Q1321061",
-          "display_name": "Matching (statistics)",
-          "level": 2,
-          "score": 0.2903999984264374
-        },
-        {
-          "id": "https://openalex.org/C110521144",
-          "wikidata": "https://www.wikidata.org/wiki/Q193460",
-          "display_name": "Scalar field",
-          "level": 2,
-          "score": 0.29010000824928284
-        },
-        {
-          "id": "https://openalex.org/C109663097",
-          "wikidata": "https://www.wikidata.org/wiki/Q182453",
-          "display_name": "Adiabatic process",
-          "level": 2,
-          "score": 0.2840000092983246
-        },
-        {
-          "id": "https://openalex.org/C135252773",
-          "wikidata": "https://www.wikidata.org/wiki/Q1567213",
-          "display_name": "Inverse problem",
-          "level": 2,
-          "score": 0.28279998898506165
-        },
-        {
-          "id": "https://openalex.org/C28826006",
-          "wikidata": "https://www.wikidata.org/wiki/Q33521",
-          "display_name": "Applied mathematics",
-          "level": 1,
-          "score": 0.2741999924182892
-        },
-        {
-          "id": "https://openalex.org/C45340560",
-          "wikidata": "https://www.wikidata.org/wiki/Q215382",
-          "display_name": "Disjoint sets",
-          "level": 2,
-          "score": 0.27320000529289246
-        },
-        {
-          "id": "https://openalex.org/C134786449",
-          "wikidata": "https://www.wikidata.org/wiki/Q3391255",
-          "display_name": "Planar",
-          "level": 2,
-          "score": 0.2676999866962433
-        },
-        {
-          "id": "https://openalex.org/C149364088",
-          "wikidata": "https://www.wikidata.org/wiki/Q185917",
-          "display_name": "Translation (biology)",
-          "level": 4,
-          "score": 0.26159998774528503
-        },
-        {
-          "id": "https://openalex.org/C38976095",
-          "wikidata": "https://www.wikidata.org/wiki/Q752641",
-          "display_name": "Asymmetry",
-          "level": 2,
-          "score": 0.2574000060558319
-        },
-        {
-          "id": "https://openalex.org/C19499675",
-          "wikidata": "https://www.wikidata.org/wiki/Q232207",
-          "display_name": "Monte Carlo method",
-          "level": 2,
-          "score": 0.25600001215934753
-        },
-        {
-          "id": "https://openalex.org/C2780586882",
-          "wikidata": "https://www.wikidata.org/wiki/Q7520643",
-          "display_name": "Simple (philosophy)",
-          "level": 2,
-          "score": 0.25519999861717224
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.48550/arxiv.2601.09283",
-          "doi": "https://doi.org/10.48550/arxiv.2601.09283",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.48550/arxiv.2601.09283",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306400194",
-            "display_name": "arXiv (Cornell University)",
-            "issn_l": "2331-8422",
-            "issn": [
-              "2331-8422"
-            ],
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I205783295",
-            "host_organization_name": "Cornell University",
-            "host_organization_lineage": [
-              "https://openalex.org/I205783295"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": null,
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "Preprint"
-        }
-      ],
-      "best_oa_location": {
-        "id": "doi:10.48550/arxiv.2601.09283",
-        "doi": "https://doi.org/10.48550/arxiv.2601.09283",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.48550/arxiv.2601.09283",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306400194",
-          "display_name": "arXiv (Cornell University)",
-          "issn_l": "2331-8422",
-          "issn": [
-            "2331-8422"
-          ],
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/I205783295",
-          "host_organization_name": "Cornell University",
-          "host_organization_lineage": [
-            "https://openalex.org/I205783295"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": null,
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "Preprint"
-      },
-      "sustainable_development_goals": [],
-      "sustainable_development_goals_aurora": [],
-      "study_designs": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 0,
-      "referenced_works": [],
-      "related_works": [
-        "https://openalex.org/W2069390172",
-        "https://openalex.org/W2018095271",
-        "https://openalex.org/W7055206147",
-        "https://openalex.org/W4235266897",
-        "https://openalex.org/W4206764055",
-        "https://openalex.org/W2320233582",
-        "https://openalex.org/W2624975179",
-        "https://openalex.org/W1996011127",
-        "https://openalex.org/W3040956823",
-        "https://openalex.org/W3081592251"
-      ],
-      "abstract_inverted_index": {
-        "Choosing": [
-          0
-        ],
-        "a": [
-          1,
-          16,
-          21,
-          54,
-          71,
-          93,
-          133,
-          201
-        ],
-        "representative": [
-          2
-        ],
-        "element": [
-          3
-        ],
-        "volume": [
-          4
-        ],
-        "(REV)": [
-          5
-        ],
-        "from": [
-          6
-        ],
-        "finite": [
-          7
-        ],
-        "cylindrical": [
-          8
-        ],
-        "Computed": [
-          9
-        ],
-        "Tomography": [
-          10
-        ],
-        "(CT)": [
-          11
-        ],
-        "scans": [
-          12
-        ],
-        "becomes": [
-          13,
-          195
-        ],
-        "ambiguous": [
-          14
-        ],
-        "when": [
-          15
-        ],
-        "key": [
-          17
-        ],
-        "field": [
-          18,
-          73,
-          136
-        ],
-        "variable": [
-          19
-        ],
-        "exhibits": [
-          20
-        ],
-        "slow": [
-          22
-        ],
-        "axial": [
-          23,
-          67
-        ],
-        "trend,": [
-          24
-        ],
-        "reflecting": [
-          25
-        ],
-        "either": [
-          26
-        ],
-        "geological": [
-          27
-        ],
-        "variability": [
-          28
-        ],
-        "or": [
-          29
-        ],
-        "CT": [
-          30
-        ],
-        "acquisition/reconstruction": [
-          31
-        ],
-        "artifacts.": [
-          32
-        ],
-        "In": [
-          33
-        ],
-        "such": [
-          34
-        ],
-        "cases,": [
-          35
-        ],
-        "estimated": [
-          36
-        ],
-        "statistics": [
-          37,
-          120
-        ],
-        "may": [
-          38
-        ],
-        "vary": [
-          39
-        ],
-        "systematically": [
-          40
-        ],
-        "with": [
-          41,
-          145,
-          163
-        ],
-        "subvolume": [
-          42,
-          126
-        ],
-        "size": [
-          43
-        ],
-        "and": [
-          44,
-          78,
-          121,
-          141,
-          151,
-          180,
-          186,
-          210,
-          217
-        ],
-        "position": [
-          45
-        ],
-        "rather": [
-          46
-        ],
-        "than": [
-          47
-        ],
-        "converging": [
-          48
-        ],
-        "by": [
-          49,
-          64
-        ],
-        "simple": [
-          50
-        ],
-        "averaging.": [
-          51
-        ],
-        "We": [
-          52
-        ],
-        "present": [
-          53
-        ],
-        "practical": [
-          55
-        ],
-        "workflow": [
-          56
-        ],
-        "for": [
-          57,
-          75,
-          85
-        ],
-        "sizing": [
-          58
-        ],
-        "an": [
-          59
-        ],
-        "REV": [
-          60
-        ],
-        "under": [
-          61
-        ],
-        "nonstationary": [
-          62,
-          152
-        ],
-        "conditions": [
-          63
-        ],
-        "first": [
-          65
-        ],
-        "suppressing": [
-          66
-        ],
-        "drift/trend": [
-          68
-        ],
-        "to": [
-          69,
-          113,
-          125,
-          200
-        ],
-        "obtain": [
-          70
-        ],
-        "residual": [
-          72
-        ],
-        "suitable": [
-          74
-        ],
-        "second-order": [
-          76
-        ],
-        "analysis,": [
-          77
-        ],
-        "then": [
-          79
-        ],
-        "selecting": [
-          80
-        ],
-        "the": [
-          81,
-          87,
-          164,
-          177,
-          187,
-          192,
-          205
-        ],
-        "smallest": [
-          82,
-          188
-        ],
-        "analysis": [
-          83
-        ],
-        "diameter": [
-          84,
-          171,
-          189
-        ],
-        "which": [
-          86,
-          191
-        ],
-        "low-wavenumber": [
-          88,
-          193
-        ],
-        "spectral": [
-          89
-        ],
-        "content": [
-          90
-        ],
-        "stabilizes": [
-          91
-        ],
-        "within": [
-          92
-        ],
-        "prescribed": [
-          94
-        ],
-        "tolerance.": [
-          95
-        ],
-        "The": [
-          96
-        ],
-        "method": [
-          97,
-          206
-        ],
-        "is": [
-          98,
-          157,
-          168,
-          197
-        ],
-        "demonstrated": [
-          99
-        ],
-        "on": [
-          100,
-          159,
-          173
-        ],
-        "\\textit{Thalassinoides}-bearing": [
-          101
-        ],
-        "rocks,": [
-          102
-        ],
-        "where": [
-          103
-        ],
-        "branching": [
-          104
-        ],
-        "burrow": [
-          105
-        ],
-        "networks": [
-          106
-        ],
-        "introduce": [
-          107
-        ],
-        "heterogeneity": [
-          108
-        ],
-        "at": [
-          109,
-          190
-        ],
-        "length": [
-          110
-        ],
-        "scales": [
-          111
-        ],
-        "comparable": [
-          112
-        ],
-        "laboratory": [
-          114
-        ],
-        "core": [
-          115,
-          165
-        ],
-        "diameters,": [
-          116
-        ],
-        "making": [
-          117
-        ],
-        "imaging-based": [
-          118
-        ],
-        "microstructural": [
-          119
-        ],
-        "digital-rock": [
-          122
-        ],
-        "estimates": [
-          123
-        ],
-        "sensitive": [
-          124
-        ],
-        "choice.": [
-          127
-        ],
-        "From": [
-          128
-        ],
-        "segmented": [
-          129,
-          202
-        ],
-        "data,": [
-          130
-        ],
-        "we": [
-          131
-        ],
-        "define": [
-          132
-        ],
-        "scalar": [
-          134
-        ],
-        "``burrowsity''": [
-          135
-        ],
-        "capturing": [
-          137
-        ],
-        "burrow-related": [
-          138
-        ],
-        "pore": [
-          139
-        ],
-        "spaces": [
-          140
-        ],
-        "infills.": [
-          142
-        ],
-        "Axial": [
-          143
-        ],
-        "detrending,": [
-          144
-        ],
-        "optional": [
-          146
-        ],
-        "normalization,": [
-          147
-        ],
-        "mitigates": [
-          148
-        ],
-        "acquisition": [
-          149
-        ],
-        "drift": [
-          150
-        ],
-        "trends,": [
-          153
-        ],
-        "while": [
-          154
-        ],
-        "covariance/spectral": [
-          155
-        ],
-        "convergence": [
-          156,
-          172
-        ],
-        "evaluated": [
-          158
-        ],
-        "nested": [
-          160,
-          174
-        ],
-        "cylinders": [
-          161
-        ],
-        "consistent": [
-          162
-        ],
-        "geometry.": [
-          166
-        ],
-        "Representativeness": [
-          167
-        ],
-        "posed": [
-          169
-        ],
-        "as": [
-          170
-        ],
-        "inscribed": [
-          175
-        ],
-        "cylinders:": [
-          176
-        ],
-        "two-point": [
-          178
-        ],
-        "covariance": [
-          179
-        ],
-        "isotropic": [
-          181
-        ],
-        "spectrum": [
-          182
-        ],
-        "$\\widehat{C}$": [
-          183
-        ],
-        "are": [
-          184
-        ],
-        "estimated,": [
-          185
-        ],
-        "plateau": [
-          194
-        ],
-        "stable": [
-          196
-        ],
-        "selected.": [
-          198
-        ],
-        "Applied": [
-          199
-        ],
-        "\\textit{Thalassinoides}": [
-          203
-        ],
-        "core,": [
-          204
-        ],
-        "gives": [
-          207
-        ],
-        "$D_{\\mathrm{REV}}\\simeq": [
-          208
-        ],
-        "93~\\mathrm{mm}$": [
-          209
-        ],
-        "$H_{\\mathrm{REV}}\\simeq": [
-          211
-        ],
-        "83~\\mathrm{mm}$,": [
-          212
-        ],
-        "enabling": [
-          213
-        ],
-        "reproducible": [
-          214
-        ],
-        "correlation-scale": [
-          215
-        ],
-        "reporting": [
-          216
-        ],
-        "connectivity-sensitive": [
-          218
-        ],
-        "property": [
-          219
-        ],
-        "estimation.": [
-          220
-        ]
-      },
-      "counts_by_year": [],
-      "updated_date": "2026-10-28T10:33:24.094632",
-      "created_date": "2026-01-16T00:00:00"
-    },
-    {
-      "id": "https://openalex.org/W7124358305",
-      "doi": null,
-      "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
-      "display_name": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
-      "publication_year": 2026,
-      "publication_date": "2026-01-14",
-      "ids": {
-        "openalex": "https://openalex.org/W7124358305"
-      },
-      "language": "en",
-      "primary_location": {
         "id": "pmh:oai:arXiv.org:2601.09283",
         "doi": null,
         "is_oa": true,
@@ -41581,7 +40392,8 @@
       "volume": null,
       "type": "preprint",
       "indexed_in": [
-        "arxiv"
+        "arxiv",
+        "datacite"
       ],
       "open_access": {
         "is_oa": true,
@@ -41949,7 +40761,7 @@
           "wikidata": "https://www.wikidata.org/wiki/Q190524",
           "display_name": "Eigenvalues and eigenvectors",
           "level": 2,
-          "score": 0.3560999929904938
+          "score": 0.3562000095844269
         },
         {
           "id": "https://openalex.org/C146599234",
@@ -42065,7 +40877,7 @@
         }
       ],
       "mesh": [],
-      "locations_count": 1,
+      "locations_count": 2,
       "locations": [
         {
           "id": "pmh:oai:arXiv.org:2601.09283",
@@ -42099,6 +40911,39 @@
           "is_published": false,
           "raw_source_name": null,
           "raw_type": "text"
+        },
+        {
+          "id": "doi:10.48550/arxiv.2601.09283",
+          "doi": "https://doi.org/10.48550/arxiv.2601.09283",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.48550/arxiv.2601.09283",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": "2331-8422",
+            "issn": [
+              "2331-8422"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": null,
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "Preprint"
         }
       ],
       "best_oa_location": {
@@ -42150,8 +40995,8 @@
         "pdf": true
       },
       "content_urls": {
-        "pdf": "https://content.openalex.org/works/W7124358305.pdf",
-        "grobid_xml": "https://content.openalex.org/works/W7124358305.grobid-xml"
+        "pdf": "https://content.openalex.org/works/W7124278131.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7124278131.grobid-xml"
       },
       "referenced_works_count": 0,
       "referenced_works": [],
@@ -42729,7 +41574,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-28T10:33:24.094632",
+      "updated_date": "2026-10-31T12:09:11.096373",
       "created_date": "2026-01-16T00:00:00"
     },
     {
@@ -43263,14 +42108,14 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.9786999821662903,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.9786999821662903
         },
         {
-          "score": 0.878000020980835,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.878000020980835
         }
       ],
       "sustainable_development_goals_aurora": [],
@@ -45711,9 +44556,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5351999998092651,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.5351999998092651
         }
       ],
       "sustainable_development_goals_aurora": [],
@@ -46411,9 +45256,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.4300750195980072,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.4300750195980072
         }
       ],
       "study_designs": [],
@@ -46771,9 +45616,9 @@
       "sustainable_development_goals": [],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.6649132370948792,
+          "id": "https://metadata.un.org/sdg/14",
           "display_name": "Life below water",
-          "id": "https://metadata.un.org/sdg/14"
+          "score": 0.6649132370948792
         }
       ],
       "study_designs": [],
@@ -47109,16 +45954,16 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.4399999976158142,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.4399999976158142
         }
       ],
       "sustainable_development_goals_aurora": [
         {
-          "score": 0.44915685057640076,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.44915685057640076
         }
       ],
       "study_designs": [],
@@ -47874,9 +46719,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.9853000044822693,
+          "id": "https://metadata.un.org/sdg/7",
           "display_name": "Affordable and clean energy",
-          "id": "https://metadata.un.org/sdg/7"
+          "score": 0.9853000044822693
         }
       ],
       "sustainable_development_goals_aurora": [],
@@ -49220,9 +48065,9 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "score": 0.5351999998092651,
+          "id": "https://metadata.un.org/sdg/13",
           "display_name": "Climate action",
-          "id": "https://metadata.un.org/sdg/13"
+          "score": 0.5351999998092651
         }
       ],
       "sustainable_development_goals_aurora": [],

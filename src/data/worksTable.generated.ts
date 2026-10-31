@@ -1659,36 +1659,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W7124358305",
-    "doi": "",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5068641652",
-      "A5022893471"
-    ],
-    "firstAuthorLastName": "Alonso-Marroquín",
-    "allAuthors": [
-      "Fernando Alonso-Marroquín",
-      "Abdullah Alqubalee",
-      "Christian Tantardini"
-    ],
-    "title": "Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence",
-    "publicationDate": "2026-01-14",
-    "year": 2026,
-    "venue": "arXiv (Cornell University)",
-    "citations": 0,
-    "topics": [
-      "Enhanced Oil Recovery Techniques",
-      "Geological Modeling and Analysis",
-      "Advanced Mathematical Modeling in Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W7161493049",
     "doi": "https://doi.org/10.2118/232636-ms",
     "program": "",

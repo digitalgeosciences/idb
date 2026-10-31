@@ -43,7 +43,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
-    "publications": 10,
+    "publications": 9,
     "citations": 123
   },
   {
@@ -53,22 +53,16 @@ export const topicStats: TopicStats[] = [
     "citations": 36
   },
   {
-    "id": "https://openalex.org/T13067",
-    "name": "Geological Modeling and Analysis",
-    "publications": 5,
-    "citations": 14
-  },
-  {
     "id": "https://openalex.org/T11302",
     "name": "CO2 Sequestration and Geologic Interactions",
     "publications": 5,
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T12100",
-    "name": "Advanced Mathematical Modeling in Engineering",
+    "id": "https://openalex.org/T13067",
+    "name": "Geological Modeling and Analysis",
     "publications": 4,
-    "citations": 0
+    "citations": 14
   },
   {
     "id": "https://openalex.org/T12157",
@@ -79,6 +73,12 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10955",
     "name": "Paleontology and Evolutionary Biology",
+    "publications": 3,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/T12100",
+    "name": "Advanced Mathematical Modeling in Engineering",
     "publications": 3,
     "citations": 0
   },
@@ -238,7 +238,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 48,
+    "publications": 47,
     "citations": 479
   },
   {
