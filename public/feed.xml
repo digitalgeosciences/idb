@@ -4,7 +4,7 @@
     <title>Integrative Dashboard</title>
     <link>https://digitalgeosciences.github.io/dashboard3.2/</link>
     <description>Recent publications with OpenAlex abstracts and topics.</description>
-    <lastBuildDate>Wed, 04 Nov 2026 00:59:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 01:10:52 GMT</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>Evaluating Microscale Heterogeneity in Upper Triassic Sandstones Under Supercritical CO₂–Brine Exposure: A 4D Perspective</title>
@@ -89,20 +89,6 @@
       <category>Carbon capture and storage (timeline)</category>
       <category>Carbon fibers</category>
       <description>Abstract: Abstract The generation of hydrogen during geological CO2 storage has implications for both storage integrity and energy recovery, yet remains poorly constrained under reservoir-relevant conditions. This study investigates CO2–brine–rock interactions in iron-rich sandstone at elevated temperature (75 °C) to evaluate the potential for in-situ hydrogen generation. Batch experiments conducted in pressurized reactors show pronounced brine acidification (pH decrease from ~7.7 to ~5.4), increased total inorganic carbon (TIC), and significant mobilization of dissolved iron following CO2 exposure. Gas chromatography analysis detected hydrogen in the gas phase at concentrations of approximately 0.22 wt.%, confirming that hydrogen generation occurred during CO2–brine–rock interaction. Mineralogical analysis showed no detectable change in bulk mineralogy, suggesting that the reactions are primarily surface-controlled rather than involving extensive mineral transformation. These results provide experimental evidence that CO2-induced geochemical reactions in iron-bearing sandstones can promote hydrogen generation under reservoir-relevant conditions and highlight the need to account for such processes when evaluating the geochemical evolution and potential energy implications of subsurface CO2 storage systems.&#10;Topics: Hydrogen production, Hydrogen, Brine, Carbon capture and storage (timeline), Carbon fibers&#10;Venue: SPE Conference at Oman Petroleum &amp; Energy Show&#10;Year: 2026&#10;Citations: 0</description>
-    </item>
-    <item>
-      <title>Representative-volume sizing in finite cylindrical computed tomography by low-wavenumber spectral convergence</title>
-      <link>https://doi.org/10.48550/arxiv.2601.09283</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://openalex.org/W7124278131</guid>
-      <dc:creator>Fernando Alonso-Marroquín, Abdullah Alqubalee, Christian Tantardini</dc:creator>
-      <dc:publisher>arXiv (Cornell University)</dc:publisher>
-      <category>Mathematics</category>
-      <category>Cylinder</category>
-      <category>Convergence (economics)</category>
-      <category>Position (finance)</category>
-      <category>Finite element method</category>
-      <description>Abstract: Choosing a representative element volume (REV) from finite cylindrical Computed Tomography (CT) scans becomes ambiguous when a key field variable exhibits a slow axial trend, reflecting either geological variability or CT acquisition/reconstruction artifacts. In such cases, estimated statistics may vary systematically with subvolume size and position rather than converging by simple averaging. We present a practical workflow for sizing an REV under nonstationary conditions by first suppressing axial drift/trend to obtain a residual field suitable for second-order analysis, and then selecting the smallest analysis diameter for which the low-wavenumber spectral content stabilizes within a prescribed tolerance. The method is demonstrated on \textit{Thalassinoides}-bearing rocks, where branching burrow networks introduce heterogeneity at length scales comparable to laboratory core diameters, making imaging-based microstructural statistics and digital-rock estimates sensitive to subvolume choice. From segmented data, we define a scalar ``burrowsity&apos;&apos; field capturing burrow-related pore spaces and infills. Axial detrending, with optional normalization, mitigates acquisition drift and nonstationary trends, while covariance/spectral convergence is evaluated on nested cylinders consistent with the core geometry. Representativeness is posed as diameter convergence on nested inscribed cylinders: the two-point covariance and isotropic spectrum $\widehat{C}$ are estimated, and the smalles…&#10;Topics: Mathematics, Cylinder, Convergence (economics), Position (finance), Finite element method&#10;Venue: arXiv (Cornell University)&#10;Year: 2026&#10;Citations: 0</description>
     </item>
     <item>
       <title>OpenGeo</title>
@@ -348,20 +334,6 @@
       <description>Abstract: Abstract Lithology types identification is one of the processes geoscientists rely on to understand the subsurface formations and better evaluate the quality of reservoirs and aquifers. However, direct lithological identification processes usually require more effort and time. Therefore, researchers developed several machine learning models based on well-logging data to avoid challenges associated with direct lithological identification and increase identification accuracy. Nevertheless, high uncertainty and low accuracy are commonly encountered issues due to the heterogeneous nature of lithology types. This work aims to employ decision tree ensemble techniques to predict the lithologies more accurately in time saving and cost-efficient manner, accounting for the uncertainty. This study investigated the real-world well logs dataset from the public Athabasca Oil Sands Database to identify and extract the relevant features. Then, we conducted a thorough training using grid search to optimize the hyperparameters of the ensemble decision tree models. This paper evaluated two ensemble techniques: random forest (RF) and extreme gradient boosting (XGB). We picked metrics such as accuracy, precision, and recall to assess the developed models&apos; performance using 5-fold cross-validation. Finally, we performed a chi-squared test to test our hypothesis of the identical performance of the developed models. The XGB and RF models have 94% and 93% accuracy, respectively. Also, the extreme gra…&#10;Topics: Random forest, Computer science, Decision tree, Identification (biology), Hyperparameter&#10;Year: 2023&#10;Citations: 8</description>
     </item>
     <item>
-      <title>Controls on Mechanical Properties of Carbonate Mudstone: Insights from Non-Destructive Techniques and Geochemical Data</title>
-      <link>https://doi.org/10.2139/ssrn.4535426</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://openalex.org/W4385654401</guid>
-      <dc:creator>Baqer Albensaad, Septriandi A. Chan, JOHN D. HUMPHREY, Abdullah Alqubalee, Ammar El‐Husseiny, Yaser Alzayer</dc:creator>
-      <dc:publisher>SSRN Electronic Journal</dc:publisher>
-      <category>Carbonate</category>
-      <category>Geology</category>
-      <category>Geochemistry</category>
-      <category>Carbonate rock</category>
-      <category>Mineralogy</category>
-      <description>Topics: Carbonate, Geology, Geochemistry, Carbonate rock, Mineralogy&#10;Venue: SSRN Electronic Journal&#10;Year: 2023&#10;Citations: 0</description>
-    </item>
-    <item>
       <title>Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia</title>
       <link>https://doi.org/10.1016/j.marpetgeo.2022.106073</link>
       <pubDate>Fri, 23 Dec 2022 00:00:00 GMT</pubDate>
@@ -415,7 +387,7 @@
       <category>Carbonate</category>
       <category>Burrow</category>
       <category>Outcrop</category>
-      <description>Topics: Petrophysics, Geology, Carbonate, Burrow, Outcrop&#10;Venue: Natural Resources Research&#10;Year: 2022&#10;Citations: 12</description>
+      <description>Topics: Petrophysics, Geology, Carbonate, Burrow, Outcrop&#10;Venue: Natural Resources Research&#10;Year: 2022&#10;Citations: 13</description>
     </item>
     <item>
       <title>Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration</title>
@@ -446,20 +418,6 @@
       <description>Topics: Geology, Stratum, Sedimentary depositional environment, Trace fossil, Wackestone&#10;Venue: Sedimentary Geology&#10;Year: 2022&#10;Citations: 8</description>
     </item>
     <item>
-      <title>The negative impact of Ophiomorpha on reservoir quality of channelized deposits in mixed carbonate siliciclastic setting: The case study of the Dam Formation, Saudi Arabia</title>
-      <link>https://doi.org/10.1016/j.marpetgeo.2022.105666</link>
-      <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://openalex.org/W4220873824</guid>
-      <dc:creator>Abdullah Alqubalee, Jaber Muharrag, Anas Muhammad Salisu, Hassan A. Eltom</dc:creator>
-      <dc:publisher>Marine and Petroleum Geology</dc:publisher>
-      <category>Geology</category>
-      <category>Siliciclastic</category>
-      <category>Petrophysics</category>
-      <category>Petrography</category>
-      <category>Sedimentary rock</category>
-      <description>Topics: Geology, Siliciclastic, Petrophysics, Petrography, Sedimentary rock&#10;Venue: Marine and Petroleum Geology&#10;Year: 2022&#10;Citations: 18</description>
-    </item>
-    <item>
       <title>Fish fossil remains from the Khartam Member, Khuff Formation in Central Saudi Arabia: Implications for placement of the Permo/Triassic Boundary</title>
       <link>https://doi.org/10.5194/egusphere-egu22-9154</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
@@ -484,21 +442,21 @@
       <category>Range (aeronautics)</category>
       <category>Paleontology</category>
       <category>Materials science</category>
-      <description>Abstract: ABSTRACT This study examines computed tomography (CT) scans of a 15.24-cm diameter and 17.1-cm length core cut from Thalassinoides-bearing strata (Hanifa Formation, central Saudi Arabia) to explore the quantitative variability in burrow percentage when estimated using 2D views. A cropped quadrangular prism of this core allowed 202 2D slices in two vertical orientations and 165 horizontal 2D slices. Thalassinoides volume represents 20.0% (burrow percentage) of the total volume within this cropped quadrangular prism. The estimated burrow percentage by the 2D vertical slices varies from 11.8% to 30.3% with a mean value of 19.9% ± 3.3% and 19.6% ± 3.9%, and coefficients of variation of 17% and 20%, for the two vertical orientations. A wider range and slightly more variability are found when estimated burrow percentage using the horizontal slices (burrow percentage range from 6.1% to 33.1% with a mean value of 19.8% ± 6.5% and coefficient of variation of 33.1%). However, analysis of variance results indicated no statistically significant difference between the distribution of the burrow percentage among vertical and horizontal slices. A test of how randomly selected slices of the CT scan would represent the burrow percentage indicated that even five randomly selected slices could retain a mean comparable to the actual burrow percentage of the CT scan. Based on these results, we suggested a statistical way to quantify the uncertainty associated with estimating the burrow percentage…&#10;Topics: Burrow, Geology, Range (aeronautics), Paleontology, Materials science&#10;Venue: Palaios&#10;Year: 2022&#10;Citations: 11</description>
+      <description>Abstract: ABSTRACT This study examines computed tomography (CT) scans of a 15.24-cm diameter and 17.1-cm length core cut from Thalassinoides-bearing strata (Hanifa Formation, central Saudi Arabia) to explore the quantitative variability in burrow percentage when estimated using 2D views. A cropped quadrangular prism of this core allowed 202 2D slices in two vertical orientations and 165 horizontal 2D slices. Thalassinoides volume represents 20.0% (burrow percentage) of the total volume within this cropped quadrangular prism. The estimated burrow percentage by the 2D vertical slices varies from 11.8% to 30.3% with a mean value of 19.9% ± 3.3% and 19.6% ± 3.9%, and coefficients of variation of 17% and 20%, for the two vertical orientations. A wider range and slightly more variability are found when estimated burrow percentage using the horizontal slices (burrow percentage range from 6.1% to 33.1% with a mean value of 19.8% ± 6.5% and coefficient of variation of 33.1%). However, analysis of variance results indicated no statistically significant difference between the distribution of the burrow percentage among vertical and horizontal slices. A test of how randomly selected slices of the CT scan would represent the burrow percentage indicated that even five randomly selected slices could retain a mean comparable to the actual burrow percentage of the CT scan. Based on these results, we suggested a statistical way to quantify the uncertainty associated with estimating the burrow percentage…&#10;Topics: Burrow, Geology, Range (aeronautics), Paleontology, Materials science&#10;Venue: Palaios&#10;Year: 2022&#10;Citations: 10</description>
     </item>
     <item>
       <title>The Negative Impact of Ophiomorpha on Reservoir Quality of Tidal Channel Deposits: The Case Study of the Dam Formation, Saudi Arabia</title>
-      <link>https://doi.org/10.2139/ssrn.4002127</link>
+      <link>https://doi.org/10.1016/j.marpetgeo.2022.105666</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://openalex.org/W4205343768</guid>
-      <dc:creator>Hassan A. Eltom, Abdullah Alqubalee, Anas Muhammad Salisu, Jaber Muharrag</dc:creator>
-      <dc:publisher>SSRN Electronic Journal</dc:publisher>
-      <category>Channel (broadcasting)</category>
+      <guid isPermaLink="false">https://openalex.org/W4220873824</guid>
+      <dc:creator>Abdullah Alqubalee, Jaber Muharrag, Anas Muhammad Salisu, Hassan A. Eltom</dc:creator>
+      <dc:publisher>Marine and Petroleum Geology</dc:publisher>
       <category>Geology</category>
-      <category>Quality (philosophy)</category>
-      <category>Water resource management</category>
-      <category>Hydrology (agriculture)</category>
-      <description>Topics: Channel (broadcasting), Geology, Quality (philosophy), Water resource management, Hydrology (agriculture)&#10;Venue: SSRN Electronic Journal&#10;Year: 2022&#10;Citations: 0</description>
+      <category>Siliciclastic</category>
+      <category>Petrophysics</category>
+      <category>Petrography</category>
+      <category>Sedimentary rock</category>
+      <description>Topics: Geology, Siliciclastic, Petrophysics, Petrography, Sedimentary rock&#10;Venue: Marine and Petroleum Geology&#10;Year: 2022&#10;Citations: 18</description>
     </item>
     <item>
       <title>Geochemistry and organofacies characteristics of organic-rich chalky marl deposits, northern Jordan: Insights into Type II-S source rock</title>
@@ -512,7 +470,7 @@
       <category>Marl</category>
       <category>Geology</category>
       <category>Source rock</category>
-      <description>Topics: Kerogen, Maceral, Marl, Geology, Source rock&#10;Venue: Journal of Asian Earth Sciences&#10;Year: 2021&#10;Citations: 7</description>
+      <description>Topics: Kerogen, Maceral, Marl, Geology, Source rock&#10;Venue: Journal of Asian Earth Sciences&#10;Year: 2021&#10;Citations: 8</description>
     </item>
     <item>
       <title>Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis</title>
@@ -526,7 +484,7 @@
       <category>Structural geology</category>
       <category>Geology</category>
       <category>Mineral resource classification</category>
-      <description>Topics: Bioturbation, Sedimentology, Structural geology, Geology, Mineral resource classification&#10;Venue: International Journal of Earth Sciences&#10;Year: 2021&#10;Citations: 14</description>
+      <description>Topics: Bioturbation, Sedimentology, Structural geology, Geology, Mineral resource classification&#10;Venue: International Journal of Earth Sciences&#10;Year: 2021&#10;Citations: 13</description>
     </item>
     <item>
       <title>Geochemical Characterization of Subsurface Upper Ordovician Glaciogenic Deposits: Implications for Provenance, Tectonic Setting, and Depositional Environments</title>
@@ -624,7 +582,7 @@
       <category>Geology</category>
       <category>Siliciclastic</category>
       <category>Carbonate</category>
-      <description>Topics: Burrow, Bioturbation, Geology, Siliciclastic, Carbonate&#10;Venue: Marine and Petroleum Geology&#10;Year: 2020&#10;Citations: 33</description>
+      <description>Topics: Burrow, Bioturbation, Geology, Siliciclastic, Carbonate&#10;Venue: Marine and Petroleum Geology&#10;Year: 2020&#10;Citations: 34</description>
     </item>
     <item>
       <title>The Effect of Clay Content on the Spin–Spin NMR Relaxation Time Measured in Porous Media</title>
@@ -751,20 +709,6 @@
       <category>Paleontology</category>
       <category>Geochemistry</category>
       <description>Topics: Geology, Ordovician, Interpretation (philosophy), Paleontology, Geochemistry&#10;Venue: EGU General Assembly Conference Abstracts&#10;Year: 2017&#10;Citations: 1</description>
-    </item>
-    <item>
-      <title>Lithofacies and Petrophysical Characterization of the Late Ordovician Sarah Formation, Rub’ Al-Khali Basin, Saudi Arabia</title>
-      <link>https://openalex.org/W7167166554</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://openalex.org/W7167166554</guid>
-      <dc:creator>Abdullah Alqubalee</dc:creator>
-      <dc:publisher>Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)</dc:publisher>
-      <category>Geology</category>
-      <category>Ordovician</category>
-      <category>Petrophysics</category>
-      <category>Paleontology</category>
-      <category>Geochemistry</category>
-      <description>Topics: Geology, Ordovician, Petrophysics, Paleontology, Geochemistry&#10;Venue: Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)&#10;Year: 2017&#10;Citations: 0</description>
     </item>
   </channel>
 </rss>

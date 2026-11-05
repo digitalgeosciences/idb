@@ -19,38 +19,38 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 38,
-    "citations": 451
+    "publications": 35,
+    "citations": 452
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
-    "publications": 31,
+    "publications": 28,
     "citations": 343
-  },
-  {
-    "id": "https://openalex.org/T10109",
-    "name": "Paleontology and Stratigraphy of Fossils",
-    "publications": 15,
-    "citations": 131
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
-    "citations": 179
+    "citations": 180
+  },
+  {
+    "id": "https://openalex.org/T10109",
+    "name": "Paleontology and Stratigraphy of Fossils",
+    "publications": 14,
+    "citations": 131
   },
   {
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
-    "publications": 9,
+    "publications": 8,
     "citations": 123
   },
   {
     "id": "https://openalex.org/T13193",
     "name": "Geological Studies and Exploration",
-    "publications": 7,
-    "citations": 36
+    "publications": 6,
+    "citations": 37
   },
   {
     "id": "https://openalex.org/T11302",
@@ -61,8 +61,8 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T13067",
     "name": "Geological Modeling and Analysis",
-    "publications": 4,
-    "citations": 14
+    "publications": 3,
+    "citations": 13
   },
   {
     "id": "https://openalex.org/T12157",
@@ -77,12 +77,6 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T12100",
-    "name": "Advanced Mathematical Modeling in Engineering",
-    "publications": 3,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 2,
@@ -92,19 +86,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10271",
     "name": "Seismic Imaging and Inversion Techniques",
     "publications": 2,
-    "citations": 36
+    "citations": 37
   },
   {
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
     "citations": 13
-  },
-  {
-    "id": "https://openalex.org/T10161",
-    "name": "Rock Mechanics and Modeling",
-    "publications": 2,
-    "citations": 6
   },
   {
     "id": "https://openalex.org/T10017",
@@ -131,6 +119,12 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
+    "id": "https://openalex.org/T12100",
+    "name": "Advanced Mathematical Modeling in Engineering",
+    "publications": 2,
+    "citations": 0
+  },
+  {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 1,
@@ -147,6 +141,12 @@ export const topicStats: TopicStats[] = [
     "name": "Drilling and Well Engineering",
     "publications": 1,
     "citations": 8
+  },
+  {
+    "id": "https://openalex.org/T10161",
+    "name": "Rock Mechanics and Modeling",
+    "publications": 1,
+    "citations": 6
   },
   {
     "id": "https://openalex.org/T10995",
@@ -238,8 +238,8 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 47,
-    "citations": 479
+    "publications": 44,
+    "citations": 480
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -257,7 +257,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
-    "citations": 40
+    "citations": 41
   },
   {
     "id": "https://openalex.org/I47818738",
@@ -278,22 +278,22 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 36
   },
   {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 2,
+    "citations": 16
+  },
+  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 2,
-    "citations": 15
+    "citations": 16
   },
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
     "publications": 2,
-    "citations": 15
-  },
-  {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 2,
-    "citations": 15
+    "citations": 16
   },
   {
     "id": "https://openalex.org/I162577319",
@@ -338,6 +338,30 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 10
   },
   {
+    "id": "https://openalex.org/I36197038",
+    "name": "Taiz University",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I4401041618",
+    "name": "Imam Ja’afar Al-Sadiq University",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I59225215",
+    "name": "Bahria University",
+    "publications": 1,
+    "citations": 8
+  },
+  {
+    "id": "https://openalex.org/I55202024",
+    "name": "Usmanu Danfodiyo University",
+    "publications": 1,
+    "citations": 8
+  },
+  {
     "id": "https://openalex.org/I21203515",
     "name": "Kazan Federal University",
     "publications": 1,
@@ -360,30 +384,6 @@ export const institutionStats: InstitutionStats[] = [
     "name": "University of Poonch Rawalakot",
     "publications": 1,
     "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I36197038",
-    "name": "Taiz University",
-    "publications": 1,
-    "citations": 7
-  },
-  {
-    "id": "https://openalex.org/I4401041618",
-    "name": "Imam Ja’afar Al-Sadiq University",
-    "publications": 1,
-    "citations": 7
-  },
-  {
-    "id": "https://openalex.org/I59225215",
-    "name": "Bahria University",
-    "publications": 1,
-    "citations": 7
-  },
-  {
-    "id": "https://openalex.org/I55202024",
-    "name": "Usmanu Danfodiyo University",
-    "publications": 1,
-    "citations": 7
   },
   {
     "id": "https://openalex.org/I60342839",
