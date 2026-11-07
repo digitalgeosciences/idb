@@ -279,38 +279,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W2944809997",
-    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Mohammad Makkawi"
-    ],
-    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-08",
-    "year": 2019,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 21,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4399072009",
     "doi": "https://doi.org/10.1016/j.jafrearsci.2024.105295",
     "program": "",
@@ -373,7 +341,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-10-27",
     "year": 2023,
     "venue": "Scientific Reports",
-    "citations": 11,
+    "citations": 12,
     "topics": [
       "Geological formations and processes",
       "Geochemistry and Elemental Analysis",
@@ -382,57 +350,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4398159676",
-    "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5011750653",
-      "A5035240990",
-      "A5087693955",
-      "A5091048626",
-      "A5039769816",
-      "A5075689314",
-      "A5068582901",
-      "A5112600754",
-      "A5064790520"
-    ],
-    "firstAuthorLastName": "Whattam",
-    "allAuthors": [
-      "Scott Andrew Whattam",
-      "Robert J. Stern",
-      "Hossein Azizi",
-      "Keewook Yi",
-      "Haitham M. Baggazi",
-      "Abdullah Alqubalee",
-      "Fatemeh Nouri",
-      "Brian R. Jicha",
-      "Yanick Brice Lemdjou",
-      "Abdelhamid El-Fakharani"
-    ],
-    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
-    "publicationDate": "2024-05-21",
-    "year": 2024,
-    "venue": "Precambrian Research",
-    "citations": 10,
-    "topics": [
-      "Geological and Geochemical Analysis",
-      "Geological and Geophysical Studies",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "The University of Texas at Dallas",
-      "University of Kurdistan",
-      "Korea Basic Science Institute",
-      "King Abdulaziz University",
-      "University of Wisconsin–Madison",
-      "Central South University",
-      "Aswan University"
     ]
   },
   {
@@ -498,6 +415,38 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
       "Enhanced Oil Recovery Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W2944809997",
+    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Mohammad Makkawi"
+    ],
+    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-08",
+    "year": 2019,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 21,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -601,6 +550,57 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4398159676",
+    "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5011750653",
+      "A5035240990",
+      "A5087693955",
+      "A5091048626",
+      "A5039769816",
+      "A5075689314",
+      "A5068582901",
+      "A5112600754",
+      "A5064790520"
+    ],
+    "firstAuthorLastName": "Whattam",
+    "allAuthors": [
+      "Scott Andrew Whattam",
+      "Robert J. Stern",
+      "Hossein Azizi",
+      "Keewook Yi",
+      "Haitham M. Baggazi",
+      "Abdullah Alqubalee",
+      "Fatemeh Nouri",
+      "Brian R. Jicha",
+      "Yanick Brice Lemdjou",
+      "Abdelhamid El-Fakharani"
+    ],
+    "title": "Shift from arc to within-plate magmatism at 635 Ma as recorded by Neoproterozoic dikes, southern Midyan terrane, NW Arabian Shield",
+    "publicationDate": "2024-05-21",
+    "year": 2024,
+    "venue": "Precambrian Research",
+    "citations": 10,
+    "topics": [
+      "Geological and Geochemical Analysis",
+      "Geological and Geophysical Studies",
+      "Geochemistry and Elemental Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "The University of Texas at Dallas",
+      "University of Kurdistan",
+      "Korea Basic Science Institute",
+      "King Abdulaziz University",
+      "University of Wisconsin–Madison",
+      "Central South University",
+      "Aswan University"
     ]
   },
   {
@@ -1046,6 +1046,38 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W3195332584",
+    "doi": "https://doi.org/10.1007/s13369-021-06066-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Hassan A. Eltom"
+    ],
+    "title": "Geochemical Characterization of Subsurface Upper Ordovician Glaciogenic Deposits: Implications for Provenance, Tectonic Setting, and Depositional Environments",
+    "publicationDate": "2021-08-20",
+    "year": 2021,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 3,
+    "topics": [
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes",
+      "Geological and Geochemical Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4392964788",
     "doi": "https://doi.org/10.1007/978-3-031-48758-3_8",
     "program": "",
@@ -1093,38 +1125,6 @@ export const worksTable: WorkTableRecord[] = [
       "University of Regina",
       "King Fahd University of Petroleum and Minerals",
       "Qatar University"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3195332584",
-    "doi": "https://doi.org/10.1007/s13369-021-06066-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Hassan A. Eltom"
-    ],
-    "title": "Geochemical Characterization of Subsurface Upper Ordovician Glaciogenic Deposits: Implications for Provenance, Tectonic Setting, and Depositional Environments",
-    "publicationDate": "2021-08-20",
-    "year": 2021,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 3,
-    "topics": [
-      "Geochemistry and Elemental Analysis",
-      "Geological formations and processes",
-      "Geological and Geochemical Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {

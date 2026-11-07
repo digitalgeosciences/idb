@@ -26,19 +26,19 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 343
+    "citations": 344
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
-    "citations": 180
+    "citations": 181
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 131
+    "citations": 132
   },
   {
     "id": "https://openalex.org/T10491",
@@ -125,14 +125,14 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T13177",
-    "name": "Geological and Geophysical Studies",
+    "id": "https://openalex.org/T11852",
+    "name": "Clay minerals and soil interactions",
     "publications": 1,
     "citations": 10
   },
   {
-    "id": "https://openalex.org/T11852",
-    "name": "Clay minerals and soil interactions",
+    "id": "https://openalex.org/T13177",
+    "name": "Geological and Geophysical Studies",
     "publications": 1,
     "citations": 10
   },
@@ -239,13 +239,13 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 480
+    "citations": 481
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 25
+    "citations": 26
   },
   {
     "id": "https://openalex.org/I86519309",
