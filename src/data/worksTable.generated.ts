@@ -170,40 +170,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4313367735",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014657720",
-      "A5085007251",
-      "A5044235421",
-      "A5027197211"
-    ],
-    "firstAuthorLastName": "Bello",
-    "allAuthors": [
-      "Abdulwahab Muhammad Bello",
-      "Khalid A. Al-Ramadan",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Abduljamiu Olalekan Amao"
-    ],
-    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
-    "publicationDate": "2022-12-23",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 29,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4388205616",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106568",
     "program": "",
@@ -231,7 +197,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-10-26",
     "year": 2023,
     "venue": "Marine and Petroleum Geology",
-    "citations": 29,
+    "citations": 30,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Elemental Analysis",
@@ -273,6 +239,40 @@ export const worksTable: WorkTableRecord[] = [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
       "Enhanced Oil Recovery Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4313367735",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014657720",
+      "A5085007251",
+      "A5044235421",
+      "A5027197211"
+    ],
+    "firstAuthorLastName": "Bello",
+    "allAuthors": [
+      "Abdulwahab Muhammad Bello",
+      "Khalid A. Al-Ramadan",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Abduljamiu Olalekan Amao"
+    ],
+    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
+    "publicationDate": "2022-12-23",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 28,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -604,6 +604,36 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4317376201",
+    "doi": "https://doi.org/10.2118/214460-ms",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5017097772",
+      "A5091022304"
+    ],
+    "firstAuthorLastName": "Desouky",
+    "allAuthors": [
+      "Mahmoud Desouky",
+      "Abdullah Alqubalee",
+      "Ahmed H. Gowida"
+    ],
+    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
+    "publicationDate": "2023-01-19",
+    "year": 2023,
+    "venue": "",
+    "citations": 9,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Geologic Mapping",
+      "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3195908734",
     "doi": "https://doi.org/10.1007/s00531-021-02102-z",
     "program": "",
@@ -825,36 +855,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4317376201",
-    "doi": "https://doi.org/10.2118/214460-ms",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5017097772",
-      "A5091022304"
-    ],
-    "firstAuthorLastName": "Desouky",
-    "allAuthors": [
-      "Mahmoud Desouky",
-      "Abdullah Alqubalee",
-      "Ahmed H. Gowida"
-    ],
-    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
-    "publicationDate": "2023-01-19",
-    "year": 2023,
-    "venue": "",
-    "citations": 8,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Geologic Mapping",
-      "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4391167607",
     "doi": "https://doi.org/10.3390/min14020126",
     "program": "",
@@ -1000,7 +1000,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-11-20",
     "year": 2022,
     "venue": "International Journal of Earth Sciences",
-    "citations": 4,
+    "citations": 5,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
       "Geology and Paleoclimatology Research",

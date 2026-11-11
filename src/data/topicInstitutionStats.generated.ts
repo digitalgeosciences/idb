@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 35,
-    "citations": 463
+    "citations": 464
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 355
+    "citations": 356
   },
   {
     "id": "https://openalex.org/T11740",
@@ -38,7 +38,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 137
+    "citations": 138
   },
   {
     "id": "https://openalex.org/T10491",
@@ -68,7 +68,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 3,
-    "citations": 9
+    "citations": 10
   },
   {
     "id": "https://openalex.org/T10955",
@@ -98,7 +98,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10017",
     "name": "Geology and Paleoclimatology Research",
     "publications": 2,
-    "citations": 4
+    "citations": 5
   },
   {
     "id": "https://openalex.org/T11354",
@@ -140,7 +140,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 1,
-    "citations": 8
+    "citations": 9
   },
   {
     "id": "https://openalex.org/T10161",
@@ -239,7 +239,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 494
+    "citations": 496
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -251,7 +251,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 46
+    "citations": 47
   },
   {
     "id": "https://openalex.org/I203899302",
