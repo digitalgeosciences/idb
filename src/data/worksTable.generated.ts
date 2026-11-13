@@ -1693,30 +1693,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W7167181268",
-    "doi": "",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee"
-    ],
-    "title": "Microscale Heterogeneity of the Upper Triassic Minjur Sandstone: Implications for CO₂ Storage",
-    "publicationDate": "2025-01-01",
-    "year": 2025,
-    "venue": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
-    "citations": 0,
-    "topics": [
-      "CO2 Sequestration and Geologic Interactions",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Enhanced Oil Recovery Techniques"
-    ],
-    "institutions": []
-  },
-  {
     "workId": "https://openalex.org/W7204931662",
     "doi": "https://doi.org/10.1021/acs.energyfuels.6c01965",
     "program": "",

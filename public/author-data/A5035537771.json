@@ -15,10 +15,10 @@
       "Alqubalee, Abdullah"
     ],
     "full_name": "ABDULLAH MOHAMMED ALQUBALEE",
-    "works_count": 58,
+    "works_count": 57,
     "cited_by_count": 497,
     "summary_stats": {
-      "2yr_mean_citedness": 2.85,
+      "2yr_mean_citedness": 3,
       "h_index": 14,
       "i10_index": 20
     },
@@ -70,7 +70,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "count": 37,
+        "count": 36,
         "subfield": {
           "id": "https://openalex.org/subfields/1907",
           "display_name": "Geology"
@@ -138,7 +138,7 @@
       {
         "id": "https://openalex.org/T10491",
         "display_name": "Enhanced Oil Recovery Techniques",
-        "count": 8,
+        "count": 7,
         "subfield": {
           "id": "https://openalex.org/subfields/2103",
           "display_name": "Fuel Technology"
@@ -157,7 +157,7 @@
       {
         "id": "https://openalex.org/T10399",
         "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "value": 0.0000885,
+        "value": 0.0000861,
         "subfield": {
           "id": "https://openalex.org/subfields/1907",
           "display_name": "Geology"
@@ -165,23 +165,6 @@
         "field": {
           "id": "https://openalex.org/fields/19",
           "display_name": "Earth and Planetary Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10491",
-        "display_name": "Enhanced Oil Recovery Techniques",
-        "value": 0.0000438,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2103",
-          "display_name": "Fuel Technology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/21",
-          "display_name": "Energy"
         },
         "domain": {
           "id": "https://openalex.org/domains/3",
@@ -206,9 +189,26 @@
         }
       },
       {
+        "id": "https://openalex.org/T10491",
+        "display_name": "Enhanced Oil Recovery Techniques",
+        "value": 0.0000383,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2103",
+          "display_name": "Fuel Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11302",
         "display_name": "CO2 Sequestration and Geologic Interactions",
-        "value": 0.0000401,
+        "value": 0.0000321,
         "subfield": {
           "id": "https://openalex.org/subfields/2305",
           "display_name": "Environmental Engineering"
@@ -225,7 +225,7 @@
       {
         "id": "https://openalex.org/T11740",
         "display_name": "Geochemistry and Elemental Analysis",
-        "value": 0.0000281,
+        "value": 0.000028,
         "subfield": {
           "id": "https://openalex.org/subfields/1906",
           "display_name": "Geochemistry and Petrology"
@@ -323,7 +323,7 @@
       },
       {
         "year": 2025,
-        "works_count": 6,
+        "works_count": 5,
         "oa_works_count": 3,
         "cited_by_count": 112
       },
@@ -346,7 +346,7 @@
     "works_api_url": "https://api.openalex.org/works?filter=author.id:A5035537771",
     "awards_count": 0,
     "awards_api_url": "https://api.openalex.org/awards?filter=investigators.author.id:A5035537771",
-    "updated_date": "2026-11-10T14:30:39",
+    "updated_date": "2026-11-12T13:17:38",
     "created_date": "2017-06-05T00:00:00"
   },
   "works": [
@@ -21716,11 +21716,11 @@
         "currency": "CHF",
         "value_usd": 2728
       },
-      "fwci": 1.9258,
+      "fwci": 1.9132,
       "has_fulltext": true,
       "cited_by_count": 8,
       "citation_normalized_percentile": {
-        "value": 0.83710042,
+        "value": 0.83565415,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -21811,7 +21811,7 @@
         {
           "id": "https://openalex.org/keywords/paleocene-eocene",
           "display_name": "Paleocene-Eocene",
-          "score": 0.9240000247955322
+          "score": 0.9509999752044678
         },
         {
           "id": "https://openalex.org/keywords/organic-rich-shale",
@@ -21821,62 +21821,62 @@
         {
           "id": "https://openalex.org/keywords/organic-carbon-accumulation",
           "display_name": "organic carbon accumulation",
-          "score": 0.7049999833106995
-        },
-        {
-          "id": "https://openalex.org/keywords/anoxic-marine-environment",
-          "display_name": "anoxic marine environment",
-          "score": 0.6430000066757202
-        },
-        {
-          "id": "https://openalex.org/keywords/paleoenvironmental-conditions",
-          "display_name": "paleoenvironmental conditions",
-          "score": 0.6669999957084656
+          "score": 0.7739999890327454
         },
         {
           "id": "https://openalex.org/keywords/volcanism",
           "display_name": "volcanic activity",
-          "score": 0.6859999895095825
+          "score": 0.7409999966621399
         },
         {
-          "id": "https://openalex.org/keywords/hydrothermal-activity",
-          "display_name": "hydrothermal activity",
-          "score": 0.7929999828338623
+          "id": "https://openalex.org/keywords/zeolites",
+          "display_name": "zeolites",
+          "score": 0.7730000019073486
         },
         {
-          "id": "https://openalex.org/keywords/olivine",
-          "display_name": "olivine",
-          "score": 0.7419999837875366
+          "id": "https://openalex.org/keywords/apophyllite",
+          "display_name": "apophyllite",
+          "score": 0.843999981880188
         },
         {
-          "id": "https://openalex.org/keywords/trace-elements",
-          "display_name": "trace elements",
-          "score": 0.5109999775886536
+          "id": "https://openalex.org/keywords/tridymite",
+          "display_name": "tridymite",
+          "score": 0.9940000176429749
+        },
+        {
+          "id": "https://openalex.org/keywords/anoxia",
+          "display_name": "anoxia",
+          "score": 0.6570000052452087
         },
         {
           "id": "https://openalex.org/keywords/phytoplankton",
           "display_name": "phytoplankton",
-          "score": 0.7369999885559082
+          "score": 0.7020000219345093
         },
         {
-          "id": "https://openalex.org/keywords/organic-matter-preservation",
-          "display_name": "organic matter preservation",
-          "score": 0.6890000104904175
+          "id": "https://openalex.org/keywords/lamalginite",
+          "display_name": "lamalginite",
+          "score": 0.9950000047683716
         },
         {
           "id": "https://openalex.org/keywords/redox-sensitive-trace-elements",
           "display_name": "redox-sensitive elements",
-          "score": 0.5950000286102295
+          "score": 0.9020000100135803
         },
         {
-          "id": "https://openalex.org/keywords/nutrient-enrichment",
-          "display_name": "nutrient enrichment",
-          "score": 0.4569999873638153
+          "id": "https://openalex.org/keywords/hydrothermal-activity",
+          "display_name": "hydrothermal activity",
+          "score": 0.9129999876022339
         },
         {
-          "id": "https://openalex.org/keywords/western-rajasthan",
-          "display_name": "Western Rajasthan",
-          "score": 0.48500001430511475
+          "id": "https://openalex.org/keywords/nutrient-inputs",
+          "display_name": "nutrient inputs",
+          "score": 0.49900001287460327
+        },
+        {
+          "id": "https://openalex.org/keywords/ash-accumulation",
+          "display_name": "ash accumulation",
+          "score": 0.41100001335144043
         }
       ],
       "concepts": [
@@ -22857,7 +22857,7 @@
           "cited_by_count": 3
         }
       ],
-      "updated_date": "2026-11-11T12:16:26.678958",
+      "updated_date": "2026-11-12T12:28:57.059296",
       "created_date": "2024-01-25T00:00:00"
     },
     {
@@ -25792,8 +25792,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "score": 0.5351999998092651,
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13"
         }
       ],
@@ -29486,13 +29486,13 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "score": 0.9853000044822693,
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7"
         },
         {
-          "display_name": "Climate action",
           "score": 0.9786999821662903,
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13"
         }
       ],
@@ -34281,10 +34281,10 @@
         "source": {
           "id": "https://openalex.org/S25214041",
           "display_name": "Stratigraphy",
-          "issn_l": "1547-139X",
+          "issn_l": "2331-656X",
           "issn": [
-            "1547-139X",
-            "2331-656X"
+            "2331-656X",
+            "1547-139X"
           ],
           "is_oa": false,
           "is_in_doaj": false,
@@ -34685,10 +34685,10 @@
           "source": {
             "id": "https://openalex.org/S25214041",
             "display_name": "Stratigraphy",
-            "issn_l": "1547-139X",
+            "issn_l": "2331-656X",
             "issn": [
-              "1547-139X",
-              "2331-656X"
+              "2331-656X",
+              "1547-139X"
             ],
             "is_oa": false,
             "is_in_doaj": false,
@@ -35156,7 +35156,7 @@
         ]
       },
       "counts_by_year": [],
-      "updated_date": "2026-10-16T09:59:22.235173",
+      "updated_date": "2026-11-12T12:28:57.059296",
       "created_date": "2023-11-12T00:00:00"
     },
     {
@@ -35806,8 +35806,8 @@
       },
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "score": 0.75,
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7"
         }
       ],
@@ -39742,13 +39742,13 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "score": 0.9786999821662903,
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13"
         },
         {
-          "display_name": "Affordable and clean energy",
           "score": 0.878000020980835,
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7"
         }
       ],
@@ -42190,8 +42190,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "score": 0.5351999998092651,
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13"
         }
       ],
@@ -43053,345 +43053,6 @@
       "created_date": "2026-07-02T00:00:00"
     },
     {
-      "id": "https://openalex.org/W7167181268",
-      "doi": null,
-      "title": "Microscale Heterogeneity of the Upper Triassic Minjur Sandstone: Implications for CO₂ Storage",
-      "display_name": "Microscale Heterogeneity of the Upper Triassic Minjur Sandstone: Implications for CO₂ Storage",
-      "publication_year": 2025,
-      "publication_date": "2025-01-01",
-      "ids": {
-        "openalex": "https://openalex.org/W7167181268"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "pmh:oai:eprints.kfupm.edu.sa:143208",
-        "doi": null,
-        "is_oa": false,
-        "landing_page_url": "https://eprints.kfupm.edu.sa/id/eprint/143208/1/PhD_Abdullah%20Alqubalee%20v.18_final%20v2.pdf",
-        "pdf_url": "https://eprints.kfupm.edu.sa/id/eprint/143208/1/PhD_Abdullah%20Alqubalee%20v.18_final%20v2.pdf",
-        "source": {
-          "id": "https://openalex.org/S4306400607",
-          "display_name": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/I134085113",
-          "host_organization_name": "King Fahd University of Petroleum and Minerals",
-          "host_organization_lineage": [
-            "https://openalex.org/I134085113"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "acceptedVersion",
-        "is_accepted": true,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "Thesis"
-      },
-      "volume": null,
-      "type": "dissertation",
-      "is_traditional": true,
-      "indexed_in": [],
-      "open_access": {
-        "is_oa": false,
-        "oa_status": "closed",
-        "oa_url": null,
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5035537771",
-            "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-0543-9026"
-            ]
-          },
-          "institutions": [],
-          "countries": [],
-          "is_corresponding": true,
-          "raw_author_name": "ALQUBALEE, ABDULLAH",
-          "raw_affiliation_strings": [],
-          "raw_orcid": null,
-          "affiliations": []
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 0,
-      "institutions_distinct_count": 0,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5035537771"
-      ],
-      "corresponding_institution_ids": [],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": null,
-      "has_fulltext": false,
-      "cited_by_count": 0,
-      "citation_normalized_percentile": null,
-      "cited_by_percentile_year": null,
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": null,
-        "last_page": null
-      },
-      "is_retracted": false,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T11302",
-        "display_name": "CO2 Sequestration and Geologic Interactions",
-        "score": 0.9955999851226807,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2305",
-          "display_name": "Environmental Engineering"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T11302",
-          "display_name": "CO2 Sequestration and Geologic Interactions",
-          "score": 0.9955999851226807,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2305",
-            "display_name": "Environmental Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/23",
-            "display_name": "Environmental Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
-          "score": 0.003100000089034438,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1907",
-            "display_name": "Geology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T10491",
-          "display_name": "Enhanced Oil Recovery Techniques",
-          "score": 0.0005000000237487257,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2103",
-            "display_name": "Fuel Technology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/21",
-            "display_name": "Energy"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/upper-triassic",
-          "display_name": "Upper Triassic",
-          "score": 0.9399999976158142
-        },
-        {
-          "id": "https://openalex.org/keywords/microheterogeneity",
-          "display_name": "microheterogeneity",
-          "score": 0.7870000004768372
-        },
-        {
-          "id": "https://openalex.org/keywords/co2-sequestration",
-          "display_name": "CO2 sequestration",
-          "score": 0.8349999785423279
-        },
-        {
-          "id": "https://openalex.org/keywords/reservoir-characterization",
-          "display_name": "reservoir characterization",
-          "score": 0.5559999942779541
-        },
-        {
-          "id": "https://openalex.org/keywords/sandstone-porosity",
-          "display_name": "sandstone porosity",
-          "score": 0.621999979019165
-        },
-        {
-          "id": "https://openalex.org/keywords/carbon-sequestration",
-          "display_name": "carbon sequestration",
-          "score": 0.621999979019165
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C127313418",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069",
-          "display_name": "Geology",
-          "level": 0,
-          "score": 0.5565000176429749
-        },
-        {
-          "id": "https://openalex.org/C179428855",
-          "wikidata": "https://www.wikidata.org/wiki/Q1069216",
-          "display_name": "Microscale chemistry",
-          "level": 2,
-          "score": 0.40549999475479126
-        },
-        {
-          "id": "https://openalex.org/C151730666",
-          "wikidata": "https://www.wikidata.org/wiki/Q7205",
-          "display_name": "Paleontology",
-          "level": 1,
-          "score": 0.2732999920845032
-        },
-        {
-          "id": "https://openalex.org/C13376991",
-          "wikidata": "https://www.wikidata.org/wiki/Q587698",
-          "display_name": "Ectotherm",
-          "level": 2,
-          "score": 0.2624000012874603
-        },
-        {
-          "id": "https://openalex.org/C2778660078",
-          "wikidata": "https://www.wikidata.org/wiki/Q4330674",
-          "display_name": "Overprinting",
-          "level": 3,
-          "score": 0.23399999737739563
-        },
-        {
-          "id": "https://openalex.org/C2776401178",
-          "wikidata": "https://www.wikidata.org/wiki/Q12050496",
-          "display_name": "Feature (linguistics)",
-          "level": 2,
-          "score": 0.23330000042915344
-        },
-        {
-          "id": "https://openalex.org/C2777798969",
-          "wikidata": "https://www.wikidata.org/wiki/Q3109175",
-          "display_name": "Assemblage (archaeology)",
-          "level": 2,
-          "score": 0.2224999964237213
-        },
-        {
-          "id": "https://openalex.org/C39432304",
-          "wikidata": "https://www.wikidata.org/wiki/Q188847",
-          "display_name": "Environmental science",
-          "level": 0,
-          "score": 0.21899999678134918
-        },
-        {
-          "id": "https://openalex.org/C2781291010",
-          "wikidata": "https://www.wikidata.org/wiki/Q178580",
-          "display_name": "Period (music)",
-          "level": 2,
-          "score": 0.2134999930858612
-        },
-        {
-          "id": "https://openalex.org/C2780009758",
-          "wikidata": "https://www.wikidata.org/wiki/Q6804172",
-          "display_name": "Measure (data warehouse)",
-          "level": 2,
-          "score": 0.21199999749660492
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "pmh:oai:eprints.kfupm.edu.sa:143208",
-          "doi": null,
-          "is_oa": false,
-          "landing_page_url": "https://eprints.kfupm.edu.sa/id/eprint/143208/1/PhD_Abdullah%20Alqubalee%20v.18_final%20v2.pdf",
-          "pdf_url": "https://eprints.kfupm.edu.sa/id/eprint/143208/1/PhD_Abdullah%20Alqubalee%20v.18_final%20v2.pdf",
-          "source": {
-            "id": "https://openalex.org/S4306400607",
-            "display_name": "Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I134085113",
-            "host_organization_name": "King Fahd University of Petroleum and Minerals",
-            "host_organization_lineage": [
-              "https://openalex.org/I134085113"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "acceptedVersion",
-          "is_accepted": true,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "Thesis"
-        }
-      ],
-      "best_oa_location": null,
-      "sustainable_development_goals": [
-        {
-          "display_name": "Climate action",
-          "score": 0.4399999976158142,
-          "id": "https://metadata.un.org/sdg/13"
-        }
-      ],
-      "study_designs": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "pdf": false,
-        "grobid_xml": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 0,
-      "referenced_works": [],
-      "related_works": [
-        "https://openalex.org/W7167180250",
-        "https://openalex.org/W4389560842",
-        "https://openalex.org/W6986339520",
-        "https://openalex.org/W6999657105",
-        "https://openalex.org/W7223435737",
-        "https://openalex.org/W7043345476",
-        "https://openalex.org/W108456436",
-        "https://openalex.org/W7207545240",
-        "https://openalex.org/W2773907274",
-        "https://openalex.org/W1637357405"
-      ],
-      "abstract_inverted_index": null,
-      "counts_by_year": [],
-      "updated_date": "2026-10-03T13:16:28.481748",
-      "created_date": "2026-07-03T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W7204931662",
       "doi": "https://doi.org/10.1021/acs.energyfuels.6c01965",
       "title": "One-Step Electrodeposition of Co9S8 on Ni Foam for Efficient Alkaline Overall Water Splitting",
@@ -44118,8 +43779,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Affordable and clean energy",
           "score": 0.9853000044822693,
+          "display_name": "Affordable and clean energy",
           "id": "https://metadata.un.org/sdg/7"
         }
       ],
@@ -45464,8 +45125,8 @@
       "best_oa_location": null,
       "sustainable_development_goals": [
         {
-          "display_name": "Climate action",
           "score": 0.5351999998092651,
+          "display_name": "Climate action",
           "id": "https://metadata.un.org/sdg/13"
         }
       ],

@@ -19,7 +19,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 35,
+    "publications": 34,
     "citations": 464
   },
   {
@@ -43,7 +43,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
-    "publications": 8,
+    "publications": 7,
     "citations": 125
   },
   {
@@ -55,7 +55,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T11302",
     "name": "CO2 Sequestration and Geologic Interactions",
-    "publications": 5,
+    "publications": 4,
     "citations": 0
   },
   {
