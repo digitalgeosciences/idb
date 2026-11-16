@@ -474,7 +474,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-01-01",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
-    "citations": 19,
+    "citations": 20,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -1110,7 +1110,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abdullah Alqubalee"
     ],
     "title": "Genesis of Grain-Coating Clays and Their Effect on the Development of Feldspar Overgrowths: A Case Study of the Late Cambrian to Early Ordovician Barik Formation Sandstone Reservoir, Haushi-Huqf Region, Central Oman",
-    "publicationDate": "2024-01-01",
+    "publicationDate": "2024-03-19",
     "year": 2024,
     "venue": "Advances in Science, Technology & Innovation/Advances in science, technology & innovation",
     "citations": 3,
