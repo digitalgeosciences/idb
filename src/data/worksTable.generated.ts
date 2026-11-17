@@ -47,11 +47,41 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-03-17",
     "year": 2020,
     "venue": "ACS Omega",
-    "citations": 39,
+    "citations": 40,
     "topics": [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
       "Enhanced Oil Recovery Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3102597749",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104798",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5059504799"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Mohamed A. Yassin"
+    ],
+    "title": "Potential overlooked bioturbated reservoir zones in the shallow marine strata of the Hanifa Formation in central Saudi Arabia",
+    "publicationDate": "2020-11-11",
+    "year": 2020,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 38,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -81,37 +111,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-06-16",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 35,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3102597749",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104798",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5059504799"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Mohamed A. Yassin"
-    ],
-    "title": "Potential overlooked bioturbated reservoir zones in the shallow marine strata of the Hanifa Formation in central Saudi Arabia",
-    "publicationDate": "2020-11-11",
-    "year": 2020,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 35,
+    "citations": 36,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -209,76 +209,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W3152701421",
-    "doi": "https://doi.org/10.1016/j.petrol.2021.108811",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5085377966",
-      "A5064720324",
-      "A5042838699",
-      "A5049649985",
-      "A5002974432"
-    ],
-    "firstAuthorLastName": "Elsayed",
-    "allAuthors": [
-      "Mahmoud Elsayed",
-      "Ammar El‐Husseiny",
-      "Ibrahim Kadafur",
-      "Mohamed Mahmoud",
-      "Murtada Saleh Aljawad",
-      "Abdullah Alqubalee"
-    ],
-    "title": "An experimental study on the effect of magnetic field strength and internal gradient on NMR-Derived petrophysical properties of sandstones",
-    "publicationDate": "2021-04-20",
-    "year": 2021,
-    "venue": "Journal of Petroleum Science and Engineering",
-    "citations": 28,
-    "topics": [
-      "NMR spectroscopy and applications",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Enhanced Oil Recovery Techniques"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4313367735",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014657720",
-      "A5085007251",
-      "A5044235421",
-      "A5027197211"
-    ],
-    "firstAuthorLastName": "Bello",
-    "allAuthors": [
-      "Abdulwahab Muhammad Bello",
-      "Khalid A. Al-Ramadan",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Abduljamiu Olalekan Amao"
-    ],
-    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
-    "publicationDate": "2022-12-23",
-    "year": 2022,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 28,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4399072009",
     "doi": "https://doi.org/10.1016/j.jafrearsci.2024.105295",
     "program": "",
@@ -306,7 +236,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-05-28",
     "year": 2024,
     "venue": "Journal of African Earth Sciences",
-    "citations": 17,
+    "citations": 18,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Elemental Analysis",
@@ -341,7 +271,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2023-10-27",
     "year": 2023,
     "venue": "Scientific Reports",
-    "citations": 14,
+    "citations": 15,
     "topics": [
       "Geological formations and processes",
       "Geochemistry and Elemental Analysis",
@@ -350,6 +280,76 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3152701421",
+    "doi": "https://doi.org/10.1016/j.petrol.2021.108811",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5085377966",
+      "A5064720324",
+      "A5042838699",
+      "A5049649985",
+      "A5002974432"
+    ],
+    "firstAuthorLastName": "Elsayed",
+    "allAuthors": [
+      "Mahmoud Elsayed",
+      "Ammar El‐Husseiny",
+      "Ibrahim Kadafur",
+      "Mohamed Mahmoud",
+      "Murtada Saleh Aljawad",
+      "Abdullah Alqubalee"
+    ],
+    "title": "An experimental study on the effect of magnetic field strength and internal gradient on NMR-Derived petrophysical properties of sandstones",
+    "publicationDate": "2021-04-20",
+    "year": 2021,
+    "venue": "Journal of Petroleum Science and Engineering",
+    "citations": 29,
+    "topics": [
+      "NMR spectroscopy and applications",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Enhanced Oil Recovery Techniques"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4313367735",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2022.106073",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014657720",
+      "A5085007251",
+      "A5044235421",
+      "A5027197211"
+    ],
+    "firstAuthorLastName": "Bello",
+    "allAuthors": [
+      "Abdulwahab Muhammad Bello",
+      "Khalid A. Al-Ramadan",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Abduljamiu Olalekan Amao"
+    ],
+    "title": "Impact of grain-coating illite in preventing quartz cementation: Example from permo-carboniferous sandstone, Central Saudi Arabia",
+    "publicationDate": "2022-12-23",
+    "year": 2022,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 29,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -376,7 +376,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2019-11-12",
     "year": 2019,
     "venue": "Energies",
-    "citations": 25,
+    "citations": 26,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Enhanced Oil Recovery Techniques",
@@ -410,7 +410,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2021-03-18",
     "year": 2021,
     "venue": "Journal of Natural Gas Science and Engineering",
-    "citations": 23,
+    "citations": 24,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -474,7 +474,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-01-01",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
-    "citations": 20,
+    "citations": 21,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -517,42 +517,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4223892951",
-    "doi": "https://doi.org/10.1007/s13369-022-06720-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5014177485",
-      "A5049649985",
-      "A5080526944",
-      "A5064720324",
-      "A5005252413"
-    ],
-    "firstAuthorLastName": "Afagwu",
-    "allAuthors": [
-      "Clement  Chekwube Afagwu",
-      "Mohamed Mahmoud",
-      "Saad Alafnan",
-      "Abdullah Alqubalee",
-      "Ammar El‐Husseiny",
-      "Shirish L. Patil"
-    ],
-    "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
-    "publicationDate": "2022-04-15",
-    "year": 2022,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 10,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Enhanced Oil Recovery Techniques",
-      "Clay minerals and soil interactions"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4398159676",
     "doi": "https://doi.org/10.1016/j.precamres.2024.107430",
     "program": "",
@@ -586,7 +550,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-05-21",
     "year": 2024,
     "venue": "Precambrian Research",
-    "citations": 10,
+    "citations": 12,
     "topics": [
       "Geological and Geochemical Analysis",
       "Geological and Geophysical Studies",
@@ -601,102 +565,6 @@ export const worksTable: WorkTableRecord[] = [
       "University of Wisconsin–Madison",
       "Central South University",
       "Aswan University"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4317376201",
-    "doi": "https://doi.org/10.2118/214460-ms",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5017097772",
-      "A5091022304"
-    ],
-    "firstAuthorLastName": "Desouky",
-    "allAuthors": [
-      "Mahmoud Desouky",
-      "Abdullah Alqubalee",
-      "Ahmed H. Gowida"
-    ],
-    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
-    "publicationDate": "2023-01-19",
-    "year": 2023,
-    "venue": "",
-    "citations": 9,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Geologic Mapping",
-      "Drilling and Well Engineering"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3195908734",
-    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5044235421"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Lamidi Babalola"
-    ],
-    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
-    "publicationDate": "2021-08-23",
-    "year": 2021,
-    "venue": "International Journal of Earth Sciences",
-    "citations": 13,
-    "topics": [
-      "Geological formations and processes",
-      "Geological Modeling and Analysis",
-      "Hydrocarbon exploration and reservoir analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4283757143",
-    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5064720324",
-      "A5040857714",
-      "A5006844997",
-      "A5024882078",
-      "A5044457172"
-    ],
-    "firstAuthorLastName": "El‐Husseiny",
-    "allAuthors": [
-      "Ammar El‐Husseiny",
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee",
-      "Ammar J. Abdlmutalib",
-      "Hani Salman Al-Mukainah",
-      "Rika N. Syahputra"
-    ],
-    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
-    "publicationDate": "2022-07-01",
-    "year": 2022,
-    "venue": "Natural Resources Research",
-    "citations": 13,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Seismic Imaging and Inversion Techniques",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -729,7 +597,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-01-01",
     "year": 2024,
     "venue": "Arabian Journal for Science and Engineering",
-    "citations": 9,
+    "citations": 11,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Elemental Analysis",
@@ -741,54 +609,32 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4200149467",
-    "doi": "https://doi.org/10.1016/j.jseaes.2021.105040",
+    "workId": "https://openalex.org/W4317376201",
+    "doi": "https://doi.org/10.2118/214460-ms",
     "program": "",
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5029716563",
-      "A5059202675",
-      "A5006452421",
-      "A5007946242",
-      "A5057960065",
-      "A5061703841",
-      "A5037030769",
-      "A5023467994",
-      "A5033145509"
+      "A5017097772",
+      "A5091022304"
     ],
-    "firstAuthorLastName": "Hakimi",
+    "firstAuthorLastName": "Desouky",
     "allAuthors": [
-      "Mohammed Hail Hakimi",
-      "Abbas F. Gharib",
-      "Mohammad Alqudah",
-      "Adeeb Ahmed",
-      "Baleid Ali Hatem",
-      "Khairul Azlan Mustapha",
-      "Nor Syazwani Zainal Abidin",
-      "Aref Lashin",
-      "Nura Abdulmumini Yelwa",
-      "Abdullah Alqubalee"
+      "Mahmoud Desouky",
+      "Abdullah Alqubalee",
+      "Ahmed H. Gowida"
     ],
-    "title": "Geochemistry and organofacies characteristics of organic-rich chalky marl deposits, northern Jordan: Insights into Type II-S source rock",
-    "publicationDate": "2021-12-16",
-    "year": 2021,
-    "venue": "Journal of Asian Earth Sciences",
-    "citations": 8,
+    "title": "Decision Tree Ensembles for Automatic Identification of Lithology",
+    "publicationDate": "2023-01-19",
+    "year": 2023,
+    "venue": "",
+    "citations": 10,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
-      "Geochemistry and Elemental Analysis",
-      "Geological Studies and Exploration"
+      "Geochemistry and Geologic Mapping",
+      "Drilling and Well Engineering"
     ],
     "institutions": [
-      "Taiz University",
-      "Imam Ja’afar Al-Sadiq University",
-      "Yarmouk University",
-      "Bahria University",
-      "University of Malaya",
-      "Universiti Teknologi Petronas",
-      "King Saud University",
-      "Usmanu Danfodiyo University",
       "King Fahd University of Petroleum and Minerals"
     ]
   },
@@ -826,7 +672,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-01-24",
     "year": 2024,
     "venue": "Minerals",
-    "citations": 8,
+    "citations": 10,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
       "Geochemistry and Elemental Analysis",
@@ -841,6 +687,188 @@ export const worksTable: WorkTableRecord[] = [
       "University of Technology Malaysia",
       "Yarmouk University",
       "University of Poonch Rawalakot"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4200149467",
+    "doi": "https://doi.org/10.1016/j.jseaes.2021.105040",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029716563",
+      "A5059202675",
+      "A5006452421",
+      "A5007946242",
+      "A5057960065",
+      "A5061703841",
+      "A5037030769",
+      "A5023467994",
+      "A5033145509"
+    ],
+    "firstAuthorLastName": "Hakimi",
+    "allAuthors": [
+      "Mohammed Hail Hakimi",
+      "Abbas F. Gharib",
+      "Mohammad Alqudah",
+      "Adeeb Ahmed",
+      "Baleid Ali Hatem",
+      "Khairul Azlan Mustapha",
+      "Nor Syazwani Zainal Abidin",
+      "Aref Lashin",
+      "Nura Abdulmumini Yelwa",
+      "Abdullah Alqubalee"
+    ],
+    "title": "Geochemistry and organofacies characteristics of organic-rich chalky marl deposits, northern Jordan: Insights into Type II-S source rock",
+    "publicationDate": "2021-12-16",
+    "year": 2021,
+    "venue": "Journal of Asian Earth Sciences",
+    "citations": 9,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geochemistry and Elemental Analysis",
+      "Geological Studies and Exploration"
+    ],
+    "institutions": [
+      "Taiz University",
+      "Imam Ja’afar Al-Sadiq University",
+      "Yarmouk University",
+      "Bahria University",
+      "University of Malaya",
+      "Universiti Teknologi Petronas",
+      "King Saud University",
+      "Usmanu Danfodiyo University",
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4283757143",
+    "doi": "https://doi.org/10.1007/s11053-022-10097-w",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5064720324",
+      "A5040857714",
+      "A5006844997",
+      "A5024882078",
+      "A5044457172"
+    ],
+    "firstAuthorLastName": "El‐Husseiny",
+    "allAuthors": [
+      "Ammar El‐Husseiny",
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Ammar J. Abdlmutalib",
+      "Hani Salman Al-Mukainah",
+      "Rika N. Syahputra"
+    ],
+    "title": "Distinct Petroacoustic Signature of Burrow-Related Carbonate Reservoirs: Outcrop Analog Study, Hanifa Formation, Central Saudi Arabia",
+    "publicationDate": "2022-07-01",
+    "year": 2022,
+    "venue": "Natural Resources Research",
+    "citations": 15,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Seismic Imaging and Inversion Techniques",
+      "Geological formations and processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3195908734",
+    "doi": "https://doi.org/10.1007/s00531-021-02102-z",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5044235421"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee",
+      "Lamidi Babalola"
+    ],
+    "title": "Understanding the two-dimensional quantification of bioturbation intensity through computer modeling and statistical analysis",
+    "publicationDate": "2021-08-23",
+    "year": 2021,
+    "venue": "International Journal of Earth Sciences",
+    "citations": 14,
+    "topics": [
+      "Geological formations and processes",
+      "Geological Modeling and Analysis",
+      "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4213326878",
+    "doi": "https://doi.org/10.2110/palo.2021.012",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Abdullah Alqubalee"
+    ],
+    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM THALASSINOIDES -BEARING STRATA, CENTRAL SAUDI ARABIA",
+    "publicationDate": "2022-02-22",
+    "year": 2022,
+    "venue": "Palaios",
+    "citations": 11,
+    "topics": [
+      "Geological formations and processes",
+      "Hydrocarbon exploration and reservoir analysis",
+      "Paleontology and Stratigraphy of Fossils"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4223892951",
+    "doi": "https://doi.org/10.1007/s13369-022-06720-w",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5014177485",
+      "A5049649985",
+      "A5080526944",
+      "A5064720324",
+      "A5005252413"
+    ],
+    "firstAuthorLastName": "Afagwu",
+    "allAuthors": [
+      "Clement  Chekwube Afagwu",
+      "Mohamed Mahmoud",
+      "Saad Alafnan",
+      "Abdullah Alqubalee",
+      "Ammar El‐Husseiny",
+      "Shirish L. Patil"
+    ],
+    "title": "Pore Volume Characteristics of Clay-Rich Shale: Critical Insight into the Role of Clay Types, Aluminum and Silicon Concentration",
+    "publicationDate": "2022-04-15",
+    "year": 2022,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 11,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Enhanced Oil Recovery Techniques",
+      "Clay minerals and soil interactions"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -878,34 +906,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4213326878",
-    "doi": "https://doi.org/10.2110/palo.2021.012",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Abdullah Alqubalee"
-    ],
-    "title": "QUANTITATIVE VARIABILITY OF BURROW PERCENTAGE ESTIMATED FROM 2D VIEWS: EXAMPLE FROM THALASSINOIDES -BEARING STRATA, CENTRAL SAUDI ARABIA",
-    "publicationDate": "2022-02-22",
-    "year": 2022,
-    "venue": "Palaios",
-    "citations": 10,
-    "topics": [
-      "Geological formations and processes",
-      "Hydrocarbon exploration and reservoir analysis",
-      "Paleontology and Stratigraphy of Fossils"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4223471131",
     "doi": "https://doi.org/10.1016/j.sedgeo.2022.106146",
     "program": "",
@@ -929,11 +929,77 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-04-12",
     "year": 2022,
     "venue": "Sedimentary Geology",
-    "citations": 8,
+    "citations": 9,
     "topics": [
       "Geological formations and processes",
       "Paleontology and Stratigraphy of Fossils",
       "Hydrocarbon exploration and reservoir analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3195332584",
+    "doi": "https://doi.org/10.1007/s13369-021-06066-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5040857714"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Hassan A. Eltom"
+    ],
+    "title": "Geochemical Characterization of Subsurface Upper Ordovician Glaciogenic Deposits: Implications for Provenance, Tectonic Setting, and Depositional Environments",
+    "publicationDate": "2021-08-20",
+    "year": 2021,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 6,
+    "topics": [
+      "Geochemistry and Elemental Analysis",
+      "Geological formations and processes",
+      "Geological and Geochemical Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4309553920",
+    "doi": "https://doi.org/10.1007/s00531-022-02261-7",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5035815399",
+      "A5028390167",
+      "A5039010638"
+    ],
+    "firstAuthorLastName": "Babalola",
+    "allAuthors": [
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Michael A. Kaminski",
+      "Osman Abdullatif",
+      "Mohamed Omar Abouelresh"
+    ],
+    "title": "Stable carbon and oxygen isotope records in a Middle Jurassic carbonate sequence: implications for paleoenvironment, and sea-level fluctuation, central Saudi Arabia",
+    "publicationDate": "2022-11-20",
+    "year": 2022,
+    "venue": "International Journal of Earth Sciences",
+    "citations": 6,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Geology and Paleoclimatology Research",
+      "Geological formations and processes"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -977,72 +1043,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4309553920",
-    "doi": "https://doi.org/10.1007/s00531-022-02261-7",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5035815399",
-      "A5028390167",
-      "A5039010638"
-    ],
-    "firstAuthorLastName": "Babalola",
-    "allAuthors": [
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Michael A. Kaminski",
-      "Osman Abdullatif",
-      "Mohamed Omar Abouelresh"
-    ],
-    "title": "Stable carbon and oxygen isotope records in a Middle Jurassic carbonate sequence: implications for paleoenvironment, and sea-level fluctuation, central Saudi Arabia",
-    "publicationDate": "2022-11-20",
-    "year": 2022,
-    "venue": "International Journal of Earth Sciences",
-    "citations": 5,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Geology and Paleoclimatology Research",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W3195332584",
-    "doi": "https://doi.org/10.1007/s13369-021-06066-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5040857714"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Hassan A. Eltom"
-    ],
-    "title": "Geochemical Characterization of Subsurface Upper Ordovician Glaciogenic Deposits: Implications for Provenance, Tectonic Setting, and Depositional Environments",
-    "publicationDate": "2021-08-20",
-    "year": 2021,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 3,
-    "topics": [
-      "Geochemistry and Elemental Analysis",
-      "Geological formations and processes",
-      "Geological and Geochemical Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4391286506",
     "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
     "program": "",
@@ -1067,7 +1067,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2024-01-28",
     "year": 2024,
     "venue": "Journal of Asian Earth Sciences X",
-    "citations": 3,
+    "citations": 6,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Paleontology and Stratigraphy of Fossils",
@@ -1160,6 +1160,40 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4413307018",
+    "doi": "https://doi.org/10.1038/s41598-025-15888-8",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5068641652",
+      "A5000180362",
+      "A5011378626",
+      "A5054922583"
+    ],
+    "firstAuthorLastName": "Alonso-Marroquín",
+    "allAuthors": [
+      "Fernando Alonso-Marroquín",
+      "Sarmad Zafar Khan",
+      "Abdullah Alqubalee",
+      "Péter Móra",
+      "Abdullatif Abdulrahman Al-Shuhail"
+    ],
+    "title": "Contact morphology of sand particles in dunes",
+    "publicationDate": "2025-08-19",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "citations": 1,
+    "topics": [
+      "Geotechnical Engineering and Soil Mechanics",
+      "Granular flow and fluidized beds",
+      "Aeolian processes and effects"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3128658973",
     "doi": "",
     "program": "",
@@ -1186,6 +1220,76 @@ export const worksTable: WorkTableRecord[] = [
       "Geochemistry and Geologic Mapping"
     ],
     "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W4388593599",
+    "doi": "https://doi.org/10.29041/strat.19.3.02",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029738708",
+      "A5035815399",
+      "A5082826691",
+      "A5085007251",
+      "A5061005201"
+    ],
+    "firstAuthorLastName": "Babiker",
+    "allAuthors": [
+      "Jarrah Babiker",
+      "Michael A. Kaminski",
+      "JOHN D. HUMPHREY",
+      "Khalid A. Al-Ramadan",
+      "Jonathan L. Payne",
+      "Abdullah Alqubalee"
+    ],
+    "title": "First record of shark microremains from the Lower Khartam Member, Khuff Formation: an Upper Permian origin of the genus Lissodus, or a new placement of the Permo/Triassic boundary in Saudi Arabia?",
+    "publicationDate": "2022-09-01",
+    "year": 2022,
+    "venue": "Stratigraphy",
+    "citations": 1,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Paleontology and Evolutionary Biology",
+      "Evolution and Paleontology Studies"
+    ],
+    "institutions": []
+  },
+  {
+    "workId": "https://openalex.org/W4221087233",
+    "doi": "https://doi.org/10.5194/egusphere-egu22-9154",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5029738708",
+      "A5082826691",
+      "A5085007251",
+      "A5061005201",
+      "A5035815399"
+    ],
+    "firstAuthorLastName": "Babiker",
+    "allAuthors": [
+      "Jarrah Babiker",
+      "JOHN D. HUMPHREY",
+      "Khalid A. Al-Ramadan",
+      "Jonathan L. Payne",
+      "Michael A. Kaminski",
+      "Abdullah Alqubalee"
+    ],
+    "title": "Fish fossil remains from the Khartam Member, Khuff Formation in Central Saudi Arabia: Implications for placement of the Permo/Triassic Boundary",
+    "publicationDate": "2022-03-28",
+    "year": 2022,
+    "venue": "EGU General Assembly Conference Abstracts",
+    "citations": 1,
+    "topics": [
+      "Paleontology and Stratigraphy of Fossils",
+      "Paleontology and Evolutionary Biology",
+      "Evolution and Paleontology Studies"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
   },
   {
     "workId": "https://openalex.org/W2618368271",
@@ -1317,76 +1421,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4221087233",
-    "doi": "https://doi.org/10.5194/egusphere-egu22-9154",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029738708",
-      "A5082826691",
-      "A5085007251",
-      "A5061005201",
-      "A5035815399"
-    ],
-    "firstAuthorLastName": "Babiker",
-    "allAuthors": [
-      "Jarrah Babiker",
-      "JOHN D. HUMPHREY",
-      "Khalid A. Al-Ramadan",
-      "Jonathan L. Payne",
-      "Michael A. Kaminski",
-      "Abdullah Alqubalee"
-    ],
-    "title": "Fish fossil remains from the Khartam Member, Khuff Formation in Central Saudi Arabia: Implications for placement of the Permo/Triassic Boundary",
-    "publicationDate": "2022-03-28",
-    "year": 2022,
-    "venue": "EGU General Assembly Conference Abstracts",
-    "citations": 0,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Paleontology and Evolutionary Biology",
-      "Evolution and Paleontology Studies"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4388593599",
-    "doi": "https://doi.org/10.29041/strat.19.3.02",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5029738708",
-      "A5035815399",
-      "A5082826691",
-      "A5085007251",
-      "A5061005201"
-    ],
-    "firstAuthorLastName": "Babiker",
-    "allAuthors": [
-      "Jarrah Babiker",
-      "Michael A. Kaminski",
-      "JOHN D. HUMPHREY",
-      "Khalid A. Al-Ramadan",
-      "Jonathan L. Payne",
-      "Abdullah Alqubalee"
-    ],
-    "title": "First record of shark microremains from the Lower Khartam Member, Khuff Formation: an Upper Permian origin of the genus Lissodus, or a new placement of the Permo/Triassic boundary in Saudi Arabia?",
-    "publicationDate": "2022-09-01",
-    "year": 2022,
-    "venue": "Stratigraphy",
-    "citations": 0,
-    "topics": [
-      "Paleontology and Stratigraphy of Fossils",
-      "Paleontology and Evolutionary Biology",
-      "Evolution and Paleontology Studies"
-    ],
-    "institutions": []
-  },
-  {
     "workId": "https://openalex.org/W4392600402",
     "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
     "program": "",
@@ -1423,40 +1457,6 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "CO2 Sequestration and Geologic Interactions",
       "Geochemistry and Geologic Mapping"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
-    "workId": "https://openalex.org/W4413307018",
-    "doi": "https://doi.org/10.1038/s41598-025-15888-8",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5068641652",
-      "A5000180362",
-      "A5011378626",
-      "A5054922583"
-    ],
-    "firstAuthorLastName": "Alonso-Marroquín",
-    "allAuthors": [
-      "Fernando Alonso-Marroquín",
-      "Sarmad Zafar Khan",
-      "Abdullah Alqubalee",
-      "Péter Móra",
-      "Abdullatif Abdulrahman Al-Shuhail"
-    ],
-    "title": "Contact morphology of sand particles in dunes",
-    "publicationDate": "2025-08-19",
-    "year": 2025,
-    "venue": "Scientific Reports",
-    "citations": 0,
-    "topics": [
-      "Geotechnical Engineering and Soil Mechanics",
-      "Granular flow and fluidized beds",
-      "Aeolian processes and effects"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"

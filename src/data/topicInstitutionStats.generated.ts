@@ -20,37 +20,37 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 34,
-    "citations": 465
+    "citations": 491
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 357
+    "citations": 377
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
-    "citations": 189
+    "citations": 205
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 139
+    "citations": 155
   },
   {
     "id": "https://openalex.org/T10491",
     "name": "Enhanced Oil Recovery Techniques",
     "publications": 7,
-    "citations": 125
+    "citations": 130
   },
   {
     "id": "https://openalex.org/T13193",
     "name": "Geological Studies and Exploration",
     "publications": 6,
-    "citations": 37
+    "citations": 38
   },
   {
     "id": "https://openalex.org/T11302",
@@ -62,55 +62,55 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T13067",
     "name": "Geological Modeling and Analysis",
     "publications": 3,
-    "citations": 13
+    "citations": 14
   },
   {
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 3,
-    "citations": 10
+    "citations": 11
   },
   {
     "id": "https://openalex.org/T10955",
     "name": "Paleontology and Evolutionary Biology",
     "publications": 3,
-    "citations": 0
+    "citations": 2
   },
   {
     "id": "https://openalex.org/T12603",
     "name": "NMR spectroscopy and applications",
     "publications": 2,
-    "citations": 67
+    "citations": 69
   },
   {
     "id": "https://openalex.org/T10271",
     "name": "Seismic Imaging and Inversion Techniques",
     "publications": 2,
-    "citations": 38
+    "citations": 41
   },
   {
     "id": "https://openalex.org/T10001",
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
-    "citations": 13
+    "citations": 18
   },
   {
     "id": "https://openalex.org/T10017",
     "name": "Geology and Paleoclimatology Research",
     "publications": 2,
-    "citations": 5
+    "citations": 6
   },
   {
     "id": "https://openalex.org/T11354",
     "name": "Evolution and Paleontology Studies",
     "publications": 2,
-    "citations": 0
+    "citations": 2
   },
   {
     "id": "https://openalex.org/T10233",
     "name": "Geotechnical Engineering and Soil Mechanics",
     "publications": 2,
-    "citations": 0
+    "citations": 1
   },
   {
     "id": "https://openalex.org/T11937",
@@ -125,22 +125,22 @@ export const topicStats: TopicStats[] = [
     "citations": 0
   },
   {
-    "id": "https://openalex.org/T11852",
-    "name": "Clay minerals and soil interactions",
-    "publications": 1,
-    "citations": 10
-  },
-  {
     "id": "https://openalex.org/T13177",
     "name": "Geological and Geophysical Studies",
     "publications": 1,
-    "citations": 10
+    "citations": 12
+  },
+  {
+    "id": "https://openalex.org/T11852",
+    "name": "Clay minerals and soil interactions",
+    "publications": 1,
+    "citations": 11
   },
   {
     "id": "https://openalex.org/T10892",
     "name": "Drilling and Well Engineering",
     "publications": 1,
-    "citations": 9
+    "citations": 10
   },
   {
     "id": "https://openalex.org/T10161",
@@ -158,13 +158,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10615",
     "name": "Granular flow and fluidized beds",
     "publications": 1,
-    "citations": 0
+    "citations": 1
   },
   {
     "id": "https://openalex.org/T12383",
     "name": "Aeolian processes and effects",
     "publications": 1,
-    "citations": 0
+    "citations": 1
   },
   {
     "id": "https://openalex.org/T11986",
@@ -239,25 +239,25 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 44,
-    "citations": 497
+    "citations": 532
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 29
+    "citations": 32
   },
   {
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 47
+    "citations": 48
   },
   {
     "id": "https://openalex.org/I203899302",
     "name": "Universiti Teknologi Petronas",
     "publications": 2,
-    "citations": 43
+    "citations": 44
   },
   {
     "id": "https://openalex.org/I47818738",
@@ -278,62 +278,86 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 38
   },
   {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 2,
-    "citations": 16
-  },
-  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 2,
-    "citations": 16
+    "citations": 19
   },
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
     "publications": 2,
-    "citations": 16
+    "citations": 19
+  },
+  {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 2,
+    "citations": 19
   },
   {
     "id": "https://openalex.org/I162577319",
     "name": "The University of Texas at Dallas",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I3124704065",
     "name": "University of Kurdistan",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I4210139925",
     "name": "Korea Basic Science Institute",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I185163786",
     "name": "King Abdulaziz University",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I135310074",
     "name": "University of Wisconsin–Madison",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I139660479",
     "name": "Central South University",
     "publications": 1,
-    "citations": 10
+    "citations": 12
   },
   {
     "id": "https://openalex.org/I86310350",
     "name": "Aswan University",
+    "publications": 1,
+    "citations": 12
+  },
+  {
+    "id": "https://openalex.org/I21203515",
+    "name": "Kazan Federal University",
+    "publications": 1,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I98210582",
+    "name": "Rajiv Gandhi Institute of Petroleum Technology",
+    "publications": 1,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I4576418",
+    "name": "University of Technology Malaysia",
+    "publications": 1,
+    "citations": 10
+  },
+  {
+    "id": "https://openalex.org/I4387154749",
+    "name": "University of Poonch Rawalakot",
     "publications": 1,
     "citations": 10
   },
@@ -341,49 +365,25 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I36197038",
     "name": "Taiz University",
     "publications": 1,
-    "citations": 8
+    "citations": 9
   },
   {
     "id": "https://openalex.org/I4401041618",
     "name": "Imam Ja’afar Al-Sadiq University",
     "publications": 1,
-    "citations": 8
+    "citations": 9
   },
   {
     "id": "https://openalex.org/I59225215",
     "name": "Bahria University",
     "publications": 1,
-    "citations": 8
+    "citations": 9
   },
   {
     "id": "https://openalex.org/I55202024",
     "name": "Usmanu Danfodiyo University",
     "publications": 1,
-    "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I21203515",
-    "name": "Kazan Federal University",
-    "publications": 1,
-    "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I98210582",
-    "name": "Rajiv Gandhi Institute of Petroleum Technology",
-    "publications": 1,
-    "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I4576418",
-    "name": "University of Technology Malaysia",
-    "publications": 1,
-    "citations": 8
-  },
-  {
-    "id": "https://openalex.org/I4387154749",
-    "name": "University of Poonch Rawalakot",
-    "publications": 1,
-    "citations": 8
+    "citations": 9
   },
   {
     "id": "https://openalex.org/I60342839",
