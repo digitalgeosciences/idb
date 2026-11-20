@@ -1421,48 +1421,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4392600402",
-    "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5094100781",
-      "A5000790686",
-      "A5011750653",
-      "A5054922583",
-      "A5111604304",
-      "A5102626965",
-      "A5082334094",
-      "A5102958146"
-    ],
-    "firstAuthorLastName": "Saidy",
-    "allAuthors": [
-      "Kebba Saidy",
-      "Manzar Fawad",
-      "Scott Andrew Whattam",
-      "Abdullatif Abdulrahman Al-Shuhail",
-      "Abdullah A. Alshuhail",
-      "Abdullah Alqubalee",
-      "Farooqui Mohammed",
-      "Faris Sulistyohariyanto",
-      "Sabyasachi Chattopadhyay"
-    ],
-    "title": "Unlocking the H2 potential in Saudi Arabia: Exploring serpentinites as a source for H2 production",
-    "publicationDate": "2024-03-08",
-    "year": 2024,
-    "venue": "EGU General Assembly Conference Abstracts",
-    "citations": 0,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "CO2 Sequestration and Geologic Interactions",
-      "Geochemistry and Geologic Mapping"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W7115004822",
     "doi": "https://doi.org/10.5281/zenodo.17915410",
     "program": "",

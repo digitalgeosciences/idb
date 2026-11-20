@@ -780,12 +780,12 @@
         "currency": "USD",
         "value_usd": 750
       },
-      "fwci": 2.1612,
+      "fwci": 2.1533,
       "is_authors_truncated": false,
-      "has_fulltext": false,
+      "has_fulltext": true,
       "cited_by_count": 40,
       "citation_normalized_percentile": {
-        "value": 0.88104782,
+        "value": 0.88055659,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -1063,6 +1063,37 @@
           "raw_type": "journal-article"
         },
         {
+          "id": "pmh:oai:pubmedcentral.nih.gov:7114610",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7114610/",
+          "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7114610/pdf/",
+          "source": {
+            "id": "https://openalex.org/S2764455111",
+            "display_name": "PubMed Central",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "ACS Omega",
+          "raw_type": "Text"
+        },
+        {
           "id": "pmid:32258890",
           "doi": null,
           "is_oa": false,
@@ -1092,37 +1123,6 @@
           "is_published": true,
           "raw_source_name": "ACS omega",
           "raw_type": "Journal Article"
-        },
-        {
-          "id": "pmh:oai:pubmedcentral.nih.gov:7114610",
-          "doi": null,
-          "is_oa": true,
-          "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7114610/",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S2764455111",
-            "display_name": "PubMed Central",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": true,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/I1299303238",
-            "host_organization_name": "National Institutes of Health",
-            "host_organization_lineage": [
-              "https://openalex.org/I1299303238"
-            ],
-            "host_organization_lineage_names": [],
-            "type": "repository"
-          },
-          "license": null,
-          "license_id": null,
-          "version": "publishedVersion",
-          "is_accepted": true,
-          "is_published": true,
-          "raw_source_name": "ACS Omega",
-          "raw_type": "Text"
         },
         {
           "id": "pmh:oai:doaj.org/article:2863d97182844dc8933bd8937e4d34e2",
@@ -1213,17 +1213,23 @@
       ],
       "funders": [
         {
+          "id": "https://openalex.org/F4320322323",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163"
+        },
+        {
           "id": "https://openalex.org/F4320336956",
           "display_name": "College of Petroleum Engineering and Geosciences, King Fahd University of Petroleum and Minerals",
           "ror": null
         }
       ],
       "has_content": {
-        "grobid_xml": false,
+        "grobid_xml": true,
         "pdf": true
       },
       "content_urls": {
-        "pdf": "https://content.openalex.org/works/W3012467253.pdf"
+        "pdf": "https://content.openalex.org/works/W3012467253.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W3012467253.grobid-xml"
       },
       "referenced_works_count": 58,
       "referenced_works": [
@@ -2033,7 +2039,7 @@
           "cited_by_count": 1
         }
       ],
-      "updated_date": "2026-11-17T12:49:18.490984",
+      "updated_date": "2026-11-19T14:11:59.513116",
       "created_date": "2020-03-23T00:00:00"
     },
     {
@@ -12177,12 +12183,12 @@
         "value_usd": 2690
       },
       "apc_paid": null,
-      "fwci": 2.0762,
+      "fwci": 2.0429,
       "is_authors_truncated": false,
       "has_fulltext": false,
       "cited_by_count": 21,
       "citation_normalized_percentile": {
-        "value": 0.84597818,
+        "value": 0.84375804,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -12845,12 +12851,12 @@
         "value_usd": 2690
       },
       "apc_paid": null,
-      "fwci": 1.9431,
+      "fwci": 1.9192,
       "is_authors_truncated": false,
       "has_fulltext": false,
       "cited_by_count": 18,
       "citation_normalized_percentile": {
-        "value": 0.82612588,
+        "value": 0.82402462,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -25203,8 +25209,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "score": 0.5351999998092651,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.5351999998092651
         }
       ],
       "study_designs": [],
@@ -29587,12 +29593,12 @@
       ],
       "apc_list": null,
       "apc_paid": null,
-      "fwci": 1.3316,
+      "fwci": 1.3479,
       "is_authors_truncated": false,
       "has_fulltext": false,
       "cited_by_count": 1,
       "citation_normalized_percentile": {
-        "value": 0.75566502,
+        "value": 0.75542406,
         "is_in_top_1_percent": false,
         "is_in_top_10_percent": false
       },
@@ -29784,13 +29790,13 @@
       "sustainable_development_goals": [
         {
           "display_name": "Affordable and clean energy",
-          "score": 0.9853000044822693,
-          "id": "https://metadata.un.org/sdg/7"
+          "id": "https://metadata.un.org/sdg/7",
+          "score": 0.9853000044822693
         },
         {
           "display_name": "Climate action",
-          "score": 0.9786999821662903,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.9786999821662903
         }
       ],
       "study_designs": [],
@@ -36801,1154 +36807,6 @@
       "created_date": "2019-08-13T00:00:00"
     },
     {
-      "id": "https://openalex.org/W4392600402",
-      "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
-      "title": "Unlocking the H2 potential in Saudi Arabia: Exploring serpentinites as a source for H2 production",
-      "display_name": "Unlocking the H2 potential in Saudi Arabia: Exploring serpentinites as a source for H2 production",
-      "alternate_titles": [],
-      "publication_year": 2024,
-      "publication_date": "2024-03-08",
-      "ids": {
-        "openalex": "https://openalex.org/W4392600402",
-        "doi": "https://doi.org/10.5194/egusphere-egu24-5447"
-      },
-      "language": "en",
-      "primary_location": {
-        "id": "doi:10.5194/egusphere-egu24-5447",
-        "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5447",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306508951",
-          "display_name": "EGU General Assembly Conference Abstracts",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/P4310313756",
-          "host_organization_name": "Copernicus Publications",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310313756"
-          ],
-          "host_organization_lineage_names": [
-            "Copernicus Publications"
-          ],
-          "type": "conference"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "posted-content"
-      },
-      "parent_works": [],
-      "lineage": [
-        "https://openalex.org/W4392600402"
-      ],
-      "child_works_count": 0,
-      "type": "conference-abstract",
-      "is_traditional": false,
-      "indexed_in": [
-        "crossref"
-      ],
-      "open_access": {
-        "is_oa": true,
-        "oa_status": "hybrid",
-        "oa_url": "https://doi.org/10.5194/egusphere-egu24-5447",
-        "any_repository_has_fulltext": false
-      },
-      "authorships": [
-        {
-          "author_position": "first",
-          "author": {
-            "id": "https://openalex.org/A5094100781",
-            "display_name": "Kebba Saidy",
-            "orcid": "https://orcid.org/0009-0003-9102-6520",
-            "observed_orcids": [
-              "https://orcid.org/0009-0003-9102-6520"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Kebba Saidy",
-          "raw_affiliation_strings": [
-            "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5000790686",
-            "display_name": "Manzar Fawad",
-            "orcid": "https://orcid.org/0000-0001-6835-7442",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-6835-7442"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Manzar Fawad",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5011750653",
-            "display_name": "Scott Andrew Whattam",
-            "orcid": "https://orcid.org/0000-0001-9193-9002",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-9193-9002"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": true,
-          "raw_author_name": "Scott Whattam",
-          "raw_affiliation_strings": [
-            "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)"
-          ],
-          "raw_orcid": "https://orcid.org/0000-0001-9193-9002",
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5054922583",
-            "display_name": "Abdullatif Abdulrahman Al-Shuhail",
-            "orcid": "https://orcid.org/0000-0002-2171-0154",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-2171-0154"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Abdullatif Al-Shuhail",
-          "raw_affiliation_strings": [
-            "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5111604304",
-            "display_name": "Abdullah A. Alshuhail",
-            "orcid": "https://orcid.org/0000-0001-5392-3261",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-5392-3261"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Abdullah Alshuhail",
-          "raw_affiliation_strings": [
-            "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5035537771",
-            "display_name": "Abdullah Alqubalee",
-            "orcid": "https://orcid.org/0000-0002-0543-9026",
-            "observed_orcids": [
-              "https://orcid.org/0000-0002-0543-9026"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Abdullah Alqubalee",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5102626965",
-            "display_name": "Farooqui Mohammed",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Farooqui Mohammed",
-          "raw_affiliation_strings": [
-            "Remote Sensing Laboratory, Petroleum Engineering and Geoscience Technology Center, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Remote Sensing Laboratory, Petroleum Engineering and Geoscience Technology Center, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "middle",
-          "author": {
-            "id": "https://openalex.org/A5082334094",
-            "display_name": "Faris Sulistyohariyanto",
-            "orcid": null,
-            "observed_orcids": []
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Faris Sulistyohariyanto",
-          "raw_affiliation_strings": [
-            "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "King Fahd University Of Petroleum and Minerals, College of Petroleum Engineering and Geosciences, Geosciences, Saudi Arabia (g202216420@kfupm.edu.sa)",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        },
-        {
-          "author_position": "last",
-          "author": {
-            "id": "https://openalex.org/A5102958146",
-            "display_name": "Sabyasachi Chattopadhyay",
-            "orcid": "https://orcid.org/0000-0001-8135-4190",
-            "observed_orcids": [
-              "https://orcid.org/0000-0001-8135-4190"
-            ]
-          },
-          "institutions": [
-            {
-              "id": "https://openalex.org/I134085113",
-              "display_name": "King Fahd University of Petroleum and Minerals",
-              "ror": "https://ror.org/03yez3163",
-              "country_code": "SA",
-              "type": "education",
-              "lineage": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ],
-          "countries": [
-            "SA"
-          ],
-          "is_corresponding": false,
-          "raw_author_name": "Sabyasachi Chattopadhyay",
-          "raw_affiliation_strings": [
-            "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia"
-          ],
-          "raw_orcid": null,
-          "affiliations": [
-            {
-              "raw_affiliation_string": "Center for Integrative Petroleum Research, King Fahd University of Petroleum and Minerals, Dhahran 31261, Saudi Arabia",
-              "institution_ids": [
-                "https://openalex.org/I134085113"
-              ]
-            }
-          ]
-        }
-      ],
-      "institutions": [],
-      "countries_distinct_count": 1,
-      "institutions_distinct_count": 1,
-      "corresponding_author_ids": [
-        "https://openalex.org/A5011750653"
-      ],
-      "corresponding_institution_ids": [
-        "https://openalex.org/I134085113"
-      ],
-      "apc_list": null,
-      "apc_paid": null,
-      "fwci": null,
-      "is_authors_truncated": false,
-      "has_fulltext": false,
-      "cited_by_count": 0,
-      "citation_normalized_percentile": null,
-      "cited_by_percentile_year": null,
-      "biblio": {
-        "volume": null,
-        "issue": null,
-        "first_page": null,
-        "last_page": null
-      },
-      "is_retracted": false,
-      "is_pulled": true,
-      "is_paratext": false,
-      "is_xpac": false,
-      "primary_topic": {
-        "id": "https://openalex.org/T10399",
-        "display_name": "Hydrocarbon exploration and reservoir analysis",
-        "score": 0.46630001068115234,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1907",
-          "display_name": "Geology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      "topics": [
-        {
-          "id": "https://openalex.org/T10399",
-          "display_name": "Hydrocarbon exploration and reservoir analysis",
-          "score": 0.46630001068115234,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1907",
-            "display_name": "Geology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T11302",
-          "display_name": "CO2 Sequestration and Geologic Interactions",
-          "score": 0.15479999780654907,
-          "subfield": {
-            "id": "https://openalex.org/subfields/2305",
-            "display_name": "Environmental Engineering"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/23",
-            "display_name": "Environmental Science"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        },
-        {
-          "id": "https://openalex.org/T12157",
-          "display_name": "Geochemistry and Geologic Mapping",
-          "score": 0.14110000431537628,
-          "subfield": {
-            "id": "https://openalex.org/subfields/1906",
-            "display_name": "Geochemistry and Petrology"
-          },
-          "field": {
-            "id": "https://openalex.org/fields/19",
-            "display_name": "Earth and Planetary Sciences"
-          },
-          "domain": {
-            "id": "https://openalex.org/domains/3",
-            "display_name": "Physical Sciences"
-          }
-        }
-      ],
-      "keywords": [
-        {
-          "id": "https://openalex.org/keywords/hydrogen-production",
-          "display_name": "hydrogen production",
-          "score": 0.9340000152587891
-        },
-        {
-          "id": "https://openalex.org/keywords/serpentinite",
-          "display_name": "serpentinite",
-          "score": 0.7570000290870667
-        },
-        {
-          "id": "https://openalex.org/keywords/serpentinization",
-          "display_name": "serpentinization",
-          "score": 0.9559999704360962
-        },
-        {
-          "id": "https://openalex.org/keywords/ophiolite",
-          "display_name": "ophiolite",
-          "score": 0.9380000233650208
-        },
-        {
-          "id": "https://openalex.org/keywords/ultramafic-rocks",
-          "display_name": "ultramafic rocks",
-          "score": 0.8629999756813049
-        },
-        {
-          "id": "https://openalex.org/keywords/fracture-intensity",
-          "display_name": "fracture density",
-          "score": 0.6859999895095825
-        },
-        {
-          "id": "https://openalex.org/keywords/olivine-hydration",
-          "display_name": "olivine hydration",
-          "score": 0.8820000290870667
-        },
-        {
-          "id": "https://openalex.org/keywords/arabian-shield",
-          "display_name": "Arabian Shield",
-          "score": 0.7250000238418579
-        },
-        {
-          "id": "https://openalex.org/keywords/low-carbon-energy",
-          "display_name": "low-carbon energy",
-          "score": 0.8450000286102295
-        }
-      ],
-      "concepts": [
-        {
-          "id": "https://openalex.org/C2778348673",
-          "wikidata": "https://www.wikidata.org/wiki/Q739302",
-          "display_name": "Production (economics)",
-          "level": 2,
-          "score": 0.6067048907279968
-        },
-        {
-          "id": "https://openalex.org/C144133560",
-          "wikidata": "https://www.wikidata.org/wiki/Q4830453",
-          "display_name": "Business",
-          "level": 0,
-          "score": 0.32852840423583984
-        },
-        {
-          "id": "https://openalex.org/C162324750",
-          "wikidata": "https://www.wikidata.org/wiki/Q8134",
-          "display_name": "Economics",
-          "level": 0,
-          "score": 0.14853283762931824
-        },
-        {
-          "id": "https://openalex.org/C139719470",
-          "wikidata": "https://www.wikidata.org/wiki/Q39680",
-          "display_name": "Macroeconomics",
-          "level": 1,
-          "score": 0
-        }
-      ],
-      "mesh": [],
-      "locations_count": 1,
-      "locations": [
-        {
-          "id": "doi:10.5194/egusphere-egu24-5447",
-          "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
-          "is_oa": true,
-          "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5447",
-          "pdf_url": null,
-          "source": {
-            "id": "https://openalex.org/S4306508951",
-            "display_name": "EGU General Assembly Conference Abstracts",
-            "issn_l": null,
-            "issn": null,
-            "is_oa": false,
-            "is_in_doaj": false,
-            "is_core": false,
-            "listed_in": [],
-            "host_organization": "https://openalex.org/P4310313756",
-            "host_organization_name": "Copernicus Publications",
-            "host_organization_lineage": [
-              "https://openalex.org/P4310313756"
-            ],
-            "host_organization_lineage_names": [
-              "Copernicus Publications"
-            ],
-            "type": "conference"
-          },
-          "license": "cc-by",
-          "license_id": "https://openalex.org/licenses/cc-by",
-          "version": "submittedVersion",
-          "is_accepted": false,
-          "is_published": false,
-          "raw_source_name": null,
-          "raw_type": "posted-content"
-        }
-      ],
-      "best_oa_location": {
-        "id": "doi:10.5194/egusphere-egu24-5447",
-        "doi": "https://doi.org/10.5194/egusphere-egu24-5447",
-        "is_oa": true,
-        "landing_page_url": "https://doi.org/10.5194/egusphere-egu24-5447",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306508951",
-          "display_name": "EGU General Assembly Conference Abstracts",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "listed_in": [],
-          "host_organization": "https://openalex.org/P4310313756",
-          "host_organization_name": "Copernicus Publications",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310313756"
-          ],
-          "host_organization_lineage_names": [
-            "Copernicus Publications"
-          ],
-          "type": "conference"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "posted-content"
-      },
-      "sustainable_development_goals": [
-        {
-          "display_name": "Affordable and clean energy",
-          "score": 0.75,
-          "id": "https://metadata.un.org/sdg/7"
-        }
-      ],
-      "study_designs": [],
-      "awards": [],
-      "funders": [],
-      "has_content": {
-        "grobid_xml": false,
-        "pdf": false
-      },
-      "content_urls": null,
-      "referenced_works_count": 0,
-      "referenced_works": [],
-      "related_works": [
-        "https://openalex.org/W4403284436",
-        "https://openalex.org/W4413461633",
-        "https://openalex.org/W4410349306",
-        "https://openalex.org/W4414227220",
-        "https://openalex.org/W7161476719",
-        "https://openalex.org/W7135188443",
-        "https://openalex.org/W4403299100",
-        "https://openalex.org/W4407849920",
-        "https://openalex.org/W4417507259",
-        "https://openalex.org/W7132819714"
-      ],
-      "abstract_inverted_index": {
-        "The": [
-          0,
-          158
-        ],
-        "global": [
-          1
-        ],
-        "transition": [
-          2
-        ],
-        "to": [
-          3,
-          105,
-          127,
-          137,
-          169
-        ],
-        "a": [
-          4,
-          14,
-          31,
-          49,
-          90
-        ],
-        "low-carbon": [
-          5
-        ],
-        "energy": [
-          6,
-          18
-        ],
-        "future": [
-          7
-        ],
-        "has": [
-          8
-        ],
-        "ignited": [
-          9
-        ],
-        "interest": [
-          10
-        ],
-        "in": [
-          11,
-          34,
-          73,
-          80,
-          95
-        ],
-        "hydrogen": [
-          12,
-          53,
-          150,
-          156,
-          175
-        ],
-        "as": [
-          13,
-          48
-        ],
-        "clean": [
-          15
-        ],
-        "and": [
-          16,
-          57,
-          75,
-          85,
-          123,
-          133,
-          152,
-          166,
-          172
-        ],
-        "versatile": [
-          17
-        ],
-        "carrier.": [
-          19
-        ],
-        "Saudi": [
-          20,
-          44
-        ],
-        "Arabia": [
-          21
-        ],
-        "contains,": [
-          22
-        ],
-        "vast": [
-          23
-        ],
-        "tracts": [
-          24
-        ],
-        "of": [
-          25,
-          43,
-          52,
-          70,
-          83,
-          93,
-          143,
-          149,
-          155,
-          160,
-          174,
-          189
-        ],
-        "mantle-dominated": [
-          26
-        ],
-        "Neoproterozoic": [
-          27
-        ],
-        "ophiolites": [
-          28,
-          108
-        ],
-        "overlain": [
-          29
-        ],
-        "by": [
-          30
-        ],
-        "sedimentary": [
-          32
-        ],
-        "cover": [
-          33
-        ],
-        "the": [
-          35,
-          40,
-          68,
-          81,
-          96,
-          100,
-          110,
-          141,
-          147,
-          153,
-          170,
-          187
-        ],
-        "east.": [
-          36
-        ],
-        "Our": [
-          37
-        ],
-        "research": [
-          38
-        ],
-        "explores": [
-          39
-        ],
-        "untapped": [
-          41
-        ],
-        "potential": [
-          42,
-          142
-        ],
-        "Arabia’s": [
-          45
-        ],
-        "ophiolite": [
-          46,
-          128
-        ],
-        "serpentinites": [
-          47,
-          94
-        ],
-        "possible": [
-          50
-        ],
-        "source": [
-          51
-        ],
-        "generation": [
-          54
-        ],
-        "through": [
-          55
-        ],
-        "serpentinization": [
-          56
-        ],
-        "related": [
-          58
-        ],
-        "processes.": [
-          59
-        ],
-        "H2": [
-          60,
-          182
-        ],
-        "is": [
-          61
-        ],
-        "derived": [
-          62
-        ],
-        "from": [
-          63
-        ],
-        "serpentinization,": [
-          64
-        ],
-        "which": [
-          65
-        ],
-        "primarily": [
-          66
-        ],
-        "involves": [
-          67
-        ],
-        "hydration": [
-          69
-        ],
-        "minerals": [
-          71
-        ],
-        "rich": [
-          72
-        ],
-        "iron": [
-          74
-        ],
-        "magnesium,": [
-          76
-        ],
-        "(e.g.,": [
-          77
-        ],
-        "olivine),": [
-          78
-        ],
-        "resulting": [
-          79
-        ],
-        "formation": [
-          82
-        ],
-        "serpentine": [
-          84
-        ],
-        "H2.": [
-          86
-        ],
-        "We": [
-          87
-        ],
-        "have": [
-          88
-        ],
-        "conducted": [
-          89
-        ],
-        "comprehensive": [
-          91
-        ],
-        "assessment": [
-          92
-        ],
-        "Arabian": [
-          97,
-          107
-        ],
-        "Shield": [
-          98
-        ],
-        "employing": [
-          99
-        ],
-        "Geographic": [
-          101
-        ],
-        "Information": [
-          102
-        ],
-        "System": [
-          103
-        ],
-        "(GIS)": [
-          104
-        ],
-        "locate,": [
-          106
-        ],
-        "with": [
-          109
-        ],
-        "largest": [
-          111
-        ],
-        "ultramafic": [
-          112
-        ],
-        "segments.": [
-          113
-        ],
-        "Ophiolites": [
-          114
-        ],
-        "studied": [
-          115
-        ],
-        "include": [
-          116
-        ],
-        "Jabal": [
-          117,
-          119,
-          124
-        ],
-        "Ess,": [
-          118
-        ],
-        "Wask,": [
-          120
-        ],
-        "Bi’r": [
-          121
-        ],
-        "Tululah,": [
-          122
-        ],
-        "Tharwah.": [
-          125
-        ],
-        "Subsequent": [
-          126
-        ],
-        "identification,": [
-          129
-        ],
-        "we": [
-          130
-        ],
-        "delineated": [
-          131
-        ],
-        "fractures": [
-          132,
-          145
-        ],
-        "measured": [
-          134
-        ],
-        "fracture": [
-          135,
-          163
-        ],
-        "density": [
-          136,
-          164
-        ],
-        "provide": [
-          138
-        ],
-        "insight": [
-          139
-        ],
-        "into": [
-          140
-        ],
-        "serpentinite": [
-          144
-        ],
-        "on": [
-          146
-        ],
-        "amount": [
-          148
-        ],
-        "seepage": [
-          151
-        ],
-        "rate": [
-          154,
-          173
-        ],
-        "production.": [
-          157
-        ],
-        "results": [
-          159,
-          188
-        ],
-        "our": [
-          161
-        ],
-        "quantitative": [
-          162
-        ],
-        "analysis": [
-          165
-        ],
-        "their": [
-          167
-        ],
-        "relation": [
-          168
-        ],
-        "volume": [
-          171
-        ],
-        "production": [
-          176
-        ],
-        "will": [
-          177,
-          185
-        ],
-        "be": [
-          178
-        ],
-        "discussed.": [
-          179
-        ],
-        "A": [
-          180
-        ],
-        "complimentary": [
-          181
-        ],
-        "anomaly": [
-          183
-        ],
-        "survey": [
-          184
-        ],
-        "ground-truth": [
-          186
-        ],
-        "this": [
-          190
-        ],
-        "study.": [
-          191
-        ]
-      },
-      "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4392600402",
-      "counts_by_year": [],
-      "updated_date": "2026-11-18T13:11:19.462570",
-      "created_date": "2024-03-09T00:00:00"
-    },
-    {
       "id": "https://openalex.org/W7115004822",
       "doi": "https://doi.org/10.5281/zenodo.17915410",
       "title": "OpenGeo",
@@ -40217,13 +39075,13 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "score": 0.9786999821662903,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.9786999821662903
         },
         {
           "display_name": "Affordable and clean energy",
-          "score": 0.878000020980835,
-          "id": "https://metadata.un.org/sdg/7"
+          "id": "https://metadata.un.org/sdg/7",
+          "score": 0.878000020980835
         }
       ],
       "study_designs": [],
@@ -42701,8 +41559,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "score": 0.5351999998092651,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.5351999998092651
         }
       ],
       "study_designs": [],
@@ -44315,8 +43173,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Affordable and clean energy",
-          "score": 0.9853000044822693,
-          "id": "https://metadata.un.org/sdg/7"
+          "id": "https://metadata.un.org/sdg/7",
+          "score": 0.9853000044822693
         }
       ],
       "study_designs": [],
@@ -45669,8 +44527,8 @@
       "sustainable_development_goals": [
         {
           "display_name": "Climate action",
-          "score": 0.5351999998092651,
-          "id": "https://metadata.un.org/sdg/13"
+          "id": "https://metadata.un.org/sdg/13",
+          "score": 0.5351999998092651
         }
       ],
       "study_designs": [],

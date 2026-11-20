@@ -19,7 +19,7 @@ export const topicStats: TopicStats[] = [
   {
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
-    "publications": 34,
+    "publications": 33,
     "citations": 494
   },
   {
@@ -53,28 +53,22 @@ export const topicStats: TopicStats[] = [
     "citations": 38
   },
   {
-    "id": "https://openalex.org/T11302",
-    "name": "CO2 Sequestration and Geologic Interactions",
-    "publications": 4,
-    "citations": 0
-  },
-  {
     "id": "https://openalex.org/T13067",
     "name": "Geological Modeling and Analysis",
     "publications": 3,
     "citations": 14
   },
   {
-    "id": "https://openalex.org/T12157",
-    "name": "Geochemistry and Geologic Mapping",
-    "publications": 3,
-    "citations": 11
-  },
-  {
     "id": "https://openalex.org/T10955",
     "name": "Paleontology and Evolutionary Biology",
     "publications": 3,
     "citations": 2
+  },
+  {
+    "id": "https://openalex.org/T11302",
+    "name": "CO2 Sequestration and Geologic Interactions",
+    "publications": 3,
+    "citations": 0
   },
   {
     "id": "https://openalex.org/T12603",
@@ -93,6 +87,12 @@ export const topicStats: TopicStats[] = [
     "name": "Geological and Geochemical Analysis",
     "publications": 2,
     "citations": 18
+  },
+  {
+    "id": "https://openalex.org/T12157",
+    "name": "Geochemistry and Geologic Mapping",
+    "publications": 2,
+    "citations": 11
   },
   {
     "id": "https://openalex.org/T10017",
@@ -238,7 +238,7 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
-    "publications": 44,
+    "publications": 43,
     "citations": 535
   },
   {
