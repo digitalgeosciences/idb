@@ -278,6 +278,12 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 38
   },
   {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
+    "publications": 2,
+    "citations": 19
+  },
+  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 2,
@@ -286,12 +292,6 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
-    "publications": 2,
-    "citations": 19
-  },
-  {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
     "publications": 2,
     "citations": 19
   },
