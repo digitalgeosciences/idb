@@ -20,19 +20,19 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 33,
-    "citations": 494
+    "citations": 495
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 379
+    "citations": 380
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
-    "citations": 205
+    "citations": 206
   },
   {
     "id": "https://openalex.org/T10109",
@@ -239,7 +239,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 43,
-    "citations": 535
+    "citations": 536
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -251,7 +251,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I86519309",
     "name": "The University of Texas at Austin",
     "publications": 2,
-    "citations": 48
+    "citations": 49
   },
   {
     "id": "https://openalex.org/I203899302",
@@ -278,12 +278,6 @@ export const institutionStats: InstitutionStats[] = [
     "citations": 38
   },
   {
-    "id": "https://openalex.org/I85507684",
-    "name": "Yarmouk University",
-    "publications": 2,
-    "citations": 19
-  },
-  {
     "id": "https://openalex.org/I33849332",
     "name": "University of Malaya",
     "publications": 2,
@@ -292,6 +286,12 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I28022161",
     "name": "King Saud University",
+    "publications": 2,
+    "citations": 19
+  },
+  {
+    "id": "https://openalex.org/I85507684",
+    "name": "Yarmouk University",
     "publications": 2,
     "citations": 19
   },
