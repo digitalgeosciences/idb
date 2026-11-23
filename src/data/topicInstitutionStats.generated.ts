@@ -20,25 +20,25 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 33,
-    "citations": 495
+    "citations": 496
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 380
+    "citations": 381
   },
   {
     "id": "https://openalex.org/T11740",
     "name": "Geochemistry and Elemental Analysis",
     "publications": 14,
-    "citations": 206
+    "citations": 207
   },
   {
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 157
+    "citations": 159
   },
   {
     "id": "https://openalex.org/T10491",
@@ -92,7 +92,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T12157",
     "name": "Geochemistry and Geologic Mapping",
     "publications": 2,
-    "citations": 11
+    "citations": 12
   },
   {
     "id": "https://openalex.org/T10017",
@@ -239,7 +239,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 43,
-    "citations": 536
+    "citations": 537
   },
   {
     "id": "https://openalex.org/I4210143841",
@@ -400,6 +400,12 @@ export const institutionStats: InstitutionStats[] = [
   {
     "id": "https://openalex.org/I35440088",
     "name": "ETH Zurich",
+    "publications": 1,
+    "citations": 0
+  },
+  {
+    "id": "https://openalex.org/I4210090941",
+    "name": "Institute for Biomedical Engineering",
     "publications": 1,
     "citations": 0
   }

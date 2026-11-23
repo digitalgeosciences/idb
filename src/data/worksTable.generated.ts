@@ -88,40 +88,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W3035028305",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104512",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5047905444",
-      "A5027197211",
-      "A5034460286"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Luis A. González",
-      "Abdullah Alqubalee",
-      "Abduljamiu Olalekan Amao",
-      "Moaz Salih"
-    ],
-    "title": "Evidence for the development of a superpermeability flow zone by bioturbation in shallow marine strata, upper Jubaila Formation, central Saudi Arabia",
-    "publicationDate": "2020-06-16",
-    "year": 2020,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 36,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4388923668",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2023.106611",
     "program": "",
@@ -280,6 +246,40 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
       "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3035028305",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104512",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5047905444",
+      "A5027197211",
+      "A5034460286"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Luis A. González",
+      "Abdullah Alqubalee",
+      "Abduljamiu Olalekan Amao",
+      "Moaz Salih"
+    ],
+    "title": "Evidence for the development of a superpermeability flow zone by bioturbation in shallow marine strata, upper Jubaila Formation, central Saudi Arabia",
+    "publicationDate": "2020-06-16",
+    "year": 2020,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 36,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
     ]
   },
   {
@@ -453,38 +453,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W2944809997",
-    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5044235421",
-      "A5028390167",
-      "A5082642403"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Lamidi Babalola",
-      "Osman Abdullatif",
-      "Mohammad Makkawi"
-    ],
-    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
-    "publicationDate": "2019-05-08",
-    "year": 2019,
-    "venue": "Arabian Journal for Science and Engineering",
-    "citations": 21,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W2945148837",
     "doi": "https://doi.org/10.1007/s12517-019-4467-0",
     "program": "",
@@ -592,6 +560,38 @@ export const worksTable: WorkTableRecord[] = [
       "Hydrocarbon exploration and reservoir analysis",
       "Geochemistry and Geologic Mapping",
       "Drilling and Well Engineering"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W2944809997",
+    "doi": "https://doi.org/10.1007/s13369-019-03885-9",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5044235421",
+      "A5028390167",
+      "A5082642403"
+    ],
+    "firstAuthorLastName": "Alqubalee",
+    "allAuthors": [
+      "Abdullah Alqubalee",
+      "Lamidi Babalola",
+      "Osman Abdullatif",
+      "Mohammad Makkawi"
+    ],
+    "title": "Factors Controlling Reservoir Quality of a Paleozoic Tight Sandstone, Rub’ al Khali Basin, Saudi Arabia",
+    "publicationDate": "2019-05-08",
+    "year": 2019,
+    "venue": "Arabian Journal for Science and Engineering",
+    "citations": 21,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Geochemistry and Elemental Analysis"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -872,6 +872,41 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4391286506",
+    "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5070455488",
+      "A5044235421",
+      "A5079903196",
+      "A5111119662"
+    ],
+    "firstAuthorLastName": "AlGhamdi",
+    "allAuthors": [
+      "Faisal AlGhamdi",
+      "Lamidi Babalola",
+      "Abdullah Alqubalee",
+      "Israa S. Abu‐Mahfouz",
+      "Bandar Alotaibi",
+      "Mohammed Abouelresh"
+    ],
+    "title": "Source rock potential, thermal maturity, and depositional environment of the Ordovician Ra’an Shale Member, central Saudi Arabia",
+    "publicationDate": "2024-01-28",
+    "year": 2024,
+    "venue": "Journal of Asian Earth Sciences X",
+    "citations": 7,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Elemental Analysis"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W3141818123",
     "doi": "https://doi.org/10.1016/j.marpetgeo.2021.105048",
     "program": "",
@@ -1043,41 +1078,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4391286506",
-    "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5070455488",
-      "A5044235421",
-      "A5079903196",
-      "A5111119662"
-    ],
-    "firstAuthorLastName": "AlGhamdi",
-    "allAuthors": [
-      "Faisal AlGhamdi",
-      "Lamidi Babalola",
-      "Abdullah Alqubalee",
-      "Israa S. Abu‐Mahfouz",
-      "Bandar Alotaibi",
-      "Mohammed Abouelresh"
-    ],
-    "title": "Source rock potential, thermal maturity, and depositional environment of the Ordovician Ra’an Shale Member, central Saudi Arabia",
-    "publicationDate": "2024-01-28",
-    "year": 2024,
-    "venue": "Journal of Asian Earth Sciences X",
-    "citations": 6,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Elemental Analysis"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4392964788",
     "doi": "https://doi.org/10.1007/978-3-031-48758-3_8",
     "program": "",
@@ -1213,7 +1213,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2017-04-01",
     "year": 2017,
     "venue": "EGU General Assembly Conference Abstracts",
-    "citations": 1,
+    "citations": 2,
     "topics": [
       "Geological formations and processes",
       "Paleontology and Stratigraphy of Fossils",
@@ -1396,14 +1396,9 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Lamidi Babalola",
       "Aviandy W. Ismanto",
-      "Aviandy W. Ismanto",
-      "Abdullah Alqubalee",
       "Abdullah Alqubalee",
       "Mohamed Omar Abouelresh",
-      "Mohamed Omar Abouelresh",
       "Michael A. Kaminski",
-      "Michael A. Kaminski",
-      "Osman Abdullatif",
       "Osman Abdullatif"
     ],
     "title": "STABLE ISOTOPE CHEMOSTRATIGRAPHY OF A BIOTURBATED MIDDLE JURASSIC CARBONATE SEQUENCE, CENTRAL SAUDI ARABIA: PALEOTEMPERATURE RECONSTRUCTION, DEPOSITION ENVIRONMENT AND DIAGENETIC INTERPRETATIONS",
@@ -1483,8 +1478,8 @@ export const worksTable: WorkTableRecord[] = [
       "Abdullah Alqubalee"
     ],
     "title": "Thalassinoides CT scan - Multiple sizes",
-    "publicationDate": "2021-01-01",
-    "year": 2021,
+    "publicationDate": "2025-12-18",
+    "year": 2025,
     "venue": "OSF Preprints (OSF Preprints)",
     "citations": 0,
     "topics": [
@@ -1642,12 +1637,13 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Enhanced Oil Recovery Techniques",
-      "Advanced Mathematical Modeling in Engineering",
-      "Geological Modeling and Analysis"
+      "Geological Modeling and Analysis",
+      "Advanced Mathematical Modeling in Engineering"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
-      "ETH Zurich"
+      "ETH Zurich",
+      "Institute for Biomedical Engineering"
     ]
   },
   {
