@@ -47,7 +47,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-03-17",
     "year": 2020,
     "venue": "ACS Omega",
-    "citations": 40,
+    "citations": 41,
     "topics": [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
@@ -439,7 +439,7 @@ export const worksTable: WorkTableRecord[] = [
       "Hassan A. Eltom"
     ],
     "title": "The Negative Impact of Ophiomorpha on Reservoir Quality of Tidal Channel Deposits: The Case Study of the Dam Formation, Saudi Arabia",
-    "publicationDate": "2022-01-01",
+    "publicationDate": "2022-03-30",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
     "citations": 22,
@@ -1408,8 +1408,8 @@ export const worksTable: WorkTableRecord[] = [
     "citations": 0,
     "topics": [
       "Paleontology and Stratigraphy of Fossils",
-      "Geology and Paleoclimatology Research",
-      "Geological formations and processes"
+      "Geological formations and processes",
+      "Geology and Paleoclimatology Research"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
@@ -1595,7 +1595,7 @@ export const worksTable: WorkTableRecord[] = [
       "Abdulwahab Muhammad Bello",
       "Adhipa Herlambang",
       "John Humphrey",
-      "Ardiansyah Koeshidayatullah",
+      "Ardiansyah Ibnu Koeshidayatullah",
       "Kevin G. Taylor",
       "Khalid A. Al-Ramadan"
     ],
