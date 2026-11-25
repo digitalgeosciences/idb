@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 33,
-    "citations": 497
+    "citations": 496
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 381
+    "citations": 380
   },
   {
     "id": "https://openalex.org/T11740",
@@ -38,7 +38,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 159
+    "citations": 158
   },
   {
     "id": "https://openalex.org/T10491",
@@ -239,7 +239,7 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 43,
-    "citations": 538
+    "citations": 537
   },
   {
     "id": "https://openalex.org/I4210143841",

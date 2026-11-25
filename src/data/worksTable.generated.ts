@@ -272,7 +272,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-06-16",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 36,
+    "citations": 35,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -1564,7 +1564,7 @@ export const worksTable: WorkTableRecord[] = [
     "title": "Statistical admissibility and long-wavelength structural convergence determine representative support in granular materials",
     "publicationDate": "2026-05-31",
     "year": 2026,
-    "venue": "arXiv (Cornell University)",
+    "venue": "arXiv",
     "citations": 0,
     "topics": [
       "Composite Material Mechanics",
