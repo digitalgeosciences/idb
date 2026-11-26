@@ -77,7 +77,41 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-11-11",
     "year": 2020,
     "venue": "Marine and Petroleum Geology",
-    "citations": 39,
+    "citations": 38,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W3035028305",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104512",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5040857714",
+      "A5047905444",
+      "A5027197211",
+      "A5034460286"
+    ],
+    "firstAuthorLastName": "Eltom",
+    "allAuthors": [
+      "Hassan A. Eltom",
+      "Luis A. González",
+      "Abdullah Alqubalee",
+      "Abduljamiu Olalekan Amao",
+      "Moaz Salih"
+    ],
+    "title": "Evidence for the development of a superpermeability flow zone by bioturbation in shallow marine strata, upper Jubaila Formation, central Saudi Arabia",
+    "publicationDate": "2020-06-16",
+    "year": 2020,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 35,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -249,40 +283,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W3035028305",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2020.104512",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5040857714",
-      "A5047905444",
-      "A5027197211",
-      "A5034460286"
-    ],
-    "firstAuthorLastName": "Eltom",
-    "allAuthors": [
-      "Hassan A. Eltom",
-      "Luis A. González",
-      "Abdullah Alqubalee",
-      "Abduljamiu Olalekan Amao",
-      "Moaz Salih"
-    ],
-    "title": "Evidence for the development of a superpermeability flow zone by bioturbation in shallow marine strata, upper Jubaila Formation, central Saudi Arabia",
-    "publicationDate": "2020-06-16",
-    "year": 2020,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 35,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W3152701421",
     "doi": "https://doi.org/10.1016/j.petrol.2021.108811",
     "program": "",
@@ -442,7 +442,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2022-03-30",
     "year": 2022,
     "venue": "Marine and Petroleum Geology",
-    "citations": 22,
+    "citations": 21,
     "topics": [
       "Hydrocarbon exploration and reservoir analysis",
       "Geological formations and processes",
@@ -872,6 +872,43 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
+    "workId": "https://openalex.org/W4390685983",
+    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5004157772",
+      "A5080643603",
+      "A5082826691",
+      "A5064720324",
+      "A5008057862"
+    ],
+    "firstAuthorLastName": "Albensaad",
+    "allAuthors": [
+      "Baqer Albensaad",
+      "Septriandi A. Chan",
+      "JOHN D. HUMPHREY",
+      "Abdullah Alqubalee",
+      "Ammar El‐Husseiny",
+      "Yaser Alzayer"
+    ],
+    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
+    "publicationDate": "2024-01-08",
+    "year": 2024,
+    "venue": "Marine and Petroleum Geology",
+    "citations": 7,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Rock Mechanics and Modeling",
+      "Geological formations and processes"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals",
+      "Saudi Aramco (Saudi Arabia)"
+    ]
+  },
+  {
     "workId": "https://openalex.org/W4391286506",
     "doi": "https://doi.org/10.1016/j.jaesx.2024.100174",
     "program": "",
@@ -1041,43 +1078,6 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4390685983",
-    "doi": "https://doi.org/10.1016/j.marpetgeo.2024.106702",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5004157772",
-      "A5080643603",
-      "A5082826691",
-      "A5064720324",
-      "A5008057862"
-    ],
-    "firstAuthorLastName": "Albensaad",
-    "allAuthors": [
-      "Baqer Albensaad",
-      "Septriandi A. Chan",
-      "JOHN D. HUMPHREY",
-      "Abdullah Alqubalee",
-      "Ammar El‐Husseiny",
-      "Yaser Alzayer"
-    ],
-    "title": "Controls on mechanical properties of a carbonate mudstone: Insights from non-destructive techniques and geochemical data",
-    "publicationDate": "2024-01-08",
-    "year": 2024,
-    "venue": "Marine and Petroleum Geology",
-    "citations": 6,
-    "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Rock Mechanics and Modeling",
-      "Geological formations and processes"
-    ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals",
-      "Saudi Aramco (Saudi Arabia)"
-    ]
-  },
-  {
     "workId": "https://openalex.org/W4392964788",
     "doi": "https://doi.org/10.1007/978-3-031-48758-3_8",
     "program": "",
@@ -1128,36 +1128,32 @@ export const worksTable: WorkTableRecord[] = [
     ]
   },
   {
-    "workId": "https://openalex.org/W4412890921",
-    "doi": "https://doi.org/10.1515/9783111437040-019",
+    "workId": "https://openalex.org/W3128658973",
+    "doi": "",
     "program": "",
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5000790686",
-      "A5011750653",
-      "A5059738250"
+      "A5028390167",
+      "A5044235421"
     ],
-    "firstAuthorLastName": "Fawad",
+    "firstAuthorLastName": "Alqubalee",
     "allAuthors": [
-      "Manzar Fawad",
-      "Scott Andrew Whattam",
       "Abdullah Alqubalee",
-      "Ahmed Zarzor Al-Yaseri"
+      "Osman Abdullatif",
+      "Lamidi Babalola"
     ],
-    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
-    "publicationDate": "2025-03-29",
-    "year": 2025,
-    "venue": "De Gruyter eBooks",
-    "citations": 1,
+    "title": "Application of Spectral Gamma Ray for Lithofacies and Paleo-environmental Interpretation: A Case Study from the Late Ordovician Glaciogenic Deposits, Saudi Arabia",
+    "publicationDate": "2017-04-01",
+    "year": 2017,
+    "venue": "EGU General Assembly Conference Abstracts",
+    "citations": 2,
     "topics": [
-      "Hydrocarbon exploration and reservoir analysis",
-      "Geological Studies and Exploration",
-      "Methane Hydrates and Related Phenomena"
+      "Geological formations and processes",
+      "Paleontology and Stratigraphy of Fossils",
+      "Geochemistry and Geologic Mapping"
     ],
-    "institutions": [
-      "King Fahd University of Petroleum and Minerals"
-    ]
+    "institutions": []
   },
   {
     "workId": "https://openalex.org/W4413307018",
@@ -1192,34 +1188,6 @@ export const worksTable: WorkTableRecord[] = [
     "institutions": [
       "King Fahd University of Petroleum and Minerals"
     ]
-  },
-  {
-    "workId": "https://openalex.org/W3128658973",
-    "doi": "",
-    "program": "",
-    "primaryAuthorOpenAlexId": "A5035537771",
-    "allAuthorOpenAlexIds": [
-      "A5035537771",
-      "A5028390167",
-      "A5044235421"
-    ],
-    "firstAuthorLastName": "Alqubalee",
-    "allAuthors": [
-      "Abdullah Alqubalee",
-      "Osman Abdullatif",
-      "Lamidi Babalola"
-    ],
-    "title": "Application of Spectral Gamma Ray for Lithofacies and Paleo-environmental Interpretation: A Case Study from the Late Ordovician Glaciogenic Deposits, Saudi Arabia",
-    "publicationDate": "2017-04-01",
-    "year": 2017,
-    "venue": "EGU General Assembly Conference Abstracts",
-    "citations": 2,
-    "topics": [
-      "Geological formations and processes",
-      "Paleontology and Stratigraphy of Fossils",
-      "Geochemistry and Geologic Mapping"
-    ],
-    "institutions": []
   },
   {
     "workId": "https://openalex.org/W4388593599",
@@ -1410,6 +1378,38 @@ export const worksTable: WorkTableRecord[] = [
       "Paleontology and Stratigraphy of Fossils",
       "Geological formations and processes",
       "Geology and Paleoclimatology Research"
+    ],
+    "institutions": [
+      "King Fahd University of Petroleum and Minerals"
+    ]
+  },
+  {
+    "workId": "https://openalex.org/W4412890921",
+    "doi": "https://doi.org/10.1515/9783111437040-019",
+    "program": "",
+    "primaryAuthorOpenAlexId": "A5035537771",
+    "allAuthorOpenAlexIds": [
+      "A5035537771",
+      "A5000790686",
+      "A5011750653",
+      "A5059738250"
+    ],
+    "firstAuthorLastName": "Fawad",
+    "allAuthors": [
+      "Manzar Fawad",
+      "Scott Andrew Whattam",
+      "Abdullah Alqubalee",
+      "Ahmed Zarzor Al-Yaseri"
+    ],
+    "title": "513Chapter 19 Various elements of a potential hydrogen system in Saudi Arabia",
+    "publicationDate": "2025-03-29",
+    "year": 2025,
+    "venue": "De Gruyter eBooks",
+    "citations": 0,
+    "topics": [
+      "Hydrocarbon exploration and reservoir analysis",
+      "Geological Studies and Exploration",
+      "Methane Hydrates and Related Phenomena"
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals"

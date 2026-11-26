@@ -20,13 +20,13 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10399",
     "name": "Hydrocarbon exploration and reservoir analysis",
     "publications": 33,
-    "citations": 496
+    "citations": 494
   },
   {
     "id": "https://openalex.org/T10965",
     "name": "Geological formations and processes",
     "publications": 28,
-    "citations": 380
+    "citations": 379
   },
   {
     "id": "https://openalex.org/T11740",
@@ -38,7 +38,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10109",
     "name": "Paleontology and Stratigraphy of Fossils",
     "publications": 14,
-    "citations": 158
+    "citations": 156
   },
   {
     "id": "https://openalex.org/T10491",
@@ -50,7 +50,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T13193",
     "name": "Geological Studies and Exploration",
     "publications": 6,
-    "citations": 38
+    "citations": 37
   },
   {
     "id": "https://openalex.org/T13067",
@@ -146,13 +146,7 @@ export const topicStats: TopicStats[] = [
     "id": "https://openalex.org/T10161",
     "name": "Rock Mechanics and Modeling",
     "publications": 1,
-    "citations": 6
-  },
-  {
-    "id": "https://openalex.org/T10995",
-    "name": "Methane Hydrates and Related Phenomena",
-    "publications": 1,
-    "citations": 1
+    "citations": 7
   },
   {
     "id": "https://openalex.org/T10615",
@@ -165,6 +159,12 @@ export const topicStats: TopicStats[] = [
     "name": "Aeolian processes and effects",
     "publications": 1,
     "citations": 1
+  },
+  {
+    "id": "https://openalex.org/T10995",
+    "name": "Methane Hydrates and Related Phenomena",
+    "publications": 1,
+    "citations": 0
   },
   {
     "id": "https://openalex.org/T11986",
@@ -239,13 +239,13 @@ export const institutionStats: InstitutionStats[] = [
     "id": "https://openalex.org/I134085113",
     "name": "King Fahd University of Petroleum and Minerals",
     "publications": 43,
-    "citations": 537
+    "citations": 535
   },
   {
     "id": "https://openalex.org/I4210143841",
     "name": "Saudi Aramco (Saudi Arabia)",
     "publications": 3,
-    "citations": 32
+    "citations": 33
   },
   {
     "id": "https://openalex.org/I86519309",
