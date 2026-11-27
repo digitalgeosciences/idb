@@ -402,11 +402,5 @@ export const institutionStats: InstitutionStats[] = [
     "name": "ETH Zurich",
     "publications": 1,
     "citations": 0
-  },
-  {
-    "id": "https://openalex.org/I4210090941",
-    "name": "Institute for Biomedical Engineering",
-    "publications": 1,
-    "citations": 0
   }
 ];

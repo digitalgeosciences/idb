@@ -739,7 +739,7 @@ export const worksTable: WorkTableRecord[] = [
       "A5080266129",
       "A5093639122",
       "A5042665751",
-      "A5104094821",
+      "A5085007251",
       "A5044235421"
     ],
     "firstAuthorLastName": "Bello",
@@ -750,7 +750,7 @@ export const worksTable: WorkTableRecord[] = [
       "Murtada Al-Hashem",
       "Houssin Albarri",
       "Mohammed A. Al-Masrahy",
-      "Khalid Al‐Ramadan",
+      "Khalid A. Al-Ramadan",
       "Lamidi Babalola"
     ],
     "title": "Diagenetic Controls on Reservoir Porosity of Aeolian and Fluvial Deposits: A Case Study from Permo-Carboniferous Sandstones of Saudi Arabia",
@@ -915,14 +915,14 @@ export const worksTable: WorkTableRecord[] = [
     "primaryAuthorOpenAlexId": "A5035537771",
     "allAuthorOpenAlexIds": [
       "A5035537771",
-      "A5070455488",
+      "A5068383258",
       "A5044235421",
       "A5079903196",
       "A5111119662"
     ],
-    "firstAuthorLastName": "AlGhamdi",
+    "firstAuthorLastName": "Al-Ghamdi",
     "allAuthors": [
-      "Faisal AlGhamdi",
+      "Faisal Al-Ghamdi",
       "Lamidi Babalola",
       "Abdullah Alqubalee",
       "Israa S. Abu‐Mahfouz",
@@ -1642,8 +1642,7 @@ export const worksTable: WorkTableRecord[] = [
     ],
     "institutions": [
       "King Fahd University of Petroleum and Minerals",
-      "ETH Zurich",
-      "Institute for Biomedical Engineering"
+      "ETH Zurich"
     ]
   },
   {
