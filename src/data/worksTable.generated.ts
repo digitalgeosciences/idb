@@ -47,7 +47,7 @@ export const worksTable: WorkTableRecord[] = [
     "publicationDate": "2020-03-17",
     "year": 2020,
     "venue": "ACS Omega",
-    "citations": 41,
+    "citations": 42,
     "topics": [
       "NMR spectroscopy and applications",
       "Hydrocarbon exploration and reservoir analysis",
@@ -888,7 +888,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Baqer Albensaad",
       "Septriandi A. Chan",
-      "JOHN D. HUMPHREY",
+      "John D. Humphrey",
       "Abdullah Alqubalee",
       "Ammar El‐Husseiny",
       "Yaser Alzayer"
@@ -961,7 +961,7 @@ export const worksTable: WorkTableRecord[] = [
       "Osman Abdullatif",
       "Abdullah Alqubalee",
       "Luis A. González",
-      "JOHN D. HUMPHREY"
+      "John D. Humphrey"
     ],
     "title": "Effects of lithofacies on pore system evolution of storm-wave silt-rich fine-grained sediments. Early Silurian Qusaiba Member (Qaliba Formation), NW Saudi Arabia",
     "publicationDate": "2021-03-27",
@@ -1206,7 +1206,7 @@ export const worksTable: WorkTableRecord[] = [
     "allAuthors": [
       "Jarrah Babiker",
       "Michael A. Kaminski",
-      "JOHN D. HUMPHREY",
+      "John D. Humphrey",
       "Khalid A. Al-Ramadan",
       "Jonathan L. Payne",
       "Abdullah Alqubalee"
@@ -1239,7 +1239,7 @@ export const worksTable: WorkTableRecord[] = [
     "firstAuthorLastName": "Babiker",
     "allAuthors": [
       "Jarrah Babiker",
-      "JOHN D. HUMPHREY",
+      "John D. Humphrey",
       "Khalid A. Al-Ramadan",
       "Jonathan L. Payne",
       "Michael A. Kaminski",
@@ -1659,13 +1659,13 @@ export const worksTable: WorkTableRecord[] = [
       "A5139872098",
       "A5087006202"
     ],
-    "firstAuthorLastName": "TIJANI",
+    "firstAuthorLastName": "Tijani",
     "allAuthors": [
-      "ABDULMALIK DAMILARE TIJANI",
+      "Abdulmalik Damilare Tijani",
       "Abdulwahab Salah",
       "Samah A. Mahyoub",
       "Fatma Abdelghafar",
-      "ABDULLAH AAMIR",
+      "Abdullah Aamir",
       "Abdullah Alqubalee",
       "Qasem Ahmed Drmosh"
     ],
